@@ -19,6 +19,12 @@ Aggregates tech news and screens job postings against a CV, served as a static d
 - `docker compose run --rm tests`: scraper test suite.
 - `docker compose run --rm scraper`: fetch feeds into `web-dashboard/public/news.json`.
 - Without Docker (from `scraper/`): `pip install -e ".[dev]"`, then `pytest` and `python -m scraper`.
+- Run the dashboard locally:
+  1. `docker compose run --rm scraper` to generate `web-dashboard/public/news.json` (re-run for fresh news, then refresh the page).
+  2. `docker compose up -d dashboard` (add `--build` after changing dependencies), then open http://localhost:5173. Edits to `web-dashboard/src` reload live.
+  3. `docker compose logs -f dashboard` for logs; `docker compose down` to stop.
+- `docker compose run --rm dashboard npm test` (or `npm run lint`, `npm run build`): dashboard checks.
+- Without Docker (from `web-dashboard/`, Node >= 22.12): `npm ci`, then `npm run dev`, `npm test`, `npm run lint`, `npm run build`.
 
 ## Rules
 1. **Keep it decoupled.** `scraper/` and `web-dashboard/` share no runtime code. The only contract is the JSON files.
