@@ -17,6 +17,7 @@ export function makeItem(id: string, publishedAt: string | null, overrides: Part
     discussion_url: null,
     points: null,
     comments: null,
+    engineering: false,
     review: 'kept',
     importance: null,
     ...overrides,

@@ -4,9 +4,10 @@ One batched request per run (hourly), so the free tier is never close to its lim
 editorial rules go in the system instruction; the headlines go in the user turn as data.
 
 - Review: pending items Gemini doesn't exclude become "kept" (shown); the rest "excluded".
-  Already-reviewed items keep their status, so a story never flips between runs.
-- Top stories: events covered by at least `MIN_SOURCES` sources, ranked here by the total
-  weight of the sources covering them (see `Source.weight`). On quiet days the remaining
+  A kept item can later be excluded (e.g. after the rules are tightened), but an excluded
+  item never comes back, so nothing flips back and forth.
+- Top stories: events covered by at least `MIN_SOURCES` sources, ranked by Gemini's own
+  importance score for them, then Gemini's order. On quiet days the remaining
   places (up to `MAX_STORIES`) go to Gemini's pick of standout single-source stories, which
   always rank below every multi-source event.
 - Importance: every headline Gemini keeps gets a 1-5 score, which orders the dashboard list.
@@ -17,9 +18,12 @@ Gemini only returns item indices plus text; everything it returns is validated. 
 API through `requests` (already a dependency) rather than the SDK.
 """
 
+import json
 import logging
+import time
 from dataclasses import dataclass, field
 from datetime import datetime, timedelta
+from pathlib import Path
 from urllib.parse import urlsplit
 
 import requests
@@ -30,6 +34,10 @@ from scraper.models import NewsItem, TopStory
 log = logging.getLogger(__name__)
 
 DEFAULT_MODEL = "gemini-3.8-flash"
+DEFAULT_FALLBACK_MODEL = "gemini-3.7-flash"  # tried when the main model is overloaded
+RETRY_STATUSES = {429, 500, 502, 503, 504}  # overloaded or rate limited: worth retrying
+RETRY_DELAYS = (5, 20)  # seconds before the 2nd and 3rd attempt on each model
+MAX_RETRY_AFTER = 60  # cap on a server-requested wait, in seconds
 API_URL = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
 TIMEOUT_SECONDS = 90
 WINDOW = timedelta(hours=36)  # items older than this are never sent (or shown, if pending)
@@ -37,7 +45,7 @@ MAX_CANDIDATES = 300
 SUMMARY_CHARS = 200  # per item, in the prompt
 MAX_STORIES = 10
 MIN_SOURCES = 2
-MAX_GROUPS = 15  # asked of Gemini; ranked by weight, then cut to MAX_STORIES
+MAX_GROUPS = 15  # asked of Gemini; ranked by importance, then cut to MAX_STORIES
 DEFAULT_WEIGHT = 1  # for items whose source is no longer configured
 TOP_STORY_MIN_SCORE = 4  # importance floor for items in a multi-source top story
 STANDOUT_MIN_SCORE = 3  # and for a single-source standout
@@ -58,7 +66,9 @@ You receive the current time, then a numbered list of recent headlines, one per 
 3 is a major tech news outlet, 2 a mid-sized site or a large aggregator, 1 a small site \
 or niche blog. Age is how long ago the story was published. Some headlines also show \
 "P points, C comments": activity on Hacker News, which shows how much software engineers \
-are discussing the story. Heavy discussion is a strong sign of importance to readers. The \
+are discussing the story. Heavy discussion is a strong sign of importance to readers. \
+Headlines marked "engineering blog" come from companies' engineering teams; readers value \
+these most, so score them at least 3. The \
 source "The Hacker News" is a separate security news site, unrelated to Hacker News.
 
 Task 1, review: put in "excluded" every headline that must not be shown, with a short reason:
@@ -184,6 +194,19 @@ class EditorError(Exception):
     """Gemini could not be reached or returned something unusable."""
 
 
+class _AttemptError(EditorError):
+    """One failed request. `retryable`: try the same model again; `try_next_model`: skip it."""
+
+    def __init__(
+        self, message: str, retryable: bool = False, try_next_model: bool = False,
+        retry_after: float | None = None,
+    ) -> None:
+        super().__init__(message)
+        self.retryable = retryable
+        self.try_next_model = try_next_model
+        self.retry_after = retry_after
+
+
 class _Exclusion(BaseModel):
     item: int
     reason: str
@@ -219,6 +242,7 @@ class EditorResult:
     excluded: dict[str, str] = field(default_factory=dict)  # id -> reason
     top_stories: list[TopStory] = field(default_factory=list)
     importance: dict[str, int] = field(default_factory=dict)  # id -> 1..5
+    model: str | None = None  # the model that answered
 
 
 def is_video(url: str) -> bool:
@@ -249,6 +273,8 @@ def build_prompt(cands: list[NewsItem], weights: dict[str, int], now: datetime) 
     for index, item in enumerate(cands):
         weight = weights.get(item.source_id, DEFAULT_WEIGHT)
         meta = f"weight {weight}, {format_age(item.published_at or item.fetched_at, now)}"
+        if item.engineering:
+            meta += ", engineering blog"
         if item.points is not None:
             meta += f", {item.points} points"
         if item.comments is not None:
@@ -261,17 +287,13 @@ def build_prompt(cands: list[NewsItem], weights: dict[str, int], now: datetime) 
     return f"{header}\n\nHeadlines:\n" + "\n".join(lines)
 
 
-def coverage_weight(members: list[NewsItem], weights: dict[str, int]) -> int:
-    """Sum of the weights of the distinct sources covering a story."""
-    return sum(weights.get(source_id, DEFAULT_WEIGHT) for source_id in {m.source_id for m in members})
-
-
-def parse_response(text: str, cands: list[NewsItem], weights: dict[str, int]) -> EditorResult:
+def parse_response(text: str, cands: list[NewsItem]) -> EditorResult:
     """Validate Gemini's JSON and map indices back to items.
 
     Out-of-range indices are ignored. Top stories leave out excluded items and video pages,
     use each item at most once, must still span `MIN_SOURCES` sources, and are ranked by
-    coverage weight (ties keep Gemini's order). Standouts then fill any places left.
+    the highest importance Gemini gave their items (ties keep Gemini's order, which already
+    accounts for source weight). Standouts then fill any places left.
     """
     try:
         response = _Response.model_validate_json(text)
@@ -312,7 +334,8 @@ def parse_response(text: str, cands: list[NewsItem], weights: dict[str, int]) ->
             why_it_matters=" ".join(story.why.split()) or None,
             item_ids=[m.id for m in members],
         )
-        ranked.append((coverage_weight(members, weights), top_story))
+        score = max(importance.get(m.id, 0) for m in members)  # before the floors below
+        ranked.append((score, top_story))
     ranked.sort(key=lambda pair: pair[0], reverse=True)  # stable: ties keep Gemini's order
     top_stories = [story for _, story in ranked[:MAX_STORIES]]
 
@@ -355,6 +378,7 @@ def parse_response(text: str, cands: list[NewsItem], weights: dict[str, int]) ->
 
 
 def call_gemini(prompt: str, api_key: str, model: str, session: requests.Session) -> str:
+    """One request. Raises `_AttemptError` saying whether a retry could help."""
     body = {
         "systemInstruction": {"parts": [{"text": SYSTEM_INSTRUCTION}]},
         "contents": [{"role": "user", "parts": [{"text": prompt}]}],
@@ -371,14 +395,69 @@ def call_gemini(prompt: str, api_key: str, model: str, session: requests.Session
             json=body,
             timeout=TIMEOUT_SECONDS,
         )
-        response.raise_for_status()
-        parts = response.json()["candidates"][0]["content"]["parts"]
+    except (requests.ConnectionError, requests.Timeout) as exc:
+        raise _AttemptError(f"Gemini request failed: {exc}", retryable=True) from exc
     except requests.RequestException as exc:
+        raise _AttemptError(f"Gemini request failed: {exc}") from exc
+
+    try:
+        response.raise_for_status()
+    except requests.HTTPError as exc:
         # The message holds the URL and status only: the key is sent in a header.
-        raise EditorError(f"Gemini request failed: {exc}") from exc
+        status = response.status_code
+        retry_after = response.headers.get("Retry-After", "") if response.headers else ""
+        raise _AttemptError(
+            f"Gemini request failed: {exc}",
+            retryable=status in RETRY_STATUSES,
+            try_next_model=status == 404,  # model not available to this key
+            retry_after=float(retry_after) if retry_after.isdigit() else None,
+        ) from exc
+    try:
+        parts = response.json()["candidates"][0]["content"]["parts"]
     except (ValueError, KeyError, IndexError, TypeError) as exc:
-        raise EditorError(f"Unexpected Gemini response shape: {exc!r}") from exc
+        raise _AttemptError(f"Unexpected Gemini response shape: {exc!r}") from exc
     return "".join(part.get("text", "") for part in parts if not part.get("thought"))
+
+
+def generate(
+    prompt: str, api_key: str, models: list[str], session: requests.Session
+) -> tuple[str, str]:
+    """Call Gemini with retries, then the next model. Returns (text, model that answered).
+
+    Overload and rate-limit errors are retried after `RETRY_DELAYS` (or the server's
+    Retry-After, capped); a model the key can't use is skipped. Anything else fails at once.
+    """
+    last_error: _AttemptError | None = None
+    for model in models:
+        for attempt in range(len(RETRY_DELAYS) + 1):
+            try:
+                return call_gemini(prompt, api_key, model, session), model
+            except _AttemptError as exc:
+                last_error = exc
+                if exc.try_next_model:
+                    log.warning("%s unavailable, trying the next model: %s", model, exc)
+                    break
+                if not exc.retryable:
+                    raise
+                if attempt == len(RETRY_DELAYS):
+                    log.warning("%s still failing after %d attempts: %s", model, attempt + 1, exc)
+                    break
+                delay = min(exc.retry_after or RETRY_DELAYS[attempt], MAX_RETRY_AFTER)
+                log.warning("%s failed (%s); retrying in %.0fs", model, exc, delay)
+                time.sleep(delay)
+    assert last_error is not None
+    raise EditorError(f"{last_error} (tried {', '.join(models)})") from last_error
+
+
+def _write_debug(debug_dir: Path | None, **record: object) -> None:
+    """Keep the last request and reply on disk, to see why stories were ranked or excluded."""
+    if debug_dir is None:
+        return
+    try:
+        debug_dir.mkdir(parents=True, exist_ok=True)
+        (debug_dir / "gemini-last.json").write_text(json.dumps(record, indent=2, default=str))
+    except OSError as exc:
+        log.warning("Can't write Gemini debug file in %s: %s", debug_dir, exc)
 
 
 def run_editor(
@@ -388,6 +467,8 @@ def run_editor(
     weights: dict[str, int],
     model: str = DEFAULT_MODEL,
     session: requests.Session | None = None,
+    fallback_model: str | None = DEFAULT_FALLBACK_MODEL,
+    debug_dir: Path | None = None,
 ) -> EditorResult:
     """Review recent items and pick top stories. Raises `EditorError` if Gemini fails."""
     cands = candidates(items, now)
@@ -395,22 +476,35 @@ def run_editor(
         return EditorResult()
     if session is None:
         with requests.Session() as own_session:
-            return run_editor(items, now, api_key, weights, model, own_session)
-    text = call_gemini(build_prompt(cands, weights, now), api_key, model, session)
-    return parse_response(text, cands, weights)
+            return run_editor(
+                items, now, api_key, weights, model, own_session, fallback_model, debug_dir
+            )
+    models = [model] + ([fallback_model] if fallback_model and fallback_model != model else [])
+    prompt = build_prompt(cands, weights, now)
+    try:
+        text, used = generate(prompt, api_key, models, session)
+        result = parse_response(text, cands)
+    except EditorError as exc:
+        _write_debug(debug_dir, time=now, models=models, prompt=prompt, error=str(exc))
+        raise
+    _write_debug(debug_dir, time=now, model=used, prompt=prompt, response=text)
+    result.model = used
+    return result
 
 
 def apply_review(items: list[NewsItem], result: EditorResult) -> list[NewsItem]:
-    """Settle pending items Gemini reviewed and refresh importance scores.
+    """Settle reviewed items and refresh importance scores.
 
-    An item's review status, once kept or excluded, never changes. Its score is updated
-    whenever Gemini gives a new one, and otherwise kept.
+    Pending items become kept or excluded. A kept item Gemini now excludes becomes excluded;
+    an excluded item never comes back. A score is updated whenever Gemini gives a new one.
     """
     out = []
     for item in items:
         update: dict = {}
-        if item.review == "pending" and item.id in result.reviewed:
-            update["review"] = "excluded" if item.id in result.excluded else "kept"
+        if item.review != "excluded" and item.id in result.excluded:
+            update["review"] = "excluded"
+        elif item.review == "pending" and item.id in result.reviewed:
+            update["review"] = "kept"
         if item.id in result.importance:
             update["importance"] = result.importance[item.id]
         out.append(item.model_copy(update=update) if update else item)

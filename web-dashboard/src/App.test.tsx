@@ -191,6 +191,18 @@ it('links to discussion threads and shows why a top story matters', async () => 
   expect(within(screen.getByRole('region', { name: 'Top stories' })).getByText('Upgrade your toolchain.')).toBeTruthy()
 })
 
+it('lists engineering-blog posts first with a badge', async () => {
+  const items = [
+    makeItem('news', '2026-10-03T11:30:00Z', { title: 'Big news', importance: 5 }),
+    makeItem('eng', '2026-10-03T09:00:00Z', { title: 'How we scaled Postgres', importance: 3, engineering: true }),
+  ]
+  stubFetch(feed(items))
+  render(<App />)
+  await screen.findByRole('link', { name: 'Big news' })
+  expect(titles()).toEqual(['How we scaled Postgres', 'Big news'])
+  expect(screen.getAllByText('Engineering')).toHaveLength(1)
+})
+
 it('orders each day by importance', async () => {
   const items = [
     makeItem('minor', '2026-10-03T11:30:00Z', { title: 'Minor update', importance: 2 }),

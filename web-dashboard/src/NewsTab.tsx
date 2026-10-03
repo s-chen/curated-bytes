@@ -370,6 +370,11 @@ function StoryRow({ item, now }: { item: NewsItem; now: Date }) {
           {item.title}
         </a>
         <span className="ml-2 whitespace-nowrap text-zinc-500">
+          {item.engineering && (
+            <span className="mr-1.5 rounded bg-sky-100 px-1 font-medium text-sky-800 dark:bg-sky-950 dark:text-sky-300">
+              Engineering
+            </span>
+          )}
           {item.source_name} · {hostname(item.url)}
           {item.discussion_url && (
             <>

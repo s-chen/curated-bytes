@@ -19,11 +19,15 @@ services:
       # Passed through from your shell when set; never put the key in this file.
       - GEMINI_API_KEY
       - GEMINI_MODEL
+      - GEMINI_FALLBACK_MODEL
+      # Last Gemini request and reply, for debugging (git-ignored).
+      - GEMINI_DEBUG_DIR=/debug
     volumes:
       # Edit code and sources without rebuilding.
       - ./scraper/src:/app/src:ro
       - ./scraper/config:/app/config:ro
       - ./web-dashboard/public:/data
+      - ./scraper/.debug:/debug
 
   tests:
     build:

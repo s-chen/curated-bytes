@@ -33,6 +33,8 @@ class Source(BaseModel):
     weight: int = Field(default=1, ge=1, le=3)
     # Links to other sites' articles (Hacker News, Lobsters): used by the site report.
     aggregator: bool = False
+    # A company engineering blog: its posts rank first on the dashboard.
+    engineering: bool = False
     enabled: bool = True
 
 
@@ -58,6 +60,7 @@ class NewsItem(BaseModel):
     discussion_url: str | None = None
     points: int | None = Field(default=None, ge=0)
     comments: int | None = Field(default=None, ge=0)
+    engineering: bool = False  # from an engineering blog (set from the sources config each run)
     review: Review = "pending"
     # Gemini's 1-5 importance score; orders the dashboard list. None until scored.
     importance: int | None = Field(default=None, ge=1, le=5)

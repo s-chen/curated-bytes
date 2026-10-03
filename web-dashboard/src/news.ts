@@ -52,6 +52,7 @@ function normaliseItem(item: NewsItem): NewsItem {
     points: countOrNull(item.points),
     comments: countOrNull(item.comments),
     importance: typeof item.importance === 'number' ? item.importance : null,
+    engineering: item.engineering === true,
   }
 }
 
@@ -151,9 +152,15 @@ export function filterItems(
   })
 }
 
-/** Most important first (unscored last); equal scores keep their order, i.e. newest first. */
+/**
+ * Engineering-blog posts first, then most important (unscored last). Ties keep their order,
+ * i.e. newest first.
+ */
 export function byImportance(items: NewsItem[]): NewsItem[] {
-  return items.toSorted((a, b) => (b.importance ?? 0) - (a.importance ?? 0))
+  return items.toSorted(
+    (a, b) =>
+      Number(b.engineering) - Number(a.engineering) || (b.importance ?? 0) - (a.importance ?? 0),
+  )
 }
 
 export interface DayGroup {

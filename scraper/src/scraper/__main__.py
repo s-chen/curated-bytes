@@ -14,7 +14,13 @@ from pathlib import Path
 
 from pydantic import ValidationError
 
-from scraper.editor import DEFAULT_MODEL, EditorError, apply_review, run_editor
+from scraper.editor import (
+    DEFAULT_FALLBACK_MODEL,
+    DEFAULT_MODEL,
+    EditorError,
+    apply_review,
+    run_editor,
+)
 from scraper.fetch import fetch_all
 from scraper.filters import apply_rules
 from scraper.models import NewsItem, TopStory
@@ -94,16 +100,28 @@ def _review(
         return items, []
     model = os.environ.get("GEMINI_MODEL") or DEFAULT_MODEL
     try:
-        result = run_editor(items, now, api_key, weights, model=model)
+        result = run_editor(
+            items,
+            now,
+            api_key,
+            weights,
+            model=model,
+            # Set GEMINI_FALLBACK_MODEL="" to disable the fallback.
+            fallback_model=os.environ.get("GEMINI_FALLBACK_MODEL", DEFAULT_FALLBACK_MODEL) or None,
+            debug_dir=Path(d) if (d := os.environ.get("GEMINI_DEBUG_DIR")) else None,
+        )
     except EditorError as exc:
         log.warning("Gemini review skipped; new stories stay pending: %s", exc)
         _github_warning("Gemini review skipped", str(exc))
         return items, []
 
     for item_id, reason in result.excluded.items():
-        if by_id[item_id].review == "pending":
+        if by_id[item_id].review != "excluded":
             log.info("Excluded by Gemini (%s): %s", reason, by_id[item_id].title)
-    log.info("Gemini (%s) reviewed %d items; %d top stories", model, len(result.reviewed), len(result.top_stories))
+    log.info(
+        "Gemini (%s) reviewed %d items; %d top stories",
+        result.model, len(result.reviewed), len(result.top_stories),
+    )
     return apply_review(items, result), result.top_stories
 
 
@@ -146,6 +164,9 @@ def run(args: argparse.Namespace) -> int:
         max_age=timedelta(days=args.max_age_days),
         max_items=args.max_items,
     )
+    # Engineering-blog flags follow the config, so changing it applies to stored items too.
+    engineering = {s.id for s in sources if s.engineering}
+    items = [i.model_copy(update={"engineering": i.source_id in engineering}) for i in items]
     items, top_stories = _review(items, now, weights={s.id: s.weight for s in sources})
     try:
         write_feed(args.output, items, generated_at=now, top_stories=top_stories)

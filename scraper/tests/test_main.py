@@ -13,7 +13,10 @@ from conftest import NOW, make_item
 
 @pytest.fixture(autouse=True)
 def _no_env_overrides(monkeypatch):
-    for var in ("NEWS_SOURCES", "NEWS_OUTPUT", "GITHUB_ACTIONS", "GEMINI_API_KEY", "GEMINI_MODEL"):
+    for var in (
+        "NEWS_SOURCES", "NEWS_OUTPUT", "GITHUB_ACTIONS",
+        "GEMINI_API_KEY", "GEMINI_MODEL", "GEMINI_FALLBACK_MODEL", "GEMINI_DEBUG_DIR",
+    ):
         monkeypatch.delenv(var, raising=False)
 
 
@@ -138,7 +141,7 @@ def test_rules_then_gemini_review_and_top_stories(tmp_path, monkeypatch):
     monkeypatch.setattr(cli, "fetch_all", _fake_fetch(items=items))
     calls = []
 
-    def fake_editor(items, now, api_key, weights, model):
+    def fake_editor(items, now, api_key, weights, model, **kwargs):
         calls.append(([i.id for i in items if i.review == "pending"], api_key, weights, model))
         return EditorResult(
             reviewed={"news", "gemini-says-no"},
@@ -179,22 +182,36 @@ def test_gemini_failure_still_writes_news_with_items_pending(tmp_path, monkeypat
     assert "::warning title=Gemini review skipped::Gemini request failed: 429" in capsys.readouterr().out
 
 
-def test_reviewed_items_are_not_reviewed_again(tmp_path, monkeypatch):
+def test_kept_items_can_be_excluded_later_but_never_come_back(tmp_path, monkeypatch):
     sources = _sources(tmp_path / "sources.json", "one")
     output = tmp_path / "news.json"
     monkeypatch.setenv("GEMINI_API_KEY", "k")
     item = make_item(item_id("https://example.com/a"), NOW, url="https://example.com/a")
     monkeypatch.setattr(cli, "fetch_all", _fake_fetch(items=[item]))
-    monkeypatch.setattr(cli, "run_editor", lambda *a, **k: EditorResult(reviewed={item.id}))
-    _run(sources, output)
 
-    # Next run: Gemini would now exclude it, but a kept story never flips.
-    monkeypatch.setattr(
-        cli, "run_editor", lambda *a, **k: EditorResult(reviewed={item.id}, excluded={item.id: "x"})
-    )
-    _run(sources, output)
-    [stored] = NewsFeed.model_validate_json(output.read_text()).items
-    assert stored.review == "kept"
+    def review_with(**result):
+        monkeypatch.setattr(cli, "run_editor", lambda *a, **k: EditorResult(reviewed={item.id}, **result))
+        _run(sources, output)
+        [stored] = NewsFeed.model_validate_json(output.read_text()).items
+        return stored.review
+
+    assert review_with() == "kept"
+    assert review_with(excluded={item.id: "off topic"}) == "excluded"  # e.g. after a prompt change
+    assert review_with() == "excluded"  # never flips back
+
+def test_engineering_flag_follows_the_sources_config(tmp_path, monkeypatch):
+    sources = tmp_path / "sources.json"
+    sources.write_text(json.dumps({"sources": [
+        {"id": "eng", "name": "Eng", "url": "https://eng.example/feed", "engineering": True},
+        {"id": "news", "name": "News", "url": "https://news.example/feed"},
+    ]}))
+    output = tmp_path / "news.json"
+    items = [make_item("e", NOW, source_id="eng"), make_item("n", NOW, source_id="news")]
+    monkeypatch.setattr(cli, "fetch_all", _fake_fetch(items=items))
+
+    assert _run(sources, output) == cli.EXIT_OK
+    feed = NewsFeed.model_validate_json(output.read_text())
+    assert {i.source_id: i.engineering for i in feed.items} == {"eng": True, "news": False}
 
 
 def test_sites_flag_prints_report_without_fetching(tmp_path, monkeypatch, capsys):

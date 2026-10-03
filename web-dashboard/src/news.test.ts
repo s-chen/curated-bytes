@@ -218,4 +218,13 @@ describe('byImportance', () => {
     ]
     expect(byImportance(items).map((i) => i.id)).toEqual(['new-5', 'old-5', 'new-2', 'old-2', 'new-null'])
   })
+
+  it('puts engineering-blog posts first, whatever their score', () => {
+    const items = [
+      makeItem('news-5', null, { importance: 5 }),
+      makeItem('eng-2', null, { importance: 2, engineering: true }),
+      makeItem('eng-4', null, { importance: 4, engineering: true }),
+    ]
+    expect(byImportance(items).map((i) => i.id)).toEqual(['eng-4', 'eng-2', 'news-5'])
+  })
 })

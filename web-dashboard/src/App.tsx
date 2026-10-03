@@ -21,6 +21,8 @@ export interface NewsItem {
   discussion_url: string | null
   points: number | null
   comments: number | null
+  /** From a company engineering blog: listed first. */
+  engineering: boolean
   review: 'pending' | 'kept' | 'excluded'
   /** Gemini's 1-5 importance score. Null until scored. */
   importance: number | null

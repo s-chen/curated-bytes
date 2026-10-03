@@ -56,7 +56,8 @@
       "name": "The GitHub Blog",
       "url": "https://github.blog/feed/",
       "category": "tech",
-      "weight": 1
+      "weight": 1,
+      "engineering": true
     },
     {
       "id": "bleepingcomputer",
@@ -112,7 +113,8 @@
       "name": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/rss/",
       "category": "tech",
-      "weight": 2
+      "weight": 2,
+      "engineering": true
     },
     {
       "id": "aws-news",
@@ -126,21 +128,24 @@
       "name": "Engineering at Meta",
       "url": "https://engineering.fb.com/feed/",
       "category": "tech",
-      "weight": 1
+      "weight": 1,
+      "engineering": true
     },
     {
       "id": "netflix-tech",
       "name": "Netflix TechBlog",
       "url": "https://netflixtechblog.com/feed",
       "category": "tech",
-      "weight": 1
+      "weight": 1,
+      "engineering": true
     },
     {
       "id": "microsoft-devblogs",
       "name": "Microsoft for Developers",
       "url": "https://devblogs.microsoft.com/feed/",
       "category": "tech",
-      "weight": 1
+      "weight": 1,
+      "engineering": true
     },
     {
       "id": "infoq",
