@@ -6,8 +6,9 @@ editorial rules go in the system instruction; the headlines go in the user turn 
 - Review: pending items Gemini doesn't exclude become "kept" (shown); the rest "excluded".
   A kept item can later be excluded (e.g. after the rules are tightened), but an excluded
   item never comes back, so nothing flips back and forth.
-- Top stories: events covered by at least `MIN_SOURCES` sources, ranked by Gemini's own
-  importance score for them, then Gemini's order. On quiet days the remaining
+- Top stories: events covered by at least `MIN_SOURCES` sources with an article from the
+  last `TOP_STORY_WINDOW`, ranked by Gemini's own importance score for them, then Gemini's
+  order (see top_stories.py for how long they stay). On quiet days the remaining
   places (up to `MAX_STORIES`) go to Gemini's pick of standout single-source stories, which
   always rank below every multi-source event.
 - Importance: every headline Gemini keeps gets a 1-5 score, which orders the dashboard list.
@@ -41,6 +42,7 @@ MAX_RETRY_AFTER = 60  # cap on a server-requested wait, in seconds
 API_URL = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
 TIMEOUT_SECONDS = 90
 WINDOW = timedelta(hours=36)  # items older than this are never sent (or shown, if pending)
+TOP_STORY_WINDOW = timedelta(hours=24)  # a top story needs an article at least this recent
 MAX_CANDIDATES = 300
 SUMMARY_CHARS = 200  # per item, in the prompt
 MAX_STORIES = 10
@@ -287,7 +289,13 @@ def build_prompt(cands: list[NewsItem], weights: dict[str, int], now: datetime) 
     return f"{header}\n\nHeadlines:\n" + "\n".join(lines)
 
 
-def parse_response(text: str, cands: list[NewsItem]) -> EditorResult:
+def is_recent(members: list[NewsItem], now: datetime) -> bool:
+    """Whether any of a story's articles is within `TOP_STORY_WINDOW`: ongoing stories stay
+    while coverage keeps arriving, one-off stories drop out after a day."""
+    return any((m.published_at or m.fetched_at) >= now - TOP_STORY_WINDOW for m in members)
+
+
+def parse_response(text: str, cands: list[NewsItem], now: datetime) -> EditorResult:
     """Validate Gemini's JSON and map indices back to items.
 
     Out-of-range indices are ignored. Top stories leave out excluded items and video pages,
@@ -323,7 +331,7 @@ def parse_response(text: str, cands: list[NewsItem]) -> EditorResult:
             and cands[i].id not in excluded
             and not is_video(cands[i].url)
         ]
-        if len({m.source_id for m in members}) < MIN_SOURCES:
+        if len({m.source_id for m in members}) < MIN_SOURCES or not is_recent(members, now):
             continue
         used.update(m.id for m in members)
         lead = members[0]
@@ -350,7 +358,7 @@ def parse_response(text: str, cands: list[NewsItem]) -> EditorResult:
         if i not in in_range:
             continue
         item = cands[i]
-        if item.id in used or item.id in excluded or is_video(item.url):
+        if item.id in used or item.id in excluded or is_video(item.url) or not is_recent([item], now):
             continue
         used.add(item.id)
         top_stories.append(
@@ -483,7 +491,7 @@ def run_editor(
     prompt = build_prompt(cands, weights, now)
     try:
         text, used = generate(prompt, api_key, models, session)
-        result = parse_response(text, cands)
+        result = parse_response(text, cands, now)
     except EditorError as exc:
         _write_debug(debug_dir, time=now, models=models, prompt=prompt, error=str(exc))
         raise

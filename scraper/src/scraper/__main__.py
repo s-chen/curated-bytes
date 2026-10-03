@@ -24,9 +24,11 @@ from scraper.editor import (
 from scraper.fetch import fetch_all
 from scraper.filters import apply_rules
 from scraper.models import NewsItem, TopStory
+from scraper.primary import find_primary_sources
 from scraper.sites import format_report, site_report
 from scraper.sources import load_sources
-from scraper.store import StoreError, load_existing, merge, write_feed
+from scraper.store import StoreError, load_existing, load_top_stories, merge, write_feed
+from scraper.top_stories import settle_top_stories
 
 DEFAULT_SOURCES = Path("config/news_sources.json")
 DEFAULT_OUTPUT = Path("../web-dashboard/public/news.json")
@@ -70,6 +72,11 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     return parser.parse_args(argv)
 
 
+def _now() -> datetime:
+    """The run's timestamp (a function so tests can fix the clock)."""
+    return datetime.now(timezone.utc)
+
+
 def _github_warning(title: str, message: str) -> None:
     """Surface a problem as a GitHub Actions warning, so it's visible in the run summary."""
     if os.environ.get("GITHUB_ACTIONS") == "true":
@@ -83,7 +90,7 @@ def _annotate_failures(failed: list[str]) -> None:
 
 def _review(
     items: list[NewsItem], now: datetime, weights: dict[str, int]
-) -> tuple[list[NewsItem], list[TopStory]]:
+) -> tuple[list[NewsItem], list[TopStory], bool]:
     """Review pending items and pick top stories with Gemini.
 
     Rule-based exclusions apply first, so Gemini never sees those items. Without an API key,
@@ -97,7 +104,7 @@ def _review(
     api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
         log.warning("GEMINI_API_KEY not set: new stories stay pending and are not shown")
-        return items, []
+        return items, [], False
     model = os.environ.get("GEMINI_MODEL") or DEFAULT_MODEL
     try:
         result = run_editor(
@@ -113,7 +120,7 @@ def _review(
     except EditorError as exc:
         log.warning("Gemini review skipped; new stories stay pending: %s", exc)
         _github_warning("Gemini review skipped", str(exc))
-        return items, []
+        return items, [], False
 
     for item_id, reason in result.excluded.items():
         if by_id[item_id].review != "excluded":
@@ -122,7 +129,7 @@ def _review(
         "Gemini (%s) reviewed %d items; %d top stories",
         result.model, len(result.reviewed), len(result.top_stories),
     )
-    return apply_review(items, result), result.top_stories
+    return apply_review(items, result), result.top_stories, True
 
 
 def run(args: argparse.Namespace) -> int:
@@ -150,7 +157,7 @@ def run(args: argparse.Namespace) -> int:
         print(format_report(site_report(existing, sources, args.min_links), existing, args.min_links))
         return EXIT_OK
 
-    now = datetime.now(timezone.utc)
+    now = _now()
     fresh, failed = fetch_all(sources, fetched_at=now)
     _annotate_failures(failed)
     if len(failed) == len(sources):
@@ -167,9 +174,21 @@ def run(args: argparse.Namespace) -> int:
     # Engineering-blog flags follow the config, so changing it applies to stored items too.
     engineering = {s.id for s in sources if s.engineering}
     items = [i.model_copy(update={"engineering": i.source_id in engineering}) for i in items]
-    items, top_stories = _review(items, now, weights={s.id: s.weight for s in sources})
+    items, top_stories, answered = _review(items, now, weights={s.id: s.weight for s in sources})
+    if top_stories:
+        try:
+            top_stories = find_primary_sources(top_stories, items)
+        except Exception as exc:  # following links is a bonus: never fail the run over it
+            log.warning("Skipping primary sources: %s", exc)
+    previous_top, previous_past = load_top_stories(args.output)
+    top_stories, past_top_stories = settle_top_stories(
+        top_stories, previous_top, previous_past, items, now, gemini_answered=answered
+    )
     try:
-        write_feed(args.output, items, generated_at=now, top_stories=top_stories)
+        write_feed(
+            args.output, items, generated_at=now,
+            top_stories=top_stories, past_top_stories=past_top_stories,
+        )
     except (OSError, StoreError) as exc:
         log.error("Can't write %s: %s", args.output.resolve(), exc)
         return EXIT_FAILED

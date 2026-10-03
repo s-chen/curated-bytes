@@ -12,7 +12,7 @@ Aggregates tech news and screens job postings against a CV, served as a static d
 - **Alerts:** Slack incoming webhook (Block Kit) for job matches with score >= 85.
 
 ## Data Flow
-`RSS + Greenhouse/Lever APIs → dedupe (MD5 of URL) → rule filters (code-hosting links, promotions) → Gemini (review every new story, cluster/summarise top stories, score jobs vs CV) → news.json / jobs.json → npm run build → GitHub Pages`, with a Slack alert on high-match jobs.
+`RSS + Greenhouse/Lever APIs → dedupe (MD5 of URL) → rule filters (code-hosting links, promotions) → Gemini (review every new story, cluster/summarise top stories, score jobs vs CV) → follow top-story article links to find primary sources → keep top stories on a rolling 24h window (3h sticky, 48h "earlier" list) → news.json / jobs.json → npm run build → GitHub Pages`, with a Slack alert on high-match jobs.
 
 ## Commands
 - News sources live in `scraper/config/news_sources.json` (`id`, `name`, `url`, `category`, optional `enabled`, `weight` 1–3 for how much its coverage counts towards top stories: 3 major outlet, 1 small site, `aggregator: true` for link aggregators like Hacker News, and `engineering: true` for company engineering blogs, whose posts are listed first).

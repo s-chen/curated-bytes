@@ -1,4 +1,5 @@
 import json
+from datetime import timedelta
 
 import pytest
 
@@ -9,6 +10,16 @@ from scraper.store import write_feed
 from scraper.editor import EditorError, EditorResult
 
 from conftest import NOW, make_item
+
+
+@pytest.fixture(autouse=True)
+def _fixed_clock(monkeypatch):
+    monkeypatch.setattr(cli, "_now", lambda: NOW)
+
+
+@pytest.fixture(autouse=True)
+def _no_link_following(monkeypatch):
+    monkeypatch.setattr(cli, "find_primary_sources", lambda stories, items: stories)
 
 
 @pytest.fixture(autouse=True)
@@ -146,7 +157,7 @@ def test_rules_then_gemini_review_and_top_stories(tmp_path, monkeypatch):
         return EditorResult(
             reviewed={"news", "gemini-says-no"},
             excluded={"gemini-says-no": "self-promotion"},
-            top_stories=[TopStory(id="news", title="Big", item_ids=["news", "x"])],
+            top_stories=[TopStory(id="news", title="Big", item_ids=["news"])],
         )
 
     monkeypatch.setattr(cli, "run_editor", fake_editor)
@@ -161,6 +172,22 @@ def test_rules_then_gemini_review_and_top_stories(tmp_path, monkeypatch):
         "gemini-says-no": "excluded",
     }
     assert [s.title for s in feed.top_stories] == ["Big"]
+
+
+def test_primary_source_failure_keeps_top_stories(tmp_path, monkeypatch):
+    sources = _sources(tmp_path / "sources.json", "one")
+    output = tmp_path / "news.json"
+    monkeypatch.setenv("GEMINI_API_KEY", "k")
+    monkeypatch.setattr(cli, "fetch_all", _fake_fetch(items=[make_item("a", NOW), make_item("b", NOW)]))
+    story = TopStory(id="a", title="Big", item_ids=["a", "b"])
+    monkeypatch.setattr(cli, "run_editor", lambda *a, **k: EditorResult(reviewed={"a", "b"}, top_stories=[story]))
+
+    def boom(stories, items):
+        raise RuntimeError("network on fire")
+
+    monkeypatch.setattr(cli, "find_primary_sources", boom)
+    assert _run(sources, output) == cli.EXIT_OK
+    assert [s.title for s in NewsFeed.model_validate_json(output.read_text()).top_stories] == ["Big"]
 
 
 def test_gemini_failure_still_writes_news_with_items_pending(tmp_path, monkeypatch, capsys):
@@ -225,3 +252,25 @@ def test_sites_flag_prints_report_without_fetching(tmp_path, monkeypatch, capsys
 
     assert cli.main(["--sources", str(sources), "--output", str(output), "--sites"]) == cli.EXIT_OK
     assert "lwn.net  3 links" in capsys.readouterr().out
+
+
+def test_top_stories_survive_a_later_gemini_failure(tmp_path, monkeypatch):
+    sources = _sources(tmp_path / "sources.json", "one")
+    output = tmp_path / "news.json"
+    monkeypatch.setenv("GEMINI_API_KEY", "k")
+    a = make_item(item_id("https://example.com/a"), NOW, url="https://example.com/a", source_id="x")
+    b = make_item(item_id("https://example.com/b"), NOW, url="https://example.com/b", source_id="y")
+    monkeypatch.setattr(cli, "fetch_all", _fake_fetch(items=[a, b]))
+    story = TopStory(id=a.id, title="Big", item_ids=[a.id, b.id])
+    monkeypatch.setattr(cli, "run_editor", lambda *x, **k: EditorResult(reviewed={a.id, b.id}, top_stories=[story]))
+    _run(sources, output)
+
+    def boom(*args, **kwargs):
+        raise EditorError("Gemini request failed: 503")
+
+    monkeypatch.setattr(cli, "run_editor", boom)
+    monkeypatch.setattr(cli, "_now", lambda: NOW + timedelta(hours=1))
+    _run(sources, output)
+
+    [kept] = NewsFeed.model_validate_json(output.read_text()).top_stories
+    assert (kept.title, kept.first_shown, kept.last_shown) == ("Big", NOW, NOW + timedelta(hours=1))

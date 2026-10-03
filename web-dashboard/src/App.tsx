@@ -41,6 +41,11 @@ export interface TopStory {
   why_it_matters: string | null
   /** Lead first. */
   item_ids: string[]
+  /** An outside page several member articles link to (an advisory, release, filing). */
+  primary_url: string | null
+  /** ISO 8601, UTC. When it first became a top story, and the latest run it was one. */
+  first_shown: string | null
+  last_shown: string | null
 }
 
 /** Must match `NewsFeed` in scraper/src/scraper/models.py. */
@@ -48,6 +53,8 @@ export interface NewsFeed {
   generated_at: string
   items: NewsItem[]
   top_stories: TopStory[]
+  /** Recent top stories that have since dropped off, newest first. */
+  past_top_stories: TopStory[]
 }
 
 const NEWS_URL = `${import.meta.env.BASE_URL}news.json`
@@ -214,6 +221,7 @@ export default function App() {
           <NewsTab
             items={state.feed.items}
             topStories={state.feed.top_stories}
+            pastTopStories={state.feed.past_top_stories}
             now={now}
             lastVisit={lastVisit}
           />

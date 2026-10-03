@@ -74,6 +74,15 @@ describe('loadFeed', () => {
     expect(item).toMatchObject({ discussion_url: null, points: null, comments: null })
   })
 
+  it('keeps older stories that a top-story card needs beyond the cap', async () => {
+    const kept = Array.from({ length: MAX_DISPLAYED + 2 }, (_, n) => makeItem(`k${n}`, null))
+    const story = { id: 'old', title: 'Old', summary: null, item_ids: [`k${MAX_DISPLAYED + 1}`] }
+    stubFetch({ generated_at: NOW.toISOString(), items: kept, past_top_stories: [story] })
+    const result = await loadFeed('/news.json')
+    expect(result.items).toHaveLength(MAX_DISPLAYED + 1)
+    expect(result.past_top_stories.map((s) => [s.id, s.last_shown])).toEqual([['old', null]])
+  })
+
   it('throws on an HTTP error', async () => {
     stubFetch('missing', { status: 404 })
     await expect(loadFeed('/news.json')).rejects.toThrow('HTTP 404')
@@ -184,15 +193,21 @@ describe('top stories', () => {
   const a = makeItem('a', null, { source_id: 'one' })
   const b = makeItem('b', null, { source_id: 'two' })
   const c = makeItem('c', null, { source_id: 'one' })
-  const story = (id: string, item_ids: string[]) => ({ id, title: id, summary: null, why_it_matters: null, item_ids })
+  const story = (id: string, item_ids: string[]) => ({ id, title: id, summary: null, why_it_matters: null, primary_url: null, first_shown: null, last_shown: null, item_ids })
 
   it('loadFeed keeps well-formed top stories only', async () => {
     stubFetch({
       generated_at: NOW.toISOString(),
       items: [a, b],
-      top_stories: [story('ok', ['a', 'b']), { id: 'bad', title: 1, item_ids: [] }, null],
+      top_stories: [
+        story('ok', ['a', 'b']),
+        { ...story('js', ['a', 'b']), primary_url: 'javascript:alert(1)' },
+        { id: 'bad', title: 1, item_ids: [] },
+        null,
+      ],
     })
-    expect((await loadFeed('/news.json')).top_stories.map((s) => s.id)).toEqual(['ok'])
+    const stories = (await loadFeed('/news.json')).top_stories
+    expect(stories.map((s) => [s.id, s.primary_url])).toEqual([['ok', null], ['js', null]])
   })
 
   it('resolves items lead first, keeps single-source standouts, drops stories with no shown items', () => {

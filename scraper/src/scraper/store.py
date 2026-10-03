@@ -51,6 +51,27 @@ def load_existing(path: Path) -> list[NewsItem]:
     return items
 
 
+def load_top_stories(path: Path) -> tuple[list[TopStory], list[TopStory]]:
+    """Current and past top stories from a previous run. Anything unreadable counts as none:
+    they are recomputed every run, so losing them only costs some stability."""
+    try:
+        data = json.loads(path.read_bytes().decode("utf-8"))
+    except (OSError, UnicodeDecodeError, json.JSONDecodeError):
+        return [], []
+
+    def stories(key: str) -> list[TopStory]:
+        raw_stories = data.get(key) if isinstance(data, dict) else None
+        out = []
+        for raw in raw_stories if isinstance(raw_stories, list) else []:
+            try:
+                out.append(TopStory.model_validate(raw))
+            except ValidationError:
+                continue
+        return out
+
+    return stories("top_stories"), stories("past_top_stories")
+
+
 def _sort_key(item: NewsItem) -> datetime:
     return item.published_at or item.fetched_at
 
@@ -102,6 +123,7 @@ def write_feed(
     items: list[NewsItem],
     generated_at: datetime,
     top_stories: list[TopStory] | None = None,
+    past_top_stories: list[TopStory] | None = None,
 ) -> None:
     """Write atomically so the dashboard never reads a half-written file.
 
@@ -110,7 +132,12 @@ def write_feed(
     """
     if not path.parent.is_dir():
         raise StoreError(f"Output directory does not exist: {path.parent}")
-    feed = NewsFeed(generated_at=generated_at, items=items, top_stories=top_stories or [])
+    feed = NewsFeed(
+        generated_at=generated_at,
+        items=items,
+        top_stories=top_stories or [],
+        past_top_stories=past_top_stories or [],
+    )
     payload = feed.model_dump_json(indent=2)
     with tempfile.NamedTemporaryFile(
         "w", encoding="utf-8", dir=path.parent, prefix=f".{path.name}.", suffix=".tmp", delete=False

@@ -85,6 +85,19 @@ class TopStory(BaseModel):
     summary: str | None = None
     why_it_matters: str | None = None  # one sentence for software engineers, from Gemini
     item_ids: list[str] = Field(min_length=1)  # lead first; all present in `NewsFeed.items`
+    # An outside page several member articles link to (an advisory, release, filing).
+    primary_url: str | None = None
+    first_shown: UtcDatetime | None = None  # when it first became a top story
+    last_shown: UtcDatetime | None = None  # the latest run it was a top story
+
+    @field_validator("primary_url")
+    @classmethod
+    def _http_url_only(cls, value: str | None) -> str | None:
+        if value is not None:
+            parts = urlsplit(value)
+            if parts.scheme.lower() not in {"http", "https"} or not parts.hostname:
+                raise ValueError("primary_url must be an absolute http(s) URL")
+        return value
 
 
 class NewsFeed(BaseModel):
@@ -93,3 +106,5 @@ class NewsFeed(BaseModel):
     generated_at: UtcDatetime
     items: list[NewsItem]
     top_stories: list[TopStory] = []
+    # Recent top stories that have since dropped off, newest first ("Earlier top stories").
+    past_top_stories: list[TopStory] = []

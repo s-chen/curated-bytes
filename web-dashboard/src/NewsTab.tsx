@@ -66,7 +66,10 @@ function useKeyboardShortcuts(
         search.current?.focus()
         return
       }
-      const links = [...(list.current?.querySelectorAll<HTMLAnchorElement>('a[data-story]') ?? [])]
+      // Skip links inside a collapsed section: they can't take focus.
+      const links = [
+        ...(list.current?.querySelectorAll<HTMLAnchorElement>('a[data-story]') ?? []),
+      ].filter((link) => !link.closest('details:not([open])'))
       const index = links.indexOf(document.activeElement as HTMLAnchorElement)
       if (event.key === 'j' || event.key === 'k') {
         event.preventDefault()
@@ -86,11 +89,13 @@ function useKeyboardShortcuts(
 export function NewsTab({
   items,
   topStories,
+  pastTopStories,
   now,
   lastVisit,
 }: {
   items: NewsItem[]
   topStories: TopStory[]
+  pastTopStories: TopStory[]
   now: Date
   lastVisit: Date | null
 }) {
@@ -111,6 +116,10 @@ export function NewsTab({
   const top = useMemo(
     () => (filtering ? [] : resolveTopStories(topStories, items)),
     [filtering, topStories, items],
+  )
+  const past = useMemo(
+    () => (filtering ? [] : resolveTopStories(pastTopStories, items)),
+    [filtering, pastTopStories, items],
   )
   const listed = useMemo(() => {
     const inTop = new Set(top.flatMap((t) => t.items.map((i) => i.id)))
@@ -211,6 +220,7 @@ export function NewsTab({
                 </ul>
               </section>
             )}
+            {past.length > 0 && <EarlierTopStories stories={past} now={now} />}
             {fresh.length > 0 && (
               <section aria-labelledby="day-new" className="mt-5">
                 <h2
@@ -300,6 +310,19 @@ function TopStoryCard({
           {story.why_it_matters}
         </p>
       )}
+      {story.primary_url && (
+        <p className="mt-2 text-xs text-zinc-500">
+          Primary source:{' '}
+          <a
+            href={story.primary_url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-medium text-emerald-700 hover:underline dark:text-emerald-400"
+          >
+            {hostname(story.primary_url)}
+          </a>
+        </p>
+      )}
       <ul className="mt-auto flex flex-wrap gap-x-3 gap-y-1 pt-3 text-xs" aria-label="Coverage">
         {items.map((item) => (
           <li key={item.id}>
@@ -323,6 +346,43 @@ function TopStoryCard({
         ))}
       </ul>
     </li>
+  )
+}
+
+/** Top stories that have dropped off in the last two days, collapsed by default. */
+function EarlierTopStories({ stories, now }: { stories: ResolvedStory[]; now: Date }) {
+  return (
+    <details className="group mt-4 rounded-lg border border-zinc-200 dark:border-zinc-800">
+      <summary className="cursor-pointer select-none px-3 py-2 text-xs font-semibold uppercase tracking-wide text-zinc-500 hover:text-zinc-800 dark:hover:text-zinc-200">
+        Earlier top stories <span className="tabular-nums opacity-60">{stories.length}</span>
+      </summary>
+      <ul className="border-t border-zinc-200 px-3 py-1 dark:border-zinc-800">
+        {stories.map(({ story, items }) => {
+          const shown = story.last_shown ? new Date(story.last_shown) : null
+          const sources = new Set(items.map((i) => i.source_id)).size
+          return (
+            <li key={story.id} className="py-1.5 text-xs">
+              <a
+                href={items[0].url}
+                target="_blank"
+                rel="noopener noreferrer"
+                data-story
+                className="text-sm font-medium text-zinc-900 outline-none visited:text-zinc-500 hover:underline focus-visible:underline dark:text-zinc-100"
+              >
+                {story.title}
+              </a>
+              <span className="ml-2 text-zinc-500">
+                {sources > 1 ? `${sources} sources` : items[0].source_name}
+                {shown && <> · top story until {formatAge(shown, now)}</>}
+              </span>
+              {story.why_it_matters && (
+                <p className="line-clamp-1 text-zinc-500">{story.why_it_matters}</p>
+              )}
+            </li>
+          )
+        })}
+      </ul>
+    </details>
   )
 }
 

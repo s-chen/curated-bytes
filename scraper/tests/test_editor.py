@@ -130,7 +130,7 @@ def test_up_to_ten_top_stories():
 
 def test_parse_reports_reviewed_and_excluded_items():
     text = _response(excluded=[(1, " sale  post "), (99, "out of range")])
-    result = parse_response(text, _items())
+    result = parse_response(text, _items(), NOW)
     assert result.reviewed == {"a1", "b1", "a2", "c1"}
     assert result.excluded == {"b1": "sale post"}
 
@@ -140,7 +140,7 @@ def test_parse_reports_reviewed_and_excluded_items():
 
 def test_parse_maps_indices_to_items_lead_first():
     text = _response({"items": [1, 0], "headline": " Big  news ", "summary": "Two\nsentences."})
-    [story] = parse_response(text, _items()).top_stories
+    [story] = parse_response(text, _items(), NOW).top_stories
     assert story.id == "b1"
     assert story.item_ids == ["b1", "a1"]
     assert story.title == "Big news"
@@ -150,25 +150,25 @@ def test_parse_maps_indices_to_items_lead_first():
 def test_parse_drops_single_source_stories_and_bad_indices():
     text = _response({"items": [0, 2]}, {"items": [1, 99, -1]}, {"items": [3, 1, 3]})
     # [0, 2] is one source; [1] alone after dropping bad indices; [3, 1] spans two sources.
-    assert _ids(parse_response(text, _items()).top_stories) == [["c1", "b1"]]
+    assert _ids(parse_response(text, _items(), NOW).top_stories) == [["c1", "b1"]]
 
 
 def test_parse_assigns_each_item_to_one_story():
     text = _response({"items": [0, 1]}, {"items": [1, 3]})
-    assert _ids(parse_response(text, _items()).top_stories) == [["a1", "b1"]]
+    assert _ids(parse_response(text, _items(), NOW).top_stories) == [["a1", "b1"]]
 
 
 def test_excluded_items_and_video_pages_never_join_a_story():
     items = _items() + [make_item("v", NOW, source_id="c", url="https://c.example/video/clip")]
     text = _response({"items": [0, 1, 3, 4]}, {"items": [2, 4]}, excluded=[(3, "promo")])
     # c1 is excluded and v is a video, so the first story is a1+b1 and the second is a2 alone.
-    assert _ids(parse_response(text, items).top_stories) == [["a1", "b1"]]
+    assert _ids(parse_response(text, items, NOW).top_stories) == [["a1", "b1"]]
 
 
 def test_parse_caps_story_count(monkeypatch):
     monkeypatch.setattr(editor, "MAX_STORIES", 1)
     text = _response({"items": [0, 1]}, {"items": [2, 3]})
-    assert len(parse_response(text, _items()).top_stories) == 1
+    assert len(parse_response(text, _items(), NOW).top_stories) == 1
 
 
 def test_parse_ranks_by_gemini_importance_not_source_weight():
@@ -182,7 +182,7 @@ def test_parse_ranks_by_gemini_importance_not_source_weight():
         {"items": [2, 1], "headline": "score 4"},
         importance=[(4, 3), (5, 3), (0, 5), (3, 2), (2, 4), (1, 4)],
     )
-    stories = parse_response(text, items).top_stories
+    stories = parse_response(text, items, NOW).top_stories
     assert [s.title for s in stories] == [
         "light sources, score 5", "score 4", "heavy sources, score 3"
     ]
@@ -191,12 +191,21 @@ def test_parse_ranks_by_gemini_importance_not_source_weight():
 def test_parse_ties_keep_gemini_order():
     items = _items() + [make_item("c2", NOW, source_id="c", source_name="C")]
     text = _response({"items": [0, 3], "headline": "first"}, {"items": [2, 4], "headline": "second"})
-    assert [s.title for s in parse_response(text, items).top_stories] == ["first", "second"]
+    assert [s.title for s in parse_response(text, items, NOW).top_stories] == ["first", "second"]
+
+
+def test_top_stories_need_an_article_from_the_last_day():
+    old = [make_item(f"o{n}", NOW - timedelta(hours=30), source_id=f"s{n}") for n in range(3)]
+    items = _items() + old
+    text = _response({"items": [4, 5]}, {"items": [0, 6]}, standouts=[6, 2])
+    stories = parse_response(text, items, NOW).top_stories
+    # o0+o1 are both stale; a1+o2 has a1 from 1h ago; standout o2 is used, a2 is recent.
+    assert _ids(stories) == [["a1", "o2"], ["a2"]]
 
 
 def test_parse_falls_back_to_lead_title_for_empty_headline():
     text = _response({"items": [0, 1], "headline": " ", "summary": ""})
-    [story] = parse_response(text, _items()).top_stories
+    [story] = parse_response(text, _items(), NOW).top_stories
     assert story.title == "Title a1"
     assert story.summary is None
 
@@ -212,7 +221,7 @@ def test_parse_falls_back_to_lead_title_for_empty_headline():
 )
 def test_parse_rejects_bad_responses(text):
     with pytest.raises(EditorError):
-        parse_response(text, _items())
+        parse_response(text, _items(), NOW)
 
 
 def test_standouts_fill_places_after_multi_source_stories(monkeypatch):
@@ -227,7 +236,7 @@ def test_standouts_fill_places_after_multi_source_stories(monkeypatch):
         standouts=[5, 5, 0, 3, 4, 99, 2],
         excluded=[(3, "promo")],
     )
-    stories = parse_response(text, items).top_stories
+    stories = parse_response(text, items, NOW).top_stories
     assert _ids(stories) == [["a1", "b1"], ["c2"], ["a2"]]
     assert (stories[1].title, stories[1].summary) == ("Title c2", "Own summary")
 
@@ -237,25 +246,25 @@ def test_why_it_matters_for_events_and_standouts(monkeypatch):
         {"items": [0, 1], "why": " Changes   how you deploy. "},
         standouts=[{"item": 3, "why": "Patch now."}, {"item": 2, "why": " "}],
     )
-    stories = parse_response(text, _items()).top_stories
+    stories = parse_response(text, _items(), NOW).top_stories
     assert [s.why_it_matters for s in stories] == ["Changes how you deploy.", "Patch now.", None]
 
 
 def test_standouts_never_displace_multi_source_stories(monkeypatch):
     monkeypatch.setattr(editor, "MAX_STORIES", 1)
     text = _response({"items": [0, 1]}, standouts=[3])
-    assert _ids(parse_response(text, _items()).top_stories) == [["a1", "b1"]]
+    assert _ids(parse_response(text, _items(), NOW).top_stories) == [["a1", "b1"]]
 
 
 def test_scores_are_raised_to_match_cards(monkeypatch):
     monkeypatch.setattr(editor, "MAX_STORIES", 2)
     text = _response({"items": [0, 1]}, standouts=[2], importance=[(0, 2), (1, 5), (2, 1), (3, 1)])
-    assert parse_response(text, _items()).importance == {"a1": 4, "b1": 5, "a2": 3, "c1": 1}
+    assert parse_response(text, _items(), NOW).importance == {"a1": 4, "b1": 5, "a2": 3, "c1": 1}
 
 
 def test_parse_keeps_valid_importance_scores_for_shown_items():
     text = _response(importance=[(0, 5), (1, 0), (2, 6), (3, 2), (99, 4)], excluded=[(3, "promo")])
-    assert parse_response(text, _items()).importance == {"a1": 5}
+    assert parse_response(text, _items(), NOW).importance == {"a1": 5}
 
 
 # --- apply_review ---

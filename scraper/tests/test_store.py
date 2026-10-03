@@ -149,6 +149,33 @@ def test_naive_timestamps_are_read_as_utc_and_merge(tmp_path):
     assert [i.url for i in merged] == ["https://example.com/b", "https://example.com/a"]
 
 
+# --- load_top_stories ---
+
+
+def test_load_top_stories_reads_current_and_past(tmp_path):
+    from scraper.models import TopStory
+    from scraper.store import load_top_stories
+
+    path = tmp_path / "news.json"
+    write_feed(
+        path, [], generated_at=NOW,
+        top_stories=[TopStory(id="a", title="Now", item_ids=["a"])],
+        past_top_stories=[TopStory(id="b", title="Before", item_ids=["b"])],
+    )
+    top, past = load_top_stories(path)
+    assert ([s.title for s in top], [s.title for s in past]) == (["Now"], ["Before"])
+
+
+@pytest.mark.parametrize("content", [b"{bad", b"[]", b'{"top_stories": {}}', b'{"top_stories": [{"id": 1}]}'])
+def test_load_top_stories_tolerates_anything(tmp_path, content):
+    from scraper.store import load_top_stories
+
+    path = tmp_path / "news.json"
+    path.write_bytes(content)
+    assert load_top_stories(path) == ([], [])
+    assert load_top_stories(tmp_path / "missing.json") == ([], [])
+
+
 # --- write_feed ---
 
 

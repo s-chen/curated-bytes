@@ -37,5 +37,5 @@ export function feed(
   generatedAt = NOW.toISOString(),
   topStories: TopStory[] = [],
 ): NewsFeed {
-  return { generated_at: generatedAt, items, top_stories: topStories }
+  return { generated_at: generatedAt, items, top_stories: topStories, past_top_stories: [] }
 }

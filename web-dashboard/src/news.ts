@@ -1,6 +1,6 @@
 import type { NewsFeed, NewsItem, TopStory } from './App.tsx'
 
-/** The dashboard shows at most this many stories: the newest reviewed ones. */
+/** The list shows at most this many stories: the newest reviewed ones (cards may add a few). */
 export const MAX_DISPLAYED = 100
 
 const MINUTE = 60_000
@@ -69,24 +69,41 @@ export async function loadFeed(url: string, signal?: AbortSignal): Promise<NewsF
   } catch {
     throw new Error('news.json is not valid JSON')
   }
-  const { generated_at, items, top_stories } = (data ?? {}) as Record<string, unknown>
+  const { generated_at, items, top_stories, past_top_stories } = (data ?? {}) as Record<
+    string,
+    unknown
+  >
   if (typeof generated_at !== 'string' || !Array.isArray(items)) {
     throw new Error('news.json is not in the expected format')
   }
+  // Optional fields: absent in files written before they existed.
+  const top = normaliseStories(top_stories)
+  const past = normaliseStories(past_top_stories)
+  const kept = items.filter((item) => isRenderable(item) && item.review === 'kept')
+  // The newest MAX_DISPLAYED, plus any older story a top-story card needs.
+  const inCards = new Set([...top, ...past].flatMap((story) => story.item_ids))
   return {
     generated_at,
-    items: items
-      .filter((item) => isRenderable(item) && item.review === 'kept')
-      .slice(0, MAX_DISPLAYED)
+    items: kept
+      .filter((item, index) => index < MAX_DISPLAYED || inCards.has(item.id))
       .map(normaliseItem),
-    // Optional: absent in files written before top stories existed.
-    top_stories: Array.isArray(top_stories)
-      ? top_stories.filter(isTopStory).map((story) => ({
-          ...story,
-          why_it_matters: typeof story.why_it_matters === 'string' ? story.why_it_matters : null,
-        }))
-      : [],
+    top_stories: top,
+    past_top_stories: past,
   }
+}
+
+const timeOrNull = (value: unknown) =>
+  typeof value === 'string' && !Number.isNaN(Date.parse(value)) ? value : null
+
+function normaliseStories(value: unknown): TopStory[] {
+  if (!Array.isArray(value)) return []
+  return value.filter(isTopStory).map((story) => ({
+    ...story,
+    why_it_matters: typeof story.why_it_matters === 'string' ? story.why_it_matters : null,
+    primary_url: isSafeUrl(story.primary_url) ? story.primary_url : null,
+    first_shown: timeOrNull(story.first_shown),
+    last_shown: timeOrNull(story.last_shown),
+  }))
 }
 
 export interface ResolvedStory {

@@ -138,7 +138,7 @@ it('supports j/k to move, o to open, / to search and Esc to leave search', async
 
 it('shows top stories as cards and leaves them out of the list', async () => {
   const other = makeItem('other', '2026-10-03T10:00:00Z', { title: 'Unrelated story', source_id: 'hn', source_name: 'Hacker News' })
-  const top = { id: 'rust', title: 'Rust 2.0 ships', summary: 'Everyone covered it.', why_it_matters: null, item_ids: ['rust', 'gpu'] }
+  const top = { id: 'rust', title: 'Rust 2.0 ships', summary: 'Everyone covered it.', why_it_matters: null, primary_url: null, first_shown: null, last_shown: null, item_ids: ['rust', 'gpu'] }
   stubFetch(feed([...ITEMS, other], NOW.toISOString(), [top]))
   render(<App />)
 
@@ -154,7 +154,7 @@ it('shows top stories as cards and leaves them out of the list', async () => {
 
   // A single-source standout card names its source instead of a count.
   cleanup()
-  const standout = { id: 'other', title: 'Unrelated story', summary: null, why_it_matters: null, item_ids: ['other'] }
+  const standout = { id: 'other', title: 'Unrelated story', summary: null, why_it_matters: null, primary_url: null, first_shown: null, last_shown: null, item_ids: ['other'] }
   stubFetch(feed([...ITEMS, other], NOW.toISOString(), [top, standout]))
   render(<App />)
   const cards = await screen.findByRole('region', { name: 'Top stories' })
@@ -181,14 +181,19 @@ it('links to discussion threads and shows why a top story matters', async () => 
     title: 'Zig released',
     discussion_url: 'https://lobste.rs/s/abc',
   })
-  const top = { id: 'rust', title: 'Rust ships', summary: null, why_it_matters: 'Upgrade your toolchain.', item_ids: ['rust', 'gpu'] }
+  const top = { id: 'rust', title: 'Rust ships', summary: null, why_it_matters: 'Upgrade your toolchain.', item_ids: ['rust', 'gpu'], primary_url: 'https://blog.rust-lang.org/2026/10/03/Rust-2.0.html', first_shown: null, last_shown: null }
   stubFetch(feed([...ITEMS, hn, lob], NOW.toISOString(), [top]))
   render(<App />)
 
   const thread = await screen.findByRole('link', { name: '312 points · 145 comments' })
   expect(thread).toHaveProperty('href', 'https://news.ycombinator.com/item?id=1')
   expect(screen.getByRole('link', { name: 'Discussion' })).toHaveProperty('href', 'https://lobste.rs/s/abc')
-  expect(within(screen.getByRole('region', { name: 'Top stories' })).getByText('Upgrade your toolchain.')).toBeTruthy()
+  const cards = screen.getByRole('region', { name: 'Top stories' })
+  expect(within(cards).getByText('Upgrade your toolchain.')).toBeTruthy()
+  expect(within(cards).getByRole('link', { name: 'blog.rust-lang.org' })).toHaveProperty(
+    'href',
+    'https://blog.rust-lang.org/2026/10/03/Rust-2.0.html',
+  )
 })
 
 it('lists engineering-blog posts first with a badge', async () => {
@@ -201,6 +206,24 @@ it('lists engineering-blog posts first with a badge', async () => {
   await screen.findByRole('link', { name: 'Big news' })
   expect(titles()).toEqual(['How we scaled Postgres', 'Big news'])
   expect(screen.getAllByText('Engineering')).toHaveLength(1)
+})
+
+it('shows earlier top stories collapsed, without hiding their stories from the list', async () => {
+  const past = { id: 'gpu', title: 'GPU prices story', summary: null, why_it_matters: 'Cheaper builds.', primary_url: null, first_shown: '2026-10-02T15:00:00Z', last_shown: '2026-10-03T09:00:00Z', item_ids: ['gpu', 'rust'] }
+  stubFetch({ ...feed(ITEMS), past_top_stories: [past] })
+  render(<App />)
+
+  const summary = await screen.findByText('Earlier top stories')
+  const details = summary.closest('details')!
+  expect(details.open).toBe(false)
+  expect(within(details).getByRole('link', { name: 'GPU prices story' })).toHaveProperty('href', 'https://example.com/gpu')
+  expect(within(details).getByText(/2 sources · top story until 3h ago/)).toBeTruthy()
+  expect(titles()).toContain('Rust 2.0 released')
+
+  // j/k skip the collapsed section's links rather than getting stuck on them.
+  fireEvent.keyDown(document.body, { key: 'j' })
+  fireEvent.keyDown(document.activeElement!, { key: 'j' })
+  expect(document.activeElement?.textContent).toBe('GPU prices fall')
 })
 
 it('orders each day by importance', async () => {
