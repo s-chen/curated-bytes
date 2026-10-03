@@ -1,6 +1,159 @@
 {
-  "generated_at": "2026-10-03T21:17:41.874041Z",
+  "generated_at": "2026-10-03T23:47:49.232475Z",
   "items": [
+    {
+      "id": "fedb773a5aa96262604ff7900f5ab46d",
+      "title": "New Archestra's OpenAPPA Saturates Two Major Security Benchmarks with a 0% Attack Success Rate",
+      "url": "https://www.infoq.com/news/2026/10/open-APPA-zero-security-breach/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source_id": "infoq",
+      "source_name": "InfoQ",
+      "category": "tech",
+      "summary": "Archestra released OpenAPPA, an open-source security engine designed to stop data exfiltration caused by prompt injection or model hallucination. The team reports zero successful attacks when running security benchmarks Bench-Corp (20 multi-step enterprise workflows) and AgentThreatBench, versus 10% for Claude Code’s auto mode and 31% for Microsoft FIDES. By Bruno Couriol",
+      "published_at": "2026-10-03T23:41:00Z",
+      "fetched_at": "2026-10-03T23:47:49.232475Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "0f5fb94f1fc707cbdfaa85d810696d71",
+      "title": "We're going to need default hard budget caps on pretty much everything",
+      "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
+      "source_id": "simon-willison",
+      "source_name": "Simon Willison",
+      "category": "tech",
+      "summary": "Here's a product feature which the world is going to need a whole lot more of over the coming months and years: default hard budget caps. I'm talking about the feature of pay-by-usage services and APIs that lets you say \"after $X/month, cut this thing off and return errors\". These need to be hard limits. Soft caps, \"after $X/month, send me a warning email\", will not cut it. Coding agents, and personal agents (coding agents wrapped in a less threatening UI), greatly reduce the friction of…",
+      "published_at": "2026-10-03T23:34:02Z",
+      "fetched_at": "2026-10-03T23:47:49.232475Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "review": "pending",
+      "importance": null
+    },
+    {
+      "id": "269b0058e3c1e9e427312db6cd2db83a",
+      "title": "Google Gemini could soon get full access to your Mac’s files, apps and the web",
+      "url": "https://www.bleepingcomputer.com/news/google/google-gemini-could-soon-get-full-access-to-your-macs-files-apps-and-the-web/",
+      "source_id": "bleepingcomputer",
+      "source_name": "BleepingComputer",
+      "category": "tech",
+      "summary": "Google's Gemini could soon access any file on your macOS device, open apps, browse the web, and perform actions without asking for permission every time. [...]",
+      "published_at": "2026-10-03T23:12:34Z",
+      "fetched_at": "2026-10-03T23:47:49.232475Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "review": "kept",
+      "importance": 4
+    },
+    {
+      "id": "016378578c1d36c27e1ac93e928d4a5e",
+      "title": "The Agent Said It Was Done. The Database Disagreed.",
+      "url": "https://huggingface.co/blog/microsoft/thinkingbox",
+      "source_id": "huggingface-blog",
+      "source_name": "Hugging Face Blog",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-03T22:56:48Z",
+      "fetched_at": "2026-10-03T23:47:49.232475Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "7e6523152ecdff76dd3c85eed436c184",
+      "title": "Why I recommend Renovate over any other dependency update tools (2024)",
+      "url": "https://www.jvt.me/posts/2024/04/12/use-renovate/",
+      "source_id": "lobsters",
+      "source_name": "Lobsters",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-03T22:54:52Z",
+      "fetched_at": "2026-10-03T23:47:49.232475Z",
+      "discussion_url": "https://lobste.rs/s/kt0yxd/why_i_recommend_renovate_over_any_other",
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "9eea0175d88c3b022cebdc856ee9164c",
+      "title": "Big Balls Now Exposed to Serious Criminal Charges in at Least Six States",
+      "url": "https://medium.com/@carmitage/big-balls-now-exposed-to-serious-criminal-charges-in-at-least-six-states-ca865e1d6305",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-03T22:35:14Z",
+      "fetched_at": "2026-10-03T23:47:49.232475Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=49948438",
+      "points": 46,
+      "comments": 0,
+      "engineering": false,
+      "review": "pending",
+      "importance": null
+    },
+    {
+      "id": "eb8bbabe305cdeefa3e475531ece6e79",
+      "title": "OpenAI safety leader quits, warning AI company's culture is 'broken'",
+      "url": "https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-03T22:18:13Z",
+      "fetched_at": "2026-10-03T23:47:49.232475Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=49948332",
+      "points": 44,
+      "comments": 12,
+      "engineering": false,
+      "review": "kept",
+      "importance": 4
+    },
+    {
+      "id": "5cc027fe37fd8b9de038e68c3825a427",
+      "title": "September sponsors-only newsletter",
+      "url": "https://simonwillison.net/2026/Oct/3/newsletter/",
+      "source_id": "simon-willison",
+      "source_name": "Simon Willison",
+      "category": "tech",
+      "summary": "I just sent the September edition of my sponsors-only monthly newsletter. If you are a sponsor (or start a sponsorship now) you can access it here. This month: More Fable class models A pricing war 3D graphics, Blender, and pixel art LLMs come for mathematics So many more accidental cyberattacks The vulnapocalypse comes for Datasette What I'm using right now My software releases this month 2026 in LLMs (so far) Here's a copy of the August newsletter as a preview of what you'll get. Pay…",
+      "published_at": "2026-10-03T22:00:31Z",
+      "fetched_at": "2026-10-03T23:47:49.232475Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "review": "pending",
+      "importance": null
+    },
+    {
+      "id": "490eec584937c4ec4881237f24cd5842",
+      "title": "Why don’t more developers \"use the platform\"?",
+      "url": "https://nolanlawson.com/2026/10/03/why-dont-more-developers-use-the-platform/",
+      "source_id": "lobsters",
+      "source_name": "Lobsters",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-03T21:35:28Z",
+      "fetched_at": "2026-10-03T23:47:49.232475Z",
+      "discussion_url": "https://lobste.rs/s/srduzv/why_don_t_more_developers_use_platform",
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "review": "pending",
+      "importance": null
+    },
     {
       "id": "0c44c10ff5eb708644e1d3b7873dab84",
       "title": "Customization: Optimizing Compiler Technology for SELF, a Dynamically-Typed Object-Oriented Programming Language (1989)",
@@ -17,6 +170,23 @@
       "engineering": false,
       "review": "kept",
       "importance": 3
+    },
+    {
+      "id": "c8a3e615247093137505e6b3bc4fdc3a",
+      "title": "Reasons I didn't become an EMT, ranked",
+      "url": "https://ben.stolovitz.com/posts/reasons-not-emt-ranked/",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-03T20:49:15Z",
+      "fetched_at": "2026-10-03T23:47:49.232475Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=49947631",
+      "points": 46,
+      "comments": 14,
+      "engineering": false,
+      "review": "pending",
+      "importance": null
     },
     {
       "id": "47d7bc84c84eddea1905b4b68239e2a9",
@@ -53,6 +223,23 @@
       "importance": 3
     },
     {
+      "id": "433588b5b0f132573c7a936781a2bb43",
+      "title": "Surely you have ultra-wideband radios on your bins too?",
+      "url": "https://sjg.io/writing/binrange-have-you-actually-put-the-bins-out/",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-03T20:27:44Z",
+      "fetched_at": "2026-10-03T23:47:49.232475Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=49947472",
+      "points": 30,
+      "comments": 6,
+      "engineering": false,
+      "review": "pending",
+      "importance": null
+    },
+    {
       "id": "d36d6becf3fd6eed53c1bf3f8bae5e72",
       "title": "Milt Windler, NASA flight director who helped save Apollo 13, dies at 94",
       "url": "https://arstechnica.com/space/2026/10/milt-windler-nasa-flight-director-who-helped-save-apollo-13-dies-at-94/",
@@ -80,8 +267,8 @@
       "published_at": "2026-10-03T19:33:16Z",
       "fetched_at": "2026-10-03T20:57:46.771170Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49947051",
-      "points": 40,
-      "comments": 28,
+      "points": 93,
+      "comments": 83,
       "engineering": false,
       "review": "kept",
       "importance": 3
@@ -93,12 +280,12 @@
       "source_id": "techcrunch",
       "source_name": "TechCrunch",
       "category": "tech",
-      "summary": "A federal judge ruled that a sheriff’s deputy violated a woman’s Fourth Amendment rights when using Flock to search for her license plate without a warrant.",
+      "summary": null,
       "published_at": "2026-10-03T19:33:15Z",
       "fetched_at": "2026-10-03T20:57:46.771170Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
+      "discussion_url": "https://news.ycombinator.com/item?id=49948254",
+      "points": 134,
+      "comments": 69,
       "engineering": false,
       "review": "kept",
       "importance": 4
@@ -116,6 +303,23 @@
       "discussion_url": "https://news.ycombinator.com/item?id=49947050",
       "points": 25,
       "comments": 24,
+      "engineering": false,
+      "review": "kept",
+      "importance": 2
+    },
+    {
+      "id": "c5e6afee1ce03466d16be7d7fa810900",
+      "title": "The work by Valve's Timur Kristóf on improving old AMD GPUs on Linux",
+      "url": "https://www.phoronix.com/news/XDC-2026-Valve-Timur-AMDGPU",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-03T19:14:48Z",
+      "fetched_at": "2026-10-03T23:47:49.232475Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=49946895",
+      "points": 57,
+      "comments": 3,
       "engineering": false,
       "review": "kept",
       "importance": 3
@@ -165,8 +369,8 @@
       "published_at": "2026-10-03T19:09:25Z",
       "fetched_at": "2026-10-03T20:57:46.771170Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49946845",
-      "points": 17,
-      "comments": 0,
+      "points": 29,
+      "comments": 7,
       "engineering": false,
       "review": "kept",
       "importance": 2
@@ -220,7 +424,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "b28cdbe686fbaa165fdf46e722784cf1",
@@ -233,11 +437,28 @@
       "published_at": "2026-10-03T18:29:30Z",
       "fetched_at": "2026-10-03T20:57:46.771170Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49946567",
-      "points": 50,
-      "comments": 7,
+      "points": 141,
+      "comments": 92,
       "engineering": false,
       "review": "kept",
       "importance": 3
+    },
+    {
+      "id": "542400a00d3dc6b189acb9dc2472da90",
+      "title": "What Meta got right with Muse",
+      "url": "https://metedata.substack.com/p/what-meta-got-right-with-muse",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-03T18:23:48Z",
+      "fetched_at": "2026-10-03T23:47:49.232475Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=49946526",
+      "points": 22,
+      "comments": 22,
+      "engineering": false,
+      "review": "kept",
+      "importance": 2
     },
     {
       "id": "b273c3e35438354f46086776da03b17d",
@@ -267,11 +488,28 @@
       "published_at": "2026-10-03T18:06:45Z",
       "fetched_at": "2026-10-03T20:57:46.771170Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49946393",
-      "points": 115,
-      "comments": 36,
+      "points": 199,
+      "comments": 51,
       "engineering": false,
       "review": "kept",
       "importance": 2
+    },
+    {
+      "id": "8ec43cce63e7a24953ba7bf9b9e0025c",
+      "title": "Treachery in the Rodin Museum 3D scan verdict",
+      "url": "https://cosmowenman.substack.com/p/rodin-museum-3d-scan-verdict",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-03T18:01:27Z",
+      "fetched_at": "2026-10-03T23:47:49.232475Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=49946355",
+      "points": 36,
+      "comments": 15,
+      "engineering": false,
+      "review": "pending",
+      "importance": null
     },
     {
       "id": "e9e207660c7c7cbb27905c113ecaa1ed",
@@ -308,6 +546,23 @@
       "importance": 3
     },
     {
+      "id": "04d9188e6125298ced324cc4ed2eb3b6",
+      "title": "LeCun has \"zero concerns\" about AI wiping out humanity, recent \"rogue\" incidents",
+      "url": "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded/",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": "https://archive.ph/TyDPf",
+      "published_at": "2026-10-03T17:44:29Z",
+      "fetched_at": "2026-10-03T23:47:49.232475Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=49946228",
+      "points": 53,
+      "comments": 31,
+      "engineering": false,
+      "review": "kept",
+      "importance": 2
+    },
+    {
       "id": "7cca04e08bb114df1fd3fecc5bbb8373",
       "title": "Vx – One Language, Every Chip",
       "url": "https://vxlang.org/",
@@ -318,8 +573,8 @@
       "published_at": "2026-10-03T17:23:20Z",
       "fetched_at": "2026-10-03T20:57:46.771170Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49946076",
-      "points": 36,
-      "comments": 22,
+      "points": 55,
+      "comments": 29,
       "engineering": false,
       "review": "kept",
       "importance": 3
@@ -340,6 +595,23 @@
       "engineering": false,
       "review": "kept",
       "importance": 2
+    },
+    {
+      "id": "6664414c5e62bc9dccd337eba3132a33",
+      "title": "Agents don't need memory, they need documentation",
+      "url": "https://liao.gg/blog/agents-dont-need-memory",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-03T17:03:37Z",
+      "fetched_at": "2026-10-03T23:47:49.232475Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=49945933",
+      "points": 22,
+      "comments": 14,
+      "engineering": false,
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "91ac6ac98d2225fac82ba9b8f92e0987",
@@ -424,7 +696,24 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
+    },
+    {
+      "id": "a5a4ecc93d3f5c606d9f704151dcaa4b",
+      "title": "Docker has always used microVMs (well since 2016)",
+      "url": "https://dave.recoil.org/docker-has-always-used-microvms/",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-03T15:55:31Z",
+      "fetched_at": "2026-10-03T23:47:49.232475Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=49945352",
+      "points": 10,
+      "comments": 2,
+      "engineering": false,
+      "review": "kept",
+      "importance": 2
     },
     {
       "id": "8ce0c958ecaedfec358666c4be8d97aa",
@@ -441,7 +730,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "7be21938cd0bc679d69d590b569780f8",
@@ -454,8 +743,8 @@
       "published_at": "2026-10-03T15:02:36Z",
       "fetched_at": "2026-10-03T20:57:46.771170Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49944912",
-      "points": 124,
-      "comments": 50,
+      "points": 140,
+      "comments": 57,
       "engineering": false,
       "review": "kept",
       "importance": 3
@@ -560,7 +849,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "f8fc0aa18dcc03fda06c1ff95bc24e12",
@@ -594,7 +883,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "487d8a65b3c37b146af74564ef626737",
@@ -680,6 +969,23 @@
       "engineering": false,
       "review": "kept",
       "importance": 2
+    },
+    {
+      "id": "829feb3dd8d04b0a3aa514416bbb3865",
+      "title": "Watson Jr. memo about CDC 6600 (1963)",
+      "url": "https://www.computerhistory.org/revolution/supercomputers/10/33/62",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-03T12:27:31Z",
+      "fetched_at": "2026-10-03T23:47:49.232475Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=49943685",
+      "points": 10,
+      "comments": 5,
+      "engineering": false,
+      "review": "pending",
+      "importance": null
     },
     {
       "id": "0f0fd637f2c8ed73d86dcd9180a48cd7",
@@ -934,7 +1240,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "b8314081abd5202e8b5a1c5bab96b9e6",
@@ -1461,7 +1767,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "47c7b703960d06de56660f956eccb12f",
@@ -1597,7 +1903,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "bab7eb2c7a198de46f424be5733966d9",
@@ -1699,7 +2005,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "2a5a84487b6912ed4c54e6f5513b1a00",
@@ -2345,7 +2651,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "c094bc3c87ea7729c2e4f3cb32130548",
@@ -2430,7 +2736,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "51cd7b632332632d5821d7b61a6bbaa2",
@@ -2515,7 +2821,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "7933c4f780f7a6a35020e5bdec5e109f",
@@ -2566,7 +2872,7 @@
       "comments": null,
       "engineering": true,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "afcb4b4a0c944361c96ac8fada8d09a3",
@@ -2634,7 +2940,7 @@
       "comments": null,
       "engineering": true,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "6b0c578c79fbf351725e000a7953fbce",
@@ -2651,7 +2957,7 @@
       "comments": null,
       "engineering": true,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "6925d8118b0fb32a0e3aaacff465572f",
@@ -2787,7 +3093,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "08b82521504451a404ae35f293664a32",
@@ -2838,7 +3144,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "45808a7961a218c479cd24e919e79497",
@@ -6562,121 +6868,117 @@
       "engineering": false,
       "review": "pending",
       "importance": null
-    },
-    {
-      "id": "f68cfcafbcb853667a89a49056b38123",
-      "title": "Kākāpō Party",
-      "url": "https://simonwillison.net/2026/Sep/26/kakapo-party/",
-      "source_id": "simon-willison",
-      "source_name": "Simon Willison",
-      "category": "tech",
-      "summary": "Tool: Kākāpō Party I presented a closing keynote for the WeAreDevelopers World Congress North America yesterday. As a STAR moment I decided to weave in references to the record breaking kākāpō breeding season we had in 2026. For my closing slide I wanted to celebrate, and I had seen some buzz around how good Claude Opus 5.5 was at creating pixel art animations. So I rounded up three Kakapo photos from Google image search and dropped them into Claude with this prompt: Here are some photos of…",
-      "published_at": "2026-09-26T23:39:06Z",
-      "fetched_at": "2026-10-03T20:57:46.771170Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "review": "pending",
-      "importance": null
     }
   ],
   "top_stories": [
     {
-      "id": "15ba6e88a0cfe4a1d4e2a22076e16aa4",
-      "title": "Amazon stops using non-disclosure agreements for data center projects",
-      "summary": "Amazon Web Services has announced that it has stopped using secret non-disclosure agreements with county officials regarding data centers. The move follows growing community backlash, moratoriums, and criticism over data center pollution and transparency.",
-      "why_it_matters": "Changes how infrastructure teams and local governments negotiate and engage with hyperscalers on major facility deployments.",
+      "id": "eb8bbabe305cdeefa3e475531ece6e79",
+      "title": "OpenAI safety staff and researcher departures",
+      "summary": "Several OpenAI employees and safety researchers have resigned or been dismissed following internal tensions regarding company culture and information handling policies. Outgoing staff have criticized the company's approach to safety and transparency.",
+      "why_it_matters": "Departures and cultural shifts at a major AI lab directly impact safety protocols, research directions, and the industry's ethical standards.",
       "item_ids": [
-        "15ba6e88a0cfe4a1d4e2a22076e16aa4",
-        "7491d19e28584bde3067bd8b70e4c54f",
-        "bab7eb2c7a198de46f424be5733966d9",
-        "ca075215a656f50769be49db0ac03ebc"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-03T21:08:25.972900Z",
-      "last_shown": "2026-10-03T21:17:41.874041Z"
-    },
-    {
-      "id": "a1e941e4845f47f93322c8789baf6afd",
-      "title": "Critical GitLab AI Gateway vulnerability under active exploitation",
-      "summary": "GitLab has issued warnings and patches for a critical path-traversal and command-execution vulnerability affecting self-managed instances and its AI Gateway service. Security researchers confirm the bug has moved into active exploitation.",
-      "why_it_matters": "Poses a critical remote code execution risk for self-hosted instances utilizing GitLab's AI features.",
-      "item_ids": [
-        "a1e941e4845f47f93322c8789baf6afd",
-        "7dd78f9e97067805f1c96540dc88b256"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-03T21:08:25.972900Z",
-      "last_shown": "2026-10-03T21:17:41.874041Z"
-    },
-    {
-      "id": "f3a84680885ca90d2554f6ce493fd821",
-      "title": "Apple limits macOS Full Disk Access to mitigate AI agent security risks",
-      "summary": "Apple is rolling out new controls and updating full-disk access permissions on macOS. The changes aim to curb abuse and reduce the security risks posed by increasingly capable AI agents.",
-      "why_it_matters": "Requires developers and users to adapt their security permissions as autonomous local tools demand file access.",
-      "item_ids": [
-        "f3a84680885ca90d2554f6ce493fd821",
-        "a4bfb3525fcff61399618a3ffc8a38ec",
-        "f9df9058658b6647f5eee1a896df8c0b"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-03T21:08:25.972900Z",
-      "last_shown": "2026-10-03T21:17:41.874041Z"
-    },
-    {
-      "id": "572d71e2575246edb315ef76f320c3d5",
-      "title": "Meta open sources Muse AI agent code for consumer gadgets",
-      "summary": "Meta is open sourcing code to let developers build devices featuring its Muse AI agent. The company suggests integrating the agent into displays and consumer hardware.",
-      "why_it_matters": "Gives developers open-source primitives to embed multimodal AI agents directly into edge hardware.",
-      "item_ids": [
-        "572d71e2575246edb315ef76f320c3d5",
-        "f3c415f2f6ea74708abc33f068ee0035",
-        "c44ccd504a55579c4d225ed74c0f9acf",
-        "b563909f878c6a767a4baf7d9a69e289"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-03T21:08:25.972900Z",
-      "last_shown": "2026-10-03T21:17:41.874041Z"
-    },
-    {
-      "id": "f8fc0aa18dcc03fda06c1ff95bc24e12",
-      "title": "OpenAI safety employee David Robinson resigns, criticizing company culture",
-      "summary": "David Robinson, an employee responsible for writing safety reports for model releases, has resigned from OpenAI. He is speaking out about his departure and criticizing the company's culture.",
-      "why_it_matters": "Shed light on internal safety practices and governance issues at leading frontier AI laboratories.",
-      "item_ids": [
+        "eb8bbabe305cdeefa3e475531ece6e79",
+        "c5e34d281995194d831950320d9b27ea",
         "f8fc0aa18dcc03fda06c1ff95bc24e12",
-        "c5e34d281995194d831950320d9b27ea"
+        "2ee6aaeb477402268dc965ce6ade879e",
+        "08b82521504451a404ae35f293664a32"
       ],
       "primary_url": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881?gift=1ga2TvL-DbuHDQIcYF7oR4o908Fsjxr4NFLlsptkfP8",
       "first_shown": "2026-10-03T21:08:25.972900Z",
-      "last_shown": "2026-10-03T21:17:41.874041Z"
-    },
-    {
-      "id": "c333863c691be7819e3affd162814b6f",
-      "title": "Warlock ransomware group exploits SharePoint flaws against critical infrastructure",
-      "summary": "The China-linked threat actor Warlock is actively exploiting Microsoft SharePoint vulnerabilities to disable security tools and deploy ransomware. Targets include water utilities, telecom operators, and universities.",
-      "why_it_matters": "Highlights active exploitation vectors targeting enterprise document management systems across global sectors.",
-      "item_ids": [
-        "c333863c691be7819e3affd162814b6f",
-        "4d07ff25a67e4f7f4a0e23cdd627513b"
-      ],
-      "primary_url": "https://www.security.com/threat-intelligence/warlock-ransomware-critical-infrastructure",
-      "first_shown": "2026-10-03T21:08:25.972900Z",
-      "last_shown": "2026-10-03T21:17:41.874041Z"
+      "last_shown": "2026-10-03T23:47:49.232475Z"
     },
     {
       "id": "62fbb46eb45c07fe2b1b2e46c74b3427",
-      "title": "Nvidia Shield TV price increases due to memory costs",
-      "summary": "The aging Nvidia Shield TV has received a $100 price increase, bringing the Pro retail price to $299.99. The price of components with memory is skyrocketing due to AI demand, affecting streaming devices.",
-      "why_it_matters": null,
+      "title": "Nvidia Shield TV prices increase due to memory costs",
+      "summary": "The aging Nvidia Shield TV streaming device has received a $100 price hike. The price increase is driven by rising memory costs across the industry due to AI demand.",
+      "why_it_matters": "Highlights how heavy AI infrastructure hardware demands are creating component shortages and driving up consumer and edge hardware prices.",
       "item_ids": [
         "62fbb46eb45c07fe2b1b2e46c74b3427",
         "e9e207660c7c7cbb27905c113ecaa1ed"
       ],
       "primary_url": null,
       "first_shown": "2026-10-03T21:08:25.972900Z",
-      "last_shown": "2026-10-03T21:17:41.874041Z"
+      "last_shown": "2026-10-03T23:47:49.232475Z"
+    },
+    {
+      "id": "15ba6e88a0cfe4a1d4e2a22076e16aa4",
+      "title": "Amazon changes data center non-disclosure agreements",
+      "summary": "Amazon Web Services has announced it will stop using non-disclosure agreements with county officials for data center projects. The change comes in response to widespread community backlash and local moratoriums.",
+      "why_it_matters": "Affects infrastructure expansion transparency and how major cloud providers negotiate local data center operations.",
+      "item_ids": [
+        "15ba6e88a0cfe4a1d4e2a22076e16aa4",
+        "7491d19e28584bde3067bd8b70e4c54f",
+        "bab7eb2c7a198de46f424be5733966d9"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-03T21:08:25.972900Z",
+      "last_shown": "2026-10-03T23:47:49.232475Z"
+    },
+    {
+      "id": "f3a84680885ca90d2554f6ce493fd821",
+      "title": "Apple updates macOS Full Disk Access controls for AI agents",
+      "summary": "Apple is updating macOS full-disk access permissions to restrict AI agents from easily reading files, apps, and web data. The security changes are designed to curb potential risks and abuse posed by increasingly autonomous AI tools.",
+      "why_it_matters": "Directly impacts developer tools, automation scripts, and local AI agents that require deep system integration and file access on macOS.",
+      "item_ids": [
+        "f3a84680885ca90d2554f6ce493fd821",
+        "269b0058e3c1e9e427312db6cd2db83a",
+        "a4bfb3525fcff61399618a3ffc8a38ec",
+        "f9df9058658b6647f5eee1a896df8c0b"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-03T21:08:25.972900Z",
+      "last_shown": "2026-10-03T23:47:49.232475Z"
+    },
+    {
+      "id": "a1e941e4845f47f93322c8789baf6afd",
+      "title": "GitLab patches critical AI Gateway and path-traversal flaws",
+      "summary": "GitLab has issued security patches for critical vulnerabilities affecting self-managed instances and its AI Gateway service. The flaws could allow unauthenticated users or authenticated accounts to achieve command execution and data exfiltration.",
+      "why_it_matters": "Critical remote code execution and data exfiltration risks for self-hosted GitLab installations require immediate remediation.",
+      "item_ids": [
+        "a1e941e4845f47f93322c8789baf6afd",
+        "7dd78f9e97067805f1c96540dc88b256"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-03T21:08:25.972900Z",
+      "last_shown": "2026-10-03T23:47:49.232475Z"
+    },
+    {
+      "id": "c333863c691be7819e3affd162814b6f",
+      "title": "Warlock ransomware exploits SharePoint vulnerabilities",
+      "summary": "A China-linked threat actor known as Warlock is weaponizing Microsoft SharePoint vulnerabilities to target organizations across multiple sectors. The attacks disable security tools and deploy ransomware.",
+      "why_it_matters": "Highlights active exploitation campaigns targeting widely used enterprise collaboration platforms with ransomware.",
+      "item_ids": [
+        "c333863c691be7819e3affd162814b6f",
+        "4d07ff25a67e4f7f4a0e23cdd627513b"
+      ],
+      "primary_url": "https://www.security.com/threat-intelligence/warlock-ransomware-critical-infrastructure",
+      "first_shown": "2026-10-03T21:08:25.972900Z",
+      "last_shown": "2026-10-03T23:47:49.232475Z"
+    },
+    {
+      "id": "572d71e2575246edb315ef76f320c3d5",
+      "title": "Meta open sources Muse AI agent gadgets code",
+      "summary": "Meta has open-sourced code allowing developers to build custom gadgets powered by its Muse AI agent. The company suggests experimental projects using local hardware displays and household devices.",
+      "why_it_matters": "Provides developers with open-source reference implementations for building hardware integrations with modern LLM agents.",
+      "item_ids": [
+        "572d71e2575246edb315ef76f320c3d5",
+        "f3c415f2f6ea74708abc33f068ee0035"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-03T21:08:25.972900Z",
+      "last_shown": "2026-10-03T23:47:49.232475Z"
+    },
+    {
+      "id": "96336768375c8560dd8ecee7054bc5b0",
+      "title": "Federal judge calls Flock ‘indiscriminate mass surveillance’",
+      "summary": null,
+      "why_it_matters": "Judicial ruling on automated license plate readers impacts privacy practices and government surveillance deployment.",
+      "item_ids": [
+        "96336768375c8560dd8ecee7054bc5b0"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-03T23:47:49.232475Z",
+      "last_shown": "2026-10-03T23:47:49.232475Z"
     },
     {
       "id": "91388b01dd4de2ba6cba613f0bc14f80",
@@ -6688,8 +6990,22 @@
       ],
       "primary_url": null,
       "first_shown": "2026-10-03T21:08:25.972900Z",
-      "last_shown": "2026-10-03T21:17:41.874041Z"
+      "last_shown": "2026-10-03T23:47:49.232475Z"
     },
+    {
+      "id": "958011385d54e8fa5853084bcc22e47b",
+      "title": "Cloudflare OHTTP gateway",
+      "summary": null,
+      "why_it_matters": "Cloudflare's OHTTP gateway release provides new architecture options for privacy-preserving HTTP requests.",
+      "item_ids": [
+        "958011385d54e8fa5853084bcc22e47b"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-03T21:08:25.972900Z",
+      "last_shown": "2026-10-03T23:47:49.232475Z"
+    }
+  ],
+  "past_top_stories": [
     {
       "id": "aa73e05f6821921afb7b45c61c33deba",
       "title": "Pop!_OS bans AI-generated code from much of its codebase",
@@ -6701,19 +7017,6 @@
       "primary_url": null,
       "first_shown": "2026-10-03T21:08:25.972900Z",
       "last_shown": "2026-10-03T21:17:41.874041Z"
-    },
-    {
-      "id": "958011385d54e8fa5853084bcc22e47b",
-      "title": "Cloudflare OHTTP gateway",
-      "summary": null,
-      "why_it_matters": "Cloudflare introduces an OHTTP gateway implementation to enhance privacy for web requests.",
-      "item_ids": [
-        "958011385d54e8fa5853084bcc22e47b"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-03T21:08:25.972900Z",
-      "last_shown": "2026-10-03T21:17:41.874041Z"
     }
-  ],
-  "past_top_stories": []
+  ]
 }
