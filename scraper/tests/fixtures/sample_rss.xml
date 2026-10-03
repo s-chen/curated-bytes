@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Sample Tech Feed</title>
+    <link>https://example.com</link>
+    <description>Fixture feed</description>
+    <item>
+      <title>Rust 2.0 &amp; the future</title>
+      <link>https://example.com/rust-2?utm_source=rss</link>
+      <description>&lt;p&gt;The &lt;b&gt;Rust&lt;/b&gt; team announces things.&lt;/p&gt;</description>
+      <pubDate>Fri, 02 Oct 2026 10:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>No date item</title>
+      <link>https://example.com/no-date</link>
+    </item>
+    <item>
+      <title></title>
+      <link>https://example.com/no-title</link>
+    </item>
+  </channel>
+</rss>

@@ -14,6 +14,12 @@ Aggregates tech news and screens job postings against a CV, served as a static d
 ## Data Flow
 `RSS + Greenhouse/Lever APIs → dedupe (MD5 of URL) → Gemini (cluster/summarise news, score jobs vs CV) → news.json / jobs.json → npm run build → GitHub Pages`, with a Slack alert on high-match jobs.
 
+## Commands
+- News sources live in `scraper/config/news_sources.json` (`id`, `name`, `url`, `category`, optional `enabled`).
+- `docker compose run --rm tests`: scraper test suite.
+- `docker compose run --rm scraper`: fetch feeds into `web-dashboard/public/news.json`.
+- Without Docker (from `scraper/`): `pip install -e ".[dev]"`, then `pytest` and `python -m scraper`.
+
 ## Rules
 1. **Keep it decoupled.** `scraper/` and `web-dashboard/` share no runtime code. The only contract is the JSON files.
 2. **Schema parity.** Pydantic output models in `scraper/` must match the `NewsItem` and `JobItem` TypeScript interfaces in `web-dashboard/src/App.tsx`. Change both together.
