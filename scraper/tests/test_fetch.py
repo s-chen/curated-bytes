@@ -256,3 +256,43 @@ def test_items_are_dated_no_later_than_fetch(source, rss_bytes):
         i.published_at is None or i.published_at <= later
         for i in fetch.parse_feed(rss_bytes, source, later)
     )
+
+
+def test_hn_boilerplate_becomes_discussion_stats(source):
+    content = rss(
+        """<title>Show me</title><link>https://example.com/a</link>
+        <comments>https://news.ycombinator.com/item?id=1</comments>
+        <description><![CDATA[<p>Article URL: <a href="https://example.com/a">https://example.com/a</a></p>
+        <p>Comments URL: <a href="https://news.ycombinator.com/item?id=1">x</a></p>
+        <p>Points: 312</p><p># Comments: 145</p>]]></description>"""
+    )
+    [item] = fetch.parse_feed(content, source, NOW)
+    assert (item.points, item.comments, item.summary) == (312, 145, None)
+    assert item.discussion_url == "https://news.ycombinator.com/item?id=1"
+
+
+def test_ask_hn_text_is_kept_without_boilerplate():
+    text, points, comments = fetch.discussion_stats(
+        "What do you use for backups? Comments URL: https://news.ycombinator.com/item?id=2 Points: 9 # Comments: 4"
+    )
+    assert (text, points, comments) == ("What do you use for backups?", 9, 4)
+
+
+def test_lobsters_comments_link_becomes_discussion_url(source):
+    content = rss(
+        """<title>Zig 0.17</title><link>https://ziglang.org/x</link>
+        <comments>https://lobste.rs/s/abc/zig</comments>
+        <description>&lt;p&gt;&lt;a href="https://lobste.rs/s/abc/zig"&gt;Comments&lt;/a&gt;&lt;/p&gt;</description>"""
+    )
+    [item] = fetch.parse_feed(content, source, NOW)
+    assert (item.summary, item.points, item.comments) == (None, None, None)
+    assert item.discussion_url == "https://lobste.rs/s/abc/zig"
+
+
+def test_unsafe_discussion_link_is_dropped(source):
+    content = rss(
+        """<title>T</title><link>https://example.com/t</link>
+        <comments>javascript:alert(1)</comments>"""
+    )
+    [item] = fetch.parse_feed(content, source, NOW)
+    assert item.discussion_url is None

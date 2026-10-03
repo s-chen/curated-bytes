@@ -3,8 +3,12 @@ import {
   filterItems,
   formatAge,
   groupByDay,
+  MAX_DISPLAYED,
+  byImportance,
+  isNewSince,
   isSafeUrl,
   loadFeed,
+  resolveTopStories,
   sourceCounts,
 } from './news.ts'
 import { NOW, makeItem, stubFetch } from './test-utils.ts'
@@ -37,7 +41,37 @@ describe('loadFeed', () => {
     const result = await loadFeed('/news.json')
 
     expect(result.items.map((i) => i.id)).toEqual(['good'])
+    expect(result.items[0]).toMatchObject({ discussion_url: null, points: null, comments: null })
+    expect(result.top_stories).toEqual([])
     expect(fetchMock).toHaveBeenCalledWith('/news.json', expect.objectContaining({ cache: 'no-cache' }))
+  })
+
+  it('shows only kept items, newest first, at most MAX_DISPLAYED', async () => {
+    const kept = Array.from({ length: MAX_DISPLAYED + 5 }, (_, n) => makeItem(`k${n}`, null))
+    stubFetch({
+      generated_at: NOW.toISOString(),
+      items: [
+        makeItem('pending', null, { review: 'pending' }),
+        makeItem('excluded', null, { review: 'excluded' }),
+        { ...makeItem('missing', null), review: undefined },
+        ...kept,
+      ],
+    })
+
+    const { items } = await loadFeed('/news.json')
+
+    expect(items).toHaveLength(MAX_DISPLAYED)
+    expect(items[0].id).toBe('k0')
+    expect(items.at(-1)?.id).toBe(`k${MAX_DISPLAYED - 1}`)
+  })
+
+  it('drops unsafe discussion links and bad counts', async () => {
+    stubFetch({
+      generated_at: NOW.toISOString(),
+      items: [makeItem('a', null, { discussion_url: 'javascript:x', points: -1, comments: 1.5 } as never)],
+    })
+    const [item] = (await loadFeed('/news.json')).items
+    expect(item).toMatchObject({ discussion_url: null, points: null, comments: null })
   })
 
   it('throws on an HTTP error', async () => {
@@ -128,5 +162,60 @@ describe('formatAge', () => {
     [2 * 86_400_000, '2d ago'],
   ])('%i ms -> %s', (elapsed, expected) => {
     expect(formatAge(new Date(NOW.getTime() - elapsed), NOW)).toBe(expected)
+  })
+})
+
+describe('isNewSince', () => {
+  const item = makeItem('a', '2026-10-01T00:00:00Z', { fetched_at: '2026-10-03T11:00:00.123456Z' })
+
+  it('compares the fetch time, not the publish time', () => {
+    expect(isNewSince(item, new Date('2026-10-03T10:00:00Z'))).toBe(true)
+    // Same run as the last visit (JS dates drop the scraper's microseconds): already seen.
+    expect(isNewSince(item, new Date('2026-10-03T11:00:00.123Z'))).toBe(false)
+    expect(isNewSince(item, new Date('2026-10-03T11:00:01Z'))).toBe(false)
+  })
+
+  it('is never new on a first visit', () => {
+    expect(isNewSince(item, null)).toBe(false)
+  })
+})
+
+describe('top stories', () => {
+  const a = makeItem('a', null, { source_id: 'one' })
+  const b = makeItem('b', null, { source_id: 'two' })
+  const c = makeItem('c', null, { source_id: 'one' })
+  const story = (id: string, item_ids: string[]) => ({ id, title: id, summary: null, why_it_matters: null, item_ids })
+
+  it('loadFeed keeps well-formed top stories only', async () => {
+    stubFetch({
+      generated_at: NOW.toISOString(),
+      items: [a, b],
+      top_stories: [story('ok', ['a', 'b']), { id: 'bad', title: 1, item_ids: [] }, null],
+    })
+    expect((await loadFeed('/news.json')).top_stories.map((s) => s.id)).toEqual(['ok'])
+  })
+
+  it('resolves items lead first, keeps single-source standouts, drops stories with no shown items', () => {
+    const resolved = resolveTopStories(
+      [story('two-sources', ['b', 'missing', 'a']), story('standout', ['c']), story('gone', ['x', 'y'])],
+      [a, b, c],
+    )
+    expect(resolved.map((r) => [r.story.id, r.items.map((i) => i.id)])).toEqual([
+      ['two-sources', ['b', 'a']],
+      ['standout', ['c']],
+    ])
+  })
+})
+
+describe('byImportance', () => {
+  it('orders by score, unscored last, keeping order for ties', () => {
+    const items = [
+      makeItem('new-2', null, { importance: 2 }),
+      makeItem('new-null', null),
+      makeItem('new-5', null, { importance: 5 }),
+      makeItem('old-2', null, { importance: 2 }),
+      makeItem('old-5', null, { importance: 5 }),
+    ]
+    expect(byImportance(items).map((i) => i.id)).toEqual(['new-5', 'old-5', 'new-2', 'old-2', 'new-null'])
   })
 })

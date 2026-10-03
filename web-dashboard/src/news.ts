@@ -1,4 +1,7 @@
-import type { NewsFeed, NewsItem } from './App.tsx'
+import type { NewsFeed, NewsItem, TopStory } from './App.tsx'
+
+/** The dashboard shows at most this many stories: the newest reviewed ones. */
+export const MAX_DISPLAYED = 100
 
 const MINUTE = 60_000
 const HOUR = 60 * MINUTE
@@ -27,7 +30,35 @@ function isRenderable(item: unknown): item is NewsItem {
   )
 }
 
-/** Fetch and sanity-check `news.json`. Items that can't be rendered safely are dropped. */
+function isTopStory(story: unknown): story is TopStory {
+  if (typeof story !== 'object' || story === null) return false
+  const { id, title, item_ids } = story as Record<string, unknown>
+  return (
+    typeof id === 'string' &&
+    typeof title === 'string' &&
+    Array.isArray(item_ids) &&
+    item_ids.every((i) => typeof i === 'string')
+  )
+}
+
+const countOrNull = (value: unknown) =>
+  typeof value === 'number' && Number.isInteger(value) && value >= 0 ? value : null
+
+/** Fields added after the first release may be missing from older files; links must be safe. */
+function normaliseItem(item: NewsItem): NewsItem {
+  return {
+    ...item,
+    discussion_url: isSafeUrl(item.discussion_url) ? item.discussion_url : null,
+    points: countOrNull(item.points),
+    comments: countOrNull(item.comments),
+    importance: typeof item.importance === 'number' ? item.importance : null,
+  }
+}
+
+/**
+ * Fetch and sanity-check `news.json`. Keeps only items Gemini reviewed and kept (newest
+ * `MAX_DISPLAYED`, as the file is newest first), and drops any that can't render safely.
+ */
 export async function loadFeed(url: string, signal?: AbortSignal): Promise<NewsFeed> {
   const response = await fetch(url, { cache: 'no-cache', signal })
   if (!response.ok) throw new Error(`HTTP ${response.status} loading news.json`)
@@ -37,15 +68,50 @@ export async function loadFeed(url: string, signal?: AbortSignal): Promise<NewsF
   } catch {
     throw new Error('news.json is not valid JSON')
   }
-  const { generated_at, items } = (data ?? {}) as Record<string, unknown>
+  const { generated_at, items, top_stories } = (data ?? {}) as Record<string, unknown>
   if (typeof generated_at !== 'string' || !Array.isArray(items)) {
     throw new Error('news.json is not in the expected format')
   }
-  return { generated_at, items: items.filter(isRenderable) }
+  return {
+    generated_at,
+    items: items
+      .filter((item) => isRenderable(item) && item.review === 'kept')
+      .slice(0, MAX_DISPLAYED)
+      .map(normaliseItem),
+    // Optional: absent in files written before top stories existed.
+    top_stories: Array.isArray(top_stories)
+      ? top_stories.filter(isTopStory).map((story) => ({
+          ...story,
+          why_it_matters: typeof story.why_it_matters === 'string' ? story.why_it_matters : null,
+        }))
+      : [],
+  }
+}
+
+export interface ResolvedStory {
+  story: TopStory
+  /** Lead first. */
+  items: NewsItem[]
+}
+
+/** Attach items to top stories, dropping any story none of whose items are shown. */
+export function resolveTopStories(stories: TopStory[], items: NewsItem[]): ResolvedStory[] {
+  const byId = new Map(items.map((item) => [item.id, item]))
+  const resolved: ResolvedStory[] = []
+  for (const story of stories) {
+    const members = story.item_ids.flatMap((id) => byId.get(id) ?? [])
+    if (members.length > 0) resolved.push({ story, items: members })
+  }
+  return resolved
 }
 
 export function itemDate(item: NewsItem): Date {
   return new Date(item.published_at ?? item.fetched_at)
+}
+
+/** Whether the scraper first saw `item` after the reader's last visit. Never true on a first visit. */
+export function isNewSince(item: NewsItem, lastVisit: Date | null): boolean {
+  return lastVisit !== null && new Date(item.fetched_at).getTime() > lastVisit.getTime()
 }
 
 export function hostname(url: string): string {
@@ -83,6 +149,11 @@ export function filterItems(
       text.toLowerCase().includes(needle),
     )
   })
+}
+
+/** Most important first (unscored last); equal scores keep their order, i.e. newest first. */
+export function byImportance(items: NewsItem[]): NewsItem[] {
+  return items.toSorted((a, b) => (b.importance ?? 0) - (a.importance ?? 0))
 }
 
 export interface DayGroup {

@@ -13,7 +13,7 @@ from pathlib import Path
 from pydantic import ValidationError
 
 from scraper.dedupe import item_id
-from scraper.models import NewsFeed, NewsItem
+from scraper.models import NewsFeed, NewsItem, TopStory
 
 log = logging.getLogger(__name__)
 
@@ -64,14 +64,26 @@ def merge(
 ) -> list[NewsItem]:
     """Dedupe by id, drop items older than `max_age`, sort newest first, cap at `max_items`.
 
-    An item already in `existing` keeps its original `fetched_at`. Undated items are aged by
+    An item already in `existing` keeps its original `fetched_at` (and review and score),
+    but takes the fresh copy's discussion counts. Undated items are aged by
     `fetched_at`, so one that is still in its feed is kept past `max_age`. Otherwise it would
     be pruned and then re-fetched as new on the next run.
     """
     fresh_ids = {item.id for item in fresh}
     by_id: dict[str, NewsItem] = {}
     for item in [*existing, *fresh]:
-        by_id.setdefault(item.id, item)
+        kept = by_id.setdefault(item.id, item)
+        if kept is not item and item.discussion_url:
+            # Discussion counts grow between runs: take the latest, keep everything else. The
+            # summary too, as aggregator summaries are mostly the boilerplate those come from.
+            by_id[item.id] = kept.model_copy(
+                update={
+                    "summary": item.summary,
+                    "discussion_url": item.discussion_url,
+                    "points": item.points,
+                    "comments": item.comments,
+                }
+            )
 
     cutoff = now - max_age
 
@@ -85,7 +97,12 @@ def merge(
     return kept[:max_items]
 
 
-def write_feed(path: Path, items: list[NewsItem], generated_at: datetime) -> None:
+def write_feed(
+    path: Path,
+    items: list[NewsItem],
+    generated_at: datetime,
+    top_stories: list[TopStory] | None = None,
+) -> None:
     """Write atomically so the dashboard never reads a half-written file.
 
     The parent directory must already exist: a wrong path should fail, not create
@@ -93,7 +110,8 @@ def write_feed(path: Path, items: list[NewsItem], generated_at: datetime) -> Non
     """
     if not path.parent.is_dir():
         raise StoreError(f"Output directory does not exist: {path.parent}")
-    payload = NewsFeed(generated_at=generated_at, items=items).model_dump_json(indent=2)
+    feed = NewsFeed(generated_at=generated_at, items=items, top_stories=top_stories or [])
+    payload = feed.model_dump_json(indent=2)
     with tempfile.NamedTemporaryFile(
         "w", encoding="utf-8", dir=path.parent, prefix=f".{path.name}.", suffix=".tmp", delete=False
     ) as tmp:

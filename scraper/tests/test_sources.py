@@ -19,6 +19,12 @@ def test_repo_sources_file_is_valid():
     sources = load_sources(REPO_SOURCES)
     assert sources, "news_sources.json should have at least one enabled source"
     assert all(s.category == "tech" for s in sources)
+    assert {s.weight for s in sources} > {1}, "major outlets should outweigh small sites"
+
+
+def test_weight_defaults_to_one(tmp_path):
+    path = _write(tmp_path, [{"id": "a", "name": "A", "url": "https://a.example/feed"}])
+    assert load_sources(path)[0].weight == 1
 
 
 def test_disabled_sources_are_skipped(tmp_path):
@@ -50,6 +56,8 @@ def test_duplicate_ids_rejected(tmp_path):
         {"id": "a", "name": "A", "url": "not-a-url"},
         {"id": "Bad Id", "name": "A", "url": "https://a.example/feed"},
         {"name": "A", "url": "https://a.example/feed"},
+        {"id": "a", "name": "A", "url": "https://a.example/feed", "weight": 0},
+        {"id": "a", "name": "A", "url": "https://a.example/feed", "weight": 4},
     ],
 )
 def test_invalid_source_rejected(tmp_path, bad):

@@ -27,6 +27,20 @@ def test_merge_dedupes_and_keeps_existing_copy():
     assert merged[1].fetched_at == NOW - timedelta(hours=1)
 
 
+def test_merge_refreshes_discussion_counts_but_keeps_the_rest():
+    old = make_item(
+        "a", NOW - timedelta(hours=2), fetched_at=NOW - timedelta(hours=1),
+        review="kept", importance=4, discussion_url="https://news.ycombinator.com/item?id=1",
+        points=6, comments=0, summary="Article URL: x Points: 6",
+    )
+    new = old.model_copy(update={"fetched_at": NOW, "review": "pending", "importance": None, "points": 300, "comments": 120, "summary": None})
+
+    [merged] = merge([old], [new], now=NOW, max_age=WEEK, max_items=10)
+
+    assert (merged.points, merged.comments, merged.summary) == (300, 120, None)
+    assert (merged.fetched_at, merged.review, merged.importance) == (old.fetched_at, "kept", 4)
+
+
 def test_merge_drops_stale_items_and_caps():
     items = [make_item(str(n), NOW - timedelta(days=n)) for n in range(10)]
 

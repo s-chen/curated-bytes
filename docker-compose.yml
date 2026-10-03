@@ -1,5 +1,6 @@
 # Local testing only. Production runs on the GitHub Actions hourly cron.
 #   docker compose run --rm scraper   # fetch feeds -> web-dashboard/public/news.json
+#                                     # (top stories too if GEMINI_API_KEY is exported)
 #   docker compose run --rm tests     # run the scraper test suite
 #   docker compose up dashboard       # dashboard dev server on http://localhost:5173
 #   docker compose run --rm dashboard npm test   # dashboard tests (also: lint, build)
@@ -14,6 +15,10 @@ services:
       context: ./scraper
       target: runtime
     user: "${HOST_UID:-1000}:${HOST_GID:-1000}"
+    environment:
+      # Passed through from your shell when set; never put the key in this file.
+      - GEMINI_API_KEY
+      - GEMINI_MODEL
     volumes:
       # Edit code and sources without rebuilding.
       - ./scraper/src:/app/src:ro

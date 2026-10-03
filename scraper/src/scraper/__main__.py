@@ -8,12 +8,17 @@ import argparse
 import logging
 import os
 import sys
+from collections import Counter
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 from pydantic import ValidationError
 
+from scraper.editor import DEFAULT_MODEL, EditorError, apply_review, run_editor
 from scraper.fetch import fetch_all
+from scraper.filters import apply_rules
+from scraper.models import NewsItem, TopStory
+from scraper.sites import format_report, site_report
 from scraper.sources import load_sources
 from scraper.store import StoreError, load_existing, merge, write_feed
 
@@ -49,16 +54,57 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
         default=0.5,
         help="exit %d (after writing) if more than this share of sources fail" % EXIT_DEGRADED,
     )
+    parser.add_argument(
+        "--sites",
+        action="store_true",
+        help="print the site report (sites aggregators link to that we don't follow) and exit",
+    )
+    parser.add_argument("--min-links", type=int, default=3, help="for --sites (default: 3)")
     parser.add_argument("-v", "--verbose", action="store_true")
     return parser.parse_args(argv)
 
 
+def _github_warning(title: str, message: str) -> None:
+    """Surface a problem as a GitHub Actions warning, so it's visible in the run summary."""
+    if os.environ.get("GITHUB_ACTIONS") == "true":
+        print(f"::warning title={title}::{message}")
+
+
 def _annotate_failures(failed: list[str]) -> None:
-    """Surface failed feeds as GitHub Actions warnings, so a dead feed is visible in the run."""
-    if os.environ.get("GITHUB_ACTIONS") != "true":
-        return
     for source_id in failed:
-        print(f"::warning title=Feed failed::Source '{source_id}' could not be fetched")
+        _github_warning("Feed failed", f"Source '{source_id}' could not be fetched")
+
+
+def _review(
+    items: list[NewsItem], now: datetime, weights: dict[str, int]
+) -> tuple[list[NewsItem], list[TopStory]]:
+    """Review pending items and pick top stories with Gemini.
+
+    Rule-based exclusions apply first, so Gemini never sees those items. Without an API key,
+    or if Gemini fails, the rest stay pending (hidden) until a later run reviews them.
+    """
+    items, rule_excluded = apply_rules(items)
+    by_id = {i.id: i for i in items}
+    for item_id, reason in rule_excluded.items():
+        log.info("Excluded by rule (%s): %s", reason, by_id[item_id].title)
+
+    api_key = os.environ.get("GEMINI_API_KEY")
+    if not api_key:
+        log.warning("GEMINI_API_KEY not set: new stories stay pending and are not shown")
+        return items, []
+    model = os.environ.get("GEMINI_MODEL") or DEFAULT_MODEL
+    try:
+        result = run_editor(items, now, api_key, weights, model=model)
+    except EditorError as exc:
+        log.warning("Gemini review skipped; new stories stay pending: %s", exc)
+        _github_warning("Gemini review skipped", str(exc))
+        return items, []
+
+    for item_id, reason in result.excluded.items():
+        if by_id[item_id].review == "pending":
+            log.info("Excluded by Gemini (%s): %s", reason, by_id[item_id].title)
+    log.info("Gemini (%s) reviewed %d items; %d top stories", model, len(result.reviewed), len(result.top_stories))
+    return apply_review(items, result), result.top_stories
 
 
 def run(args: argparse.Namespace) -> int:
@@ -82,6 +128,10 @@ def run(args: argparse.Namespace) -> int:
         log.error("%s. Fix or delete it, then re-run.", exc)
         return EXIT_FAILED
 
+    if args.sites:
+        print(format_report(site_report(existing, sources, args.min_links), existing, args.min_links))
+        return EXIT_OK
+
     now = datetime.now(timezone.utc)
     fresh, failed = fetch_all(sources, fetched_at=now)
     _annotate_failures(failed)
@@ -96,16 +146,19 @@ def run(args: argparse.Namespace) -> int:
         max_age=timedelta(days=args.max_age_days),
         max_items=args.max_items,
     )
+    items, top_stories = _review(items, now, weights={s.id: s.weight for s in sources})
     try:
-        write_feed(args.output, items, generated_at=now)
+        write_feed(args.output, items, generated_at=now, top_stories=top_stories)
     except (OSError, StoreError) as exc:
         log.error("Can't write %s: %s", args.output.resolve(), exc)
         return EXIT_FAILED
 
     new_count = len({i.id for i in items} - {i.id for i in existing})
+    reviews = Counter(i.review for i in items)
     log.info(
-        "Wrote %d items (%d new) to %s; %d/%d sources failed%s",
-        len(items), new_count, args.output, len(failed), len(sources),
+        "Wrote %d items (%d new; %d kept, %d excluded, %d pending) to %s; %d/%d sources failed%s",
+        len(items), new_count, reviews["kept"], reviews["excluded"], reviews["pending"],
+        args.output, len(failed), len(sources),
         f": {', '.join(failed)}" if failed else "",
     )
 

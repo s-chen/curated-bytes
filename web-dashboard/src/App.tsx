@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState, type KeyboardEvent, type ReactNode } from 'react'
 import { NewsTab } from './NewsTab.tsx'
-import { formatAge, loadFeed } from './news.ts'
+import { useLastVisit } from './lastVisit.ts'
+import { formatAge, isNewSince, loadFeed } from './news.ts'
 
 /** Must match `NewsItem` in scraper/src/scraper/models.py. Change both together. */
 export interface NewsItem {
@@ -15,17 +16,43 @@ export interface NewsItem {
   published_at: string | null
   /** ISO 8601, UTC. When the scraper first saw the item. */
   fetched_at: string
+  /** Set by the Gemini review. Only "kept" items are shown. */
+  /** Discussion thread (Hacker News, Lobsters) and its activity, when the feed has it. */
+  discussion_url: string | null
+  points: number | null
+  comments: number | null
+  review: 'pending' | 'kept' | 'excluded'
+  /** Gemini's 1-5 importance score. Null until scored. */
+  importance: number | null
+}
+
+/**
+ * Must match `TopStory` in scraper/src/scraper/models.py. An event covered by several
+ * sources, or on quiet days a standout single-source story.
+ */
+export interface TopStory {
+  /** Id of the lead item. */
+  id: string
+  title: string
+  summary: string | null
+  /** One sentence on why it matters to software engineers. */
+  why_it_matters: string | null
+  /** Lead first. */
+  item_ids: string[]
 }
 
 /** Must match `NewsFeed` in scraper/src/scraper/models.py. */
 export interface NewsFeed {
   generated_at: string
   items: NewsItem[]
+  top_stories: TopStory[]
 }
 
 const NEWS_URL = `${import.meta.env.BASE_URL}news.json`
 /** The scraper runs hourly; older than this means runs are failing. */
 const STALE_AFTER_MS = 3 * 60 * 60 * 1000
+/** Re-fetch so a tab left open picks up new runs (and its title count updates). */
+const REFRESH_MS = 10 * 60 * 1000
 
 type Tab = 'news' | 'jobs'
 const TABS: { id: Tab; label: string }[] = [
@@ -59,15 +86,35 @@ export default function App() {
   const now = useNow()
 
   useEffect(() => {
-    const controller = new AbortController()
-    loadFeed(NEWS_URL, controller.signal)
-      .then((feed) => setState({ status: 'ready', feed }))
-      .catch((error: unknown) => {
-        if (controller.signal.aborted) return
-        setState({ status: 'error', message: error instanceof Error ? error.message : String(error) })
-      })
-    return () => controller.abort()
+    let controller: AbortController | undefined
+    function refresh() {
+      controller?.abort()
+      controller = new AbortController()
+      const { signal } = controller
+      loadFeed(NEWS_URL, signal)
+        .then((feed) => setState({ status: 'ready', feed }))
+        .catch((error: unknown) => {
+          if (signal.aborted) return
+          const message = error instanceof Error ? error.message : String(error)
+          // A failed background refresh keeps showing the data we already have.
+          setState((prev) => (prev.status === 'ready' ? prev : { status: 'error', message }))
+        })
+    }
+    refresh()
+    const timer = setInterval(refresh, REFRESH_MS)
+    return () => {
+      clearInterval(timer)
+      controller?.abort()
+    }
   }, [])
+
+  const feed = state.status === 'ready' ? state.feed : null
+  const lastVisit = useLastVisit(feed?.generated_at ?? null)
+  const newCount = feed ? feed.items.filter((item) => isNewSince(item, lastVisit)).length : 0
+
+  useEffect(() => {
+    document.title = newCount > 0 ? `(${newCount}) CuratedBytes` : 'CuratedBytes'
+  }, [newCount])
 
   function selectTab(next: Tab) {
     setTab(next)
@@ -88,7 +135,7 @@ export default function App() {
 
   return (
     <div className="mx-auto max-w-4xl px-4 pb-12">
-      <header className="sticky top-0 z-10 flex flex-wrap items-center gap-x-6 gap-y-2 border-b border-zinc-200 bg-white/90 py-3 backdrop-blur dark:border-zinc-800 dark:bg-zinc-950/90">
+      <header className="sticky top-0 z-10 flex flex-wrap items-center gap-x-6 gap-y-2 border-b border-zinc-200 bg-zinc-50/90 py-3 backdrop-blur dark:border-zinc-800 dark:bg-zinc-950/90">
         <h1 className="font-mono text-lg font-bold tracking-tight">
           Curated<span className="text-emerald-600 dark:text-emerald-400">Bytes</span>
         </h1>
@@ -156,8 +203,18 @@ export default function App() {
             {state.message}. Locally, generate it with{' '}
             <code className="font-mono">docker compose run --rm scraper</code>.
           </Notice>
+        ) : state.feed.items.length === 0 ? (
+          <Notice title="Nothing to show yet">
+            Stories appear once Gemini has reviewed them. Locally, export{' '}
+            <code className="font-mono">GEMINI_API_KEY</code> before running the scraper.
+          </Notice>
         ) : (
-          <NewsTab items={state.feed.items} now={now} />
+          <NewsTab
+            items={state.feed.items}
+            topStories={state.feed.top_stories}
+            now={now}
+            lastVisit={lastVisit}
+          />
         )}
       </main>
     </div>
