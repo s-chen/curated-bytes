@@ -1,6 +1,23 @@
 {
-  "generated_at": "2026-10-03T20:57:46.771170Z",
+  "generated_at": "2026-10-03T21:08:25.972900Z",
   "items": [
+    {
+      "id": "0c44c10ff5eb708644e1d3b7873dab84",
+      "title": "Customization: Optimizing Compiler Technology for SELF, a Dynamically-Typed Object-Oriented Programming Language (1989)",
+      "url": "https://dl.acm.org/doi/epdf/10.1145/74818.74831",
+      "source_id": "lobsters",
+      "source_name": "Lobsters",
+      "category": "tech",
+      "summary": "Dynamically-typed object-oriented languages please programmers, but their lack of static type information penalizes performance. Our new implementation techniques extract static type information from declaration-free programs. Our system compiles several copies of a given procedure, each customized for one receiver type, so that the type of the receiver is bound at compile time. The compiler predicts types that are statically unknown but likely, and inserts run-time type tests to verify its…",
+      "published_at": "2026-10-03T20:59:46Z",
+      "fetched_at": "2026-10-03T21:08:25.972900Z",
+      "discussion_url": "https://lobste.rs/s/dqp0oc/customization_optimizing_compiler",
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "review": "kept",
+      "importance": 3
+    },
     {
       "id": "47d7bc84c84eddea1905b4b68239e2a9",
       "title": "System-level ad-blocking in Android",
@@ -15,7 +32,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
+      "review": "excluded",
       "importance": null
     },
     {
@@ -32,7 +49,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
+      "review": "excluded",
       "importance": null
     },
     {
@@ -49,7 +66,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
+      "review": "excluded",
       "importance": null
     },
     {
@@ -66,7 +83,7 @@
       "points": 14,
       "comments": 16,
       "engineering": false,
-      "review": "pending",
+      "review": "excluded",
       "importance": null
     },
     {
@@ -83,8 +100,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 4
     },
     {
       "id": "102faf37e92ce8412aaf29e8d68df982",
@@ -100,8 +117,8 @@
       "points": 12,
       "comments": 9,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 2
     },
     {
       "id": "feb12ec34b82d6ce4e9282246de3cc47",
@@ -117,7 +134,7 @@
       "points": 23,
       "comments": 1,
       "engineering": false,
-      "review": "pending",
+      "review": "excluded",
       "importance": null
     },
     {
@@ -134,8 +151,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "40a1652c4a31ce8b0e483c4c32c3a4a4",
@@ -151,7 +168,7 @@
       "points": 7,
       "comments": 0,
       "engineering": false,
-      "review": "pending",
+      "review": "excluded",
       "importance": null
     },
     {
@@ -168,7 +185,7 @@
       "points": 26,
       "comments": 12,
       "engineering": false,
-      "review": "pending",
+      "review": "excluded",
       "importance": null
     },
     {
@@ -202,8 +219,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 4
     },
     {
       "id": "b28cdbe686fbaa165fdf46e722784cf1",
@@ -219,8 +236,8 @@
       "points": 25,
       "comments": 1,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "b273c3e35438354f46086776da03b17d",
@@ -236,7 +253,7 @@
       "points": 164,
       "comments": 135,
       "engineering": false,
-      "review": "pending",
+      "review": "excluded",
       "importance": null
     },
     {
@@ -253,7 +270,7 @@
       "points": 88,
       "comments": 28,
       "engineering": false,
-      "review": "pending",
+      "review": "excluded",
       "importance": null
     },
     {
@@ -270,8 +287,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 4
     },
     {
       "id": "aa73e05f6821921afb7b45c61c33deba",
@@ -287,8 +304,8 @@
       "points": 81,
       "comments": 89,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 4
     },
     {
       "id": "7cca04e08bb114df1fd3fecc5bbb8373",
@@ -304,8 +321,8 @@
       "points": 31,
       "comments": 15,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 2
     },
     {
       "id": "5c8bb9a046fbcac61ef24a0dcbdff2ae",
@@ -321,8 +338,8 @@
       "points": 94,
       "comments": 4,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 2
     },
     {
       "id": "91ac6ac98d2225fac82ba9b8f92e0987",
@@ -338,7 +355,7 @@
       "points": 0,
       "comments": 0,
       "engineering": false,
-      "review": "pending",
+      "review": "excluded",
       "importance": null
     },
     {
@@ -355,8 +372,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "c5e34d281995194d831950320d9b27ea",
@@ -372,8 +389,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 4
     },
     {
       "id": "7ac885447ed6ce4513f27c3ff986297f",
@@ -406,8 +423,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 5
     },
     {
       "id": "8ce0c958ecaedfec358666c4be8d97aa",
@@ -423,8 +440,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "7be21938cd0bc679d69d590b569780f8",
@@ -440,8 +457,8 @@
       "points": 117,
       "comments": 49,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "ee88aba9f3fd46702fb6db388481a77e",
@@ -457,8 +474,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "177ca5e89d7b60729315074e96716734",
@@ -474,8 +491,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 2
     },
     {
       "id": "df810c10196aac66d263b7c5bc07a30e",
@@ -491,7 +508,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
+      "review": "excluded",
       "importance": null
     },
     {
@@ -508,8 +525,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "c333863c691be7819e3affd162814b6f",
@@ -525,8 +542,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 4
     },
     {
       "id": "7247676b6aff132650c8c1ec39083cac",
@@ -542,8 +559,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "f8fc0aa18dcc03fda06c1ff95bc24e12",
@@ -559,8 +576,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 4
     },
     {
       "id": "51b6860f0cc9baaa9199e7baa061dfd3",
@@ -576,8 +593,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 2
     },
     {
       "id": "487d8a65b3c37b146af74564ef626737",
@@ -593,7 +610,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
+      "review": "excluded",
       "importance": null
     },
     {
@@ -610,8 +627,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "c163f019246fe445d0a3dfa46b270b15",
@@ -627,7 +644,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
+      "review": "excluded",
       "importance": null
     },
     {
@@ -644,7 +661,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
+      "review": "excluded",
       "importance": null
     },
     {
@@ -661,7 +678,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
+      "review": "excluded",
       "importance": null
     },
     {
@@ -678,7 +695,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
+      "review": "excluded",
       "importance": null
     },
     {
@@ -695,7 +712,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
+      "review": "excluded",
       "importance": null
     },
     {
@@ -712,8 +729,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 4
     },
     {
       "id": "1e4d62d9254e6e3672a11809d46c421b",
@@ -729,7 +746,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
+      "review": "excluded",
       "importance": null
     },
     {
@@ -746,8 +763,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "91388b01dd4de2ba6cba613f0bc14f80",
@@ -763,8 +780,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 4
     },
     {
       "id": "4f615f638d28f39a4f1b2d5a0caa9f4c",
@@ -780,7 +797,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
+      "review": "excluded",
       "importance": null
     },
     {
@@ -797,8 +814,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "93a7148fb49c00db563e2e47ffbc3c08",
@@ -814,7 +831,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
+      "review": "excluded",
       "importance": null
     },
     {
@@ -831,7 +848,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
+      "review": "excluded",
       "importance": null
     },
     {
@@ -848,8 +865,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "48fd7ce8bcf5e14ea72167365f19c0cd",
@@ -865,8 +882,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "318320e2fc7cf3e1d78258dc2730429d",
@@ -882,8 +899,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 2
     },
     {
       "id": "4100f1465b5fe6777af3dde4afc5a3be",
@@ -899,7 +916,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
+      "review": "excluded",
       "importance": null
     },
     {
@@ -916,8 +933,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "b8314081abd5202e8b5a1c5bab96b9e6",
@@ -933,8 +950,8 @@
       "points": 392,
       "comments": 253,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "4491d85e01b552ad731ce789a7e9ab61",
@@ -950,7 +967,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
+      "review": "excluded",
       "importance": null
     },
     {
@@ -967,7 +984,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
+      "review": "excluded",
       "importance": null
     },
     {
@@ -984,8 +1001,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "b500a5a5ed057d0ff1df4b48c9376a31",
@@ -1001,7 +1018,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
+      "review": "excluded",
       "importance": null
     },
     {
@@ -1018,8 +1035,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 2
     },
     {
       "id": "8825321b4ef8c524b3cd566fc9a63884",
@@ -1035,7 +1052,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
+      "review": "excluded",
       "importance": null
     },
     {
@@ -1154,7 +1171,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
+      "review": "excluded",
       "importance": null
     },
     {
@@ -1171,8 +1188,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 2
     },
     {
       "id": "958011385d54e8fa5853084bcc22e47b",
@@ -1188,8 +1205,8 @@
       "points": 176,
       "comments": 81,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "5c520627e03e0094719d5f370661185e",
@@ -1205,8 +1222,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "c37b77bd912dc1f0a6000179c62dcc6a",
@@ -1222,7 +1239,7 @@
       "points": 414,
       "comments": 121,
       "engineering": false,
-      "review": "pending",
+      "review": "excluded",
       "importance": null
     },
     {
@@ -1239,8 +1256,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 4
     },
     {
       "id": "3eeb840e88f56b707771e7198f719c32",
@@ -1256,8 +1273,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "a4bfb3525fcff61399618a3ffc8a38ec",
@@ -1273,8 +1290,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 4
     },
     {
       "id": "e62423618b01cdf98f0b7cbb4abebb29",
@@ -1290,7 +1307,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
+      "review": "excluded",
       "importance": null
     },
     {
@@ -1307,7 +1324,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
+      "review": "excluded",
       "importance": null
     },
     {
@@ -1324,7 +1341,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
+      "review": "excluded",
       "importance": null
     },
     {
@@ -1341,7 +1358,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
+      "review": "excluded",
       "importance": null
     },
     {
@@ -1358,8 +1375,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "adfa3c0d1fe8219c3001db83d01e9b71",
@@ -1375,8 +1392,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "572d71e2575246edb315ef76f320c3d5",
@@ -1392,8 +1409,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 4
     },
     {
       "id": "bdf3e2d0b22eebd714911778cae05311",
@@ -1409,7 +1426,7 @@
       "points": 107,
       "comments": 18,
       "engineering": false,
-      "review": "pending",
+      "review": "excluded",
       "importance": null
     },
     {
@@ -1426,8 +1443,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 4
     },
     {
       "id": "47c7b703960d06de56660f956eccb12f",
@@ -1443,7 +1460,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
+      "review": "excluded",
       "importance": null
     },
     {
@@ -1460,8 +1477,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 2
     },
     {
       "id": "2fc55967232f4b2041efec58327d0061",
@@ -1477,8 +1494,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "f9df9058658b6647f5eee1a896df8c0b",
@@ -1494,8 +1511,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 5
     },
     {
       "id": "a252d7a9cfc164fca5d046bd6b5483a9",
@@ -1511,7 +1528,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
+      "review": "excluded",
       "importance": null
     },
     {
@@ -1528,8 +1545,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 2
     },
     {
       "id": "a358f140b8e552f5bca0948715a980d1",
@@ -1545,8 +1562,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 4
     },
     {
       "id": "4acafde4bb82defcd3dccdd112ed76f5",
@@ -1562,8 +1579,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "bab7eb2c7a198de46f424be5733966d9",
@@ -1579,8 +1596,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "d4b22925cd2dd5f292941650c9a9bedd",
@@ -1613,7 +1630,7 @@
       "points": 38,
       "comments": 22,
       "engineering": false,
-      "review": "pending",
+      "review": "excluded",
       "importance": null
     },
     {
@@ -1630,8 +1647,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "19c695654e20fa10ec20516494af3c61",
@@ -1647,8 +1664,8 @@
       "points": 538,
       "comments": 320,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "5151870ba9a969acdb36e499526b5b5e",
@@ -1664,8 +1681,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "2a5a84487b6912ed4c54e6f5513b1a00",
@@ -1681,7 +1698,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
+      "review": "excluded",
       "importance": null
     },
     {
@@ -1698,8 +1715,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 4
     },
     {
       "id": "929fe7701ca79e1554e93c726765e7c7",
@@ -1715,7 +1732,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
+      "review": "excluded",
       "importance": null
     },
     {
@@ -1732,8 +1749,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 4
     },
     {
       "id": "f7eb4f7e4375c4336b8f174a2e9f4726",
@@ -1749,8 +1766,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "6dd22826c644905c02f14376ba272397",
@@ -1766,7 +1783,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
+      "review": "excluded",
       "importance": null
     },
     {
@@ -1783,7 +1800,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
+      "review": "excluded",
       "importance": null
     },
     {
@@ -1800,8 +1817,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 5
     },
     {
       "id": "0a62e0816552bf5c4f74406284d854c5",
@@ -1817,8 +1834,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "edef5e5d6249ea7f6978084cff95c00a",
@@ -1834,8 +1851,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "3885433be1d4bba62e86cc92e77f4cbc",
@@ -1851,8 +1868,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "9ec1da4cbaeb0221f01a8ea6adcac33a",
@@ -1868,8 +1885,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 4
     },
     {
       "id": "338fbf4bb8d68a0465e5ff47bab3701e",
@@ -1885,8 +1902,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 5
     },
     {
       "id": "f4dbf2466d666486d293d17559098932",
@@ -1902,8 +1919,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "216738d99e538baa3c116b9364b3d42a",
@@ -1919,8 +1936,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 2
     },
     {
       "id": "209bc24697411e81f4e7052077d9b4f3",
@@ -1936,7 +1953,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
+      "review": "excluded",
       "importance": null
     },
     {
@@ -1953,7 +1970,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
+      "review": "excluded",
       "importance": null
     },
     {
@@ -1970,8 +1987,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 5
     },
     {
       "id": "d8d0407fac797a5bb379118a5ca947c6",
@@ -1987,7 +2004,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
+      "review": "excluded",
       "importance": null
     },
     {
@@ -2004,8 +2021,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "9c2cb64a022c044710aef0dd279359d3",
@@ -2021,7 +2038,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
+      "review": "excluded",
       "importance": null
     },
     {
@@ -2038,8 +2055,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "7dd78f9e97067805f1c96540dc88b256",
@@ -2055,8 +2072,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 5
     },
     {
       "id": "d8bea22f6536e1b40f3febc6f9fdc870",
@@ -2072,7 +2089,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
+      "review": "excluded",
       "importance": null
     },
     {
@@ -2089,8 +2106,8 @@
       "points": null,
       "comments": null,
       "engineering": true,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "c918e3103487f264902cc14d66fe6261",
@@ -2106,8 +2123,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "69d518edb823568997df11423bc2bae2",
@@ -2123,8 +2140,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "a0e10ef354ebbe2a3cba8eaa14a9c2d4",
@@ -2140,8 +2157,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "c249456df0b120950765b1325b90e9cd",
@@ -2157,7 +2174,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
+      "review": "excluded",
       "importance": null
     },
     {
@@ -2174,7 +2191,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
+      "review": "excluded",
       "importance": null
     },
     {
@@ -2191,8 +2208,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "93bdb3b9f37b21361a21d6b924adc467",
@@ -2208,8 +2225,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 4
     },
     {
       "id": "e5ba9a829e20546171d946f8cedda401",
@@ -2225,8 +2242,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 2
     },
     {
       "id": "176feb5e8ed4a0a62fe9e805396be831",
@@ -2242,8 +2259,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "2abff2d08e198965117bb7fc367ec516",
@@ -2259,8 +2276,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "d6eceaf4bbfde16dd76321cb9df734ce",
@@ -2276,8 +2293,8 @@
       "points": null,
       "comments": null,
       "engineering": true,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "3a4d4d9620f19c64c3cac21a8516cd7e",
@@ -2293,7 +2310,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
+      "review": "excluded",
       "importance": null
     },
     {
@@ -2310,8 +2327,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 4
     },
     {
       "id": "c094bc3c87ea7729c2e4f3cb32130548",
@@ -2327,8 +2344,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 2
     },
     {
       "id": "bc1a3cfc7b93001d8e764a60bb27a63e",
@@ -2344,8 +2361,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 2
     },
     {
       "id": "b5eea4926cac880c1fecc59d5bc85258",
@@ -2361,8 +2378,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "e33208ebe6b3a767fa7869d9bf778f89",
@@ -2378,7 +2395,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
+      "review": "excluded",
       "importance": null
     },
     {
@@ -2395,8 +2412,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 4
     },
     {
       "id": "51cd7b632332632d5821d7b61a6bbaa2",
@@ -2412,7 +2429,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
+      "review": "excluded",
       "importance": null
     },
     {
@@ -2429,8 +2446,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "05f5ae43b77b3be6cd2f5030fe7a1b99",
@@ -2446,8 +2463,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 2
     },
     {
       "id": "6a52e82d98759475dbe30249d8713547",
@@ -2463,8 +2480,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 4
     },
     {
       "id": "fd2f04d8d07d5e9336fb45a59d74632b",
@@ -2480,7 +2497,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
+      "review": "excluded",
       "importance": null
     },
     {
@@ -2497,8 +2514,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "84bc8c6946481e6830293bab415d33af",
@@ -2514,8 +2531,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 2
     },
     {
       "id": "a82410fe6cf4b9d9847f958a99b493ec",
@@ -2531,8 +2548,8 @@
       "points": null,
       "comments": null,
       "engineering": true,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 4
     },
     {
       "id": "afcb4b4a0c944361c96ac8fada8d09a3",
@@ -2548,8 +2565,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "2ee6aaeb477402268dc965ce6ade879e",
@@ -2565,8 +2582,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "bfc738fcb430a9707b3d727fbd49e3ac",
@@ -2582,8 +2599,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "60aea6e3c7983602d15410a2150db4e2",
@@ -2599,8 +2616,8 @@
       "points": null,
       "comments": null,
       "engineering": true,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "6b0c578c79fbf351725e000a7953fbce",
@@ -2616,8 +2633,8 @@
       "points": null,
       "comments": null,
       "engineering": true,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 4
     },
     {
       "id": "6925d8118b0fb32a0e3aaacff465572f",
@@ -2633,8 +2650,8 @@
       "points": null,
       "comments": null,
       "engineering": true,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "5381bdeed753c21074e21765f27efdb6",
@@ -2650,8 +2667,8 @@
       "points": null,
       "comments": null,
       "engineering": true,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "47d9020af99a23f02dc1b1d91cde4756",
@@ -2667,8 +2684,8 @@
       "points": null,
       "comments": null,
       "engineering": true,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "b4ebfc752bb09aedebb88d692e6b9fcb",
@@ -2684,8 +2701,8 @@
       "points": null,
       "comments": null,
       "engineering": true,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 2
     },
     {
       "id": "b410f3e8a38059a2338d9f555a02ee60",
@@ -2701,8 +2718,8 @@
       "points": null,
       "comments": null,
       "engineering": true,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "80e197797caa380b981d41fcebe04059",
@@ -2718,8 +2735,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "9a80dbbaa7d71510c8ae35b62c67c1f0",
@@ -2735,8 +2752,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 5
     },
     {
       "id": "a59e697762a83a64256af1b8c1a1c6b8",
@@ -2752,8 +2769,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 2
     },
     {
       "id": "08b82521504451a404ae35f293664a32",
@@ -2769,8 +2786,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "84138d35e022ada6257e993e3735d0ec",
@@ -2786,8 +2803,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "15ba6e88a0cfe4a1d4e2a22076e16aa4",
@@ -2803,8 +2820,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 4
     },
     {
       "id": "45808a7961a218c479cd24e919e79497",
@@ -2820,8 +2837,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 4
     },
     {
       "id": "26bc0d08a5257a525040b26625b76f20",
@@ -2837,7 +2854,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
+      "review": "excluded",
       "importance": null
     },
     {
@@ -2854,8 +2871,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "b0ae063b093dcd13ece256379cc8b24e",
@@ -2871,8 +2888,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "6bf98cf5c2bf34d06de227637f0b3c10",
@@ -2888,8 +2905,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "c55d80dd6bac3883666547224956a0ec",
@@ -2905,8 +2922,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 5
     },
     {
       "id": "ef3458b1648a5d41db27cad42a27417a",
@@ -2922,8 +2939,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "98d26c4c5aff473bbaea96fd6390b755",
@@ -2939,7 +2956,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
+      "review": "excluded",
       "importance": null
     },
     {
@@ -2956,8 +2973,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "0f9ab159f30d63b9de023a7ad4801da7",
@@ -2973,8 +2990,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 2
     },
     {
       "id": "7fd27921e251c7e4c390345c2ab5c1f8",
@@ -2990,7 +3007,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
+      "review": "excluded",
       "importance": null
     },
     {
@@ -3007,8 +3024,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 2
     },
     {
       "id": "c5b80a289faa42d839b332cda55b614d",
@@ -3024,8 +3041,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 4
     },
     {
       "id": "173fb77dffd20cab47cdd1d2180c275e",
@@ -3041,8 +3058,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "0971de1f862033765883ae7933665a5e",
@@ -3058,7 +3075,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
+      "review": "excluded",
       "importance": null
     },
     {
@@ -3075,8 +3092,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 4
     },
     {
       "id": "ca1d83cd2e51b914e5b080b1b9d87b00",
@@ -3092,8 +3109,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "4cf77c0eca1efbf574fc544b6b7a05a0",
@@ -6547,6 +6564,137 @@
       "importance": null
     }
   ],
-  "top_stories": [],
+  "top_stories": [
+    {
+      "id": "f3a84680885ca90d2554f6ce493fd821",
+      "title": "Apple tightens macOS Full Disk Access permissions over AI agent risks",
+      "summary": "Apple is rolling out new limits and controls for Full Disk Access on macOS to curb potential security abuse from AI agents. The company warns that increasingly capable AI agents substantially increase the risk of broad access to user data.",
+      "why_it_matters": "Developers and users must adapt to stricter macOS permission boundaries designed to mitigate autonomous agent risks.",
+      "item_ids": [
+        "f3a84680885ca90d2554f6ce493fd821",
+        "f9df9058658b6647f5eee1a896df8c0b",
+        "a4bfb3525fcff61399618a3ffc8a38ec"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-03T21:08:25.972900Z",
+      "last_shown": "2026-10-03T21:08:25.972900Z"
+    },
+    {
+      "id": "7dd78f9e97067805f1c96540dc88b256",
+      "title": "Critical GitLab AI Gateway and path-traversal vulnerabilities patched",
+      "summary": "GitLab has issued security patches for a critical path-traversal vulnerability and a severe AI Gateway flaw that allows command execution on self-hosted instances. The AI Gateway issue lets logged-in users with Duo Agent Platform access run commands under certain conditions, and exploitation in the wild has been confirmed.",
+      "why_it_matters": "Administrators must immediately patch self-managed GitLab instances to prevent unauthenticated data exfiltration and remote code execution.",
+      "item_ids": [
+        "7dd78f9e97067805f1c96540dc88b256",
+        "a1e941e4845f47f93322c8789baf6afd",
+        "338fbf4bb8d68a0465e5ff47bab3701e"
+      ],
+      "primary_url": "https://docs.gitlab.com/releases/patches/other-patches/patch-release-gitlab-ai-gateway-19-4-1-released",
+      "first_shown": "2026-10-03T21:08:25.972900Z",
+      "last_shown": "2026-10-03T21:08:25.972900Z"
+    },
+    {
+      "id": "15ba6e88a0cfe4a1d4e2a22076e16aa4",
+      "title": "Amazon stops using non-disclosure agreements for data centers",
+      "summary": "Amazon Web Services has announced that it will no longer use non-disclosure agreements with county officials regarding data centers. The change comes in response to widespread community backlash and growing moratoriums against data center pollution.",
+      "why_it_matters": "This shift in transparency affects how infrastructure projects and community negotiations are handled for cloud operations.",
+      "item_ids": [
+        "15ba6e88a0cfe4a1d4e2a22076e16aa4",
+        "7491d19e28584bde3067bd8b70e4c54f",
+        "ca075215a656f50769be49db0ac03ebc"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-03T21:08:25.972900Z",
+      "last_shown": "2026-10-03T21:08:25.972900Z"
+    },
+    {
+      "id": "f3c415f2f6ea74708abc33f068ee0035",
+      "title": "Meta open sources Muse AI agent code for hardware devices",
+      "summary": "Meta is open-sourcing the code for its Muse AI agent to let developers integrate it into consumer hardware gadgets and displays. Millions have downloaded the agent, but its use comes with privacy considerations.",
+      "why_it_matters": "Developers gain open-source access to Meta's AI agent stack for hardware integration.",
+      "item_ids": [
+        "f3c415f2f6ea74708abc33f068ee0035",
+        "572d71e2575246edb315ef76f320c3d5",
+        "c44ccd504a55579c4d225ed74c0f9acf"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-03T21:08:25.972900Z",
+      "last_shown": "2026-10-03T21:08:25.972900Z"
+    },
+    {
+      "id": "62fbb46eb45c07fe2b1b2e46c74b3427",
+      "title": "Nvidia Shield TV price increases due to memory costs",
+      "summary": "The aging Nvidia Shield TV has received a $100 price increase, bringing the Pro retail price to $299.99. The price of components with memory is skyrocketing due to AI demand, affecting streaming devices.",
+      "why_it_matters": null,
+      "item_ids": [
+        "62fbb46eb45c07fe2b1b2e46c74b3427",
+        "e9e207660c7c7cbb27905c113ecaa1ed"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-03T21:08:25.972900Z",
+      "last_shown": "2026-10-03T21:08:25.972900Z"
+    },
+    {
+      "id": "c5e34d281995194d831950320d9b27ea",
+      "title": "OpenAI safety employee resigns and criticizes company culture",
+      "summary": "An OpenAI employee who wrote safety reports accompanying major model releases has resigned from his position. David Robinson spoke out in an editorial, claiming the company's culture is broken.",
+      "why_it_matters": null,
+      "item_ids": [
+        "c5e34d281995194d831950320d9b27ea",
+        "f8fc0aa18dcc03fda06c1ff95bc24e12"
+      ],
+      "primary_url": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881?gift=1ga2TvL-DbuHDQIcYF7oR4o908Fsjxr4NFLlsptkfP8",
+      "first_shown": "2026-10-03T21:08:25.972900Z",
+      "last_shown": "2026-10-03T21:08:25.972900Z"
+    },
+    {
+      "id": "91388b01dd4de2ba6cba613f0bc14f80",
+      "title": "Zig 0.17 released",
+      "summary": "Version 0.17 of the Zig programming language has been released. This release features 5 months of work: changes from 206 different contributors, spread among 925 commits. Originally predicted to be shorter, this release cycle ended up [being] substantial, with the Build System reworked, including the introduction of the Build Server Protocol, and the ELF Linker enhanced to the point where we expect Incremental Compilation to work for everyone on x86_64-linux. LWN last covered Zig in December…",
+      "why_it_matters": "Version 0.17 of the Zig programming language brings hundreds of commits and months of improvements for systems programmers.",
+      "item_ids": [
+        "91388b01dd4de2ba6cba613f0bc14f80"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-03T21:08:25.972900Z",
+      "last_shown": "2026-10-03T21:08:25.972900Z"
+    },
+    {
+      "id": "c333863c691be7819e3affd162814b6f",
+      "title": "Warlock Exploits SharePoint Flaws to Disable Security Tools and Deploy Ransomware",
+      "summary": "The suspected China-linked threat actor known as Warlock is still continuing to weaponize Microsoft SharePoint vulnerabilities, likely both old and new, in attacks targeting organizations in Portuguese- and Spanish-speaking countries. The activity, observed by the Symantec and Carbon Black Threat Hunter Team, has hit critical infrastructure, government, and education organizations. \"In the",
+      "why_it_matters": "The Warlock threat actor continues to weaponize SharePoint vulnerabilities to deploy ransomware against global organizations.",
+      "item_ids": [
+        "c333863c691be7819e3affd162814b6f"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-03T21:08:25.972900Z",
+      "last_shown": "2026-10-03T21:08:25.972900Z"
+    },
+    {
+      "id": "aa73e05f6821921afb7b45c61c33deba",
+      "title": "Pop!_OS bans AI-generated code from much of its codebase",
+      "summary": null,
+      "why_it_matters": "Pop!_OS restricts AI-generated code in its codebase, highlighting growing governance decisions around automated contributions.",
+      "item_ids": [
+        "aa73e05f6821921afb7b45c61c33deba"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-03T21:08:25.972900Z",
+      "last_shown": "2026-10-03T21:08:25.972900Z"
+    },
+    {
+      "id": "958011385d54e8fa5853084bcc22e47b",
+      "title": "Cloudflare OHTTP gateway",
+      "summary": null,
+      "why_it_matters": "Cloudflare introduces an OHTTP gateway implementation to enhance privacy for web requests.",
+      "item_ids": [
+        "958011385d54e8fa5853084bcc22e47b"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-03T21:08:25.972900Z",
+      "last_shown": "2026-10-03T21:08:25.972900Z"
+    }
+  ],
   "past_top_stories": []
 }
