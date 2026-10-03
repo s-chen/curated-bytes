@@ -8,17 +8,38 @@ import argparse
 import logging
 import os
 import sys
+from collections import Counter
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 from pydantic import ValidationError
 
+from scraper.editor import (
+    DEFAULT_FALLBACK_MODEL,
+    DEFAULT_MODEL,
+    EditorError,
+    apply_review,
+    run_editor,
+)
 from scraper.fetch import fetch_all
+from scraper.filters import apply_rules
+from scraper.models import NewsItem, Source, TopStory
+from scraper.primary import find_primary_sources
+from scraper.sites import (
+    add_feeds,
+    format_report,
+    load_stats,
+    record_citations,
+    save_stats,
+    site_report,
+)
 from scraper.sources import load_sources
-from scraper.store import StoreError, load_existing, merge, write_feed
+from scraper.store import StoreError, load_existing, load_top_stories, merge, write_feed
+from scraper.top_stories import settle_top_stories
 
 DEFAULT_SOURCES = Path("config/news_sources.json")
 DEFAULT_OUTPUT = Path("../web-dashboard/public/news.json")
+DEFAULT_SITE_STATS = Path("state/site_stats.json")
 
 EXIT_OK = 0
 EXIT_FAILED = 1  # nothing written
@@ -49,16 +70,97 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
         default=0.5,
         help="exit %d (after writing) if more than this share of sources fail" % EXIT_DEGRADED,
     )
+    parser.add_argument(
+        "--sites",
+        action="store_true",
+        help="print the site report (sites aggregators link to that we don't follow) and exit",
+    )
+    parser.add_argument("--min-links", type=int, default=3, help="for --sites (default: 3)")
+    parser.add_argument(
+        "--find-feeds",
+        type=int,
+        default=10,
+        help="for --sites: look up feeds for this many top sites, 0 to skip (default: 10)",
+    )
+    parser.add_argument(
+        "--site-stats",
+        type=Path,
+        default=Path(os.environ.get("SITE_STATS", DEFAULT_SITE_STATS)),
+        help="site citation tallies (env: SITE_STATS; default: %(default)s)",
+    )
     parser.add_argument("-v", "--verbose", action="store_true")
     return parser.parse_args(argv)
 
 
+def _now() -> datetime:
+    """The run's timestamp (a function so tests can fix the clock)."""
+    return datetime.now(timezone.utc)
+
+
+def _github_warning(title: str, message: str) -> None:
+    """Surface a problem as a GitHub Actions warning, so it's visible in the run summary."""
+    if os.environ.get("GITHUB_ACTIONS") == "true":
+        print(f"::warning title={title}::{message}")
+
+
 def _annotate_failures(failed: list[str]) -> None:
-    """Surface failed feeds as GitHub Actions warnings, so a dead feed is visible in the run."""
-    if os.environ.get("GITHUB_ACTIONS") != "true":
-        return
     for source_id in failed:
-        print(f"::warning title=Feed failed::Source '{source_id}' could not be fetched")
+        _github_warning("Feed failed", f"Source '{source_id}' could not be fetched")
+
+
+def _review(
+    items: list[NewsItem], now: datetime, weights: dict[str, int]
+) -> tuple[list[NewsItem], list[TopStory], bool]:
+    """Review pending items and pick top stories with Gemini.
+
+    Rule-based exclusions apply first, so Gemini never sees those items. Without an API key,
+    or if Gemini fails, the rest stay pending (hidden) until a later run reviews them.
+    """
+    items, rule_excluded = apply_rules(items)
+    by_id = {i.id: i for i in items}
+    for item_id, reason in rule_excluded.items():
+        log.info("Excluded by rule (%s): %s", reason, by_id[item_id].title)
+
+    api_key = os.environ.get("GEMINI_API_KEY")
+    if not api_key:
+        log.warning("GEMINI_API_KEY not set: new stories stay pending and are not shown")
+        return items, [], False
+    model = os.environ.get("GEMINI_MODEL") or DEFAULT_MODEL
+    try:
+        result = run_editor(
+            items,
+            now,
+            api_key,
+            weights,
+            model=model,
+            # Set GEMINI_FALLBACK_MODEL="" to disable the fallback.
+            fallback_model=os.environ.get("GEMINI_FALLBACK_MODEL", DEFAULT_FALLBACK_MODEL) or None,
+            debug_dir=Path(d) if (d := os.environ.get("GEMINI_DEBUG_DIR")) else None,
+        )
+    except EditorError as exc:
+        log.warning("Gemini review skipped; new stories stay pending: %s", exc)
+        _github_warning("Gemini review skipped", str(exc))
+        return items, [], False
+
+    for item_id, reason in result.excluded.items():
+        if by_id[item_id].review != "excluded":
+            log.info("Excluded by Gemini (%s): %s", reason, by_id[item_id].title)
+    log.info(
+        "Gemini (%s) reviewed %d items; %d top stories",
+        result.model, len(result.reviewed), len(result.top_stories),
+    )
+    return apply_review(items, result), result.top_stories, True
+
+
+def _record_sites(
+    path: Path, items: list[NewsItem], links: dict[str, set[str]], sources: list[Source], now: datetime
+) -> None:
+    """Add this run's citations to the site tallies used by `--sites`. Never fails the run."""
+    try:
+        aggregators = {s.id for s in sources if s.aggregator}
+        save_stats(path, record_citations(load_stats(path), items, links, aggregators, now))
+    except OSError as exc:
+        log.warning("Can't update site stats at %s: %s", path, exc)
 
 
 def run(args: argparse.Namespace) -> int:
@@ -82,7 +184,15 @@ def run(args: argparse.Namespace) -> int:
         log.error("%s. Fix or delete it, then re-run.", exc)
         return EXIT_FAILED
 
-    now = datetime.now(timezone.utc)
+    if args.sites:
+        stats = load_stats(args.site_stats)
+        report = site_report(stats, existing, sources, args.min_links)
+        if args.find_feeds:
+            add_feeds(report, args.find_feeds)
+        print(format_report(report, stats, args.min_links))
+        return EXIT_OK
+
+    now = _now()
     fresh, failed = fetch_all(sources, fetched_at=now)
     _annotate_failures(failed)
     if len(failed) == len(sources):
@@ -96,16 +206,36 @@ def run(args: argparse.Namespace) -> int:
         max_age=timedelta(days=args.max_age_days),
         max_items=args.max_items,
     )
+    # Engineering-blog flags follow the config, so changing it applies to stored items too.
+    engineering = {s.id for s in sources if s.engineering}
+    items = [i.model_copy(update={"engineering": i.source_id in engineering}) for i in items]
+    items, top_stories, answered = _review(items, now, weights={s.id: s.weight for s in sources})
+    article_links: dict[str, set[str]] = {}
+    if top_stories:
+        try:
+            top_stories, article_links = find_primary_sources(top_stories, items)
+        except Exception as exc:  # following links is a bonus: never fail the run over it
+            log.warning("Skipping primary sources: %s", exc)
+    _record_sites(args.site_stats, items, article_links, sources, now)
+    previous_top, previous_past = load_top_stories(args.output)
+    top_stories, past_top_stories = settle_top_stories(
+        top_stories, previous_top, previous_past, items, now, gemini_answered=answered
+    )
     try:
-        write_feed(args.output, items, generated_at=now)
+        write_feed(
+            args.output, items, generated_at=now,
+            top_stories=top_stories, past_top_stories=past_top_stories,
+        )
     except (OSError, StoreError) as exc:
         log.error("Can't write %s: %s", args.output.resolve(), exc)
         return EXIT_FAILED
 
     new_count = len({i.id for i in items} - {i.id for i in existing})
+    reviews = Counter(i.review for i in items)
     log.info(
-        "Wrote %d items (%d new) to %s; %d/%d sources failed%s",
-        len(items), new_count, args.output, len(failed), len(sources),
+        "Wrote %d items (%d new; %d kept, %d excluded, %d pending) to %s; %d/%d sources failed%s",
+        len(items), new_count, reviews["kept"], reviews["excluded"], reviews["pending"],
+        args.output, len(failed), len(sources),
         f": {', '.join(failed)}" if failed else "",
     )
 

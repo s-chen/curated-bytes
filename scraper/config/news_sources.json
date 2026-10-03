@@ -4,49 +4,169 @@
       "id": "hacker-news",
       "name": "Hacker News",
       "url": "https://hnrss.org/frontpage",
-      "category": "tech"
+      "category": "tech",
+      "weight": 2,
+      "aggregator": true
     },
     {
       "id": "lobsters",
       "name": "Lobsters",
       "url": "https://lobste.rs/rss",
-      "category": "tech"
+      "category": "tech",
+      "weight": 1,
+      "aggregator": true
     },
     {
       "id": "ars-technica",
       "name": "Ars Technica",
       "url": "https://feeds.arstechnica.com/arstechnica/index",
-      "category": "tech"
+      "category": "tech",
+      "weight": 3
     },
     {
       "id": "the-verge",
       "name": "The Verge",
       "url": "https://www.theverge.com/rss/index.xml",
-      "category": "tech"
+      "category": "tech",
+      "weight": 3
     },
     {
       "id": "techcrunch",
       "name": "TechCrunch",
       "url": "https://techcrunch.com/feed/",
-      "category": "tech"
+      "category": "tech",
+      "weight": 3
     },
     {
       "id": "the-register",
       "name": "The Register",
       "url": "https://www.theregister.com/headlines.atom",
-      "category": "tech"
+      "category": "tech",
+      "weight": 2
     },
     {
       "id": "wired",
       "name": "Wired",
       "url": "https://www.wired.com/feed/rss",
-      "category": "tech"
+      "category": "tech",
+      "weight": 3
     },
     {
       "id": "github-blog",
       "name": "The GitHub Blog",
       "url": "https://github.blog/feed/",
-      "category": "tech"
+      "category": "tech",
+      "weight": 1,
+      "engineering": true
+    },
+    {
+      "id": "bleepingcomputer",
+      "name": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/feed/",
+      "category": "tech",
+      "weight": 2
+    },
+    {
+      "id": "the-hacker-news",
+      "name": "The Hacker News",
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "category": "tech",
+      "weight": 2
+    },
+    {
+      "id": "krebs-on-security",
+      "name": "Krebs on Security",
+      "url": "https://krebsonsecurity.com/feed/",
+      "category": "tech",
+      "weight": 2
+    },
+    {
+      "id": "openai-news",
+      "name": "OpenAI News",
+      "url": "https://openai.com/news/rss.xml",
+      "category": "tech",
+      "weight": 2
+    },
+    {
+      "id": "google-ai",
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/rss/",
+      "category": "tech",
+      "weight": 2
+    },
+    {
+      "id": "huggingface-blog",
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "category": "tech",
+      "weight": 1
+    },
+    {
+      "id": "simon-willison",
+      "name": "Simon Willison",
+      "url": "https://simonwillison.net/atom/everything/",
+      "category": "tech",
+      "weight": 1
+    },
+    {
+      "id": "cloudflare-blog",
+      "name": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/rss/",
+      "category": "tech",
+      "weight": 2,
+      "engineering": true
+    },
+    {
+      "id": "aws-news",
+      "name": "AWS News Blog",
+      "url": "https://aws.amazon.com/blogs/aws/feed/",
+      "category": "tech",
+      "weight": 2
+    },
+    {
+      "id": "meta-engineering",
+      "name": "Engineering at Meta",
+      "url": "https://engineering.fb.com/feed/",
+      "category": "tech",
+      "weight": 1,
+      "engineering": true
+    },
+    {
+      "id": "netflix-tech",
+      "name": "Netflix TechBlog",
+      "url": "https://netflixtechblog.com/feed",
+      "category": "tech",
+      "weight": 1,
+      "engineering": true
+    },
+    {
+      "id": "microsoft-devblogs",
+      "name": "Microsoft for Developers",
+      "url": "https://devblogs.microsoft.com/feed/",
+      "category": "tech",
+      "weight": 1,
+      "engineering": true
+    },
+    {
+      "id": "infoq",
+      "name": "InfoQ",
+      "url": "https://feed.infoq.com/",
+      "category": "tech",
+      "weight": 2
+    },
+    {
+      "id": "the-new-stack",
+      "name": "The New Stack",
+      "url": "https://thenewstack.io/feed/",
+      "category": "tech",
+      "weight": 2
+    },
+    {
+      "id": "lwn",
+      "name": "LWN.net",
+      "url": "https://lwn.net/headlines/rss",
+      "category": "tech",
+      "weight": 2
     }
   ]
 }

@@ -1,6 +1,9 @@
 # Local testing only. Production runs on the GitHub Actions hourly cron.
 #   docker compose run --rm scraper   # fetch feeds -> web-dashboard/public/news.json
+#                                     # (top stories too if GEMINI_API_KEY is exported)
 #   docker compose run --rm tests     # run the scraper test suite
+#   docker compose up dashboard       # dashboard dev server on http://localhost:5173
+#   docker compose run --rm dashboard npm test   # dashboard tests (also: lint, build)
 #
 # On Linux, run as your own user so the output file is writable and owned by you:
 #   export HOST_UID=$(id -u) HOST_GID=$(id -g)
@@ -12,11 +15,22 @@ services:
       context: ./scraper
       target: runtime
     user: "${HOST_UID:-1000}:${HOST_GID:-1000}"
+    environment:
+      # Passed through from your shell when set; never put the key in this file.
+      - GEMINI_API_KEY
+      - GEMINI_MODEL
+      - GEMINI_FALLBACK_MODEL
+      # Last Gemini request and reply, for debugging (git-ignored).
+      - GEMINI_DEBUG_DIR=/debug
+      # Site citation tallies for `--sites` (git-ignored locally).
+      - SITE_STATS=/state/site_stats.json
     volumes:
       # Edit code and sources without rebuilding.
       - ./scraper/src:/app/src:ro
       - ./scraper/config:/app/config:ro
       - ./web-dashboard/public:/data
+      - ./scraper/.debug:/debug
+      - ./scraper/state:/state
 
   tests:
     build:
@@ -26,3 +40,13 @@ services:
       - ./scraper/src:/app/src:ro
       - ./scraper/tests:/app/tests:ro
       - ./scraper/config:/app/config:ro
+
+  dashboard:
+    build: ./web-dashboard
+    ports:
+      - "5173:5173"
+    volumes:
+      # Live reload on code edits and on each new scraper run.
+      - ./web-dashboard/src:/app/src:ro
+      - ./web-dashboard/public:/app/public:ro
+      - ./web-dashboard/index.html:/app/index.html:ro

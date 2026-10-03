@@ -27,6 +27,20 @@ def test_merge_dedupes_and_keeps_existing_copy():
     assert merged[1].fetched_at == NOW - timedelta(hours=1)
 
 
+def test_merge_refreshes_discussion_counts_but_keeps_the_rest():
+    old = make_item(
+        "a", NOW - timedelta(hours=2), fetched_at=NOW - timedelta(hours=1),
+        review="kept", importance=4, discussion_url="https://news.ycombinator.com/item?id=1",
+        points=6, comments=0, summary="Article URL: x Points: 6",
+    )
+    new = old.model_copy(update={"fetched_at": NOW, "review": "pending", "importance": None, "points": 300, "comments": 120, "summary": None})
+
+    [merged] = merge([old], [new], now=NOW, max_age=WEEK, max_items=10)
+
+    assert (merged.points, merged.comments, merged.summary) == (300, 120, None)
+    assert (merged.fetched_at, merged.review, merged.importance) == (old.fetched_at, "kept", 4)
+
+
 def test_merge_drops_stale_items_and_caps():
     items = [make_item(str(n), NOW - timedelta(days=n)) for n in range(10)]
 
@@ -133,6 +147,33 @@ def test_naive_timestamps_are_read_as_utc_and_merge(tmp_path):
 
     merged = merge([item], [make_item("b", NOW)], now=NOW, max_age=WEEK, max_items=10)
     assert [i.url for i in merged] == ["https://example.com/b", "https://example.com/a"]
+
+
+# --- load_top_stories ---
+
+
+def test_load_top_stories_reads_current_and_past(tmp_path):
+    from scraper.models import TopStory
+    from scraper.store import load_top_stories
+
+    path = tmp_path / "news.json"
+    write_feed(
+        path, [], generated_at=NOW,
+        top_stories=[TopStory(id="a", title="Now", item_ids=["a"])],
+        past_top_stories=[TopStory(id="b", title="Before", item_ids=["b"])],
+    )
+    top, past = load_top_stories(path)
+    assert ([s.title for s in top], [s.title for s in past]) == (["Now"], ["Before"])
+
+
+@pytest.mark.parametrize("content", [b"{bad", b"[]", b'{"top_stories": {}}', b'{"top_stories": [{"id": 1}]}'])
+def test_load_top_stories_tolerates_anything(tmp_path, content):
+    from scraper.store import load_top_stories
+
+    path = tmp_path / "news.json"
+    path.write_bytes(content)
+    assert load_top_stories(path) == ([], [])
+    assert load_top_stories(tmp_path / "missing.json") == ([], [])
 
 
 # --- write_feed ---

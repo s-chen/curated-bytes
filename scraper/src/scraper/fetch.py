@@ -2,6 +2,7 @@
 
 import io
 import logging
+import re
 import time
 from calendar import timegm
 from concurrent.futures import ThreadPoolExecutor
@@ -95,6 +96,27 @@ def _entry_datetime(entry: feedparser.FeedParserDict, fetched_at: datetime) -> d
     return min(datetime.fromtimestamp(timegm(parsed), tz=timezone.utc), fetched_at)
 
 
+# Aggregator boilerplate in summaries, e.g. hnrss: "Article URL: … Comments URL: … Points: 6
+# # Comments: 0", and Lobsters: a lone "Comments" link.
+_POINTS = re.compile(r"\bPoints:\s*(\d+)")
+_COMMENTS = re.compile(r"#\s*Comments:\s*(\d+)")
+_BOILERPLATE = re.compile(
+    r"(Article URL|Comments URL):\s*\S+|\bPoints:\s*\d+|#\s*Comments:\s*\d+|^\s*Comments\s*$"
+)
+
+
+def discussion_stats(summary: str) -> tuple[str, int | None, int | None]:
+    """Split aggregator boilerplate out of a summary: (clean summary, points, comments)."""
+    points = _POINTS.search(summary)
+    comments = _COMMENTS.search(summary)
+    clean = collapse_whitespace(_BOILERPLATE.sub(" ", summary))
+    return (
+        clean,
+        int(points.group(1)) if points else None,
+        int(comments.group(1)) if comments else None,
+    )
+
+
 def _to_item(
     entry: feedparser.FeedParserDict, source: Source, fetched_at: datetime, base_url: str | None
 ) -> NewsItem | None:
@@ -102,6 +124,7 @@ def _to_item(
     link = safe_link(entry.get("link", ""), base_url)
     if not title or not link:
         return None
+    summary, points, comments = discussion_stats(_entry_text(entry, "summary"))
     return NewsItem(
         id=item_id(link),
         title=title,
@@ -109,9 +132,12 @@ def _to_item(
         source_id=source.id,
         source_name=source.name,
         category=source.category,
-        summary=_truncate(_entry_text(entry, "summary")) or None,
+        summary=_truncate(summary) or None,
         published_at=_entry_datetime(entry, fetched_at),
         fetched_at=fetched_at,
+        discussion_url=safe_link(entry.get("comments", ""), base_url),
+        points=points,
+        comments=comments,
     )
 
 

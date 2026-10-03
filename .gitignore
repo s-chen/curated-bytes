@@ -14,3 +14,10 @@ dist/
 .env
 *.cv.*
 cv.*
+
+# Local Gemini debug output
+scraper/.debug/
+
+# Generated state: on GitHub it lives on the `data` branch, never on main
+web-dashboard/public/news.json
+scraper/state/
