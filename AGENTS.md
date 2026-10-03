@@ -6,7 +6,7 @@ Aggregates tech news and screens job postings against a CV, served as a static d
 - **Cost: strictly £0/month.** No always-on compute or containers (no ECS/Fargate), no database.
 - **Pipeline** (`scraper/`): Python 3.11 (`feedparser`, `requests`, Pydantic) run by a GitHub Actions hourly cron.
 - **AI:** Gemini Flash via Google AI Studio free tier, called over REST with `requests` (no SDK). Model from `GEMINI_MODEL` (default `gemini-3.8-flash`); overload/rate-limit errors are retried, then `GEMINI_FALLBACK_MODEL` (default `gemini-3.7-flash`, empty to disable) is tried. Free-tier limits are only shown in AI Studio; check them before adding calls. One request per run reviews new stories and picks top stories.
-- **Storage:** flat static JSON (`news.json`, `jobs.json`) in `web-dashboard/public/`.
+- **Storage:** flat static JSON. Locally in `web-dashboard/public/news.json` and `scraper/state/site_stats.json` (git-ignored). On GitHub they live on the `data` branch, which the hourly workflow checks out, updates and commits back; main never holds generated data.
 - **Frontend** (`web-dashboard/`): React 19, TypeScript, Vite, Tailwind CSS. Dense, responsive, tabbed layout.
 - **Hosting:** GitHub Pages behind Cloudflare DNS/proxy, HTTPS + HSTS enforced.
 - **Alerts:** Slack incoming webhook (Block Kit) for job matches with score >= 85.
@@ -14,11 +14,14 @@ Aggregates tech news and screens job postings against a CV, served as a static d
 ## Data Flow
 `RSS + Greenhouse/Lever APIs → dedupe (MD5 of URL) → rule filters (code-hosting links, promotions) → Gemini (review every new story, cluster/summarise top stories, score jobs vs CV) → follow top-story article links to find primary sources → keep top stories on a rolling 24h window (3h sticky, 48h "earlier" list) → news.json / jobs.json → npm run build → GitHub Pages`, with a Slack alert on high-match jobs.
 
+## Hourly workflow
+`.github/workflows/hourly.yml` runs at :17 every hour (and on demand): checks out the `data` branch, runs the scraper against it, commits the changes back, then builds the dashboard with `news.json` from `data` and deploys it to GitHub Pages. Pushes to main redeploy the dashboard without scraping. Each run uploads Gemini's last request and reply as the `gemini-debug` artifact (kept 7 days). Needs the `GEMINI_API_KEY` secret and Pages set to deploy from GitHub Actions.
+
 ## Commands
 - News sources live in `scraper/config/news_sources.json` (`id`, `name`, `url`, `category`, optional `enabled`, `weight` 1–3 for how much its coverage counts towards top stories: 3 major outlet, 1 small site, `aggregator: true` for link aggregators like Hacker News, and `engineering: true` for company engineering blogs, whose posts are listed first).
 - `docker compose run --rm tests`: scraper test suite.
 - `docker compose run --rm scraper`: fetch feeds into `web-dashboard/public/news.json`.
-- `docker compose run --rm scraper --sites`: site report, listing sites that aggregators keep linking to but we don't follow (candidates for `news_sources.json`). Reads `news.json` only; `--min-links N` sets the threshold.
+- `docker compose run --rm scraper --sites`: site discovery report. Lists sites our sources cited (via aggregator links and top-story article links, tallied over 7 days in `scraper/state/site_stats.json`) that we don't follow, with each one's feed as a ready-to-paste `news_sources.json` entry. Nothing is added automatically. `--min-links N` sets the threshold, `--find-feeds N` how many sites to look up (0 to skip).
 - Locally, each run saves Gemini's last request and reply (or error) to `scraper/.debug/gemini-last.json` (git-ignored).
 - Without Docker (from `scraper/`): `pip install -e ".[dev]"`, then `pytest` and `python -m scraper`.
 - Run the dashboard locally:

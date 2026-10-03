@@ -19,14 +19,19 @@ def _fixed_clock(monkeypatch):
 
 @pytest.fixture(autouse=True)
 def _no_link_following(monkeypatch):
-    monkeypatch.setattr(cli, "find_primary_sources", lambda stories, items: stories)
+    monkeypatch.setattr(cli, "find_primary_sources", lambda stories, items: (stories, {}))
+
+
+@pytest.fixture(autouse=True)
+def _site_stats_in_tmp(monkeypatch, tmp_path, _no_env_overrides):
+    monkeypatch.setenv("SITE_STATS", str(tmp_path / "state" / "site_stats.json"))
 
 
 @pytest.fixture(autouse=True)
 def _no_env_overrides(monkeypatch):
     for var in (
         "NEWS_SOURCES", "NEWS_OUTPUT", "GITHUB_ACTIONS",
-        "GEMINI_API_KEY", "GEMINI_MODEL", "GEMINI_FALLBACK_MODEL", "GEMINI_DEBUG_DIR",
+        "GEMINI_API_KEY", "GEMINI_MODEL", "GEMINI_FALLBACK_MODEL", "GEMINI_DEBUG_DIR", "SITE_STATS",
     ):
         monkeypatch.delenv(var, raising=False)
 
@@ -241,18 +246,21 @@ def test_engineering_flag_follows_the_sources_config(tmp_path, monkeypatch):
     assert {i.source_id: i.engineering for i in feed.items} == {"eng": True, "news": False}
 
 
-def test_sites_flag_prints_report_without_fetching(tmp_path, monkeypatch, capsys):
+def test_runs_record_site_citations_and_sites_flag_reports_them(tmp_path, monkeypatch, capsys):
     sources = tmp_path / "sources.json"
     sources.write_text(json.dumps({"sources": [
         {"id": "hn", "name": "Hacker News", "url": "https://hnrss.org/frontpage", "aggregator": True},
     ]}))
     output = tmp_path / "news.json"
-    write_feed(output, [make_item(f"hn{n}", NOW, url=f"https://lwn.net/{n}", source_id="hn") for n in range(3)], generated_at=NOW)
+    items = [make_item(f"hn{n}", NOW, url=f"https://lwn.net/{n}", source_id="hn") for n in range(3)]
+    monkeypatch.setattr(cli, "fetch_all", _fake_fetch(items=items))
+    assert _run(sources, output) == cli.EXIT_OK
+    assert (tmp_path / "state" / "site_stats.json").exists()
+
     monkeypatch.setattr(cli, "fetch_all", lambda *a, **k: pytest.fail("fetched"))
-
-    assert cli.main(["--sources", str(sources), "--output", str(output), "--sites"]) == cli.EXIT_OK
-    assert "lwn.net  3 links" in capsys.readouterr().out
-
+    args = ["--sources", str(sources), "--output", str(output), "--sites", "--find-feeds", "0"]
+    assert cli.main(args) == cli.EXIT_OK
+    assert "lwn.net: 3 citations from Hacker News" in capsys.readouterr().out
 
 def test_top_stories_survive_a_later_gemini_failure(tmp_path, monkeypatch):
     sources = _sources(tmp_path / "sources.json", "one")

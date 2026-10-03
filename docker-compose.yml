@@ -22,12 +22,15 @@ services:
       - GEMINI_FALLBACK_MODEL
       # Last Gemini request and reply, for debugging (git-ignored).
       - GEMINI_DEBUG_DIR=/debug
+      # Site citation tallies for `--sites` (git-ignored locally).
+      - SITE_STATS=/state/site_stats.json
     volumes:
       # Edit code and sources without rebuilding.
       - ./scraper/src:/app/src:ro
       - ./scraper/config:/app/config:ro
       - ./web-dashboard/public:/data
       - ./scraper/.debug:/debug
+      - ./scraper/state:/state
 
   tests:
     build:

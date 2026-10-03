@@ -23,15 +23,23 @@ from scraper.editor import (
 )
 from scraper.fetch import fetch_all
 from scraper.filters import apply_rules
-from scraper.models import NewsItem, TopStory
+from scraper.models import NewsItem, Source, TopStory
 from scraper.primary import find_primary_sources
-from scraper.sites import format_report, site_report
+from scraper.sites import (
+    add_feeds,
+    format_report,
+    load_stats,
+    record_citations,
+    save_stats,
+    site_report,
+)
 from scraper.sources import load_sources
 from scraper.store import StoreError, load_existing, load_top_stories, merge, write_feed
 from scraper.top_stories import settle_top_stories
 
 DEFAULT_SOURCES = Path("config/news_sources.json")
 DEFAULT_OUTPUT = Path("../web-dashboard/public/news.json")
+DEFAULT_SITE_STATS = Path("state/site_stats.json")
 
 EXIT_OK = 0
 EXIT_FAILED = 1  # nothing written
@@ -68,6 +76,18 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
         help="print the site report (sites aggregators link to that we don't follow) and exit",
     )
     parser.add_argument("--min-links", type=int, default=3, help="for --sites (default: 3)")
+    parser.add_argument(
+        "--find-feeds",
+        type=int,
+        default=10,
+        help="for --sites: look up feeds for this many top sites, 0 to skip (default: 10)",
+    )
+    parser.add_argument(
+        "--site-stats",
+        type=Path,
+        default=Path(os.environ.get("SITE_STATS", DEFAULT_SITE_STATS)),
+        help="site citation tallies (env: SITE_STATS; default: %(default)s)",
+    )
     parser.add_argument("-v", "--verbose", action="store_true")
     return parser.parse_args(argv)
 
@@ -132,6 +152,17 @@ def _review(
     return apply_review(items, result), result.top_stories, True
 
 
+def _record_sites(
+    path: Path, items: list[NewsItem], links: dict[str, set[str]], sources: list[Source], now: datetime
+) -> None:
+    """Add this run's citations to the site tallies used by `--sites`. Never fails the run."""
+    try:
+        aggregators = {s.id for s in sources if s.aggregator}
+        save_stats(path, record_citations(load_stats(path), items, links, aggregators, now))
+    except OSError as exc:
+        log.warning("Can't update site stats at %s: %s", path, exc)
+
+
 def run(args: argparse.Namespace) -> int:
     try:
         sources = load_sources(args.sources)
@@ -154,7 +185,11 @@ def run(args: argparse.Namespace) -> int:
         return EXIT_FAILED
 
     if args.sites:
-        print(format_report(site_report(existing, sources, args.min_links), existing, args.min_links))
+        stats = load_stats(args.site_stats)
+        report = site_report(stats, existing, sources, args.min_links)
+        if args.find_feeds:
+            add_feeds(report, args.find_feeds)
+        print(format_report(report, stats, args.min_links))
         return EXIT_OK
 
     now = _now()
@@ -175,11 +210,13 @@ def run(args: argparse.Namespace) -> int:
     engineering = {s.id for s in sources if s.engineering}
     items = [i.model_copy(update={"engineering": i.source_id in engineering}) for i in items]
     items, top_stories, answered = _review(items, now, weights={s.id: s.weight for s in sources})
+    article_links: dict[str, set[str]] = {}
     if top_stories:
         try:
-            top_stories = find_primary_sources(top_stories, items)
+            top_stories, article_links = find_primary_sources(top_stories, items)
         except Exception as exc:  # following links is a bonus: never fail the run over it
             log.warning("Skipping primary sources: %s", exc)
+    _record_sites(args.site_stats, items, article_links, sources, now)
     previous_top, previous_past = load_top_stories(args.output)
     top_stories, past_top_stories = settle_top_stories(
         top_stories, previous_top, previous_past, items, now, gemini_answered=answered

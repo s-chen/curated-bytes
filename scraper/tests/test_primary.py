@@ -119,10 +119,14 @@ def test_find_primary_sources_end_to_end():
     })
     standout = TopStory(id="tc", title="Solo", item_ids=["tc"])
 
-    [story, solo] = find_primary_sources([_story(), standout], members, session)
+    [story, solo], links = find_primary_sources([_story(), standout], members, session)
 
     assert story.item_ids[0] == "hn"
     assert solo is standout
+    assert links == {
+        "tc": {"https://developer.apple.com/news?id=1"},
+        "ars": {"https://developer.apple.com/news?id=1"},
+    }
 
 
 def test_robots_txt_is_respected_and_pdfs_skipped():

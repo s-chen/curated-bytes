@@ -130,6 +130,12 @@ class _Robots:
 
 def fetch_page(url: str, session: requests.Session, robots: _Robots) -> str | None:
     """An article's HTML, or None if disallowed, too big, too slow or not HTML."""
+    page = fetch_html(url, session, robots)
+    return page[0] if page else None
+
+
+def fetch_html(url: str, session: requests.Session, robots: _Robots) -> tuple[str, str] | None:
+    """(HTML, final URL after redirects), or None if disallowed, too big, too slow or not HTML."""
     if not robots.allowed(url):
         log.debug("robots.txt disallows %s", url)
         return None
@@ -146,7 +152,8 @@ def fetch_page(url: str, session: requests.Session, robots: _Robots) -> str | No
                 body += chunk
                 if len(body) > MAX_PAGE_BYTES or time.monotonic() > deadline:
                     return None
-            return bytes(body).decode(response.encoding or "utf-8", errors="replace")
+            html = bytes(body).decode(response.encoding or "utf-8", errors="replace")
+            return html, getattr(response, "url", None) or url
     except requests.RequestException as exc:
         log.debug("Can't fetch %s: %s", url, exc)
         return None
@@ -185,8 +192,11 @@ def choose_primary(
 
 def find_primary_sources(
     top_stories: list[TopStory], items: list[NewsItem], session: requests.Session | None = None
-) -> list[TopStory]:
-    """Primary sources for multi-source top stories. Single-source standouts are unchanged."""
+) -> tuple[list[TopStory], dict[str, set[str]]]:
+    """Primary sources for multi-source top stories. Single-source standouts are unchanged.
+
+    Also returns the links found in each article ({item id: links}), for site discovery.
+    """
     if session is None:
         with requests.Session() as own_session:
             return find_primary_sources(top_stories, items, own_session)
@@ -221,4 +231,4 @@ def find_primary_sources(
                 updated.primary_url or by_id[updated.item_ids[0]].url,
             )
         out.append(updated)
-    return out
+    return out, links

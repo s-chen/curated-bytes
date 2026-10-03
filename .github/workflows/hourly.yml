@@ -1,0 +1,143 @@
+# Hourly: scrape feeds, review with Gemini, save state to the `data` branch, deploy Pages.
+#
+# State (news.json, site_stats.json) lives on the `data` branch, never on main: each run
+# checks it out, the scraper reads and updates it, and the run commits it back. Main stays
+# free of hourly bot commits. The site is the dashboard from main plus news.json from data.
+#
+# Setup (once): add the GEMINI_API_KEY repository secret, and set Settings > Pages >
+# Source to "GitHub Actions". Scheduled runs only start once this file is on main.
+
+name: Hourly
+
+on:
+  schedule:
+    - cron: "17 * * * *" # off the hour, when GitHub's scheduler is least busy
+  workflow_dispatch:
+  push:
+    branches: [main] # redeploy the dashboard when its code changes (no scrape)
+
+permissions:
+  contents: read
+
+concurrency:
+  group: hourly
+  cancel-in-progress: false # never interrupt a run that is writing state
+
+jobs:
+  scrape:
+    name: Scrape and review
+    if: github.event_name != 'push'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write # push to the data branch
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Check out the data branch
+        run: |
+          if git ls-remote --exit-code --heads origin data >/dev/null; then
+            git fetch --depth=1 origin data
+            git worktree add data FETCH_HEAD
+          else
+            echo "::notice::No data branch yet; starting one"
+            git worktree add --detach data
+            git -C data checkout -q --orphan data
+            git -C data rm -rfq .
+          fi
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: scraper/pyproject.toml
+
+      - run: pip install ./scraper
+
+      - name: Scrape
+        working-directory: scraper
+        env:
+          NEWS_OUTPUT: ${{ github.workspace }}/data/news.json
+          SITE_STATS: ${{ github.workspace }}/data/site_stats.json
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_DEBUG_DIR: ${{ runner.temp }}/gemini-debug
+        # Exit 2 means news.json was written but many feeds failed: still save it (the run
+        # carries a warning per failed feed). Exit 1 means nothing was written.
+        run: |
+          code=0
+          python -m scraper || code=$?
+          if [ "$code" -eq 2 ]; then
+            echo "::warning::More than half the feeds failed this run"
+          elif [ "$code" -ne 0 ]; then
+            exit "$code"
+          fi
+
+      - name: Keep Gemini's last request and reply
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: gemini-debug
+          path: ${{ runner.temp }}/gemini-debug
+          retention-days: 7
+          if-no-files-found: ignore
+
+      - name: Save state to the data branch
+        working-directory: data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add news.json site_stats.json
+          if git diff --cached --quiet; then
+            echo "No changes to save"
+            exit 0
+          fi
+          git commit -q -m "Update news $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push origin HEAD:data
+
+  deploy:
+    name: Deploy dashboard
+    needs: scrape
+    # After a scrape, or on its own when main changes (scrape is skipped then).
+    if: always() && (needs.scrape.result == 'success' || needs.scrape.result == 'skipped')
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Get news.json from the data branch
+        run: |
+          if git fetch --depth=1 origin data 2>/dev/null; then
+            git show FETCH_HEAD:news.json > web-dashboard/public/news.json
+          else
+            echo "::warning::No data branch yet; deploying without news.json"
+          fi
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: web-dashboard/package-lock.json
+
+      - id: pages
+        uses: actions/configure-pages@v6
+
+      - name: Build
+        working-directory: web-dashboard
+        env:
+          BASE_PATH: ${{ steps.pages.outputs.base_path }} # "" at a domain root, "/repo" otherwise
+        run: |
+          npm ci
+          npm run build
+
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: web-dashboard/dist
+      - id: deployment
+        uses: actions/deploy-pages@v5
