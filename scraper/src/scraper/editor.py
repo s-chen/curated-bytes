@@ -35,7 +35,9 @@ from scraper.models import NewsItem, TopStory
 log = logging.getLogger(__name__)
 
 DEFAULT_MODEL = "gemini-3.8-flash"
-DEFAULT_FALLBACK_MODEL = "gemini-3.7-flash"  # tried when the main model is overloaded
+# Tried in order when the main model is overloaded: the previous Flash, then a Flash-Lite,
+# which is built for high throughput and tends to have capacity when the others don't.
+DEFAULT_FALLBACK_MODELS = ("gemini-3.7-flash", "gemini-3.5-flash-lite")
 RETRY_STATUSES = {429, 500, 502, 503, 504}  # overloaded or rate limited: worth retrying
 RETRY_DELAYS = (5, 20)  # seconds before the 2nd and 3rd attempt on each model
 MAX_RETRY_AFTER = 60  # cap on a server-requested wait, in seconds
@@ -475,7 +477,7 @@ def run_editor(
     weights: dict[str, int],
     model: str = DEFAULT_MODEL,
     session: requests.Session | None = None,
-    fallback_model: str | None = DEFAULT_FALLBACK_MODEL,
+    fallback_models: tuple[str, ...] | list[str] = DEFAULT_FALLBACK_MODELS,
     debug_dir: Path | None = None,
 ) -> EditorResult:
     """Review recent items and pick top stories. Raises `EditorError` if Gemini fails."""
@@ -485,9 +487,9 @@ def run_editor(
     if session is None:
         with requests.Session() as own_session:
             return run_editor(
-                items, now, api_key, weights, model, own_session, fallback_model, debug_dir
+                items, now, api_key, weights, model, own_session, fallback_models, debug_dir
             )
-    models = [model] + ([fallback_model] if fallback_model and fallback_model != model else [])
+    models = list(dict.fromkeys([model, *fallback_models]))  # in order, without repeats
     prompt = build_prompt(cands, weights, now)
     try:
         text, used = generate(prompt, api_key, models, session)

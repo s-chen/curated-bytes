@@ -5,7 +5,7 @@ Aggregates tech news and screens job postings against a CV, served as a static d
 ## Stack & Constraints
 - **Cost: strictly £0/month.** No always-on compute or containers (no ECS/Fargate), no database.
 - **Pipeline** (`scraper/`): Python 3.11 (`feedparser`, `requests`, Pydantic) run by a GitHub Actions hourly cron.
-- **AI:** Gemini Flash via Google AI Studio free tier, called over REST with `requests` (no SDK). Model from `GEMINI_MODEL` (default `gemini-3.8-flash`); overload/rate-limit errors are retried, then `GEMINI_FALLBACK_MODEL` (default `gemini-3.7-flash`, empty to disable) is tried. Free-tier limits are only shown in AI Studio; check them before adding calls. One request per run reviews new stories and picks top stories.
+- **AI:** Gemini Flash via Google AI Studio free tier, called over REST with `requests` (no SDK). Model from `GEMINI_MODEL` (default `gemini-3.8-flash`); overload/rate-limit errors are retried, then each model in `GEMINI_FALLBACK_MODEL` is tried in turn (comma-separated; default `gemini-3.7-flash,gemini-3.5-flash-lite`; empty to disable). Free-tier limits are only shown in AI Studio; check them before adding calls. One request per run reviews new stories and picks top stories.
 - **Storage:** flat static JSON. Locally in `web-dashboard/public/news.json` and `scraper/state/site_stats.json` (git-ignored). On GitHub they live on the `data` branch, which the hourly workflow checks out, updates and commits back; main never holds generated data.
 - **Frontend** (`web-dashboard/`): React 19, TypeScript, Vite, Tailwind CSS. Dense, responsive, tabbed layout.
 - **Hosting:** GitHub Pages behind Cloudflare DNS/proxy, HTTPS + HSTS enforced.
