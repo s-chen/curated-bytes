@@ -502,17 +502,24 @@ def run_editor(
     return result
 
 
-def apply_review(items: list[NewsItem], result: EditorResult) -> list[NewsItem]:
+def apply_review(
+    items: list[NewsItem], result: EditorResult, exclusions_final: bool = True
+) -> list[NewsItem]:
     """Settle reviewed items and refresh importance scores.
 
     Pending items become kept or excluded. A kept item Gemini now excludes becomes excluded;
     an excluded item never comes back. A score is updated whenever Gemini gives a new one.
+
+    With `exclusions_final=False` (a fallback model answered), exclusions are not applied:
+    pending items it would exclude stay pending for the main model to decide, and shown items
+    stay shown. Fallback models judge more harshly, and an exclusion can't be undone.
     """
     out = []
     for item in items:
         update: dict = {}
-        if item.review != "excluded" and item.id in result.excluded:
-            update["review"] = "excluded"
+        if item.id in result.excluded:
+            if exclusions_final and item.review != "excluded":
+                update["review"] = "excluded"
         elif item.review == "pending" and item.id in result.reviewed:
             update["review"] = "kept"
         if item.id in result.importance:
