@@ -282,3 +282,17 @@ def test_top_stories_survive_a_later_gemini_failure(tmp_path, monkeypatch):
 
     [kept] = NewsFeed.model_validate_json(output.read_text()).top_stories
     assert (kept.title, kept.first_shown, kept.last_shown) == ("Big", NOW, NOW + timedelta(hours=1))
+
+
+@pytest.mark.parametrize(
+    "env, expected",
+    [
+        (None, ["gemini-3.7-flash", "gemini-3.5-flash-lite"]),
+        ("a, b ,", ["a", "b"]),
+        ("", []),
+    ],
+)
+def test_fallback_models_from_env(monkeypatch, env, expected):
+    if env is not None:
+        monkeypatch.setenv("GEMINI_FALLBACK_MODEL", env)
+    assert cli._fallback_models() == expected

@@ -420,7 +420,7 @@ def test_overload_is_retried_then_succeeds(sleeps):
 
 def test_falls_back_to_second_model_after_three_overloads(sleeps):
     session = FakeSession([FakeResponse({}, status=503)] * 3 + [_ok()])
-    result = run_editor(_items(), NOW, "k", WEIGHTS, model="main", fallback_model="backup", session=session)
+    result = run_editor(_items(), NOW, "k", WEIGHTS, model="main", fallback_models=["backup"], session=session)
     assert result.model == "backup"
     assert session.models() == ["main", "main", "main", "backup"]
     assert sleeps == [5, 20]
@@ -428,7 +428,7 @@ def test_falls_back_to_second_model_after_three_overloads(sleeps):
 
 def test_unavailable_model_skips_straight_to_fallback(sleeps):
     session = FakeSession([FakeResponse({}, status=404), _ok()])
-    result = run_editor(_items(), NOW, "k", WEIGHTS, model="main", fallback_model="backup", session=session)
+    result = run_editor(_items(), NOW, "k", WEIGHTS, model="main", fallback_models=["backup"], session=session)
     assert (result.model, sleeps) == ("backup", [])
 
 
@@ -451,16 +451,29 @@ def test_retry_after_is_honoured_and_capped(sleeps):
 
 def test_gives_up_naming_every_model_tried():
     session = FakeSession(FakeResponse({}, status=503))
-    with pytest.raises(EditorError, match=r"tried main, backup"):
-        run_editor(_items(), NOW, "k", WEIGHTS, model="main", fallback_model="backup", session=session)
+    with pytest.raises(EditorError, match=r"tried main, backup"):  # every model named
+        run_editor(_items(), NOW, "k", WEIGHTS, model="main", fallback_models=["backup"], session=session)
     assert len(session.calls) == 6
 
 
+def test_tries_each_fallback_in_turn(sleeps):
+    session = FakeSession([FakeResponse({}, status=503)] * 6 + [_ok()])
+    result = run_editor(
+        _items(), NOW, "k", WEIGHTS, model="main", fallback_models=["backup", "lite"], session=session
+    )
+    assert result.model == "lite"
+    assert session.models() == ["main"] * 3 + ["backup"] * 3 + ["lite"]
+
+
+def test_default_fallbacks_end_with_a_flash_lite_model():
+    assert editor.DEFAULT_FALLBACK_MODELS[-1].endswith("flash-lite")
+
+
 def test_no_fallback_when_disabled_or_same_model():
-    for fallback in (None, "main"):
+    for fallback in ([], ["main"]):
         session = FakeSession(FakeResponse({}, status=503))
         with pytest.raises(EditorError):
-            run_editor(_items(), NOW, "k", WEIGHTS, model="main", fallback_model=fallback, session=session)
+            run_editor(_items(), NOW, "k", WEIGHTS, model="main", fallback_models=fallback, session=session)
         assert session.models() == ["main"] * 3
 
 

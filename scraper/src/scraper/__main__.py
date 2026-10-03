@@ -15,7 +15,7 @@ from pathlib import Path
 from pydantic import ValidationError
 
 from scraper.editor import (
-    DEFAULT_FALLBACK_MODEL,
+    DEFAULT_FALLBACK_MODELS,
     DEFAULT_MODEL,
     EditorError,
     apply_review,
@@ -108,6 +108,14 @@ def _annotate_failures(failed: list[str]) -> None:
         _github_warning("Feed failed", f"Source '{source_id}' could not be fetched")
 
 
+def _fallback_models() -> list[str]:
+    """GEMINI_FALLBACK_MODEL: comma-separated models to try in order; "" disables fallback."""
+    value = os.environ.get("GEMINI_FALLBACK_MODEL")
+    if value is None:
+        return list(DEFAULT_FALLBACK_MODELS)
+    return [m.strip() for m in value.split(",") if m.strip()]
+
+
 def _review(
     items: list[NewsItem], now: datetime, weights: dict[str, int]
 ) -> tuple[list[NewsItem], list[TopStory], bool]:
@@ -133,8 +141,7 @@ def _review(
             api_key,
             weights,
             model=model,
-            # Set GEMINI_FALLBACK_MODEL="" to disable the fallback.
-            fallback_model=os.environ.get("GEMINI_FALLBACK_MODEL", DEFAULT_FALLBACK_MODEL) or None,
+            fallback_models=_fallback_models(),
             debug_dir=Path(d) if (d := os.environ.get("GEMINI_DEBUG_DIR")) else None,
         )
     except EditorError as exc:
