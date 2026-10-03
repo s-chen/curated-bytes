@@ -1,61 +1,41 @@
-# Project Profile: CuratedBytes (`curatedbytes.dev`)
-An intelligent, serverless, high-signal Super App bundling aggregated tech news and personalized job screening into a single unified workspace.
+# CuratedBytes (`curatedbytes.dev`)
 
-## 1. Architectural Philosophy (The Constraints)
-*   **Infrastructure Cost:** Strictly **£0/month**.
-*   **Compute Engine:** Serverless, event-driven cron loop via **GitHub Actions**. No 24/7 running compute or containers (AVOID AWS ECS / Fargate).
-*   **Storage Layer:** Fully database-free. State and content payloads are stored as flat, sharded static JSON files (`news.json`, `jobs.json`).
-*   **Hosting & Delivery:** Client-side static assets are compiled via **Vite** and delivered globally via **GitHub Pages**.
-*   **Network Security:** Routed and proxied via **Cloudflare DNS** with strict browser-enforced **HSTS/HTTPS** security enabled.
+Aggregates tech news and screens job postings against a CV, served as a static dashboard. An hourly GitHub Actions job produces JSON; the React frontend only reads it.
 
----
+## Stack & Constraints
+- **Cost: strictly £0/month.** No always-on compute or containers (no ECS/Fargate), no database.
+- **Pipeline:** Python 3.11 (`feedparser`, `requests`, `google-genai`, Pydantic) run by a GitHub Actions hourly cron.
+- **AI:** Gemini Flash via Google AI Studio free tier. Verify the current RPM limit (was 15 RPM for 2.5 Flash) before relying on it.
+- **Storage:** flat static JSON (`news.json`, `jobs.json`) in `web-dashboard/public/`.
+- **Frontend:** React 19, TypeScript, Vite, Tailwind CSS. Dense, responsive, tabbed layout.
+- **Hosting:** GitHub Pages behind Cloudflare DNS/proxy, HTTPS + HSTS enforced.
+- **Alerts:** Slack incoming webhook (Block Kit) for job matches with score >= 85.
 
-## 2. System Design Map
-```mermaid
-graph TD
-    subgraph Background Automation Pipeline (GitHub Actions - Hourly Cron)
-        A[GitHub Actions Runner] --> B[Execute: scraper/main.py]
-        B --> C[Fetch RSS Feeds & Greenhouse/Lever ATS APIs]
-        C --> D[Filter Out Duplicates via Local MD5 URL Hashing]
-        D --> E[Inference Layer: Google AI Studio Gemini API Free Tier]
-        E -- 1. Cluster & Summarize News --> F[Output: news.json]
-        E -- 2. Match-Score & Analyze Jobs against CV --> G[Output: jobs.json]
-        E -- 3. Dispatch High-Match Alerts Score >= 85 --> H[Execute: Slack Webhook]
-    end
+## Data Flow
+`RSS + Greenhouse/Lever APIs → dedupe (MD5 of URL) → Gemini (cluster/summarise news, score jobs vs CV) → news.json / jobs.json → npm run build → GitHub Pages`, with a Slack alert on high-match jobs.
 
-    subgraph Frontend Compilation & Distribution (GitHub Pages)
-        F & G --> I[Inject into web-dashboard/public/]
-        I --> J[Execute: npm run build]
-        J --> K[Deploy flat dist folder to GitHub Pages]
-        K --> L[Serve globally on curatedbytes.dev via Cloudflare Proxy]
-    end
+## Layout
 ```
+scraper/                       Python pipeline (entry: scraper/main.py)
+web-dashboard/                 Vite + React app
+web-dashboard/public/*.json    Generated data consumed by the UI
+.github/workflows/             Cron + build/deploy
+```
+(Directories are created as the code lands; update this tree when they do.)
 
----
+## Commands
+<!-- Fill in once the code exists; keep this section accurate. -->
+- Scraper: `TODO`
+- Frontend dev / build: `TODO` (`npm run build` in `web-dashboard/`)
+- Lint / test: `TODO`
 
-## 3. Tech Stack Matrix
-*   **Backend / Automation:** Python 3.11 (`feedparser`, `requests`, `google-genai` SDK)
-*   **Frontend Engine:** React 19, TypeScript, Vite
-*   **Styling & UI Components:** Tailwind CSS (Responsive Dashboard, High-Density Layout)
-*   **AI Processing Layer:** Gemini 2.5 Flash via Google AI Studio Console (Free Tier: 15 RPM limits)
-*   **Notification Layer:** Slack Incoming Webhooks (Block Kit layout formatting)
+## Rules
+1. **Keep it decoupled.** `scraper/` and `web-dashboard/` share no runtime code. The only contract is the JSON files.
+2. **Schema parity.** Pydantic output models in `scraper/` must match the `NewsItem` and `JobItem` TypeScript interfaces in `web-dashboard/src/App.tsx`. Change both together.
+3. **Free-tier discipline.** Batch Gemini calls and throttle to stay under the RPM limit. Prefer the stdlib; justify any new dependency (bundle size and Actions memory both matter).
+4. **No backend.** The frontend is 100% static and only `fetch()`es the generated JSON.
+5. **Secrets.** `GEMINI_API_KEY` and `SLACK_WEBHOOK_URL` come from environment variables (GitHub Actions secrets). Never commit them or the CV.
 
----
-
-## 4. Current State & Immediate Milestones
-- [x] Purchase and secure domain `curatedbytes.dev` on Cloudflare with WHOIS Privacy.
-- [x] Configure Cloudflare network infrastructure (DNS Records, Always Use HTTPS, HSTS preload compliance).
-- [x] Implement deterministic Python ingestion framework with built-in Gemini Pydantic schema constraints.
-- [x] Define responsive, high-density React TypeScript tabbed workspace layout.
-- [ ] Initialize git repository layout and push boilerplate workspace tracking tables.
-- [ ] Connect repository encrypted environment values (`GEMINI_API_KEY`, `SLACK_WEBHOOK_URL`).
-- [ ] Trigger first end-to-end automated GitHub Actions build run to verify cross-compilation mapping.
-
----
-
-## 5. Instructions for AI Agents / Workspace Context
-When generating or modifying code for this project, you must adhere to the following rules:
-1.  **Keep it Decoupled:** Maintain strict separation between the Python scraper pipeline (`/scraper`) and the React UI frontend (`/web-dashboard`). Do not introduce runtime interdependencies.
-2.  **Enforce Schema Integrity:** Ensure any changes to the Python Pydantic output schemas perfectly match the client-side TypeScript interfaces (`NewsItem` and `JobItem` in `App.tsx`) to prevent build-time breakage.
-3.  **Optimize for Free Tiers:** Do not introduce heavy libraries that increase compilation sizes or exceed GitHub Actions memory bounds. Keep calls to the Gemini API batched to stay well inside the 15 RPM free-tier throttle caps.
-4.  **No Server Actions / Side Effects:** The frontend must remain 100% static. It interacts with data exclusively via native browser client-side `fetch()` hooks hitting the generated local JSON assets.
+## Open Design Questions
+- **Dedupe state:** seen-URL hashes must persist between runs (committed state file or Actions cache). Not yet decided.
+- **Privacy:** `jobs.json` is published on a public site. Decide whether job scores/analysis go there or stay Slack-only.
