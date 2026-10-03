@@ -149,14 +149,21 @@ def _review(
         _github_warning("Gemini review skipped", str(exc))
         return items, [], False
 
+    # Only the main model's exclusions stick: fallbacks judge more harshly (Flash-Lite hid
+    # engineering posts and security write-ups), and an exclusion can't be undone.
+    final = result.model == model
     for item_id, reason in result.excluded.items():
         if by_id[item_id].review != "excluded":
-            log.info("Excluded by Gemini (%s): %s", reason, by_id[item_id].title)
+            if final:
+                log.info("Excluded by Gemini (%s): %s", reason, by_id[item_id].title)
+            else:
+                log.info("Left for the main model (%s would exclude: %s): %s",
+                         result.model, reason, by_id[item_id].title)
     log.info(
         "Gemini (%s) reviewed %d items; %d top stories",
         result.model, len(result.reviewed), len(result.top_stories),
     )
-    return apply_review(items, result), result.top_stories, True
+    return apply_review(items, result, exclusions_final=final), result.top_stories, True
 
 
 def _record_sites(

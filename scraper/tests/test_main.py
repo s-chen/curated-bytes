@@ -163,6 +163,7 @@ def test_rules_then_gemini_review_and_top_stories(tmp_path, monkeypatch):
             reviewed={"news", "gemini-says-no"},
             excluded={"gemini-says-no": "self-promotion"},
             top_stories=[TopStory(id="news", title="Big", item_ids=["news"])],
+            model="custom-model",
         )
 
     monkeypatch.setattr(cli, "run_editor", fake_editor)
@@ -222,7 +223,10 @@ def test_kept_items_can_be_excluded_later_but_never_come_back(tmp_path, monkeypa
     monkeypatch.setattr(cli, "fetch_all", _fake_fetch(items=[item]))
 
     def review_with(**result):
-        monkeypatch.setattr(cli, "run_editor", lambda *a, **k: EditorResult(reviewed={item.id}, **result))
+        monkeypatch.setattr(
+            cli, "run_editor",
+            lambda *a, **k: EditorResult(reviewed={item.id}, model=cli.DEFAULT_MODEL, **result),
+        )
         _run(sources, output)
         [stored] = NewsFeed.model_validate_json(output.read_text()).items
         return stored.review
@@ -296,3 +300,22 @@ def test_fallback_models_from_env(monkeypatch, env, expected):
     if env is not None:
         monkeypatch.setenv("GEMINI_FALLBACK_MODEL", env)
     assert cli._fallback_models() == expected
+
+
+def test_only_the_main_model_can_exclude(tmp_path, monkeypatch):
+    sources = _sources(tmp_path / "sources.json", "one")
+    output = tmp_path / "news.json"
+    monkeypatch.setenv("GEMINI_API_KEY", "k")
+    monkeypatch.setenv("GEMINI_MODEL", "main")
+    a = make_item(item_id("https://example.com/a"), NOW, url="https://example.com/a")
+    monkeypatch.setattr(cli, "fetch_all", _fake_fetch(items=[a]))
+
+    def review_by(model):
+        result = EditorResult(reviewed={a.id}, excluded={a.id: "harsh"}, model=model)
+        monkeypatch.setattr(cli, "run_editor", lambda *x, **k: result)
+        _run(sources, output)
+        [stored] = NewsFeed.model_validate_json(output.read_text()).items
+        return stored.review
+
+    assert review_by("lite") == "pending"  # a fallback can't exclude
+    assert review_by("main") == "excluded"

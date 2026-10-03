@@ -287,6 +287,21 @@ def test_apply_review_settles_pending_and_lets_kept_become_excluded():
     ]
 
 
+def test_fallback_exclusions_leave_items_for_the_main_model():
+    items = [
+        make_item("p-ok", NOW),
+        make_item("p-harsh", NOW),
+        make_item("shown", NOW, review="kept"),
+    ]
+    result = EditorResult(
+        reviewed={"p-ok", "p-harsh", "shown"},
+        excluded={"p-harsh": "too niche", "shown": "too niche"},
+        importance={"p-ok": 3},
+    )
+    out = apply_review(items, result, exclusions_final=False)
+    assert [(i.review, i.importance) for i in out] == [("kept", 3), ("pending", None), ("kept", None)]
+
+
 def test_excluded_items_never_come_back():
     item = make_item("x", NOW, review="excluded")
     [out] = apply_review([item], EditorResult(reviewed={"x"}, importance={"x": 5}))
