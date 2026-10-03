@@ -1,15 +1,17 @@
 # Local testing only. Production runs on the GitHub Actions hourly cron.
 #   docker compose run --rm scraper   # fetch feeds -> web-dashboard/public/news.json
 #   docker compose run --rm tests     # run the scraper test suite
+#
+# On Linux, run as your own user so the output file is writable and owned by you:
+#   export HOST_UID=$(id -u) HOST_GID=$(id -g)
+# (Not needed with Docker Desktop on macOS, which maps file ownership itself.)
 
 services:
   scraper:
     build:
       context: ./scraper
       target: runtime
-    user: "${UID:-1000}:${GID:-1000}"
-    environment:
-      PYTHONPATH: /app/src
+    user: "${HOST_UID:-1000}:${HOST_GID:-1000}"
     volumes:
       # Edit code and sources without rebuilding.
       - ./scraper/src:/app/src:ro
