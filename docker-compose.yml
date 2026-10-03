@@ -1,0 +1,26 @@
+# Local testing only. Production runs on the GitHub Actions hourly cron.
+#   docker compose run --rm scraper   # fetch feeds -> web-dashboard/public/news.json
+#   docker compose run --rm tests     # run the scraper test suite
+
+services:
+  scraper:
+    build:
+      context: ./scraper
+      target: runtime
+    user: "${UID:-1000}:${GID:-1000}"
+    environment:
+      PYTHONPATH: /app/src
+    volumes:
+      # Edit code and sources without rebuilding.
+      - ./scraper/src:/app/src:ro
+      - ./scraper/config:/app/config:ro
+      - ./web-dashboard/public:/data
+
+  tests:
+    build:
+      context: ./scraper
+      target: test
+    volumes:
+      - ./scraper/src:/app/src:ro
+      - ./scraper/tests:/app/tests:ro
+      - ./scraper/config:/app/config:ro
