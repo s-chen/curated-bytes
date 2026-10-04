@@ -1,6 +1,40 @@
 {
-  "generated_at": "2026-10-04T21:02:09.468537Z",
+  "generated_at": "2026-10-04T21:59:10.088466Z",
   "items": [
+    {
+      "id": "a1d5acfe0c801c09b51984621c1f48f4",
+      "title": "Citrix patches NetScaler SAML zero-day exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/citrix-patches-netscaler-saml-zero-day-exploited-in-attacks/",
+      "source_id": "bleepingcomputer",
+      "source_name": "BleepingComputer",
+      "category": "tech",
+      "summary": "Citrix has released emergency updates for a new NetScaler denial-of-service vulnerability tracked as CVE-2026-88779 that has been exploited in zero-day attacks, with researchers investigating whether it can also be exploited for remote code execution. [...]",
+      "published_at": "2026-10-04T21:58:01Z",
+      "fetched_at": "2026-10-04T21:59:10.088466Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "review": "kept",
+      "importance": 5
+    },
+    {
+      "id": "c0ac07d40df51b73a4522b29763971de",
+      "title": "The new Fitbit Edge leaks",
+      "url": "https://www.theverge.com/gadgets/1004616/the-new-fitbit-edge-leaks",
+      "source_id": "the-verge",
+      "source_name": "The Verge",
+      "category": "tech",
+      "summary": "We don't know a ton about the Fitbit Edge, but it appears to be a successor to the midrange Charge line. It had leaked previously, but we can clearly see in these images posted by Android Headlines, you can see that Google's rumored fitness tracker sort of splits the difference between the Pixel Watch and […]",
+      "published_at": "2026-10-04T21:02:09Z",
+      "fetched_at": "2026-10-04T21:59:10.088466Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "review": "pending",
+      "importance": null
+    },
     {
       "id": "a2491cea35eec1603e0688ef33c8613f",
       "title": "Google froze its open source bug bounty program due to a ‘significant rise’ in AI submissions",
@@ -16,7 +50,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "bdd9d41a030c29da76b718879e9b6553",
@@ -50,7 +84,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "6f9949c5278012f4c84fc6792a87b7f6",
@@ -80,8 +114,8 @@
       "published_at": "2026-10-04T19:49:12Z",
       "fetched_at": "2026-10-04T21:02:09.468537Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49957191",
-      "points": 6,
-      "comments": 4,
+      "points": 23,
+      "comments": 19,
       "engineering": false,
       "review": "pending",
       "importance": null
@@ -93,12 +127,12 @@
       "source_id": "hacker-news",
       "source_name": "Hacker News",
       "category": "tech",
-      "summary": "Related: https://www.theregister.com/networks/2026/10/01/stanford-pro...",
+      "summary": "Paper: https://www.usenix.org/system/files/atc21-ousterhout.pdfRelated: https://lwn.net/Articles/1003059/, https://www.theregister.com/networks/2026/10/01/stanford-pro...",
       "published_at": "2026-10-04T19:42:25Z",
       "fetched_at": "2026-10-04T21:02:09.468537Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49957117",
-      "points": 14,
-      "comments": 1,
+      "points": 30,
+      "comments": 2,
       "engineering": false,
       "review": "kept",
       "importance": 3
@@ -114,8 +148,8 @@
       "published_at": "2026-10-04T19:42:25Z",
       "fetched_at": "2026-10-04T21:02:09.468537Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49957116",
-      "points": 81,
-      "comments": 37,
+      "points": 160,
+      "comments": 76,
       "engineering": false,
       "review": "excluded",
       "importance": null
@@ -131,11 +165,11 @@
       "published_at": "2026-10-04T19:37:05Z",
       "fetched_at": "2026-10-04T21:02:09.468537Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49957068",
-      "points": 73,
-      "comments": 54,
+      "points": 114,
+      "comments": 140,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "6cbb25c85dc9a3d39ca16374a47a2ec3",
@@ -199,8 +233,8 @@
       "published_at": "2026-10-04T18:59:25Z",
       "fetched_at": "2026-10-04T21:02:09.468537Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49956771",
-      "points": 9,
-      "comments": 2,
+      "points": 11,
+      "comments": 3,
       "engineering": false,
       "review": "pending",
       "importance": null
@@ -274,6 +308,23 @@
       "importance": 3
     },
     {
+      "id": "b5420483ba377766ee7d79bf9518af58",
+      "title": "All I wanted was a custom domain email",
+      "url": "https://jacobg.co/emails-at-jacobg-co/",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-04T17:47:21Z",
+      "fetched_at": "2026-10-04T21:59:10.088466Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=49956092",
+      "points": 3,
+      "comments": 1,
+      "engineering": false,
+      "review": "pending",
+      "importance": null
+    },
+    {
       "id": "0f6dec6d23d7aa40d0a68324a7ac2ba5",
       "title": "Incentives in Academic Research",
       "url": "https://www.msoos.org/2026/10/incentives-in-academic-research/",
@@ -284,11 +335,11 @@
       "published_at": "2026-10-04T17:42:38Z",
       "fetched_at": "2026-10-04T21:02:09.468537Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49956035",
-      "points": 12,
-      "comments": 2,
+      "points": 14,
+      "comments": 7,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 2
     },
     {
       "id": "2097add7183dc6dd8fe19c8212cdd49b",
@@ -305,7 +356,7 @@
       "comments": 8,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "9b675329bdbdb62108edd9d5115e0eaa",
@@ -322,7 +373,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "3aeae95e5a112dcbc170a175de689270",
@@ -339,7 +390,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "5e1f7cd788aa3ffe79a68b60ef5eb079",
@@ -407,7 +458,7 @@
       "comments": 106,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "1736459cd581a105faab73f215978389",
@@ -441,7 +492,7 @@
       "comments": 23,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "a255f4ac5ad47e6e05c2ecf6d76aa923",
@@ -458,7 +509,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "ad86e5c03ea956c362a60dcf644ec6db",
@@ -475,7 +526,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "a689cad75960075345fb8d1a5dc80e91",
@@ -569,12 +620,12 @@
       "source_id": "hacker-news",
       "source_name": "Hacker News",
       "category": "tech",
-      "summary": "https://archive.ph/3gSCc",
+      "summary": "https://archive.ph/3gSCcRelated: https://www.economist.com/by-invitation/2026/10/04/will-maca...",
       "published_at": "2026-10-04T13:30:49Z",
       "fetched_at": "2026-10-04T21:02:09.468537Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49953777",
-      "points": 30,
-      "comments": 29,
+      "points": 43,
+      "comments": 57,
       "engineering": false,
       "review": "pending",
       "importance": null
@@ -607,8 +658,8 @@
       "published_at": "2026-10-04T12:51:53Z",
       "fetched_at": "2026-10-04T14:02:04.841106Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49953495",
-      "points": 471,
-      "comments": 244,
+      "points": 496,
+      "comments": 251,
       "engineering": false,
       "review": "excluded",
       "importance": null
@@ -628,7 +679,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "a3f33074c848b8dc393a1471d7d06494",
@@ -679,7 +730,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "01cebdfe289948e23aebc4ed30fcda68",
@@ -692,8 +743,8 @@
       "published_at": "2026-10-04T12:21:35Z",
       "fetched_at": "2026-10-04T21:02:09.468537Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49953288",
-      "points": 35,
-      "comments": 10,
+      "points": 45,
+      "comments": 12,
       "engineering": false,
       "review": "pending",
       "importance": null
@@ -866,7 +917,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "8722d49d8f71a13b7064ed093fea35d1",
@@ -964,8 +1015,8 @@
       "published_at": "2026-10-04T09:24:52Z",
       "fetched_at": "2026-10-04T12:20:31.011979Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49952111",
-      "points": 119,
-      "comments": 58,
+      "points": 125,
+      "comments": 59,
       "engineering": false,
       "review": "excluded",
       "importance": null
@@ -1032,11 +1083,11 @@
       "published_at": "2026-10-04T08:41:58Z",
       "fetched_at": "2026-10-04T21:02:09.468537Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49951891",
-      "points": 19,
-      "comments": 5,
+      "points": 28,
+      "comments": 7,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "aee49347b597338b915f845a86764dad",
@@ -1070,7 +1121,7 @@
       "comments": 101,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "7ca9988ff9211148a9c78b6725449b85",
@@ -1168,8 +1219,8 @@
       "published_at": "2026-10-04T06:26:57Z",
       "fetched_at": "2026-10-04T12:20:31.011979Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49951218",
-      "points": 109,
-      "comments": 28,
+      "points": 112,
+      "comments": 30,
       "engineering": false,
       "review": "excluded",
       "importance": null
@@ -1186,7 +1237,7 @@
       "fetched_at": "2026-10-04T21:02:09.468537Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49950818",
       "points": 9,
-      "comments": 1,
+      "comments": 3,
       "engineering": false,
       "review": "kept",
       "importance": 2
@@ -1206,7 +1257,7 @@
       "comments": 274,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "48b084875a355788c82833c1bb46bb41",
@@ -1223,7 +1274,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "e94e936032d738f41ac09406e2d3975e",
@@ -1253,7 +1304,7 @@
       "published_at": "2026-10-04T00:50:52Z",
       "fetched_at": "2026-10-04T05:59:26.441660Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49949438",
-      "points": 763,
+      "points": 772,
       "comments": 162,
       "engineering": false,
       "review": "kept",
@@ -1274,7 +1325,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "0f5fb94f1fc707cbdfaa85d810696d71",
@@ -1304,7 +1355,7 @@
       "published_at": "2026-10-03T23:16:45Z",
       "fetched_at": "2026-10-04T21:02:09.468537Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49948738",
-      "points": 8,
+      "points": 10,
       "comments": 4,
       "engineering": false,
       "review": "pending",
@@ -1325,7 +1376,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "016378578c1d36c27e1ac93e928d4a5e",
@@ -1359,7 +1410,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "9eea0175d88c3b022cebdc856ee9164c",
@@ -1427,7 +1478,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "0c44c10ff5eb708644e1d3b7873dab84",
@@ -1444,7 +1495,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "c8a3e615247093137505e6b3bc4fdc3a",
@@ -1478,7 +1529,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "85085e79346c5772f79c98c444487766",
@@ -1491,8 +1542,8 @@
       "published_at": "2026-10-03T20:41:15Z",
       "fetched_at": "2026-10-04T19:02:05.091001Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49947565",
-      "points": 37,
-      "comments": 26,
+      "points": 42,
+      "comments": 37,
       "engineering": false,
       "review": "pending",
       "importance": null
@@ -1512,7 +1563,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "433588b5b0f132573c7a936781a2bb43",
@@ -1525,8 +1576,8 @@
       "published_at": "2026-10-03T20:27:44Z",
       "fetched_at": "2026-10-03T23:47:49.232475Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49947472",
-      "points": 120,
-      "comments": 63,
+      "points": 123,
+      "comments": 66,
       "engineering": false,
       "review": "kept",
       "importance": 3
@@ -1580,7 +1631,7 @@
       "comments": 223,
       "engineering": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "102faf37e92ce8412aaf29e8d68df982",
@@ -1597,7 +1648,7 @@
       "comments": 24,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 2
     },
     {
       "id": "c5e6afee1ce03466d16be7d7fa810900",
@@ -1610,11 +1661,11 @@
       "published_at": "2026-10-03T19:14:48Z",
       "fetched_at": "2026-10-03T23:47:49.232475Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49946895",
-      "points": 441,
-      "comments": 84,
+      "points": 443,
+      "comments": 86,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "feb12ec34b82d6ce4e9282246de3cc47",
@@ -1665,7 +1716,7 @@
       "comments": 9,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "dd4b1a85a6c1705a91697b68e4db8235",
@@ -1750,7 +1801,7 @@
       "comments": 143,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "b273c3e35438354f46086776da03b17d",
@@ -1835,7 +1886,7 @@
       "comments": 89,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "04d9188e6125298ced324cc4ed2eb3b6",
@@ -1886,7 +1937,7 @@
       "comments": 4,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "6664414c5e62bc9dccd337eba3132a33",
@@ -1903,7 +1954,7 @@
       "comments": 175,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "91ac6ac98d2225fac82ba9b8f92e0987",
@@ -1988,7 +2039,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "a5a4ecc93d3f5c606d9f704151dcaa4b",
@@ -2005,7 +2056,7 @@
       "comments": 22,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "9b918c14c984e53315701596c674761e",
@@ -2073,7 +2124,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "177ca5e89d7b60729315074e96716734",
@@ -2124,7 +2175,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "c333863c691be7819e3affd162814b6f",
@@ -2141,7 +2192,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "7247676b6aff132650c8c1ec39083cac",
@@ -2192,7 +2243,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "487d8a65b3c37b146af74564ef626737",
@@ -2260,7 +2311,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "ea13d5d7105bf78ffa4f8afe5bb70799",
@@ -2277,7 +2328,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "4abe38a95ebae74cf3e5c6e8be90ae28",
@@ -2294,7 +2345,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "829feb3dd8d04b0a3aa514416bbb3865",
@@ -2328,7 +2379,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "fd89975c92daf8fc1433dc28a65d0210",
@@ -2379,7 +2430,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "e869fb2f77567d2fa7a9362d02babd0b",
@@ -2447,7 +2498,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "93a7148fb49c00db563e2e47ffbc3c08",
@@ -2464,7 +2515,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "6b7aea09ea1e68aff1f7c1cac9756473",
@@ -2532,7 +2583,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "4100f1465b5fe6777af3dde4afc5a3be",
@@ -8249,57 +8300,71 @@
   ],
   "top_stories": [
     {
-      "id": "c5e34d281995194d831950320d9b27ea",
-      "title": "OpenAI Safety Leader Resigns, Citing Broken Culture",
-      "summary": "OpenAI safety employee David Robinson has resigned from his position, warning that the company's culture is broken. Robinson previously wrote the safety reports accompanying major model releases.",
-      "why_it_matters": "The departure of key safety personnel highlights ongoing internal governance and cultural friction at leading AI laboratories.",
+      "id": "eb8bbabe305cdeefa3e475531ece6e79",
+      "title": "OpenAI Safety Employee Resigns Over Broken Culture",
+      "summary": "An OpenAI safety employee who wrote safety reports for major model releases has resigned from the company. The former employee claims that OpenAI's culture is broken and is speaking out publicly.",
+      "why_it_matters": "This highlights ongoing internal tensions and governance challenges regarding safety at leading AI firms.",
       "item_ids": [
-        "c5e34d281995194d831950320d9b27ea",
         "eb8bbabe305cdeefa3e475531ece6e79",
+        "c5e34d281995194d831950320d9b27ea",
         "f8fc0aa18dcc03fda06c1ff95bc24e12",
         "46d6ebc3890ff63e0f00c19e2f495f1b"
       ],
       "primary_url": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881?gift=1ga2TvL-DbuHDQIcYF7oR4o908Fsjxr4NFLlsptkfP8",
       "first_shown": "2026-10-03T21:08:25.972900Z",
-      "last_shown": "2026-10-04T21:02:09.468537Z"
+      "last_shown": "2026-10-04T21:59:10.088466Z"
     },
     {
-      "id": "5244a8e43fed887314f6561d37e16013",
-      "title": "Suspected ShinyHunters Extortion Group Member 'Rey' Detained in Jordan",
-      "summary": "A suspected member of the ShinyHunters digital extortion group known as 'Rey' has been detained by authorities in Jordan. The suspect is reportedly cooperating with the FBI to help locate other members of the group.",
-      "why_it_matters": "Law enforcement actions against prominent cyber extortion groups can disrupt ongoing credential theft and data leak operations.",
+      "id": "41bb60c6927e2fccaee8084fa58d5916",
+      "title": "ShinyHunters Suspect 'Rey' Detained in Jordan",
+      "summary": "A suspected member of the ShinyHunters extortion group known as 'Rey' has been detained by authorities in Jordan. The suspect is reportedly cooperating with the FBI to help locate other members of the group.",
+      "why_it_matters": "This is a significant development in international cybercrime law enforcement against major data extortion groups.",
       "item_ids": [
-        "5244a8e43fed887314f6561d37e16013",
-        "41bb60c6927e2fccaee8084fa58d5916"
+        "41bb60c6927e2fccaee8084fa58d5916",
+        "5244a8e43fed887314f6561d37e16013"
       ],
       "primary_url": "https://www.reuters.com/world/middle-east/key-shinyhunters-hacker-detained-jordan-is-cooperating-sources-say-2026-10-03",
       "first_shown": "2026-10-04T12:20:31.011979Z",
-      "last_shown": "2026-10-04T21:02:09.468537Z"
+      "last_shown": "2026-10-04T21:59:10.088466Z"
+    },
+    {
+      "id": "a1d5acfe0c801c09b51984621c1f48f4",
+      "title": "Citrix patches NetScaler SAML zero-day exploited in attacks",
+      "summary": "Citrix has released emergency updates for a new NetScaler denial-of-service vulnerability tracked as CVE-2026-88779 that has been exploited in zero-day attacks, with researchers investigating whether it can also be exploited for remote code execution. [...]",
+      "why_it_matters": "Citrix has released emergency patches for an actively exploited zero-day denial-of-service vulnerability in NetScaler devices.",
+      "item_ids": [
+        "a1d5acfe0c801c09b51984621c1f48f4"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-04T21:59:10.088466Z",
+      "last_shown": "2026-10-04T21:59:10.088466Z"
     },
     {
       "id": "a2491cea35eec1603e0688ef33c8613f",
       "title": "Google froze its open source bug bounty program due to a ‘significant rise’ in AI submissions",
       "summary": "AI slop seems to be overwhelming bug bounty programs.",
-      "why_it_matters": "Google's temporary freeze on its bug bounty program due to overwhelming AI-generated slop highlights a growing triage crisis for vulnerability management.",
+      "why_it_matters": "Google's temporary freeze on open source bug bounties due to AI submissions highlights growing automated noise in security programs.",
       "item_ids": [
         "a2491cea35eec1603e0688ef33c8613f"
       ],
       "primary_url": null,
       "first_shown": "2026-10-04T21:02:09.468537Z",
-      "last_shown": "2026-10-04T21:02:09.468537Z"
+      "last_shown": "2026-10-04T21:59:10.088466Z"
     },
     {
       "id": "269b0058e3c1e9e427312db6cd2db83a",
       "title": "Google Gemini could soon get full access to your Mac’s files, apps and the web",
       "summary": "Google's Gemini could soon access any file on your macOS device, open apps, browse the web, and perform actions without asking for permission every time. [...]",
-      "why_it_matters": "Google Gemini gaining deep operating system access to files, apps, and the web on macOS raises critical host-level security and permission management considerations.",
+      "why_it_matters": "Potential deep OS-level integration by Gemini raises significant security and privacy concerns for macOS users.",
       "item_ids": [
         "269b0058e3c1e9e427312db6cd2db83a"
       ],
       "primary_url": null,
       "first_shown": "2026-10-03T21:08:25.972900Z",
-      "last_shown": "2026-10-04T21:02:09.468537Z"
-    },
+      "last_shown": "2026-10-04T21:59:10.088466Z"
+    }
+  ],
+  "past_top_stories": [
     {
       "id": "fedb773a5aa96262604ff7900f5ab46d",
       "title": "New Archestra's OpenAPPA Saturates Two Major Security Benchmarks with a 0% Attack Success Rate",
@@ -8335,9 +8400,7 @@
       "primary_url": null,
       "first_shown": "2026-10-04T12:20:31.011979Z",
       "last_shown": "2026-10-04T21:02:09.468537Z"
-    }
-  ],
-  "past_top_stories": [
+    },
     {
       "id": "93d5b918adf4f1e18fd31c0b7b04839b",
       "title": "Rural Data Centers Are in for a Big Federal Tax Break",
@@ -8421,42 +8484,6 @@
       "primary_url": null,
       "first_shown": "2026-10-03T21:08:25.972900Z",
       "last_shown": "2026-10-04T17:02:05.557589Z"
-    },
-    {
-      "id": "7491d19e28584bde3067bd8b70e4c54f",
-      "title": "Amazon responds to data center backlash, says it no longer uses NDAs",
-      "summary": "The CEO of Amazon Web Services tried to push back against widespread suspicion of data centers.",
-      "why_it_matters": "Signals a shift toward greater transparency in how major cloud providers negotiate local data center infrastructure projects.",
-      "item_ids": [
-        "7491d19e28584bde3067bd8b70e4c54f"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-04T13:02:03.753265Z",
-      "last_shown": "2026-10-04T16:02:09.333564Z"
-    },
-    {
-      "id": "aa73e05f6821921afb7b45c61c33deba",
-      "title": "Pop!_OS bans AI-generated code from much of its codebase",
-      "summary": null,
-      "why_it_matters": "Reflects growing open-source distribution policies prohibiting machine-generated contributions from upstream operating system repositories.",
-      "item_ids": [
-        "aa73e05f6821921afb7b45c61c33deba"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-03T21:08:25.972900Z",
-      "last_shown": "2026-10-04T16:02:09.333564Z"
-    },
-    {
-      "id": "a1e941e4845f47f93322c8789baf6afd",
-      "title": "GitLab Vulnerability Under Active Exploitation Enables Unauthenticated Data Exfiltration",
-      "summary": "CVE-2026-85706 is a critical GitLab path-traversal vulnerability that has moved beyond theoretical risk into confirmed exploitation. It affects self-managed GitLab CE/EE and could allow an unauthenticated remote attacker to read arbitrary files from the GitLab. By Sergio De Simone",
-      "why_it_matters": "A critical path-traversal vulnerability in GitLab is actively exploited in the wild, requiring immediate patching for self-managed instances to prevent unauthenticated data exfiltration.",
-      "item_ids": [
-        "a1e941e4845f47f93322c8789baf6afd"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-03T21:08:25.972900Z",
-      "last_shown": "2026-10-04T15:02:15.692175Z"
     }
   ]
 }
