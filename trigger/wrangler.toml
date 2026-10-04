@@ -1,9 +1,9 @@
 # Optional: deploy with `npx wrangler deploy` from this folder (needs Node >= 22), instead of
 # pasting worker.js into the Cloudflare dashboard. Then: `npx wrangler secret put GITHUB_TOKEN`.
-name = "curatedbytes-trigger"
+name = "curated-bytes-trigger"
 main = "worker.js"
 compatibility_date = "2026-10-01"
 workers_dev = false # cron only: no public URL
 
 [triggers]
-crons = ["17 * * * *"]
+crons = ["1 * * * *"]
