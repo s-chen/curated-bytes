@@ -15,7 +15,15 @@ Aggregates tech news and screens job postings against a CV, served as a static d
 `RSS + Greenhouse/Lever APIs → dedupe (MD5 of URL) → rule filters (code-hosting links, promotions) → Gemini (review every new story, cluster/summarise top stories, score jobs vs CV) → follow top-story article links to find primary sources → keep top stories on a rolling 24h window (3h sticky, 48h "earlier" list) → news.json / jobs.json → npm run build → GitHub Pages`, with a Slack alert on high-match jobs.
 
 ## Hourly workflow
-`.github/workflows/hourly.yml` runs at :17 every hour (and on demand): checks out the `data` branch, runs the scraper against it, commits the changes back, then builds the dashboard with `news.json` from `data` and deploys it to GitHub Pages. Pushes to main redeploy the dashboard without scraping. Each run uploads Gemini's last request and reply as the `gemini-debug` artifact (kept 7 days). Needs the `GEMINI_API_KEY` secret and Pages set to deploy from GitHub Actions.
+`.github/workflows/hourly.yml` runs at :17 every hour, started by a Cloudflare Worker (`trigger/`) because GitHub's own schedule skips most runs (its schedule, every 6h, is only a backup). It can also be started on demand. Each run checks out the `data` branch, runs the scraper against it, commits the changes back, then builds the dashboard with `news.json` from `data` and deploys it to GitHub Pages. Pushes to main redeploy the dashboard without scraping. Each run uploads Gemini's last request and reply as the `gemini-debug` artifact (kept 7 days). Needs the `GEMINI_API_KEY` secret and Pages set to deploy from GitHub Actions.
+
+Setting up the trigger Worker (once):
+1. GitHub → Settings → Developer settings → Fine-grained tokens: repository access only `s-chen/curated-bytes`, permission Actions → Read and write, nothing else.
+2. Cloudflare → Workers & Pages → Create → Worker named `curatedbytes-trigger`; replace its code with `trigger/worker.js` and deploy.
+3. Worker → Settings → Variables and Secrets: add secret `GITHUB_TOKEN` (the token). Settings → Domains & Routes: disable the workers.dev route (it's cron only).
+4. Worker → Settings → Triggers → Cron Triggers: add `17 * * * *`.
+5. Check: the Actions tab shows an Hourly run with event `workflow_dispatch` shortly after :17. Failures (e.g. an expired token: 401) appear in the Worker's logs.
+`docker run --rm -v "$PWD/trigger":/t -w /t node:22-alpine npm test` runs the Worker's tests. With Node ≥ 22, `npx wrangler deploy` from `trigger/` deploys it instead of steps 2–4 (then `npx wrangler secret put GITHUB_TOKEN`).
 
 ## Commands
 - News sources live in `scraper/config/news_sources.json` (`id`, `name`, `url`, `category`, optional `enabled`, `weight` 1–3 for how much its coverage counts towards top stories: 3 major outlet, 1 small site, `aggregator: true` for link aggregators like Hacker News, and `engineering: true` for company engineering blogs, whose posts are listed first).

@@ -5,13 +5,16 @@
 # free of hourly bot commits. The site is the dashboard from main plus news.json from data.
 #
 # Setup (once): add the GEMINI_API_KEY repository secret, and set Settings > Pages >
-# Source to "GitHub Actions". Scheduled runs only start once this file is on main.
+# Source to "GitHub Actions".
+#
+# Runs are started hourly at :17 by a Cloudflare Worker (trigger/), because GitHub's own
+# schedule skips most runs. The schedule below is only a backup in case the Worker stops.
 
 name: Hourly
 
 on:
   schedule:
-    - cron: "17 * * * *" # off the hour, when GitHub's scheduler is least busy
+    - cron: "47 */6 * * *" # backup only; the Cloudflare Worker starts the hourly runs
   workflow_dispatch:
   push:
     branches: [main] # redeploy the dashboard when its code changes (no scrape)
