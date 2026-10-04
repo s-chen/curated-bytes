@@ -4,10 +4,11 @@
 # checks it out, the scraper reads and updates it, and the run commits it back. Main stays
 # free of hourly bot commits. The site is the dashboard from main plus news.json from data.
 #
-# Setup (once): add the GEMINI_API_KEY repository secret, and set Settings > Pages >
-# Source to "GitHub Actions".
+# Setup (once): add the GEMINI_API_KEY secret to the `gemini` environment (Settings >
+# Environments; deployments limited to main, so no other branch can read it), and set
+# Settings > Pages > Source to "GitHub Actions".
 #
-# Runs are started hourly at :17 by a Cloudflare Worker (trigger/), because GitHub's own
+# Runs are started hourly at :01 by a Cloudflare Worker (trigger/), because GitHub's own
 # schedule skips most runs. The schedule below is only a backup in case the Worker stops.
 
 name: Hourly
@@ -34,6 +35,7 @@ jobs:
     timeout-minutes: 15
     permissions:
       contents: write # push to the data branch
+    environment: gemini # holds GEMINI_API_KEY; only main may use it
     steps:
       - uses: actions/checkout@v7
 
