@@ -1,6 +1,74 @@
 {
-  "generated_at": "2026-10-05T08:02:06.714707Z",
+  "generated_at": "2026-10-05T09:02:07.027191Z",
   "items": [
+    {
+      "id": "4181b2925277e42ee689a8fb43194df7",
+      "title": "Cloudflare Fixes Cross-Tenant Data Exposure in Containers",
+      "url": "https://www.infoq.com/news/2026/10/cloudflare-cross-tenant-exposure/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source_id": "infoq",
+      "source_name": "InfoQ",
+      "category": "tech",
+      "summary": "Cloudflare has disclosed a cross-tenant data exposure vulnerability in Containers and Sandboxes, caused by thin-provisioned storage pools configured to skip zeroing reused blocks. Researchers recovered directory structures, database pages and complete SQLite databases across four continents. Cloudflare remediated it and found no evidence of exploitation. By Steef-Jan Wiggers",
+      "published_at": "2026-10-05T08:48:00Z",
+      "fetched_at": "2026-10-05T09:02:07.027191Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "review": "kept",
+      "importance": 4
+    },
+    {
+      "id": "01b0f942c8fc53e03781eb57b106d402",
+      "title": "Brighter isn't better and more is less. The AI slowdown is nigh, no matter who says what",
+      "url": "https://www.theregister.com/ai-and-ml/2026/10/05/brighter-isnt-better-and-more-is-less-the-ai-slowdown-is-nigh-no-matter-who-says-what/5300747",
+      "source_id": "the-register",
+      "source_name": "The Register",
+      "category": "tech",
+      "summary": "Meta isn’t helping — or perhaps it is",
+      "published_at": "2026-10-05T08:30:00Z",
+      "fetched_at": "2026-10-05T09:02:07.027191Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "review": "kept",
+      "importance": 2
+    },
+    {
+      "id": "e209ec2cbc83f7a285ab134ac46ade36",
+      "title": "Google halts open-source bug bounty program amid AI spam surge",
+      "url": "https://www.bleepingcomputer.com/news/google/google-halts-open-source-bug-bounty-program-amid-ai-spam-surge/",
+      "source_id": "bleepingcomputer",
+      "source_name": "BleepingComputer",
+      "category": "tech",
+      "summary": "Google has now suspended submissions to its Open Source Software Vulnerability Rewards Program (OSS VRP) after being flooded by AI-generated reports. [...]",
+      "published_at": "2026-10-05T08:27:46Z",
+      "fetched_at": "2026-10-05T09:02:07.027191Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "review": "kept",
+      "importance": 4
+    },
+    {
+      "id": "977df35611f39a038cd55abd909bd795",
+      "title": "Becoming a photographer",
+      "url": "https://stanko.io/becoming-a-photographer-tIKMwUVuHnHG",
+      "source_id": "lobsters",
+      "source_name": "Lobsters",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-05T08:00:45Z",
+      "fetched_at": "2026-10-05T09:02:07.027191Z",
+      "discussion_url": "https://lobste.rs/s/svjojg/becoming_photographer",
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "review": "excluded",
+      "importance": null
+    },
     {
       "id": "9c1601197b9052237fd0830ce1a30c11",
       "title": "What people say about their file infrastructure once the badge comes off",
@@ -15,7 +83,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 2
     },
     {
@@ -50,7 +118,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "08d2a6ef860e191ec115ad24cb822ddf",
@@ -66,7 +134,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 1
     },
     {
@@ -118,7 +186,7 @@
       "comments": 36,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "c75cc142a352f9ca1edf684910ecd615",
@@ -134,7 +202,7 @@
       "points": 46,
       "comments": 18,
       "engineering": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 2
     },
     {
@@ -151,7 +219,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 3
     },
     {
@@ -236,7 +304,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
+      "review": "excluded",
       "importance": null
     },
     {
@@ -271,7 +339,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "e1e58f1b2f0644e3c66d7660599bb816",
@@ -287,7 +355,7 @@
       "points": 183,
       "comments": 144,
       "engineering": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 2
     },
     {
@@ -322,7 +390,7 @@
       "comments": 48,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "af79189680a7c47708f44d2860753e04",
@@ -373,7 +441,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "c0ac07d40df51b73a4522b29763971de",
@@ -389,7 +457,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 1
     },
     {
@@ -440,7 +508,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 3
     },
     {
@@ -543,7 +611,7 @@
       "comments": 471,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "6cbb25c85dc9a3d39ca16374a47a2ec3",
@@ -696,7 +764,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "b5420483ba377766ee7d79bf9518af58",
@@ -781,7 +849,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "3aeae95e5a112dcbc170a175de689270",
@@ -848,7 +916,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 2
     },
     {
@@ -951,7 +1019,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "6b313b1a2e174dd1bace75bef5214426",
@@ -1019,7 +1087,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "b26f3338df3ced05e73df6d31cf4f47d",
@@ -1155,7 +1223,7 @@
       "comments": 37,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "fe42084d663451b884bc7e8d77b11195",
@@ -1171,7 +1239,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 2
     },
     {
@@ -1188,7 +1256,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 2
     },
     {
@@ -1341,7 +1409,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 2
     },
     {
@@ -1597,7 +1665,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "969502e75043a0aeeb539a35b2dd9c56",
@@ -1614,7 +1682,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "854d659142d0969cf3389c85fe5ed2f8",
@@ -1665,7 +1733,7 @@
       "comments": 274,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "48b084875a355788c82833c1bb46bb41",
@@ -1698,7 +1766,7 @@
       "points": 141,
       "comments": 78,
       "engineering": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 3
     },
     {
@@ -1716,7 +1784,7 @@
       "comments": 185,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "fedb773a5aa96262604ff7900f5ab46d",
@@ -1733,7 +1801,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 2
     },
     {
       "id": "0f5fb94f1fc707cbdfaa85d810696d71",
@@ -1801,7 +1869,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "7e6523152ecdff76dd3c85eed436c184",
@@ -1869,7 +1937,7 @@
       "comments": 8,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "5cc027fe37fd8b9de038e68c3825a427",
@@ -8432,113 +8500,106 @@
       "engineering": false,
       "review": "pending",
       "importance": null
-    },
-    {
-      "id": "06bbc320bc311736501a4e39cfa4fbfc",
-      "title": "Hackers Use NeedyMantis to Maintain Long-Term Access in Breached Networks",
-      "url": "https://thehackernews.com/2026/09/hackers-use-needymantis-to-maintain.html",
-      "source_id": "the-hacker-news",
-      "source_name": "The Hacker News",
-      "category": "tech",
-      "summary": "Hackers have used a malware family called NeedyMantis to maintain long-term access to networks they had already breached, Microsoft said in a technical analysis. The malware has been seen in a small number of targeted intrusions at telecommunications organizations, universities, medical nonprofits, intergovernmental organizations, and government contractors. Its use goes back to at least",
-      "published_at": "2026-09-28T18:35:42Z",
-      "fetched_at": "2026-10-03T20:57:46.771170Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "review": "pending",
-      "importance": null
-    },
-    {
-      "id": "097b65f90159852d44b5cc96974d017b",
-      "title": "IAM for AI agents: A Practical Enterprise Framework",
-      "url": "https://thehackernews.com/2026/09/iam-for-ai-agent.html",
-      "source_id": "the-hacker-news",
-      "source_name": "The Hacker News",
-      "category": "tech",
-      "summary": "What is IAM for AI agents? AI agents authenticate, invoke tools, and act across enterprise systems with delegated authority. IAM for AI Agents is the identity-control architecture that governs those actors. This guide covers the limits of conventional provisioning, the components that matter, how to evaluate framework choices, and what runtime evidence proves an agent behaved as intended.",
-      "published_at": "2026-09-28T18:20:38Z",
-      "fetched_at": "2026-10-03T20:57:46.771170Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "review": "pending",
-      "importance": null
-    },
-    {
-      "id": "4b087e58e2e4d10b54c1ff64097cd875",
-      "title": "Get started with the GitHub Copilot app: a free, hands-on course",
-      "url": "https://devblogs.microsoft.com/blog/github-copilot-app-for-beginners/",
-      "source_id": "microsoft-devblogs",
-      "source_name": "Microsoft for Developers",
-      "category": "tech",
-      "summary": "Learn to direct AI coding agents, review their work, and build reliable development workflows with this free GitHub Copilot app course. The post Get started with the GitHub Copilot app: a free, hands-on course appeared first on Microsoft for Developers.",
-      "published_at": "2026-09-28T18:05:00Z",
-      "fetched_at": "2026-10-03T20:57:46.771170Z",
-      "discussion_url": "https://devblogs.microsoft.com/blog/github-copilot-app-for-beginners/#respond",
-      "points": null,
-      "comments": null,
-      "engineering": true,
-      "review": "pending",
-      "importance": null
-    },
-    {
-      "id": "a543e842f86a5f8fa09ba202400e3fa1",
-      "title": "Bitget Says Attacker Exploited Third-Party Security Product Flaw to Steal $388M",
-      "url": "https://thehackernews.com/2026/09/bitget-says-attacker-exploited-third.html",
-      "source_id": "the-hacker-news",
-      "source_name": "The Hacker News",
-      "category": "tech",
-      "summary": "The attacker who stole about $388 million from the cryptocurrency exchange Bitget gained access through a vulnerability in a third-party security product the exchange used, Bitget said on Monday. The attacker exploited the flaw to obtain high-level internal credentials and then, on September 24, used them to send fraudulent withdrawal commands to Bitget's wallet system. Exchanges keep most",
-      "published_at": "2026-09-28T17:42:18Z",
-      "fetched_at": "2026-10-03T20:57:46.771170Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "review": "pending",
-      "importance": null
     }
   ],
   "top_stories": [
     {
-      "id": "58f5730626d851c789c5394837050157",
-      "title": "Citrix Patches NetScaler SAML Zero-Day Exploited in Attacks",
-      "summary": "Citrix has released emergency updates and security fixes for a high-severity denial-of-service vulnerability in NetScaler ADC and Citrix NetScaler Gateway. The flaw, tracked as CVE-2026-88779, has been actively exploited as part of targeted zero-day attacks to knock SAML deployments offline.",
-      "why_it_matters": "Administrators must patch NetScaler deployments immediately to mitigate active zero-day attacks targeting SAML authentication services.",
+      "id": "e209ec2cbc83f7a285ab134ac46ade36",
+      "title": "Google Halts Open Source Bug Bounty Program Over Influx of AI Spam",
+      "summary": "Google has suspended submissions to its Open Source Software Vulnerability Rewards Program (OSS VRP). The company froze the program due to a significant rise in AI-generated reports flooding the system.",
+      "why_it_matters": "Security researchers and open-source contributors can no longer submit vulnerabilities for rewards under Google's open-source bounty program while the freeze is active.",
       "item_ids": [
-        "58f5730626d851c789c5394837050157",
-        "a1d5acfe0c801c09b51984621c1f48f4"
+        "e209ec2cbc83f7a285ab134ac46ade36",
+        "a2491cea35eec1603e0688ef33c8613f"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-04T21:02:09.468537Z",
+      "last_shown": "2026-10-05T09:02:07.027191Z"
+    },
+    {
+      "id": "a1d5acfe0c801c09b51984621c1f48f4",
+      "title": "Citrix Patches NetScaler SAML Zero-Day Exploited in Attacks",
+      "summary": "Citrix has released emergency security updates for NetScaler ADC and Citrix NetScaler Gateway to address a high-severity denial-of-service vulnerability tracked as CVE-2026-88779. The zero-day vulnerability has been exploited in targeted attacks and can knock SAML deployments offline.",
+      "why_it_matters": "Infrastructure and security engineers managing NetScaler ADC or Gateway must apply the emergency patches to protect SAML authentication services from targeted denial-of-service exploits.",
+      "item_ids": [
+        "a1d5acfe0c801c09b51984621c1f48f4",
+        "58f5730626d851c789c5394837050157"
       ],
       "primary_url": "https://community.citrix.com/techzone-blogs/110_security-updates/understanding-and-addressing-cve-2026-88779-in-citrix-netscaler-adc-and-citrix-netscaler-gateway",
       "first_shown": "2026-10-04T21:59:10.088466Z",
-      "last_shown": "2026-10-05T08:02:06.714707Z"
+      "last_shown": "2026-10-05T09:02:07.027191Z"
+    },
+    {
+      "id": "4181b2925277e42ee689a8fb43194df7",
+      "title": "Cloudflare Fixes Cross-Tenant Data Exposure in Containers",
+      "summary": "Cloudflare has disclosed a cross-tenant data exposure vulnerability in Containers and Sandboxes, caused by thin-provisioned storage pools configured to skip zeroing reused blocks. Researchers recovered directory structures, database pages and complete SQLite databases across four continents. Cloudflare remediated it and found no evidence of exploitation. By Steef-Jan Wiggers",
+      "why_it_matters": "Cloudflare patched a cross-tenant data exposure flaw in its container and sandbox offerings that exposed unzeroed blocks across customer instances.",
+      "item_ids": [
+        "4181b2925277e42ee689a8fb43194df7"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-05T09:02:07.027191Z",
+      "last_shown": "2026-10-05T09:02:07.027191Z"
+    },
+    {
+      "id": "0d9d3ba627dbfb3e51e9bdabe01b1d84",
+      "title": "Improper redaction reveals Google Data Center water and electricity usage",
+      "summary": null,
+      "why_it_matters": "Unredacted documents expose Google data center power and water consumption figures previously withheld from the public.",
+      "item_ids": [
+        "0d9d3ba627dbfb3e51e9bdabe01b1d84"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-05T00:02:15.345798Z",
+      "last_shown": "2026-10-05T09:02:07.027191Z"
     },
     {
       "id": "9b675329bdbdb62108edd9d5115e0eaa",
       "title": "Google's Android Security State Libraries Enable Component-Level Security Verification",
       "summary": "Google's AndroidX Security State libraries enables apps to verify security patch status at the individual component level, rather than relying on a single, device-wide security patch date. By Sergio De Simone",
-      "why_it_matters": "Allows Android developers and system builders to verify security patch status at an individual component level rather than device-wide.",
+      "why_it_matters": "Android developers can now verify security patch levels on a per-component basis instead of relying solely on device-wide patch dates.",
       "item_ids": [
         "9b675329bdbdb62108edd9d5115e0eaa"
       ],
       "primary_url": null,
       "first_shown": "2026-10-04T17:02:05.557589Z",
-      "last_shown": "2026-10-05T08:02:06.714707Z"
+      "last_shown": "2026-10-05T09:02:07.027191Z"
     },
     {
-      "id": "a2491cea35eec1603e0688ef33c8613f",
-      "title": "Google froze its open source bug bounty program due to a ‘significant rise’ in AI submissions",
-      "summary": "AI slop seems to be overwhelming bug bounty programs.",
-      "why_it_matters": "Highlights growing operational challenges in open-source maintenance as automated AI submissions overwhelm security bug bounty programs.",
+      "id": "93d5b918adf4f1e18fd31c0b7b04839b",
+      "title": "Rural Data Centers Are in for a Big Federal Tax Break",
+      "summary": "Under the One Big Beautiful Bill Act, data center projects in rural areas could be eligible for major tax benefits starting next year. Some hyperscalers do not seem eager to take the free cash.",
+      "why_it_matters": "New federal legislation introduces major tax incentives for rural data center construction, impacting cloud infrastructure planning.",
       "item_ids": [
-        "a2491cea35eec1603e0688ef33c8613f"
+        "93d5b918adf4f1e18fd31c0b7b04839b"
       ],
       "primary_url": null,
-      "first_shown": "2026-10-04T21:02:09.468537Z",
-      "last_shown": "2026-10-05T08:02:06.714707Z"
+      "first_shown": "2026-10-04T12:20:31.011979Z",
+      "last_shown": "2026-10-05T09:02:07.027191Z"
+    },
+    {
+      "id": "eb28cd8a45feabe52edb63804ad05663",
+      "title": "Kernel prepatch 7.3-rc6",
+      "summary": "The 7.3-rc6 kernel prepatch is out for testing. Linus said: Next week might look a bit different: we've got the annual maintainer summit and the Linux plumbers conference going on , so I'll be on the road, as will a number of other maintainers. That may or may not end up changing the stats for -rc7. But it's unlikely to affect the release schedule, although the fact that I have my yearly family vacation the week after that might make the next merge window a bit wonky.",
+      "why_it_matters": "Linux kernel developers and maintainers have a new prepatch release candidate (7.3-rc6) available for testing.",
+      "item_ids": [
+        "eb28cd8a45feabe52edb63804ad05663"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-05T09:02:07.027191Z",
+      "last_shown": "2026-10-05T09:02:07.027191Z"
+    },
+    {
+      "id": "0b3bce32415583cfaf487d508fb4ab94",
+      "title": "Anthropic asks Claude users to share voice data for AI model training",
+      "summary": "Anthropic has started asking Claude users to voluntarily share their voice conversations to help train and improve its AI models. [...]",
+      "why_it_matters": "Anthropic is actively requesting user voice interaction recordings to train future AI models.",
+      "item_ids": [
+        "0b3bce32415583cfaf487d508fb4ab94"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-04T12:20:31.011979Z",
+      "last_shown": "2026-10-05T09:02:07.027191Z"
     },
     {
       "id": "6af8213c557c855970fcd6b3ce4350dd",
@@ -8550,19 +8611,7 @@
       ],
       "primary_url": null,
       "first_shown": "2026-10-05T08:02:06.714707Z",
-      "last_shown": "2026-10-05T08:02:06.714707Z"
-    },
-    {
-      "id": "0b3bce32415583cfaf487d508fb4ab94",
-      "title": "Anthropic asks Claude users to share voice data for AI model training",
-      "summary": "Anthropic has started asking Claude users to voluntarily share their voice conversations to help train and improve its AI models. [...]",
-      "why_it_matters": "Details data collection practices for voice models, relevant to engineers assessing user privacy and consent handling.",
-      "item_ids": [
-        "0b3bce32415583cfaf487d508fb4ab94"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-04T12:20:31.011979Z",
-      "last_shown": "2026-10-05T08:02:06.714707Z"
+      "last_shown": "2026-10-05T09:02:07.027191Z"
     },
     {
       "id": "af79189680a7c47708f44d2860753e04",
@@ -8574,7 +8623,7 @@
       ],
       "primary_url": null,
       "first_shown": "2026-10-05T08:02:06.714707Z",
-      "last_shown": "2026-10-05T08:02:06.714707Z"
+      "last_shown": "2026-10-05T09:02:07.027191Z"
     }
   ],
   "past_top_stories": [
@@ -8602,31 +8651,6 @@
       "primary_url": null,
       "first_shown": "2026-10-04T12:20:31.011979Z",
       "last_shown": "2026-10-05T07:02:12.184550Z"
-    },
-    {
-      "id": "93d5b918adf4f1e18fd31c0b7b04839b",
-      "title": "Rural Data Centers Are in for a Big Federal Tax Break",
-      "summary": "Under the One Big Beautiful Bill Act, data center projects in rural areas could be eligible for major tax benefits starting next year. Some hyperscalers do not seem eager to take the free cash.",
-      "why_it_matters": "Changes in federal tax benefits for rural data center projects could impact infrastructure planning and cloud scale-out.",
-      "item_ids": [
-        "93d5b918adf4f1e18fd31c0b7b04839b"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-04T12:20:31.011979Z",
-      "last_shown": "2026-10-05T07:02:12.184550Z"
-    },
-    {
-      "id": "7491d19e28584bde3067bd8b70e4c54f",
-      "title": "Amazon changes data center NDA policy amid scrutiny on resource usage",
-      "summary": "Amazon Web Services states it no longer uses non-disclosure agreements for data center projects following widespread local opposition and backlash. Meanwhile, improper redactions in public documents revealed specific Google data center water and electricity usage figures.",
-      "why_it_matters": "Shed light on hyperscale infrastructure transparency, environmental impact metrics, and community relations for cloud providers.",
-      "item_ids": [
-        "7491d19e28584bde3067bd8b70e4c54f",
-        "0d9d3ba627dbfb3e51e9bdabe01b1d84"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-05T00:02:15.345798Z",
-      "last_shown": "2026-10-05T06:18:19.610414Z"
     },
     {
       "id": "a689cad75960075345fb8d1a5dc80e91",
