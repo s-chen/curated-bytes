@@ -1,6 +1,142 @@
 {
-  "generated_at": "2026-10-05T10:02:05.466855Z",
+  "generated_at": "2026-10-05T11:02:07.722103Z",
   "items": [
+    {
+      "id": "66638a56112bcbd1dfe475319497456b",
+      "title": "Article: The Platform Engineering Playbook for Production LLMs",
+      "url": "https://www.infoq.com/articles/platform-engineering-playbook-production-llms/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source_id": "infoq",
+      "source_name": "InfoQ",
+      "category": "tech",
+      "summary": "In this article, author discusses his experience with AI agent hallucinations in an inventory recommendation system and how this problem was solved by treating the LLM stack as a platform infrastructure concern instead of as an application one. He makes a case for a shared LLM platform with common services like prompt registry & versioning, schema enforcement and token cost attribution by request. By Aditya Mulik",
+      "published_at": "2026-10-05T11:00:00Z",
+      "fetched_at": "2026-10-05T11:02:07.722103Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "2ef81489d8832f885055b118af4e1b9d",
+      "title": "Podcast: Future Cybersecurity: Hardware Memory Safety, Automated Governance and Post-Quantum Cryptography",
+      "url": "https://www.infoq.com/podcasts/future-cybersecurity-hardware-memory-safety/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source_id": "infoq",
+      "source_name": "InfoQ",
+      "category": "tech",
+      "summary": "In this episode, Chris Swan, engineer at Atsign and security track host at QCon London, reflects on the ideas shared during QCon London 2026 and teases topics of the future edition. The discussion explores how security engineering is shifting from relying on human vigilance toward automated, system-level defences across the entire application stack. By Chris Swan",
+      "published_at": "2026-10-05T11:00:00Z",
+      "fetched_at": "2026-10-05T11:02:07.722103Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "2560896ba85b1ceac66ab99d85093530",
+      "title": "Google admits not every Android app runs great on Intel Googlebooks",
+      "url": "https://www.theverge.com/tech/1004643/google-android-apps-intel-googlebooks-performance",
+      "source_id": "the-verge",
+      "source_name": "The Verge",
+      "category": "tech",
+      "summary": "Google has waited until the day its new Googlebook laptops hit the market to admit that Intel-based models may have issues running some Android apps. Before now, Google has emphasized that the Android-based Googlebooks give owners access to the \"entire Play Store library\" of apps, along with some clever interactions with Android phones and tablets. […]",
+      "published_at": "2026-10-05T10:58:22Z",
+      "fetched_at": "2026-10-05T11:02:07.722103Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "29e285d00abf7d3c092267722f218cfb",
+      "title": "Reverse Engineering Comanche Terrain Maps",
+      "url": "https://pikuma.com/blog/comanche-maps-reverse-engineering",
+      "source_id": "lobsters",
+      "source_name": "Lobsters",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-05T10:45:51Z",
+      "fetched_at": "2026-10-05T11:02:07.722103Z",
+      "discussion_url": "https://lobste.rs/s/qcafwq/reverse_engineering_comanche_terrain",
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "ff7bee0f9e4b6ef1244fbb3a13940ad3",
+      "title": "Withings BodyScan 2 Review: Worth Its Weight",
+      "url": "https://www.wired.com/review/withings-bodyscan-2/",
+      "source_id": "wired",
+      "source_name": "Wired",
+      "category": "tech",
+      "summary": "After months of testing, this high-end smart scale has made me rethink how much a bathroom weigh-in can tell me.",
+      "published_at": "2026-10-05T10:36:00Z",
+      "fetched_at": "2026-10-05T11:02:07.722103Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "review": "pending",
+      "importance": null
+    },
+    {
+      "id": "e9e46cfe6c1f9ab90d79a85faab23b4e",
+      "title": "OpenAI will show visual ads in ChatGPT while you generate images",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-will-show-visual-ads-in-chatgpt-while-you-generate-images/",
+      "source_id": "bleepingcomputer",
+      "source_name": "BleepingComputer",
+      "category": "tech",
+      "summary": "OpenAI is expanding ads in ChatGPT, and one of the first new formats will show visual ads while you're generating images. [...]",
+      "published_at": "2026-10-05T10:28:45Z",
+      "fetched_at": "2026-10-05T11:02:07.722103Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "review": "kept",
+      "importance": 4
+    },
+    {
+      "id": "b04134292aa3cc63f7c4fb1b5df5c3ff",
+      "title": "Windows 11 market share creeps upwards as cost of staying on Windows 10 set to double",
+      "url": "https://www.theregister.com/os-platforms/2026/10/05/windows-11-market-share-creeps-upwards-as-cost-of-staying-on-windows-10-set-to-double/5300870",
+      "source_id": "the-register",
+      "source_name": "The Register",
+      "category": "tech",
+      "summary": "How badly do you want that Win10 device to keep getting security updates?",
+      "published_at": "2026-10-05T10:24:00Z",
+      "fetched_at": "2026-10-05T11:02:07.722103Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "d79aa962cb893c6f4459ad1271c0643d",
+      "title": "Apple and a Hacker's Future",
+      "url": "https://stratechery.com/2026/apple-and-a-hackers-future/",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-05T10:05:02Z",
+      "fetched_at": "2026-10-05T11:02:07.722103Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=49962857",
+      "points": 13,
+      "comments": 4,
+      "engineering": false,
+      "review": "kept",
+      "importance": 2
+    },
     {
       "id": "791a8e79b96c4b2ae70699de60943a62",
       "title": "Friendship ended with Deno, now Node is my best friend",
@@ -36,6 +172,40 @@
       "importance": null
     },
     {
+      "id": "c92be47c04d501433631dd99c07404b3",
+      "title": "Our minds aren’t equipped to handle AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1003794/ai-education-computational-model-thought",
+      "source_id": "the-verge",
+      "source_name": "The Verge",
+      "category": "tech",
+      "summary": "Norbert Wiener, godfather of cybernetics, once said, \"The thought of every age is reflected in its technique.\" For the past century, our thought has been reflected in our computers, including by those in the AI industry. Google's Demis Hassabis calls the brain \"a biological approximation to a Turing machine.\" Elon Musk puts it more bluntly, […]",
+      "published_at": "2026-10-05T10:00:00Z",
+      "fetched_at": "2026-10-05T11:02:07.722103Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "review": "kept",
+      "importance": 2
+    },
+    {
+      "id": "b0c4983426b3963375587639e91d1bcf",
+      "title": "Building advertising for the way people use AI",
+      "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+      "source_id": "openai-news",
+      "source_name": "OpenAI News",
+      "category": "tech",
+      "summary": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
+      "published_at": "2026-10-05T10:00:00Z",
+      "fetched_at": "2026-10-05T11:02:07.722103Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "review": "kept",
+      "importance": 4
+    },
+    {
       "id": "78795e7f8d95d2521f7d04cf47522e93",
       "title": "A new, bespoke static site generator to replace Jekyll",
       "url": "https://nullprogram.com/blog/2026/10/04/",
@@ -51,6 +221,23 @@
       "engineering": false,
       "review": "kept",
       "importance": 2
+    },
+    {
+      "id": "2347183564f918a2a1cf45d4cc94ae45",
+      "title": "BT buys TalkTalk out of administration to keep 2.5M customers connected",
+      "url": "https://www.theregister.com/networks/2026/10/05/bt-buys-talktalk-out-of-administration-to-keep-25m-customers-connected/5301066",
+      "source_id": "the-register",
+      "source_name": "The Register",
+      "category": "tech",
+      "summary": "Rescue carries an estimated £400M cash impact as ministers intervene and competition review looms",
+      "published_at": "2026-10-05T09:52:34Z",
+      "fetched_at": "2026-10-05T11:02:07.722103Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "a7066959a81cd5027a870e6e55999148",
@@ -186,7 +373,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "e209ec2cbc83f7a285ab134ac46ade36",
@@ -216,11 +403,11 @@
       "published_at": "2026-10-05T08:09:36Z",
       "fetched_at": "2026-10-05T10:02:05.466855Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49962012",
-      "points": 61,
-      "comments": 22,
+      "points": 138,
+      "comments": 95,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "9275b3af4c5cc58bd88497750952aab3",
@@ -288,7 +475,7 @@
       "comments": 71,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "3949804f53f260c9429e904a1ffec796",
@@ -301,8 +488,8 @@
       "published_at": "2026-10-05T07:46:10Z",
       "fetched_at": "2026-10-05T10:02:05.466855Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49961861",
-      "points": 54,
-      "comments": 32,
+      "points": 71,
+      "comments": 47,
       "engineering": false,
       "review": "kept",
       "importance": 3
@@ -339,7 +526,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "08d2a6ef860e191ec115ad24cb822ddf",
@@ -420,8 +607,8 @@
       "published_at": "2026-10-05T05:09:43Z",
       "fetched_at": "2026-10-05T06:18:19.610414Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49960901",
-      "points": 65,
-      "comments": 26,
+      "points": 69,
+      "comments": 34,
       "engineering": false,
       "review": "excluded",
       "importance": 2
@@ -573,8 +760,8 @@
       "published_at": "2026-10-05T01:54:08Z",
       "fetched_at": "2026-10-05T03:02:05.660544Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49959869",
-      "points": 198,
-      "comments": 166,
+      "points": 215,
+      "comments": 185,
       "engineering": false,
       "review": "excluded",
       "importance": 2
@@ -611,7 +798,7 @@
       "comments": 48,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "af79189680a7c47708f44d2860753e04",
@@ -662,7 +849,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "c0ac07d40df51b73a4522b29763971de",
@@ -692,7 +879,7 @@
       "published_at": "2026-10-04T21:01:28Z",
       "fetched_at": "2026-10-05T01:02:06.276895Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49957812",
-      "points": 135,
+      "points": 145,
       "comments": 17,
       "engineering": false,
       "review": "kept",
@@ -811,8 +998,8 @@
       "published_at": "2026-10-04T19:42:25Z",
       "fetched_at": "2026-10-04T21:02:09.468537Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49957116",
-      "points": 572,
-      "comments": 389,
+      "points": 592,
+      "comments": 406,
       "engineering": false,
       "review": "excluded",
       "importance": null
@@ -828,8 +1015,8 @@
       "published_at": "2026-10-04T19:37:05Z",
       "fetched_at": "2026-10-04T21:02:09.468537Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49957068",
-      "points": 394,
-      "comments": 515,
+      "points": 400,
+      "comments": 525,
       "engineering": false,
       "review": "kept",
       "importance": 4
@@ -930,11 +1117,11 @@
       "published_at": "2026-10-04T18:49:17Z",
       "fetched_at": "2026-10-04T23:02:07.410273Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49956681",
-      "points": 236,
-      "comments": 72,
+      "points": 252,
+      "comments": 88,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "6350500892ad02fd1d561f65716fcf2e",
@@ -1206,7 +1393,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "ad86e5c03ea956c362a60dcf644ec6db",
@@ -1240,7 +1427,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "6b313b1a2e174dd1bace75bef5214426",
@@ -1355,8 +1542,8 @@
       "published_at": "2026-10-04T12:51:53Z",
       "fetched_at": "2026-10-04T14:02:04.841106Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49953495",
-      "points": 802,
-      "comments": 356,
+      "points": 815,
+      "comments": 361,
       "engineering": false,
       "review": "excluded",
       "importance": null
@@ -1440,7 +1627,7 @@
       "published_at": "2026-10-04T12:21:35Z",
       "fetched_at": "2026-10-04T21:02:09.468537Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49953288",
-      "points": 121,
+      "points": 122,
       "comments": 38,
       "engineering": false,
       "review": "kept",
@@ -1781,7 +1968,7 @@
       "fetched_at": "2026-10-04T21:02:09.468537Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49951891",
       "points": 86,
-      "comments": 30,
+      "comments": 32,
       "engineering": false,
       "review": "kept",
       "importance": 2
@@ -1954,7 +2141,7 @@
       "comments": 274,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "48b084875a355788c82833c1bb46bb41",
@@ -2001,11 +2188,11 @@
       "published_at": "2026-10-04T00:50:52Z",
       "fetched_at": "2026-10-04T05:59:26.441660Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49949438",
-      "points": 874,
-      "comments": 188,
+      "points": 879,
+      "comments": 190,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "fedb773a5aa96262604ff7900f5ab46d",
@@ -2022,7 +2209,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "0f5fb94f1fc707cbdfaa85d810696d71",
@@ -2153,9 +2340,9 @@
       "summary": null,
       "published_at": "2026-10-03T22:14:00Z",
       "fetched_at": "2026-10-05T07:02:12.184550Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=49948300",
-      "points": 108,
-      "comments": 12,
+      "discussion_url": "https://lobste.rs/s/qf2mtz/we_ported_original_doom_sql",
+      "points": null,
+      "comments": null,
       "engineering": false,
       "review": "kept",
       "importance": 3
@@ -2256,8 +2443,8 @@
       "published_at": "2026-10-03T20:41:15Z",
       "fetched_at": "2026-10-04T19:02:05.091001Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49947565",
-      "points": 75,
-      "comments": 76,
+      "points": 77,
+      "comments": 78,
       "engineering": false,
       "review": "excluded",
       "importance": null
@@ -2630,8 +2817,8 @@
       "published_at": "2026-10-03T17:35:42Z",
       "fetched_at": "2026-10-05T06:18:19.610414Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49946148",
-      "points": 77,
-      "comments": 55,
+      "points": 81,
+      "comments": 57,
       "engineering": false,
       "review": "pending",
       "importance": null
@@ -3089,7 +3276,7 @@
       "published_at": "2026-10-03T12:27:31Z",
       "fetched_at": "2026-10-03T23:47:49.232475Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49943685",
-      "points": 43,
+      "points": 45,
       "comments": 23,
       "engineering": false,
       "review": "kept",
@@ -3106,8 +3293,8 @@
       "published_at": "2026-10-03T12:19:40Z",
       "fetched_at": "2026-10-05T03:02:05.660544Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49943637",
-      "points": 137,
-      "comments": 20,
+      "points": 141,
+      "comments": 24,
       "engineering": false,
       "review": "pending",
       "importance": null
@@ -8313,258 +8500,134 @@
       "engineering": false,
       "review": "pending",
       "importance": null
-    },
-    {
-      "id": "7fa9ff1948250db15778facb8427ccd4",
-      "title": "New Spectre-v2 BTR Attack Leaks Linux Memory Despite Existing Defenses",
-      "url": "https://thehackernews.com/2026/09/new-spectre-v2-btr-attack-leaks-linux.html",
-      "source_id": "the-hacker-news",
-      "source_name": "The Hacker News",
-      "category": "tech",
-      "summary": "A group of academics from VUSec and Scuola Superiore Sant'Anna have disclosed details of a new Spectre CPU vulnerability variant that affects Just-In-Time (JIT) engines present in web browsers, language runtimes, and the operating system kernel, across multiple CPU vendors. The new Spectre v2 variant has been codenamed Branch Target Reuse (BTR). \"The key insight is that, while modern CPUs",
-      "published_at": "2026-09-29T17:20:17Z",
-      "fetched_at": "2026-10-03T20:57:46.771170Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "review": "pending",
-      "importance": null
-    },
-    {
-      "id": "13123f514623c0badb95260a1b927228",
-      "title": "Russia's Star Blizzard Targets 100+ Organizations With Fake Event Invites to Deliver Backdoor",
-      "url": "https://thehackernews.com/2026/09/russias-star-blizzard-targets-100.html",
-      "source_id": "the-hacker-news",
-      "source_name": "The Hacker News",
-      "category": "tech",
-      "summary": "Russian state hackers known as Star Blizzard have been using fake event invitations to trick people into installing a backdoor on their Windows computers, according to Microsoft. The campaigns, aimed at people and organizations tied to Ukraine, have affected more than 100 organizations since January, mostly in the U.S. and U.K. At least one computer was infected, but the number of breached",
-      "published_at": "2026-09-29T17:20:08Z",
-      "fetched_at": "2026-10-03T20:57:46.771170Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "review": "pending",
-      "importance": null
-    },
-    {
-      "id": "0afd55fa62ce95b6c3e2a9bced3a3e65",
-      "title": "Photo Scrubber — local face blur & metadata removal",
-      "url": "https://simonwillison.net/2026/Sep/29/photo-scrubber/",
-      "source_id": "simon-willison",
-      "source_name": "Simon Willison",
-      "category": "tech",
-      "summary": "Tool: Photo Scrubber — local face blur & metadata removal I took a photograph of some protesters, then thought about how I don't like sharing photographs of strangers with identifiable faces. I had GPT-6 Astra build this experimental tool that would identify faces and automatically blur them out. It uses Google's MediaPipe C++ library, compiled to WebAssembly via @mediapipe/tasks-vision, plus the BlazeFace face detection model. Tags: photography, tools",
-      "published_at": "2026-09-29T16:45:27Z",
-      "fetched_at": "2026-10-03T20:57:46.771170Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "review": "pending",
-      "importance": null
-    },
-    {
-      "id": "c475caba4dbba73d312082230ebaf88e",
-      "title": "Enabling Consistent AI-Assisted Engineering with GitHub Copilot Plugins",
-      "url": "https://devblogs.microsoft.com/blog/enabling-consistent-ai-assisted-engineering-with-github-copilot-plugins/",
-      "source_id": "microsoft-devblogs",
-      "source_name": "Microsoft for Developers",
-      "category": "tech",
-      "summary": "When an engineer or team creates useful agentic artifacts for their daily work (e.g., instructions, skills, and MCP configurations), others naturally want to adopt them when they see how those artifacts could help with their own work. Sharing the files is straightforward, but keeping those consumers supplied with fixes, updated guidance, and compatible tool configurations […] The post Enabling Consistent AI-Assisted Engineering with GitHub Copilot Plugins appeared first on Microsoft for…",
-      "published_at": "2026-09-29T16:30:35Z",
-      "fetched_at": "2026-10-03T20:57:46.771170Z",
-      "discussion_url": "https://devblogs.microsoft.com/blog/enabling-consistent-ai-assisted-engineering-with-github-copilot-plugins/#respond",
-      "points": null,
-      "comments": null,
-      "engineering": true,
-      "review": "pending",
-      "importance": null
-    },
-    {
-      "id": "0845d37471e104bd9752658a0830c6c4",
-      "title": "OpenAI DevDay 2026 live blog",
-      "url": "https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/",
-      "source_id": "simon-willison",
-      "source_name": "Simon Willison",
-      "category": "tech",
-      "summary": "I'm at OpenAI DevDay today, in Fort Mason, San Francisco. Same as last year I'll be live blogging the keynote and some other notes during the day. OpenAI gave me a free ticket and a seat in the \"creator\" area for the keynote. Tags: ai, openai, generative-ai, llms, coding-agents, live-blog, openai-devday",
-      "published_at": "2026-09-29T15:55:13Z",
-      "fetched_at": "2026-10-03T20:57:46.771170Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "review": "pending",
-      "importance": null
-    },
-    {
-      "id": "6af8dd1a3e49b29c06bd66ff6b430840",
-      "title": "NVIDIA Kumo Tabular Sets a New Accuracy-Efficiency Frontier for Tabular Prediction",
-      "url": "https://huggingface.co/blog/nvidia/kumo-tabular",
-      "source_id": "huggingface-blog",
-      "source_name": "Hugging Face Blog",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-09-29T15:30:38Z",
-      "fetched_at": "2026-10-03T20:57:46.771170Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "review": "pending",
-      "importance": null
-    },
-    {
-      "id": "fa29e70675d8c74449bfc272100ae976",
-      "title": "Developer policy update: Transparency, state policy, and what’s ahead",
-      "url": "https://github.blog/news-insights/policy-news-and-insights/developer-policy-update-transparency-state-policy-and-whats-ahead/",
-      "source_id": "github-blog",
-      "source_name": "The GitHub Blog",
-      "category": "tech",
-      "summary": "Explore GitHub’s latest transparency data and learn more about policy updates affecting developers and open source. The post Developer policy update: Transparency, state policy, and what’s ahead appeared first on The GitHub Blog.",
-      "published_at": "2026-09-29T15:00:00Z",
-      "fetched_at": "2026-10-03T20:57:46.771170Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": true,
-      "review": "pending",
-      "importance": null
-    },
-    {
-      "id": "39316ce0d57f943874520a8a9ef00737",
-      "title": "Kiteworks Fixes Critical Flaw Found During Nine-Hour Precautionary Shutdown",
-      "url": "https://thehackernews.com/2026/09/kiteworks-fixes-critical-flaw-found.html",
-      "source_id": "the-hacker-news",
-      "source_name": "The Hacker News",
-      "category": "tech",
-      "summary": "Kiteworks on Monday said it worked with federal intelligence authorities over the weekend as it identified and addressed a critical security vulnerability during the scheduled precautionary shutdown. \"During the shutdown, this activity led to the discovery of a previously unknown critical vulnerability confined to a capability that is enabled for less than 1% of the customer base,\" the company",
-      "published_at": "2026-09-29T14:13:20Z",
-      "fetched_at": "2026-10-03T20:57:46.771170Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "review": "pending",
-      "importance": null
-    },
-    {
-      "id": "34d32e961a496967c415bfe684601840",
-      "title": "101 Malicious npm Packages Add Developers' WhatsApp Accounts to Groups Without Consent",
-      "url": "https://thehackernews.com/2026/09/101-malicious-npm-packages-add.html",
-      "source_id": "the-hacker-news",
-      "source_name": "The Hacker News",
-      "category": "tech",
-      "summary": "Cybersecurity researchers have identified a cluster of 101 npm packages that are used to trap developers into a WhatsApp group subscriber campaign dubbed PhantomSub. \"The malicious packages abuse the 'Baileys' WhatsApp open source project to add the victims to groups without their consent,\" OX Security researchers Nir Zadok, Moshe Siman Tov Bustan, and Vitalii Chepurko said in a technical",
-      "published_at": "2026-09-29T13:45:10Z",
-      "fetched_at": "2026-10-03T20:57:46.771170Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "review": "pending",
-      "importance": null
-    },
-    {
-      "id": "9179e4753ddd37670683c4369f0f3921",
-      "title": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
-      "url": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
-      "source_id": "huggingface-blog",
-      "source_name": "Hugging Face Blog",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-09-29T13:07:00Z",
-      "fetched_at": "2026-10-03T20:57:46.771170Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "review": "pending",
-      "importance": null
-    },
-    {
-      "id": "66cfd105295e72abdc14ad73d1d236b8",
-      "title": "DevDay 2026 Recap",
-      "url": "https://openai.com/index/devday-2026-recap",
-      "source_id": "openai-news",
-      "source_name": "OpenAI News",
-      "category": "tech",
-      "summary": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
-      "published_at": "2026-09-29T10:00:00Z",
-      "fetched_at": "2026-10-03T20:57:46.771170Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "review": "pending",
-      "importance": null
     }
   ],
   "top_stories": [
     {
+      "id": "58f5730626d851c789c5394837050157",
+      "title": "Citrix Patches NetScaler Zero-Day Vulnerability Exploited in Attacks",
+      "summary": "Citrix has released emergency security updates to address a high-severity denial-of-service vulnerability in NetScaler ADC and Citrix NetScaler Gateway. The zero-day flaw, tracked as CVE-2026-88779, has been actively exploited in targeted attacks.",
+      "why_it_matters": "Engineering teams running NetScaler deployments need to apply patches immediately to prevent authentication and denial-of-service disruptions.",
+      "item_ids": [
+        "58f5730626d851c789c5394837050157",
+        "a1d5acfe0c801c09b51984621c1f48f4"
+      ],
+      "primary_url": "https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX697174",
+      "first_shown": "2026-10-04T21:59:10.088466Z",
+      "last_shown": "2026-10-05T11:02:07.722103Z"
+    },
+    {
+      "id": "b0c4983426b3963375587639e91d1bcf",
+      "title": "OpenAI Introduces Visual Ads in ChatGPT",
+      "summary": "OpenAI is expanding advertisements in ChatGPT with a new visual ad format displayed while users generate images. The company is also rolling out measurement tools, attribution partnerships, and brand suitability features for advertisers.",
+      "why_it_matters": null,
+      "item_ids": [
+        "b0c4983426b3963375587639e91d1bcf",
+        "e9e46cfe6c1f9ab90d79a85faab23b4e"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-05T11:02:07.722103Z",
+      "last_shown": "2026-10-05T11:02:07.722103Z"
+    },
+    {
       "id": "e209ec2cbc83f7a285ab134ac46ade36",
-      "title": "Google Halts Open-Source Bug Bounty Program Amid AI Spam Surge",
-      "summary": "Google has suspended submissions to its Open Source Software Vulnerability Rewards Program (OSS VRP) after being flooded by AI-generated reports. AI slop seems to be overwhelming bug bounty programs across the board.",
-      "why_it_matters": "Highlights how the surge in low-quality AI-generated submissions is impacting major security vulnerability reporting and open-source bug bounty programs.",
+      "title": "Google Halts Open-Source Bug Bounty Program Due to AI Spam Surge",
+      "summary": "Google has temporarily suspended submissions to its Open Source Software Vulnerability Rewards Program after being flooded with AI-generated reports. The company cited a significant rise in low-quality AI submissions overwhelming the triage process.",
+      "why_it_matters": null,
       "item_ids": [
         "e209ec2cbc83f7a285ab134ac46ade36",
         "a2491cea35eec1603e0688ef33c8613f"
       ],
       "primary_url": null,
       "first_shown": "2026-10-04T21:02:09.468537Z",
-      "last_shown": "2026-10-05T10:02:05.466855Z"
-    },
-    {
-      "id": "a1d5acfe0c801c09b51984621c1f48f4",
-      "title": "Citrix Patches NetScaler Zero-Day Vulnerability Exploited in Attacks",
-      "summary": "Citrix has released security updates for a high-severity security flaw in NetScaler ADC and Citrix NetScaler Gateway that has been exploited as part of targeted zero-day attacks. The vulnerability can knock SAML deployments offline and has triggered emergency patching.",
-      "why_it_matters": "Critical infrastructure vulnerabilities require immediate patching to prevent active exploitation and service disruption in enterprise networks.",
-      "item_ids": [
-        "a1d5acfe0c801c09b51984621c1f48f4",
-        "58f5730626d851c789c5394837050157"
-      ],
-      "primary_url": "https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX697174",
-      "first_shown": "2026-10-04T21:59:10.088466Z",
-      "last_shown": "2026-10-05T10:02:05.466855Z"
-    },
-    {
-      "id": "9b6de455eaeb785e9dab977b87aa251c",
-      "title": "Aspire 13.6 Adds Persistent Dashboard Telemetry and First-Party Java and Rust Hosting",
-      "summary": "Microsoft has released Aspire 13.6. The dashboard now stores telemetry in SQLite and keeps up to ten completed runs per application. The release adds prerelease hosting packages for Java and Rust, portable volume paths, and new CLI options. Breaking changes include automatic TLS for local MongoDB resources and a new default Cosmos DB emulator image. By Almir Vuk",
-      "why_it_matters": "Aspire 13.6 adds persistent dashboard telemetry using SQLite and introduces prerelease hosting packages for Java and Rust, expanding ecosystem support.",
-      "item_ids": [
-        "9b6de455eaeb785e9dab977b87aa251c"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-05T10:02:05.466855Z",
-      "last_shown": "2026-10-05T10:02:05.466855Z"
+      "last_shown": "2026-10-05T11:02:07.722103Z"
     },
     {
       "id": "4181b2925277e42ee689a8fb43194df7",
       "title": "Cloudflare Fixes Cross-Tenant Data Exposure in Containers",
       "summary": "Cloudflare has disclosed a cross-tenant data exposure vulnerability in Containers and Sandboxes, caused by thin-provisioned storage pools configured to skip zeroing reused blocks. Researchers recovered directory structures, database pages and complete SQLite databases across four continents. Cloudflare remediated it and found no evidence of exploitation. By Steef-Jan Wiggers",
-      "why_it_matters": "Discloses a critical cross-tenant data exposure flaw in Cloudflare Containers and Sandboxes caused by thin-provisioned storage pools skipping block zeroing.",
+      "why_it_matters": "Highlights a critical multi-tenant security flaw in container sandboxes that allowed unauthorized data access.",
       "item_ids": [
         "4181b2925277e42ee689a8fb43194df7"
       ],
       "primary_url": null,
       "first_shown": "2026-10-05T09:02:07.027191Z",
-      "last_shown": "2026-10-05T10:02:05.466855Z"
+      "last_shown": "2026-10-05T11:02:07.722103Z"
     },
     {
       "id": "9275b3af4c5cc58bd88497750952aab3",
       "title": "Attackers Target Rejetto HFS Flaw That Enables Admin Session Forgery and RCE",
       "summary": "A critical security flaw impacting Rejetto HTTP File Server (HFS) is witnessing active exploitation attempts, according to VulnCheck. The vulnerability in question is CVE-2026-61500 (CVSS score: 9.3), a case of session forgery stemming from the use of a weak pseudo-random number generator (PRNG) that can lead to a predictable key, which an attacker can then use to gain unauthorized access and",
-      "why_it_matters": "Highlights active exploitation attempts targeting a critical Rejetto HTTP File Server flaw (CVE-2026-61500) enabling admin session forgery and RCE.",
+      "why_it_matters": "Details active exploitation of a critical RCE vulnerability in Rejetto HTTP File Server that demands urgent attention.",
       "item_ids": [
         "9275b3af4c5cc58bd88497750952aab3"
       ],
       "primary_url": null,
       "first_shown": "2026-10-05T10:02:05.466855Z",
-      "last_shown": "2026-10-05T10:02:05.466855Z"
+      "last_shown": "2026-10-05T11:02:07.722103Z"
     },
+    {
+      "id": "9b6de455eaeb785e9dab977b87aa251c",
+      "title": "Aspire 13.6 Adds Persistent Dashboard Telemetry and First-Party Java and Rust Hosting",
+      "summary": "Microsoft has released Aspire 13.6. The dashboard now stores telemetry in SQLite and keeps up to ten completed runs per application. The release adds prerelease hosting packages for Java and Rust, portable volume paths, and new CLI options. Breaking changes include automatic TLS for local MongoDB resources and a new default Cosmos DB emulator image. By Almir Vuk",
+      "why_it_matters": "Microsoft Aspire adds persistent telemetry in SQLite and experimental Rust and Java hosting packages.",
+      "item_ids": [
+        "9b6de455eaeb785e9dab977b87aa251c"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-05T10:02:05.466855Z",
+      "last_shown": "2026-10-05T11:02:07.722103Z"
+    },
+    {
+      "id": "9b675329bdbdb62108edd9d5115e0eaa",
+      "title": "Google's Android Security State Libraries Enable Component-Level Security Verification",
+      "summary": "Google's AndroidX Security State libraries enables apps to verify security patch status at the individual component level, rather than relying on a single, device-wide security patch date. By Sergio De Simone",
+      "why_it_matters": "Introduces component-level security verification libraries for Android apps to check patch states granularly.",
+      "item_ids": [
+        "9b675329bdbdb62108edd9d5115e0eaa"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-04T17:02:05.557589Z",
+      "last_shown": "2026-10-05T11:02:07.722103Z"
+    },
+    {
+      "id": "6af8213c557c855970fcd6b3ce4350dd",
+      "title": "A 40ms Go garbage collector pause caused by swap",
+      "summary": null,
+      "why_it_matters": "Deep dive into garbage collector pauses caused by system swap usage in Go applications.",
+      "item_ids": [
+        "6af8213c557c855970fcd6b3ce4350dd"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-05T08:02:06.714707Z",
+      "last_shown": "2026-10-05T11:02:07.722103Z"
+    },
+    {
+      "id": "0d9d3ba627dbfb3e51e9bdabe01b1d84",
+      "title": "Improper redaction reveals Google Data Center water and electricity usage",
+      "summary": null,
+      "why_it_matters": "Reveals previously redacted resource consumption metrics for Google Data Centers.",
+      "item_ids": [
+        "0d9d3ba627dbfb3e51e9bdabe01b1d84"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-05T00:02:15.345798Z",
+      "last_shown": "2026-10-05T11:02:07.722103Z"
+    },
+    {
+      "id": "f6f7f7a2e8d58db64e36d61f5219c8b3",
+      "title": "Microsoft: Windows KB5124010 update crashes some games and apps",
+      "summary": "Microsoft confirmed over the weekend that some games and applications using AC-3 (Dolby Digital) audio decoding will crash after installing the September 2026 KB5124010 Windows 11 preview update. [...]",
+      "why_it_matters": "Warns of a Windows preview update bug causing application and game crashes due to AC-3 audio decoding.",
+      "item_ids": [
+        "f6f7f7a2e8d58db64e36d61f5219c8b3"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-05T11:02:07.722103Z",
+      "last_shown": "2026-10-05T11:02:07.722103Z"
+    }
+  ],
+  "past_top_stories": [
     {
       "id": "af79189680a7c47708f44d2860753e04",
       "title": "ArtCraft Apps – open-source Adobe compatible suite written in Rust",
@@ -8575,30 +8638,6 @@
       ],
       "primary_url": null,
       "first_shown": "2026-10-05T08:02:06.714707Z",
-      "last_shown": "2026-10-05T10:02:05.466855Z"
-    },
-    {
-      "id": "0d9d3ba627dbfb3e51e9bdabe01b1d84",
-      "title": "Improper redaction reveals Google Data Center water and electricity usage",
-      "summary": null,
-      "why_it_matters": "Improper redaction in documents reveals specific data center water and electricity usage statistics for major infrastructure operators.",
-      "item_ids": [
-        "0d9d3ba627dbfb3e51e9bdabe01b1d84"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-05T00:02:15.345798Z",
-      "last_shown": "2026-10-05T10:02:05.466855Z"
-    },
-    {
-      "id": "9b675329bdbdb62108edd9d5115e0eaa",
-      "title": "Google's Android Security State Libraries Enable Component-Level Security Verification",
-      "summary": "Google's AndroidX Security State libraries enables apps to verify security patch status at the individual component level, rather than relying on a single, device-wide security patch date. By Sergio De Simone",
-      "why_it_matters": "Android's new Security State libraries enable component-level security patch verification rather than relying on a single device-wide date.",
-      "item_ids": [
-        "9b675329bdbdb62108edd9d5115e0eaa"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-04T17:02:05.557589Z",
       "last_shown": "2026-10-05T10:02:05.466855Z"
     },
     {
@@ -8613,20 +8652,6 @@
       "first_shown": "2026-10-05T09:02:07.027191Z",
       "last_shown": "2026-10-05T10:02:05.466855Z"
     },
-    {
-      "id": "6af8213c557c855970fcd6b3ce4350dd",
-      "title": "A 40ms Go garbage collector pause caused by swap",
-      "summary": null,
-      "why_it_matters": "Provides practical diagnostic insights into how OS swap behavior can induce significant garbage collection pauses in Go applications.",
-      "item_ids": [
-        "6af8213c557c855970fcd6b3ce4350dd"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-05T08:02:06.714707Z",
-      "last_shown": "2026-10-05T10:02:05.466855Z"
-    }
-  ],
-  "past_top_stories": [
     {
       "id": "93d5b918adf4f1e18fd31c0b7b04839b",
       "title": "Rural Data Centers Are in for a Big Federal Tax Break",
@@ -8726,30 +8751,6 @@
       "primary_url": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881?gift=1ga2TvL-DbuHDQIcYF7oR4o908Fsjxr4NFLlsptkfP8",
       "first_shown": "2026-10-03T21:08:25.972900Z",
       "last_shown": "2026-10-04T22:02:10.140987Z"
-    },
-    {
-      "id": "269b0058e3c1e9e427312db6cd2db83a",
-      "title": "Google Gemini could soon get full access to your Mac’s files, apps and the web",
-      "summary": "Google's Gemini could soon access any file on your macOS device, open apps, browse the web, and perform actions without asking for permission every time. [...]",
-      "why_it_matters": "Google Gemini could soon gain permission-less access to Mac files, apps, and the web.",
-      "item_ids": [
-        "269b0058e3c1e9e427312db6cd2db83a"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-03T21:08:25.972900Z",
-      "last_shown": "2026-10-04T22:02:10.140987Z"
-    },
-    {
-      "id": "96336768375c8560dd8ecee7054bc5b0",
-      "title": "Federal judge calls Flock ‘indiscriminate mass surveillance’",
-      "summary": null,
-      "why_it_matters": "A federal judge has ruled that Flock's automated license plate reader system constitutes indiscriminate mass surveillance.",
-      "item_ids": [
-        "96336768375c8560dd8ecee7054bc5b0"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-03T23:47:49.232475Z",
-      "last_shown": "2026-10-04T19:02:05.091001Z"
     }
   ]
 }
