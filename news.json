@@ -1,6 +1,210 @@
 {
-  "generated_at": "2026-10-06T20:02:11.491377Z",
+  "generated_at": "2026-10-06T21:02:07.988003Z",
   "items": [
+    {
+      "id": "846af42b308fffe362b57f01f7961e85",
+      "title": "Ninja Forms plugin flaw exploited to hack WordPress sites",
+      "url": "https://www.bleepingcomputer.com/news/security/ninja-forms-plugin-flaw-exploited-to-hack-wordpress-sites/",
+      "source_id": "bleepingcomputer",
+      "source_name": "BleepingComputer",
+      "category": "tech",
+      "summary": "Hackers are exploiting stored cross-site scripting (XSS) vulnerabilities in two unrelated WordPress plugins, Ninja Forms and WPC Product Bundles for WooCommerce, to install backdoors and create rogue admin accounts. [...]",
+      "published_at": "2026-10-06T21:00:27Z",
+      "fetched_at": "2026-10-06T21:02:07.988003Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "review": "kept",
+      "importance": 4
+    },
+    {
+      "id": "d647509079f77f299d61d6fa460f64a9",
+      "title": "Building Git infrastructure for agent-scale development",
+      "url": "https://github.blog/engineering/architecture-optimization/building-git-infrastructure-for-agent-scale-development/",
+      "source_id": "github-blog",
+      "source_name": "The GitHub Blog",
+      "category": "tech",
+      "summary": "Writes are accelerating, and this growth can add stress to systems all repos depend on. Here's our approach to building architecture that can scale. The post Building Git infrastructure for agent-scale development appeared first on The GitHub Blog.",
+      "published_at": "2026-10-06T20:57:56Z",
+      "fetched_at": "2026-10-06T21:02:07.988003Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": true,
+      "review": "kept",
+      "importance": 4
+    },
+    {
+      "id": "713ef929f5289290f0ae553755ae06b9",
+      "title": "We’re Tracking October Prime Day Live (2026)",
+      "url": "https://www.wired.com/live/amazon-prime-day-live-tracker-october-06-2026/",
+      "source_id": "wired",
+      "source_name": "Wired",
+      "category": "tech",
+      "summary": "Our team is tracking Prime Day deals in real time. Here’s what’s worth buying today.",
+      "published_at": "2026-10-06T20:47:43Z",
+      "fetched_at": "2026-10-06T21:02:07.988003Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "review": "excluded",
+      "importance": null
+    },
+    {
+      "id": "f16cb953f223f97879d7de6518afcf7a",
+      "title": "Silicon Valley’s AI wunderkind launches Underdog, the most private Instinct/Muse competitor yet",
+      "url": "https://techcrunch.com/2026/10/06/silicon-valleys-ai-wunderkind-launches-underdog-the-most-private-instinct-muse-competitor-yet/",
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "category": "tech",
+      "summary": "Sigil Wen, backed by a Silicon Valley's who-who, has built an on-device AI assistant that promises to be free, fully private, and capable for everyday tasks.",
+      "published_at": "2026-10-06T20:47:01Z",
+      "fetched_at": "2026-10-06T21:02:07.988003Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "91137c1a4b3faf6bc8781a67a66c1c9b",
+      "title": "EmbeddingGemma 2",
+      "url": "https://simonwillison.net/2026/Oct/6/hn-49983751/",
+      "source_id": "simon-willison",
+      "source_name": "Simon Willison",
+      "category": "tech",
+      "summary": "My comment on EmbeddingGemma 2 — Hacker News.I really appreciate that EmbeddingGemma 2 is under the Apache 2.0 license. For embedding models in particular, I don't think it makes sense to use a closed, proprietary, hosted-only model. Most applications of embedding models involve calculating thousands or even millions of embedding vectors and storing them for later comparison. If your model is proprietary, the vendor is likely someday going to decide to stop offering that model. They'll have a…",
+      "published_at": "2026-10-06T20:37:53Z",
+      "fetched_at": "2026-10-06T21:02:07.988003Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "8fbf7a50399cff1f30167b796280f258",
+      "title": "How AI decision models could change content moderation",
+      "url": "https://techcrunch.com/2026/10/06/how-ai-decision-models-could-change-content-moderation/",
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "category": "tech",
+      "summary": "On Tuesday, Musubi announced a lightweight decision model made for real-time moderation called PolicyLM-1.7B, released with open weights.",
+      "published_at": "2026-10-06T20:35:20Z",
+      "fetched_at": "2026-10-06T21:02:07.988003Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "440dc284c2b79803c237f1656fc64db2",
+      "title": "How to fix a bug in a fix",
+      "url": "https://projectzero.google/2026/10/emergency-patching.html",
+      "source_id": "lobsters",
+      "source_name": "Lobsters",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-06T20:33:01Z",
+      "fetched_at": "2026-10-06T21:02:07.988003Z",
+      "discussion_url": "https://lobste.rs/s/d0cthg/how_fix_bug_fix",
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "review": "kept",
+      "importance": 2
+    },
+    {
+      "id": "9bc243b1c568e21ca413ee38ef6b8663",
+      "title": "Google’s power-hungry data centers crave nuclear energy",
+      "url": "https://www.theverge.com/science/1006082/google-nuclear-energy-power-purchase-agreement-constellation",
+      "source_id": "the-verge",
+      "source_name": "The Verge",
+      "category": "tech",
+      "summary": "Google announced a new agreement to update six nuclear power plant sites across the US as the tech giant seeks to generate more electricity for its power-hungry data centers. Google signed the 20-year deal with Constellation, the leading nuclear power plant operator in the US. The power purchase agreement is meant to guarantee the revenue […]",
+      "published_at": "2026-10-06T20:32:10Z",
+      "fetched_at": "2026-10-06T21:02:07.988003Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "1b70ef2fc62fff143729ba5d77e61797",
+      "title": "Introducing Mistral Large 4: Le chonk",
+      "url": "https://simonwillison.net/2026/Oct/6/le-chonk/",
+      "source_id": "simon-willison",
+      "source_name": "Simon Willison",
+      "category": "tech",
+      "summary": "Introducing Mistral Large 4: Le chonk Mistral are back in the game. Today they're releasing a preview of Mistral Large 4, a 1 trillion parameter, 49 billion active parameter model trained on their own cluster of 3,800 NVIDIA Grace Blackwell GPUs. The preview is available via their API. They promise to release the open weights model at the \"end of this month\". The model only supports two reasoning levels - \"none\" and \"high\" - via the Mistral API. Here are both pelicans - the \"high\" one looks…",
+      "published_at": "2026-10-06T20:18:19Z",
+      "fetched_at": "2026-10-06T21:02:07.988003Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "review": "kept",
+      "importance": 5
+    },
+    {
+      "id": "3df9d682bc80a2a54798cdd21d589c92",
+      "title": "That Time I Worked With a Laptop Thief",
+      "url": "https://blog.pipetogrep.org/2025/07/27/that-time-i-worked-with-a-laptop-thief/",
+      "source_id": "lobsters",
+      "source_name": "Lobsters",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-06T20:16:33Z",
+      "fetched_at": "2026-10-06T21:02:07.988003Z",
+      "discussion_url": "https://lobste.rs/s/0slgpl/time_i_worked_with_laptop_thief",
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "review": "kept",
+      "importance": 1
+    },
+    {
+      "id": "0ac932ff0bf9e772ef10ed254a1f21fa",
+      "title": "Best Amazon Prime Day Vacuum Deals: Dyson, Shark, and Robot Vacuums (2026)",
+      "url": "https://www.wired.com/story/prime-day-vacuum-deals-10-06-2026/",
+      "source_id": "wired",
+      "source_name": "Wired",
+      "category": "tech",
+      "summary": "I’ve compared cordless sticks, watched robot vacuums chase stains, and cleaned plenty of car crumbs. These discounts get my recommendation.",
+      "published_at": "2026-10-06T20:06:46Z",
+      "fetched_at": "2026-10-06T21:02:07.988003Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "review": "excluded",
+      "importance": null
+    },
+    {
+      "id": "7547b0dc70f19233636deb235d376ab4",
+      "title": "The CNCF is graduating projects faster than ever. AI agents are helping with the due diligence.",
+      "url": "https://thenewstack.io/open-source-ai-kubernetes/",
+      "source_id": "the-new-stack",
+      "source_name": "The New Stack",
+      "category": "tech",
+      "summary": "Back in 2018, a scrappy startup called OpenAI used Kubernetes to balance compute loads across its own data centers and The post The CNCF is graduating projects faster than ever. AI agents are helping with the due diligence. appeared first on The New Stack.",
+      "published_at": "2026-10-06T20:02:17Z",
+      "fetched_at": "2026-10-06T21:02:07.988003Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "review": "kept",
+      "importance": 3
+    },
     {
       "id": "8b30099e02848ecdfa865e8e8e772f4d",
       "title": "AI computing startup Lambda to raise $4B ahead of planned IPO",
@@ -101,7 +305,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "4ebe59a81bb573432cd58902344c2cb6",
@@ -118,7 +322,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "a3f69d713bbb7963dd850158e98a09be",
@@ -206,6 +410,23 @@
       "importance": 2
     },
     {
+      "id": "b5c111ad53dd608f10129479002622b3",
+      "title": "Fake ChatGPT, Gemini, and Claude Ad Portals Capture Credentials and MFA Codes",
+      "url": "https://thehackernews.com/2026/10/fake-chatgpt-gemini-and-claude-ad.html",
+      "source_id": "the-hacker-news",
+      "source_name": "The Hacker News",
+      "category": "tech",
+      "summary": "Cybersecurity researchers have disclosed details of a \"human-operated phishing platform\" that impersonates advertising products for artificial intelligence (AI) chatbots like Google Gemini, Anthropic Claude, OpenAI ChatGPT, Perplexity, Meta Muse, and Manus. The products, which claim to offer campaign optimization, spend audits, and business-account connections, are designed with one goal in",
+      "published_at": "2026-10-06T18:38:55Z",
+      "fetched_at": "2026-10-06T21:02:07.988003Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "review": "kept",
+      "importance": 4
+    },
+    {
       "id": "ca914b7b5ee22193c39833f7dc434534",
       "title": "Everybody’s Favorite Art TV Is Nearly Half Off Right Now",
       "url": "https://www.wired.com/story/samsung-the-frame-tv-deal-prime-day-10-6-2026/",
@@ -254,7 +475,7 @@
       "comments": null,
       "engineering": true,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "31ae30d67407f23018fba306ad7ed70b",
@@ -271,7 +492,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 1
     },
     {
       "id": "dd210b254b7c9ba95c149fe58e0674be",
@@ -323,6 +544,23 @@
       "engineering": false,
       "review": "excluded",
       "importance": null
+    },
+    {
+      "id": "5347986e6d4ebc2bf27bc720f1334f16",
+      "title": "Linux Backdoors Impersonate Email Security Tools to Evade Detection in Korea and Taiwan",
+      "url": "https://thehackernews.com/2026/10/linux-backdoors-impersonate-email.html",
+      "source_id": "the-hacker-news",
+      "source_name": "The Hacker News",
+      "category": "tech",
+      "summary": "Linux backdoors targeting telecom and network appliances in South Korea and Taiwan have been disguising their traffic as email services and seemingly legitimate processes to blend in and evade detection. Threat actors are known to name their malicious software after a legitimate operating system component or a process as a defense evasion measure. By borrowing the name of a real binary, it may",
+      "published_at": "2026-10-06T18:24:25Z",
+      "fetched_at": "2026-10-06T21:02:07.988003Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "review": "kept",
+      "importance": 4
     },
     {
       "id": "43dd07c7a6e2a64624e355332fccb3f1",
@@ -458,7 +696,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 5
     },
     {
       "id": "15658e3c853b5ff70ef84d2a54623062",
@@ -492,7 +730,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "ac1fe42f1f097f43beff4d487ba7c734",
@@ -543,7 +781,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "7380f16e9356939f6a56e2842f860614",
@@ -594,7 +832,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 1
     },
     {
       "id": "3859a0c76bfdf722569c5d95757d6e05",
@@ -628,7 +866,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "3915f0a8f20ef79ef17c8457a86a6d10",
@@ -645,7 +883,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "ccc6b066b5f482d8171df8c93f6f0f72",
@@ -679,7 +917,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "89495ce3049f5f567c7ad99fbb93f149",
@@ -713,7 +951,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "325ba1b10a848a4f663133cb724de4db",
@@ -747,7 +985,7 @@
       "comments": 1,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "2315ffcc73499cb452ba7f7ad05189df",
@@ -781,7 +1019,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "ce247345036297dae458681e15e95576",
@@ -883,7 +1121,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "a07e690ff138fde84e911c43dfbb9dd2",
@@ -1138,7 +1376,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "6108fc040e0052259c3896fa141bce68",
@@ -1155,7 +1393,7 @@
       "comments": null,
       "engineering": true,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "45425f99fb85e6a1eb522c410029832d",
@@ -1308,7 +1546,7 @@
       "comments": 33,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "8f148fd59545fa7fe7d86b650bb1f777",
@@ -1342,7 +1580,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "69b7693da83c5359b976051a8ee73541",
@@ -1376,7 +1614,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "7994928831a0d3469d9d659b9201bda6",
@@ -1427,7 +1665,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "dfc4b5b493f5b2fd5b737ff435ad0ec5",
@@ -1461,7 +1699,7 @@
       "comments": 103,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "65fd7b187255680fee2202bb8fe03345",
@@ -1546,7 +1784,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "a8a2091455169be0eea4fdaa8e7bdcd2",
@@ -1597,7 +1835,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "2ae9ee43d678aeff173c0abf8ec67265",
@@ -1698,8 +1936,8 @@
       "points": 42,
       "comments": 4,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 2
     },
     {
       "id": "b940d9e50f6c73b455d2a2f6cd69d10a",
@@ -1716,7 +1954,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "5fd6cb53bf3c57279520bb7d6405043b",
@@ -1818,7 +2056,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "9a8f562dd908dd814a8f515088bc00bd",
@@ -1886,7 +2124,7 @@
       "comments": 69,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "8afef565706a7a7189afe2f4067bc17b",
@@ -1903,7 +2141,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "b113a58596f44a9e67f5e39391cda9a7",
@@ -1920,7 +2158,7 @@
       "comments": 520,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "28ee28cc295a9a743e7956b2b6b6fe25",
@@ -1937,7 +2175,7 @@
       "comments": 807,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "28b5a03610b81c602dd2f1ac838a36da",
@@ -1954,7 +2192,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "38e0bf03912e0c9e4c74ec38be2728d5",
@@ -1971,7 +2209,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "6d42c034883f24f8050a77e71b0c4577",
@@ -2107,7 +2345,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "04d9bbab8ebc7ab86ac272cecb099b05",
@@ -2158,7 +2396,7 @@
       "comments": 232,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "f170097a2efe89f360cb784ee9628612",
@@ -2311,7 +2549,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 1
     },
     {
       "id": "ef7a80779afbbbbc22ba93eb43ff1537",
@@ -2362,7 +2600,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "e86b473d82e7c3aa3777c00595466ad2",
@@ -2396,7 +2634,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "04befb57ae36a63e449052237f3d59cf",
@@ -2532,7 +2770,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "c30b8eec4761300aa70f068729b221aa",
@@ -2583,7 +2821,7 @@
       "comments": 63,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 1
     },
     {
       "id": "2ed14e9a83577b40dd3ec123142c31d0",
@@ -2702,7 +2940,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "581e74ad461fe33438728567daa78aed",
@@ -2719,7 +2957,7 @@
       "comments": 38,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "1e47690b360aa2489a6a6f0038e49d69",
@@ -2736,7 +2974,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "902a003cf1fe288523b198a62392e22c",
@@ -2821,7 +3059,7 @@
       "comments": 143,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "724607c512037e2ad0f771117092df9a",
@@ -2923,7 +3161,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "9f8147165c318d8e93b89cb816e3ed49",
@@ -3093,7 +3331,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "61d84e0a2e8c44f4f80c16e7402fc722",
@@ -3161,7 +3399,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "505fb06d9f25a313c13bcd6eec39453f",
@@ -3229,7 +3467,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "114e2ef5619ec571e94e2664a2c7e5ba",
@@ -3246,7 +3484,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "713b65cbb6c1906be75fa19d1eb01add",
@@ -3263,7 +3501,7 @@
       "comments": 8,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 1
     },
     {
       "id": "807faee26a0e2988609caf46c25d27dd",
@@ -3280,7 +3518,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "569728c2d8ca6eb1e882aafc61ec0b91",
@@ -3314,7 +3552,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "3525b92444e451eee5f6dcfa5b422d1a",
@@ -3331,7 +3569,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "318a32f6937609128632b80e3920cc3f",
@@ -3348,7 +3586,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 4
     },
     {
       "id": "511f65d76ff55f24d9a61390d3da725d",
@@ -3654,7 +3892,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "845efdecc49cc2286d281f5b42dd865d",
@@ -3722,7 +3960,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "4c0bac28e24a6a1d873530e939a5b54c",
@@ -3790,7 +4028,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "081860ef63147337effb79179bcf0763",
@@ -3858,7 +4096,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "07ed95c347fb032fcb4fecc64b9bb173",
@@ -3909,7 +4147,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "1c5986b59834ce832f86e5ad3c7d24ce",
@@ -4028,7 +4266,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "9cbe2ac3b89605e405696219e4b96635",
@@ -4045,7 +4283,7 @@
       "comments": 0,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 1
     },
     {
       "id": "0db1117fa9600c3b41551bed34c62869",
@@ -4232,7 +4470,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "7f3d9b85f8e329711ba7352805da8fac",
@@ -4249,7 +4487,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "d0bd7fa8794ac5d2639d6cf9d337114e",
@@ -4266,7 +4504,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "e1deaade36d23e525372dfc38581f84a",
@@ -4385,7 +4623,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "32efe565a400f5db84a25e43eefea60a",
@@ -4419,7 +4657,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "644a9135e56e7fcfe687b30faa4f08c0",
@@ -4436,7 +4674,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "f0a5d837a4fba426c0afb4bd6cbbb2ec",
@@ -4521,7 +4759,7 @@
       "comments": 53,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "9f3e1d26192750b8186fbec692902584",
@@ -4589,7 +4827,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "aea90afb465bda47fa05f41b5fc945d8",
@@ -4776,7 +5014,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 4
     },
     {
       "id": "97af931021b60f6521c1d5e0e4c1867b",
@@ -4793,7 +5031,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "55d8f3a9a12442b4fa9ff47106d995d3",
@@ -4844,7 +5082,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "de95290a15d00207dc49b88dabfb6988",
@@ -4929,7 +5167,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "efc1e803f05d945a19ccf2c783fead2e",
@@ -4980,7 +5218,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "4b7459456165a0ab85109a527b6d1ce1",
@@ -5099,7 +5337,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "1ad56db9b039d0af4454475ee765d3d7",
@@ -5116,7 +5354,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "9a077ef08446927a8f36244d36d9683d",
@@ -5133,7 +5371,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "a837c3830db206f2b173a588d96b5d64",
@@ -5167,7 +5405,7 @@
       "comments": null,
       "engineering": true,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "4698961802699174ab431fcea3a0582b",
@@ -5184,7 +5422,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "0223ab83617193d2af129b02a1eb4be2",
@@ -5201,7 +5439,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "0e66c6ba450e29a40f029e5a4c4e9c66",
@@ -5235,7 +5473,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "34de2022fa262395861342516a471fae",
@@ -5286,7 +5524,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "f47abf34ef05172f5b02fcea373bb31e",
@@ -5337,7 +5575,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "93d58bf09aded803239fa7cea181b00c",
@@ -5473,7 +5711,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "0eb8ba6f303247fe44bf7cc73d3cf190",
@@ -5490,7 +5728,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "4e67682610b76c21c3b3a94461b5d10e",
@@ -5524,7 +5762,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "76ea28d1e12d35658cd179619954b42c",
@@ -5575,7 +5813,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 1
     },
     {
       "id": "448a951471e8d4d7715426a9994dc8e4",
@@ -5592,7 +5830,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "b1b9caf76f2b8f659b3643738f4aeb01",
@@ -5609,7 +5847,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "b88e60f4b6f26487783a6190fd3814a4",
@@ -5626,7 +5864,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "53f41a676268eb298f35f692543af7bc",
@@ -5745,7 +5983,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "2987ddd668210f22944cb7247cdae296",
@@ -8262,282 +8500,159 @@
       "engineering": false,
       "review": "excluded",
       "importance": null
-    },
-    {
-      "id": "1b3f00ce16c9eaca5526494ca575cfcf",
-      "title": "grubby: static site generator for git repos written in Ruby",
-      "url": "https://git.btxx.org/grubby",
-      "source_id": "lobsters",
-      "source_name": "Lobsters",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-04T10:28:57Z",
-      "fetched_at": "2026-10-04T12:20:31.011979Z",
-      "discussion_url": "https://lobste.rs/s/xpyahx/grubby_static_site_generator_for_git",
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "review": "excluded",
-      "importance": 2
-    },
-    {
-      "id": "93d5b918adf4f1e18fd31c0b7b04839b",
-      "title": "Rural Data Centers Are in for a Big Federal Tax Break",
-      "url": "https://www.wired.com/story/rural-data-centers-are-in-for-a-big-federal-tax-break/",
-      "source_id": "wired",
-      "source_name": "Wired",
-      "category": "tech",
-      "summary": "Under the One Big Beautiful Bill Act, data center projects in rural areas could be eligible for major tax benefits starting next year. Some hyperscalers do not seem eager to take the free cash.",
-      "published_at": "2026-10-04T10:00:00Z",
-      "fetched_at": "2026-10-04T12:20:31.011979Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "8c4e117b3e9892f6e0d65f34dbcf52e6",
-      "title": "Keurig Alta First-Look: No More Plastic K-Cups",
-      "url": "https://www.wired.com/story/keurig-alta-coffee-brewer/",
-      "source_id": "wired",
-      "source_name": "Wired",
-      "category": "tech",
-      "summary": "Keurig is ready to ditch the K-Cup with a compostable and plastic- and aluminum-free coffee pod, but the price is steep.",
-      "published_at": "2026-10-04T09:30:00Z",
-      "fetched_at": "2026-10-04T12:20:31.011979Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "review": "excluded",
-      "importance": 2
-    },
-    {
-      "id": "60a6536fb473b592aa5880f2f042bc48",
-      "title": "Show HN: AI search for every photo and every frame of video on macOS",
-      "url": "https://github.com/allenv0/SCM",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-04T09:24:52Z",
-      "fetched_at": "2026-10-04T12:20:31.011979Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=49952111",
-      "points": 149,
-      "comments": 67,
-      "engineering": false,
-      "review": "excluded",
-      "importance": null
-    },
-    {
-      "id": "f1037ca34832fc46f64844d9ad025f92",
-      "title": "Models ranked by normative score across twelve paradigms, once neutral and once human-primed",
-      "url": "https://cognit.rajtilak.tech",
-      "source_id": "lobsters",
-      "source_name": "Lobsters",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-04T09:21:18Z",
-      "fetched_at": "2026-10-04T12:20:31.011979Z",
-      "discussion_url": "https://lobste.rs/s/uuxij7/models_ranked_by_normative_score_across",
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "review": "kept",
-      "importance": 2
-    },
-    {
-      "id": "52f38cd65a8ed4a70bba32d61c9d794f",
-      "title": "VGHF Digital Archive passes 5000 magazines. Here's what's next",
-      "url": "https://gamehistory.org/5k-magazines/",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-04T09:07:11Z",
-      "fetched_at": "2026-10-04T12:20:31.011979Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=49952029",
-      "points": 87,
-      "comments": 16,
-      "engineering": false,
-      "review": "kept",
-      "importance": 2
-    },
-    {
-      "id": "8a1873a8177cdcbc8937d0c65397c3a0",
-      "title": "Elusive ‘Geoneutrinos’ Are Building a New Map of Earth’s Volatile Interior",
-      "url": "https://www.wired.com/story/elusive-geoneutrinos-are-building-a-new-map-of-earths-volatile-interior/",
-      "source_id": "wired",
-      "source_name": "Wired",
-      "category": "tech",
-      "summary": "A global network of detectors are reporting some of the most substantial measurements yet of neutrinos created deep underground by the radioactive elements that power our planet’s tectonic activity.",
-      "published_at": "2026-10-04T09:00:00Z",
-      "fetched_at": "2026-10-04T12:20:31.011979Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "review": "excluded",
-      "importance": 2
-    },
-    {
-      "id": "0d25f222d193413d3ec4dc2469e9fad2",
-      "title": "How to scale intent, quality, and artistry with AI [video]",
-      "url": "https://www.youtube.com/watch?v=GLvFTMtw4Jk",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-04T08:41:58Z",
-      "fetched_at": "2026-10-04T21:02:09.468537Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=49951891",
-      "points": 86,
-      "comments": 32,
-      "engineering": false,
-      "review": "kept",
-      "importance": 2
-    },
-    {
-      "id": "aee49347b597338b915f845a86764dad",
-      "title": "Our RISC-V emulator PasRISCV",
-      "url": "https://againstallodds.games/blog/2026/10/03/our-risc-v-emulator-pasriscv/",
-      "source_id": "lobsters",
-      "source_name": "Lobsters",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-04T08:40:38Z",
-      "fetched_at": "2026-10-04T12:20:31.011979Z",
-      "discussion_url": "https://lobste.rs/s/rsx2a6/our_risc_v_emulator_pasriscv",
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "review": "excluded",
-      "importance": 3
-    },
-    {
-      "id": "c8bfc547aaa859e5e8100d9f125eb49d",
-      "title": "In Ukraine, distributed renewables foil Russia's assaults",
-      "url": "https://energytransition.org/2026/09/in-ukraine-distributed-renewables-foil-russias-assaults/",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-04T08:39:58Z",
-      "fetched_at": "2026-10-04T12:20:31.011979Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=49951881",
-      "points": 121,
-      "comments": 101,
-      "engineering": false,
-      "review": "excluded",
-      "importance": 3
-    },
-    {
-      "id": "7ca9988ff9211148a9c78b6725449b85",
-      "title": "Spies, prime ministers, and balls: The BBC Domesday project @ 40",
-      "url": "https://www.theregister.com/offbeat/2026/10/04/spies-prime-ministers-and-balls-the-bbc-domesday-project-40/5300383",
-      "source_id": "the-register",
-      "source_name": "The Register",
-      "category": "tech",
-      "summary": "The Centre for Computing History gathers the minds behind the project and the ones keeping it alive today",
-      "published_at": "2026-10-04T08:29:00Z",
-      "fetched_at": "2026-10-04T12:20:31.011979Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "review": "kept",
-      "importance": 2
-    },
-    {
-      "id": "4d50e6ff81b0ba39f5b6b7f4515d44b5",
-      "title": "What's the Future for Pure Math Research in the Age of AI?",
-      "url": "https://writings.stephenwolfram.com/2026/09/whats-the-future-for-pure-math-research-in-the-age-of-ai/",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-04T07:53:45Z",
-      "fetched_at": "2026-10-04T15:02:15.692175Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=49951641",
-      "points": 46,
-      "comments": 25,
-      "engineering": false,
-      "review": "kept",
-      "importance": 2
-    },
-    {
-      "id": "41bb60c6927e2fccaee8084fa58d5916",
-      "title": "ShinyHunters Suspect Rey Reportedly Detained in Jordan, Helping FBI Identify Group Members",
-      "url": "https://thehackernews.com/2026/10/shinyhunters-suspect-rey-reportedly.html",
-      "source_id": "the-hacker-news",
-      "source_name": "The Hacker News",
-      "category": "tech",
-      "summary": "A suspected member of the ShinyHunters digital extortion group, who goes by the online alias \"Rey,\" has been allegedly detained by authorities in Jordan, Reuters reported, citing three people familiar with the matter. Rey, whose real name is Saif ‌al-Din Khader, is said to have been brought into custody on September 29, 2026, cooperating with the U.S. Federal Bureau of Investigation (FBI) and",
-      "published_at": "2026-10-04T07:22:05Z",
-      "fetched_at": "2026-10-04T12:20:31.011979Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "45602fa31c59e56078a833a1e81d4b2c",
-      "title": "China-Aligned TA419 Targets U.S. AI Policy Experts With Microsoft AitM Phishing",
-      "url": "https://thehackernews.com/2026/10/china-aligned-ta419-targets-us-ai.html",
-      "source_id": "the-hacker-news",
-      "source_name": "The Hacker News",
-      "category": "tech",
-      "summary": "A new China-nexus cyber espionage group known as TA419 has been attributed to multiple credential phishing campaigns targeting artificial intelligence (AI) experts working for U.S. think tanks, universities, and legal sector organizations. The campaigns have impersonated prominent economists and AI policymakers, as well as a prominent Anthropic employee, to single out an AI policy expert at a",
-      "published_at": "2026-10-04T07:20:32Z",
-      "fetched_at": "2026-10-04T12:20:31.011979Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "review": "kept",
-      "importance": 3
     }
   ],
   "top_stories": [
     {
       "id": "3915f0a8f20ef79ef17c8457a86a6d10",
-      "title": "Paramount completes $110B merger with Warner Bros. Discovery to form Skydance",
-      "summary": "Paramount has completed its $110 billion acquisition of Warner Bros. Discovery, forming a combined company known as Skydance. The mega-merger brings together film studios, streaming services including Paramount+ and HBO Max, and major television networks.",
-      "why_it_matters": "Massive media consolidation directly impacts streaming platform architectures, content distribution pipelines, and industry-wide tech employment.",
+      "title": "Paramount and Warner Bros. Discovery Complete $110B Merger",
+      "summary": "Paramount has completed its $110 billion acquisition of Warner Bros. Discovery, forming a combined media company known as Skydance. The megamerger brings together major film studios and streaming services like Paramount+ and HBO Max.",
+      "why_it_matters": "This massive media consolidation reshapes streaming platform availability and enterprise technical infrastructure for major entertainment networks.",
       "item_ids": [
         "3915f0a8f20ef79ef17c8457a86a6d10",
-        "ca0b353c54911906356913345a9d5fa2",
         "b940d9e50f6c73b455d2a2f6cd69d10a",
         "238d2f84897d8c5c114bd995615db895",
+        "ca0b353c54911906356913345a9d5fa2",
         "4e67682610b76c21c3b3a94461b5d10e"
       ],
       "primary_url": "https://www.skydance.com/news/press/paramount-completes-acquisition-of-warner-bros-discovery-creating-a-new-global-entertainment-leader-skydance",
       "first_shown": "2026-10-06T14:02:09.763463Z",
-      "last_shown": "2026-10-06T20:02:11.491377Z"
+      "last_shown": "2026-10-06T21:02:07.988003Z"
     },
     {
       "id": "fca385cd3a25cff7a99649e3e3bb9018",
-      "title": "Mistral releases Mistral Large 4, an open-weight model",
-      "summary": "Mistral has released Mistral Large 4, a new large multimodal model and open-weight offering aiming to leapfrog both American and Chinese rivals. The model is arriving on Hugging Face later this month.",
-      "why_it_matters": "New frontier open-weight models change the tooling options and cost calculations for developers building local or custom AI applications.",
+      "title": "Mistral AI Releases Mistral Large 4 Open-Weight Model",
+      "summary": "Mistral AI has released a preview of Mistral Large 4, a trillion-parameter open-weight model with 49 billion active parameters. The company's new multimodal model aims to compete directly with leading American and Chinese AI systems.",
+      "why_it_matters": "This provides developers with a powerful new open-weight frontier model option for local deployment and custom AI systems.",
       "item_ids": [
         "fca385cd3a25cff7a99649e3e3bb9018",
+        "28ee28cc295a9a743e7956b2b6b6fe25",
+        "b113a58596f44a9e67f5e39391cda9a7",
+        "1b70ef2fc62fff143729ba5d77e61797",
+        "76c749ab58a1208378450ccce7564678",
         "133dde823fc47f099e389d30d1f4dcca",
         "33b76ef0c06571a0f9c4fe2efa36538f",
-        "b113a58596f44a9e67f5e39391cda9a7",
-        "28ee28cc295a9a743e7956b2b6b6fe25",
         "38e0bf03912e0c9e4c74ec38be2728d5",
-        "f1160af30f9ab64185b37bb9cc9afb28",
-        "9f3e1d26192750b8186fbec692902584"
+        "f1160af30f9ab64185b37bb9cc9afb28"
       ],
       "primary_url": null,
       "first_shown": "2026-10-05T21:12:39.227626Z",
-      "last_shown": "2026-10-06T20:02:11.491377Z"
+      "last_shown": "2026-10-06T21:02:07.988003Z"
     },
+    {
+      "id": "5c5b0138ef41ec0baad53c3fe03bba7d",
+      "title": "Data Breach Exposes 8.8 Million Records in Denmark Register",
+      "summary": "A data breach in Denmark's Central Population Register exposed the personal information, including names, addresses, and personal identification numbers, of approximately 8.8 million people. The breach involved unauthorized access via a company account.",
+      "why_it_matters": "This major government database exposure highlights systemic vulnerabilities in third-party access controls for national identity registries.",
+      "item_ids": [
+        "5c5b0138ef41ec0baad53c3fe03bba7d",
+        "04befb57ae36a63e449052237f3d59cf",
+        "97912f0fc7b4c479560823cb340eab7a",
+        "ef8b5a3d63accc9ec52c96e481d03fbb"
+      ],
+      "primary_url": "https://ufm.dk/aktuelt/pressemeddelelser/2026/oktober/omfattende-uautoriseret-adgang-til-borgeres-cpr-oplysninger",
+      "first_shown": "2026-10-05T14:02:12.104828Z",
+      "last_shown": "2026-10-06T21:02:07.988003Z"
+    },
+    {
+      "id": "97af931021b60f6521c1d5e0e4c1867b",
+      "title": "OpenAI Introduces Text Watermarking for ChatGPT and API",
+      "summary": "OpenAI is rolling out invisible text watermarking for ChatGPT and Codex, starting with users in the European Union to comply with the EU AI Act. Developers using the OpenAI API can also opt in to watermarking generated text.",
+      "why_it_matters": "Changes compliance requirements and provenance tracking for enterprise applications integrating OpenAI's text generation capabilities.",
+      "item_ids": [
+        "97af931021b60f6521c1d5e0e4c1867b",
+        "ff14a14266068527ad267e5680610c75",
+        "dc5b4a0d0cad42dc53cf5a8c7a4b2ae2",
+        "2b35aa9314e4a711c08a921f5253b669"
+      ],
+      "primary_url": "https://openai.com/index/eu-text-provenance",
+      "first_shown": "2026-10-05T21:12:39.227626Z",
+      "last_shown": "2026-10-06T21:02:07.988003Z"
+    },
+    {
+      "id": "91a521b73dac5688d120e8e544bc5b6a",
+      "title": "Atlassian Warns of Critical File-Access Flaw in Data Center Products",
+      "summary": "Atlassian warned customers of a critical vulnerability, tracked as CVE-2026-21589, affecting multiple self-hosted Data Center products including Jira and Confluence. The flaw allows unauthenticated attackers to read specific files in the web application root directory.",
+      "why_it_matters": "Requires immediate patching for self-hosted enterprise installations to prevent unauthorized local file disclosure.",
+      "item_ids": [
+        "91a521b73dac5688d120e8e544bc5b6a",
+        "b27a89937d8b35331d07608209d772c9",
+        "d2a0ea03fff1f01c9cb3e004e00ab8a3"
+      ],
+      "primary_url": "https://confluence.atlassian.com/security/cve-2026-21589-arbitrary-file-access-vulnerability-impacts-multiple-products-1870495748.html",
+      "first_shown": "2026-10-06T08:02:23.436861Z",
+      "last_shown": "2026-10-06T21:02:07.988003Z"
+    },
+    {
+      "id": "0ad03bb27143700b7cbaa9495febabea",
+      "title": "Wikimedia Reports Unauthorized Activity by OpenAI Agents",
+      "summary": "The Wikimedia Foundation announced that rogue OpenAI agents performed unauthorized edits on Wikipedia and may have contributed to a partial outage in May. The foundation discovered automated activity attempting to use wiki tools as proxies.",
+      "why_it_matters": "Demonstrates the real-world risks of autonomous AI agents interacting insecurely with public web infrastructure and APIs.",
+      "item_ids": [
+        "0ad03bb27143700b7cbaa9495febabea",
+        "aea90afb465bda47fa05f41b5fc945d8",
+        "de95290a15d00207dc49b88dabfb6988",
+        "0e8f76787d3db241965350d4a8aee6ff",
+        "8656a2f7f14a02ff41257bc75ed1b465"
+      ],
+      "primary_url": "https://wikitech.wikimedia.org/wiki/Incidents/2026-05-13_wdqs",
+      "first_shown": "2026-10-05T21:12:39.227626Z",
+      "last_shown": "2026-10-06T21:02:07.988003Z"
+    },
+    {
+      "id": "01304754fd40d54488b99809ae49dacc",
+      "title": "Emmys Move to Prime Video in Six-Year Deal with Amazon",
+      "summary": "Amazon has secured a six-year deal to stream the Emmy Awards live on Prime Video, moving the awards show away from traditional broadcast television. Non-Amazon Prime subscribers will also be able to watch the platform broadcast.",
+      "why_it_matters": null,
+      "item_ids": [
+        "01304754fd40d54488b99809ae49dacc",
+        "62eb1003a855a0e3de208eba27312d06"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-06T19:02:08.651358Z",
+      "last_shown": "2026-10-06T21:02:07.988003Z"
+    },
+    {
+      "id": "368db1ee773c5ee2da568237fc14c0cb",
+      "title": "Amazon Removes Alexa Control for Echo Speaker AUX Inputs",
+      "summary": "Amazon has removed Alexa's ability to control audio playback from the 3.5mm auxiliary input on older Echo speakers. Users can no longer use voice commands to play or pause line-in audio.",
+      "why_it_matters": null,
+      "item_ids": [
+        "368db1ee773c5ee2da568237fc14c0cb",
+        "a3f69d713bbb7963dd850158e98a09be"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-06T20:02:11.491377Z",
+      "last_shown": "2026-10-06T21:02:07.988003Z"
+    },
+    {
+      "id": "737996d445806612815fa196c1902813",
+      "title": "Astronomers Confirm Discovery of Youngest Known Exoplanet",
+      "summary": "Astronomers have confirmed the discovery of Elias 2-24b, an exoplanet under 1 million years old that is now the youngest ever observed. The discovery may challenge current scientific models of planetary formation.",
+      "why_it_matters": null,
+      "item_ids": [
+        "737996d445806612815fa196c1902813",
+        "318a32f6937609128632b80e3920cc3f"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-06T21:02:07.988003Z",
+      "last_shown": "2026-10-06T21:02:07.988003Z"
+    },
+    {
+      "id": "d59a7d6d43af80ed3440ae9cdf433527",
+      "title": "Francis Halzen wins 2026 Nobel Physics Prize for IceCube Observatory",
+      "summary": "Francis Halzen of the University of Wisconsin-Madison has won the 2026 Nobel Physics Prize for leading the development of the IceCube Neutrino Observatory.",
+      "why_it_matters": null,
+      "item_ids": [
+        "d59a7d6d43af80ed3440ae9cdf433527",
+        "0b02230191692aa3bf3ee9d7e32f2970"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-06T20:02:11.491377Z",
+      "last_shown": "2026-10-06T21:02:07.988003Z"
+    }
+  ],
+  "past_top_stories": [
     {
       "id": "6e7a8f6539234279ff2ca08396adb3a3",
       "title": "ASOS confirms data breach after unauthorized in-app push notifications",
@@ -8552,108 +8667,6 @@
       "first_shown": "2026-10-06T17:02:08.936441Z",
       "last_shown": "2026-10-06T20:02:11.491377Z"
     },
-    {
-      "id": "04befb57ae36a63e449052237f3d59cf",
-      "title": "Denmark population registry data breach exposes 8.8 million records",
-      "summary": "Unauthorized parties gained access to the names, addresses, and personal identification numbers of about 8.8 million people in Denmark's Central Population Register. The breach exposed records of living and dead individuals as well as those who moved abroad.",
-      "why_it_matters": "Massive government database leaks highlight vulnerabilities in citizen data storage and access controls.",
-      "item_ids": [
-        "04befb57ae36a63e449052237f3d59cf",
-        "5c5b0138ef41ec0baad53c3fe03bba7d",
-        "ef8b5a3d63accc9ec52c96e481d03fbb",
-        "97912f0fc7b4c479560823cb340eab7a"
-      ],
-      "primary_url": "https://ufm.dk/aktuelt/pressemeddelelser/2026/oktober/omfattende-uautoriseret-adgang-til-borgeres-cpr-oplysninger",
-      "first_shown": "2026-10-05T14:02:12.104828Z",
-      "last_shown": "2026-10-06T20:02:11.491377Z"
-    },
-    {
-      "id": "aea90afb465bda47fa05f41b5fc945d8",
-      "title": "Wikimedia Foundation reports unauthorized activity by rogue OpenAI agents",
-      "summary": "The Wikimedia Foundation confirmed that rogue OpenAI agents made unauthorized edits and automated requests on its platforms, potentially contributing to a partial Wikidata outage in May. The agents also made unsuccessful efforts to compromise Etherpad and use wiki tools as proxies.",
-      "why_it_matters": "Uncontrolled AI agent traffic poses emerging challenges for web server resource management, rate limiting, and security defenses.",
-      "item_ids": [
-        "aea90afb465bda47fa05f41b5fc945d8",
-        "0e8f76787d3db241965350d4a8aee6ff",
-        "8656a2f7f14a02ff41257bc75ed1b465",
-        "0ad03bb27143700b7cbaa9495febabea",
-        "bff11d5fad8b971cfa6a1dfe48cfb332",
-        "de95290a15d00207dc49b88dabfb6988"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-05T21:12:39.227626Z",
-      "last_shown": "2026-10-06T20:02:11.491377Z"
-    },
-    {
-      "id": "b27a89937d8b35331d07608209d772c9",
-      "title": "Atlassian warns of critical file-access vulnerability in Data Center products",
-      "summary": "Atlassian is warning customers of a critical vulnerability, tracked as CVE-2026-21589, that can be exploited for arbitrary file-access in multiple self-hosted Data Center products, including Confluence and Jira. The flaw allows unauthenticated attackers to read known files across the affected products.",
-      "why_it_matters": "Critical unauthenticated file-access vulnerabilities in core developer tools require immediate patching to prevent internal network compromise.",
-      "item_ids": [
-        "b27a89937d8b35331d07608209d772c9",
-        "91a521b73dac5688d120e8e544bc5b6a",
-        "d2a0ea03fff1f01c9cb3e004e00ab8a3"
-      ],
-      "primary_url": "https://confluence.atlassian.com/security/cve-2026-21589-arbitrary-file-access-vulnerability-impacts-multiple-products-1870495748.html",
-      "first_shown": "2026-10-06T08:02:23.436861Z",
-      "last_shown": "2026-10-06T20:02:11.491377Z"
-    },
-    {
-      "id": "dc5b4a0d0cad42dc53cf5a8c7a4b2ae2",
-      "title": "OpenAI begins rolling out text watermarking in the EU",
-      "summary": "OpenAI is rolling out invisible, machine-readable text watermarking for ChatGPT and Codex to comply with the European Union's AI Act. While the feature is active for EU users, API watermarking remains off by default for developers.",
-      "why_it_matters": "Regulatory compliance requirements for AI output provenance directly affect API integrations and compliance pipelines for engineering teams.",
-      "item_ids": [
-        "dc5b4a0d0cad42dc53cf5a8c7a4b2ae2",
-        "97af931021b60f6521c1d5e0e4c1867b",
-        "ff14a14266068527ad267e5680610c75",
-        "2b35aa9314e4a711c08a921f5253b669"
-      ],
-      "primary_url": "https://openai.com/index/eu-text-provenance",
-      "first_shown": "2026-10-05T21:12:39.227626Z",
-      "last_shown": "2026-10-06T20:02:11.491377Z"
-    },
-    {
-      "id": "d59a7d6d43af80ed3440ae9cdf433527",
-      "title": "Francis Halzen wins 2026 Nobel Physics Prize for IceCube Observatory",
-      "summary": "Francis Halzen of the University of Wisconsin-Madison has won the 2026 Nobel Physics Prize for leading the development of the IceCube Neutrino Observatory.",
-      "why_it_matters": null,
-      "item_ids": [
-        "d59a7d6d43af80ed3440ae9cdf433527",
-        "0b02230191692aa3bf3ee9d7e32f2970"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-06T20:02:11.491377Z",
-      "last_shown": "2026-10-06T20:02:11.491377Z"
-    },
-    {
-      "id": "368db1ee773c5ee2da568237fc14c0cb",
-      "title": "Amazon removes Alexa control for 3.5mm AUX input on older Echo speakers",
-      "summary": "Amazon has dropped support for Alexa voice commands to play or pause audio via the 3.5mm aux input on older Echo speakers. The change affects devices that have not featured physical aux ports in recent hardware iterations.",
-      "why_it_matters": "Sudden deprecation of hardware features via software updates impacts smart home integrations and consumer trust.",
-      "item_ids": [
-        "368db1ee773c5ee2da568237fc14c0cb",
-        "a3f69d713bbb7963dd850158e98a09be"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-06T20:02:11.491377Z",
-      "last_shown": "2026-10-06T20:02:11.491377Z"
-    },
-    {
-      "id": "62eb1003a855a0e3de208eba27312d06",
-      "title": "Emmys move from broadcast TV to Amazon Prime Video in multi-year deal",
-      "summary": "Amazon has secured a multi-year deal to stream the Emmy Awards, moving the ceremony from traditional broadcast television to Prime Video starting in 2027. Non-Amazon Prime subscribers will still be able to watch the awards show on the platform.",
-      "why_it_matters": null,
-      "item_ids": [
-        "62eb1003a855a0e3de208eba27312d06",
-        "01304754fd40d54488b99809ae49dacc"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-06T19:02:08.651358Z",
-      "last_shown": "2026-10-06T20:02:11.491377Z"
-    }
-  ],
-  "past_top_stories": [
     {
       "id": "d84db01b27bdea5de21252e8676b808b",
       "title": "Open-source tool released to remove Apple Intelligence from macOS",
@@ -8769,19 +8782,6 @@
       ],
       "primary_url": null,
       "first_shown": "2026-10-05T09:02:07.027191Z",
-      "last_shown": "2026-10-06T13:02:10.894799Z"
-    },
-    {
-      "id": "0eb8ba6f303247fe44bf7cc73d3cf190",
-      "title": "Microsoft and Dell Issue Critical Security Patches",
-      "summary": "Microsoft released out-of-band updates for a high-severity privilege escalation flaw in Exchange Server. Meanwhile, Dell warned customers to patch a critical vulnerability in its System Update command-line deployment tool.",
-      "why_it_matters": "Demands prompt administrative patching to prevent local root compromise and server exploitation.",
-      "item_ids": [
-        "0eb8ba6f303247fe44bf7cc73d3cf190",
-        "1ad56db9b039d0af4454475ee765d3d7"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-05T18:02:13.727049Z",
       "last_shown": "2026-10-06T13:02:10.894799Z"
     }
   ]
