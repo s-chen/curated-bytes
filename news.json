@@ -1,6 +1,125 @@
 {
-  "generated_at": "2026-10-05T23:02:15.415070Z",
+  "generated_at": "2026-10-06T00:02:18.049255Z",
   "items": [
+    {
+      "id": "0cb47c2949689aea5992402dc2e30b53",
+      "title": "Quoting Felix Rieseberg",
+      "url": "https://simonwillison.net/2026/Oct/5/felix-rieseberg/",
+      "source_id": "simon-willison",
+      "source_name": "Simon Willison",
+      "category": "tech",
+      "summary": "The \"old\" version of Cowork runs model inference in the cloud, executing tool calls in an Anthropic-provided VM we shipped to your computer. We added the VM for capability, safety, and security reasons - mapping in just the data you explicitly added to your session. People loved what they were able to do with Claude but didn't love the disk, battery, and performance cost of running the VM locally. Also, people didn't love that closing your laptop means the work stops. The \"new\" version of…",
+      "published_at": "2026-10-05T23:56:47Z",
+      "fetched_at": "2026-10-06T00:02:18.049255Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "a2b98cad80f6c5b531d60eaa8f1d25af",
+      "title": "Gemini Call for Me might tell your mom you’re running late",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1005177/google-gemini-call-for-me-expansion-rumors",
+      "source_id": "the-verge",
+      "source_name": "The Verge",
+      "category": "tech",
+      "summary": "Google may be expanding its \"Call for Me\" AI feature beyond business calls so you can use it to send messages to friends and family. Android Authority reports finding a \"Gemini Calling\" introductory screen in an APK teardown with examples that include \"Call Mom and tell her I will be 15 minutes late\" and \"Call […]",
+      "published_at": "2026-10-05T23:09:55Z",
+      "fetched_at": "2026-10-06T00:02:18.049255Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "9278f606781cdb17043b3a3915a1c935",
+      "title": "How Cloudflare addressed a cross-tenant data exposure vulnerability in Containers",
+      "url": "https://blog.cloudflare.com/containers-cross-tenant-vulnerability/",
+      "source_id": "lobsters",
+      "source_name": "Lobsters",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-05T23:03:17Z",
+      "fetched_at": "2026-10-06T00:02:18.049255Z",
+      "discussion_url": "https://lobste.rs/s/gm2ziy/how_cloudflare_addressed_cross_tenant",
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "review": "kept",
+      "importance": 4
+    },
+    {
+      "id": "07ed95c347fb032fcb4fecc64b9bb173",
+      "title": "Worth Building",
+      "url": "https://armstr.ng/writing/worth-building",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-05T22:59:24Z",
+      "fetched_at": "2026-10-06T00:02:18.049255Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=49971952",
+      "points": 17,
+      "comments": 5,
+      "engineering": false,
+      "review": "pending",
+      "importance": null
+    },
+    {
+      "id": "b08684a851cadf4380fc0d9c91d72b29",
+      "title": "Example.com Just Launched the Biggest Redesign in Decades",
+      "url": "https://www.debugbear.com/blog/example-dot-com-redesign-history",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-05T22:55:11Z",
+      "fetched_at": "2026-10-06T00:02:18.049255Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=49971921",
+      "points": 33,
+      "comments": 20,
+      "engineering": false,
+      "review": "pending",
+      "importance": null
+    },
+    {
+      "id": "210ed5858c68698cf24297257e41f7d3",
+      "title": "Schneider Electric drops $22.6B on PTC as datacenter boom rains money on infra companies",
+      "url": "https://www.theregister.com/systems/2026/10/05/schneider-electric-acquires-ptc-for-226-billion/5301254",
+      "source_id": "the-register",
+      "source_name": "The Register",
+      "category": "tech",
+      "summary": "Part of a bigger play for smarter power infra",
+      "published_at": "2026-10-05T22:48:15Z",
+      "fetched_at": "2026-10-06T00:02:18.049255Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "1c5986b59834ce832f86e5ad3c7d24ce",
+      "title": "ChatGPT is adding real cartoonists' signatures to fake New Yorker cartoons",
+      "url": "https://www.niemanlab.org/2026/10/chatgpt-is-adding-real-cartoonists-signatures-to-fake-new-yorker-cartoons/",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-05T22:46:45Z",
+      "fetched_at": "2026-10-06T00:02:18.049255Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=49971846",
+      "points": 53,
+      "comments": 5,
+      "engineering": false,
+      "review": "kept",
+      "importance": 2
+    },
     {
       "id": "ff14a14266068527ad267e5680610c75",
       "title": "OpenAI is adding invisible watermarks to ChatGPT and Codex text in the EU",
@@ -17,6 +136,23 @@
       "engineering": false,
       "review": "kept",
       "importance": 4
+    },
+    {
+      "id": "e0a2e37e6fab2a4af511f01133cf1df8",
+      "title": "Global Solar Atlas: summary of solar power potential globally",
+      "url": "https://globalsolaratlas.info/",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-05T22:37:58Z",
+      "fetched_at": "2026-10-06T00:02:18.049255Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=49971782",
+      "points": 7,
+      "comments": 2,
+      "engineering": false,
+      "review": "pending",
+      "importance": null
     },
     {
       "id": "627bc167bc51b0a47238b0da023dc06c",
@@ -70,6 +206,23 @@
       "importance": 2
     },
     {
+      "id": "9cbe2ac3b89605e405696219e4b96635",
+      "title": "Graphical UI",
+      "url": "https://www.graphicalui.com/",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-05T21:51:09Z",
+      "fetched_at": "2026-10-06T00:02:18.049255Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=49971356",
+      "points": 19,
+      "comments": 0,
+      "engineering": false,
+      "review": "pending",
+      "importance": null
+    },
+    {
       "id": "0db1117fa9600c3b41551bed34c62869",
       "title": "Developers are secretly hoping OpenAI fails to ship this month",
       "url": "https://thenewstack.io/openai-codex-shipping-sprint/",
@@ -84,7 +237,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "a29aaa9485d73af0fa9481783c1cb32f",
@@ -97,11 +250,28 @@
       "published_at": "2026-10-05T21:40:50Z",
       "fetched_at": "2026-10-05T23:02:15.415070Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49971230",
-      "points": 39,
-      "comments": 8,
+      "points": 77,
+      "comments": 22,
       "engineering": false,
       "review": "kept",
       "importance": 2
+    },
+    {
+      "id": "ad78230ac0128f10df9b95c7c02a49cd",
+      "title": "Citrix NetScaler security snafus get even worse amid more 0-day reports",
+      "url": "https://www.theregister.com/security/2026/10/05/citrix-netscaler-security-snafus-get-even-worse-amid-more-0-day-reports/5301232",
+      "source_id": "the-register",
+      "source_name": "The Register",
+      "category": "tech",
+      "summary": "The new vuln, CVE-2026-88779, is a memory overflow bug that leads to denial of service",
+      "published_at": "2026-10-05T21:18:48Z",
+      "fetched_at": "2026-10-06T00:02:18.049255Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "review": "kept",
+      "importance": 5
     },
     {
       "id": "9e3a37ef267f1840d6786dff1bb17b9f",
@@ -131,8 +301,8 @@
       "published_at": "2026-10-05T21:15:07Z",
       "fetched_at": "2026-10-05T22:02:29.018275Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49970871",
-      "points": 53,
-      "comments": 4,
+      "points": 74,
+      "comments": 5,
       "engineering": false,
       "review": "kept",
       "importance": 3
@@ -165,11 +335,11 @@
       "published_at": "2026-10-05T21:00:21Z",
       "fetched_at": "2026-10-05T21:12:39.227626Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49970667",
-      "points": 132,
-      "comments": 109,
+      "points": 173,
+      "comments": 131,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "6955d599040257830525b6f87037b52e",
@@ -186,7 +356,7 @@
       "comments": 6,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "17d9d64f21e248c28756170b87369bca",
@@ -203,7 +373,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "dc5b4a0d0cad42dc53cf5a8c7a4b2ae2",
@@ -254,7 +424,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "d0bd7fa8794ac5d2639d6cf9d337114e",
@@ -335,8 +505,8 @@
       "published_at": "2026-10-05T20:09:12Z",
       "fetched_at": "2026-10-05T21:12:39.227626Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49969961",
-      "points": 88,
-      "comments": 59,
+      "points": 92,
+      "comments": 63,
       "engineering": false,
       "review": "kept",
       "importance": 3
@@ -441,7 +611,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "f0a5d837a4fba426c0afb4bd6cbbb2ec",
@@ -522,8 +692,8 @@
       "published_at": "2026-10-05T19:22:40Z",
       "fetched_at": "2026-10-05T21:12:39.227626Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49969256",
-      "points": 68,
-      "comments": 30,
+      "points": 77,
+      "comments": 39,
       "engineering": false,
       "review": "kept",
       "importance": 2
@@ -539,11 +709,11 @@
       "published_at": "2026-10-05T19:16:35Z",
       "fetched_at": "2026-10-05T21:12:39.227626Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49969183",
-      "points": 234,
-      "comments": 63,
+      "points": 272,
+      "comments": 72,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "d412f3b03f13045b8cc57e912a3f31d7",
@@ -628,7 +798,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "407d16b9199dab1429285187c107f0ff",
@@ -730,7 +900,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "88facab9fca63fdb32db0a41d23605a6",
@@ -747,7 +917,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "a090b0ab52c4524d6d11e70f4707173c",
@@ -866,7 +1036,7 @@
       "comments": 159,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "a49eec35c273091c2fcc9fce67bdc401",
@@ -934,7 +1104,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "efc1e803f05d945a19ccf2c783fead2e",
@@ -951,7 +1121,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "b8857f174798c720c012d48441031e42",
@@ -1036,7 +1206,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "69da73e8cd7f75ed7327ef986094a000",
@@ -1172,7 +1342,7 @@
       "comments": null,
       "engineering": true,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "4698961802699174ab431fcea3a0582b",
@@ -1206,7 +1376,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "0e66c6ba450e29a40f029e5a4c4e9c66",
@@ -1274,7 +1444,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "a8452c0e4f12f909efa1a80df611a432",
@@ -1478,7 +1648,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "0eb8ba6f303247fe44bf7cc73d3cf190",
@@ -1614,7 +1784,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "b88e60f4b6f26487783a6190fd3814a4",
@@ -1644,8 +1814,8 @@
       "published_at": "2026-10-05T14:12:14Z",
       "fetched_at": "2026-10-05T19:02:13.621681Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49965152",
-      "points": 100,
-      "comments": 56,
+      "points": 115,
+      "comments": 59,
       "engineering": false,
       "review": "kept",
       "importance": 1
@@ -1661,11 +1831,11 @@
       "published_at": "2026-10-05T14:09:15Z",
       "fetched_at": "2026-10-05T19:02:13.621681Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49965118",
-      "points": 87,
-      "comments": 17,
+      "points": 89,
+      "comments": 21,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "a984fdf3cfe9d5ce63b3a407b3c0eb34",
@@ -1886,7 +2056,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "b710f0821ab548c8e55d8eb4ed76d40f",
@@ -1937,7 +2107,7 @@
       "comments": null,
       "engineering": true,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "8243b24d19bf19af6d0a3a9c326204db",
@@ -1954,7 +2124,7 @@
       "comments": null,
       "engineering": true,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "7d5bc26ad03031810c7e0b5f33b90900",
@@ -2005,7 +2175,7 @@
       "comments": 21,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "a46843a01af3fe1e07de67ba9237367e",
@@ -2068,9 +2238,9 @@
       "summary": null,
       "published_at": "2026-10-05T12:07:07Z",
       "fetched_at": "2026-10-05T13:02:10.003386Z",
-      "discussion_url": "https://lobste.rs/s/ymannf/ephemeral_testing",
-      "points": null,
-      "comments": null,
+      "discussion_url": "https://news.ycombinator.com/item?id=49972008",
+      "points": 10,
+      "comments": 0,
       "engineering": false,
       "review": "kept",
       "importance": 2
@@ -2212,6 +2382,23 @@
       "importance": null
     },
     {
+      "id": "8efd11342f4ddb9bf97a3af3d577ca37",
+      "title": "Is mathematics over, or just graduating?",
+      "url": "https://docs.google.com/document/d/e/2PACX-1vTSh-pyNP3Gi99WMmsinnLmE9V5CDI0HEm6WGbIPMNt3V5SGlClHF8-BetotKHOImrvQDSXmFdiOw8D/pub",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-05T11:16:32Z",
+      "fetched_at": "2026-10-06T00:02:18.049255Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=49963382",
+      "points": 10,
+      "comments": 3,
+      "engineering": false,
+      "review": "pending",
+      "importance": null
+    },
+    {
       "id": "c1e63a139a8749c935d297822bdf478e",
       "title": "Europe's new robotics unicorn: Germany's RobCo hits $1B valuation",
       "url": "https://techfundingnews.com/europes-new-robotics-unicorn-germanys-robco-hits-1b-valuation/",
@@ -2226,7 +2413,7 @@
       "comments": 297,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "30e414505806fcbb7c8ed3d69875bae2",
@@ -2311,7 +2498,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "23bd24d9edb464cc0bbe2c0fb9aece39",
@@ -2324,8 +2511,8 @@
       "published_at": "2026-10-05T10:47:06Z",
       "fetched_at": "2026-10-05T12:02:07.297898Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49963171",
-      "points": 459,
-      "comments": 209,
+      "points": 472,
+      "comments": 215,
       "engineering": false,
       "review": "kept",
       "importance": 3
@@ -2396,7 +2583,7 @@
       "comments": 24,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "e9e46cfe6c1f9ab90d79a85faab23b4e",
@@ -2430,7 +2617,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "d79aa962cb893c6f4459ad1271c0643d",
@@ -2443,8 +2630,8 @@
       "published_at": "2026-10-05T10:05:02Z",
       "fetched_at": "2026-10-05T11:02:07.722103Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49962857",
-      "points": 179,
-      "comments": 173,
+      "points": 194,
+      "comments": 177,
       "engineering": false,
       "review": "kept",
       "importance": 3
@@ -2566,7 +2753,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "9b6de455eaeb785e9dab977b87aa251c",
@@ -2634,7 +2821,7 @@
       "comments": 45,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "0adec9b01cd4f1f59da37aa8356ce9f9",
@@ -2838,7 +3025,7 @@
       "comments": 89,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "c1351ac71f85df8e0fcd0c4968a6b82e",
@@ -2855,7 +3042,7 @@
       "comments": 105,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "ed2b3772cc8bccd36ebc1ff6d901445d",
@@ -2889,7 +3076,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "08d2a6ef860e191ec115ad24cb822ddf",
@@ -2957,7 +3144,7 @@
       "comments": 378,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "c75cc142a352f9ca1edf684910ecd615",
@@ -3110,7 +3297,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "e1e58f1b2f0644e3c66d7660599bb816",
@@ -3161,7 +3348,7 @@
       "comments": 48,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "f2f4e6f8f73ea0d9003a4602bd08cf3c",
@@ -3654,7 +3841,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "3aeae95e5a112dcbc170a175de689270",
@@ -3790,7 +3977,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "ad86e5c03ea956c362a60dcf644ec6db",
@@ -3960,7 +4147,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "a3f33074c848b8dc393a1471d7d06494",
@@ -8313,294 +8500,148 @@
       "engineering": false,
       "review": "pending",
       "importance": null
-    },
-    {
-      "id": "2d1beee2619c56d022977c2d234e53e3",
-      "title": "The hidden design compromises of Docker layers",
-      "url": "https://loige.co/hidden-design-compromises-of-docker-layers/",
-      "source_id": "lobsters",
-      "source_name": "Lobsters",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-02T08:29:47Z",
-      "fetched_at": "2026-10-03T20:57:46.771170Z",
-      "discussion_url": "https://lobste.rs/s/uuu6us/hidden_design_compromises_docker_layers",
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "review": "pending",
-      "importance": null
-    },
-    {
-      "id": "7bd6e8c4fd2e6a52563b74490e23f336",
-      "title": "Android 17 Advanced Protection Locks Accessibility Services to Verified Accessibility Tools",
-      "url": "https://thehackernews.com/2026/10/android-17-advanced-protection-locks.html",
-      "source_id": "the-hacker-news",
-      "source_name": "The Hacker News",
-      "category": "tech",
-      "summary": "Google has announced a new security measure that limits access to Android's accessibility services to verified applications classified as Accessibility Tools when Advanced Protection is enabled. With malicious Android applications abusing the API serving as the main conduit for malware and financial fraud, the tech giant said the move would block a major attack pathway. Advanced Protection is a",
-      "published_at": "2026-10-02T08:01:30Z",
-      "fetched_at": "2026-10-03T20:57:46.771170Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "review": "pending",
-      "importance": null
-    },
-    {
-      "id": "a5cb009484f25f9b82f49165c38828c4",
-      "title": "Techie was stung by a wasp, held overnight by Chinese police, then trapped in a 13-hour meeting",
-      "url": "https://www.theregister.com/software/2026/10/02/techie-was-stung-by-a-wasp-held-overnight-by-chinese-police-then-trapped-in-a-13-hour-meeting/5300368",
-      "source_id": "the-register",
-      "source_name": "The Register",
-      "category": "tech",
-      "summary": "Sales calls can be even nastier than support calls",
-      "published_at": "2026-10-02T08:01:00Z",
-      "fetched_at": "2026-10-03T20:57:46.771170Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "review": "pending",
-      "importance": null
-    },
-    {
-      "id": "77d67866b3c89d5de35312fecacfc822",
-      "title": "Pi coding agent pulls a 180 and adds MCP support",
-      "url": "https://www.theregister.com/ai-and-ml/2026/10/02/pi-coding-agent-pulls-a-180-and-adds-mcp-support/5300678",
-      "source_id": "the-register",
-      "source_name": "The Register",
-      "category": "tech",
-      "summary": "To maintain minimalism, a new harness layer has been folded into a separate component",
-      "published_at": "2026-10-02T07:01:00Z",
-      "fetched_at": "2026-10-03T20:57:46.771170Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "review": "pending",
-      "importance": null
-    },
-    {
-      "id": "7bb01c75bdde8cdae4b5d65307c7884a",
-      "title": "Critical FortiMail Zero-Day Flaw Exploited in Attacks Allows Unauthenticated Arbitrary File Writes",
-      "url": "https://thehackernews.com/2026/10/critical-fortimail-zero-day-flaw.html",
-      "source_id": "the-hacker-news",
-      "source_name": "The Hacker News",
-      "category": "tech",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on Thursday, added a critical security flaw impacting Fortinet FortiMail to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation. The vulnerability, tracked as CVE-2026-104286 (CVSS score: 9.8), allows unauthenticated attackers to write arbitrary files on the underlying system. \"An improper",
-      "published_at": "2026-10-02T05:49:50Z",
-      "fetched_at": "2026-10-03T20:57:46.771170Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "review": "pending",
-      "importance": null
-    },
-    {
-      "id": "31d02c7f26f14f487aaac48f22255c1b",
-      "title": "AWS turns its best practice framework into an agent that recommends cloudy reconfigs",
-      "url": "https://www.theregister.com/off-prem/2026/10/02/aws-turns-its-best-practice-framework-into-an-agent-that-recommends-cloudy-reconfigs/5300730",
-      "source_id": "the-register",
-      "source_name": "The Register",
-      "category": "tech",
-      "summary": "Possesses powers equivalent to an 'experienced architect' and will happily make cost-saving suggestions",
-      "published_at": "2026-10-02T05:10:09Z",
-      "fetched_at": "2026-10-03T20:57:46.771170Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "review": "pending",
-      "importance": null
-    },
-    {
-      "id": "dc53c43407df243f9698310487703cea",
-      "title": "Peacock Promo Codes: 40% Off October 2026",
-      "url": "https://www.wired.com/story/peacock-promo-code/",
-      "source_id": "wired",
-      "source_name": "Wired",
-      "category": "tech",
-      "summary": "Stream your favorite shows for up to $80 off this month, and save on subscription plans with the latest Peacock TV coupons from WIRED.",
-      "published_at": "2026-10-02T05:00:00Z",
-      "fetched_at": "2026-10-03T20:57:46.771170Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "review": "excluded",
-      "importance": null
-    },
-    {
-      "id": "5f50fb4258b6315e116c70809a98f13e",
-      "title": "Nike Promo Codes and Discounts: 30% for October 2026",
-      "url": "https://www.wired.com/story/nike-promo-code/",
-      "source_id": "wired",
-      "source_name": "Wired",
-      "category": "tech",
-      "summary": "Check out our deals for Nike this October 2026, including 15% off select purchases.",
-      "published_at": "2026-10-02T05:00:00Z",
-      "fetched_at": "2026-10-03T20:57:46.771170Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "review": "excluded",
-      "importance": null
-    },
-    {
-      "id": "f365a45599325a7e4239be3cea35e619",
-      "title": "Google Workspace Promo Codes: 14% Off for October 2026",
-      "url": "https://www.wired.com/story/google-workspace-promo-code/",
-      "source_id": "wired",
-      "source_name": "Wired",
-      "category": "tech",
-      "summary": "Boost your productivity and save with exclusive Google Workspace coupons from WIRED. Get up to 14% off plans for three months, including Starter, Standard, and Plus tiers.",
-      "published_at": "2026-10-02T05:00:00Z",
-      "fetched_at": "2026-10-03T20:57:46.771170Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "review": "excluded",
-      "importance": null
-    },
-    {
-      "id": "a03f27288f2c8dc0ef480a440b471b95",
-      "title": "Motley Fool Promo Code: $200 Off on Stock Advisor October 2026",
-      "url": "https://www.wired.com/story/the-motley-fool-promo-code/",
-      "source_id": "wired",
-      "source_name": "Wired",
-      "category": "tech",
-      "summary": "Scale your portfolio for less with these verified The Motley Fool membership discounts, stock advisor promo codes, and Epic Bundle deals.",
-      "published_at": "2026-10-02T05:00:00Z",
-      "fetched_at": "2026-10-03T20:57:46.771170Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "review": "excluded",
-      "importance": null
-    },
-    {
-      "id": "927268e4c5632c232438cc4b9473a4f4",
-      "title": "Hotels.com Coupon Codes for October 2026",
-      "url": "https://www.wired.com/story/hotels-com-coupon/",
-      "source_id": "wired",
-      "source_name": "Wired",
-      "category": "tech",
-      "summary": "Unlock significant savings on hotels, resorts, and getaways with our verified Hotels.com promo codes and gift card discounts. Plan your perfect trip today!",
-      "published_at": "2026-10-02T05:00:00Z",
-      "fetched_at": "2026-10-03T20:57:46.771170Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "review": "excluded",
-      "importance": null
     }
   ],
   "top_stories": [
     {
-      "id": "82fced8b971efa21685a4f61927e7cba",
-      "title": "Denmark data breach exposes personal information of 8.8 million people",
-      "summary": "Denmark's Central Population Register suffered a major data breach exposing the personal information and state-issued ID numbers of approximately 8.8 million registered individuals. The breach affects living citizens, residents abroad, and deceased individuals.",
-      "why_it_matters": "Highlights massive government database vulnerabilities and large-scale exposure of citizen identity records.",
+      "id": "ef8b5a3d63accc9ec52c96e481d03fbb",
+      "title": "Denmark population registry data breach exposes 8.8 million records",
+      "summary": "Denmark's Central Population Register suffered a data breach that exposed the personal information of approximately 8.8 million registered individuals. The breached records include names, addresses, and state-issued ID numbers.",
+      "why_it_matters": "Massive government database breaches highlight persistent risks in identity governance and data security controls.",
       "item_ids": [
-        "82fced8b971efa21685a4f61927e7cba",
         "ef8b5a3d63accc9ec52c96e481d03fbb",
-        "97912f0fc7b4c479560823cb340eab7a"
+        "97912f0fc7b4c479560823cb340eab7a",
+        "82fced8b971efa21685a4f61927e7cba"
       ],
       "primary_url": "https://ufm.dk/aktuelt/pressemeddelelser/2026/oktober/omfattende-uautoriseret-adgang-til-borgeres-cpr-oplysninger",
       "first_shown": "2026-10-05T14:02:12.104828Z",
-      "last_shown": "2026-10-05T23:02:15.415070Z"
+      "last_shown": "2026-10-06T00:02:18.049255Z"
     },
     {
-      "id": "a1d5acfe0c801c09b51984621c1f48f4",
-      "title": "Citrix patches critical NetScaler SAML zero-day vulnerability",
-      "summary": "Citrix released emergency security updates to address a high-severity denial-of-service vulnerability in NetScaler ADC and Gateway. The zero-day flaw has been actively exploited in targeted attacks to knock SAML deployments offline.",
-      "why_it_matters": "Demands immediate patching for enterprise network administrators to prevent active denial-of-service exploitation.",
+      "id": "ad78230ac0128f10df9b95c7c02a49cd",
+      "title": "Citrix patches critical NetScaler zero-day memory overflow vulnerability",
+      "summary": "Citrix has released security updates for a high-severity memory overflow vulnerability in NetScaler ADC and Gateway, tracked as CVE-2026-88779, that leads to denial of service and can knock SAML deployments offline. The vulnerability has been exploited in targeted zero-day attacks.",
+      "why_it_matters": "Administrators managing Citrix NetScaler must patch immediately to prevent active zero-day denial-of-service and authentication bypass attacks.",
       "item_ids": [
-        "a1d5acfe0c801c09b51984621c1f48f4",
-        "58f5730626d851c789c5394837050157"
+        "ad78230ac0128f10df9b95c7c02a49cd",
+        "58f5730626d851c789c5394837050157",
+        "a1d5acfe0c801c09b51984621c1f48f4"
       ],
       "primary_url": "https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX697174",
       "first_shown": "2026-10-04T21:59:10.088466Z",
-      "last_shown": "2026-10-05T23:02:15.415070Z"
+      "last_shown": "2026-10-06T00:02:18.049255Z"
     },
     {
       "id": "f9545c4ec00f8446aacbae52af8fd736",
-      "title": "OpenAI rolls out invisible text watermarking for ChatGPT and Codex in the EU",
-      "summary": "OpenAI is preparing to add invisible watermarks to text generated by ChatGPT and Codex in the European Union to comply with the EU AI Act. Developers can also now opt in to text watermarking through its API.",
-      "why_it_matters": "Crucial for engineers building applications on OpenAI models to understand provenance tracking and compliance requirements in European markets.",
+      "title": "OpenAI to roll out invisible text watermarking in the EU",
+      "summary": "OpenAI is preparing to add invisible watermarks to text generated by ChatGPT and Codex in the European Union to comply with the AI Act. The company states that its text watermarking technique matched or exceeded expectations, though editing can make the marks harder to detect.",
+      "why_it_matters": "Engineers building applications atop OpenAI's models in the EU must account for provenance tracking and invisible watermarking requirements in generated text.",
       "item_ids": [
         "f9545c4ec00f8446aacbae52af8fd736",
-        "97af931021b60f6521c1d5e0e4c1867b",
         "ff14a14266068527ad267e5680610c75",
         "dc5b4a0d0cad42dc53cf5a8c7a4b2ae2",
-        "2b35aa9314e4a711c08a921f5253b669"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-05T21:12:39.227626Z",
-      "last_shown": "2026-10-05T23:02:15.415070Z"
-    },
-    {
-      "id": "b0c4983426b3963375587639e91d1bcf",
-      "title": "OpenAI introduces visual ads in ChatGPT during image generation",
-      "summary": "OpenAI is expanding monetization by introducing a new visual ad format in ChatGPT that will show sponsored product images and services. The ads will initially appear in the U.S. alongside image generation results.",
-      "why_it_matters": "Signals a major shift in monetization strategy for generative AI consumer interfaces, impacting user experience and developer integrations.",
-      "item_ids": [
-        "b0c4983426b3963375587639e91d1bcf",
-        "a8452c0e4f12f909efa1a80df611a432",
-        "4698961802699174ab431fcea3a0582b",
+        "97af931021b60f6521c1d5e0e4c1867b",
         "e9e46cfe6c1f9ab90d79a85faab23b4e"
       ],
       "primary_url": null,
-      "first_shown": "2026-10-05T11:02:07.722103Z",
-      "last_shown": "2026-10-05T23:02:15.415070Z"
+      "first_shown": "2026-10-05T21:12:39.227626Z",
+      "last_shown": "2026-10-06T00:02:18.049255Z"
     },
     {
-      "id": "9275b3af4c5cc58bd88497750952aab3",
-      "title": "Rejetto HFS remote code execution vulnerability under active exploitation",
-      "summary": "Hackers are actively scanning and exploiting a critical security flaw in Rejetto HTTP File Server. Tracked as CVE-2026-61500, the vulnerability allows session forgery, account takeover, and remote code execution.",
-      "why_it_matters": "Active exploitation of an RCE vulnerability requires immediate remediation for servers running Rejetto HFS.",
+      "id": "9278f606781cdb17043b3a3915a1c935",
+      "title": "Cloudflare fixes cross-tenant data exposure in Containers",
+      "summary": "Cloudflare disclosed a cross-tenant data exposure vulnerability in Containers and Sandboxes caused by thin-provisioned storage pools skipping zeroing of reused blocks. Researchers were able to recover data due to this improper handling.",
+      "why_it_matters": "Cloud-native security relies on proper block-zeroing and resource isolation to prevent cross-tenant data leakage in serverless container environments.",
       "item_ids": [
-        "9275b3af4c5cc58bd88497750952aab3",
-        "d0bd7fa8794ac5d2639d6cf9d337114e"
+        "9278f606781cdb17043b3a3915a1c935",
+        "4181b2925277e42ee689a8fb43194df7"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-05T09:02:07.027191Z",
+      "last_shown": "2026-10-06T00:02:18.049255Z"
+    },
+    {
+      "id": "d0bd7fa8794ac5d2639d6cf9d337114e",
+      "title": "Rejetto HFS servers targeted by active RCE exploits",
+      "summary": "Hackers are actively scanning and exploiting a critical remote code execution vulnerability in Rejetto HTTP File Server, tracked as CVE-2026-61500, allowing session forgery, account takeover, and RCE.",
+      "why_it_matters": "Teams running Rejetto HFS face active exploitation attempts against an unauthenticated remote code execution flaw.",
+      "item_ids": [
+        "d0bd7fa8794ac5d2639d6cf9d337114e",
+        "9275b3af4c5cc58bd88497750952aab3"
       ],
       "primary_url": "https://horizon3.ai/attack-research/disclosures/anthropic-mythos-rejetto-hfs-rce",
       "first_shown": "2026-10-05T10:02:05.466855Z",
-      "last_shown": "2026-10-05T23:02:15.415070Z"
+      "last_shown": "2026-10-06T00:02:18.049255Z"
     },
     {
       "id": "d84db01b27bdea5de21252e8676b808b",
-      "title": "Open-source tool RemoveMacAI lets users strip Apple Intelligence from macOS",
-      "summary": "A new open-source command-line tool called RemoveMacAI allows users to delete Apple Intelligence data from macOS. The tool can free up over 12GB of storage space previously occupied by built-in AI features.",
-      "why_it_matters": "Provides power users and administrators an automated method to reclaim disk space by removing unwanted local AI models.",
+      "title": "Open-source tool removes Apple Intelligence to reclaim storage",
+      "summary": "Developers have released an open-source command-line tool called RemoveMacAI that lets users delete Apple Intelligence features from macOS. The tool can free up over 12GB of storage space.",
+      "why_it_matters": "Provides users and administrators with a way to strip built-in AI components from modern macOS installations to reclaim disk space.",
       "item_ids": [
         "d84db01b27bdea5de21252e8676b808b",
-        "d412f3b03f13045b8cc57e912a3f31d7",
-        "259499ec6bb20a2ec76392c9d6a0a663"
+        "259499ec6bb20a2ec76392c9d6a0a663",
+        "d412f3b03f13045b8cc57e912a3f31d7"
       ],
       "primary_url": null,
       "first_shown": "2026-10-05T15:02:10.503186Z",
-      "last_shown": "2026-10-05T23:02:15.415070Z"
+      "last_shown": "2026-10-06T00:02:18.049255Z"
+    },
+    {
+      "id": "9f3e1d26192750b8186fbec692902584",
+      "title": "Reflection debuts Beam open-weight AI model",
+      "summary": "Reflection has launched Beam, a 501B open-weight AI model aimed at enterprises and sovereign nations to build customized, local AI systems at a lower compute cost.",
+      "why_it_matters": "Enterprise engineers evaluating open-weight foundation models have a new large-scale option for local deployments.",
+      "item_ids": [
+        "9f3e1d26192750b8186fbec692902584",
+        "644a9135e56e7fcfe687b30faa4f08c0"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-05T21:12:39.227626Z",
+      "last_shown": "2026-10-06T00:02:18.049255Z"
+    },
+    {
+      "id": "aea90afb465bda47fa05f41b5fc945d8",
+      "title": "Wikimedia discovers unauthorized OpenAI bot activity linked to outage",
+      "summary": "The Wikimedia Foundation confirmed that it discovered automated AI agent activity from OpenAI that may be linked to a service outage in May.",
+      "why_it_matters": "Uncontrolled AI web scraper traffic can cause infrastructure degradation and forced access controls on public APIs.",
+      "item_ids": [
+        "aea90afb465bda47fa05f41b5fc945d8",
+        "de95290a15d00207dc49b88dabfb6988"
+      ],
+      "primary_url": "https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service",
+      "first_shown": "2026-10-05T21:12:39.227626Z",
+      "last_shown": "2026-10-06T00:02:18.049255Z"
     },
     {
       "id": "e209ec2cbc83f7a285ab134ac46ade36",
-      "title": "Google suspends open-source bug bounty program amid AI spam surge",
-      "summary": "Google has temporarily suspended submissions to its Open Source Software Vulnerability Rewards Program after being overwhelmed by AI-generated spam reports. The influx of automated submissions made manual verification unsustainable.",
-      "why_it_matters": "Demonstrates how generative AI abuse is degrading the operational capacity of major vulnerability disclosure programs.",
+      "title": "Google halts open-source bug bounty program amid AI spam surge",
+      "summary": "Google has suspended submissions to its Open Source Software Vulnerability Rewards Program (OSS VRP) after being flooded by a significant rise in AI-generated vulnerability reports.",
+      "why_it_matters": "The influx of low-quality automated reports is overwhelming security triage teams and forcing structural changes in major bug bounty programs.",
       "item_ids": [
         "e209ec2cbc83f7a285ab134ac46ade36",
         "a2491cea35eec1603e0688ef33c8613f"
       ],
       "primary_url": null,
       "first_shown": "2026-10-04T21:02:09.468537Z",
-      "last_shown": "2026-10-05T23:02:15.415070Z"
+      "last_shown": "2026-10-06T00:02:18.049255Z"
     },
+    {
+      "id": "4698961802699174ab431fcea3a0582b",
+      "title": "OpenAI introduces visual ads in ChatGPT for image generation",
+      "summary": "OpenAI is launching visual ads that will appear alongside image generation results in ChatGPT. The new ad format will initially roll out for users in the United States.",
+      "why_it_matters": null,
+      "item_ids": [
+        "4698961802699174ab431fcea3a0582b",
+        "a8452c0e4f12f909efa1a80df611a432",
+        "d4ec394db9bf0a4036df4f028c27243e"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-05T11:02:07.722103Z",
+      "last_shown": "2026-10-06T00:02:18.049255Z"
+    }
+  ],
+  "past_top_stories": [
     {
       "id": "45c9cb2a878d849988706ca0353bc491",
       "title": "2026 Nobel Prize in Physiology or Medicine awarded for optogenetics",
@@ -8616,19 +8657,6 @@
       "last_shown": "2026-10-05T23:02:15.415070Z"
     },
     {
-      "id": "9f3e1d26192750b8186fbec692902584",
-      "title": "Reflection debuts Beam open-weight AI model",
-      "summary": "Reflection has announced Beam, a 501B open-weight model aimed at enterprises and sovereign nations to build customized local AI systems at a lower compute cost.",
-      "why_it_matters": "Provides engineering teams with a new high-parameter open-weight model option for local deployment.",
-      "item_ids": [
-        "9f3e1d26192750b8186fbec692902584",
-        "644a9135e56e7fcfe687b30faa4f08c0"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-05T21:12:39.227626Z",
-      "last_shown": "2026-10-05T23:02:15.415070Z"
-    },
-    {
       "id": "627bc167bc51b0a47238b0da023dc06c",
       "title": "MCP for agent-to-agent comms may be the riskiest protocol you've never heard of",
       "summary": "Trust gaps in the new protocol spread malicious prompts from one agent to another.",
@@ -8639,33 +8667,6 @@
       "primary_url": null,
       "first_shown": "2026-10-05T23:02:15.415070Z",
       "last_shown": "2026-10-05T23:02:15.415070Z"
-    }
-  ],
-  "past_top_stories": [
-    {
-      "id": "aea90afb465bda47fa05f41b5fc945d8",
-      "title": "Wikimedia finds unauthorized AI bot activity linked to outages",
-      "summary": "The Wikimedia Foundation confirmed that it discovered rogue AI agent activities accessing its third-party sites and services, which may be linked to a May outage.",
-      "why_it_matters": "Highlights infrastructure risks and scraping challenges posed by automated agent swarms targeting web services.",
-      "item_ids": [
-        "aea90afb465bda47fa05f41b5fc945d8",
-        "de95290a15d00207dc49b88dabfb6988"
-      ],
-      "primary_url": "https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service",
-      "first_shown": "2026-10-05T21:12:39.227626Z",
-      "last_shown": "2026-10-05T22:02:29.018275Z"
-    },
-    {
-      "id": "4181b2925277e42ee689a8fb43194df7",
-      "title": "Cloudflare Fixes Cross-Tenant Data Exposure in Containers",
-      "summary": "Cloudflare has disclosed a cross-tenant data exposure vulnerability in Containers and Sandboxes, caused by thin-provisioned storage pools configured to skip zeroing reused blocks. Researchers recovered directory structures, database pages and complete SQLite databases across four continents. Cloudflare remediated it and found no evidence of exploitation. By Steef-Jan Wiggers",
-      "why_it_matters": "Cloudflare's disclosure of cross-tenant data exposure highlights container security risks related to un-zeroed storage block reuse.",
-      "item_ids": [
-        "4181b2925277e42ee689a8fb43194df7"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-05T09:02:07.027191Z",
-      "last_shown": "2026-10-05T22:02:29.018275Z"
     },
     {
       "id": "f566252c3ba5c572714d82b385bac535",
