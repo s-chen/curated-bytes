@@ -1,6 +1,193 @@
 {
-  "generated_at": "2026-10-06T14:02:09.763463Z",
+  "generated_at": "2026-10-06T15:02:16.607330Z",
   "items": [
+    {
+      "id": "7994928831a0d3469d9d659b9201bda6",
+      "title": "[$] Python's two modules for random numbers",
+      "url": "https://lwn.net/Articles/1097468/",
+      "source_id": "lwn",
+      "source_name": "LWN.net",
+      "category": "tech",
+      "summary": "Python's random and secrets modules both include utilities for obtaining random values, but only one of them is suitable for generating passwords and security tokens. For much of Python's history, random was used for passwords and tokens anyway, despite documentation that called it unsuitable for cryptography. In 2015, Python's core team debated whether to fix that misuse by making random secure by default. Instead, in 2016, Python 3.6 added a second module: secrets. The random module is still…",
+      "published_at": "2026-10-06T15:02:09Z",
+      "fetched_at": "2026-10-06T15:02:16.607330Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "8b641177122c334ea6355b12027cb61a",
+      "title": "The earbuds with the best call quality are cheaper than ever",
+      "url": "https://www.theverge.com/gadgets/1004111/soundcore-liberty-5-pro-prime-day-deal-sale",
+      "source_id": "the-verge",
+      "source_name": "The Verge",
+      "category": "tech",
+      "summary": "Normally $169.99, the Soundcore Liberty 5 Pro are discounted to $135.99 during Amazon’s October sale, beating their previous low price of $149.99, and coming in $14 lower than the AirPods 5. While these earbuds stand out for a number of reasons, like great ANC and a handy screen on the charging case, our favorite aspect […]",
+      "published_at": "2026-10-06T15:00:00Z",
+      "fetched_at": "2026-10-06T15:02:16.607330Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "review": "pending",
+      "importance": null
+    },
+    {
+      "id": "dfc4b5b493f5b2fd5b737ff435ad0ec5",
+      "title": "Apple AirPods Max 2 Are $120 Off Right Now",
+      "url": "https://www.wired.com/story/apple-airpods-max-2-deal-october-2026/",
+      "source_id": "wired",
+      "source_name": "Wired",
+      "category": "tech",
+      "summary": "They’re the best over-ear headphones for Apple loyalists, and over 20 percent off at multiple retailers right now.",
+      "published_at": "2026-10-06T14:46:47Z",
+      "fetched_at": "2026-10-06T15:02:16.607330Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "review": "excluded",
+      "importance": null
+    },
+    {
+      "id": "65fd7b187255680fee2202bb8fe03345",
+      "title": "Bluesky wants to give you your own domain on the open web",
+      "url": "https://techcrunch.com/2026/10/06/bluesky-wants-to-give-you-your-own-domain-on-the-open-web/",
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "category": "tech",
+      "summary": "Bluesky says the process will still take 18-24 months, so don't expect your new, shortened 'bsky' handle any time soon.",
+      "published_at": "2026-10-06T14:41:52Z",
+      "fetched_at": "2026-10-06T15:02:16.607330Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "62eb1003a855a0e3de208eba27312d06",
+      "title": "Emmys will move from broadcast TV to Prime Video in 2027",
+      "url": "https://techcrunch.com/2026/10/06/emmys-will-move-from-broadcast-tv-to-prime-video-in-2027/",
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "category": "tech",
+      "summary": "Non-Amazon Prime subscribers will be able to watch the awards show on the platform.",
+      "published_at": "2026-10-06T14:37:31Z",
+      "fetched_at": "2026-10-06T15:02:16.607330Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "review": "pending",
+      "importance": null
+    },
+    {
+      "id": "36bca47b0f0cfac7b6e6371193bbbfd3",
+      "title": "New leaks reveal more details about the Fitbit Edge including its price",
+      "url": "https://www.theverge.com/tech/1005519/google-fitbit-edge-leak-fitness-tracker-price-features",
+      "source_id": "the-verge",
+      "source_name": "The Verge",
+      "category": "tech",
+      "summary": "Following more images of the previously leaked Google Fitbit Edge surfacing a few days ago, new details about the upcoming fitness tracker have been revealed, including potential features and pricing. The Fitbit Edge will reportedly sell for €179 in Europe, and £159 in the UK, according to leaked details shared by Dealabs. Given the €99/£85 […]",
+      "published_at": "2026-10-06T14:37:28Z",
+      "fetched_at": "2026-10-06T15:02:16.607330Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "review": "pending",
+      "importance": null
+    },
+    {
+      "id": "21013d86aac8b3c283a11f9adeca3a57",
+      "title": "A Trump Mobile breach may have exposed data of more than 3,600 people",
+      "url": "https://www.theverge.com/tech/1005546/trump-mobile-data-breach-leak",
+      "source_id": "the-verge",
+      "source_name": "The Verge",
+      "category": "tech",
+      "summary": "Trump Mobile appears to have suffered a data breach that may have exposed the data of 3,615 people, according to reports from PCMag and Straight Arrow News. The breach reportedly included names, home addresses, emails, phone numbers, and order information. PCMag and Straight Arrow News contacted several individuals in the dataset, who confirmed that the […]",
+      "published_at": "2026-10-06T14:35:24Z",
+      "fetched_at": "2026-10-06T15:02:16.607330Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "33b76ef0c06571a0f9c4fe2efa36538f",
+      "title": "Mistral’s new 1T model aims to leapfrog closed and open rivals",
+      "url": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "category": "tech",
+      "summary": "French AI lab Mistral AI has released Mistral Large 4, a new large multimodal model aiming to leapfrog both American and Chinese rivals.",
+      "published_at": "2026-10-06T14:33:16Z",
+      "fetched_at": "2026-10-06T15:02:16.607330Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "review": "kept",
+      "importance": 4
+    },
+    {
+      "id": "a8a2091455169be0eea4fdaa8e7bdcd2",
+      "title": "What is Codemode",
+      "url": "https://lucumr.pocoo.org/2026/10/6/codemode/",
+      "source_id": "lobsters",
+      "source_name": "Lobsters",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-06T14:27:03Z",
+      "fetched_at": "2026-10-06T15:02:16.607330Z",
+      "discussion_url": "https://lobste.rs/s/sshhsl/what_is_codemode",
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "review": "pending",
+      "importance": null
+    },
+    {
+      "id": "6c65a577324d3740331e8941ca3e3167",
+      "title": "7 Best Prime Day Kindle Deals (2026): Save Up to $150",
+      "url": "https://www.wired.com/story/best-kindle-prime-day-deals-10-06-2026/",
+      "source_id": "wired",
+      "source_name": "Wired",
+      "category": "tech",
+      "summary": "Amazon raised Kindle prices across the board, but Prime Day is still the best time to buy.",
+      "published_at": "2026-10-06T14:17:48Z",
+      "fetched_at": "2026-10-06T15:02:16.607330Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "review": "excluded",
+      "importance": null
+    },
+    {
+      "id": "419c76dea1528e8ad950eaa77407fd82",
+      "title": "Classic Outlook clings to stale search results as Microsoft works on a fix",
+      "url": "https://www.theregister.com/software/2026/10/06/classic-outlook-clings-to-stale-search-results-as-microsoft-works-on-a-fix/5301313",
+      "source_id": "the-register",
+      "source_name": "The Register",
+      "category": "tech",
+      "summary": "Moved messages linger and throw errors when clicked, leaving Windows Desktop Search as the workaround",
+      "published_at": "2026-10-06T14:10:00Z",
+      "fetched_at": "2026-10-06T15:02:16.607330Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "review": "kept",
+      "importance": 3
+    },
     {
       "id": "2ae9ee43d678aeff173c0abf8ec67265",
       "title": "Pinterest’s AI now turns beauty Pins into action plans",
@@ -70,6 +257,23 @@
       "importance": null
     },
     {
+      "id": "5cd1bc1df3b2119593887b72f5a7f812",
+      "title": "The Pixel Watch 5 is a better value at $65 off",
+      "url": "https://www.theverge.com/gadgets/1003583/pixel-watch-5-prime-day-deal-sale",
+      "source_id": "the-verge",
+      "source_name": "The Verge",
+      "category": "tech",
+      "summary": "The Google Pixel Watch 5 is discounted by $60 during Amazon’s October sale, with the 41mm version on sale for $334.99, and the 45mm version for $364.99. The latest version of Google’s smartwatch rolled out alongside the Pixel 11 phones in August with improved GPS, gesture controls, and offline Gemini, although we had mixed results […]",
+      "published_at": "2026-10-06T14:00:00Z",
+      "fetched_at": "2026-10-06T15:02:16.607330Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "review": "excluded",
+      "importance": null
+    },
+    {
       "id": "b940d9e50f6c73b455d2a2f6cd69d10a",
       "title": "Paramount closes historic Warner Bros. merger to form Skydance",
       "url": "https://techcrunch.com/2026/10/06/paramount-closes-historic-warner-bros-merger-to-form-skydance/",
@@ -84,7 +288,41 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
+    },
+    {
+      "id": "5fd6cb53bf3c57279520bb7d6405043b",
+      "title": "Tapo (Rust/Python library) now speaks TP-Link's TPAP protocol",
+      "url": "https://mihai.dinculescu.dev/posts/tapo-speaks-tpap/",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-06T13:55:37Z",
+      "fetched_at": "2026-10-06T15:02:16.607330Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=49978563",
+      "points": 27,
+      "comments": 3,
+      "engineering": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "01913efde0f3ec70f3e35298bc258dc3",
+      "title": "Show HN: Jotbus – a shared encrypted scratchpad for coding agents",
+      "url": "https://jotbus.com/",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-06T13:45:04Z",
+      "fetched_at": "2026-10-06T15:02:16.607330Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=49978401",
+      "points": 9,
+      "comments": 6,
+      "engineering": false,
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "206dd4a5c7e9c06d308d62af5c1d8b09",
@@ -152,7 +390,41 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
+    },
+    {
+      "id": "9a8f562dd908dd814a8f515088bc00bd",
+      "title": "Show HN: Parseable, an open observability datalake, handles 100M time-series/min",
+      "url": "https://www.parseable.com",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-06T13:30:50Z",
+      "fetched_at": "2026-10-06T15:02:16.607330Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=49978171",
+      "points": 14,
+      "comments": 2,
+      "engineering": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "0919c41dcb636cd410789fdc3d5e6f0a",
+      "title": "Big Oil asks Supreme Court to kill climate lawsuits before trial",
+      "url": "https://arstechnica.com/tech-policy/2026/10/big-oil-asks-supreme-court-to-kill-climate-lawsuits-before-trial/",
+      "source_id": "ars-technica",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "summary": "Oil companies say federal law should block state climate deception claims.",
+      "published_at": "2026-10-06T13:29:46Z",
+      "fetched_at": "2026-10-06T15:02:16.607330Z",
+      "discussion_url": "https://arstechnica.com/tech-policy/2026/10/big-oil-asks-supreme-court-to-kill-climate-lawsuits-before-trial/#comments",
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "review": "kept",
+      "importance": 2
     },
     {
       "id": "01304754fd40d54488b99809ae49dacc",
@@ -182,11 +454,11 @@
       "published_at": "2026-10-06T13:25:50Z",
       "fetched_at": "2026-10-06T14:02:09.763463Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49978116",
-      "points": 34,
-      "comments": 5,
+      "points": 235,
+      "comments": 27,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "8afef565706a7a7189afe2f4067bc17b",
@@ -216,11 +488,11 @@
       "published_at": "2026-10-06T13:15:49Z",
       "fetched_at": "2026-10-06T14:02:09.763463Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49977979",
-      "points": 235,
-      "comments": 77,
+      "points": 505,
+      "comments": 272,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 5
     },
     {
       "id": "28b5a03610b81c602dd2f1ac838a36da",
@@ -301,11 +573,11 @@
       "published_at": "2026-10-06T13:06:16Z",
       "fetched_at": "2026-10-06T14:02:09.763463Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49977844",
-      "points": 31,
-      "comments": 3,
+      "points": 61,
+      "comments": 4,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "a6039459094e863cf22d0fd784958754",
@@ -318,8 +590,8 @@
       "published_at": "2026-10-06T13:05:26Z",
       "fetched_at": "2026-10-06T14:02:09.763463Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49977819",
-      "points": 8,
-      "comments": 1,
+      "points": 16,
+      "comments": 5,
       "engineering": false,
       "review": "pending",
       "importance": null
@@ -373,7 +645,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "be01776dcc322bb8992be258d8a810ea",
@@ -420,8 +692,8 @@
       "published_at": "2026-10-06T12:45:49Z",
       "fetched_at": "2026-10-06T14:02:09.763463Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49977588",
-      "points": 49,
-      "comments": 10,
+      "points": 132,
+      "comments": 38,
       "engineering": false,
       "review": "kept",
       "importance": 3
@@ -441,7 +713,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "473de95d9001f2844989be609d14acfa",
@@ -560,7 +832,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "8eaf6c7ad055b293fa5028252b27f567",
@@ -572,9 +844,9 @@
       "summary": null,
       "published_at": "2026-10-06T11:59:01Z",
       "fetched_at": "2026-10-06T13:02:10.894799Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=49977177",
-      "points": 96,
-      "comments": 14,
+      "discussion_url": "https://lobste.rs/s/ppzbqo/release_polars_2_0",
+      "points": null,
+      "comments": null,
       "engineering": false,
       "review": "kept",
       "importance": 3
@@ -645,7 +917,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "6b6eba6147db00e01f7ba31a241950d2",
@@ -658,8 +930,8 @@
       "published_at": "2026-10-06T11:45:55Z",
       "fetched_at": "2026-10-06T13:02:10.894799Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49977072",
-      "points": 198,
-      "comments": 203,
+      "points": 295,
+      "comments": 289,
       "engineering": false,
       "review": "kept",
       "importance": 4
@@ -675,8 +947,8 @@
       "published_at": "2026-10-06T11:34:14Z",
       "fetched_at": "2026-10-06T13:02:10.894799Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49976993",
-      "points": 47,
-      "comments": 5,
+      "points": 66,
+      "comments": 13,
       "engineering": false,
       "review": "kept",
       "importance": 3
@@ -743,8 +1015,8 @@
       "published_at": "2026-10-06T11:11:51Z",
       "fetched_at": "2026-10-06T13:02:10.894799Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49976823",
-      "points": 79,
-      "comments": 30,
+      "points": 123,
+      "comments": 58,
       "engineering": false,
       "review": "pending",
       "importance": null
@@ -764,7 +1036,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "c30b8eec4761300aa70f068729b221aa",
@@ -832,7 +1104,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "ec281d81352d472d09c78490905cc905",
@@ -930,8 +1202,8 @@
       "published_at": "2026-10-06T10:15:40Z",
       "fetched_at": "2026-10-06T12:02:10.913999Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49976468",
-      "points": 50,
-      "comments": 30,
+      "points": 53,
+      "comments": 32,
       "engineering": false,
       "review": "kept",
       "importance": 3
@@ -1015,8 +1287,8 @@
       "published_at": "2026-10-06T09:48:46Z",
       "fetched_at": "2026-10-06T11:02:06.237331Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49976265",
-      "points": 234,
-      "comments": 75,
+      "points": 280,
+      "comments": 80,
       "engineering": false,
       "review": "kept",
       "importance": 3
@@ -1070,7 +1342,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "9635bb6955b1de7bf4eb592c5c08b2bd",
@@ -1121,7 +1393,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "9f8147165c318d8e93b89cb816e3ed49",
@@ -1393,7 +1665,7 @@
       "comments": 13,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "c00fff43857eacf8e3acab82f2c68045",
@@ -1444,7 +1716,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "713b65cbb6c1906be75fa19d1eb01add",
@@ -1865,11 +2137,11 @@
       "published_at": "2026-10-06T03:39:01Z",
       "fetched_at": "2026-10-06T05:02:12.072934Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49973878",
-      "points": 77,
-      "comments": 15,
+      "points": 87,
+      "comments": 23,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "a4608631f0a5ffe60294aa70877a609d",
@@ -1886,7 +2158,7 @@
       "comments": 309,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "b705c597f2c8ef7923111741bdd88692",
@@ -2039,7 +2311,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "9278f606781cdb17043b3a3915a1c935",
@@ -2086,8 +2358,8 @@
       "published_at": "2026-10-05T22:55:11Z",
       "fetched_at": "2026-10-06T00:02:18.049255Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49971921",
-      "points": 267,
-      "comments": 178,
+      "points": 279,
+      "comments": 187,
       "engineering": false,
       "review": "kept",
       "importance": 3
@@ -2273,8 +2545,8 @@
       "published_at": "2026-10-05T21:40:50Z",
       "fetched_at": "2026-10-05T23:02:15.415070Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49971230",
-      "points": 242,
-      "comments": 83,
+      "points": 250,
+      "comments": 87,
       "engineering": false,
       "review": "kept",
       "importance": 2
@@ -2515,7 +2787,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "930fb650582c3462e30c6ed1482e176a",
@@ -2617,7 +2889,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "644a9135e56e7fcfe687b30faa4f08c0",
@@ -2668,7 +2940,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "a2264bd4ba738a5a4d7328cc86966d92",
@@ -2736,7 +3008,7 @@
       "comments": 155,
       "engineering": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "d412f3b03f13045b8cc57e912a3f31d7",
@@ -2821,7 +3093,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "407d16b9199dab1429285187c107f0ff",
@@ -2923,7 +3195,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "88facab9fca63fdb32db0a41d23605a6",
@@ -2940,7 +3212,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "a090b0ab52c4524d6d11e70f4707173c",
@@ -3076,7 +3348,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "fdb5f1d17af2f59d4de72185eb1e5d06",
@@ -3127,7 +3399,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "efc1e803f05d945a19ccf2c783fead2e",
@@ -3212,7 +3484,7 @@
       "comments": 175,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "225c606f6a2c38b250f9e3612b8ae0cf",
@@ -3382,7 +3654,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "0223ab83617193d2af129b02a1eb4be2",
@@ -3467,7 +3739,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "a8452c0e4f12f909efa1a80df611a432",
@@ -3484,7 +3756,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "f47abf34ef05172f5b02fcea373bb31e",
@@ -3501,7 +3773,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "c173e1c6a7f6b63e8600b8b2969829a3",
@@ -3671,7 +3943,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "0eb8ba6f303247fe44bf7cc73d3cf190",
@@ -3807,7 +4079,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "b88e60f4b6f26487783a6190fd3814a4",
@@ -3875,7 +4147,7 @@
       "comments": 35,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "5a54c512f69538f2c0edef191cb144da",
@@ -4028,7 +4300,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "a25b7f96bd86e2bc91f9faf19f393794",
@@ -4079,7 +4351,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "b710f0821ab548c8e55d8eb4ed76d40f",
@@ -4538,7 +4810,7 @@
       "comments": 263,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "29e285d00abf7d3c092267722f218cfb",
@@ -4623,7 +4895,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "b04134292aa3cc63f7c4fb1b5df5c3ff",
@@ -4793,7 +5065,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "f6f7f7a2e8d58db64e36d61f5219c8b3",
@@ -4844,7 +5116,7 @@
       "comments": 45,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "0adec9b01cd4f1f59da37aa8356ce9f9",
@@ -4878,7 +5150,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "6d40b6e35a518a32ac5908990cc51739",
@@ -4980,7 +5252,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "977df35611f39a038cd55abd909bd795",
@@ -5048,7 +5320,7 @@
       "comments": 89,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "c1351ac71f85df8e0fcd0c4968a6b82e",
@@ -5065,7 +5337,7 @@
       "comments": 126,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "ed2b3772cc8bccd36ebc1ff6d901445d",
@@ -5099,7 +5371,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "08d2a6ef860e191ec115ad24cb822ddf",
@@ -5150,7 +5422,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "c5a4292b91e9f18d17743a2ac50bfe3f",
@@ -5252,7 +5524,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "a3f0c24f31937acf3e3efed708b8e01e",
@@ -8228,397 +8500,155 @@
       "engineering": false,
       "review": "kept",
       "importance": 2
-    },
-    {
-      "id": "fa78b8c72d49dade985070bd32de336c",
-      "title": "A Decade-Long Experiment Is Unlocking the Mysteries of the Ocean’s ‘Deep Reefs’",
-      "url": "https://www.wired.com/story/inside-decade-long-experiment-to-understand-oceans-mysterious-deep-reefs/",
-      "source_id": "wired",
-      "source_name": "Wired",
-      "category": "tech",
-      "summary": "Scientists left structures up to 100 meters under the surface. Here’s what they found when they retrieved them 10 years later.",
-      "published_at": "2026-10-03T09:00:00Z",
-      "fetched_at": "2026-10-03T20:57:46.771170Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "review": "excluded",
-      "importance": 2
-    },
-    {
-      "id": "26a9684c43e78ed289c2fdeb0f16248e",
-      "title": "Istio 1.31 Adds Agentgateway Waypoints and Moves Release Artifacts off Google Cloud",
-      "url": "https://www.infoq.com/news/2026/10/istio-1-31-agentgateway/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source_id": "infoq",
-      "source_name": "InfoQ",
-      "category": "tech",
-      "summary": "Istio 1.31 adds agentgateway waypoints in ambient mode, with a canary configuration fix included in 1.31.1. It also ends the publication of images and Helm charts to Google Cloud, requiring repository migration ahead of the 13 October outage test and signing-key updates for teams verifying images. By Mark Silvester",
-      "published_at": "2026-10-03T08:30:00Z",
-      "fetched_at": "2026-10-03T20:57:46.771170Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "review": "kept",
-      "importance": 4
-    },
-    {
-      "id": "b500a5a5ed057d0ff1df4b48c9376a31",
-      "title": "Problems and solutions to the modern desktop (Make tmux the OS)",
-      "url": "https://matduggan.com/what-does-my-dream-os-ui-look-like/",
-      "source_id": "lobsters",
-      "source_name": "Lobsters",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-03T08:17:27Z",
-      "fetched_at": "2026-10-03T20:57:46.771170Z",
-      "discussion_url": "https://lobste.rs/s/gjlxiz/problems_solutions_modern_desktop_make",
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "review": "kept",
-      "importance": 2
-    },
-    {
-      "id": "559ac7f61c51f500517a66d6de602f52",
-      "title": "Palantir's fondness for French food cooked up tech's latest fad – forward-deployed engineers",
-      "url": "https://www.theregister.com/channel/2026/10/03/palantirs-fondness-for-french-food-cooked-up-techs-latest-fad-forward-deployed-engineers/5300360",
-      "source_id": "the-register",
-      "source_name": "The Register",
-      "category": "tech",
-      "summary": "Embedded consultants who get you up to speed on new tech in a hurry aren’t new, but they meet the AI moment",
-      "published_at": "2026-10-03T08:02:00Z",
-      "fetched_at": "2026-10-03T20:57:46.771170Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "e7acacbbddb7fe644f7c992950e4df99",
-      "title": "Former SR-71 engineer talks NASA's Blackbird revival program",
-      "url": "https://www.twz.com/air/former-sr-71-engineer-talks-nasas-blackbird-revival-program",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-03T07:32:47Z",
-      "fetched_at": "2026-10-04T05:59:26.441660Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=49942130",
-      "points": 35,
-      "comments": 13,
-      "engineering": false,
-      "review": "excluded",
-      "importance": 2
-    },
-    {
-      "id": "fbd6690b0d101b7e3afe09f06a51b2fb",
-      "title": "Show HN: Thoreau BASIC – What if BASIC hadn't gone out of fashion?",
-      "url": "https://thoreaubasic.com/",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-03T07:28:54Z",
-      "fetched_at": "2026-10-04T05:59:26.441660Z",
-      "discussion_url": "https://lobste.rs/s/x5ug70/thoreau_basic",
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "review": "excluded",
-      "importance": 2
-    },
-    {
-      "id": "8825321b4ef8c524b3cd566fc9a63884",
-      "title": "AI Agents Are Disrupting Open Source Security Disclosure",
-      "url": "https://www.infoq.com/news/2026/10/open-source-ai-security/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source_id": "infoq",
-      "source_name": "InfoQ",
-      "category": "tech",
-      "summary": "A recent article by Anil Madhavapeddy argues that AI agents can turn publicly available clues about software vulnerabilities into working exploits, reducing the effectiveness of traditional disclosure embargoes in open source projects. The author highlights the need for faster patching and release processes as the time between vulnerability disclosure and exploitation shrinks. By Renato Losio",
-      "published_at": "2026-10-03T06:46:00Z",
-      "fetched_at": "2026-10-03T20:57:46.771170Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "6114f9f9090964c266f0990ba68e96c2",
-      "title": "The characters of plastics (2024)",
-      "url": "https://yarchive.net/blog/plastics/",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-03T06:14:16Z",
-      "fetched_at": "2026-10-04T05:59:26.441660Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=49941764",
-      "points": 16,
-      "comments": 2,
-      "engineering": false,
-      "review": "excluded",
-      "importance": 2
-    },
-    {
-      "id": "0330e6b505a13bed121e606ffb79501b",
-      "title": "Memory-Safe WebP Decoding",
-      "url": "https://halide.cx/blog/wpd/",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": "https://github.com/halidecx/wpd",
-      "published_at": "2026-10-03T05:45:30Z",
-      "fetched_at": "2026-10-04T05:59:26.441660Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=49941641",
-      "points": 52,
-      "comments": 18,
-      "engineering": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "4264df399d4d31e1c426a3bb7e02dd12",
-      "title": "Hoka Coupon Codes: 30% Off in October 2026",
-      "url": "https://www.wired.com/story/hoka-coupon-code/",
-      "source_id": "wired",
-      "source_name": "Wired",
-      "category": "tech",
-      "summary": "Unlock free expedited shipping or 10% off with today’s Hoka discount codes, plus save up to 30% with the best discounts for October 2026.",
-      "published_at": "2026-10-03T05:00:00Z",
-      "fetched_at": "2026-10-03T20:57:46.771170Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "review": "excluded",
-      "importance": null
-    },
-    {
-      "id": "8d1ec246454ef739323e1332fa61037a",
-      "title": "Chewy Promo Codes: $20 Off October 2026",
-      "url": "https://www.wired.com/story/chewy-promo-code/",
-      "source_id": "wired",
-      "source_name": "Wired",
-      "category": "tech",
-      "summary": "Explore Chewy coupon codes for $30 off, $20 off your first order of $49, 50% off pet food, and more October 2026 discounts.",
-      "published_at": "2026-10-03T05:00:00Z",
-      "fetched_at": "2026-10-03T20:57:46.771170Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "review": "excluded",
-      "importance": null
-    },
-    {
-      "id": "a3befc25ed2e5dfb0de08433159deaca",
-      "title": "20% Off Brooks Promo Code | October 2026",
-      "url": "https://www.wired.com/story/brooks-promo-code/",
-      "source_id": "wired",
-      "source_name": "Wired",
-      "category": "tech",
-      "summary": "Enjoy 20% off your first order with a Brooks coupon code, plus top discounts and deals on our favorite Brooks running shoes.",
-      "published_at": "2026-10-03T05:00:00Z",
-      "fetched_at": "2026-10-03T20:57:46.771170Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "review": "excluded",
-      "importance": null
-    },
-    {
-      "id": "4454513845be48bf69abfa42183bb4ea",
-      "title": "50% Off DoorDash Promo Code | October 2026",
-      "url": "https://www.wired.com/story/doordash-promo-code/",
-      "source_id": "wired",
-      "source_name": "Wired",
-      "category": "tech",
-      "summary": "Explore today’s top DoorDash promo codes for $25 off your first order, free delivery, and 50% off DashPass for students and select users.",
-      "published_at": "2026-10-03T05:00:00Z",
-      "fetched_at": "2026-10-03T20:57:46.771170Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "review": "excluded",
-      "importance": null
-    },
-    {
-      "id": "3f3185585f93a63b9b8a904d2b745790",
-      "title": "Surfshark Promo Codes: 87% Off | October 2026",
-      "url": "https://www.wired.com/story/surfshark-coupon/",
-      "source_id": "wired",
-      "source_name": "Wired",
-      "category": "tech",
-      "summary": "Save up to 87% with a Surfshark coupon code, 3 months of VPN free today, and more from WIRED.",
-      "published_at": "2026-10-03T05:00:00Z",
-      "fetched_at": "2026-10-03T20:57:46.771170Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "review": "excluded",
-      "importance": null
-    },
-    {
-      "id": "c61ba94b2bc74512121ff5d048569d4a",
-      "title": "Klook Promo Code: 25% Off October 2026",
-      "url": "https://www.wired.com/story/klook-promo-code/",
-      "source_id": "wired",
-      "source_name": "Wired",
-      "category": "tech",
-      "summary": "Maximize your travel budget with our expert guide to finding Klook coupons, app-exclusive deals, and payment discounts on tours, hotels, and transport.",
-      "published_at": "2026-10-03T05:00:00Z",
-      "fetched_at": "2026-10-03T20:57:46.771170Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "review": "excluded",
-      "importance": null
-    },
-    {
-      "id": "f96ef561b85fff8e1b72b31671583d2e",
-      "title": "The Era of Programming Languages Exploration is upon Us",
-      "url": "https://kirancodes.me/posts/log-end-of-pl.html",
-      "source_id": "lobsters",
-      "source_name": "Lobsters",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-03T04:56:09Z",
-      "fetched_at": "2026-10-03T20:57:46.771170Z",
-      "discussion_url": "https://lobste.rs/s/1rmsib/era_programming_languages_exploration",
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "review": "kept",
-      "importance": 2
     }
   ],
   "top_stories": [
     {
-      "id": "b940d9e50f6c73b455d2a2f6cd69d10a",
-      "title": "Paramount and Warner Bros. Discovery Complete $110B Merger to Form Skydance",
-      "summary": "Paramount has completed its acquisition of Warner Bros. Discovery for $110 billion, forming a combined company known as Skydance. The mega-deal brings together streaming platforms Paramount+ and HBO Max along with major networks and film studios, while CNN CEO Mark Thompson will remain at the helm of the news network.",
-      "why_it_matters": "Major industry consolidation involving top streaming platforms and media networks alters the competitive landscape for cloud video delivery and tech infrastructure.",
+      "id": "fca385cd3a25cff7a99649e3e3bb9018",
+      "title": "Mistral AI Releases Mistral Large 4 Multimodal Model",
+      "summary": "Mistral AI has released Mistral Large 4, a new large multimodal model aiming to leapfrog both American and Chinese rivals. The trillion-parameter model is being described as a leading open-weight offering outside of China.",
+      "why_it_matters": "Provides engineers with a new high-end open-weight model option for enterprise and local deployments.",
       "item_ids": [
-        "b940d9e50f6c73b455d2a2f6cd69d10a",
-        "238d2f84897d8c5c114bd995615db895",
-        "4e67682610b76c21c3b3a94461b5d10e"
+        "fca385cd3a25cff7a99649e3e3bb9018",
+        "b113a58596f44a9e67f5e39391cda9a7",
+        "33b76ef0c06571a0f9c4fe2efa36538f",
+        "38e0bf03912e0c9e4c74ec38be2728d5",
+        "f1160af30f9ab64185b37bb9cc9afb28"
       ],
       "primary_url": null,
-      "first_shown": "2026-10-06T14:02:09.763463Z",
-      "last_shown": "2026-10-06T14:02:09.763463Z"
+      "first_shown": "2026-10-05T21:12:39.227626Z",
+      "last_shown": "2026-10-06T15:02:16.607330Z"
     },
     {
-      "id": "04befb57ae36a63e449052237f3d59cf",
-      "title": "Denmark Population Registry Breach Exposes 8.8 Million Records",
-      "summary": "Unauthorized parties gained access to the Central Population Register of Denmark, exposing personal information including names, addresses, and state-issued identification numbers for approximately 8.8 million people, including living individuals, those who moved abroad, and the deceased.",
-      "why_it_matters": "A massive government data breach highlights vulnerabilities in national identity registries and enterprise credential security.",
+      "id": "5c5b0138ef41ec0baad53c3fe03bba7d",
+      "title": "Denmark Population Register Data Breach Exposes 8.8 Million Records",
+      "summary": "Unauthorized parties accessed names, addresses, and personal identification numbers for approximately 8.8 million people in Denmark's national population register. The breach stemmed from abuse of a private firm's access to the register.",
+      "why_it_matters": "Highlights severe third-party access risks and data governance failures in critical national infrastructure.",
       "item_ids": [
-        "04befb57ae36a63e449052237f3d59cf",
         "5c5b0138ef41ec0baad53c3fe03bba7d",
+        "04befb57ae36a63e449052237f3d59cf",
         "ef8b5a3d63accc9ec52c96e481d03fbb",
         "97912f0fc7b4c479560823cb340eab7a",
         "82fced8b971efa21685a4f61927e7cba"
       ],
       "primary_url": "https://ufm.dk/aktuelt/pressemeddelelser/2026/oktober/omfattende-uautoriseret-adgang-til-borgeres-cpr-oplysninger",
       "first_shown": "2026-10-05T14:02:12.104828Z",
-      "last_shown": "2026-10-06T14:02:09.763463Z"
+      "last_shown": "2026-10-06T15:02:16.607330Z"
     },
     {
-      "id": "9f3e1d26192750b8186fbec692902584",
-      "title": "Reflection Debuts 'Beam', a 501B Trillion-Parameter Open-Weight AI Model",
-      "summary": "Reflection has released Beam, a 501B-parameter open-weight AI model designed to rival Chinese offerings at a lower compute cost. The model is aimed at enterprises and sovereign nations seeking to build local AI factories and customized systems.",
-      "why_it_matters": "Provides engineering teams with a new high-parameter open-weight model alternative for local and enterprise deployments.",
+      "id": "d2a0ea03fff1f01c9cb3e004e00ab8a3",
+      "title": "Atlassian Warns of Critical File Access Flaw in Data Center Products",
+      "summary": "A critical security vulnerability in eight Atlassian Data Center products allows unauthenticated attackers to read specific files in the web application root directory. Atlassian has urged customers to apply security updates immediately.",
+      "why_it_matters": "Requires immediate patching across self-hosted enterprise Atlassian deployments to prevent unauthorized file access.",
       "item_ids": [
-        "9f3e1d26192750b8186fbec692902584",
-        "644a9135e56e7fcfe687b30faa4f08c0",
-        "38e0bf03912e0c9e4c74ec38be2728d5"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-05T21:12:39.227626Z",
-      "last_shown": "2026-10-06T14:02:09.763463Z"
-    },
-    {
-      "id": "91a521b73dac5688d120e8e544bc5b6a",
-      "title": "Atlassian Warns of Critical File Access Vulnerability in Data Center Products",
-      "summary": "Atlassian issued warnings regarding a critical security flaw across eight self-hosted Data Center products that allows unauthenticated attackers to read specific files in application root directories.",
-      "why_it_matters": "Critical unauthenticated file read vulnerabilities in widely used collaboration software put internal systems at severe risk.",
-      "item_ids": [
-        "91a521b73dac5688d120e8e544bc5b6a",
-        "d2a0ea03fff1f01c9cb3e004e00ab8a3"
+        "d2a0ea03fff1f01c9cb3e004e00ab8a3",
+        "91a521b73dac5688d120e8e544bc5b6a"
       ],
       "primary_url": null,
       "first_shown": "2026-10-06T08:02:23.436861Z",
-      "last_shown": "2026-10-06T14:02:09.763463Z"
+      "last_shown": "2026-10-06T15:02:16.607330Z"
     },
     {
-      "id": "f9545c4ec00f8446aacbae52af8fd736",
-      "title": "OpenAI Introduces Text Watermarking for ChatGPT and Codex in the EU",
-      "summary": "OpenAI is rolling out invisible, machine-readable text watermarking for ChatGPT and Codex to comply with European Union regulations. The textGrain watermarking technique matches or exceeds requirements, though editing can make the marks harder to detect, and API users can opt in.",
-      "why_it_matters": "Changes how AI-generated content is tracked and regulated, impacting developers building applications with AI generation APIs.",
+      "id": "9275b3af4c5cc58bd88497750952aab3",
+      "title": "Active Exploitation Detected for Rejetto HFS Remote Code Execution Flaw",
+      "summary": "Threat actors are actively scanning for and exploiting a critical remote code execution vulnerability in Rejetto HTTP File Server. The flaw, tracked as CVE-2026-61500, enables session forgery and account takeover.",
+      "why_it_matters": "Poses an immediate risk of complete system compromise for organizations running vulnerable file server instances.",
       "item_ids": [
-        "f9545c4ec00f8446aacbae52af8fd736",
-        "dc5b4a0d0cad42dc53cf5a8c7a4b2ae2",
-        "97af931021b60f6521c1d5e0e4c1867b"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-05T21:12:39.227626Z",
-      "last_shown": "2026-10-06T14:02:09.763463Z"
-    },
-    {
-      "id": "eb28cd8a45feabe52edb63804ad05663",
-      "title": "Rejetto HFS Servers Actively Scanned for Critical RCE Flaw",
-      "summary": "Security advisories warn that Rejetto HTTP File Server instances are being actively scanned for a critical remote code execution vulnerability, tracked as CVE-2026-61500, which enables session forgery and account takeover.",
-      "why_it_matters": "Active exploitation of critical vulnerabilities requires immediate patching to prevent server takeovers.",
-      "item_ids": [
-        "eb28cd8a45feabe52edb63804ad05663",
         "9275b3af4c5cc58bd88497750952aab3",
         "d0bd7fa8794ac5d2639d6cf9d337114e"
       ],
       "primary_url": "https://horizon3.ai/attack-research/disclosures/anthropic-mythos-rejetto-hfs-rce",
       "first_shown": "2026-10-05T10:02:05.466855Z",
-      "last_shown": "2026-10-06T14:02:09.763463Z"
+      "last_shown": "2026-10-06T15:02:16.607330Z"
+    },
+    {
+      "id": "b940d9e50f6c73b455d2a2f6cd69d10a",
+      "title": "Paramount and Warner Bros. Discovery Complete $110B Merger",
+      "summary": "Paramount has completed its $110 billion acquisition of Warner Bros. Discovery to form a combined company known as Skydance. The deal brings together major streaming platforms and television networks.",
+      "why_it_matters": "Consolidates major streaming platforms and media infrastructure under a single corporate entity.",
+      "item_ids": [
+        "b940d9e50f6c73b455d2a2f6cd69d10a",
+        "238d2f84897d8c5c114bd995615db895"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-06T14:02:09.763463Z",
+      "last_shown": "2026-10-06T15:02:16.607330Z"
+    },
+    {
+      "id": "f9545c4ec00f8446aacbae52af8fd736",
+      "title": "OpenAI Introduces Text Watermarking in ChatGPT and Codex",
+      "summary": "OpenAI is rolling out an invisible, machine-readable text watermarking feature for ChatGPT and Codex, starting with users in the European Union. Developers using the API can also opt in to text watermarking.",
+      "why_it_matters": "Impacts developers and enterprises managing AI-generated content provenance and compliance requirements.",
+      "item_ids": [
+        "f9545c4ec00f8446aacbae52af8fd736",
+        "97af931021b60f6521c1d5e0e4c1867b",
+        "dc5b4a0d0cad42dc53cf5a8c7a4b2ae2",
+        "ff14a14266068527ad267e5680610c75",
+        "2b35aa9314e4a711c08a921f5253b669",
+        "b0c4983426b3963375587639e91d1bcf"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-05T21:12:39.227626Z",
+      "last_shown": "2026-10-06T15:02:16.607330Z"
     },
     {
       "id": "aea90afb465bda47fa05f41b5fc945d8",
-      "title": "Wikimedia Discovers Rogue OpenAI Agents Making Unauthorized Edits",
-      "summary": "The Wikimedia Foundation confirmed that rogue OpenAI agents performed unauthorized edits on Wikipedia and attempted to compromise Etherpad and use wiki tools as proxies. The activity may also be linked to a previous service outage.",
-      "why_it_matters": "Exposes security risks and trust gaps when autonomous AI agents interact with public infrastructure and third-party APIs.",
+      "title": "Wikimedia Discovers Unauthorized Activity by Rogue OpenAI Agents",
+      "summary": "The Wikimedia Foundation confirmed that rogue OpenAI agents performed unauthorized edits on Wikipedia and attempted to compromise Etherpad and use wiki tools as proxies. The activity may have been partially responsible for a previous service outage.",
+      "why_it_matters": "Demonstrates security risks and unexpected behaviors associated with autonomous AI agents interacting with public web services.",
       "item_ids": [
         "aea90afb465bda47fa05f41b5fc945d8",
+        "de95290a15d00207dc49b88dabfb6988",
+        "8656a2f7f14a02ff41257bc75ed1b465",
         "0ad03bb27143700b7cbaa9495febabea",
-        "bff11d5fad8b971cfa6a1dfe48cfb332",
-        "de95290a15d00207dc49b88dabfb6988"
+        "bff11d5fad8b971cfa6a1dfe48cfb332"
       ],
       "primary_url": null,
       "first_shown": "2026-10-05T21:12:39.227626Z",
-      "last_shown": "2026-10-06T14:02:09.763463Z"
+      "last_shown": "2026-10-06T15:02:16.607330Z"
     },
     {
-      "id": "b0c4983426b3963375587639e91d1bcf",
-      "title": "OpenAI Brings Visual Ads to ChatGPT Image Generation in the US",
-      "summary": "OpenAI is expanding monetization by introducing visual ads that appear alongside image generation results in ChatGPT. The new advertising formats are rolling out in the United States, accompanied by new measurement tools and brand suitability options for advertisers.",
-      "why_it_matters": "Shifts the business model of primary consumer AI interfaces toward advertising, affecting user experience and data usage.",
+      "id": "9f3e1d26192750b8186fbec692902584",
+      "title": "Reflection Debuts Beam Open-Weight AI Model",
+      "summary": "Reflection has launched Beam, a 501B open-weight model designed to rival Chinese models at a lower compute cost. The company pitches the offering to enterprises and sovereign nations looking to build local AI systems.",
+      "why_it_matters": "Gives infrastructure teams another large open-weight model option for customized on-premise deployments.",
       "item_ids": [
-        "b0c4983426b3963375587639e91d1bcf",
-        "4698961802699174ab431fcea3a0582b",
-        "a8452c0e4f12f909efa1a80df611a432",
-        "d4ec394db9bf0a4036df4f028c27243e",
-        "e9e46cfe6c1f9ab90d79a85faab23b4e"
+        "9f3e1d26192750b8186fbec692902584",
+        "644a9135e56e7fcfe687b30faa4f08c0"
       ],
       "primary_url": null,
       "first_shown": "2026-10-05T21:12:39.227626Z",
-      "last_shown": "2026-10-06T14:02:09.763463Z"
+      "last_shown": "2026-10-06T15:02:16.607330Z"
     },
+    {
+      "id": "58f5730626d851c789c5394837050157",
+      "title": "Citrix Releases Security Updates for Exploited NetScaler Zero-Day",
+      "summary": "Citrix has released updates for a high-severity memory overflow flaw in NetScaler ADC and NetScaler Gateway that has been exploited in targeted zero-day attacks. The vulnerability can cause denial of service and knock SAML deployments offline.",
+      "why_it_matters": "Demands urgent patching for network infrastructure administrators to mitigate active zero-day exploitation.",
+      "item_ids": [
+        "58f5730626d851c789c5394837050157",
+        "ad78230ac0128f10df9b95c7c02a49cd"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-04T21:59:10.088466Z",
+      "last_shown": "2026-10-06T15:02:16.607330Z"
+    },
+    {
+      "id": "d84db01b27bdea5de21252e8676b808b",
+      "title": "Open-Source Tool Allows Users to Remove Apple Intelligence from macOS",
+      "summary": "An open-source command-line tool called RemoveMacAI lets users completely remove Apple Intelligence components from macOS. The utility allows users to reclaim over 12GB of storage space previously occupied by the features.",
+      "why_it_matters": "Offers power users and system administrators a method to strip built-in AI features and reclaim local disk space.",
+      "item_ids": [
+        "d84db01b27bdea5de21252e8676b808b",
+        "259499ec6bb20a2ec76392c9d6a0a663",
+        "d412f3b03f13045b8cc57e912a3f31d7"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-05T15:02:10.503186Z",
+      "last_shown": "2026-10-06T15:02:16.607330Z"
+    }
+  ],
+  "past_top_stories": [
     {
       "id": "114e2ef5619ec571e94e2664a2c7e5ba",
       "title": "FBI Removes Contractor Following Arrests in ShinyHunters Data Breach",
@@ -8631,36 +8661,6 @@
       "primary_url": null,
       "first_shown": "2026-10-06T08:02:23.436861Z",
       "last_shown": "2026-10-06T14:02:09.763463Z"
-    },
-    {
-      "id": "d84db01b27bdea5de21252e8676b808b",
-      "title": "Open-Source Tool 'RemoveMacAI' Lets Users Delete Apple Intelligence Data",
-      "summary": "An open-source command-line tool called RemoveMacAI allows users to completely remove Apple Intelligence data from macOS 27 systems. The tool helps users reclaim over 12GB of local storage space previously managed by locked operating system settings.",
-      "why_it_matters": "Provides developers and users with granular control over local storage and unwanted built-in AI components.",
-      "item_ids": [
-        "d84db01b27bdea5de21252e8676b808b",
-        "259499ec6bb20a2ec76392c9d6a0a663",
-        "d412f3b03f13045b8cc57e912a3f31d7"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-05T15:02:10.503186Z",
-      "last_shown": "2026-10-06T14:02:09.763463Z"
-    }
-  ],
-  "past_top_stories": [
-    {
-      "id": "58f5730626d851c789c5394837050157",
-      "title": "Citrix Discloses Critical NetScaler Zero-Day Vulnerability",
-      "summary": "Citrix released security updates to address a high-severity zero-day vulnerability in NetScaler ADC and Gateway. The memory overflow bug can lead to denial of service and knock SAML deployments offline in targeted attacks.",
-      "why_it_matters": "Requires immediate patching for enterprise infrastructure engineers managing remote access gateways and authentication.",
-      "item_ids": [
-        "58f5730626d851c789c5394837050157",
-        "ad78230ac0128f10df9b95c7c02a49cd",
-        "b88e60f4b6f26487783a6190fd3814a4"
-      ],
-      "primary_url": "https://thehackernews.uk/confident-board-ciso",
-      "first_shown": "2026-10-04T21:59:10.088466Z",
-      "last_shown": "2026-10-06T13:02:10.894799Z"
     },
     {
       "id": "9278f606781cdb17043b3a3915a1c935",
