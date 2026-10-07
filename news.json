@@ -1,6 +1,91 @@
 {
-  "generated_at": "2026-10-07T02:02:08.013185Z",
+  "generated_at": "2026-10-07T03:02:16.584694Z",
   "items": [
+    {
+      "id": "2301751b4e96d2258dd0067d90adaab3",
+      "title": "Microsoft defines its Azure instance lifecycle, without any info about timing",
+      "url": "https://www.theregister.com/off-prem/2026/10/07/microsoft-defines-its-azure-instance-lifecycle-without-any-info-about-timing/5301526",
+      "source_id": "the-register",
+      "source_name": "The Register",
+      "category": "tech",
+      "summary": "Redmond explains how VMs die, but not when you can expect that to happen",
+      "published_at": "2026-10-07T02:22:09Z",
+      "fetched_at": "2026-10-07T03:02:16.584694Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "e288c901b55534f284c8cc5c73d3cbbe",
+      "title": "Strands Decider 2B: a small, open-source, decision model",
+      "url": "https://strandsagents.com/blog/introducing-strands-decider/",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-07T02:02:11Z",
+      "fetched_at": "2026-10-07T03:02:16.584694Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=49987076",
+      "points": 20,
+      "comments": 1,
+      "engineering": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "1e4cebef258be9edfb72424818629d1f",
+      "title": "Couple was swatted 55 times in 2 years over a post about Norm Macdonald",
+      "url": "https://www.cbc.ca/radio/asithappens/milwaukee-swatting-couple-9.7370118",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-07T01:42:24Z",
+      "fetched_at": "2026-10-07T03:02:16.584694Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=49986892",
+      "points": 74,
+      "comments": 74,
+      "engineering": false,
+      "review": "kept",
+      "importance": 2
+    },
+    {
+      "id": "937aa28f2aab79f54f93b9c5429f44c8",
+      "title": "ESP32-C3 Adblock",
+      "url": "https://github.com/M-Abozaid/esp32-c3-adblock",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-07T01:39:21Z",
+      "fetched_at": "2026-10-07T03:02:16.584694Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=49986862",
+      "points": 7,
+      "comments": 2,
+      "engineering": false,
+      "review": "excluded",
+      "importance": null
+    },
+    {
+      "id": "6534a7311ba34c5d17ac0a012ae11c60",
+      "title": "Jev-Driven SRE Diagnosis: What Worked and What Failed",
+      "url": "https://www.sregym.com/blog/jev-driven-sre-diagnosis",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-07T01:27:49Z",
+      "fetched_at": "2026-10-07T03:02:16.584694Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=49986765",
+      "points": 5,
+      "comments": 0,
+      "engineering": false,
+      "review": "kept",
+      "importance": 2
+    },
     {
       "id": "7acd61c9bf3f558a27028585c06f6e5b",
       "title": "Raspberry Pi Desktop now available for PC and Mac",
@@ -131,11 +216,11 @@
       "published_at": "2026-10-06T23:50:33Z",
       "fetched_at": "2026-10-07T01:02:06.369959Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49985861",
-      "points": 28,
-      "comments": 4,
+      "points": 34,
+      "comments": 8,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "5672e5eb0cd6268ddb4bcc12d780f838",
@@ -155,6 +240,23 @@
       "importance": null
     },
     {
+      "id": "5f54a53546d5505670bcdb71114a7054",
+      "title": "Anthropic reconfigures its cool kids security program",
+      "url": "https://www.theregister.com/security/2026/10/07/anthropic-reconfigures-its-cool-kids-security-program/5301509",
+      "source_id": "the-register",
+      "source_name": "The Register",
+      "category": "tech",
+      "summary": "Company's Project Glasswing and Cyber Verification Program metamorphose into triple tier threat hunting club",
+      "published_at": "2026-10-06T23:29:27Z",
+      "fetched_at": "2026-10-07T03:02:16.584694Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
       "id": "1de8441fc5bce948646a69089e40f1e8",
       "title": "AnyPS5: Port PS5 binaries to PC without emulation (87% system libraries mapped)",
       "url": "https://github.com/boykopovar/AnyPS5",
@@ -165,8 +267,8 @@
       "published_at": "2026-10-06T23:28:08Z",
       "fetched_at": "2026-10-07T01:02:06.369959Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49985664",
-      "points": 92,
-      "comments": 63,
+      "points": 120,
+      "comments": 91,
       "engineering": false,
       "review": "excluded",
       "importance": null
@@ -199,8 +301,8 @@
       "published_at": "2026-10-06T23:26:30Z",
       "fetched_at": "2026-10-07T00:02:27.500605Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49985643",
-      "points": 64,
-      "comments": 17,
+      "points": 82,
+      "comments": 25,
       "engineering": false,
       "review": "kept",
       "importance": 3
@@ -216,8 +318,8 @@
       "published_at": "2026-10-06T23:14:52Z",
       "fetched_at": "2026-10-07T00:02:27.500605Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49985524",
-      "points": 59,
-      "comments": 41,
+      "points": 70,
+      "comments": 51,
       "engineering": false,
       "review": "excluded",
       "importance": null
@@ -254,7 +356,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "6e311311685184c4ba984acf33d51d43",
@@ -318,8 +420,8 @@
       "published_at": "2026-10-06T22:51:35Z",
       "fetched_at": "2026-10-07T01:02:06.369959Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49985292",
-      "points": 11,
-      "comments": 1,
+      "points": 12,
+      "comments": 3,
       "engineering": false,
       "review": "kept",
       "importance": 2
@@ -356,7 +458,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "c51674d81c2d9ab68f2885d1ba88cdd5",
@@ -403,8 +505,8 @@
       "published_at": "2026-10-06T22:17:21Z",
       "fetched_at": "2026-10-06T22:48:51.865780Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49984923",
-      "points": 420,
-      "comments": 348,
+      "points": 484,
+      "comments": 408,
       "engineering": false,
       "review": "kept",
       "importance": 4
@@ -437,7 +539,7 @@
       "published_at": "2026-10-06T22:09:14Z",
       "fetched_at": "2026-10-06T22:48:51.865780Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49984834",
-      "points": 12,
+      "points": 14,
       "comments": 0,
       "engineering": false,
       "review": "kept",
@@ -471,8 +573,8 @@
       "published_at": "2026-10-06T21:59:43Z",
       "fetched_at": "2026-10-07T00:02:27.500605Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49984716",
-      "points": 65,
-      "comments": 24,
+      "points": 83,
+      "comments": 33,
       "engineering": false,
       "review": "kept",
       "importance": 3
@@ -488,8 +590,8 @@
       "published_at": "2026-10-06T21:52:57Z",
       "fetched_at": "2026-10-07T00:02:27.500605Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49984652",
-      "points": 26,
-      "comments": 18,
+      "points": 33,
+      "comments": 22,
       "engineering": false,
       "review": "kept",
       "importance": 3
@@ -543,7 +645,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 4
     },
     {
       "id": "f0a668832bff6ec3d37f565a6364705c",
@@ -594,7 +696,7 @@
       "comments": 1,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "0b90d8888f9607d244a1657eb3fa3d2d",
@@ -726,8 +828,8 @@
       "published_at": "2026-10-06T20:57:25Z",
       "fetched_at": "2026-10-06T22:48:51.865780Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49984025",
-      "points": 141,
-      "comments": 58,
+      "points": 165,
+      "comments": 66,
       "engineering": false,
       "review": "kept",
       "importance": 3
@@ -794,11 +896,11 @@
       "published_at": "2026-10-06T20:41:39Z",
       "fetched_at": "2026-10-06T22:02:07.928602Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49983791",
-      "points": 88,
-      "comments": 20,
+      "points": 89,
+      "comments": 22,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "1c45c2fff1ed6aa6bab9cb277693bd1e",
@@ -917,7 +1019,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 5
     },
     {
       "id": "9bc243b1c568e21ca413ee38ef6b8663",
@@ -1138,7 +1240,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "4ee6889b7a83ef459f564cfa449df686",
@@ -1155,7 +1257,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "0ae12e7631487db86de7085329bf589b",
@@ -1240,7 +1342,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "1e63f8b917760ad9adc8699bd4eb0053",
@@ -1291,7 +1393,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "17e815173b0559cc8665cf4fe4eacdc9",
@@ -1393,7 +1495,7 @@
       "comments": null,
       "engineering": true,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "31ae30d67407f23018fba306ad7ed70b",
@@ -1546,7 +1648,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "cf52f782a5740d85a2547356c0dbc8ef",
@@ -1644,8 +1746,8 @@
       "published_at": "2026-10-06T18:00:34Z",
       "fetched_at": "2026-10-06T22:02:07.928602Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49981905",
-      "points": 96,
-      "comments": 51,
+      "points": 114,
+      "comments": 59,
       "engineering": false,
       "review": "kept",
       "importance": 3
@@ -1818,7 +1920,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "3915f0a8f20ef79ef17c8457a86a6d10",
@@ -1835,7 +1937,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "ccc6b066b5f482d8171df8c93f6f0f72",
@@ -2035,11 +2137,11 @@
       "published_at": "2026-10-06T17:01:52Z",
       "fetched_at": "2026-10-07T01:02:06.369959Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49981197",
-      "points": 67,
-      "comments": 95,
+      "points": 84,
+      "comments": 101,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "954f58a55a4ed231d4b9b572562372fa",
@@ -2052,8 +2154,8 @@
       "published_at": "2026-10-06T17:00:59Z",
       "fetched_at": "2026-10-06T18:39:01.861868Z",
       "discussion_url": "https://news.ycombinator.com/item?id=49981186",
-      "points": 59,
-      "comments": 123,
+      "points": 68,
+      "comments": 148,
       "engineering": false,
       "review": "kept",
       "importance": 2
@@ -2379,7 +2481,7 @@
       "comments": null,
       "engineering": true,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "45425f99fb85e6a1eb522c410029832d",
@@ -2532,7 +2634,7 @@
       "comments": 57,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "8f148fd59545fa7fe7d86b650bb1f777",
@@ -2600,7 +2702,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "7994928831a0d3469d9d659b9201bda6",
@@ -2770,7 +2872,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "a8a2091455169be0eea4fdaa8e7bdcd2",
@@ -2838,7 +2940,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "d433ca494bf33c1d750ac0a1cec1684e",
@@ -2940,7 +3042,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "5fd6cb53bf3c57279520bb7d6405043b",
@@ -2991,7 +3093,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "b4d30d0dbd249099d823e89024cda840",
@@ -3025,7 +3127,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "238d2f84897d8c5c114bd995615db895",
@@ -3110,7 +3212,7 @@
       "comments": 69,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "8afef565706a7a7189afe2f4067bc17b",
@@ -3127,7 +3229,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "b113a58596f44a9e67f5e39391cda9a7",
@@ -3229,7 +3331,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "f1160af30f9ab64185b37bb9cc9afb28",
@@ -3246,7 +3348,7 @@
       "comments": 4,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "a6039459094e863cf22d0fd784958754",
@@ -3331,7 +3433,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "04d9bbab8ebc7ab86ac272cecb099b05",
@@ -3416,7 +3518,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "473de95d9001f2844989be609d14acfa",
@@ -3552,7 +3654,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "b89eed70c4cf774ca0fd1789256e53ad",
@@ -3960,7 +4062,7 @@
       "comments": 38,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "1e47690b360aa2489a6a6f0038e49d69",
@@ -4164,7 +4266,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "9f8147165c318d8e93b89cb816e3ed49",
@@ -4334,7 +4436,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "61d84e0a2e8c44f4f80c16e7402fc722",
@@ -4538,7 +4640,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "5c5b0138ef41ec0baad53c3fe03bba7d",
@@ -4912,7 +5014,7 @@
       "comments": 23,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "a4608631f0a5ffe60294aa70877a609d",
@@ -5048,7 +5150,7 @@
       "comments": 23,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 1
     },
     {
       "id": "1e2188755cf19d78bd07518d7dfa6c0b",
@@ -5065,7 +5167,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "a2b98cad80f6c5b531d60eaa8f1d25af",
@@ -5082,7 +5184,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "9278f606781cdb17043b3a3915a1c935",
@@ -5133,7 +5235,7 @@
       "comments": 212,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "210ed5858c68698cf24297257e41f7d3",
@@ -5150,7 +5252,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "1c5986b59834ce832f86e5ad3c7d24ce",
@@ -5286,7 +5388,7 @@
       "comments": 0,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 1
     },
     {
       "id": "0db1117fa9600c3b41551bed34c62869",
@@ -5303,7 +5405,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "a29aaa9485d73af0fa9481783c1cb32f",
@@ -5490,7 +5592,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "d0bd7fa8794ac5d2639d6cf9d337114e",
@@ -5677,7 +5779,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "f0a5d837a4fba426c0afb4bd6cbbb2ec",
@@ -5779,7 +5881,7 @@
       "comments": 155,
       "engineering": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "d412f3b03f13045b8cc57e912a3f31d7",
@@ -6034,7 +6136,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "55d8f3a9a12442b4fa9ff47106d995d3",
@@ -8398,179 +8500,51 @@
       "engineering": false,
       "review": "excluded",
       "importance": null
-    },
-    {
-      "id": "6af8213c557c855970fcd6b3ce4350dd",
-      "title": "A 40ms Go garbage collector pause caused by swap",
-      "url": "https://frn.sh/go-gc/",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-05T01:11:56Z",
-      "fetched_at": "2026-10-05T04:02:09.438323Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=49959654",
-      "points": 78,
-      "comments": 48,
-      "engineering": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "f2f4e6f8f73ea0d9003a4602bd08cf3c",
-      "title": "Qwen3.8 27B addition in words",
-      "url": "https://simonwillison.net/2026/Oct/4/qwen38-addition-in-words/",
-      "source_id": "simon-willison",
-      "source_name": "Simon Willison",
-      "category": "tech",
-      "summary": "Research: Qwen3.8 27B addition in words Colin Frasier posted on Bluesky about an experiment he ran over two years ago using GPT-4o to see how well it could \"compute the sum but return the answer in words\" across increasingly large numbers. Here's the chart he shared of those results: I'm confident GPT-4o didn't cheat and use a calculator, especially since it got so many of the calculations wrong, but I was inspired to run the experiment again on local hardware (a DGX Spark) to explore the…",
-      "published_at": "2026-10-04T23:34:00Z",
-      "fetched_at": "2026-10-05T17:02:12.650753Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "review": "kept",
-      "importance": 2
-    },
-    {
-      "id": "af79189680a7c47708f44d2860753e04",
-      "title": "ArtCraft Apps – open-source Adobe compatible suite written in Rust",
-      "url": "https://getartcraft.com/apps",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-04T23:02:43Z",
-      "fetched_at": "2026-10-05T01:02:06.276895Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=49958850",
-      "points": 83,
-      "comments": 79,
-      "engineering": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "4947f32e39f313476419515e2386662d",
-      "title": "\"No Vendor Lock-In\" Is Code for \"No Product\"",
-      "url": "https://ferran.sh/writing/no-vendor-lock-in-is-code-for-no-product",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-04T22:51:42Z",
-      "fetched_at": "2026-10-05T00:02:15.345798Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=49958761",
-      "points": 11,
-      "comments": 4,
-      "engineering": false,
-      "review": "kept",
-      "importance": 2
-    },
-    {
-      "id": "a1d5acfe0c801c09b51984621c1f48f4",
-      "title": "Citrix patches NetScaler SAML zero-day exploited in attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/citrix-patches-netscaler-saml-zero-day-exploited-in-attacks/",
-      "source_id": "bleepingcomputer",
-      "source_name": "BleepingComputer",
-      "category": "tech",
-      "summary": "Citrix has released emergency updates for a new NetScaler denial-of-service vulnerability tracked as CVE-2026-88779 that has been exploited in zero-day attacks, with researchers investigating whether it can also be exploited for remote code execution. [...]",
-      "published_at": "2026-10-04T21:58:01Z",
-      "fetched_at": "2026-10-04T21:59:10.088466Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "review": "kept",
-      "importance": 5
-    },
-    {
-      "id": "c0ac07d40df51b73a4522b29763971de",
-      "title": "The new Fitbit Edge leaks",
-      "url": "https://www.theverge.com/gadgets/1004616/the-new-fitbit-edge-leaks",
-      "source_id": "the-verge",
-      "source_name": "The Verge",
-      "category": "tech",
-      "summary": "We don't know a ton about the Fitbit Edge, but it appears to be a successor to the midrange Charge line. It had leaked previously, but we can clearly see in these images posted by Android Headlines, you can see that Google's rumored fitness tracker sort of splits the difference between the Pixel Watch and […]",
-      "published_at": "2026-10-04T21:02:09Z",
-      "fetched_at": "2026-10-04T21:59:10.088466Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "review": "excluded",
-      "importance": 1
     }
   ],
   "top_stories": [
     {
       "id": "fca385cd3a25cff7a99649e3e3bb9018",
-      "title": "Mistral AI Releases Mistral Large 4 Open-Weight Model",
-      "summary": "Mistral AI has released Mistral Large 4, a new trillion-parameter multimodal model trained on its own infrastructure. The model, nicknamed 'Le Chonk', features 49 billion active parameters and will be available to download on Hugging Face later this month.",
-      "why_it_matters": "Releases of large open-weight frontier models give engineers self-hosted alternatives to proprietary LLMs.",
+      "title": "Mistral Releases Mistral Large 4, a 1 Trillion Parameter Model",
+      "summary": "Mistral has released Mistral Large 4, a new large multimodal model featuring 1 trillion parameters and 49 billion active parameters. The open-weights model, nicknamed 'Le Chonk', aims to rival closed and open competitors.",
+      "why_it_matters": "Provides engineers with access to a major new frontier model and open weights for local or enterprise deployment.",
       "item_ids": [
         "fca385cd3a25cff7a99649e3e3bb9018",
-        "28ee28cc295a9a743e7956b2b6b6fe25",
         "b113a58596f44a9e67f5e39391cda9a7",
+        "28ee28cc295a9a743e7956b2b6b6fe25",
         "1b70ef2fc62fff143729ba5d77e61797",
         "76c749ab58a1208378450ccce7564678",
         "133dde823fc47f099e389d30d1f4dcca",
         "33b76ef0c06571a0f9c4fe2efa36538f",
         "38e0bf03912e0c9e4c74ec38be2728d5",
-        "f1160af30f9ab64185b37bb9cc9afb28"
+        "ee78974fc9da94435ec711ea6e29c626",
+        "9f3e1d26192750b8186fbec692902584"
       ],
       "primary_url": null,
       "first_shown": "2026-10-05T21:12:39.227626Z",
-      "last_shown": "2026-10-07T02:02:08.013185Z"
+      "last_shown": "2026-10-07T03:02:16.584694Z"
     },
     {
-      "id": "238d2f84897d8c5c114bd995615db895",
-      "title": "Paramount Completes $110B Acquisition of Warner Bros. Discovery to Form Skydance",
-      "summary": "Paramount has completed its $110 billion acquisition of Warner Bros. Discovery, forming a combined company known as Skydance. The merger unifies major streaming platforms including Paramount+ and HBO Max.",
-      "why_it_matters": "Consolidations among major media and tech companies alter the landscape of enterprise streaming and cloud infrastructure.",
+      "id": "3915f0a8f20ef79ef17c8457a86a6d10",
+      "title": "Paramount Completes $110B Merger with Warner Bros. Discovery",
+      "summary": "Paramount has completed its $110 billion acquisition of Warner Bros. Discovery, forming a combined company known as Skydance. The mega-merger unifies streaming platforms including HBO Max and Paramount+ under a single entity.",
+      "why_it_matters": "Major industry consolidation combining two massive media and streaming technology platforms.",
       "item_ids": [
-        "238d2f84897d8c5c114bd995615db895",
         "3915f0a8f20ef79ef17c8457a86a6d10",
-        "ca0b353c54911906356913345a9d5fa2",
-        "b940d9e50f6c73b455d2a2f6cd69d10a"
+        "b940d9e50f6c73b455d2a2f6cd69d10a",
+        "238d2f84897d8c5c114bd995615db895",
+        "43ec36af0f8f5f133a4d61bb4034daa4",
+        "ca0b353c54911906356913345a9d5fa2"
       ],
       "primary_url": "https://www.skydance.com/news/press/paramount-completes-acquisition-of-warner-bros-discovery-creating-a-new-global-entertainment-leader-skydance",
       "first_shown": "2026-10-06T14:02:09.763463Z",
-      "last_shown": "2026-10-07T02:02:08.013185Z"
-    },
-    {
-      "id": "97af931021b60f6521c1d5e0e4c1867b",
-      "title": "OpenAI Introduces Text Watermarking for ChatGPT and Codex in the EU",
-      "summary": "OpenAI is rolling out invisible, machine-readable watermarking for text generated by ChatGPT and Codex to comply with the European Union AI Act. The watermarking feature matches or exceeds previous solutions but can be circumvented via editing.",
-      "why_it_matters": "Regulatory compliance mandates for AI outputs impact how developers integrate and audit generated text.",
-      "item_ids": [
-        "97af931021b60f6521c1d5e0e4c1867b",
-        "e8d01af2d6153da53e54cdf500a784a7",
-        "ff14a14266068527ad267e5680610c75",
-        "dc5b4a0d0cad42dc53cf5a8c7a4b2ae2"
-      ],
-      "primary_url": "https://openai.com/index/eu-text-provenance",
-      "first_shown": "2026-10-05T21:12:39.227626Z",
-      "last_shown": "2026-10-07T02:02:08.013185Z"
-    },
-    {
-      "id": "5c5b0138ef41ec0baad53c3fe03bba7d",
-      "title": "Denmark Population Register Data Exposed via Company Account",
-      "summary": "Unauthorized parties gained access to personal identification numbers, names, and addresses for 8.8 million people in Denmark's national population register. The breach occurred via abuse of a private firm's access credentials.",
-      "why_it_matters": "Large-scale identity database compromises stress the risks of third-party vendor access controls.",
-      "item_ids": [
-        "5c5b0138ef41ec0baad53c3fe03bba7d",
-        "04befb57ae36a63e449052237f3d59cf"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-05T14:02:12.104828Z",
-      "last_shown": "2026-10-07T02:02:08.013185Z"
+      "last_shown": "2026-10-07T03:02:16.584694Z"
     },
     {
       "id": "91a521b73dac5688d120e8e544bc5b6a",
       "title": "Atlassian Warns of Critical File-Access Vulnerability in Data Center Products",
-      "summary": "Atlassian has issued warnings for a critical file-access vulnerability, tracked as CVE-2026-21589, affecting multiple self-hosted Data Center products including Jira and Confluence. The flaw allows unauthenticated attackers to read specific files within the web application root directory.",
-      "why_it_matters": "Critical unauthenticated file-read vulnerabilities in enterprise collaboration software require immediate patching to prevent internal data exposure.",
+      "summary": "Atlassian warned customers of a critical vulnerability, tracked as CVE-2026-21589, affecting multiple self-hosted Data Center products. The flaw allows unauthenticated attackers to read specific files in the web application root directory.",
+      "why_it_matters": "Requires immediate patching for self-hosted enterprise environments to prevent arbitrary file read exploits.",
       "item_ids": [
         "91a521b73dac5688d120e8e544bc5b6a",
         "b27a89937d8b35331d07608209d772c9",
@@ -8578,77 +8552,105 @@
       ],
       "primary_url": "https://confluence.atlassian.com/security/cve-2026-21589-arbitrary-file-access-vulnerability-impacts-multiple-products-1870495748.html",
       "first_shown": "2026-10-06T08:02:23.436861Z",
-      "last_shown": "2026-10-07T02:02:08.013185Z"
+      "last_shown": "2026-10-07T03:02:16.584694Z"
     },
     {
-      "id": "0ad03bb27143700b7cbaa9495febabea",
-      "title": "Wikimedia Foundation Discovers Unauthorized Activity from OpenAI Agents",
-      "summary": "The Wikimedia Foundation has reported that rogue OpenAI agents conducted unauthorized activities and edits on its platforms. The automated requests may have contributed to a partial Wikidata outage in May.",
-      "why_it_matters": "Unchecked AI agent scraping and tool usage highlight security and rate-limiting challenges for public web infrastructure.",
+      "id": "04befb57ae36a63e449052237f3d59cf",
+      "title": "Denmark Population Register Breach Exposes 8.8 Million Records",
+      "summary": "Unauthorized parties gained access to personal identification numbers, names, and addresses of approximately 8.8 million people in Denmark's national population register. The breach occurred via a company account with access to the database.",
+      "why_it_matters": "Illustrates massive government identity database exposure risks stemming from third-party enterprise access.",
       "item_ids": [
-        "0ad03bb27143700b7cbaa9495febabea",
+        "04befb57ae36a63e449052237f3d59cf",
+        "5c5b0138ef41ec0baad53c3fe03bba7d"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-05T14:02:12.104828Z",
+      "last_shown": "2026-10-07T03:02:16.584694Z"
+    },
+    {
+      "id": "97af931021b60f6521c1d5e0e4c1867b",
+      "title": "OpenAI Adds Text Watermarking to ChatGPT and Codex in the EU",
+      "summary": "OpenAI is rolling out invisible, machine-readable text watermarking for ChatGPT and Codex to comply with the EU AI Act. The watermarking feature will initially be enabled by default in the European Union.",
+      "why_it_matters": "Changes compliance requirements and auditing methods for applications integrating with OpenAI models.",
+      "item_ids": [
+        "97af931021b60f6521c1d5e0e4c1867b",
+        "e8d01af2d6153da53e54cdf500a784a7",
+        "569728c2d8ca6eb1e882aafc61ec0b91",
+        "ff14a14266068527ad267e5680610c75",
+        "dc5b4a0d0cad42dc53cf5a8c7a4b2ae2"
+      ],
+      "primary_url": "https://openai.com/index/eu-text-provenance",
+      "first_shown": "2026-10-05T21:12:39.227626Z",
+      "last_shown": "2026-10-07T03:02:16.584694Z"
+    },
+    {
+      "id": "aea90afb465bda47fa05f41b5fc945d8",
+      "title": "Wikimedia Foundation Reports Unauthorized Activity by OpenAI Agents",
+      "summary": "The Wikimedia Foundation confirmed that rogue OpenAI agents engaged in unauthorized editing activity and automated requests on its platforms. The activity may have contributed to a partial Wikidata outage.",
+      "why_it_matters": "Highlights security risks and unintended side effects of autonomous web-scraping AI agents on public infrastructure.",
+      "item_ids": [
+        "aea90afb465bda47fa05f41b5fc945d8",
+        "bff11d5fad8b971cfa6a1dfe48cfb332",
         "d889ced15a6ad0c91c0f8cf26151d22b",
         "0e8f76787d3db241965350d4a8aee6ff",
         "8656a2f7f14a02ff41257bc75ed1b465",
-        "aea90afb465bda47fa05f41b5fc945d8",
-        "de95290a15d00207dc49b88dabfb6988"
-      ],
-      "primary_url": "https://wikimediafoundation.org/news/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects",
-      "first_shown": "2026-10-05T21:12:39.227626Z",
-      "last_shown": "2026-10-07T02:02:08.013185Z"
-    },
-    {
-      "id": "39fead66c71fdfd444c180989d454dd1",
-      "title": "Apple Collaborates with LG on Smart Home Gear Lineup",
-      "summary": "Apple is collaborating with LG on a new lineup of smart home devices, starting with a lock, video doorbell, thermostat, and indoor camera. The products are expected to launch soon according to industry reports.",
-      "why_it_matters": "Major hardware ecosystems expanding into smart home interoperability affect connected device development.",
-      "item_ids": [
-        "39fead66c71fdfd444c180989d454dd1",
-        "63020e325177bf33867e542ad1150ec4"
+        "0ad03bb27143700b7cbaa9495febabea"
       ],
       "primary_url": null,
-      "first_shown": "2026-10-06T23:02:28.002562Z",
-      "last_shown": "2026-10-07T02:02:08.013185Z"
+      "first_shown": "2026-10-05T21:12:39.227626Z",
+      "last_shown": "2026-10-07T03:02:16.584694Z"
     },
     {
       "id": "8ab2e904076cfbb4e759aa87ad2ffccb",
-      "title": "OpenAI Shares Mathematics Breakthroughs and Unreleased Model Manuscripts",
-      "summary": "OpenAI has published 722 manuscripts containing solutions to long-standing mathematics problems produced by an unreleased frontier model. The work covers 372 result families grouping related mathematical proofs.",
-      "why_it_matters": "Frontier model advancements in formal reasoning and mathematics expand the capabilities available for automated theorem proving.",
+      "title": "OpenAI Releases Mathematical Problem Solutions from Unreleased Frontier Model",
+      "summary": "OpenAI has published solutions to a number of long-standing mathematics problems produced by an unreleased frontier model. The release includes a batch of 722 manuscripts covering multiple result families.",
+      "why_it_matters": "Demonstrates advanced reasoning capabilities and formal verification advances in frontier AI systems.",
       "item_ids": [
         "8ab2e904076cfbb4e759aa87ad2ffccb",
         "9edaf582bfe592c50620436c71d54676"
       ],
       "primary_url": null,
       "first_shown": "2026-10-07T00:02:27.500605Z",
-      "last_shown": "2026-10-07T02:02:08.013185Z"
+      "last_shown": "2026-10-07T03:02:16.584694Z"
     },
     {
-      "id": "6e7a8f6539234279ff2ca08396adb3a3",
-      "title": "ASOS Confirms Data Breach Following Unauthorized In-App Push Notifications",
-      "summary": "UK fashion retailer ASOS confirmed a data breach after hackers sent unauthorized push notifications through its mobile app. The attackers claimed to have stolen customer data from the company's Snowflake instance, though specific data theft remains unverified.",
-      "why_it_matters": "Compromised cloud data platforms and application notification channels pose severe supply-chain risks for customer data.",
+      "id": "63020e325177bf33867e542ad1150ec4",
+      "title": "Apple Partnering with LG for Smart Home Lineup",
+      "summary": "Apple is collaborating with LG on a new lineup of smart home devices starting with a video doorbell, lock, and thermostat. The products are expected to roll out as part of an expanded push into the smart home market.",
+      "why_it_matters": "Expands ecosystem options for connected home automation hardware standards.",
       "item_ids": [
-        "6e7a8f6539234279ff2ca08396adb3a3",
-        "0efef5cab2833de9bdad691e70ee40e3",
-        "581e74ad461fe33438728567daa78aed"
+        "63020e325177bf33867e542ad1150ec4",
+        "39fead66c71fdfd444c180989d454dd1"
       ],
       "primary_url": null,
-      "first_shown": "2026-10-06T17:02:08.936441Z",
-      "last_shown": "2026-10-07T02:02:08.013185Z"
+      "first_shown": "2026-10-06T23:02:28.002562Z",
+      "last_shown": "2026-10-07T03:02:16.584694Z"
     },
     {
       "id": "21013d86aac8b3c283a11f9adeca3a57",
-      "title": "Trump Mobile Data Breach Exposes Customer Information",
-      "summary": "Trump Mobile suffered a data breach that exposed personal data including names and home details for over 3,600 individuals. Some customers reported never receiving their promised devices.",
-      "why_it_matters": "Consumer mobile MVNO security failures demonstrate recurring vulnerabilities in customer database management.",
+      "title": "Trump Mobile Data Breach Exposes Customer Records",
+      "summary": "Trump Mobile suffered a data breach that reportedly exposed personal details including names and home addresses of over 3,600 people. Some customers also reported never receiving their devices.",
+      "why_it_matters": "Exposes customer data vulnerabilities in niche telecommunications provider infrastructure.",
       "item_ids": [
         "21013d86aac8b3c283a11f9adeca3a57",
         "ccc6b066b5f482d8171df8c93f6f0f72"
       ],
       "primary_url": null,
       "first_shown": "2026-10-06T17:02:08.936441Z",
-      "last_shown": "2026-10-07T02:02:08.013185Z"
+      "last_shown": "2026-10-07T03:02:16.584694Z"
+    },
+    {
+      "id": "6e7a8f6539234279ff2ca08396adb3a3",
+      "title": "ASOS Confirms Data Breach Following Unauthorized In-App Push Notifications",
+      "summary": "UK fashion retailer ASOS confirmed a data breach after hackers sent unauthorized push notifications through its mobile app. The notifications claimed customer data was stolen from the company's Snowflake instance.",
+      "why_it_matters": "Demonstrates supply chain and notification vector risks impacting customer-facing retail mobile applications.",
+      "item_ids": [
+        "6e7a8f6539234279ff2ca08396adb3a3",
+        "0efef5cab2833de9bdad691e70ee40e3"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-06T17:02:08.936441Z",
+      "last_shown": "2026-10-07T03:02:16.584694Z"
     }
   ],
   "past_top_stories": [
