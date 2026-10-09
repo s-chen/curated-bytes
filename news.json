@@ -1,6 +1,40 @@
 {
-  "generated_at": "2026-10-09T01:02:14.418857Z",
+  "generated_at": "2026-10-09T02:02:15.161355Z",
   "items": [
+    {
+      "id": "9b6991f206bf1f4e7f5a0cfd561711e8",
+      "title": "B-Trees Are Back: Engineering Fast and Pageable Node Layouts",
+      "url": "https://www.cs.cit.tum.de/fileadmin/w00cfj/dis/papers/btrees-are-back.pdf",
+      "source_id": "lobsters",
+      "source_name": "Lobsters",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-09T00:52:27Z",
+      "fetched_at": "2026-10-09T02:02:15.161355Z",
+      "discussion_url": "https://lobste.rs/s/gvbqdy/b_trees_are_back_engineering_fast",
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "679177d906369c8936b0da55737689f0",
+      "title": "Ukrainian drone attack takes out Russian datacenter",
+      "url": "https://www.theregister.com/off-prem/2026/10/09/ukrainian-drone-attack-takes-out-russian-datacenter/5302137",
+      "source_id": "the-register",
+      "source_name": "The Register",
+      "category": "tech",
+      "summary": "Putin this cloud region back into operation might not be possible, says Yandex",
+      "published_at": "2026-10-09T00:08:52Z",
+      "fetched_at": "2026-10-09T02:02:15.161355Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "review": "kept",
+      "importance": 4
+    },
     {
       "id": "de7a464c3d14b0644dd00e2dddbb5633",
       "title": "Show HN: Edi Life OS – self-hosted life dashboard with an MCP server for AI",
@@ -12,10 +46,44 @@
       "published_at": "2026-10-09T00:02:19Z",
       "fetched_at": "2026-10-09T01:02:14.418857Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50014150",
-      "points": 8,
-      "comments": 1,
+      "points": 15,
+      "comments": 2,
       "engineering": false,
       "review": "excluded",
+      "importance": null
+    },
+    {
+      "id": "eeef3a19f793cbe15fb2ab70ad462699",
+      "title": "AI company moves to defend critical infrastructure and open-source projects from AI",
+      "url": "https://www.theregister.com/ai-and-ml/2026/10/09/ai-company-moves-to-defend-critical-infrastructure-and-open-source-projects-from-ai/5302128",
+      "source_id": "the-register",
+      "source_name": "The Register",
+      "category": "tech",
+      "summary": "Anthropic says for the next two years, attackers will have the advantage",
+      "published_at": "2026-10-08T23:57:40Z",
+      "fetched_at": "2026-10-09T02:02:15.161355Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "532bbe28aa9cb0598dd9ad7ec0a6437b",
+      "title": "ttok 0.4",
+      "url": "https://simonwillison.net/2026/Oct/8/ttok/",
+      "source_id": "simon-willison",
+      "source_name": "Simon Willison",
+      "category": "tech",
+      "summary": "Release: ttok 0.4 ttok is my CLI tool for counting tokens, using OpenAI's open source tiktoken library. It hasn't been in updated in a couple of years, but I finally fixed a Click warning, updated CI, and added a --list-models command to list available models. It works with uvx, so you can count tokens in anything like this: cat file.txt | uvx ttok Tags: projects, ai, openai, generative-ai, llms, tokenization",
+      "published_at": "2026-10-08T23:34:28Z",
+      "fetched_at": "2026-10-09T02:02:15.161355Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "review": "pending",
       "importance": null
     },
     {
@@ -29,8 +97,8 @@
       "published_at": "2026-10-08T23:32:49Z",
       "fetched_at": "2026-10-09T01:02:14.418857Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50013931",
-      "points": 14,
-      "comments": 0,
+      "points": 25,
+      "comments": 1,
       "engineering": false,
       "review": "kept",
       "importance": 2
@@ -50,7 +118,7 @@
       "comments": 51,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "df571aa4eb173ab225157a5675fd4040",
@@ -80,8 +148,8 @@
       "published_at": "2026-10-08T22:48:30Z",
       "fetched_at": "2026-10-09T01:02:14.418857Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50013525",
-      "points": 6,
-      "comments": 0,
+      "points": 10,
+      "comments": 4,
       "engineering": false,
       "review": "kept",
       "importance": 2
@@ -118,7 +186,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "bc6fed309c53afa5dcd2a0447680fe40",
@@ -271,7 +339,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "c3ca59b891705ee931be6c29f2bc5fe4",
@@ -322,7 +390,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "8f00650384c7ec7f93120a6363214f85",
@@ -372,8 +440,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 2
     },
     {
       "id": "e02a3e83b40bbcab94de6994bd458834",
@@ -386,11 +454,11 @@
       "published_at": "2026-10-08T20:46:25Z",
       "fetched_at": "2026-10-08T22:02:17.662664Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50011999",
-      "points": 57,
-      "comments": 5,
+      "points": 69,
+      "comments": 7,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "97517e08b38cffb384d3337df617fe3e",
@@ -403,8 +471,8 @@
       "published_at": "2026-10-08T20:42:16Z",
       "fetched_at": "2026-10-08T22:02:17.662664Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50011928",
-      "points": 148,
-      "comments": 111,
+      "points": 165,
+      "comments": 124,
       "engineering": false,
       "review": "kept",
       "importance": 2
@@ -475,7 +543,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "d4bf1bebf691c34df8c622e4f0512db6",
@@ -492,7 +560,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "15ce69be32dfd15577ca5e04f90a8e78",
@@ -777,8 +845,8 @@
       "published_at": "2026-10-08T19:04:56Z",
       "fetched_at": "2026-10-08T20:02:25.824321Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50010470",
-      "points": 109,
-      "comments": 35,
+      "points": 117,
+      "comments": 40,
       "engineering": false,
       "review": "kept",
       "importance": 2
@@ -1066,8 +1134,8 @@
       "published_at": "2026-10-08T18:11:52Z",
       "fetched_at": "2026-10-08T20:02:25.824321Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50009634",
-      "points": 15,
-      "comments": 7,
+      "points": 22,
+      "comments": 9,
       "engineering": false,
       "review": "kept",
       "importance": 2
@@ -1138,7 +1206,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "efcafabf934524d17f768d48c37b16ec",
@@ -1151,8 +1219,8 @@
       "published_at": "2026-10-08T17:51:49Z",
       "fetched_at": "2026-10-08T20:02:25.824321Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50009295",
-      "points": 248,
-      "comments": 111,
+      "points": 280,
+      "comments": 114,
       "engineering": false,
       "review": "kept",
       "importance": 2
@@ -1189,7 +1257,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "b4f76d6817a0aa1895b52fae2e047d2a",
@@ -1202,11 +1270,11 @@
       "published_at": "2026-10-08T17:39:26Z",
       "fetched_at": "2026-10-09T01:02:14.418857Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50009066",
-      "points": 5,
+      "points": 10,
       "comments": 0,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "822078f8b089cdb6b577be97d4a4d3d5",
@@ -1325,7 +1393,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "780b917e16cf0e921afbf056d504999b",
@@ -1355,8 +1423,8 @@
       "published_at": "2026-10-08T16:59:39Z",
       "fetched_at": "2026-10-08T18:02:13.368673Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50008427",
-      "points": 506,
-      "comments": 115,
+      "points": 537,
+      "comments": 120,
       "engineering": false,
       "review": "kept",
       "importance": 3
@@ -1491,8 +1559,8 @@
       "published_at": "2026-10-08T16:37:24Z",
       "fetched_at": "2026-10-08T20:02:25.824321Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50008047",
-      "points": 97,
-      "comments": 19,
+      "points": 111,
+      "comments": 20,
       "engineering": false,
       "review": "kept",
       "importance": 2
@@ -1512,7 +1580,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "34e5a91030b9d617443dbbd591196dc4",
@@ -1525,8 +1593,8 @@
       "published_at": "2026-10-08T16:34:13Z",
       "fetched_at": "2026-10-08T21:02:13.695081Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50007993",
-      "points": 20,
-      "comments": 2,
+      "points": 29,
+      "comments": 5,
       "engineering": false,
       "review": "kept",
       "importance": 2
@@ -1593,7 +1661,7 @@
       "published_at": "2026-10-08T16:20:20Z",
       "fetched_at": "2026-10-08T17:03:23.734614Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50007764",
-      "points": 82,
+      "points": 95,
       "comments": 23,
       "engineering": false,
       "review": "kept",
@@ -1665,7 +1733,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "7d74151793c0e73ccdb44c30f5592e50",
@@ -1699,7 +1767,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "dfc39b54c1a79f0001a7ddbb81a9256c",
@@ -1733,7 +1801,7 @@
       "comments": 115,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 2
     },
     {
       "id": "ec18ded30a564220dc7ab2230ce38a8e",
@@ -1750,7 +1818,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "6ff6165011af78a8ffcfc08226d03542",
@@ -1784,7 +1852,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "b80558a768dbd002a20f5b973fca7488",
@@ -1903,7 +1971,7 @@
       "comments": 1372,
       "engineering": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "5be3f50940e815dcb378135fae6cf7ed",
@@ -1920,7 +1988,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "a226650ba09ff9b0538614726b0fbb81",
@@ -1971,7 +2039,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "333cefd322967d5523b4a08a00cbdeb0",
@@ -2056,7 +2124,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "f3d2ee83b784962ab606e7f985fb72ec",
@@ -2107,7 +2175,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "96ace0faedafca209809f466a3c67b38",
@@ -2277,7 +2345,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "eaeff1db6f3decacc28e65bc81ff8c47",
@@ -2311,7 +2379,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "459308b0986ff8ccc4240b3b1ebb7649",
@@ -2362,7 +2430,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "658c2c85ffc48a4d0931f7660df3ba8c",
@@ -2379,7 +2447,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "c2d0fa7c9d930e144f57c14856c2047a",
@@ -2464,7 +2532,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "a35aff3a54931dbdc0a3a7593b92f5e8",
@@ -2668,7 +2736,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "9d3ebf2f38699c0130f6c31e1a20b649",
@@ -2753,7 +2821,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "40dbfbd9c4b832ac3dc4c153e6eb5224",
@@ -2872,7 +2940,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "1110b2fa2bd078f72ed99dccf69187e1",
@@ -3008,7 +3076,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "80b6f196574746171306a9695e27c240",
@@ -3072,8 +3140,8 @@
       "published_at": "2026-10-08T12:00:20Z",
       "fetched_at": "2026-10-08T13:02:13.866775Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50004790",
-      "points": 351,
-      "comments": 179,
+      "points": 357,
+      "comments": 181,
       "engineering": false,
       "review": "kept",
       "importance": 3
@@ -3161,7 +3229,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "9dc7bff4886c928e377d1ef5f5ae2bd7",
@@ -3212,7 +3280,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "f3bd9924aaa316e61f1c51dec460ef16",
@@ -3263,7 +3331,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "99187f1c93374f64ea06fe58be7a63e8",
@@ -3412,11 +3480,11 @@
       "published_at": "2026-10-08T10:34:15Z",
       "fetched_at": "2026-10-08T21:02:13.695081Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50004115",
-      "points": 96,
-      "comments": 63,
+      "points": 105,
+      "comments": 70,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "77ff8c2b7fef5017146540f44b1a30cb",
@@ -3450,7 +3518,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "5cf6861afdc03b911a8df70e1f4de5ed",
@@ -3501,7 +3569,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "68ec492a57b4f2a723d4b05e39079411",
@@ -3531,8 +3599,8 @@
       "published_at": "2026-10-08T09:48:18Z",
       "fetched_at": "2026-10-08T21:02:13.695081Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50003796",
-      "points": 149,
-      "comments": 61,
+      "points": 174,
+      "comments": 69,
       "engineering": false,
       "review": "kept",
       "importance": 2
@@ -3569,7 +3637,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 4
     },
     {
       "id": "de7fe54cc3fe51d59c863f5169d4f0a2",
@@ -3603,7 +3671,7 @@
       "comments": 3,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 4
     },
     {
       "id": "61f0b19c06cfa45973ba46fb54bcddea",
@@ -3654,7 +3722,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "3421f51be87fa7c8ed2199675adf2de1",
@@ -3739,7 +3807,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "3342560e963d16cf879cf2ff4d865923",
@@ -3824,7 +3892,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "0ac88ef28e41d4cbce8260fbd8ffa5f6",
@@ -3841,7 +3909,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "5956cf470be2e90db3e4df6ee4df0265",
@@ -3977,7 +4045,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "a7a99be22c3ddcce064119a06117ed50",
@@ -3994,7 +4062,7 @@
       "comments": 14,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "7c5a9185fecb42c26a8f111b6f12e4fc",
@@ -4011,7 +4079,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "149ec69a26fdbe12fadf43aa7ada00dc",
@@ -4045,7 +4113,7 @@
       "comments": 104,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "2fc4aee438d68a98df8f8529630e5334",
@@ -4062,7 +4130,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "9083bc1fa1cd1b2d1578119d04030dda",
@@ -4215,7 +4283,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "5b9bea14f07a29ccda1b7c4bc4793752",
@@ -4228,8 +4296,8 @@
       "published_at": "2026-10-08T01:33:17Z",
       "fetched_at": "2026-10-08T21:02:13.695081Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50000985",
-      "points": 98,
-      "comments": 155,
+      "points": 113,
+      "comments": 178,
       "engineering": false,
       "review": "kept",
       "importance": 3
@@ -4296,8 +4364,8 @@
       "published_at": "2026-10-08T00:14:48Z",
       "fetched_at": "2026-10-08T22:02:17.662664Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50000488",
-      "points": 378,
-      "comments": 317,
+      "points": 424,
+      "comments": 355,
       "engineering": false,
       "review": "kept",
       "importance": 4
@@ -4419,7 +4487,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "c438391fa8988163e2e29da4d4ab3f85",
@@ -4844,7 +4912,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "fceafc2495844b7e139983dccfe8551a",
@@ -4861,7 +4929,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "a936ba28026e3099b03faa65cc603738",
@@ -4946,7 +5014,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "1899a2ae900c021a03308e7be3876cdb",
@@ -5099,7 +5167,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "6e9cd09c82691f0c324a45e25454eabc",
@@ -5269,7 +5337,7 @@
       "comments": 17,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 2
     },
     {
       "id": "7fb17652061448ce2f48f437b08dc5c9",
@@ -5337,7 +5405,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "3aa4ed281b9ca3b7cb5245a643c7427b",
@@ -8432,210 +8500,151 @@
       "engineering": false,
       "review": "excluded",
       "importance": null
-    },
-    {
-      "id": "593911c5d48ab45ab2729d737d1bd133",
-      "title": "A font recreated from photographs of classic Commodore 64 keycaps",
-      "url": "https://github.com/szabadkai/c64-keyboard-font/",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-07T09:17:55Z",
-      "fetched_at": "2026-10-07T10:02:14.591658Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=49990224",
-      "points": 263,
-      "comments": 46,
-      "engineering": false,
-      "review": "excluded",
-      "importance": null
-    },
-    {
-      "id": "6db79847a5068f10b3d1815597ef7cc0",
-      "title": "Inside the Mojo compiler",
-      "url": "https://www.youtube.com/watch?v=tWWgCxRKuYo",
-      "source_id": "lobsters",
-      "source_name": "Lobsters",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-07T09:17:18Z",
-      "fetched_at": "2026-10-07T12:02:07.035811Z",
-      "discussion_url": "https://lobste.rs/s/v1amrz/inside_mojo_compiler",
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "db83eb8cc78af83e717982e759de97e3",
-      "title": "Explaining the Magelight XP glitch in Skyrim",
-      "url": "https://blog.alexbeals.com/posts/explaining-the-magelight-xp-glitch-in-skyrim",
-      "source_id": "lobsters",
-      "source_name": "Lobsters",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-07T09:08:19Z",
-      "fetched_at": "2026-10-07T10:02:14.591658Z",
-      "discussion_url": "https://lobste.rs/s/biwe7d/explaining_magelight_xp_glitch_skyrim",
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "review": "kept",
-      "importance": 2
-    },
-    {
-      "id": "9892abc741491dc2267735cab555156d",
-      "title": "The 30 Best Prime Day Deals Under $100 (2026)",
-      "url": "https://www.wired.com/story/best-prime-day-deals-under-100-10-07-2026/",
-      "source_id": "wired",
-      "source_name": "Wired",
-      "category": "tech",
-      "summary": "Everything is so expensive in 2026, but these October Prime Day Deals are all under $100 on gadgets we recommend.",
-      "published_at": "2026-10-07T09:08:10Z",
-      "fetched_at": "2026-10-07T10:02:14.591658Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "review": "excluded",
-      "importance": null
     }
   ],
   "top_stories": [
     {
       "id": "8d3111135085ae14fbd3079c10662c2c",
-      "title": "Trump Administration Suspends Tech Giants from Skilled Worker Visa Program",
-      "summary": "The Trump administration is suspending several tech companies, including Microsoft and Adobe, from an immigration program that allows employers to hire foreign workers residing permanently in the US. Vice President JD Vance stated that Microsoft has abused the system more than any other company.",
-      "why_it_matters": "This directly impacts tech companies' ability to hire and retain foreign engineering talent, potentially shifting engineering headcount requirements and recruitment strategies.",
+      "title": "US administration suspends Microsoft and other major IT firms from green card program",
+      "summary": "The Trump administration is suspending major technology companies, including Microsoft, Adobe, Capgemini, Cognizant, and Infosys, from an immigration program allowing employers to hire foreign workers for permanent residency. Vice President JD Vance stated that Microsoft has abused the employment visa system more than any other company.",
+      "why_it_matters": "This sudden suspension disrupts hiring pipelines and workforce planning for major software companies relying on skilled foreign worker visas.",
       "item_ids": [
         "8d3111135085ae14fbd3079c10662c2c",
         "6e0047e18cea656cd57bfbf06cc2e297",
         "54ef2b8a9118fa40354c1e24017ad629",
-        "8d49304e8e79b9c120f89dac8994779d",
         "da40d2106344873b50318ed16d4ff52e",
+        "8d49304e8e79b9c120f89dac8994779d",
         "6ff6165011af78a8ffcfc08226d03542"
       ],
       "primary_url": null,
       "first_shown": "2026-10-08T16:02:14.460503Z",
-      "last_shown": "2026-10-09T01:02:14.418857Z"
+      "last_shown": "2026-10-09T02:02:15.161355Z"
     },
     {
-      "id": "cfeee4749615751ae15ce128b3c2076a",
-      "title": "OpenAI Annualized Revenues Reported Significantly Lower Than Projected",
-      "summary": "A new report claims that OpenAI's annualized revenue is approximately $20 billion less than previously projected. Earlier estimates had suggested an annualized revenue figure around $70 billion.",
-      "why_it_matters": "Financial adjustments at a major frontier AI lab can impact industry-wide pricing, capital availability, and market expectations for AI infrastructure investments.",
+      "id": "c0c116ca0a9ebec81cd0c9bff6425114",
+      "title": "OpenAI annualized revenue reported to be significantly lower than previously projected",
+      "summary": "Recent reports indicate that OpenAI's annualized revenue is roughly $20 billion less than what had been previously signaled or projected. The previous reports had estimated the AI lab's annualized revenue at around $70 billion.",
+      "why_it_matters": "Significant adjustments to top-tier AI revenue figures alter market perceptions of commercial monetization timelines and enterprise demand.",
       "item_ids": [
+        "c0c116ca0a9ebec81cd0c9bff6425114",
         "cfeee4749615751ae15ce128b3c2076a",
-        "65c4e80cbb85f76ced7da3df29eaedfb",
-        "c0c116ca0a9ebec81cd0c9bff6425114"
+        "65c4e80cbb85f76ced7da3df29eaedfb"
       ],
       "primary_url": "https://www.ft.com/content/b66a9858-f8fb-46cb-b506-44bfe26fca2a?syn-25a6b1a6=1",
       "first_shown": "2026-10-08T20:02:25.824321Z",
-      "last_shown": "2026-10-09T01:02:14.418857Z"
-    },
-    {
-      "id": "171897c2af023939f3aa1b814657b68b",
-      "title": "Amazon Phases Out Fire Brand to Launch New Alexa Tablets Running Android",
-      "summary": "Amazon is phasing out its Fire tablet brand in favor of a new lineup of Alexa Tablets running proper Android with full access to the Google Play Store. The new devices include models like the Alexa Tablet 12 Pro, featuring an aluminum build and a matte display.",
-      "why_it_matters": "Shifting the tablet lineup away from the locked-down Fire OS to standard Android and Google Play changes the deployment and testing target landscape for mobile developers.",
-      "item_ids": [
-        "171897c2af023939f3aa1b814657b68b",
-        "4cc758a9f6dc03cc3e22484de09d8c0b",
-        "d3a1203d7607accb4a124b5c642e7d06",
-        "a35aff3a54931dbdc0a3a7593b92f5e8",
-        "d265f94535bf255d5d69cbe4c07632b0",
-        "95660d12a622cf3b358a28e0b2e2c507",
-        "13ccfc34ba6e3f95383beaf2c09180b1",
-        "da8bd67e185eba35a98390c969a62931"
-      ],
-      "primary_url": "https://www.threads.com/julianchokkattu",
-      "first_shown": "2026-10-07T22:02:10.119033Z",
-      "last_shown": "2026-10-09T01:02:14.418857Z"
+      "last_shown": "2026-10-09T02:02:15.161355Z"
     },
     {
       "id": "82ac04e75b39ff5d37d36af2f625aade",
-      "title": "OpenAI Withdraws Mathematical Results Following Researcher Scrutiny",
-      "summary": "OpenAI has withdrawn three mathematical results after a flood of proofs deviated from guidelines set by consulted mathematical researchers. Mathematician Terence Tao and other researchers responded to the initial document drop.",
-      "why_it_matters": "Highlights the ongoing reliability and verification challenges of applying frontier language models to formal mathematical reasoning.",
+      "title": "OpenAI withdraws mathematical documents and proofs after review",
+      "summary": "OpenAI has withdrawn three mathematical results and proofs from its repository following feedback and review. Researchers and a group of consulted mathematicians noted that the flood of proofs deviated from established field standards.",
+      "why_it_matters": "This highlights the current limitations and verification hurdles of applying automated generative models to rigorous mathematical research.",
       "item_ids": [
         "82ac04e75b39ff5d37d36af2f625aade",
-        "788290dafda8a6ecd08197def55e0a90",
-        "eec06469818b0618bf1cfd575bb853e4",
-        "44e782f4e559ce51ba61411b10264284"
+        "04f8f201fc5f8f96514ab7c2f8b11f3c",
+        "eec06469818b0618bf1cfd575bb853e4"
       ],
       "primary_url": null,
       "first_shown": "2026-10-08T20:02:25.824321Z",
-      "last_shown": "2026-10-09T01:02:14.418857Z"
+      "last_shown": "2026-10-09T02:02:15.161355Z"
     },
     {
-      "id": "4d5052df78b09995833016223baa0c8a",
-      "title": "FBI Disrupted Chinese Hacking Tools Used in Critical Infrastructure Attacks",
-      "summary": "The FBI seized seven domains used by Chinese state-sponsored hackers known as Flax Typhoon to operate the MicroScan and FishHub hacking tools. These tools were used in attacks that breached critical infrastructure and stole sensitive data worldwide.",
-      "why_it_matters": "Informing security engineers about specific state-sponsored threat indicators and infrastructure takedowns helps harden enterprise defenses against critical infrastructure attacks.",
+      "id": "171897c2af023939f3aa1b814657b68b",
+      "title": "Amazon drops Fire branding for new Android-based Alexa Tablets with Google Play",
+      "summary": "Amazon is phasing out its long-running Fire brand in favor of new Alexa Tablets that run standard Android with full access to the Google Play Store, killing off its old app store. The new lineup includes models like the $499 Alexa Tablet 12 Pro with a matte display, alongside dedicated kid versions with parental controls.",
+      "why_it_matters": "The shift from closed FireOS to standard Android and Google Play fundamentally changes Amazon's mobile hardware ecosystem for developers.",
       "item_ids": [
-        "4d5052df78b09995833016223baa0c8a",
-        "e34f5cc067922b4217963c18697d6a44"
+        "171897c2af023939f3aa1b814657b68b",
+        "95660d12a622cf3b358a28e0b2e2c507",
+        "d265f94535bf255d5d69cbe4c07632b0",
+        "d3a1203d7607accb4a124b5c642e7d06",
+        "13ccfc34ba6e3f95383beaf2c09180b1",
+        "a35aff3a54931dbdc0a3a7593b92f5e8"
       ],
       "primary_url": null,
-      "first_shown": "2026-10-08T23:02:22.848275Z",
-      "last_shown": "2026-10-09T01:02:14.418857Z"
+      "first_shown": "2026-10-07T22:02:10.119033Z",
+      "last_shown": "2026-10-09T02:02:15.161355Z"
     },
     {
-      "id": "a7d8bc8d6ef01d3b61a62bf341572534",
-      "title": "MonsterCloud Owner Charged Over Secret Ransomware Payments",
-      "summary": "The U.S. Department of Justice charged the owner of ransomware remediation company MonsterCloud with defrauding ransomware victims. The owner allegedly secretly paid attackers to decrypt data while billing clients over $19 million under the guise of proprietary recovery methods.",
-      "why_it_matters": "Exposes fraudulent practices in the cybersecurity incident response market, reminding organizations to thoroughly vet third-party remediation vendors.",
+      "id": "8c59a3d6bafe2c160786f86d7b5048bc",
+      "title": "Owner of ransomware remediation firm MonsterCloud charged over secret ransom payments",
+      "summary": "The U.S. Department of Justice has charged the owner of ransomware remediation firm MonsterCloud with defrauding ransomware victims. The owner allegedly secretly paid hackers to decrypt victim data while falsely claiming to use proprietary decryption technology and billing over $19 million.",
+      "why_it_matters": "This criminal case exposes deceptive practices within the cybersecurity incident response and negotiation market.",
       "item_ids": [
-        "a7d8bc8d6ef01d3b61a62bf341572534",
-        "f0f3f715e859cc47aa30bfb6075102e1",
-        "8c59a3d6bafe2c160786f86d7b5048bc"
+        "8c59a3d6bafe2c160786f86d7b5048bc",
+        "a7d8bc8d6ef01d3b61a62bf341572534"
       ],
       "primary_url": null,
       "first_shown": "2026-10-08T11:02:06.104692Z",
-      "last_shown": "2026-10-09T01:02:14.418857Z"
-    },
-    {
-      "id": "aad0e332dc200df25200c5bf05f7000a",
-      "title": "ICANN Reveals Applications for New Generic Top-Level Domains",
-      "summary": "ICANN has revealed the applications for its new round of generic top-level domains, revealing high interest from big tech and applicants seeking suffixes like .api, .agi, and .lan.",
-      "why_it_matters": "New domain extensions can alter namespace strategies, routing configurations, and security policies for web applications.",
-      "item_ids": [
-        "aad0e332dc200df25200c5bf05f7000a",
-        "c60a7535d87ad5064454e1dc4987c49e",
-        "70181a4672d517a29400a32649da831b",
-        "8ab205a4771d200ce172a749dc06b0d3"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-08T07:02:05.833388Z",
-      "last_shown": "2026-10-09T01:02:14.418857Z"
+      "last_shown": "2026-10-09T02:02:15.161355Z"
     },
     {
       "id": "5e86b3f1a2306cb9b8800ff359f26541",
-      "title": "ASOS Confirms Data Breach Following Social Engineering and Credential Theft",
-      "summary": "ASOS confirmed a customer data breach after hackers sent a rogue push notification claiming to have compromised cloud storage. The company confirmed the incident stemmed from social engineering and credential theft.",
-      "why_it_matters": "Provides actionable intelligence on social engineering vectors targeting enterprise customer support and cloud storage workflows.",
+      "title": "Asos confirms customer data breach following social engineering and malicious push notifications",
+      "summary": "Fashion retailer Asos confirmed a cybersecurity incident after attackers used social engineering and credential theft to breach its cloud storage. The hackers alerted customers directly by sending rogue push notifications via the company's mobile application.",
+      "why_it_matters": "Breaches leveraging cloud storage access and direct mobile notification channels highlight new vectors for customer data exposure.",
       "item_ids": [
         "5e86b3f1a2306cb9b8800ff359f26541",
         "333cefd322967d5523b4a08a00cbdeb0"
       ],
       "primary_url": null,
       "first_shown": "2026-10-08T15:02:23.584351Z",
-      "last_shown": "2026-10-09T01:02:14.418857Z"
+      "last_shown": "2026-10-09T02:02:15.161355Z"
     },
     {
       "id": "4ab09566c141485ca4cd4ca74d5f7388",
-      "title": "Tensorlake npm Package Compromised to Deliver Shai-Hulud Worm",
-      "summary": "The TypeScript SDK npm package for Tensorlake was compromised as part of a supply chain attack delivering the credential-stealing Shai-Hulud worm. Researchers detected the malicious release within minutes.",
-      "why_it_matters": "Reinforces the ongoing software supply chain security risks associated with malicious dependency injection in package registries.",
+      "title": "Tensorlake npm package compromised by Shai-Hulud credential-stealing worm",
+      "summary": "The npm package for Tensorlake, a TypeScript SDK, was compromised in a supply chain attack delivering the Shai-Hulud credential-stealing malware. Security teams detected the malicious code within minutes of its release, though the full scope of impact remains under investigation.",
+      "why_it_matters": "Package registry compromises threaten downstream software builds and demand immediate dependency audits.",
       "item_ids": [
         "4ab09566c141485ca4cd4ca74d5f7388",
         "ea74fa91e2cfe49e8bedd3759518345f"
       ],
       "primary_url": null,
       "first_shown": "2026-10-08T20:02:25.824321Z",
-      "last_shown": "2026-10-09T01:02:14.418857Z"
+      "last_shown": "2026-10-09T02:02:15.161355Z"
     },
+    {
+      "id": "4d5052df78b09995833016223baa0c8a",
+      "title": "FBI disrupts Chinese state-sponsored Flax Typhoon infrastructure and hacking tools",
+      "summary": "The FBI seized seven domains operated by Chinese state-sponsored hackers known as Flax Typhoon to disrupt critical infrastructure attacks. The operation targeted tools like MicroScan and FishHub, which had been used to infect and breach devices worldwide since 2021.",
+      "why_it_matters": "Disrupting state-backed command and control infrastructure helps protect critical operational technology and enterprise networks from ongoing espionage.",
+      "item_ids": [
+        "4d5052df78b09995833016223baa0c8a",
+        "e34f5cc067922b4217963c18697d6a44"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-08T23:02:22.848275Z",
+      "last_shown": "2026-10-09T02:02:15.161355Z"
+    },
+    {
+      "id": "975282e2b7fc4c08c3e63a9b5d99e2a2",
+      "title": "ICANN reveals heavy tech industry interest in new top-level domain applications",
+      "summary": "ICANN has revealed applications for the first new round of generic top-level domains in years, with major tech applicants piling in. High-demand suffixes include .api, .agi, and .agent, drawing intense competition among multiple applicants.",
+      "why_it_matters": "New top-level domains tailored for artificial intelligence and application programming interfaces can reshape brand namespace security and web architecture.",
+      "item_ids": [
+        "975282e2b7fc4c08c3e63a9b5d99e2a2",
+        "aad0e332dc200df25200c5bf05f7000a"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-08T07:02:05.833388Z",
+      "last_shown": "2026-10-09T02:02:15.161355Z"
+    },
+    {
+      "id": "b8f832351b266bbe12cfcccfb5722470",
+      "title": "Software pioneer Margaret Hamilton, creator of Apollo flight software, dies at 90",
+      "summary": "Margaret Hamilton, who led the software development team for NASA's Apollo program, has died at 90. Her team's onboard guidance software successfully handled a computer overload during the Apollo 11 lunar landing, and she is credited with coining the term 'software engineering.'",
+      "why_it_matters": "Remembering a foundational pioneer who defined the engineering discipline and methodologies underlying modern software development.",
+      "item_ids": [
+        "b8f832351b266bbe12cfcccfb5722470",
+        "d4bf1bebf691c34df8c622e4f0512db6"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-08T21:02:13.695081Z",
+      "last_shown": "2026-10-09T02:02:15.161355Z"
+    }
+  ],
+  "past_top_stories": [
     {
       "id": "d861c7b6b5aed633fc9bc86e29b69d1e",
       "title": "Harness Acquires Augment Code Assets Including Auggie CLI",
@@ -8648,9 +8657,7 @@
       "primary_url": null,
       "first_shown": "2026-10-09T01:02:14.418857Z",
       "last_shown": "2026-10-09T01:02:14.418857Z"
-    }
-  ],
-  "past_top_stories": [
+    },
     {
       "id": "1d01b86f02467be8c2b9a4d83b9b37a2",
       "title": "Let's Encrypt to cut SSL/TLS certificate lifetimes to 64 days",
@@ -8745,20 +8752,6 @@
         "780b917e16cf0e921afbf056d504999b"
       ],
       "primary_url": "https://www.anthropic.com/research/end-subset-conversations",
-      "first_shown": "2026-10-08T21:02:13.695081Z",
-      "last_shown": "2026-10-08T21:02:13.695081Z"
-    },
-    {
-      "id": "4b5537308716f1d5fdaf56e430c550fc",
-      "title": "Software engineering pioneer Margaret Hamilton passes away at 90",
-      "summary": "Margaret Hamilton, who coined the term \"software engineering\" and led software development for NASA's Apollo program, has died at 90. Her team's guidance computer code kept the Apollo 11 Moon landing on course during critical overloads.",
-      "why_it_matters": "Honors the foundational figure who established software engineering as a formal discipline and created life-saving code for space exploration.",
-      "item_ids": [
-        "4b5537308716f1d5fdaf56e430c550fc",
-        "d4bf1bebf691c34df8c622e4f0512db6",
-        "b8f832351b266bbe12cfcccfb5722470"
-      ],
-      "primary_url": null,
       "first_shown": "2026-10-08T21:02:13.695081Z",
       "last_shown": "2026-10-08T21:02:13.695081Z"
     },
