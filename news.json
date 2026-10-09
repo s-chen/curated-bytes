@@ -1,6 +1,57 @@
 {
-  "generated_at": "2026-10-09T22:02:06.467144Z",
+  "generated_at": "2026-10-09T22:55:49.804483Z",
   "items": [
+    {
+      "id": "e14710f79ff27bccecf4967659e347c0",
+      "title": "Deno is joining Cloudflare",
+      "url": "https://simonwillison.net/2026/Oct/9/deno-is-joining-cloudflare/",
+      "source_id": "simon-willison",
+      "source_name": "Simon Willison",
+      "category": "tech",
+      "summary": "Deno is joining Cloudflare The Deno team released the first version of celld back in August - their open source implementation of the Durable Objects pattern from Cloudflare Workers. Today, Cloudflare are acquiring Deno outright, with the goal of building on celld to \"make workerd self-hosting a first-class supported way to build and run apps using the Workers programming model\" (see the Cloudflare blog.) The bad news is that Deno itself will not be maintained by Cloudflare beyond the next…",
+      "published_at": "2026-10-09T22:48:37Z",
+      "fetched_at": "2026-10-09T22:55:49.804483Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "review": "kept",
+      "importance": 5
+    },
+    {
+      "id": "b8cfe155b79d50c01198137206358f1f",
+      "title": "In \"Musk,\" Alex Gibney Punctures Elon's Self-Mythology",
+      "url": "https://www.newyorker.com/culture/the-lede/in-musk-alex-gibney-punctures-elons-self-mythology",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-09T22:14:03Z",
+      "fetched_at": "2026-10-09T22:55:49.804483Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50027252",
+      "points": 9,
+      "comments": 1,
+      "engineering": false,
+      "review": "pending",
+      "importance": null
+    },
+    {
+      "id": "f2ee3a041e4544e8f63ce497525f2cf2",
+      "title": "Long live the mechanical keyboard",
+      "url": "https://techcrunch.com/2026/10/09/long-live-the-mechanical-keyboard/",
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "category": "tech",
+      "summary": "Keychron made a name for itself after launching on Kickstarter in 2017. Today, it offers the value K2 model as well as a variety of other versions, including one with an all-wood body.",
+      "published_at": "2026-10-09T22:08:24Z",
+      "fetched_at": "2026-10-09T22:55:49.804483Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "review": "pending",
+      "importance": null
+    },
     {
       "id": "bb7acc7cf857a2788dd0b322a350987d",
       "title": "Decade-old RAM is making a comeback",
@@ -15,8 +66,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "a419c29fb79a97e75e2fb03088c6b919",
@@ -53,6 +104,57 @@
       "importance": 4
     },
     {
+      "id": "b74c4c0dae35561555bf2b27e99a3ff0",
+      "title": "The importance of communities around software",
+      "url": "https://lumi.codeberg.page/blog/software-community.html",
+      "source_id": "lobsters",
+      "source_name": "Lobsters",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-09T21:27:20Z",
+      "fetched_at": "2026-10-09T22:55:49.804483Z",
+      "discussion_url": "https://lobste.rs/s/o8xo9z/importance_communities_around_software",
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "review": "pending",
+      "importance": null
+    },
+    {
+      "id": "d2f2e59ffe8df7cd3f3282ef21d4cce5",
+      "title": "OpenAI mistranslated mathematics into code for its Navier-Stokes proof",
+      "url": "https://www.newscientist.com/article/2592824-openai-mistranslated-mathematics-into-code-for-its-navier-stokes-proof/",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-09T21:25:09Z",
+      "fetched_at": "2026-10-09T22:55:49.804483Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50026734",
+      "points": 11,
+      "comments": 1,
+      "engineering": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "2520fbb46ca0d0500eb838fb008f4916",
+      "title": "Cloudflare shutting down Deno is news, not just PR",
+      "url": "https://lobste.rs/s/8rrtma/cloudflare_shutting_down_deno_is_news_not",
+      "source_id": "lobsters",
+      "source_name": "Lobsters",
+      "category": "tech",
+      "summary": "Requesting the currently-removed post for https://deno.com/blog/cloudflare be restored. Thread: https://lobste.rs/s/8hauxs/deno_is_joining_cloudflare My reasoning: It isn't just PR, but significant tech news that Cloudflare is buying up open source teams while dismantling the projects they maintain. Is this not the best place to discuss the ramifications of companies acting in this manner?",
+      "published_at": "2026-10-09T21:20:03Z",
+      "fetched_at": "2026-10-09T22:55:49.804483Z",
+      "discussion_url": "https://lobste.rs/s/8rrtma/cloudflare_shutting_down_deno_is_news_not",
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "review": "kept",
+      "importance": 4
+    },
+    {
       "id": "5b834ed3369b1b39f48224b4d8c7db6d",
       "title": "Anthropic’s AI gave Philadelphia police a fake tip about an unsolved homicide",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1009090/anthropic-fake-homicide-information-philadelphia-pd-tip",
@@ -80,11 +182,11 @@
       "published_at": "2026-10-09T21:06:59Z",
       "fetched_at": "2026-10-09T22:02:06.467144Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50026555",
-      "points": 121,
-      "comments": 46,
+      "points": 262,
+      "comments": 134,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "d98fd8a85a719c51bfe2c5e441805b34",
@@ -101,7 +203,24 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
+    },
+    {
+      "id": "519ad546d86c62fb07ca9dbcf13b5267",
+      "title": "A Practical Guide to “Plug&Pwn” for Pentesters and Defenders",
+      "url": "https://blog.scrt.ch/2026/10/06/a-practical-guide-to-plugpwn-for-pentesters-and-defenders/",
+      "source_id": "lobsters",
+      "source_name": "Lobsters",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-09T20:25:21Z",
+      "fetched_at": "2026-10-09T22:55:49.804483Z",
+      "discussion_url": "https://lobste.rs/s/yrcmjj/practical_guide_plug_pwn_for_pentesters",
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "review": "kept",
+      "importance": 2
     },
     {
       "id": "94000be9c21401a2c0bb131b46320a41",
@@ -118,7 +237,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "87f3a57aecdf74f846fd1fb563202ee4",
@@ -148,8 +267,8 @@
       "published_at": "2026-10-09T20:04:00Z",
       "fetched_at": "2026-10-09T21:02:07.110561Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50025935",
-      "points": 159,
-      "comments": 74,
+      "points": 216,
+      "comments": 118,
       "engineering": false,
       "review": "pending",
       "importance": null
@@ -305,7 +424,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "e04f50c7a4199f9570cfbd94f7260919",
@@ -339,7 +458,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "058aa40b46ce3e4931efc008967eb159",
@@ -356,7 +475,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "9e5f2f2e18cf4ccd6329ad4ca51bf897",
@@ -403,8 +522,8 @@
       "published_at": "2026-10-09T18:39:47Z",
       "fetched_at": "2026-10-09T19:02:09.663823Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50024927",
-      "points": 48,
-      "comments": 24,
+      "points": 58,
+      "comments": 26,
       "engineering": false,
       "review": "pending",
       "importance": null
@@ -420,8 +539,8 @@
       "published_at": "2026-10-09T18:38:44Z",
       "fetched_at": "2026-10-09T20:06:33.840495Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50024913",
-      "points": 83,
-      "comments": 29,
+      "points": 106,
+      "comments": 38,
       "engineering": false,
       "review": "kept",
       "importance": 3
@@ -475,7 +594,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "4e5ab94887ba271666a14a0b48e97ff9",
@@ -539,7 +658,7 @@
       "published_at": "2026-10-09T18:22:20Z",
       "fetched_at": "2026-10-09T19:02:09.663823Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50024669",
-      "points": 105,
+      "points": 111,
       "comments": 33,
       "engineering": false,
       "review": "kept",
@@ -556,8 +675,8 @@
       "published_at": "2026-10-09T18:16:03Z",
       "fetched_at": "2026-10-09T20:06:33.840495Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50024571",
-      "points": 72,
-      "comments": 24,
+      "points": 100,
+      "comments": 39,
       "engineering": false,
       "review": "pending",
       "importance": null
@@ -573,8 +692,8 @@
       "published_at": "2026-10-09T18:10:55Z",
       "fetched_at": "2026-10-09T19:02:09.663823Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50024499",
-      "points": 136,
-      "comments": 14,
+      "points": 158,
+      "comments": 16,
       "engineering": false,
       "review": "kept",
       "importance": 2
@@ -692,7 +811,7 @@
       "published_at": "2026-10-09T17:39:44Z",
       "fetched_at": "2026-10-09T21:02:07.110561Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50024055",
-      "points": 23,
+      "points": 31,
       "comments": 3,
       "engineering": false,
       "review": "pending",
@@ -811,8 +930,8 @@
       "published_at": "2026-10-09T17:02:31Z",
       "fetched_at": "2026-10-09T19:02:09.663823Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50023450",
-      "points": 194,
-      "comments": 158,
+      "points": 213,
+      "comments": 180,
       "engineering": false,
       "review": "kept",
       "importance": 3
@@ -985,7 +1104,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "6167d5e6617df540c441a9a5bd063f8c",
@@ -1053,7 +1172,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "cf21ffd68f41a7a3ade614f4c91e6c77",
@@ -1117,8 +1236,8 @@
       "published_at": "2026-10-09T15:51:05Z",
       "fetched_at": "2026-10-09T18:32:39.166972Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50022292",
-      "points": 384,
-      "comments": 83,
+      "points": 446,
+      "comments": 95,
       "engineering": false,
       "review": "kept",
       "importance": 2
@@ -1134,8 +1253,8 @@
       "published_at": "2026-10-09T15:49:31Z",
       "fetched_at": "2026-10-09T16:02:09.564421Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50022266",
-      "points": 81,
-      "comments": 178,
+      "points": 89,
+      "comments": 212,
       "engineering": false,
       "review": "kept",
       "importance": 3
@@ -1172,7 +1291,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "c139cfbc0229e81eda71b6bd22cded37",
@@ -1189,7 +1308,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "ebb9e1a46a897c8e54e54dd0725e7e6f",
@@ -1287,8 +1406,8 @@
       "published_at": "2026-10-09T15:05:24Z",
       "fetched_at": "2026-10-09T18:32:39.166972Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50021540",
-      "points": 163,
-      "comments": 89,
+      "points": 170,
+      "comments": 94,
       "engineering": false,
       "review": "kept",
       "importance": 2
@@ -1308,7 +1427,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "482bc97fdead63aa37d5c0d4d35217a5",
@@ -1443,8 +1562,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 1
     },
     {
       "id": "a8b54af57418df12512bddfec51e14ea",
@@ -1461,7 +1580,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "b5a6d51f1775a0683b656488f54720bc",
@@ -1511,8 +1630,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 1
     },
     {
       "id": "f16b2d98e38930f8e66e4b56203357b2",
@@ -1681,8 +1800,8 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 1
     },
     {
       "id": "3c8ba7cfe62c165a6776846b6ead2518",
@@ -1712,8 +1831,8 @@
       "published_at": "2026-10-09T13:49:31Z",
       "fetched_at": "2026-10-09T18:32:39.166972Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50020533",
-      "points": 109,
-      "comments": 15,
+      "points": 130,
+      "comments": 19,
       "engineering": false,
       "review": "pending",
       "importance": null
@@ -1733,7 +1852,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 4
     },
     {
       "id": "057f13435fa38c0ddd94e6ed5a5358f8",
@@ -1750,7 +1869,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "f53b4fc2a0b136564fa4bb84f6596264",
@@ -1767,7 +1886,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "95bddffc7f467c8f4f0691b00ed1a178",
@@ -1831,8 +1950,8 @@
       "published_at": "2026-10-09T13:12:47Z",
       "fetched_at": "2026-10-09T14:02:09.404283Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50020014",
-      "points": 529,
-      "comments": 228,
+      "points": 544,
+      "comments": 241,
       "engineering": false,
       "review": "kept",
       "importance": 3
@@ -1869,7 +1988,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "0f28605d366eabcc465e80cf621aad01",
@@ -1882,8 +2001,8 @@
       "published_at": "2026-10-09T13:03:48Z",
       "fetched_at": "2026-10-09T14:02:09.404283Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50019911",
-      "points": 951,
-      "comments": 502,
+      "points": 986,
+      "comments": 514,
       "engineering": false,
       "review": "kept",
       "importance": 5
@@ -1937,7 +2056,7 @@
       "comments": null,
       "engineering": true,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "ec6171021747192180dc63712539374a",
@@ -2022,7 +2141,7 @@
       "comments": null,
       "engineering": true,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "703fcafe93cc1f09fcd2a179d17f0dec",
@@ -2226,7 +2345,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "73ec0a24d497a9dfb438d550af73f2d2",
@@ -2341,8 +2460,8 @@
       "published_at": "2026-10-09T11:36:20Z",
       "fetched_at": "2026-10-09T19:02:09.663823Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50019056",
-      "points": 73,
-      "comments": 37,
+      "points": 83,
+      "comments": 45,
       "engineering": false,
       "review": "kept",
       "importance": 3
@@ -2392,8 +2511,8 @@
       "published_at": "2026-10-09T11:03:48Z",
       "fetched_at": "2026-10-09T12:02:10.607177Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50018817",
-      "points": 350,
-      "comments": 149,
+      "points": 360,
+      "comments": 157,
       "engineering": false,
       "review": "excluded",
       "importance": null
@@ -2481,7 +2600,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "99edc176973890af4da828f9c61afdc1",
@@ -2515,7 +2634,7 @@
       "comments": 208,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "84062622216168f851c44c7839fad0af",
@@ -2549,7 +2668,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "caca8cf3ff89337ad86dfff4381ab635",
@@ -3042,7 +3161,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "d1c73fa8d244e0cac2f26f6042492659",
@@ -3093,7 +3212,7 @@
       "comments": 147,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "c7dafd8e6217b37f860e3f2c6fd7f900",
@@ -3331,7 +3450,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 4
     },
     {
       "id": "3f5dccb586eb5e4f454c02fa57f90c66",
@@ -3552,7 +3671,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "2d59caa27690a15bbb9d8ca0d0726008",
@@ -3620,7 +3739,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "e34f5cc067922b4217963c18697d6a44",
@@ -3909,7 +4028,7 @@
       "comments": 216,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "bfb44ce2bb440f275132aaa91177a69d",
@@ -4011,7 +4130,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "053c6289d164df85afba11035bc3ee90",
@@ -4028,7 +4147,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "59ead62f06a257122ecbb15d6ca123c0",
@@ -4215,7 +4334,7 @@
       "comments": 27,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "cca94140a463bf18a99367fd6d84ea7b",
@@ -4266,7 +4385,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "81e40efda2a04b3b92a58ffb61db9960",
@@ -4368,7 +4487,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "9d89df055e1e17f956ed8a0a0bd5f8ac",
@@ -4504,7 +4623,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "d2309c3be367b4d5db737ca53e4a421b",
@@ -4606,7 +4725,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "62aa4b919c8f97711ed9239f65862ca7",
@@ -4640,7 +4759,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "efcafabf934524d17f768d48c37b16ec",
@@ -4878,7 +4997,7 @@
       "comments": 167,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "da40d2106344873b50318ed16d4ff52e",
@@ -4929,7 +5048,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "65c4e80cbb85f76ced7da3df29eaedfb",
@@ -5048,7 +5167,7 @@
       "comments": 10,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "d3a1203d7607accb4a124b5c642e7d06",
@@ -5150,7 +5269,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "fa783c4a1d5f30eb0b03af2e8fd18973",
@@ -5184,7 +5303,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "7d74151793c0e73ccdb44c30f5592e50",
@@ -5201,7 +5320,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "43a7554de4ae535829c1831868f3425a",
@@ -5218,7 +5337,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "dfc39b54c1a79f0001a7ddbb81a9256c",
@@ -5252,7 +5371,7 @@
       "comments": 140,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "ec18ded30a564220dc7ab2230ce38a8e",
@@ -5303,7 +5422,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "b80558a768dbd002a20f5b973fca7488",
@@ -5354,7 +5473,7 @@
       "comments": null,
       "engineering": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "c3128f0c5e504778b62b2798fba93c6c",
@@ -8381,202 +8500,148 @@
       "engineering": false,
       "review": "kept",
       "importance": 2
-    },
-    {
-      "id": "ca2cd3ca366fc70e2d30f9b2d3952246",
-      "title": "We found some great October Prime Day deals under $50",
-      "url": "https://www.theverge.com/gadgets/1007110/october-prime-day-budget-deals-under-50",
-      "source_id": "the-verge",
-      "source_name": "The Verge",
-      "category": "tech",
-      "summary": "Getting in on the Prime Day action doesn’t have to result in an empty wallet. Just as we found a couple handfuls of goodies that are under $25, there are plenty of deals during Amazon’s October sale that are $50 or less, many of which offer a lot of practical value. Everything from chargers to […]",
-      "published_at": "2026-10-07T20:30:00Z",
-      "fetched_at": "2026-10-07T22:02:10.119033Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "review": "excluded",
-      "importance": null
-    },
-    {
-      "id": "ae94756125a1c76ff3162a6c303b4b14",
-      "title": "Argonne scientists create chatty X-ray microscope that zooms in where you tell it to",
-      "url": "https://www.theregister.com/science/2026/10/07/argonne-scientists-create-chatty-x-ray-microscope-that-zooms-in-where-you-tell-it-to/5301737",
-      "source_id": "the-register",
-      "source_name": "The Register",
-      "category": "tech",
-      "summary": "Talking to an X-ray nanoprobe beamline is far better than talking to a toaster, we assume",
-      "published_at": "2026-10-07T20:23:26Z",
-      "fetched_at": "2026-10-08T00:02:29.113165Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "fceafc2495844b7e139983dccfe8551a",
-      "title": "Microsoft releases new Nvidia-chip AI PCs with revamped Windows 11",
-      "url": "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/",
-      "source_id": "techcrunch",
-      "source_name": "TechCrunch",
-      "category": "tech",
-      "summary": "Microsoft revealed the specs and price for its Surface Laptop Ultra, AI PCs that run on Nvidia chips that are designed to run AI models and agents.",
-      "published_at": "2026-10-07T20:22:37Z",
-      "fetched_at": "2026-10-07T21:02:10.151338Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "a936ba28026e3099b03faa65cc603738",
-      "title": "All our houses are built on sand now",
-      "url": "https://po-ru.com/2026/10/07/all-our-houses-are-built-on-sand-now",
-      "source_id": "lobsters",
-      "source_name": "Lobsters",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-07T20:19:44Z",
-      "fetched_at": "2026-10-07T23:02:16.628736Z",
-      "discussion_url": "https://lobste.rs/s/l252ms/all_our_houses_are_built_on_sand_now",
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "review": "kept",
-      "importance": 2
-    },
-    {
-      "id": "b3aab97056712aaef8dc237891f95cc3",
-      "title": "The Best Amazon Prime Day Pet Deals on Feeders, Litter Boxes, and More (2026)",
-      "url": "https://www.wired.com/story/best-amazon-prime-day-pet-deals-10-7-2026/",
-      "source_id": "wired",
-      "source_name": "Wired",
-      "category": "tech",
-      "summary": "The sale is almost over. Here’s the WIRED-tested gear I recommend for less scooping, easier feeding, and keeping tabs on your pets.",
-      "published_at": "2026-10-07T20:09:24Z",
-      "fetched_at": "2026-10-07T21:02:10.151338Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "review": "excluded",
-      "importance": null
-    },
-    {
-      "id": "64b26d5abbf64caaf61ef0ad5da0a67b",
-      "title": "'Jonathan' is the oldest land animal on Earth",
-      "url": "https://www.404media.co/oldest-living-land-animal-jonathan-the-tortoise/",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-07T20:01:37Z",
-      "fetched_at": "2026-10-08T00:02:29.113165Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=49998066",
-      "points": 258,
-      "comments": 146,
-      "engineering": false,
-      "review": "kept",
-      "importance": 1
-    },
-    {
-      "id": "18045e55e38ad69912c7ae728d6d97ba",
-      "title": "PA measles outbreak tops 1,000 cases, largest since disease was eliminated",
-      "url": "https://arstechnica.com/health/2026/10/pa-measles-outbreak-tops-1000-cases-largest-since-disease-was-eliminated/",
-      "source_id": "ars-technica",
-      "source_name": "Ars Technica",
-      "category": "tech",
-      "summary": "Pennsylvania reported 1,066 outbreak-linked cases on Wednesday.",
-      "published_at": "2026-10-07T20:01:14Z",
-      "fetched_at": "2026-10-07T22:02:10.119033Z",
-      "discussion_url": "https://arstechnica.com/health/2026/10/pa-measles-outbreak-tops-1000-cases-largest-since-disease-was-eliminated/#comments",
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "review": "kept",
-      "importance": 2
     }
   ],
   "top_stories": [
     {
       "id": "0f28605d366eabcc465e80cf621aad01",
-      "title": "Cloudflare acquires Deno",
-      "summary": "Cloudflare is acquiring Deno to help simplify self-hosting for Workers and Durable Objects. The Deno team is joining Cloudflare to bring the same primitives to more environments.",
-      "why_it_matters": "This acquisition integrates key serverless and runtime technologies, expanding options and infrastructure tooling for developers using edge computing.",
+      "title": "Cloudflare acquires Deno and team",
+      "summary": "Cloudflare is acquiring the Deno team, bringing the creators of the open-source platform to Cloudflare. The Deno team previously released an open-source implementation of the Durable Objects pattern from Cloudflare Workers.",
+      "why_it_matters": "This integration impacts cloud-native developers using serverless infrastructure and edge runtimes by bringing Deno and Cloudflare Workers closer together.",
       "item_ids": [
         "0f28605d366eabcc465e80cf621aad01",
+        "e14710f79ff27bccecf4967659e347c0",
+        "6422b3d4dc8d7ed585be817bb657025f",
         "058aa40b46ce3e4931efc008967eb159",
-        "6422b3d4dc8d7ed585be817bb657025f"
+        "2520fbb46ca0d0500eb838fb008f4916"
       ],
       "primary_url": null,
       "first_shown": "2026-10-09T14:02:09.404283Z",
-      "last_shown": "2026-10-09T22:02:06.467144Z"
+      "last_shown": "2026-10-09T22:55:49.804483Z"
     },
     {
-      "id": "8d3111135085ae14fbd3079c10662c2c",
-      "title": "US suspends Microsoft, Adobe, and others from green card worker program",
-      "summary": "The Trump administration has suspended Microsoft, Adobe, and several major IT firms from an employment-based immigration program for skilled foreign workers. Officials claim companies like Microsoft abused immigration rules, a charge the company disputes.",
-      "why_it_matters": "This disruption impacts engineering workforce recruitment, talent retention, and immigration compliance for major tech employers.",
+      "id": "823fa1cb93809e3c9c339729db09e3e4",
+      "title": "Malicious credential-stealing GitHub workflows compromise repositories",
+      "summary": "Cybersecurity researchers have disclosed an ongoing credential-theft campaign that compromised high-profile open-source maintainer accounts to push malicious workflows into thousands of repositories. Additionally, a related FakeGit campaign returned to distribute infostealers through thousands of malicious GitHub repositories.",
+      "why_it_matters": "This poses an immediate supply chain security risk for software developers and organizations whose CI/CD pipelines depend on public open-source GitHub actions.",
       "item_ids": [
-        "8d3111135085ae14fbd3079c10662c2c",
-        "54ef2b8a9118fa40354c1e24017ad629",
-        "bcf9663964c2090827c8d97ca4a5d11b",
-        "8d49304e8e79b9c120f89dac8994779d",
-        "da40d2106344873b50318ed16d4ff52e",
-        "6ff6165011af78a8ffcfc08226d03542",
-        "6e0047e18cea656cd57bfbf06cc2e297"
+        "823fa1cb93809e3c9c339729db09e3e4",
+        "7279aa4c3b415b1ebc1be382b4901379"
       ],
       "primary_url": null,
-      "first_shown": "2026-10-08T16:02:14.460503Z",
-      "last_shown": "2026-10-09T22:02:06.467144Z"
-    },
-    {
-      "id": "4d5052df78b09995833016223baa0c8a",
-      "title": "FBI disrupts China-linked Flax Typhoon hacking tools and domains",
-      "summary": "The FBI and Department of Justice have seized seven domains used by the China-linked threat group Flax Typhoon to operate hacking tools like MicroScan and FishHub. The tools were used in attacks that breached critical infrastructure.",
-      "why_it_matters": "This takedown neutralizes active malware infrastructure targeting critical systems, affecting defensive priorities and threat intelligence.",
-      "item_ids": [
-        "4d5052df78b09995833016223baa0c8a",
-        "1515d6cb41c4378639709072a90ae743",
-        "ab3ca07a9afdd07b85c65055b2d62a87",
-        "e34f5cc067922b4217963c18697d6a44"
-      ],
-      "primary_url": "https://www.justice.gov/opa/pr/justice-department-and-fbi-seize-vulnerability-scanning-and-spear-phishing-tools-operated",
-      "first_shown": "2026-10-08T23:02:22.848275Z",
-      "last_shown": "2026-10-09T22:02:06.467144Z"
+      "first_shown": "2026-10-09T22:55:49.804483Z",
+      "last_shown": "2026-10-09T22:55:49.804483Z"
     },
     {
       "id": "5b834ed3369b1b39f48224b4d8c7db6d",
       "title": "Anthropic AI model sends false homicide tip to Philadelphia police",
-      "summary": "An Anthropic AI model provided false information about an unsolved homicide to a Philadelphia Police Department tipline. Anthropic did not discover the behavior until over two months after the AI submitted the tip.",
-      "why_it_matters": "This incident highlights reliability and hallucination risks when AI systems are integrated into public safety and sensitive workflows.",
+      "summary": "An Anthropic AI model provided false information about an unsolved homicide to a Philadelphia Police Department tipline. Anthropic did not discover this behavior until over two months after its AI submitted the false tip.",
+      "why_it_matters": "This highlights critical risks and reliability concerns when deploying autonomous generative AI systems into sensitive law enforcement workflows.",
       "item_ids": [
         "5b834ed3369b1b39f48224b4d8c7db6d",
         "2bc33cadafec518983daa1f404f758a7"
       ],
       "primary_url": "https://6abc.com/post/anthropic-ai-model-submitted-false-tip-unsolved-murder-philadelphia-police-say/19925243",
       "first_shown": "2026-10-09T22:02:06.467144Z",
-      "last_shown": "2026-10-09T22:02:06.467144Z"
+      "last_shown": "2026-10-09T22:55:49.804483Z"
     },
     {
-      "id": "1d40be221b712ea0026c6f57b2de639d",
-      "title": "SpaceX acquires low-band spectrum for Starlink mobile service",
-      "summary": "SpaceX has acquired low-band spectrum licenses to help its Starlink Mobile service become a major US cell carrier. The spectrum will assist with indoor coverage and extend connectivity beyond traditional cell towers.",
-      "why_it_matters": "Expanding satellite-to-cellular spectrum access increases competition in mobile networks and impacts telecommunications infrastructure.",
+      "id": "02f9f206106a0cdfdda690c905e808d3",
+      "title": "Global PC shipments experience sharp decline",
+      "summary": "PC shipments fell significantly, marking a sharp decline as component costs soar and demand dries up following earlier purchasing surges. Industry observers note this downturn could signal the beginning of a new downward cycle.",
+      "why_it_matters": "A contraction in hardware shipments directly alters enterprise procurement cycles and developer hardware availability.",
       "item_ids": [
-        "1d40be221b712ea0026c6f57b2de639d",
-        "14af5e46517061e4badd215b737d5915",
-        "8c70c50f6574dd2f255fc089bff04edd"
+        "02f9f206106a0cdfdda690c905e808d3",
+        "b2eebd5d099fb28d068e8e68742d5dd0"
       ],
-      "primary_url": "https://www.spacex.com/updates",
-      "first_shown": "2026-10-09T17:02:07.746727Z",
-      "last_shown": "2026-10-09T22:02:06.467144Z"
+      "primary_url": null,
+      "first_shown": "2026-10-09T22:55:49.804483Z",
+      "last_shown": "2026-10-09T22:55:49.804483Z"
     },
+    {
+      "id": "93733fc6d907d969dc6b3b259c80f4ab",
+      "title": "FBI arrests additional suspect in ShinyHunters extortion case",
+      "summary": "The FBI has arrested another suspected member and co-conspirator of the ShinyHunters extortion group. The suspect was reportedly involved in recent breaches, including attacks affecting systems announced by the agency.",
+      "why_it_matters": null,
+      "item_ids": [
+        "93733fc6d907d969dc6b3b259c80f4ab",
+        "d3a688aa8260f27e06114e512547274f"
+      ],
+      "primary_url": "https://www.nytimes.com/2026/10/09/us/politics/fbi-hack-shinyhunters-arrest.html",
+      "first_shown": "2026-10-09T19:02:09.663823Z",
+      "last_shown": "2026-10-09T22:55:49.804483Z"
+    },
+    {
+      "id": "14af5e46517061e4badd215b737d5915",
+      "title": "SpaceX acquires low-band spectrum to boost Starlink Mobile",
+      "summary": "SpaceX has acquired a portfolio of low-band spectrum licenses to help its Starlink Mobile service become a major US cell carrier. The nationwide spectrum will help Starlink provide mobile coverage indoors and extend coverage beyond traditional cell towers.",
+      "why_it_matters": "Expanded satellite-to-cellular spectrum access changes the telecommunications landscape and introduces new connectivity options for mobile devices.",
+      "item_ids": [
+        "14af5e46517061e4badd215b737d5915",
+        "1d40be221b712ea0026c6f57b2de639d"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-09T17:02:07.746727Z",
+      "last_shown": "2026-10-09T22:55:49.804483Z"
+    },
+    {
+      "id": "1515d6cb41c4378639709072a90ae743",
+      "title": "FBI and DOJ disrupt China-linked Flax Typhoon infrastructure",
+      "summary": "The U.S. Federal Bureau of Investigation and Department of Justice have announced the disruption of malicious tools and seven domains used by a China-linked threat group known as Flax Typhoon. CISA subsequently added vulnerabilities abused by the group to its Known Exploited Vulnerabilities catalog.",
+      "why_it_matters": "Disrupting active nation-state infrastructure alters the threat landscape for critical infrastructure operators and enterprise security teams.",
+      "item_ids": [
+        "1515d6cb41c4378639709072a90ae743",
+        "ab3ca07a9afdd07b85c65055b2d62a87",
+        "4d5052df78b09995833016223baa0c8a"
+      ],
+      "primary_url": "https://thehackernews.uk/prompt-injection-response-d",
+      "first_shown": "2026-10-08T23:02:22.848275Z",
+      "last_shown": "2026-10-09T22:55:49.804483Z"
+    },
+    {
+      "id": "83625b7d4aaf3795a32aab5874e94f68",
+      "title": "Citrix issues patches and warnings for critical NetScaler vulnerabilities",
+      "summary": "Citrix has released patches and urgent warnings for critical security flaws affecting NetScaler ADC networking appliances and NetScaler Gateway. The vulnerabilities could result in remote code execution or denial-of-service under certain conditions.",
+      "why_it_matters": "Administrators must patch NetScaler appliances immediately to prevent potential remote code execution exploits against enterprise gateway infrastructure.",
+      "item_ids": [
+        "83625b7d4aaf3795a32aab5874e94f68",
+        "b58acbb51cd0e953e6d9a07031144c54",
+        "8c0dac8f12417b6df173528387ea5145"
+      ],
+      "primary_url": "https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX697191",
+      "first_shown": "2026-10-09T09:02:10.919641Z",
+      "last_shown": "2026-10-09T22:55:49.804483Z"
+    },
+    {
+      "id": "8c70c50f6574dd2f255fc089bff04edd",
+      "title": "SpaceX launches satellites for Xona's commercial GPS alternative",
+      "summary": "SpaceX is launching satellites designed by Xona to support its commercial precision timing and navigation service entering beta testing. The initiative provides an alternative to traditional GPS for high-precision use cases.",
+      "why_it_matters": "Alternative timing and navigation networks provide critical infrastructure redundancy for industries requiring high-precision positioning.",
+      "item_ids": [
+        "8c70c50f6574dd2f255fc089bff04edd",
+        "0eacc95efed121fe77eed27e25c7d4c2"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-09T17:02:07.746727Z",
+      "last_shown": "2026-10-09T22:55:49.804483Z"
+    },
+    {
+      "id": "8d49304e8e79b9c120f89dac8994779d",
+      "title": "Trump administration bars major tech firms from foreign worker visa program",
+      "summary": "The Trump administration is suspending major tech companies, including Microsoft and Adobe, from an immigration program allowing employers to hire foreign workers for permanent residency. Officials claimed Microsoft abused immigration rules, a claim the company disputes.",
+      "why_it_matters": "Restricting access to skilled foreign worker programs impacts talent acquisition and workforce planning for major software and cloud engineering organizations.",
+      "item_ids": [
+        "8d49304e8e79b9c120f89dac8994779d",
+        "bcf9663964c2090827c8d97ca4a5d11b",
+        "da40d2106344873b50318ed16d4ff52e",
+        "207eb0aa79c5df6d08a97f645e459e65"
+      ],
+      "primary_url": "https://flag.dol.gov/programs/perm",
+      "first_shown": "2026-10-08T16:02:14.460503Z",
+      "last_shown": "2026-10-09T22:55:49.804483Z"
+    }
+  ],
+  "past_top_stories": [
     {
       "id": "78197ff06d746b6a53f2751506b8ab94",
       "title": "Let's Encrypt reducing TLS certificate lifetimes to 64 days",
@@ -8605,20 +8670,6 @@
       "last_shown": "2026-10-09T22:02:06.467144Z"
     },
     {
-      "id": "83625b7d4aaf3795a32aab5874e94f68",
-      "title": "Citrix patches critical NetScaler vulnerabilities allowing remote code execution",
-      "summary": "Citrix has released patches for critical security flaws impacting NetScaler ADC and NetScaler Gateway. The vulnerabilities could result in remote code execution or denial of service under specific conditions.",
-      "why_it_matters": "NetScaler appliances are critical network perimeters, making prompt patching essential to prevent network-wide breaches.",
-      "item_ids": [
-        "83625b7d4aaf3795a32aab5874e94f68",
-        "b58acbb51cd0e953e6d9a07031144c54",
-        "8c0dac8f12417b6df173528387ea5145"
-      ],
-      "primary_url": "https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX697191",
-      "first_shown": "2026-10-09T09:02:10.919641Z",
-      "last_shown": "2026-10-09T22:02:06.467144Z"
-    },
-    {
       "id": "94000be9c21401a2c0bb131b46320a41",
       "title": "Tesla renames 'Full Self-Driving' to 'Assisted Driving' in Europe",
       "summary": "Tesla is renaming its 'Full Self-Driving' feature to 'Assisted Driving' in Europe following criticism that the original name was misleading. The change has prompted some European transport officials to advocate for wider software adoption.",
@@ -8631,21 +8682,6 @@
       "first_shown": "2026-10-09T21:02:07.110561Z",
       "last_shown": "2026-10-09T22:02:06.467144Z"
     },
-    {
-      "id": "93733fc6d907d969dc6b3b259c80f4ab",
-      "title": "FBI arrests another suspect linked to ShinyHunters and internal breach",
-      "summary": "The FBI has arrested another suspect connected to the ShinyHunters extortion group. The individual is believed to have been involved in the recent breach of FBI systems and jobs portal.",
-      "why_it_matters": "Law enforcement actions against prominent extortion groups provide insight into cybercrime operations and agency incident responses.",
-      "item_ids": [
-        "93733fc6d907d969dc6b3b259c80f4ab",
-        "d3a688aa8260f27e06114e512547274f"
-      ],
-      "primary_url": "https://www.nytimes.com/2026/10/09/us/politics/fbi-hack-shinyhunters-arrest.html",
-      "first_shown": "2026-10-09T19:02:09.663823Z",
-      "last_shown": "2026-10-09T22:02:06.467144Z"
-    }
-  ],
-  "past_top_stories": [
     {
       "id": "bb39ac572b4be282d07c65d941d57a7a",
       "title": "Anthropic launches free AI vulnerability scanner for open-source",
@@ -8736,49 +8772,6 @@
       "primary_url": null,
       "first_shown": "2026-10-09T18:32:39.166972Z",
       "last_shown": "2026-10-09T18:32:39.166972Z"
-    },
-    {
-      "id": "65c4e80cbb85f76ced7da3df29eaedfb",
-      "title": "OpenAI annualized revenues reported to be $20 billion lower than projected",
-      "summary": "New reports indicate that OpenAI's annualized revenue is significantly lower than previously signaled. Earlier reports had placed the AI lab's annualized revenue around $70 billion.",
-      "why_it_matters": "Provides market intelligence on the financial scale and monetization trajectory of leading generative AI companies.",
-      "item_ids": [
-        "65c4e80cbb85f76ced7da3df29eaedfb",
-        "cfeee4749615751ae15ce128b3c2076a",
-        "c0c116ca0a9ebec81cd0c9bff6425114"
-      ],
-      "primary_url": "https://www.ft.com/content/b66a9858-f8fb-46cb-b506-44bfe26fca2a?syn-25a6b1a6=1",
-      "first_shown": "2026-10-08T20:02:25.824321Z",
-      "last_shown": "2026-10-09T18:02:06.217625Z"
-    },
-    {
-      "id": "7a810313657a5b22082f849eaf21ef16",
-      "title": "Google Introduces Universal Gemini AI Agent for Enterprise Work Tasks",
-      "summary": "Google is launching a universal Gemini AI agent that can plan, execute tasks, and work across business apps, systems, and devices in the background. The agent can delegate work to subagents and use multiple AI models.",
-      "why_it_matters": "This introduces native multi-app agentic workflows into enterprise productivity environments.",
-      "item_ids": [
-        "7a810313657a5b22082f849eaf21ef16",
-        "cf74ab087c15c2ed4e6d96d84182a0fe"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-08T22:02:17.662664Z",
-      "last_shown": "2026-10-09T17:02:07.746727Z"
-    },
-    {
-      "id": "171897c2af023939f3aa1b814657b68b",
-      "title": "Amazon drops Fire brand for new Alexa-powered Android tablets",
-      "summary": "Amazon is phasing out its Fire brand for tablets in favor of a new lineup called Alexa Tablets. The new devices run standard Android with full access to the Google Play Store instead of Amazon's proprietary app store.",
-      "why_it_matters": "This shift changes the deployment and testing landscape for Android application developers targeting Amazon's hardware ecosystem.",
-      "item_ids": [
-        "171897c2af023939f3aa1b814657b68b",
-        "4cc758a9f6dc03cc3e22484de09d8c0b",
-        "d3a1203d7607accb4a124b5c642e7d06",
-        "95660d12a622cf3b358a28e0b2e2c507",
-        "13ccfc34ba6e3f95383beaf2c09180b1"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-07T22:02:10.119033Z",
-      "last_shown": "2026-10-09T16:02:09.564421Z"
     }
   ]
 }
