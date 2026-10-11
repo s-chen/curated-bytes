@@ -75,6 +75,26 @@ def test_undated_item_does_not_flap_while_in_feed():
         assert item.fetched_at == first_seen, f"re-added as new at hour {hour}"
 
 
+def test_blog_posts_outlast_news_with_their_own_limits():
+    YEAR = timedelta(days=365)
+    items = [
+        make_item("news", NOW - timedelta(days=1), review="kept"),
+        make_item("old-news", NOW - timedelta(days=30), review="kept", blog=False),
+        make_item("eng", NOW - timedelta(days=30), review="kept", engineering=True),
+        make_item("post", NOW - timedelta(days=200), review="kept", blog=True),
+        make_item("ancient", NOW - timedelta(days=400), review="kept", blog=True),
+        # Never reviewed (an engineering feed's backlog): treated as news.
+        make_item("backlog", NOW - timedelta(days=30), engineering=True),
+    ]
+    merged = merge(items, [], now=NOW, max_age=WEEK, max_items=10, blog_max_age=YEAR, max_blog_items=10)
+    assert [i.id for i in merged] == ["news", "eng", "post"]
+
+    # Blog posts don't use up the news cap, and have their own.
+    many = [make_item(f"n{n}", NOW - timedelta(hours=n), review="kept") for n in range(5)]
+    merged = merge(many + items, [], now=NOW, max_age=WEEK, max_items=3, blog_max_age=YEAR, max_blog_items=1)
+    assert [i.id for i in merged] == ["n0", "n1", "n2", "eng"]
+
+
 def test_undated_item_pruned_once_it_leaves_the_feed():
     item = make_item("u", None, fetched_at=NOW - timedelta(days=8))
     assert merge([item], [], now=NOW, max_age=WEEK, max_items=10) == []

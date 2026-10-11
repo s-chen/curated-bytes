@@ -76,14 +76,29 @@ def _sort_key(item: NewsItem) -> datetime:
     return item.published_at or item.fetched_at
 
 
+def is_blog(item: NewsItem) -> bool:
+    """A shown blog post (engineering blog, or flagged by Gemini): kept longer than news.
+
+    Only reviewed-and-kept items count, so an engineering feed's backlog of old posts (never
+    reviewed, as they're outside Gemini's window) isn't hoarded.
+    """
+    return item.review == "kept" and (item.engineering or item.blog is True)
+
+
 def merge(
     existing: list[NewsItem],
     fresh: list[NewsItem],
     now: datetime,
     max_age: timedelta,
     max_items: int,
+    blog_max_age: timedelta | None = None,
+    max_blog_items: int = 0,
 ) -> list[NewsItem]:
     """Dedupe by id, drop items older than `max_age`, sort newest first, cap at `max_items`.
+
+    Blog posts (see `is_blog`) have their own limits, `blog_max_age` and `max_blog_items`, so
+    they outlast the news and never count towards `max_items`. Without `blog_max_age` they're
+    treated like news.
 
     An item already in `existing` keeps its original `fetched_at` (and review and score),
     but takes the fresh copy's discussion counts. Undated items are aged by
@@ -106,16 +121,25 @@ def merge(
                 }
             )
 
-    cutoff = now - max_age
-
-    def keep(item: NewsItem) -> bool:
+    def keep(item: NewsItem, cutoff: datetime) -> bool:
         if _sort_key(item) >= cutoff:
             return True
         return item.published_at is None and item.id in fresh_ids
 
-    kept = [i for i in by_id.values() if keep(i)]
-    kept.sort(key=_sort_key, reverse=True)
-    return kept[:max_items]
+    def newest(items: list[NewsItem], cutoff: datetime, limit: int) -> list[NewsItem]:
+        kept = [i for i in items if keep(i, cutoff)]
+        kept.sort(key=_sort_key, reverse=True)
+        return kept[:limit]
+
+    if blog_max_age is None:
+        return newest(list(by_id.values()), now - max_age, max_items)
+    blogs = [i for i in by_id.values() if is_blog(i)]
+    news = [i for i in by_id.values() if not is_blog(i)]
+    merged = newest(news, now - max_age, max_items) + newest(
+        blogs, now - blog_max_age, max_blog_items
+    )
+    merged.sort(key=_sort_key, reverse=True)
+    return merged
 
 
 def write_feed(
