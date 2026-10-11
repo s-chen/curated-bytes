@@ -1,7 +1,8 @@
-import { useEffect, useRef, useState, type KeyboardEvent, type ReactNode } from 'react'
-import { NewsTab } from './NewsTab.tsx'
+import { useEffect, useMemo, useRef, useState, type KeyboardEvent, type ReactNode } from 'react'
+import { ArchiveTab, NewsTab, SavedTab } from './NewsTab.tsx'
 import { useLastVisit } from './lastVisit.ts'
-import { formatAge, isNewSince, loadFeed } from './news.ts'
+import { archiveCutoff, formatAge, isNewSince, loadFeed, splitArchive } from './news.ts'
+import { useSaved } from './saved.ts'
 
 /** Must match `NewsItem` in scraper/src/scraper/models.py. Change both together. */
 export interface NewsItem {
@@ -63,9 +64,11 @@ const STALE_AFTER_MS = 3 * 60 * 60 * 1000
 /** Re-fetch so a tab left open picks up new runs (and its title count updates). */
 const REFRESH_MS = 10 * 60 * 1000
 
-type Tab = 'news' | 'jobs'
+type Tab = 'news' | 'archive' | 'saved' | 'jobs'
 const TABS: { id: Tab; label: string }[] = [
   { id: 'news', label: 'News' },
+  { id: 'archive', label: 'Archive' },
+  { id: 'saved', label: 'Saved' },
   { id: 'jobs', label: 'Jobs' },
 ]
 
@@ -75,7 +78,8 @@ type FeedState =
   | { status: 'ready'; feed: NewsFeed }
 
 function tabFromHash(): Tab {
-  return window.location.hash === '#jobs' ? 'jobs' : 'news'
+  const hash = window.location.hash.slice(1)
+  return TABS.find((t) => t.id === hash)?.id ?? 'news'
 }
 
 /** Current time, refreshed every minute so relative ages stay accurate. */
@@ -119,7 +123,17 @@ export default function App() {
 
   const feed = state.status === 'ready' ? state.feed : null
   const lastVisit = useLastVisit(feed?.generated_at ?? null)
-  const newCount = feed ? feed.items.filter((item) => isNewSince(item, lastVisit)).length : 0
+  const saved = useSaved()
+  // The cutoff moves at midnight, taking the day before yesterday into the archive.
+  const cutoff = archiveCutoff(now).getTime()
+  const { recent, archive } = useMemo(
+    () => (feed ? splitArchive(feed, cutoff) : { recent: [], archive: [] }),
+    [feed, cutoff],
+  )
+  const newCount = recent.filter((item) => isNewSince(item, lastVisit)).length
+  const counts: Partial<Record<Tab, number>> = feed
+    ? { news: recent.length, archive: archive.length, saved: saved.length }
+    : { saved: saved.length }
 
   useEffect(() => {
     document.title = newCount > 0 ? `(${newCount}) CuratedBytes` : 'CuratedBytes'
@@ -171,10 +185,8 @@ export default function App() {
                 }`}
               >
                 {label}
-                {id === 'news' && state.status === 'ready' && (
-                  <span className="ml-1.5 text-xs tabular-nums opacity-60">
-                    {state.feed.items.length}
-                  </span>
+                {counts[id] !== undefined && (
+                  <span className="ml-1.5 text-xs tabular-nums opacity-60">{counts[id]}</span>
                 )}
               </button>
             )
@@ -203,6 +215,9 @@ export default function App() {
           <Notice title="Job matching isn't live yet">
             Postings scored against your CV will appear here once the jobs pipeline is running.
           </Notice>
+        ) : tab === 'saved' ? (
+          // Saved stories are stored in the browser: shown even when news.json can't load.
+          <SavedTab now={now} />
         ) : state.status === 'loading' ? (
           <p className="py-12 text-center text-sm text-zinc-500" role="status">
             Loading news…
@@ -212,14 +227,16 @@ export default function App() {
             {state.message}. Locally, generate it with{' '}
             <code className="font-mono">docker compose run --rm scraper</code>.
           </Notice>
-        ) : state.feed.items.length === 0 ? (
+        ) : tab === 'archive' ? (
+          <ArchiveTab items={archive} now={now} />
+        ) : recent.length === 0 ? (
           <Notice title="Nothing to show yet">
             Stories appear once Gemini has reviewed them. Locally, export{' '}
             <code className="font-mono">GEMINI_API_KEY</code> before running the scraper.
           </Notice>
         ) : (
           <NewsTab
-            items={state.feed.items}
+            items={recent}
             topStories={state.feed.top_stories}
             pastTopStories={state.feed.past_top_stories}
             now={now}

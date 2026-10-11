@@ -280,3 +280,97 @@ it('opens on the tab named in the URL hash', () => {
   render(<App />)
   expect(screen.getByRole('tab', { name: 'Jobs' }).getAttribute('aria-selected')).toBe('true')
 })
+
+it('moves stories from before yesterday to the archive tab', async () => {
+  const old = makeItem('old', '2026-09-30T10:00:00Z', { title: 'Last week story', importance: 2 })
+  const older = makeItem('older', '2026-09-30T08:00:00Z', { title: 'Big old story', importance: 5 })
+  stubFetch(feed([...ITEMS, old, older]))
+  render(<App />)
+  await screen.findByRole('link', { name: 'Rust 2.0 released' })
+
+  expect(titles()).toEqual(['Rust 2.0 released', 'GPU prices fall'])
+  const tabs = within(screen.getByRole('tablist'))
+  expect(tabs.getByRole('tab', { name: /News/ }).textContent).toBe('News2')
+  fireEvent.click(tabs.getByRole('tab', { name: /Archive/ }))
+  expect(tabs.getByRole('tab', { name: /Archive/ }).textContent).toBe('Archive2')
+  expect(window.location.hash).toBe('#archive')
+
+  expect(screen.getAllByRole('heading', { level: 2 }).map((h) => h.textContent)).toEqual([
+    'Wednesday, Sep 30',
+  ])
+  expect(titles()).toEqual(['Big old story', 'Last week story'])
+  fireEvent.change(screen.getByRole('searchbox'), { target: { value: 'big' } })
+  expect(titles()).toEqual(['Big old story'])
+})
+
+it('explains an empty archive', async () => {
+  stubFetch(feed(ITEMS))
+  window.history.replaceState(null, '', '/#archive')
+  render(<App />)
+  expect(await screen.findByText(/Nothing archived yet/)).toBeTruthy()
+})
+
+it('saves stories until they are removed, even after they leave news.json', async () => {
+  const persist = vi.fn(async () => true)
+  vi.stubGlobal('navigator', { ...navigator, storage: { persist } })
+  stubFetch(feed(ITEMS))
+  render(<App />)
+  await screen.findByRole('link', { name: 'Rust 2.0 released' })
+
+  const [rustSave] = screen.getAllByRole('button', { name: 'Save for later' })
+  fireEvent.click(rustSave)
+  expect(rustSave.getAttribute('aria-pressed')).toBe('true')
+  expect(JSON.parse(localStorage.getItem('curatedbytes:saved')!)).toEqual([
+    { item: ITEMS[0], saved_at: NOW.toISOString() },
+  ])
+  expect(screen.getByRole('tab', { name: /Saved/ }).textContent).toBe('Saved1')
+  expect(persist).toHaveBeenCalledOnce()
+
+  // Pruned from the feed: still on the Saved tab.
+  cleanup()
+  stubFetch(feed([ITEMS[1]]))
+  window.history.replaceState(null, '', '/#saved')
+  render(<App />)
+  const panel = screen.getByRole('tabpanel')
+  expect(within(panel).getByRole('link', { name: 'Rust 2.0 released' })).toHaveProperty(
+    'href',
+    'https://blog.rust-lang.org/rust-2',
+  )
+  expect(within(panel).getByText(/saved just now/)).toBeTruthy()
+
+  fireEvent.click(within(panel).getByRole('button', { name: 'Remove from saved' }))
+  expect(within(panel).getByText(/Nothing saved yet/)).toBeTruthy()
+  expect(localStorage.getItem('curatedbytes:saved')).toBe('[]')
+})
+
+it('saves the focused story with s, and a top story under its headline', async () => {
+  const top = { id: 'rust', title: 'Rust 2.0 ships', summary: 'Everyone covered it.', why_it_matters: null, primary_url: null, first_shown: null, last_shown: null, item_ids: ['rust'] }
+  stubFetch(feed(ITEMS, NOW.toISOString(), [top]))
+  render(<App />)
+  await screen.findByRole('region', { name: 'Top stories' })
+
+  fireEvent.keyDown(document.body, { key: 'j' })
+  fireEvent.keyDown(document.activeElement!, { key: 's' })
+  fireEvent.keyDown(document.activeElement!, { key: 'j' })
+  fireEvent.keyDown(document.activeElement!, { key: 's' })
+  const saved = JSON.parse(localStorage.getItem('curatedbytes:saved')!)
+  expect(saved.map((s: { item: { title: string } }) => s.item.title)).toEqual([
+    'GPU prices fall',
+    'Rust 2.0 ships',
+  ])
+  expect(saved[1].item).toMatchObject({ url: 'https://blog.rust-lang.org/rust-2', summary: 'Everyone covered it.' })
+})
+
+it('shows saved stories when news.json cannot be loaded', async () => {
+  localStorage.setItem('curatedbytes:saved', JSON.stringify([
+    { item: ITEMS[1], saved_at: '2026-10-01T12:00:00Z' },
+    { item: { ...ITEMS[0], url: 'javascript:alert(1)' }, saved_at: NOW.toISOString() },
+    'junk',
+  ]))
+  stubFetch('missing', { status: 404 })
+  window.history.replaceState(null, '', '/#saved')
+  render(<App />)
+  expect(screen.getByRole('link', { name: 'GPU prices fall' })).toBeTruthy()
+  expect(screen.getByText(/saved 2d ago/)).toBeTruthy()
+  expect(titles()).toEqual(['GPU prices fall'])
+})

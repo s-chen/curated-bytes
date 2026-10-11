@@ -10,8 +10,10 @@ import {
   loadFeed,
   resolveTopStories,
   sourceCounts,
+  splitArchive,
+  archiveCutoff,
 } from './news.ts'
-import { NOW, makeItem, stubFetch } from './test-utils.ts'
+import { NOW, feed, makeItem, stubFetch } from './test-utils.ts'
 
 afterEach(() => {
   vi.unstubAllGlobals()
@@ -46,23 +48,19 @@ describe('loadFeed', () => {
     expect(fetchMock).toHaveBeenCalledWith('/news.json', expect.objectContaining({ cache: 'no-cache' }))
   })
 
-  it('shows only kept items, newest first, at most MAX_DISPLAYED', async () => {
-    const kept = Array.from({ length: MAX_DISPLAYED + 5 }, (_, n) => makeItem(`k${n}`, null))
+  it('keeps only kept items, in file order', async () => {
     stubFetch({
       generated_at: NOW.toISOString(),
       items: [
         makeItem('pending', null, { review: 'pending' }),
         makeItem('excluded', null, { review: 'excluded' }),
         { ...makeItem('missing', null), review: undefined },
-        ...kept,
+        makeItem('k0', null),
+        makeItem('k1', null),
       ],
     })
-
     const { items } = await loadFeed('/news.json')
-
-    expect(items).toHaveLength(MAX_DISPLAYED)
-    expect(items[0].id).toBe('k0')
-    expect(items.at(-1)?.id).toBe(`k${MAX_DISPLAYED - 1}`)
+    expect(items.map((i) => i.id)).toEqual(['k0', 'k1'])
   })
 
   it('drops unsafe discussion links and bad counts', async () => {
@@ -74,12 +72,10 @@ describe('loadFeed', () => {
     expect(item).toMatchObject({ discussion_url: null, points: null, comments: null })
   })
 
-  it('keeps older stories that a top-story card needs beyond the cap', async () => {
-    const kept = Array.from({ length: MAX_DISPLAYED + 2 }, (_, n) => makeItem(`k${n}`, null))
-    const story = { id: 'old', title: 'Old', summary: null, item_ids: [`k${MAX_DISPLAYED + 1}`] }
-    stubFetch({ generated_at: NOW.toISOString(), items: kept, past_top_stories: [story] })
+  it('fills in missing top-story fields', async () => {
+    const story = { id: 'old', title: 'Old', summary: null, item_ids: ['k0'] }
+    stubFetch({ generated_at: NOW.toISOString(), items: [], past_top_stories: [story] })
     const result = await loadFeed('/news.json')
-    expect(result.items).toHaveLength(MAX_DISPLAYED + 1)
     expect(result.past_top_stories.map((s) => [s.id, s.last_shown])).toEqual([['old', null]])
   })
 
@@ -100,6 +96,54 @@ describe('loadFeed', () => {
       await expect(loadFeed('/news.json')).rejects.toThrow('expected format')
     },
   )
+})
+
+describe('splitArchive', () => {
+  const cutoff = archiveCutoff(NOW).getTime() // 2026-10-02T00:00 (tests run in UTC)
+  const ids = (list: { id: string }[]) => list.map((i) => i.id)
+
+  it('archives stories from before yesterday', () => {
+    expect(new Date(cutoff).toISOString()).toBe('2026-10-02T00:00:00.000Z')
+    const items = [
+      makeItem('today', '2026-10-03T09:00:00Z'),
+      makeItem('yesterday', '2026-10-02T00:30:00Z'),
+      makeItem('old', '2026-10-01T23:00:00Z'),
+      makeItem('older', '2026-09-28T10:00:00Z'),
+    ]
+    const { recent, archive } = splitArchive(feed(items), cutoff)
+    expect(ids(recent)).toEqual(['today', 'yesterday'])
+    expect(ids(archive)).toEqual(['old', 'older'])
+  })
+
+  it('keeps an old article on the News tab when it was only just found', () => {
+    const late = makeItem('late', '2026-09-30T09:00:00Z', { fetched_at: '2026-10-03T11:00:00Z' })
+    expect(ids(splitArchive(feed([late]), cutoff).recent)).toEqual(['late'])
+  })
+
+  it('shows at most MAX_DISPLAYED recent stories, without archiving the rest', () => {
+    const items = Array.from({ length: MAX_DISPLAYED + 5 }, (_, n) => makeItem(`k${n}`, null))
+    const { recent, archive } = splitArchive(feed(items), cutoff)
+    expect(recent).toHaveLength(MAX_DISPLAYED)
+    expect(recent.at(-1)?.id).toBe(`k${MAX_DISPLAYED - 1}`)
+    expect(archive).toEqual([])
+  })
+
+  it('keeps stories a top-story card needs beyond the cap or the cutoff', () => {
+    const items = [
+      ...Array.from({ length: MAX_DISPLAYED + 2 }, (_, n) => makeItem(`k${n}`, null)),
+      makeItem('old', '2026-09-30T09:00:00Z'),
+    ]
+    const story = { id: 'x', title: 'X', summary: null, why_it_matters: null, primary_url: null, first_shown: null, last_shown: null }
+    const { recent, archive } = splitArchive(
+      {
+        ...feed(items, NOW.toISOString(), [{ ...story, item_ids: [`k${MAX_DISPLAYED + 1}`] }]),
+        past_top_stories: [{ ...story, item_ids: ['old'] }],
+      },
+      cutoff,
+    )
+    expect(ids(recent).slice(MAX_DISPLAYED)).toEqual([`k${MAX_DISPLAYED + 1}`, 'old'])
+    expect(ids(archive)).toEqual(['old'])
+  })
 })
 
 describe('filterItems', () => {
