@@ -14,6 +14,8 @@ editorial rules go in the system instruction; the headlines go in the user turn 
 - Importance: every headline Gemini keeps gets a 1-5 score, which orders the dashboard list.
   Scores are refreshed each run while an item is recent, as its coverage may grow, and are
   raised to at least 4 for top-story items and 3 for standouts.
+- Blogs: Gemini flags blog posts (first-hand technical writing, not news reporting), which
+  the dashboard lists on its Blogs tab with every engineering-blog post.
 
 Gemini only returns item indices plus text; everything it returns is validated. Uses the REST
 API through `requests` (already a dependency) rather than the SDK.
@@ -129,6 +131,13 @@ importance. Score technical write-ups on how useful they are to engineers; they 
 top-story events. Most headlines are 2 or 3. Use 5 rarely: at most a few headlines a day. Every \
 headline in a top-story event scores at least 4, and every standout at least 3.
 
+Task 5, blogs: in "blogs", list every headline you did not exclude that is a blog post: \
+first-hand technical writing by engineers, companies or projects about their own work or \
+expertise, such as engineering blog posts, personal technical blogs, maintainers' posts, \
+deep dives, postmortems and tutorials. Every "engineering blog" headline is a blog post. \
+News reports by journalists or news sites, press releases, product launch announcements \
+and news roundups are not blog posts.
+
 Examples of judgement calls:
 - "Sopra Steria widens legal challenge to Capita's outsourcing deal": keep. A business \
 deal, not a shopping deal.
@@ -141,6 +150,9 @@ sources code to let you make Muse AI gadgets": keep. A company release.
 - "Introducing Amazon S3 Vectors, now generally available": keep. A product launch is news.
 - "White House renames AI 'super intelligence'" and "Slovenia's .si domain sees a surge in \
 registrations after the order": two separate events. The second is a reaction to the first.
+- "How we cut our Postgres p99 latency by 80%" from a company's site, or "Understanding \
+Rust's borrow checker" from a personal site: blog posts. "Postgres 19 released" from a news \
+site: not a blog post.
 - Headlines "Amazon says it no longer uses NDAs for data centers" and "Amazon responds to \
 data center backlash": a good summary is "Amazon says it will stop using non-disclosure \
 agreements for data center projects. The change follows growing local opposition to its \
@@ -176,6 +188,7 @@ RESPONSE_SCHEMA = {
                 "required": ["item", "score"],
             },
         },
+        "blogs": {"type": "ARRAY", "items": {"type": "INTEGER"}},
         "stories": {
             "type": "ARRAY",
             "items": {
@@ -190,7 +203,7 @@ RESPONSE_SCHEMA = {
             },
         },
     },
-    "required": ["excluded", "stories", "standouts", "importance"],
+    "required": ["excluded", "stories", "standouts", "importance", "blogs"],
 }
 
 
@@ -238,6 +251,7 @@ class _Response(BaseModel):
     stories: list[_Story]
     standouts: list[_Standout]
     importance: list[_Score]
+    blogs: list[int] = []  # optional, so a reply without it still reviews and ranks
 
 
 @dataclass
@@ -246,6 +260,7 @@ class EditorResult:
     excluded: dict[str, str] = field(default_factory=dict)  # id -> reason
     top_stories: list[TopStory] = field(default_factory=list)
     importance: dict[str, int] = field(default_factory=dict)  # id -> 1..5
+    blogs: set[str] = field(default_factory=set)  # ids of blog posts (always a subset of kept)
     model: str | None = None  # the model that answered
 
 
@@ -379,11 +394,13 @@ def parse_response(text: str, cands: list[NewsItem], now: datetime) -> EditorRes
         for item_id in story.item_ids:
             importance[item_id] = max(importance.get(item_id, floor), floor)
 
+    blogs = {cands[i].id for i in response.blogs if i in in_range} - excluded.keys()
     return EditorResult(
         reviewed={c.id for c in cands},
         excluded=excluded,
         top_stories=top_stories,
         importance=importance,
+        blogs=blogs,
     )
 
 
@@ -508,7 +525,8 @@ def apply_review(
     """Settle reviewed items and refresh importance scores.
 
     Pending items become kept or excluded. A kept item Gemini now excludes becomes excluded;
-    an excluded item never comes back. A score is updated whenever Gemini gives a new one.
+    an excluded item never comes back. A score is updated whenever Gemini gives a new one, and
+    every reviewed item's blog flag is set from this reply.
 
     With `exclusions_final=False` (a fallback model answered), exclusions are not applied:
     pending items it would exclude stay pending for the main model to decide, and shown items
@@ -524,5 +542,7 @@ def apply_review(
             update["review"] = "kept"
         if item.id in result.importance:
             update["importance"] = result.importance[item.id]
+        if item.id in result.reviewed:
+            update["blog"] = item.id in result.blogs
         out.append(item.model_copy(update=update) if update else item)
     return out
