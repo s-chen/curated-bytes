@@ -61,6 +61,9 @@ class NewsItem(BaseModel):
     points: int | None = Field(default=None, ge=0)
     comments: int | None = Field(default=None, ge=0)
     engineering: bool = False  # from an engineering blog (set from the sources config each run)
+    # Gemini's call: first-hand technical writing (a blog post) rather than news reporting.
+    # Refreshed each run while the item is recent; None until reviewed.
+    blog: bool | None = None
     review: Review = "pending"
     # Gemini's 1-5 importance score; orders the dashboard list. None until scored.
     importance: int | None = Field(default=None, ge=1, le=5)

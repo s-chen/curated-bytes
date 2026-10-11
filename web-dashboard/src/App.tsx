@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState, type KeyboardEvent, type ReactNode } from 'react'
-import { ArchiveTab, NewsTab, SavedTab } from './NewsTab.tsx'
+import { ArchiveTab, BlogsTab, NewsTab, SavedTab } from './NewsTab.tsx'
 import { useLastVisit } from './lastVisit.ts'
 import { archiveCutoff, formatAge, isNewSince, loadFeed, splitArchive } from './news.ts'
 import { useSaved } from './saved.ts'
@@ -22,8 +22,10 @@ export interface NewsItem {
   discussion_url: string | null
   points: number | null
   comments: number | null
-  /** From a company engineering blog: listed first. */
+  /** From a company engineering blog: listed first, and on the Blogs tab. */
   engineering: boolean
+  /** Gemini's call: a blog post (first-hand technical writing), listed on the Blogs tab. */
+  blog: boolean | null
   review: 'pending' | 'kept' | 'excluded'
   /** Gemini's 1-5 importance score. Null until scored. */
   importance: number | null
@@ -64,9 +66,10 @@ const STALE_AFTER_MS = 3 * 60 * 60 * 1000
 /** Re-fetch so a tab left open picks up new runs (and its title count updates). */
 const REFRESH_MS = 10 * 60 * 1000
 
-type Tab = 'news' | 'archive' | 'saved' | 'jobs'
+type Tab = 'news' | 'blogs' | 'archive' | 'saved' | 'jobs'
 const TABS: { id: Tab; label: string }[] = [
   { id: 'news', label: 'News' },
+  { id: 'blogs', label: 'Blogs' },
   { id: 'archive', label: 'Archive' },
   { id: 'saved', label: 'Saved' },
   { id: 'jobs', label: 'Jobs' },
@@ -126,13 +129,13 @@ export default function App() {
   const saved = useSaved()
   // The cutoff moves at midnight, taking the day before yesterday into the archive.
   const cutoff = archiveCutoff(now).getTime()
-  const { recent, archive } = useMemo(
-    () => (feed ? splitArchive(feed, cutoff) : { recent: [], archive: [] }),
+  const { recent, blogs, archive } = useMemo(
+    () => (feed ? splitArchive(feed, cutoff) : { recent: [], blogs: [], archive: [] }),
     [feed, cutoff],
   )
-  const newCount = recent.filter((item) => isNewSince(item, lastVisit)).length
+  const newCount = [...recent, ...blogs].filter((item) => isNewSince(item, lastVisit)).length
   const counts: Partial<Record<Tab, number>> = feed
-    ? { news: recent.length, archive: archive.length, saved: saved.length }
+    ? { news: recent.length, blogs: blogs.length, archive: archive.length, saved: saved.length }
     : { saved: saved.length }
 
   useEffect(() => {
@@ -229,6 +232,8 @@ export default function App() {
           </Notice>
         ) : tab === 'archive' ? (
           <ArchiveTab items={archive} now={now} />
+        ) : tab === 'blogs' ? (
+          <BlogsTab items={blogs} now={now} />
         ) : recent.length === 0 ? (
           <Notice title="Nothing to show yet">
             Stories appear once Gemini has reviewed them. Locally, export{' '}

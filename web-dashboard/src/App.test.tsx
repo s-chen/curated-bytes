@@ -196,16 +196,29 @@ it('links to discussion threads and shows why a top story matters', async () => 
   )
 })
 
-it('lists engineering-blog posts first with a badge', async () => {
+it('lists blog posts on the Blogs tab, engineering blogs first, not on News', async () => {
   const items = [
     makeItem('news', '2026-10-03T11:30:00Z', { title: 'Big news', importance: 5 }),
+    makeItem('post', '2026-10-03T10:00:00Z', { title: 'Understanding the borrow checker', importance: 4, blog: true }),
     makeItem('eng', '2026-10-03T09:00:00Z', { title: 'How we scaled Postgres', importance: 3, engineering: true }),
+    makeItem('old', '2026-09-29T09:00:00Z', { title: 'A week-old deep dive', blog: true }),
   ]
   stubFetch(feed(items))
   render(<App />)
   await screen.findByRole('link', { name: 'Big news' })
-  expect(titles()).toEqual(['How we scaled Postgres', 'Big news'])
+  expect(titles()).toEqual(['Big news'])
+
+  const tabs = within(screen.getByRole('tablist'))
+  fireEvent.click(tabs.getByRole('tab', { name: /Blogs/ }))
+  expect(tabs.getByRole('tab', { name: /Blogs/ }).textContent).toBe('Blogs3')
+  expect(tabs.getByRole('tab', { name: /Archive/ }).textContent).toBe('Archive0')
+  expect(window.location.hash).toBe('#blogs')
+  expect(titles()).toEqual(['How we scaled Postgres', 'Understanding the borrow checker', 'A week-old deep dive'])
   expect(screen.getAllByText('Engineering')).toHaveLength(1)
+  expect(screen.getAllByRole('heading', { level: 2 }).map((h) => h.textContent)).toEqual([
+    'Today',
+    'Tuesday, Sep 29',
+  ])
 })
 
 it('shows earlier top stories collapsed, without hiding their stories from the list', async () => {

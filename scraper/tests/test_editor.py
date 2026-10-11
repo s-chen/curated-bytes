@@ -30,13 +30,14 @@ def _items():
     ]
 
 
-def _response(*stories, excluded=(), standouts=(), importance=()):
+def _response(*stories, excluded=(), standouts=(), importance=(), blogs=()):
     return json.dumps(
         {
             "excluded": [{"item": i, "reason": r} for i, r in excluded],
             "stories": [{"headline": "H", "summary": "S", "why": "", **s} for s in stories],
             "standouts": [s if isinstance(s, dict) else {"item": s, "why": ""} for s in standouts],
             "importance": [{"item": i, "score": s} for i, s in importance],
+            "blogs": list(blogs),
         }
     )
 
@@ -267,6 +268,17 @@ def test_parse_keeps_valid_importance_scores_for_shown_items():
     assert parse_response(text, _items(), NOW).importance == {"a1": 5}
 
 
+def test_parse_flags_blog_posts_but_never_excluded_ones():
+    text = _response(blogs=[0, 2, 99], excluded=[(2, "personal project")])
+    assert parse_response(text, _items(), NOW).blogs == {"a1"}
+
+
+def test_parse_accepts_a_reply_without_blogs():
+    reply = json.loads(_response())
+    del reply["blogs"]
+    assert parse_response(json.dumps(reply), _items(), NOW).blogs == set()
+
+
 # --- apply_review ---
 
 
@@ -318,6 +330,21 @@ def test_apply_review_refreshes_scores_and_keeps_old_ones():
     assert [(i.review, i.importance) for i in apply_review(items, result)] == [
         ("kept", 5), ("kept", 4), ("kept", 3)
     ]
+
+
+def test_apply_review_sets_blog_flags_on_reviewed_items_only():
+    items = [
+        make_item("post", NOW),
+        make_item("news", NOW, review="kept", blog=True),
+        make_item("old", NOW, review="kept", blog=True),
+    ]
+    result = EditorResult(reviewed={"post", "news"}, blogs={"post"})
+    assert [i.blog for i in apply_review(items, result)] == [True, False, True]
+
+
+def test_prompt_asks_for_blogs():
+    assert 'Task 5, blogs' in SYSTEM_INSTRUCTION
+    assert "blogs" in editor.RESPONSE_SCHEMA["required"]
 
 
 # --- Gemini call ---
@@ -386,7 +413,7 @@ def test_run_editor_calls_gemini_with_system_instruction_and_key_in_header():
     assert body["contents"][0]["parts"][0]["text"].startswith("Current time: ")
     config = body["generationConfig"]
     assert config["responseMimeType"] == "application/json"
-    assert config["responseSchema"]["required"] == ["excluded", "stories", "standouts", "importance"]
+    assert config["responseSchema"]["required"] == ["excluded", "stories", "standouts", "importance", "blogs"]
     assert kwargs["timeout"] == editor.TIMEOUT_SECONDS
 
 

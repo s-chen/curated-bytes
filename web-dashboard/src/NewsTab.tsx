@@ -295,8 +295,8 @@ export function NewsTab({
   )
 }
 
-/** Stories from before yesterday that news.json still holds (up to a week), by day. */
-export function ArchiveTab({ items, now }: { items: NewsItem[]; now: Date }) {
+/** Stories by day with search and source filters: the Blogs and Archive tabs. */
+function DayListTab({ items, now, empty }: { items: NewsItem[]; now: Date; empty: string }) {
   const listRef = useRef<HTMLDivElement>(null)
   const searchRef = useRef<HTMLInputElement>(null)
   useKeyboardShortcuts(listRef, searchRef)
@@ -304,11 +304,7 @@ export function ArchiveTab({ items, now }: { items: NewsItem[]; now: Date }) {
   const groups = useMemo(() => byDay(filters.visible, now), [filters.visible, now])
 
   if (items.length === 0) {
-    return (
-      <p className="py-12 text-center text-sm text-zinc-500">
-        Nothing archived yet. Stories move here after two days and stay for a week.
-      </p>
-    )
+    return <p className="py-12 text-center text-sm text-zinc-500">{empty}</p>
   }
   return (
     <>
@@ -321,6 +317,28 @@ export function ArchiveTab({ items, now }: { items: NewsItem[]; now: Date }) {
         )}
       </div>
     </>
+  )
+}
+
+/** News stories from before yesterday that news.json still holds (up to a week). */
+export function ArchiveTab({ items, now }: { items: NewsItem[]; now: Date }) {
+  return (
+    <DayListTab
+      items={items}
+      now={now}
+      empty="Nothing archived yet. Stories move here after two days and stay for a week."
+    />
+  )
+}
+
+/** Blog posts from the last year, engineering blogs first within each day. */
+export function BlogsTab({ items, now }: { items: NewsItem[]; now: Date }) {
+  return (
+    <DayListTab
+      items={items}
+      now={now}
+      empty="No blog posts yet. Engineering-blog posts and technical write-ups appear here and stay for a year."
+    />
   )
 }
 
