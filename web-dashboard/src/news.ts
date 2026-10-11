@@ -116,7 +116,7 @@ export function isBlog(item: NewsItem): boolean {
 
 /**
  * Split stories (newest first) into the Blogs tab (every blog post in news.json, which keeps
- * a week), the News list (other stories from after `cutoff`, epoch ms, see `archiveCutoff`:
+ * them for a year), the News list (other stories from after `cutoff`, epoch ms, see `archiveCutoff`:
  * the newest `MAX_DISPLAYED`, plus any story a top-story card needs) and the archive (other
  * stories before `cutoff`).
  */

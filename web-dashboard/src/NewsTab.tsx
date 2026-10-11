@@ -331,13 +331,13 @@ export function ArchiveTab({ items, now }: { items: NewsItem[]; now: Date }) {
   )
 }
 
-/** Blog posts from the last week, engineering blogs first within each day. */
+/** Blog posts from the last year, engineering blogs first within each day. */
 export function BlogsTab({ items, now }: { items: NewsItem[]; now: Date }) {
   return (
     <DayListTab
       items={items}
       now={now}
-      empty="No blog posts this week yet. Engineering-blog posts and technical write-ups appear here."
+      empty="No blog posts yet. Engineering-blog posts and technical write-ups appear here and stay for a year."
     />
   )
 }

@@ -64,6 +64,9 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     )
     parser.add_argument("--max-age-days", type=int, default=7)
     parser.add_argument("--max-items", type=int, default=1500)  # a week of stories, for the archive
+    # Blog posts don't date like news: keep them for the Blogs tab long after.
+    parser.add_argument("--blog-max-age-days", type=int, default=365)
+    parser.add_argument("--max-blog-items", type=int, default=3000)
     parser.add_argument(
         "--max-failed-ratio",
         type=float,
@@ -219,6 +222,8 @@ def run(args: argparse.Namespace) -> int:
         now=now,
         max_age=timedelta(days=args.max_age_days),
         max_items=args.max_items,
+        blog_max_age=timedelta(days=args.blog_max_age_days),
+        max_blog_items=args.max_blog_items,
     )
     # Engineering-blog flags follow the config, so changing it applies to stored items too.
     engineering = {s.id for s in sources if s.engineering}
