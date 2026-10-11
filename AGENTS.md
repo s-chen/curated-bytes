@@ -9,7 +9,7 @@ Aggregates tech news and screens job postings against a CV, served as a static d
 - **Storage:** flat static JSON. Locally in `web-dashboard/public/news.json` and `scraper/state/site_stats.json` (git-ignored). On GitHub they live on the `data` branch, which the hourly workflow checks out, updates and commits back; main never holds generated data.
 - **Frontend** (`web-dashboard/`): React 19, TypeScript, Vite, Tailwind CSS. Dense, responsive, tabbed layout.
   - Tabs: **News** (today and yesterday: top-story cards, then the newest 100 reviewed stories), **Archive** (older stories, which `news.json` keeps for 7 days, up to 1500 items), **Saved** and **Jobs**.
-  - **Saved** stories are copied into `localStorage` (`curatedbytes:saved`), so they outlive `news.json` and stay until removed. They're per browser, with no sync across devices (there's no backend).
+  - **Saved** stories are copied into `localStorage` (`curatedbytes:saved`), so they outlive `news.json` and stay until removed. They're per browser, with no sync across devices (there's no backend). Saving asks the browser to keep the site's storage (`navigator.storage.persist()`). The site has a web app manifest, so it can be added to the Home Screen, which exempts it from Safari's 7-day storage clean-up.
 - **Hosting:** GitHub Pages behind Cloudflare DNS/proxy, HTTPS + HSTS enforced.
 - **Alerts:** Slack incoming webhook (Block Kit) for job matches with score >= 85.
 

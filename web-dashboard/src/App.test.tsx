@@ -311,6 +311,8 @@ it('explains an empty archive', async () => {
 })
 
 it('saves stories until they are removed, even after they leave news.json', async () => {
+  const persist = vi.fn(async () => true)
+  vi.stubGlobal('navigator', { ...navigator, storage: { persist } })
   stubFetch(feed(ITEMS))
   render(<App />)
   await screen.findByRole('link', { name: 'Rust 2.0 released' })
@@ -322,6 +324,7 @@ it('saves stories until they are removed, even after they leave news.json', asyn
     { item: ITEMS[0], saved_at: NOW.toISOString() },
   ])
   expect(screen.getByRole('tab', { name: /Saved/ }).textContent).toBe('Saved1')
+  expect(persist).toHaveBeenCalledOnce()
 
   // Pruned from the feed: still on the Saved tab.
   cleanup()

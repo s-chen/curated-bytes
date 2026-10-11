@@ -68,13 +68,23 @@ function subscribe(listener: () => void): () => void {
   }
 }
 
+/**
+ * Ask the browser not to clear this site's storage when it frees space. Browsers decide for
+ * themselves (Chrome grants it to sites you use, Firefox and Safari may ask), so it's
+ * requested on a save, a user gesture, and failure just leaves storage best-effort.
+ */
+function requestPersistence() {
+  navigator.storage?.persist?.().catch(() => {})
+}
+
 export function toggleSaved(item: NewsItem, now = new Date()) {
   const saved = getSnapshot()
-  write(
-    saved.some((s) => s.item.id === item.id)
-      ? saved.filter((s) => s.item.id !== item.id)
-      : [{ item, saved_at: now.toISOString() }, ...saved],
-  )
+  if (saved.some((s) => s.item.id === item.id)) {
+    write(saved.filter((s) => s.item.id !== item.id))
+  } else {
+    write([{ item, saved_at: now.toISOString() }, ...saved])
+    requestPersistence()
+  }
 }
 
 export function removeSaved(id: string) {
