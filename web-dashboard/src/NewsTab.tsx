@@ -1,5 +1,6 @@
 import { useDeferredValue, useEffect, useMemo, useRef, useState, type RefObject } from 'react'
 import type { NewsItem, TopStory } from './App.tsx'
+import { removeSaved, toggleSaved, useIsSaved, useSaved } from './saved.ts'
 import {
   byImportance,
   filterItems,
@@ -11,6 +12,7 @@ import {
   itemDate,
   resolveTopStories,
   sourceCounts,
+  type DayGroup,
   type ResolvedStory,
 } from './news.ts'
 
@@ -49,7 +51,10 @@ function isTyping(target: EventTarget | null): target is HTMLElement {
   return target instanceof HTMLElement && target.closest('input, textarea, select, [contenteditable]') !== null
 }
 
-/** j/k move between stories, o opens the focused one, / focuses search, Esc leaves it. */
+/**
+ * j/k move between stories, o opens the focused one, s saves it, / focuses search, Esc
+ * leaves it.
+ */
 function useKeyboardShortcuts(
   list: RefObject<HTMLElement | null>,
   search: RefObject<HTMLInputElement | null>,
@@ -79,11 +84,123 @@ function useKeyboardShortcuts(
         next.closest('li')?.scrollIntoView?.({ block: 'nearest' })
       } else if (event.key === 'o' && index >= 0) {
         window.open(links[index].href, '_blank', 'noopener,noreferrer')
+      } else if (event.key === 's' && index >= 0) {
+        // The story's own save button: the first in its row or card.
+        links[index].closest('li')?.querySelector<HTMLButtonElement>('button[data-save]')?.click()
       }
     }
     document.addEventListener('keydown', onKeyDown)
     return () => document.removeEventListener('keydown', onKeyDown)
   }, [list, search])
+}
+
+/** Search text and source chips over `items`. */
+function useFilters(items: NewsItem[]) {
+  const [query, setQuery] = useState('')
+  const [selected, setSelected] = useState<ReadonlySet<string>>(new Set())
+  const deferredQuery = useDeferredValue(query)
+  const sources = useMemo(() => sourceCounts(items), [items])
+  const visible = useMemo(
+    () => filterItems(items, deferredQuery, selected),
+    [items, deferredQuery, selected],
+  )
+  return {
+    query,
+    setQuery,
+    selected,
+    setSelected,
+    sources,
+    visible,
+    filtering: deferredQuery.trim() !== '' || selected.size > 0,
+  }
+}
+
+function Filters({
+  filters: { query, setQuery, selected, setSelected, sources, visible },
+  total,
+  searchRef,
+}: {
+  filters: ReturnType<typeof useFilters>
+  total: number
+  searchRef: RefObject<HTMLInputElement | null>
+}) {
+  function toggleSource(id: string) {
+    setSelected((prev) => {
+      const next = new Set(prev)
+      if (!next.delete(id)) next.add(id)
+      return next
+    })
+  }
+
+  return (
+    <div className="flex flex-col gap-3">
+      <input
+        ref={searchRef}
+        type="search"
+        value={query}
+        onChange={(e) => setQuery(e.target.value)}
+        placeholder="Filter headlines…"
+        aria-label="Filter headlines"
+        aria-keyshortcuts="/"
+        className="w-full rounded-lg border border-zinc-300 bg-white px-3 py-1.5 text-sm outline-none placeholder:text-zinc-400 focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 dark:border-zinc-700 dark:bg-zinc-900"
+      />
+      <div className="flex flex-wrap gap-1.5" aria-label="Sources">
+        <button
+          type="button"
+          className={chip}
+          aria-pressed={selected.size === 0}
+          onClick={() => setSelected(new Set())}
+        >
+          All
+        </button>
+        {sources.map((s) => (
+          <button
+            key={s.id}
+            type="button"
+            className={`${chip} inline-flex items-center gap-1.5`}
+            aria-pressed={selected.has(s.id)}
+            onClick={() => toggleSource(s.id)}
+          >
+            <span className={`size-1.5 rounded-full ${sourceColour(s.id)}`} aria-hidden />
+            {s.name} <span className="tabular-nums opacity-60">{s.count}</span>
+          </button>
+        ))}
+      </div>
+      <p className="flex justify-between text-xs text-zinc-500">
+        <span aria-live="polite">
+          {visible.length === total ? `${total} stories` : `${visible.length} of ${total} stories`}
+        </span>
+        <Shortcuts />
+      </p>
+    </div>
+  )
+}
+
+function Shortcuts() {
+  return (
+    <span className="hidden sm:inline">
+      <Kbd>j</Kbd>/<Kbd>k</Kbd> move · <Kbd>o</Kbd> open · <Kbd>s</Kbd> save · <Kbd>/</Kbd> search
+    </span>
+  )
+}
+
+/** Day groups, each ordered by Gemini's importance score. */
+function byDay(items: NewsItem[], now: Date): DayGroup[] {
+  return groupByDay(items, now).map((group) => ({ ...group, items: byImportance(group.items) }))
+}
+
+function DaySections({ groups, now }: { groups: DayGroup[]; now: Date }) {
+  return groups.map((group) => (
+    <section key={group.key} aria-labelledby={`day-${group.key}`} className="mt-5">
+      <h2
+        id={`day-${group.key}`}
+        className={`${heading} text-zinc-500 after:bg-zinc-200 dark:after:bg-zinc-800`}
+      >
+        {group.label}
+      </h2>
+      <StoryList items={group.items} now={now} />
+    </section>
+  ))
 }
 
 export function NewsTab({
@@ -99,20 +216,13 @@ export function NewsTab({
   now: Date
   lastVisit: Date | null
 }) {
-  const [query, setQuery] = useState('')
-  const [selected, setSelected] = useState<ReadonlySet<string>>(new Set())
-  const deferredQuery = useDeferredValue(query)
   const listRef = useRef<HTMLDivElement>(null)
   const searchRef = useRef<HTMLInputElement>(null)
   useKeyboardShortcuts(listRef, searchRef)
+  const filters = useFilters(items)
+  const { visible, filtering } = filters
 
-  const sources = useMemo(() => sourceCounts(items), [items])
-  const visible = useMemo(
-    () => filterItems(items, deferredQuery, selected),
-    [items, deferredQuery, selected],
-  )
   // Top stories show only when unfiltered; their items then aren't repeated in the list.
-  const filtering = deferredQuery.trim() !== '' || selected.size > 0
   const top = useMemo(
     () => (filtering ? [] : resolveTopStories(topStories, items)),
     [filtering, topStories, items],
@@ -131,68 +241,13 @@ export function NewsTab({
     [listed, lastVisit],
   )
   const groups = useMemo(
-    () =>
-      groupByDay(listed.filter((i) => !isNewSince(i, lastVisit)), now).map((group) => ({
-        ...group,
-        items: byImportance(group.items),
-      })),
+    () => byDay(listed.filter((i) => !isNewSince(i, lastVisit)), now),
     [listed, lastVisit, now],
   )
 
-  function toggleSource(id: string) {
-    setSelected((prev) => {
-      const next = new Set(prev)
-      if (!next.delete(id)) next.add(id)
-      return next
-    })
-  }
-
   return (
     <>
-      <div className="flex flex-col gap-3">
-        <input
-          ref={searchRef}
-          type="search"
-          value={query}
-          onChange={(e) => setQuery(e.target.value)}
-          placeholder="Filter headlines…"
-          aria-label="Filter headlines"
-          aria-keyshortcuts="/"
-          className="w-full rounded-lg border border-zinc-300 bg-white px-3 py-1.5 text-sm outline-none placeholder:text-zinc-400 focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 dark:border-zinc-700 dark:bg-zinc-900"
-        />
-        <div className="flex flex-wrap gap-1.5" aria-label="Sources">
-          <button
-            type="button"
-            className={chip}
-            aria-pressed={selected.size === 0}
-            onClick={() => setSelected(new Set())}
-          >
-            All
-          </button>
-          {sources.map((s) => (
-            <button
-              key={s.id}
-              type="button"
-              className={`${chip} inline-flex items-center gap-1.5`}
-              aria-pressed={selected.has(s.id)}
-              onClick={() => toggleSource(s.id)}
-            >
-              <span className={`size-1.5 rounded-full ${sourceColour(s.id)}`} aria-hidden />
-              {s.name} <span className="tabular-nums opacity-60">{s.count}</span>
-            </button>
-          ))}
-        </div>
-        <p className="flex justify-between text-xs text-zinc-500">
-          <span aria-live="polite">
-            {visible.length === items.length
-              ? `${items.length} stories`
-              : `${visible.length} of ${items.length} stories`}
-          </span>
-          <span className="hidden sm:inline">
-            <Kbd>j</Kbd>/<Kbd>k</Kbd> move · <Kbd>o</Kbd> open · <Kbd>/</Kbd> search
-          </span>
-        </p>
-      </div>
+      <Filters filters={filters} total={items.length} searchRef={searchRef} />
 
       <div ref={listRef}>
         {visible.length === 0 ? (
@@ -232,21 +287,78 @@ export function NewsTab({
                 <StoryList items={fresh} now={now} />
               </section>
             )}
-            {groups.map((group) => (
-              <section key={group.key} aria-labelledby={`day-${group.key}`} className="mt-5">
-                <h2
-                  id={`day-${group.key}`}
-                  className={`${heading} text-zinc-500 after:bg-zinc-200 dark:after:bg-zinc-800`}
-                >
-                  {group.label}
-                </h2>
-                <StoryList items={group.items} now={now} />
-              </section>
-            ))}
+            <DaySections groups={groups} now={now} />
           </>
         )}
       </div>
     </>
+  )
+}
+
+/** Stories from before yesterday that news.json still holds (up to a week), by day. */
+export function ArchiveTab({ items, now }: { items: NewsItem[]; now: Date }) {
+  const listRef = useRef<HTMLDivElement>(null)
+  const searchRef = useRef<HTMLInputElement>(null)
+  useKeyboardShortcuts(listRef, searchRef)
+  const filters = useFilters(items)
+  const groups = useMemo(() => byDay(filters.visible, now), [filters.visible, now])
+
+  if (items.length === 0) {
+    return (
+      <p className="py-12 text-center text-sm text-zinc-500">
+        Nothing archived yet. Stories move here after two days and stay for a week.
+      </p>
+    )
+  }
+  return (
+    <>
+      <Filters filters={filters} total={items.length} searchRef={searchRef} />
+      <div ref={listRef}>
+        {groups.length === 0 ? (
+          <p className="py-12 text-center text-sm text-zinc-500">No stories match.</p>
+        ) : (
+          <DaySections groups={groups} now={now} />
+        )}
+      </div>
+    </>
+  )
+}
+
+/** Stories saved in this browser, newest saved first, kept until removed. */
+export function SavedTab({ now }: { now: Date }) {
+  const saved = useSaved()
+  const listRef = useRef<HTMLDivElement>(null)
+  const searchRef = useRef<HTMLInputElement>(null)
+  useKeyboardShortcuts(listRef, searchRef)
+
+  if (saved.length === 0) {
+    return (
+      <p className="py-12 text-center text-sm text-zinc-500">
+        Nothing saved yet. Save a story with its bookmark button (or <Kbd>s</Kbd>) to keep it
+        here until you remove it.
+      </p>
+    )
+  }
+  return (
+    <div ref={listRef}>
+      <p className="flex justify-between text-xs text-zinc-500">
+        <span>
+          {saved.length} saved {saved.length === 1 ? 'story' : 'stories'}, kept in this browser
+        </span>
+        <Shortcuts />
+      </p>
+      <ul className="mt-3">
+        {saved.map(({ item, saved_at }) => (
+          <StoryRow
+            key={item.id}
+            item={item}
+            now={now}
+            note={`saved ${formatAge(new Date(saved_at), now)}`}
+            onRemove={() => removeSaved(item.id)}
+          />
+        ))}
+      </ul>
+    </div>
   )
 }
 
@@ -273,6 +385,8 @@ function TopStoryCard({
   const newest = items.map(itemDate).reduce((a, b) => (a > b ? a : b))
   const isNew = items.some((i) => isNewSince(i, lastVisit))
   const sourceCount = new Set(items.map((i) => i.source_id)).size
+  // Saved under the card's headline, linking to the lead article.
+  const saveAs = { ...lead, title: story.title, summary: story.summary ?? lead.summary }
   return (
     <li
       className={`flex scroll-mt-20 flex-col rounded-xl border border-zinc-200 bg-white p-4 shadow-xs focus-within:border-emerald-500 dark:border-zinc-800 dark:bg-zinc-900 dark:focus-within:border-emerald-600 ${wide ? 'sm:col-span-2' : ''}`}
@@ -286,9 +400,12 @@ function TopStoryCard({
             </span>
           )}
         </span>
-        <time dateTime={newest.toISOString()} title={newest.toLocaleString()} className="tabular-nums text-zinc-400">
-          {displayTime(newest, now)}
-        </time>
+        <span className="flex items-center gap-1">
+          <time dateTime={newest.toISOString()} title={newest.toLocaleString()} className="tabular-nums text-zinc-400">
+            {displayTime(newest, now)}
+          </time>
+          <SaveButton item={saveAs} />
+        </span>
       </div>
       <h3 className={`mt-1.5 font-semibold leading-snug ${wide ? 'text-lg' : 'text-base'}`}>
         <a
@@ -414,7 +531,19 @@ function StoryList({ items, now }: { items: NewsItem[]; now: Date }) {
   )
 }
 
-function StoryRow({ item, now }: { item: NewsItem; now: Date }) {
+function StoryRow({
+  item,
+  now,
+  note,
+  onRemove,
+}: {
+  item: NewsItem
+  now: Date
+  /** Shown after the source, e.g. when it was saved. */
+  note?: string
+  /** Replaces the save toggle with a remove button (on the Saved tab). */
+  onRemove?: () => void
+}) {
   const date = itemDate(item)
   return (
     <li className="-mx-2 flex scroll-mt-20 scroll-mb-4 gap-2.5 rounded-md px-2 py-1.5 text-xs focus-within:bg-emerald-50 hover:bg-zinc-100 dark:hover:bg-zinc-900 dark:focus-within:bg-emerald-950/40">
@@ -442,6 +571,7 @@ function StoryRow({ item, now }: { item: NewsItem; now: Date }) {
               <DiscussionLink item={item} />
             </>
           )}
+          {note && ` · ${note}`}
         </span>
         {item.summary && <p className="line-clamp-1 text-zinc-500">{item.summary}</p>}
       </div>
@@ -452,6 +582,45 @@ function StoryRow({ item, now }: { item: NewsItem; now: Date }) {
       >
         {displayTime(date, now)}
       </time>
+      {onRemove ? (
+        <button
+          type="button"
+          data-save
+          onClick={onRemove}
+          aria-label="Remove from saved"
+          title="Remove from saved"
+          className={`${iconButton} text-zinc-400`}
+        >
+          <svg viewBox="0 0 16 16" className="size-3.5" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden>
+            <path d="M4 4l8 8M12 4l-8 8" strokeLinecap="round" />
+          </svg>
+        </button>
+      ) : (
+        <SaveButton item={item} />
+      )}
     </li>
+  )
+}
+
+const iconButton =
+  '-my-0.5 shrink-0 self-start rounded p-0.5 hover:bg-zinc-200 hover:text-zinc-900 focus-visible:outline-2 focus-visible:outline-emerald-500 dark:hover:bg-zinc-800 dark:hover:text-zinc-100'
+
+/** Bookmark toggle. A saved story stays on the Saved tab until removed. */
+function SaveButton({ item }: { item: NewsItem }) {
+  const saved = useIsSaved(item.id)
+  return (
+    <button
+      type="button"
+      data-save
+      aria-pressed={saved}
+      aria-label="Save for later"
+      title={saved ? 'Saved: click to remove' : 'Save for later'}
+      onClick={() => toggleSaved(item)}
+      className={`${iconButton} ${saved ? 'text-emerald-600 dark:text-emerald-400' : 'text-zinc-400'}`}
+    >
+      <svg viewBox="0 0 16 16" className="size-3.5" fill={saved ? 'currentColor' : 'none'} stroke="currentColor" strokeWidth="1.5" aria-hidden>
+        <path d="M4 2.5h8v11l-4-3-4 3z" strokeLinejoin="round" />
+      </svg>
+    </button>
   )
 }

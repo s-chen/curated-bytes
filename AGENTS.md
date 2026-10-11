@@ -8,6 +8,8 @@ Aggregates tech news and screens job postings against a CV, served as a static d
 - **AI:** Gemini Flash via Google AI Studio free tier, called over REST with `requests` (no SDK). Model from `GEMINI_MODEL` (default `gemini-3.8-flash`); overload/rate-limit errors are retried, then each model in `GEMINI_FALLBACK_MODEL` is tried in turn (comma-separated; default `gemini-3.7-flash,gemini-3.5-flash-lite`; empty to disable). Free-tier limits are only shown in AI Studio; check them before adding calls. One request per run reviews new stories and picks top stories.
 - **Storage:** flat static JSON. Locally in `web-dashboard/public/news.json` and `scraper/state/site_stats.json` (git-ignored). On GitHub they live on the `data` branch, which the hourly workflow checks out, updates and commits back; main never holds generated data.
 - **Frontend** (`web-dashboard/`): React 19, TypeScript, Vite, Tailwind CSS. Dense, responsive, tabbed layout.
+  - Tabs: **News** (today and yesterday: top-story cards, then the newest 100 reviewed stories), **Archive** (older stories, which `news.json` keeps for 7 days, up to 1500 items), **Saved** and **Jobs**.
+  - **Saved** stories are copied into `localStorage` (`curatedbytes:saved`), so they outlive `news.json` and stay until removed. They're per browser, with no sync across devices (there's no backend).
 - **Hosting:** GitHub Pages behind Cloudflare DNS/proxy, HTTPS + HSTS enforced.
 - **Alerts:** Slack incoming webhook (Block Kit) for job matches with score >= 85.
 
@@ -33,7 +35,7 @@ Setting up the trigger Worker (once):
 - Locally, each run saves Gemini's last request and reply (or error) to `scraper/.debug/gemini-last.json` (git-ignored).
 - Without Docker (from `scraper/`): `pip install -e ".[dev]"`, then `pytest` and `python -m scraper`.
 - Run the dashboard locally:
-  1. `docker compose run --rm scraper` to generate `web-dashboard/public/news.json` (re-run for fresh news, then refresh the page). Export `GEMINI_API_KEY` first: the dashboard only shows stories Gemini has reviewed (`review: "kept"`, newest 100), so without a key new stories stay pending and hidden.
+  1. `docker compose run --rm scraper` to generate `web-dashboard/public/news.json` (re-run for fresh news, then refresh the page). Export `GEMINI_API_KEY` first: the dashboard only shows stories Gemini has reviewed (`review: "kept"`), so without a key new stories stay pending and hidden.
   2. `docker compose up -d dashboard` (add `--build` after changing dependencies), then open http://localhost:5173. Edits to `web-dashboard/src` reload live.
   3. `docker compose logs -f dashboard` for logs; `docker compose down` to stop.
 - `docker compose run --rm dashboard npm test` (or `npm run lint`, `npm run build`): dashboard checks.

@@ -63,7 +63,7 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
         help="news.json to merge into and write (env: NEWS_OUTPUT; default: %(default)s)",
     )
     parser.add_argument("--max-age-days", type=int, default=7)
-    parser.add_argument("--max-items", type=int, default=500)
+    parser.add_argument("--max-items", type=int, default=1500)  # a week of stories, for the archive
     parser.add_argument(
         "--max-failed-ratio",
         type=float,

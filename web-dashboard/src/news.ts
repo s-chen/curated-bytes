@@ -1,6 +1,6 @@
 import type { NewsFeed, NewsItem, TopStory } from './App.tsx'
 
-/** The list shows at most this many stories: the newest reviewed ones (cards may add a few). */
+/** The News list shows at most this many stories: the newest reviewed ones (cards may add a few). */
 export const MAX_DISPLAYED = 100
 
 const MINUTE = 60_000
@@ -57,8 +57,8 @@ function normaliseItem(item: NewsItem): NewsItem {
 }
 
 /**
- * Fetch and sanity-check `news.json`. Keeps only items Gemini reviewed and kept (newest
- * `MAX_DISPLAYED`, as the file is newest first), and drops any that can't render safely.
+ * Fetch and sanity-check `news.json`. Keeps only items Gemini reviewed and kept (newest first,
+ * as in the file), and drops any that can't render safely.
  */
 export async function loadFeed(url: string, signal?: AbortSignal): Promise<NewsFeed> {
   const response = await fetch(url, { cache: 'no-cache', signal })
@@ -79,13 +79,10 @@ export async function loadFeed(url: string, signal?: AbortSignal): Promise<NewsF
   // Optional fields: absent in files written before they existed.
   const top = normaliseStories(top_stories)
   const past = normaliseStories(past_top_stories)
-  const kept = items.filter((item) => isRenderable(item) && item.review === 'kept')
-  // The newest MAX_DISPLAYED, plus any older story a top-story card needs.
-  const inCards = new Set([...top, ...past].flatMap((story) => story.item_ids))
   return {
     generated_at,
-    items: kept
-      .filter((item, index) => index < MAX_DISPLAYED || inCards.has(item.id))
+    items: items
+      .filter((item) => isRenderable(item) && item.review === 'kept')
       .map(normaliseItem),
     top_stories: top,
     past_top_stories: past,
@@ -104,6 +101,38 @@ function normaliseStories(value: unknown): TopStory[] {
     first_shown: timeOrNull(story.first_shown),
     last_shown: timeOrNull(story.last_shown),
   }))
+}
+
+/** Start of yesterday, local time: older stories move to the archive. */
+export function archiveCutoff(now: Date): Date {
+  return new Date(now.getFullYear(), now.getMonth(), now.getDate() - 1)
+}
+
+/**
+ * Split stories (newest first) at `cutoff` (epoch ms; see `archiveCutoff`) into the News list
+ * (newest `MAX_DISPLAYED`, plus any older story a top-story card needs) and the archive (the
+ * rest: news.json keeps a week).
+ */
+export function splitArchive(
+  feed: NewsFeed,
+  cutoff: number,
+): { recent: NewsItem[]; archive: NewsItem[] } {
+  const inCards = new Set(
+    [...feed.top_stories, ...feed.past_top_stories].flatMap((story) => story.item_ids),
+  )
+  const recent: NewsItem[] = []
+  const archive: NewsItem[] = []
+  for (const item of feed.items) {
+    // By the later of published and first seen, so an old article we only just found still
+    // gets its time on the News tab.
+    const arrived = Math.max(itemDate(item).getTime(), new Date(item.fetched_at).getTime())
+    if (arrived < cutoff) archive.push(item)
+    else if (recent.length < MAX_DISPLAYED) recent.push(item)
+  }
+  const shown = new Set(recent.map((item) => item.id))
+  // Card members beyond the cap or the cutoff, so the cards stay complete.
+  const extra = feed.items.filter((item) => inCards.has(item.id) && !shown.has(item.id))
+  return { recent: [...recent, ...extra], archive }
 }
 
 export interface ResolvedStory {
