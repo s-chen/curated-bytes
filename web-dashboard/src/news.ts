@@ -53,6 +53,7 @@ function normaliseItem(item: NewsItem): NewsItem {
     comments: countOrNull(item.comments),
     importance: typeof item.importance === 'number' ? item.importance : null,
     engineering: item.engineering === true,
+    blog: typeof item.blog === 'boolean' ? item.blog : null,
   }
 }
 
@@ -108,21 +109,32 @@ export function archiveCutoff(now: Date): Date {
   return new Date(now.getFullYear(), now.getMonth(), now.getDate() - 1)
 }
 
+/** Engineering-blog posts and stories Gemini called blog posts: the Blogs tab. */
+export function isBlog(item: NewsItem): boolean {
+  return item.engineering || item.blog === true
+}
+
 /**
- * Split stories (newest first) at `cutoff` (epoch ms; see `archiveCutoff`) into the News list
- * (newest `MAX_DISPLAYED`, plus any older story a top-story card needs) and the archive (the
- * rest: news.json keeps a week).
+ * Split stories (newest first) into the Blogs tab (every blog post in news.json, which keeps
+ * a week), the News list (other stories from after `cutoff`, epoch ms, see `archiveCutoff`:
+ * the newest `MAX_DISPLAYED`, plus any story a top-story card needs) and the archive (other
+ * stories before `cutoff`).
  */
 export function splitArchive(
   feed: NewsFeed,
   cutoff: number,
-): { recent: NewsItem[]; archive: NewsItem[] } {
+): { recent: NewsItem[]; blogs: NewsItem[]; archive: NewsItem[] } {
   const inCards = new Set(
     [...feed.top_stories, ...feed.past_top_stories].flatMap((story) => story.item_ids),
   )
   const recent: NewsItem[] = []
+  const blogs: NewsItem[] = []
   const archive: NewsItem[] = []
   for (const item of feed.items) {
+    if (isBlog(item)) {
+      blogs.push(item)
+      continue
+    }
     // By the later of published and first seen, so an old article we only just found still
     // gets its time on the News tab.
     const arrived = Math.max(itemDate(item).getTime(), new Date(item.fetched_at).getTime())
@@ -130,9 +142,9 @@ export function splitArchive(
     else if (recent.length < MAX_DISPLAYED) recent.push(item)
   }
   const shown = new Set(recent.map((item) => item.id))
-  // Card members beyond the cap or the cutoff, so the cards stay complete.
+  // Card members beyond the cap or the cutoff, or blog posts, so the cards stay complete.
   const extra = feed.items.filter((item) => inCards.has(item.id) && !shown.has(item.id))
-  return { recent: [...recent, ...extra], archive }
+  return { recent: [...recent, ...extra], blogs, archive }
 }
 
 export interface ResolvedStory {

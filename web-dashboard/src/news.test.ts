@@ -115,6 +115,17 @@ describe('splitArchive', () => {
     expect(ids(archive)).toEqual(['old', 'older'])
   })
 
+  it('puts every blog post on the Blogs tab, whatever its age', () => {
+    const items = [
+      makeItem('news', '2026-10-03T09:00:00Z'),
+      makeItem('eng', '2026-10-03T08:00:00Z', { engineering: true }),
+      makeItem('post', '2026-09-29T08:00:00Z', { blog: true }),
+      makeItem('not-post', '2026-09-29T07:00:00Z', { blog: false }),
+    ]
+    const { recent, blogs, archive } = splitArchive(feed(items), cutoff)
+    expect([ids(recent), ids(blogs), ids(archive)]).toEqual([['news'], ['eng', 'post'], ['not-post']])
+  })
+
   it('keeps an old article on the News tab when it was only just found', () => {
     const late = makeItem('late', '2026-09-30T09:00:00Z', { fetched_at: '2026-10-03T11:00:00Z' })
     expect(ids(splitArchive(feed([late]), cutoff).recent)).toEqual(['late'])
