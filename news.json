@@ -1,6 +1,132 @@
 {
-  "generated_at": "2026-10-12T18:02:14.020879Z",
+  "generated_at": "2026-10-12T19:02:10.182905Z",
   "items": [
+    {
+      "id": "f0b99943da93eda74fbdf8241d4c9fa0",
+      "title": "Anthropic takes risky AI tests offline after models breach govt sites",
+      "url": "https://www.bleepingcomputer.com/news/security/anthropic-takes-risky-ai-tests-offline-after-models-breach-govt-sites/",
+      "source_id": "bleepingcomputer",
+      "source_name": "BleepingComputer",
+      "category": "tech",
+      "summary": "Anthropic announced that its internal AI models undergoing \"high-risk and cybersecurity evaluations\" no longer have internet access following incidents involving U.S. government websites at the federal, state, and local levels. [...]",
+      "published_at": "2026-10-12T18:51:59Z",
+      "fetched_at": "2026-10-12T19:02:10.182905Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 4
+    },
+    {
+      "id": "5f9ecbed4804efefbdfc9708a3a18763",
+      "title": "Codex CLI installs a persistent, self-updating background daemon by default",
+      "url": "https://github.com/openai/codex/issues/48195",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-12T18:29:04Z",
+      "fetched_at": "2026-10-12T19:02:10.182905Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50060694",
+      "points": 35,
+      "comments": 10,
+      "engineering": false,
+      "blog": null,
+      "review": "excluded",
+      "importance": null
+    },
+    {
+      "id": "c35b1f9f3f5085087701396252118a28",
+      "title": "Publishers Killed the Paperback, Then Blamed Readers",
+      "url": "https://jacobin.com/2026/10/books-publishing-reading-mass-market-paperback",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-12T18:27:26Z",
+      "fetched_at": "2026-10-12T19:02:10.182905Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50060674",
+      "points": 9,
+      "comments": 0,
+      "engineering": false,
+      "blog": false,
+      "review": "pending",
+      "importance": null
+    },
+    {
+      "id": "a3eaf58faa3b624fa17a37959ca63e18",
+      "title": "Just say no to OpenAI and Anthropic",
+      "url": "https://micahflee.com/just-say-no-to-openai-and-anthropic/",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-12T18:17:29Z",
+      "fetched_at": "2026-10-12T19:02:10.182905Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50060500",
+      "points": 61,
+      "comments": 27,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "d42a5884597f1cb1f3f690d67bb182cc",
+      "title": "Hello Python 3.15, goodbye 3.10, and now I can use 3.11",
+      "url": "https://simonwillison.net/2026/Oct/12/python-3-15/",
+      "source_id": "simon-willison",
+      "source_name": "Simon Willison",
+      "category": "tech",
+      "summary": "Python 3.15 is here! Here's the essential What's new in Python 3.15 guide, this year curated by 3.14 and 3.15 release manager Hugo van Kemenade. As someone who builds open source software that works in every supported Python version, I get to say goodbye to Python 3.10 and start embracing features from Python 3.11. First, some highlights from Python 3.15. Explicit lazy imports I'm most excited about Explicit lazy imports from PEP 810. These let you import modules like so: lazy import json lazy…",
+      "published_at": "2026-10-12T18:15:38Z",
+      "fetched_at": "2026-10-12T19:02:10.182905Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": true,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "a1a164749bac69a16fd545797c4921fb",
+      "title": "512 bytes at a time: reconstructing IBM i save-file checksums",
+      "url": "https://blog.silentsignal.eu/2026/10/06/512-bytes-at-a-time-reconstructing-IBM-i-save-file-checksums/",
+      "source_id": "lobsters",
+      "source_name": "Lobsters",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-12T18:12:46Z",
+      "fetched_at": "2026-10-12T19:02:10.182905Z",
+      "discussion_url": "https://lobste.rs/s/i1lyv7/512_bytes_at_time_reconstructing_ibm_i",
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 2
+    },
+    {
+      "id": "f907a560e26f18751c829b3791789a86",
+      "title": "My Reddit AMA on the Law of Web Scraping",
+      "url": "https://blog.ericgoldman.org/archives/2026/10/my-reddit-ama-on-the-law-of-web-scraping.htm",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-12T18:02:32Z",
+      "fetched_at": "2026-10-12T19:02:10.182905Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50060296",
+      "points": 12,
+      "comments": 1,
+      "engineering": false,
+      "blog": false,
+      "review": "pending",
+      "importance": null
+    },
     {
       "id": "559be438c1e076438227e5d58dc1c762",
       "title": "Meta releases its first frontier model, Muse Wonder",
@@ -36,6 +162,24 @@
       "blog": false,
       "review": "pending",
       "importance": null
+    },
+    {
+      "id": "c2fa6f9b85419b53a8bb9a9fed84a4fb",
+      "title": "Russia was not ready for the data center war it started with Ukraine",
+      "url": "https://arstechnica.com/gadgets/2026/10/russia-was-not-ready-for-the-data-center-war-it-started-with-ukraine/",
+      "source_id": "ars-technica",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "summary": "Russian bloggers warn Russia’s hyper-centralized digital economy is vulnerable.",
+      "published_at": "2026-10-12T17:52:36Z",
+      "fetched_at": "2026-10-12T19:02:10.182905Z",
+      "discussion_url": "https://arstechnica.com/gadgets/2026/10/russia-was-not-ready-for-the-data-center-war-it-started-with-ukraine/#comments",
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "4f931830ac9dcf9d1b09779c6af19590",
@@ -156,8 +300,8 @@
       "published_at": "2026-10-12T16:54:08Z",
       "fetched_at": "2026-10-12T18:02:14.020879Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50059204",
-      "points": 32,
-      "comments": 16,
+      "points": 78,
+      "comments": 97,
       "engineering": false,
       "blog": false,
       "review": "pending",
@@ -192,8 +336,8 @@
       "published_at": "2026-10-12T16:48:01Z",
       "fetched_at": "2026-10-12T18:02:14.020879Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50059115",
-      "points": 152,
-      "comments": 62,
+      "points": 267,
+      "comments": 118,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -210,8 +354,8 @@
       "published_at": "2026-10-12T16:46:34Z",
       "fetched_at": "2026-10-12T18:02:14.020879Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50059096",
-      "points": 21,
-      "comments": 4,
+      "points": 42,
+      "comments": 29,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -246,8 +390,8 @@
       "published_at": "2026-10-12T16:13:10Z",
       "fetched_at": "2026-10-12T17:02:10.650034Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50058528",
-      "points": 88,
-      "comments": 39,
+      "points": 166,
+      "comments": 69,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -282,8 +426,8 @@
       "published_at": "2026-10-12T16:11:45Z",
       "fetched_at": "2026-10-12T17:02:10.650034Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50058507",
-      "points": 162,
-      "comments": 106,
+      "points": 243,
+      "comments": 145,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -322,8 +466,8 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 2
     },
     {
       "id": "ef60e3694ed0e24e0298923f0b6d630e",
@@ -377,7 +521,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "34cec7983d6022d7691fec01712d1959",
@@ -485,7 +629,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "11abfff806837fc125ebf6cf7e842e14",
@@ -503,7 +647,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "e2def03f6f7484d6219d789373315104",
@@ -552,8 +696,8 @@
       "published_at": "2026-10-12T15:16:45Z",
       "fetched_at": "2026-10-12T18:02:14.020879Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50057668",
-      "points": 29,
-      "comments": 5,
+      "points": 53,
+      "comments": 10,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -606,8 +750,8 @@
       "published_at": "2026-10-12T15:08:53Z",
       "fetched_at": "2026-10-12T17:02:10.650034Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50057551",
-      "points": 72,
-      "comments": 32,
+      "points": 101,
+      "comments": 61,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -737,7 +881,7 @@
       "engineering": true,
       "blog": true,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "7544b69d7b1da56d98e02dfcc19aae35",
@@ -754,8 +898,8 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 1
     },
     {
       "id": "0e5af8172dfdcfeac402b81d4ea40898",
@@ -771,7 +915,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -786,8 +930,8 @@
       "published_at": "2026-10-12T14:34:25Z",
       "fetched_at": "2026-10-12T15:02:10.845061Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50057030",
-      "points": 44,
-      "comments": 5,
+      "points": 51,
+      "comments": 6,
       "engineering": false,
       "blog": false,
       "review": "pending",
@@ -809,7 +953,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "3c2943c933c971cd3aca8ebc97d9216d",
@@ -863,7 +1007,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "153b17e8ba1992f6af9d8b766b9ffad2",
@@ -881,7 +1025,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 4
     },
     {
       "id": "5883137fecc6313e454297709a6611e5",
@@ -917,7 +1061,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "4154d8b6c04f150406144d76196eb1fc",
@@ -971,7 +1115,7 @@
       "engineering": false,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "177a5c181723e2dbbabde66bfdee0e78",
@@ -1007,7 +1151,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "d25f04a192b8588e7d5361c1be5cc69f",
@@ -1025,7 +1169,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "35a91fc19e01e69d09463835f6e67211",
@@ -1187,7 +1331,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "9f3f1977746c22434f29923ef0e6f687",
@@ -1236,8 +1380,8 @@
       "published_at": "2026-10-12T12:41:58Z",
       "fetched_at": "2026-10-12T17:02:10.650034Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50055593",
-      "points": 77,
-      "comments": 21,
+      "points": 112,
+      "comments": 37,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -1277,7 +1421,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 4
     },
     {
       "id": "b86d151d39bbef65052e36713e666d30",
@@ -1290,8 +1434,8 @@
       "published_at": "2026-10-12T12:23:51Z",
       "fetched_at": "2026-10-12T14:02:14.663538Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50055375",
-      "points": 128,
-      "comments": 116,
+      "points": 137,
+      "comments": 126,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -1308,8 +1452,8 @@
       "published_at": "2026-10-12T12:16:42Z",
       "fetched_at": "2026-10-12T13:02:11.067627Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50055304",
-      "points": 49,
-      "comments": 23,
+      "points": 138,
+      "comments": 287,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -1352,6 +1496,24 @@
       "importance": 2
     },
     {
+      "id": "10d948633a512d27f012eb5b9a440550",
+      "title": "Citroen revives the 2CV for an electric age",
+      "url": "https://www.bbc.com/news/articles/c620r33plgppo",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-12T12:09:09Z",
+      "fetched_at": "2026-10-12T19:02:10.182905Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50055220",
+      "points": 149,
+      "comments": 173,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 2
+    },
+    {
       "id": "e054ac3032e36c47f1a93713c054f108",
       "title": "How to effectively debug when you no longer understand the code",
       "url": "https://copyconstruct.medium.com/how-to-effectively-debug-when-you-no-longer-understand-the-code-bd3dcb2c5f7b",
@@ -1365,7 +1527,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -1493,7 +1655,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "66c367f86d254518d6c98ff4f0551b85",
@@ -1520,12 +1682,12 @@
       "source_id": "wired",
       "source_name": "Wired",
       "category": "tech",
-      "summary": "Investigators also sought permission to use an invasive surveillance tool called a cell-site simulators against journalist Georgia Fort and a Minnesota state Senate candidate.",
+      "summary": null,
       "published_at": "2026-10-12T11:00:00Z",
       "fetched_at": "2026-10-12T11:02:13.761174Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
+      "discussion_url": "https://news.ycombinator.com/item?id=50059446",
+      "points": 33,
+      "comments": 15,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -1599,7 +1761,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 2
     },
@@ -1691,7 +1853,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "8532b97f0671129187faad5b7b6dead2",
@@ -1743,7 +1905,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -1833,7 +1995,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -1889,7 +2051,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "c523a57fdda0db1fc5f0039787afb2a6",
@@ -1923,9 +2085,9 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "767b3f79ca66dbb0ac821a851237056e",
@@ -1977,9 +2139,9 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "defc2868d1de038cd44f00f4bbf92d1d",
@@ -1995,7 +2157,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -2013,7 +2175,7 @@
       "points": 154,
       "comments": 189,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -2031,7 +2193,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 3
     },
@@ -2196,6 +2358,24 @@
       "blog": true,
       "review": "kept",
       "importance": 3
+    },
+    {
+      "id": "ea56706c82567176a0d3dc1bd776730e",
+      "title": "datasette-ports 0.4",
+      "url": "https://simonwillison.net/2026/Oct/12/datasette-ports/",
+      "source_id": "simon-willison",
+      "source_name": "Simon Willison",
+      "category": "tech",
+      "summary": "Release: datasette-ports 0.4 My plugin for detecting and listing all Datasette instances on the current machine now works with the latest version, and displays the detected PID as well. Knowing the PID makes it easier to attach the new Python 3.15 profiler. Tags: datasette",
+      "published_at": "2026-10-12T04:57:07Z",
+      "fetched_at": "2026-10-12T19:02:10.182905Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 2
     },
     {
       "id": "5b6e8d4042c12531a25479be02ca3d9c",
@@ -2373,7 +2553,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -2445,7 +2625,7 @@
       "points": 106,
       "comments": 34,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -2555,7 +2735,7 @@
       "engineering": false,
       "blog": true,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "ccb302a44b486e36bc13eac214e783a2",
@@ -2789,7 +2969,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "5a2cf2ec558389aa9e2fc568fcebda1e",
@@ -2859,7 +3039,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 2
     },
@@ -2879,7 +3059,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "430c908a60daaa16df1a8590d1c490c1",
@@ -3491,7 +3671,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "ce6aa77e0ed5b4a9aae524fac038d36d",
@@ -3530,24 +3710,6 @@
       "importance": 3
     },
     {
-      "id": "eac119ce7beea2315b9fec7980ee22c4",
-      "title": "Claude Code found my app’s shared contract in two MCP calls. Then the records ran out.",
-      "url": "https://thenewstack.io/claude-code-mcp-records/",
-      "source_id": "the-new-stack",
-      "source_name": "The New Stack",
-      "category": "tech",
-      "summary": "Every Claude Code user has watched a new session start from zero. You open it on a system you built The post Claude Code found my app’s shared contract in two MCP calls. Then the records ran out. appeared first on The New Stack.",
-      "published_at": "2026-10-11T14:00:00Z",
-      "fetched_at": "2026-10-11T20:10:18.079262Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": true,
-      "review": "kept",
-      "importance": 3
-    },
-    {
       "id": "1c72e8d829ad645cec0a19911e2f639b",
       "title": "Context Language Models: Self-Managing Context to Improve Performance and Reduce Compute Costs",
       "url": "https://www.infoq.com/news/2026/10/context-language-models/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -3555,6 +3717,24 @@
       "source_name": "InfoQ",
       "category": "tech",
       "summary": "Researchers from Meta, MIT, and the University of Washington introduce Context Language Models (CLMs), a new approach that enables language models to manage and edit their own context rather than relying on predefined mechanisms for summarization, compression, and information retrieval, reporting substantial gains in both performance and computational efficiency. By Sergio De Simone",
+      "published_at": "2026-10-11T14:00:00Z",
+      "fetched_at": "2026-10-11T20:10:18.079262Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 4
+    },
+    {
+      "id": "eac119ce7beea2315b9fec7980ee22c4",
+      "title": "Claude Code found my app’s shared contract in two MCP calls. Then the records ran out.",
+      "url": "https://thenewstack.io/claude-code-mcp-records/",
+      "source_id": "the-new-stack",
+      "source_name": "The New Stack",
+      "category": "tech",
+      "summary": "Every Claude Code user has watched a new session start from zero. You open it on a system you built The post Claude Code found my app’s shared contract in two MCP calls. Then the records ran out. appeared first on The New Stack.",
       "published_at": "2026-10-11T14:00:00Z",
       "fetched_at": "2026-10-11T20:10:18.079262Z",
       "discussion_url": null,
@@ -3617,7 +3797,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "ea0e9027ae91355a643509e9aa26e718",
@@ -3635,7 +3815,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "2b2f6ee14013331ce706bc4ae7cf45c5",
@@ -3651,7 +3831,7 @@
       "points": 200,
       "comments": 140,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -3777,7 +3957,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -3795,7 +3975,7 @@
       "points": 338,
       "comments": 179,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -3869,7 +4049,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "0c5eb2b8a2c498a4aa9e24cc85f93541",
@@ -4029,7 +4209,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -8940,8 +9120,8 @@
       "published_at": "2026-10-09T11:53:52Z",
       "fetched_at": "2026-10-09T12:02:10.607177Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50058850",
-      "points": 15,
-      "comments": 0,
+      "points": 26,
+      "comments": 5,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -14045,9 +14225,9 @@
   "top_stories": [
     {
       "id": "64604df83be7d45a52078bb0f2691ecb",
-      "title": "Meta releases Muse Wonder frontier AI model",
-      "summary": "Meta has released its first frontier AI models, Muse Wonder and Muse Wonder Full, via its Superintelligence Labs division. The models rival the world's best and include new features to keep agents from going off the rails.",
-      "why_it_matters": "Releases of new frontier models directly impact available capabilities and safety tooling for AI developers and enterprise engineers.",
+      "title": "Meta Releases Muse Wonder AI Models",
+      "summary": "Meta's Superintelligence Lab released Muse Wonder and Muse Wonder Full, the company's first attempt at a frontier model. The new model rivals the world's best and includes features to keep agents from going off the rails.",
+      "why_it_matters": "The release of new frontier models from major tech companies shifts the capabilities and safety guardrails available for AI-driven software development.",
       "item_ids": [
         "64604df83be7d45a52078bb0f2691ecb",
         "559be438c1e076438227e5d58dc1c762",
@@ -14056,13 +14236,29 @@
       ],
       "primary_url": null,
       "first_shown": "2026-10-12T18:02:14.020879Z",
-      "last_shown": "2026-10-12T18:02:14.020879Z"
+      "last_shown": "2026-10-12T19:02:10.182905Z"
+    },
+    {
+      "id": "1d497afebc36900804b1914324637a7c",
+      "title": "Cyberattack Defrosts French Supermarket Refrigerators",
+      "summary": "Attackers remotely defrosted refrigerators at multiple French supermarket chains overnight in a cyberattack targeting Danfoss refrigeration controllers. The incident sparked fires and food losses.",
+      "why_it_matters": "This attack on industrial control systems highlights significant physical security risks in connected operational technology and supply chain infrastructure.",
+      "item_ids": [
+        "1d497afebc36900804b1914324637a7c",
+        "8ce6c1bb2dce04827df1c02a13ab227d",
+        "23a767f883c413e29a00c2c57c7a4bbe",
+        "0d1b2e922ec8436f450c98025affa1b8",
+        "e6b665da4145ac96c71dc2edb945c7f2"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-12T13:02:11.067627Z",
+      "last_shown": "2026-10-12T19:02:10.182905Z"
     },
     {
       "id": "df627f245e810d8f47b9034f7b26a71d",
-      "title": "Ledger confirms hardware implant in crypto wallets sold by reseller",
-      "summary": "Ledger confirmed that some of its devices distributed through Southeast Asian reseller CryptoBilis were compromised with a hardware implant that drained user cryptocurrency wallets. The company has temporarily paused sales through the reseller.",
-      "why_it_matters": "Highlights severe supply chain security risks for hardware security modules and crypto wallets.",
+      "title": "Ledger Confirms Hardware Implant in Resold Crypto Wallets",
+      "summary": "Ledger confirmed that some of its hardware wallets distributed through Southeast Asian reseller CryptoBilis were compromised with a hardware implant that drained users' cryptocurrency wallets. Ledger has temporarily paused sales through the reseller.",
+      "why_it_matters": "Hardware supply chain compromises present critical security risks for cryptographic key storage and user funds.",
       "item_ids": [
         "df627f245e810d8f47b9034f7b26a71d",
         "4c7b4f232aea51961f2ed11131da998b",
@@ -14070,65 +14266,104 @@
       ],
       "primary_url": "https://www.tibane.net/research/ledger-nano-x-implant",
       "first_shown": "2026-10-12T13:02:11.067627Z",
-      "last_shown": "2026-10-12T18:02:14.020879Z"
+      "last_shown": "2026-10-12T19:02:10.182905Z"
     },
     {
-      "id": "23a767f883c413e29a00c2c57c7a4bbe",
-      "title": "Cyberattack shuts down refrigerators at French supermarkets",
-      "summary": "Attackers remotely defrosted refrigerators at multiple French supermarket chains overnight in a cyberattack targeting Danfoss refrigeration controllers. The incidents caused fires and food losses.",
-      "why_it_matters": "Demonstrates the real-world operational and physical risks of attacks on industrial IoT and operational technology systems.",
+      "id": "38ddce910bbf1bf55a675a890b134b18",
+      "title": "Microsoft and AMD Announce New AI Hardware and Chips",
+      "summary": "Microsoft announced its third-generation Maia 300 in-house AI chip designed to serve as the primary AI inference system for its products and services. Meanwhile, AMD unveiled Helion racks for AI agents at the OCP summit.",
+      "why_it_matters": "New specialized AI infrastructure hardware impacts cloud cost structures, inference performance, and reliance on third-party silicon providers.",
       "item_ids": [
-        "23a767f883c413e29a00c2c57c7a4bbe",
-        "8ce6c1bb2dce04827df1c02a13ab227d",
-        "0d1b2e922ec8436f450c98025affa1b8",
-        "e6b665da4145ac96c71dc2edb945c7f2"
+        "38ddce910bbf1bf55a675a890b134b18",
+        "d4b50bc6b2e0a17a9a0cc86228f83e0e",
+        "64da82e96443d2d3b70ebd62f11aa19c"
       ],
       "primary_url": null,
       "first_shown": "2026-10-12T13:02:11.067627Z",
-      "last_shown": "2026-10-12T18:02:14.020879Z"
+      "last_shown": "2026-10-12T19:02:10.182905Z"
     },
     {
-      "id": "334a30d4928e7561b3975fb98c819801",
-      "title": "Google announces Fitbit Edge wearable",
-      "summary": "Google announced the Fitbit Edge, a $179.99 wearable device positioned between the Fitbit Air and the Pixel Watch. The device features Pixel Watch smarts, an OLED display, and a week-long battery life.",
-      "why_it_matters": null,
+      "id": "20fb7ce00fc504a11545471dc519d251",
+      "title": "Yandex Data Centers Hit by Ukrainian Drone Strikes and Outages",
+      "summary": "Ukrainian drone strikes took Russian data centers offline, knocking Yandex cloud and payments offline and causing network connectivity to fall significantly. Multiple data centers, including a third Yandex Cloud facility, were hit.",
+      "why_it_matters": "Geopolitical conflicts increasingly disrupt critical cloud infrastructure and regional internet connectivity.",
       "item_ids": [
-        "334a30d4928e7561b3975fb98c819801",
-        "f62e7860541f919831b2bf0c1256864a",
-        "a6c0b3f7580b69fea79f526df7a92855",
-        "19fac7dca13337f20b0b5b03cea1f396"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-12T16:02:12.071552Z",
-      "last_shown": "2026-10-12T18:02:14.020879Z"
-    },
-    {
-      "id": "bf5a1216203206841971fc50b6d2148f",
-      "title": "Ukrainian drone strikes impact Yandex data centers",
-      "summary": "Ukrainian drone strikes over the week took Russian data centers offline, causing network connectivity for Yandex to fall to 30 percent of normal and impacting cloud and payment services.",
-      "why_it_matters": "Illustrates how geopolitical conflict and physical infrastructure attacks directly impact cloud services and data center uptime.",
-      "item_ids": [
-        "bf5a1216203206841971fc50b6d2148f",
         "20fb7ce00fc504a11545471dc519d251",
+        "bf5a1216203206841971fc50b6d2148f",
         "25a7b68fe7a058e09e5d6bc228093256"
       ],
       "primary_url": null,
       "first_shown": "2026-10-12T14:02:14.663538Z",
-      "last_shown": "2026-10-12T18:02:14.020879Z"
+      "last_shown": "2026-10-12T19:02:10.182905Z"
     },
     {
       "id": "f2ced4205ba86b401a2ab69b4bbc5f5a",
-      "title": "Microsoft President calls for urgent AI regulation",
-      "summary": "Microsoft President Brad Smith called for urgent AI regulation, stating that everyday items like milk and washing machines have more regulatory oversight than artificial intelligence companies.",
-      "why_it_matters": "Regulatory shifts proposed by major tech executives can significantly change compliance requirements for software development and AI deployment.",
+      "title": "Microsoft President Calls for Urgent AI Regulation",
+      "summary": "Microsoft President Brad Smith called for urgent AI regulation, stating that milk and washing machines have more oversight than AI companies. He warned that AI is currently less regulated than everyday consumer goods.",
+      "why_it_matters": "Regulatory shifts and executive calls for compliance standards will directly affect how enterprise software and AI tools are deployed.",
       "item_ids": [
         "f2ced4205ba86b401a2ab69b4bbc5f5a",
         "9f3f1977746c22434f29923ef0e6f687"
       ],
       "primary_url": null,
       "first_shown": "2026-10-12T16:10:55.279146Z",
-      "last_shown": "2026-10-12T18:02:14.020879Z"
+      "last_shown": "2026-10-12T19:02:10.182905Z"
     },
+    {
+      "id": "153b17e8ba1992f6af9d8b766b9ffad2",
+      "title": "Apple Smart Home Event and No Man's Sky iPad Release",
+      "summary": "Hello Games announced that No Man's Sky is coming to iOS with versions for iPhone and iPad. Meanwhile, Apple is hosting its first-ever dedicated smart home event in New York City with expected HomeView hub announcements.",
+      "why_it_matters": null,
+      "item_ids": [
+        "153b17e8ba1992f6af9d8b766b9ffad2",
+        "ead6bff4ef2ff3a313527aa95a67fc33",
+        "f583f0b7a0c8a9acb4e341f049206d39"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-12T19:02:10.182905Z",
+      "last_shown": "2026-10-12T19:02:10.182905Z"
+    },
+    {
+      "id": "f62e7860541f919831b2bf0c1256864a",
+      "title": "Google Announces Fitbit Edge Wearable",
+      "summary": "Google announced the Fitbit Edge, a $179.99 wearable device featuring an OLED screen and Pixel Watch smarts. The device positions itself as a middle ground between the Fitbit Air and a full smartwatch.",
+      "why_it_matters": null,
+      "item_ids": [
+        "f62e7860541f919831b2bf0c1256864a",
+        "334a30d4928e7561b3975fb98c819801",
+        "a6c0b3f7580b69fea79f526df7a92855",
+        "19fac7dca13337f20b0b5b03cea1f396"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-12T16:02:12.071552Z",
+      "last_shown": "2026-10-12T19:02:10.182905Z"
+    },
+    {
+      "id": "f0b99943da93eda74fbdf8241d4c9fa0",
+      "title": "Anthropic takes risky AI tests offline after models breach govt sites",
+      "summary": "Anthropic announced that its internal AI models undergoing \"high-risk and cybersecurity evaluations\" no longer have internet access following incidents involving U.S. government websites at the federal, state, and local levels. [...]",
+      "why_it_matters": "Anthropic's security precaution highlights the emerging risks and capabilities of autonomous cybersecurity evaluation models.",
+      "item_ids": [
+        "f0b99943da93eda74fbdf8241d4c9fa0"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-12T19:02:10.182905Z",
+      "last_shown": "2026-10-12T19:02:10.182905Z"
+    },
+    {
+      "id": "8c48e9aeec012991d49f6eb00fe9caf8",
+      "title": "Postgres isn't slow, your storage is",
+      "summary": null,
+      "why_it_matters": "Deep technical investigation into database performance showing how storage bottlenecks rather than Postgres itself limit throughput.",
+      "item_ids": [
+        "8c48e9aeec012991d49f6eb00fe9caf8"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-12T18:02:14.020879Z",
+      "last_shown": "2026-10-12T19:02:10.182905Z"
+    }
+  ],
+  "past_top_stories": [
     {
       "id": "88e0791d70c4558672c9dfef47547755",
       "title": "LineageOS 24.0 released",
@@ -14143,19 +14378,6 @@
       "last_shown": "2026-10-12T18:02:14.020879Z"
     },
     {
-      "id": "38ddce910bbf1bf55a675a890b134b18",
-      "title": "Microsoft announces Maia 300 in-house AI chip",
-      "summary": "Microsoft announced its third-generation Maia in-house AI chip, designed to serve as the primary AI inference system for its products and services and reduce reliance on Nvidia GPUs.",
-      "why_it_matters": "In-house custom silicon designs change cloud infrastructure economics and inference deployment strategies for developers.",
-      "item_ids": [
-        "38ddce910bbf1bf55a675a890b134b18",
-        "d4b50bc6b2e0a17a9a0cc86228f83e0e"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-12T13:02:11.067627Z",
-      "last_shown": "2026-10-12T18:02:14.020879Z"
-    },
-    {
       "id": "35a91fc19e01e69d09463835f6e67211",
       "title": "GitLab warns of max severity code execution vulnerability",
       "summary": "GitLab warned users today to immediately patch a maximum-severity vulnerability in the CI/CD Regular Expression Compiler that could let remote attackers run arbitrary code on targeted instances. [...]",
@@ -14167,20 +14389,6 @@
       "first_shown": "2026-10-12T14:02:14.663538Z",
       "last_shown": "2026-10-12T18:02:14.020879Z"
     },
-    {
-      "id": "8c48e9aeec012991d49f6eb00fe9caf8",
-      "title": "Postgres isn't slow, your storage is",
-      "summary": null,
-      "why_it_matters": "Deep technical investigation into database performance showing how storage bottlenecks rather than Postgres itself limit throughput.",
-      "item_ids": [
-        "8c48e9aeec012991d49f6eb00fe9caf8"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-12T18:02:14.020879Z",
-      "last_shown": "2026-10-12T18:02:14.020879Z"
-    }
-  ],
-  "past_top_stories": [
     {
       "id": "99c413b6e72c988829e469c0c579190c",
       "title": "Passkeys are a trap. Do not use them",
@@ -14276,30 +14484,6 @@
       "primary_url": null,
       "first_shown": "2026-10-12T12:02:21.696590Z",
       "last_shown": "2026-10-12T15:02:10.845061Z"
-    },
-    {
-      "id": "e4d35c967f07e44a86060d18ef4bf060",
-      "title": "Attackers Exploit CVSS 10.0 Bricksforge WordPress Flaw Enabling Unauthenticated RCE",
-      "summary": "A maximum-severity security flaw impacting the Bricksforge plugin for WordPress has come under active exploitation in the wild, according to Patchstack. The critical vulnerability in question is CVE-2026-85097 (CVSS score: 10.0), which allows unauthenticated attackers to upload and execute arbitrary PHP code on vulnerable WordPress websites, resulting in remote code execution (RCE). The",
-      "why_it_matters": "A maximum-severity CVSS 10.0 vulnerability in the Bricksforge WordPress plugin is actively exploited.",
-      "item_ids": [
-        "e4d35c967f07e44a86060d18ef4bf060"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-12T10:02:17.069478Z",
-      "last_shown": "2026-10-12T14:02:14.663538Z"
-    },
-    {
-      "id": "4689c0968fd272a8e884ee28f7e8d5a0",
-      "title": "Research Firm Calls Anthropic's IPO 'Unprecedented Test of Investor Gullibity'",
-      "summary": null,
-      "why_it_matters": "Financial and market analysis of Anthropic's upcoming initial public offering.",
-      "item_ids": [
-        "4689c0968fd272a8e884ee28f7e8d5a0"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-12T14:02:14.663538Z",
-      "last_shown": "2026-10-12T14:02:14.663538Z"
     }
   ]
 }
