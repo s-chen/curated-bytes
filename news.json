@@ -1,6 +1,24 @@
 {
-  "generated_at": "2026-10-12T03:02:22.266292Z",
+  "generated_at": "2026-10-12T04:02:20.826294Z",
   "items": [
+    {
+      "id": "a6ad7a597d5dfdb840c070d1800ec3f6",
+      "title": "Kernel prepatch 7.3-rc7",
+      "url": "https://lwn.net/Articles/1099798/",
+      "source_id": "lwn",
+      "source_name": "LWN.net",
+      "category": "tech",
+      "summary": "The 7.3-rc7 kernel prepatch is out for testing. According to Linus: \"As always, I would have preferred to see a smaller rc, but it's not like anything in here looks like a reason to delay the final release. So that's still set for next weekend unless something new comes up.\" One notable change that slipped into the mainline this week is the deprecation of the ext4 data=journal mode; it will be removed entirely at the beginning of 2028.",
+      "published_at": "2026-10-12T03:31:34Z",
+      "fetched_at": "2026-10-12T04:02:20.826294Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
     {
       "id": "b04ff2c511904e7c6188c8c60a5cb3aa",
       "title": "When LLM Decompilers Recompile More and Preserve Less",
@@ -110,6 +128,24 @@
       "importance": null
     },
     {
+      "id": "6b6a27e3aea13e840779c7f86e8b62c7",
+      "title": "Doory – Open-Source Canva",
+      "url": "https://github.com/shaongitbd/doory",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-12T00:48:27Z",
+      "fetched_at": "2026-10-12T04:02:20.826294Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50049872",
+      "points": 18,
+      "comments": 1,
+      "engineering": false,
+      "blog": null,
+      "review": "excluded",
+      "importance": null
+    },
+    {
       "id": "3b2cd5639e96b92ab2a2611544153c1b",
       "title": "Local Indexing to reduce tool calling and token usage",
       "url": "https://tedhaley.ca/pensieve/",
@@ -120,8 +156,8 @@
       "published_at": "2026-10-12T00:03:53Z",
       "fetched_at": "2026-10-12T01:02:22.240635Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50049508",
-      "points": 29,
-      "comments": 3,
+      "points": 37,
+      "comments": 5,
       "engineering": false,
       "blog": true,
       "review": "kept",
@@ -138,8 +174,8 @@
       "published_at": "2026-10-12T00:02:45Z",
       "fetched_at": "2026-10-12T02:02:14.432753Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50049498",
-      "points": 48,
-      "comments": 7,
+      "points": 52,
+      "comments": 12,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -174,8 +210,8 @@
       "published_at": "2026-10-11T23:50:34Z",
       "fetched_at": "2026-10-12T00:02:23.946952Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50049411",
-      "points": 78,
-      "comments": 32,
+      "points": 92,
+      "comments": 38,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -246,7 +282,7 @@
       "published_at": "2026-10-11T23:22:36Z",
       "fetched_at": "2026-10-12T01:02:22.240635Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50049133",
-      "points": 35,
+      "points": 42,
       "comments": 0,
       "engineering": false,
       "blog": false,
@@ -282,7 +318,7 @@
       "published_at": "2026-10-11T23:08:29Z",
       "fetched_at": "2026-10-12T01:02:22.240635Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50049003",
-      "points": 6,
+      "points": 14,
       "comments": 0,
       "engineering": false,
       "blog": null,
@@ -336,10 +372,10 @@
       "published_at": "2026-10-11T22:33:39Z",
       "fetched_at": "2026-10-12T00:02:23.946952Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50048642",
-      "points": 116,
-      "comments": 47,
+      "points": 151,
+      "comments": 64,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 3
     },
@@ -354,8 +390,8 @@
       "published_at": "2026-10-11T22:33:30Z",
       "fetched_at": "2026-10-12T00:02:23.946952Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50048638",
-      "points": 181,
-      "comments": 35,
+      "points": 234,
+      "comments": 54,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -372,8 +408,8 @@
       "published_at": "2026-10-11T22:22:10Z",
       "fetched_at": "2026-10-12T00:02:23.946952Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50048522",
-      "points": 74,
-      "comments": 38,
+      "points": 79,
+      "comments": 41,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -394,7 +430,7 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 2
     },
     {
@@ -408,10 +444,10 @@
       "published_at": "2026-10-11T21:59:48Z",
       "fetched_at": "2026-10-11T22:31:08.399797Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50048312",
-      "points": 321,
-      "comments": 181,
+      "points": 368,
+      "comments": 208,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 3
     },
@@ -449,7 +485,7 @@
       "engineering": false,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "ead6bff4ef2ff3a313527aa95a67fc33",
@@ -498,11 +534,11 @@
       "published_at": "2026-10-11T21:04:46Z",
       "fetched_at": "2026-10-12T03:02:22.266292Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50047802",
-      "points": 12,
-      "comments": 3,
+      "points": 22,
+      "comments": 7,
       "engineering": false,
       "blog": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 1
     },
     {
@@ -539,7 +575,7 @@
       "engineering": false,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "555a2b729c079321162b8aff56bebc0b",
@@ -552,8 +588,8 @@
       "published_at": "2026-10-11T20:20:52Z",
       "fetched_at": "2026-10-11T22:02:19.830621Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50047422",
-      "points": 276,
-      "comments": 448,
+      "points": 301,
+      "comments": 485,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -575,7 +611,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "0f71ae5c055fa6db93ff9e8c8576f05e",
@@ -588,7 +624,7 @@
       "published_at": "2026-10-11T19:46:40Z",
       "fetched_at": "2026-10-11T21:02:10.292762Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50047091",
-      "points": 196,
+      "points": 205,
       "comments": 38,
       "engineering": false,
       "blog": false,
@@ -642,8 +678,8 @@
       "published_at": "2026-10-11T19:43:32Z",
       "fetched_at": "2026-10-11T22:02:19.830621Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50047055",
-      "points": 261,
-      "comments": 36,
+      "points": 273,
+      "comments": 37,
       "engineering": false,
       "blog": false,
       "review": "excluded",
@@ -665,7 +701,7 @@
       "engineering": false,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "56556d09230794600a1d4bdbbf62a32a",
@@ -719,7 +755,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "3f7e3e3ccd73c2ba8f832e319cbb2e2a",
@@ -750,8 +786,8 @@
       "published_at": "2026-10-11T18:26:24Z",
       "fetched_at": "2026-10-11T20:10:18.079262Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50046241",
-      "points": 82,
-      "comments": 13,
+      "points": 87,
+      "comments": 14,
       "engineering": false,
       "blog": false,
       "review": "excluded",
@@ -786,11 +822,11 @@
       "published_at": "2026-10-11T18:04:47Z",
       "fetched_at": "2026-10-11T20:10:18.079262Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50045984",
-      "points": 386,
-      "comments": 163,
+      "points": 409,
+      "comments": 177,
       "engineering": false,
-      "blog": true,
-      "review": "kept",
+      "blog": false,
+      "review": "excluded",
       "importance": 3
     },
     {
@@ -804,12 +840,12 @@
       "published_at": "2026-10-11T18:01:16Z",
       "fetched_at": "2026-10-11T20:10:18.079262Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50045946",
-      "points": 373,
-      "comments": 184,
+      "points": 389,
+      "comments": 192,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "e5f21f593537ae62d98e7474a151a801",
@@ -894,7 +930,7 @@
       "published_at": "2026-10-11T16:58:22Z",
       "fetched_at": "2026-10-11T20:10:18.079262Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50045273",
-      "points": 71,
+      "points": 74,
       "comments": 15,
       "engineering": false,
       "blog": null,
@@ -988,7 +1024,7 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 2
     },
     {
@@ -1038,8 +1074,8 @@
       "published_at": "2026-10-11T15:21:58Z",
       "fetched_at": "2026-10-11T20:10:18.079262Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50044272",
-      "points": 93,
-      "comments": 31,
+      "points": 110,
+      "comments": 34,
       "engineering": false,
       "blog": true,
       "review": "kept",
@@ -1169,7 +1205,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "ce6aa77e0ed5b4a9aae524fac038d36d",
@@ -1439,7 +1475,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 1
     },
     {
       "id": "04609542e23e74a2946ad796c90bdc68",
@@ -1457,7 +1493,7 @@
       "engineering": false,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "3b95f3f0116d1d9d1f7a33de5b2f58ef",
@@ -1493,7 +1529,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "03b4c4bd100c461bcbbd0a0e3edeb938",
@@ -1599,7 +1635,7 @@
       "points": 559,
       "comments": 223,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 3
     },
@@ -1637,7 +1673,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "f90c4b7f80fec803fe48e7e13819df0f",
@@ -1653,7 +1689,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 2
     },
@@ -1889,7 +1925,7 @@
       "engineering": false,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "cee84b23d2f568c7e543e665450cfe0b",
@@ -2123,7 +2159,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "24800ca5740f592b87d04926b26e40f4",
@@ -2176,7 +2212,7 @@
       "comments": 29,
       "engineering": false,
       "blog": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 2
     },
     {
@@ -2195,7 +2231,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "77aa5efc585d7a16b8ea3f4f702faa5d",
@@ -2248,7 +2284,7 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 2
     },
     {
@@ -2285,7 +2321,7 @@
       "engineering": false,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "029aa7575409a0fa08b8801655a592b4",
@@ -11905,37 +11941,73 @@
       "id": "25a7b68fe7a058e09e5d6bc228093256",
       "title": "3rd Yandex Cloud Data Center Was Hit",
       "summary": null,
-      "why_it_matters": "Physical strikes on cloud infrastructure pose major availability, routing, and disaster recovery risks for operations teams.",
+      "why_it_matters": "Physical strikes on cloud data centers disrupt cloud availability and raise severe infrastructure resilience concerns.",
       "item_ids": [
         "25a7b68fe7a058e09e5d6bc228093256"
       ],
       "primary_url": null,
       "first_shown": "2026-10-11T20:10:18.079262Z",
-      "last_shown": "2026-10-12T03:02:22.266292Z"
-    },
-    {
-      "id": "a78aa9fbf475fde97b8e1afb10070966",
-      "title": "NYC's \"Click to Cancel\" rule is now in effect",
-      "summary": null,
-      "why_it_matters": "Subscription software and billing platforms must update their cancellation flows to comply with mandatory one-click cancellation rules.",
-      "item_ids": [
-        "a78aa9fbf475fde97b8e1afb10070966"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-11T22:02:19.830621Z",
-      "last_shown": "2026-10-12T03:02:22.266292Z"
+      "last_shown": "2026-10-12T04:02:20.826294Z"
     },
     {
       "id": "41225d68acfbb6814be780d5cdd08edd",
       "title": "Nippon Columbia malware incident exposes 8.6 million karaoke fan records",
       "summary": "Daiichi Kosho, a major Japanese entertainment system maker, disclosed that a malware infection at its contractor, Nippon Columbia, exposed more than 8.7 million customer and employee records. [...]",
-      "why_it_matters": "Highlights severe third-party vendor security risks resulting in massive user and employee credential exposures.",
+      "why_it_matters": "Malware infections at third-party contractors can expose millions of customer records through supply-chain vulnerabilities.",
       "item_ids": [
         "41225d68acfbb6814be780d5cdd08edd"
       ],
       "primary_url": null,
       "first_shown": "2026-10-11T21:02:10.292762Z",
-      "last_shown": "2026-10-12T03:02:22.266292Z"
+      "last_shown": "2026-10-12T04:02:20.826294Z"
+    },
+    {
+      "id": "a78aa9fbf475fde97b8e1afb10070966",
+      "title": "NYC's \"Click to Cancel\" rule is now in effect",
+      "summary": null,
+      "why_it_matters": "Software teams managing recurring billing systems must support straightforward cancellation flows to comply with NYC regulations.",
+      "item_ids": [
+        "a78aa9fbf475fde97b8e1afb10070966"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-11T22:02:19.830621Z",
+      "last_shown": "2026-10-12T04:02:20.826294Z"
+    },
+    {
+      "id": "ea0e9027ae91355a643509e9aa26e718",
+      "title": "Claude found 29,000 possible bugs in open source. Only 516 have been fixed.",
+      "summary": "Anthropic’s new OSS Scanner, launched last week as part of its broader Cyber Mission, exposes a problem inside the company’s The post Claude found 29,000 possible bugs in open source. Only 516 have been fixed. appeared first on The New Stack.",
+      "why_it_matters": "Anthropic's scanner findings demonstrate the massive volume of potential vulnerabilities found by automated AI tools in open source software.",
+      "item_ids": [
+        "ea0e9027ae91355a643509e9aa26e718"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-11T20:10:18.079262Z",
+      "last_shown": "2026-10-12T04:02:20.826294Z"
+    },
+    {
+      "id": "e98eee215e1cfc026e214571cbeeffa5",
+      "title": "AWS Introduces Enhanced Custom Event Buses for EventBridge",
+      "summary": "AWS recently announced enhanced custom event buses for Amazon EventBridge, allowing organizations to share a centralized bus across accounts with ordered delivery, simplified subscriber management, event replay, content-based deduplication, and a new publisher/subscriber-based pricing model. By Renato Losio",
+      "why_it_matters": "AWS users can now centralize cross-account event routing with ordered message delivery in Amazon EventBridge.",
+      "item_ids": [
+        "e98eee215e1cfc026e214571cbeeffa5"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-11T21:02:10.292762Z",
+      "last_shown": "2026-10-12T04:02:20.826294Z"
+    },
+    {
+      "id": "a6d439f53d50f8b9eef87448063312f2",
+      "title": "NASA dumped over 800GB of Artemis II data online",
+      "summary": "If you thought you'd seen all there is to see from the Artemis II mission, you're wrong. This week NASA posted over 800GB worth of science data, images, and videos on the Artemis II: Sights & Sounds of Science site. The archive includes over 11,000 photos and videos, over 8.5 hours of audio, and crew-annotated […]",
+      "why_it_matters": "Developers and researchers can access over 800GB of scientific datasets, images, and video released from the Artemis II mission.",
+      "item_ids": [
+        "a6d439f53d50f8b9eef87448063312f2"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-12T04:02:20.826294Z",
+      "last_shown": "2026-10-12T04:02:20.826294Z"
     },
     {
       "id": "7042a6fc942f0bd10bba3a37aee5f8b1",
@@ -11947,31 +12019,7 @@
       ],
       "primary_url": null,
       "first_shown": "2026-10-12T01:02:22.240635Z",
-      "last_shown": "2026-10-12T03:02:22.266292Z"
-    },
-    {
-      "id": "e98eee215e1cfc026e214571cbeeffa5",
-      "title": "AWS Introduces Enhanced Custom Event Buses for EventBridge",
-      "summary": "AWS recently announced enhanced custom event buses for Amazon EventBridge, allowing organizations to share a centralized bus across accounts with ordered delivery, simplified subscriber management, event replay, content-based deduplication, and a new publisher/subscriber-based pricing model. By Renato Losio",
-      "why_it_matters": "Simplifies multi-account cloud architectures by enabling cross-account event sharing with guaranteed ordered delivery.",
-      "item_ids": [
-        "e98eee215e1cfc026e214571cbeeffa5"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-11T21:02:10.292762Z",
-      "last_shown": "2026-10-12T03:02:22.266292Z"
-    },
-    {
-      "id": "ea0e9027ae91355a643509e9aa26e718",
-      "title": "Claude found 29,000 possible bugs in open source. Only 516 have been fixed.",
-      "summary": "Anthropic’s new OSS Scanner, launched last week as part of its broader Cyber Mission, exposes a problem inside the company’s The post Claude found 29,000 possible bugs in open source. Only 516 have been fixed. appeared first on The New Stack.",
-      "why_it_matters": "Demonstrates the operational bottleneck between automated AI security scanners discovering vulnerabilities and maintainers patching them.",
-      "item_ids": [
-        "ea0e9027ae91355a643509e9aa26e718"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-11T20:10:18.079262Z",
-      "last_shown": "2026-10-12T03:02:22.266292Z"
+      "last_shown": "2026-10-12T04:02:20.826294Z"
     },
     {
       "id": "99c413b6e72c988829e469c0c579190c",
@@ -11983,7 +12031,7 @@
       ],
       "primary_url": null,
       "first_shown": "2026-10-12T02:02:14.432753Z",
-      "last_shown": "2026-10-12T03:02:22.266292Z"
+      "last_shown": "2026-10-12T04:02:20.826294Z"
     }
   ],
   "past_top_stories": [
