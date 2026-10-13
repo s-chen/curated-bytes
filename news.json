@@ -1,6 +1,96 @@
 {
-  "generated_at": "2026-10-13T21:02:09.887409Z",
+  "generated_at": "2026-10-13T22:02:44.607335Z",
   "items": [
+    {
+      "id": "db7a615157222455833966019dae95d8",
+      "title": "Ghostscript flaw lets hackers hijack servers via PDF uploads",
+      "url": "https://www.bleepingcomputer.com/news/security/ghostscript-flaw-lets-hackers-hijack-servers-via-pdf-uploads/",
+      "source_id": "bleepingcomputer",
+      "source_name": "BleepingComputer",
+      "category": "tech",
+      "summary": "A critical heap buffer overflow vulnerability (CVE-2026-39919) in the Ghostscript interpreter and rendering engine could allow remote code execution through specially crafted PDF files. [...]",
+      "published_at": "2026-10-13T21:33:26Z",
+      "fetched_at": "2026-10-13T22:02:44.607335Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 4
+    },
+    {
+      "id": "7644f54f707808918317fc8d1736bc8b",
+      "title": "Announcing Lix 2.96 “Bingsu”",
+      "url": "https://lix.systems/blog/2026-10-13-lix-2.96-release/",
+      "source_id": "lobsters",
+      "source_name": "Lobsters",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-13T21:17:07Z",
+      "fetched_at": "2026-10-13T22:02:44.607335Z",
+      "discussion_url": "https://lobste.rs/s/y65egs/announcing_lix_2_96_bingsu",
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 2
+    },
+    {
+      "id": "35cb2a866c73dc32571f69e44ccd30b0",
+      "title": "Anthropic warns self-replicating AI could spread to your smart devices",
+      "url": "https://www.bleepingcomputer.com/news/security/anthropic-warns-self-replicating-ai-could-spread-to-your-smart-devices/",
+      "source_id": "bleepingcomputer",
+      "source_name": "BleepingComputer",
+      "category": "tech",
+      "summary": "Anthropic is warning that small AI models could soon be able to self-replicate across consumer IoT devices, from Android TV boxes to smart ovens, creating distributed botnets capable of running AI workloads without relying on data centers. [...]",
+      "published_at": "2026-10-13T21:16:34Z",
+      "fetched_at": "2026-10-13T22:02:44.607335Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 4
+    },
+    {
+      "id": "7ecc0d594a73a50917a5d270fcc3f536",
+      "title": "Helix Carbon says it can make iron cheaper by recycling blast furnace pollution",
+      "url": "https://techcrunch.com/2026/10/13/helix-carbon-makes-iron-cheaper-by-upcycling-blast-furnace-pollution-see-how-at-techcrunch-disrupt/",
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "category": "tech",
+      "summary": "The steel industry is a big polluter, but Helix Carbon can upcycle pollution from blast furnaces to drive down emissions and improve margins.",
+      "published_at": "2026-10-13T21:15:00Z",
+      "fetched_at": "2026-10-13T22:02:44.607335Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "pending",
+      "importance": null
+    },
+    {
+      "id": "52680e62519384470dfa53f35bca4ae2",
+      "title": "PostEra (YC W20) Is Hiring AI Researchers for Drug Discovery",
+      "url": "https://jobs.lever.co/postera/c7d50a36-db0a-4574-bfe4-8700b74a22c0",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-13T21:01:12Z",
+      "fetched_at": "2026-10-13T22:02:44.607335Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50078686",
+      "points": 0,
+      "comments": 0,
+      "engineering": false,
+      "blog": false,
+      "review": "pending",
+      "importance": null
+    },
     {
       "id": "b12fbb5cc5cb86b248ba77704090756a",
       "title": "FBI arrests OpenAI employee accused of planting hidden recording device in conference room",
@@ -38,6 +128,24 @@
       "importance": 4
     },
     {
+      "id": "08d1a0b3be131e4447736ed4d583cb34",
+      "title": "Accelerating the Zig Tokenizer (with AVX-512)",
+      "url": "https://www.youtube.com/watch?v=E6dWIwPLx3s",
+      "source_id": "lobsters",
+      "source_name": "Lobsters",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-13T20:36:59Z",
+      "fetched_at": "2026-10-13T22:02:44.607335Z",
+      "discussion_url": "https://lobste.rs/s/jref3l/accelerating_zig_tokenizer_with_avx_512",
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
       "id": "bdf5d9563e79ce5327f4f4721d17d71b",
       "title": "Judge orders OpenAI to turn over hiring records in Apple trade secrets case",
       "url": "https://techcrunch.com/2026/10/13/judge-orders-openai-to-turn-over-hiring-records-in-apple-trade-secrets-case/",
@@ -54,6 +162,24 @@
       "blog": false,
       "review": "kept",
       "importance": 3
+    },
+    {
+      "id": "5595f915a25f855cf1aa01e1e380e198",
+      "title": "OpenAI engineer arrested in bugging of executive conference room",
+      "url": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": "https://x.com/OpenAINewsroom/status/2110095403198849132",
+      "published_at": "2026-10-13T20:23:55Z",
+      "fetched_at": "2026-10-13T22:02:44.607335Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50078141",
+      "points": 58,
+      "comments": 91,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 4
     },
     {
       "id": "9af64655ecffa1aa8bbb6ec86c17826c",
@@ -146,6 +272,24 @@
       "importance": 4
     },
     {
+      "id": "9463a9622e16f04ddca7f57ebbcb8b9e",
+      "title": "Show HN: Parsimony – an open-source benchmark for how much code AI models add",
+      "url": "https://parsimony.lasu.dev/",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": "Existing benchmarks measure solve rate and token output/cost, but don't punish excess code, which makes a codebase harder to work with in the long term. I wanted to measure this since it matters most for long-term projects.Method: it takes the patches that benchmarks already publish (DeepSWE, SWE-bench Verified, SWE-bench Live) and counts \"coding units\": syntax elements like statements, calls, names and literals. I didn't use lines of code, so cramming code isn't rewarded. Deleted code is…",
+      "published_at": "2026-10-13T19:50:31Z",
+      "fetched_at": "2026-10-13T22:02:44.607335Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50077619",
+      "points": 14,
+      "comments": 1,
+      "engineering": false,
+      "blog": false,
+      "review": "pending",
+      "importance": null
+    },
+    {
       "id": "a5c4c4a04d86fcee27ecfc7c3a884d7c",
       "title": "Microsoft releases Windows 10 KB5126657 extended security update",
       "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5126657-extended-security-update/",
@@ -210,8 +354,8 @@
       "published_at": "2026-10-13T19:17:19Z",
       "fetched_at": "2026-10-13T21:02:09.887409Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50077096",
-      "points": 8,
-      "comments": 5,
+      "points": 13,
+      "comments": 13,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -246,8 +390,8 @@
       "published_at": "2026-10-13T19:11:48Z",
       "fetched_at": "2026-10-13T20:02:10.032304Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50077020",
-      "points": 75,
-      "comments": 22,
+      "points": 139,
+      "comments": 45,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -287,7 +431,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "9c9dbcd176ace3b2a8741fe23a2b3881",
@@ -395,7 +539,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "e87e26f9c0e86ff43d21dbc7bf016d39",
@@ -413,7 +557,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "d2cf236fabebfd4155aaa964cad739a1",
@@ -431,7 +575,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 4
     },
     {
       "id": "d938da80b3f59499a67c9618da79e74d",
@@ -449,7 +593,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "f401fd77d294bef12881234d2510c9a6",
@@ -521,7 +665,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "a04ae07958a2c901bb5d4ce9dfb726d3",
@@ -642,8 +786,8 @@
       "published_at": "2026-10-13T17:43:05Z",
       "fetched_at": "2026-10-13T19:02:09.006127Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50075665",
-      "points": 30,
-      "comments": 22,
+      "points": 39,
+      "comments": 28,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -665,7 +809,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "d09451193c15c42032f03c8368b25c0d",
@@ -719,7 +863,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "529815d9bf71921540f712b2244b32d6",
@@ -737,7 +881,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "1fdadbe50471efd658978758a1c210af",
@@ -825,7 +969,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 3
     },
@@ -845,7 +989,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "fa7cc7dc7a92c7a21ab6b862bf7c5dbd",
@@ -984,8 +1128,8 @@
       "published_at": "2026-10-13T16:57:57Z",
       "fetched_at": "2026-10-13T18:02:08.952266Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50074909",
-      "points": 51,
-      "comments": 24,
+      "points": 58,
+      "comments": 28,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -1002,8 +1146,8 @@
       "published_at": "2026-10-13T16:55:47Z",
       "fetched_at": "2026-10-13T18:02:08.952266Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50074869",
-      "points": 139,
-      "comments": 34,
+      "points": 154,
+      "comments": 39,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -1043,7 +1187,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 2
     },
     {
       "id": "676d7b9e162de4296bf4f23f8cd0dff3",
@@ -1115,7 +1259,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "f660213b041de1947994594febfbd3c8",
@@ -1151,7 +1295,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "1c5725fb2d02ed300597480341be8b0b",
@@ -1254,12 +1398,12 @@
       "published_at": "2026-10-13T16:03:16Z",
       "fetched_at": "2026-10-13T17:02:13.051349Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50073879",
-      "points": 719,
-      "comments": 586,
+      "points": 802,
+      "comments": 643,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "3bc8710cc7e532418243b4ab5b3ae688",
@@ -1295,7 +1439,7 @@
       "engineering": true,
       "blog": true,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "dfc3272763dcc65fce0edc98fe53b984",
@@ -1433,13 +1577,13 @@
       "summary": null,
       "published_at": "2026-10-13T15:49:56Z",
       "fetched_at": "2026-10-13T18:02:08.952266Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50073633",
-      "points": 320,
-      "comments": 301,
+      "discussion_url": "https://lobste.rs/s/5ucftp/redesigning_source_control_at_anthropic",
+      "points": null,
+      "comments": null,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "a76d2536daaf2543ad76b27a9b8c1750",
@@ -1475,7 +1619,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "4086b9cf2a65ebb4c47d1e3e6d63887e",
@@ -1488,8 +1632,8 @@
       "published_at": "2026-10-13T15:41:00Z",
       "fetched_at": "2026-10-13T16:02:07.750153Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50073471",
-      "points": 28,
-      "comments": 15,
+      "points": 31,
+      "comments": 16,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -1578,8 +1722,8 @@
       "published_at": "2026-10-13T15:25:50Z",
       "fetched_at": "2026-10-13T16:02:07.750153Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50073221",
-      "points": 182,
-      "comments": 108,
+      "points": 203,
+      "comments": 126,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -1650,8 +1794,8 @@
       "published_at": "2026-10-13T15:12:57Z",
       "fetched_at": "2026-10-13T17:02:13.051349Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50072994",
-      "points": 117,
-      "comments": 129,
+      "points": 142,
+      "comments": 198,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -1668,8 +1812,8 @@
       "published_at": "2026-10-13T15:07:37Z",
       "fetched_at": "2026-10-13T16:02:07.750153Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50072913",
-      "points": 246,
-      "comments": 90,
+      "points": 269,
+      "comments": 107,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -1776,8 +1920,8 @@
       "published_at": "2026-10-13T14:26:08Z",
       "fetched_at": "2026-10-13T19:02:09.006127Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50072286",
-      "points": 105,
-      "comments": 171,
+      "points": 135,
+      "comments": 209,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -1853,7 +1997,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "c8b68a484f30cd79f4873bc3f91dacdd",
@@ -1866,8 +2010,8 @@
       "published_at": "2026-10-13T14:14:23Z",
       "fetched_at": "2026-10-13T17:02:13.051349Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50072120",
-      "points": 85,
-      "comments": 35,
+      "points": 100,
+      "comments": 40,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -2085,7 +2229,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 3
     },
@@ -2103,7 +2247,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 3
     },
@@ -2208,12 +2352,12 @@
       "published_at": "2026-10-13T13:21:35Z",
       "fetched_at": "2026-10-13T15:02:08.119501Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50071310",
-      "points": 228,
-      "comments": 457,
+      "points": 250,
+      "comments": 484,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "f811a73d8b8bed766e5efd2df3d839d5",
@@ -2303,7 +2447,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "2c067165e6ce0586968c176ca80c4768",
@@ -2388,12 +2532,12 @@
       "published_at": "2026-10-13T13:02:12Z",
       "fetched_at": "2026-10-13T14:02:10.491936Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50071017",
-      "points": 577,
-      "comments": 713,
+      "points": 600,
+      "comments": 736,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "008cfe376e65e4f2f0d37ae990741211",
@@ -2694,8 +2838,8 @@
       "published_at": "2026-10-13T12:26:36Z",
       "fetched_at": "2026-10-13T14:02:10.491936Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50070593",
-      "points": 201,
-      "comments": 88,
+      "points": 205,
+      "comments": 90,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -2748,8 +2892,8 @@
       "published_at": "2026-10-13T12:23:34Z",
       "fetched_at": "2026-10-13T16:02:07.750153Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50070554",
-      "points": 41,
-      "comments": 70,
+      "points": 65,
+      "comments": 129,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -2843,7 +2987,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "6412315144a18be6609f5776c6f7c208",
@@ -2861,7 +3005,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "0f82ae7df468b3364aa73ec9ad846908",
@@ -3185,7 +3329,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "6a201c96c9db68efb0f196ae6f0791ee",
@@ -3401,7 +3545,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "176b7f510193e144a2264906857db3d9",
@@ -3491,7 +3635,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "636e5210d4052c4f48cce34cc20c978f",
@@ -3561,7 +3705,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 3
     },
@@ -3599,7 +3743,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "020d2ede8a021e0ca0ff4c8524efeb31",
@@ -4191,9 +4335,9 @@
       "points": 51,
       "comments": 26,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "e97eb394303cfd8203a9a69ae4bc3cd3",
@@ -4283,7 +4427,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "e8881de420a0eb8f6808fba38d321985",
@@ -4481,7 +4625,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "166f4193f6d046d35c91f61c31c81074",
@@ -4535,7 +4679,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "2325bc8df3a5492931c6e2a5ec657414",
@@ -4733,7 +4877,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "a3eaf58faa3b624fa17a37959ca63e18",
@@ -4805,7 +4949,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "f907a560e26f18751c829b3791789a86",
@@ -4859,7 +5003,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "89ec7dcc81374cd1f0d95d8f1ca5ed41",
@@ -4929,7 +5073,7 @@
       "points": null,
       "comments": null,
       "engineering": true,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -5039,7 +5183,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "e41af6ba26382e404c21e1f5f2c93cdd",
@@ -5051,6 +5195,24 @@
       "summary": "Meta is making up for lost time in the AI race. After launching Muse Spark, the first model from its revamped Superintelligence Labs division, and buzzy AI agent Muse, it's now launching two new models it claims can go toe-to-toe with the industry's best. The new models, Muse Wonder and Muse Wonder Full, are available […]",
       "published_at": "2026-10-12T17:00:00Z",
       "fetched_at": "2026-10-12T17:02:10.650034Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 4
+    },
+    {
+      "id": "53476aa1c345b49d906c653c3c959bc6",
+      "title": "Profiling web-edit with Python 3.15: flame graphs and source heatmaps",
+      "url": "https://simonwillison.net/2026/Oct/12/python-3-15-web-edit-profiling/",
+      "source_id": "simon-willison",
+      "source_name": "Simon Willison",
+      "category": "tech",
+      "summary": "Research: Profiling web-edit with Python 3.15: flame graphs and source heatmaps I put the new Python 3.15 profiler through its paces by having GPT-6 Astra Extra High in Codex run it against my new web-edit app: I need a Python 3.15 flame graph and heatmap demo of the \"web-edit\" app from PyPI - research first then make me those demos Here's the resulting example flame graph and heatmap. Tags: profiling, python, codex",
+      "published_at": "2026-10-12T16:58:00Z",
+      "fetched_at": "2026-10-13T22:02:44.607335Z",
       "discussion_url": null,
       "points": null,
       "comments": null,
@@ -5111,7 +5273,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "1adabc48a9b5c6d4251ba77174f77550",
@@ -5219,7 +5381,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "61a82ff4bf1e1510ce848c6294a23e0d",
@@ -5289,9 +5451,9 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "42d0c9a69fd8c7a058a075aa0cb66aa9",
@@ -5381,7 +5543,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "23a767f883c413e29a00c2c57c7a4bbe",
@@ -5469,7 +5631,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 3
     },
@@ -5615,7 +5777,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "f5d772c4f48f61a79f3539a8246a3a27",
@@ -5795,7 +5957,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "f480e42398f051b19b5393788ca9eeb3",
@@ -18504,27 +18666,25 @@
       "blog": null,
       "review": "pending",
       "importance": null
-    },
-    {
-      "id": "ee78974fc9da94435ec711ea6e29c626",
-      "title": "llm-mistral 0.16",
-      "url": "https://simonwillison.net/2026/Oct/6/llm-mistral/",
-      "source_id": "simon-willison",
-      "source_name": "Simon Willison",
-      "category": "tech",
-      "summary": "Release: llm-mistral 0.16 Adds support for reasoning models, such as the newly released Mistral Large 4. Tags: llm, mistral, llm-reasoning",
-      "published_at": "2026-10-06T21:32:34Z",
-      "fetched_at": "2026-10-11T21:02:10.292762Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": null,
-      "review": "pending",
-      "importance": null
     }
   ],
   "top_stories": [
+    {
+      "id": "4b1e7d7541c43614e5bb8bff9b1c3ae6",
+      "title": "Google releases Gemini 4 Argon flagship model with 1M token limit",
+      "summary": "Google has launched its flagship Gemini 4 Argon model, featuring a unified 1M input/output token limit and rolling out in the Gemini app and developer platforms with discounted API rates. The model is also integrated into partner offerings like Higgsfield for video generation.",
+      "why_it_matters": "Massive context windows and new architectural releases shift the capabilities and pricing strategies available to software engineers building on large language models.",
+      "item_ids": [
+        "4b1e7d7541c43614e5bb8bff9b1c3ae6",
+        "dfc3272763dcc65fce0edc98fe53b984",
+        "71d538a86b20eebe5c43e89c18cd3895",
+        "c4aea818b13c7d1339e1046531e7da65",
+        "6412315144a18be6609f5776c6f7c208"
+      ],
+      "primary_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon",
+      "first_shown": "2026-10-13T17:02:13.051349Z",
+      "last_shown": "2026-10-13T22:02:44.607335Z"
+    },
     {
       "id": "72a757b4e6613c01aaffd5fdcb8a480b",
       "title": "Ivanti Warns of Actively Exploited Connect Secure Zero-Days",
@@ -18536,64 +18696,7 @@
       ],
       "primary_url": "https://www.volexity.com/blog/2026/10/13/a-series-of-unauthenticated-events-chained-exploitation-of-ivanti-connect-secure-zero-days",
       "first_shown": "2026-10-13T20:02:10.032304Z",
-      "last_shown": "2026-10-13T21:02:09.887409Z"
-    },
-    {
-      "id": "dfc3272763dcc65fce0edc98fe53b984",
-      "title": "Google Launches Gemini 4 Argon Model",
-      "summary": "Google has launched its flagship Gemini 4 Argon model, featuring a unified 1M input/output token limit and competitive capabilities. Developers on the paid tier receive discounted API rates through November as the model rolls out in the Gemini app.",
-      "why_it_matters": "A new frontier model release with expanded token limits directly impacts developers building large-scale context applications.",
-      "item_ids": [
-        "dfc3272763dcc65fce0edc98fe53b984",
-        "4b1e7d7541c43614e5bb8bff9b1c3ae6",
-        "71d538a86b20eebe5c43e89c18cd3895",
-        "c4aea818b13c7d1339e1046531e7da65"
-      ],
-      "primary_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon",
-      "first_shown": "2026-10-13T17:02:13.051349Z",
-      "last_shown": "2026-10-13T21:02:09.887409Z"
-    },
-    {
-      "id": "b12fbb5cc5cb86b248ba77704090756a",
-      "title": "OpenAI Employee Arrested for Planting Recording Device",
-      "summary": "The FBI arrested an OpenAI product team employee after the company discovered a hidden recording device in an executive conference room. The suspect, a 35-year-old Saudi national named Abdulrahman Alfozan, faces charges.",
-      "why_it_matters": "This security incident inside a major AI lab highlights physical security vulnerabilities and insider threats at high-profile technology companies.",
-      "item_ids": [
-        "b12fbb5cc5cb86b248ba77704090756a",
-        "40b44721e47fb99ff77619e16b48f23c",
-        "de0da5be16df3d269890671cc981693b"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-13T21:02:09.887409Z",
-      "last_shown": "2026-10-13T21:02:09.887409Z"
-    },
-    {
-      "id": "bec3e63dac0b40028e0b1022810eaf01",
-      "title": "Anthropic Warns Small AI Models Could Form IoT Botnets",
-      "summary": "Anthropic's red team demonstrated that small AI models could run on cheap off-brand hardware like Android TV boxes, warning they may soon develop capabilities to self-replicate on IoT devices. The company took certain internal AI tests offline following the findings.",
-      "why_it_matters": "This reveals a novel threat vector where low-cost hardware and self-replicating AI models could be combined to create distributed IoT botnets.",
-      "item_ids": [
-        "bec3e63dac0b40028e0b1022810eaf01",
-        "1b3fc279645aaeeba1ea188734787dc6",
-        "1ae1fb98cb2acf9c91aecb2fbdbfd4a8",
-        "6a201c96c9db68efb0f196ae6f0791ee"
-      ],
-      "primary_url": "https://www.anthropic.com/research/self-replicating-ai",
-      "first_shown": "2026-10-13T21:02:09.887409Z",
-      "last_shown": "2026-10-13T21:02:09.887409Z"
-    },
-    {
-      "id": "7aed68e695b43cb0484fe0d198f71cc2",
-      "title": "Docker Fixes Critical Hub Vulnerability Allowing User Impersonation",
-      "summary": "Docker fixed a critical vulnerability in Docker Hub, tracked as CVE-2026-105445, that let attackers access another user's container repositories using a personal access token. The flaw allowed unauthorized users to push, pull, or delete images as another user.",
-      "why_it_matters": "Supply chain integrity is directly threatened when container registries allow unauthorized impersonation and repository tampering.",
-      "item_ids": [
-        "7aed68e695b43cb0484fe0d198f71cc2",
-        "59a0221dfb41667e694df08aee0c3d72"
-      ],
-      "primary_url": "https://www.docker.com/blog/docker-hub-security-advisory-cve-2026-105445",
-      "first_shown": "2026-10-13T20:02:10.032304Z",
-      "last_shown": "2026-10-13T21:02:09.887409Z"
+      "last_shown": "2026-10-13T22:02:44.607335Z"
     },
     {
       "id": "529815d9bf71921540f712b2244b32d6",
@@ -18606,13 +18709,86 @@
       ],
       "primary_url": "https://github.com/SAP/cloud-sdk-python/security/advisories/GHSA-4mv3-jxxm-9cx2",
       "first_shown": "2026-10-13T20:02:10.032304Z",
-      "last_shown": "2026-10-13T21:02:09.887409Z"
+      "last_shown": "2026-10-13T22:02:44.607335Z"
+    },
+    {
+      "id": "b12fbb5cc5cb86b248ba77704090756a",
+      "title": "OpenAI employee arrested for allegedly planting recording device in office",
+      "summary": "An OpenAI engineer and product team member was arrested by the FBI after the company discovered a hidden recording device in an executive conference room. The employee is charged with using a listening device.",
+      "why_it_matters": "Security breaches involving physical access to AI developer facilities raise serious concerns about internal threat vectors and intellectual property protection.",
+      "item_ids": [
+        "b12fbb5cc5cb86b248ba77704090756a",
+        "40b44721e47fb99ff77619e16b48f23c",
+        "5595f915a25f855cf1aa01e1e380e198",
+        "de0da5be16df3d269890671cc981693b"
+      ],
+      "primary_url": "https://www.justice.gov/opa/pr/saudi-national-arrested-installing-surreptitious-audio-recording-device-openai",
+      "first_shown": "2026-10-13T21:02:09.887409Z",
+      "last_shown": "2026-10-13T22:02:44.607335Z"
+    },
+    {
+      "id": "35cb2a866c73dc32571f69e44ccd30b0",
+      "title": "Anthropic warns small AI models could self-replicate on IoT devices",
+      "summary": "Anthropic has warned that small artificial intelligence models may soon develop capabilities to self-replicate across consumer IoT devices, such as Android TV boxes and smart ovens. The company's red team built a cluster of 15 off-brand Android TV boxes to test running AI.",
+      "why_it_matters": "This introduces new paradigms for botnet distribution and autonomous threat vectors on edge hardware.",
+      "item_ids": [
+        "35cb2a866c73dc32571f69e44ccd30b0",
+        "bec3e63dac0b40028e0b1022810eaf01",
+        "1ae1fb98cb2acf9c91aecb2fbdbfd4a8",
+        "6a201c96c9db68efb0f196ae6f0791ee"
+      ],
+      "primary_url": "https://www.anthropic.com/research/self-replicating-ai",
+      "first_shown": "2026-10-13T21:02:09.887409Z",
+      "last_shown": "2026-10-13T22:02:44.607335Z"
+    },
+    {
+      "id": "7aed68e695b43cb0484fe0d198f71cc2",
+      "title": "Docker fixes critical Docker Hub flaw enabling image tampering",
+      "summary": "Docker has disclosed and fixed a critical vulnerability in Docker Hub that let one user push, pull, or delete images as another user, or access another user's container repositories using a personal access token.",
+      "why_it_matters": "Container registry vulnerabilities directly compromise supply chain integrity and allow unauthorized code execution within published images.",
+      "item_ids": [
+        "7aed68e695b43cb0484fe0d198f71cc2",
+        "59a0221dfb41667e694df08aee0c3d72"
+      ],
+      "primary_url": "https://www.docker.com/blog/docker-hub-security-advisory-cve-2026-105445",
+      "first_shown": "2026-10-13T20:02:10.032304Z",
+      "last_shown": "2026-10-13T22:02:44.607335Z"
+    },
+    {
+      "id": "046039e74de3bee195c2ed043d3449d5",
+      "title": "Cyberattacks target French supermarkets by raising refrigerator temperatures",
+      "summary": "Attackers took remote control of fridges and freezers at hundreds of French supermarkets by hijacking Danfoss refrigeration controllers and warming them up, forcing stores to throw food away. The incidents also halted construction of a tunnel between Denmark and Germany.",
+      "why_it_matters": "Targeted attacks on industrial IoT and operational technology systems demonstrate risks to physical supply chains and critical infrastructure.",
+      "item_ids": [
+        "046039e74de3bee195c2ed043d3449d5",
+        "176b7f510193e144a2264906857db3d9",
+        "593f380231a2f677d04fbb8447a1cb7e",
+        "8ce6c1bb2dce04827df1c02a13ab227d",
+        "0d1b2e922ec8436f450c98025affa1b8"
+      ],
+      "primary_url": "https://claroty.com/team82/research/freeze-the-controller-defrost-the-food-uncovering-vulnerabilities-in-danfoss-refrigeration-controllers",
+      "first_shown": "2026-10-12T13:02:11.067627Z",
+      "last_shown": "2026-10-13T22:02:44.607335Z"
+    },
+    {
+      "id": "705264224834e808a6befa470d5fa990",
+      "title": "Epic Games pivots to AI-accelerated development for unannounced Disney game",
+      "summary": "Epic Games is pivoting to an AI-first game development model, instructing employees to use AI to generate code and art for an upcoming Disney game to replace manual coding and art creation.",
+      "why_it_matters": "Shifting large-scale production pipelines to automated code generation sets a major precedent for software engineering workflows in game development.",
+      "item_ids": [
+        "705264224834e808a6befa470d5fa990",
+        "22a997c3cc82477d9544587f0eadea86",
+        "4153c5d6c2b064aa192479a7e33eced6"
+      ],
+      "primary_url": "https://www.bloomberg.com/news/articles/2026-10-12/epic-games-delays-disney-project-asks-developers-to-use-more-ai",
+      "first_shown": "2026-10-13T11:02:18.699634Z",
+      "last_shown": "2026-10-13T22:02:44.607335Z"
     },
     {
       "id": "c0fb7cac577516d261f121fcf7bc33fd",
-      "title": "Google Simplifies Installing Private, AI-Generated Apps on Android",
-      "summary": "Google announced a new feature in AI Studio allowing users to install personal, AI-generated apps directly on Android devices without connecting a computer or publishing them widely on the Play Store.",
-      "why_it_matters": "This lowers friction for deploying custom AI-generated mobile applications, changing how developers test and distribute niche software.",
+      "title": "Google Play adds support for personal vibe-coded apps",
+      "summary": "Google announced a new feature allowing users in the US to easily install personal custom apps built with AI Studio without connecting a phone to a computer, and to keep them private rather than making them widely available.",
+      "why_it_matters": "This changes how developers distribute and test lightweight, AI-generated software directly to consumer environments.",
       "item_ids": [
         "c0fb7cac577516d261f121fcf7bc33fd",
         "7b941fbc4a80d7babbff85c9e6c0a0de",
@@ -18620,8 +18796,23 @@
       ],
       "primary_url": "https://blog.google/products-and-platforms/platforms/google-play/google-play-updates-october-2026",
       "first_shown": "2026-10-13T21:02:09.887409Z",
-      "last_shown": "2026-10-13T21:02:09.887409Z"
+      "last_shown": "2026-10-13T22:02:44.607335Z"
     },
+    {
+      "id": "2c067165e6ce0586968c176ca80c4768",
+      "title": "Xandr fined €8.6 million for illegally relaying Grindr user data",
+      "summary": "The Norwegian Data Protection Authority fined Microsoft-owned advertising company Xandr €8.6 million for illegally relaying Grindr users' sensitive data, including sexual orientation, to advertisers.",
+      "why_it_matters": null,
+      "item_ids": [
+        "2c067165e6ce0586968c176ca80c4768",
+        "166f4193f6d046d35c91f61c31c81074"
+      ],
+      "primary_url": "https://noyb.eu/en/privacy-win-norwegian-authority-fines-microsofts-xandr-eu-85-million",
+      "first_shown": "2026-10-13T15:02:08.119501Z",
+      "last_shown": "2026-10-13T22:02:44.607335Z"
+    }
+  ],
+  "past_top_stories": [
     {
       "id": "3172f2f6330eac0390cde3c7510e64ed",
       "title": "Apple Announces HomeView Smart Display and Home Collection",
@@ -18653,21 +18844,6 @@
       "last_shown": "2026-10-13T21:02:09.887409Z"
     },
     {
-      "id": "2c067165e6ce0586968c176ca80c4768",
-      "title": "Norway Fines Microsoft's Xandr Record €8.6M Over Grindr Data Sharing",
-      "summary": "The Norwegian Data Protection Authority fined Microsoft-owned advertising company Xandr €8.6 million for illegally relaying sensitive Grindr user data, including sexual orientation, to advertisers.",
-      "why_it_matters": "Regulatory enforcement over illicit data brokering highlights compliance risks for ad-tech platforms handling sensitive user attributes.",
-      "item_ids": [
-        "2c067165e6ce0586968c176ca80c4768",
-        "166f4193f6d046d35c91f61c31c81074"
-      ],
-      "primary_url": "https://www.datatilsynet.no/en/news/news-2026/microsoft-company-fined-nok-92-million-for-unlawfully-sharing-personal-data",
-      "first_shown": "2026-10-13T15:02:08.119501Z",
-      "last_shown": "2026-10-13T21:02:09.887409Z"
-    }
-  ],
-  "past_top_stories": [
-    {
       "id": "085d04b88b5f296bc293457d6d43287d",
       "title": "GitLab Patches Maximum-Severity Remote Code Execution Flaws",
       "summary": "GitLab released security patches for maximum-severity vulnerabilities impacting its Community and Enterprise editions. The flaws could allow unauthenticated remote attackers to execute arbitrary code on targeted instances.",
@@ -18693,24 +18869,6 @@
       ],
       "primary_url": null,
       "first_shown": "2026-10-13T15:02:08.119501Z",
-      "last_shown": "2026-10-13T20:02:10.032304Z"
-    },
-    {
-      "id": "176b7f510193e144a2264906857db3d9",
-      "title": "Cyberattack Hijacks Danfoss Controllers to Heat French Supermarket Refrigerators",
-      "summary": "Attackers took remote control of refrigeration systems at hundreds of French supermarkets by hijacking Danfoss controllers and raising temperatures to 50 degrees Celsius. The incident spoiled stock and forced stores to throw away food.",
-      "why_it_matters": "This major industrial IoT security breach highlights critical vulnerabilities in operational technology and remote controller firmware.",
-      "item_ids": [
-        "176b7f510193e144a2264906857db3d9",
-        "767c562b5d808657876e94b0f234b070",
-        "593f380231a2f677d04fbb8447a1cb7e",
-        "23a767f883c413e29a00c2c57c7a4bbe",
-        "8ce6c1bb2dce04827df1c02a13ab227d",
-        "2ed567de0d305699e9d66303d11e632c",
-        "0d1b2e922ec8436f450c98025affa1b8"
-      ],
-      "primary_url": "https://www.danfoss.com/en/service-and-support/coordinated-vulnerability-disclosure/danfoss-security-advisories/dsa-2025-03-01",
-      "first_shown": "2026-10-12T13:02:11.067627Z",
       "last_shown": "2026-10-13T20:02:10.032304Z"
     },
     {
@@ -18783,20 +18941,6 @@
       "primary_url": null,
       "first_shown": "2026-10-12T14:02:14.663538Z",
       "last_shown": "2026-10-13T19:02:09.006127Z"
-    },
-    {
-      "id": "22a997c3cc82477d9544587f0eadea86",
-      "title": "Epic Games Shifts to AI-Accelerated Development for Disney Game",
-      "summary": "Epic Games is pivoting to an AI-first game development model, telling employees to use AI to generate code and art for an upcoming, delayed Disney game. The project's development shift eliminates hand-written code and traditional art creation.",
-      "why_it_matters": "Signals a major shift by a prominent game studio toward AI-generated code and assets in production pipelines.",
-      "item_ids": [
-        "22a997c3cc82477d9544587f0eadea86",
-        "705264224834e808a6befa470d5fa990",
-        "4153c5d6c2b064aa192479a7e33eced6"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-13T11:02:18.699634Z",
-      "last_shown": "2026-10-13T18:02:08.952266Z"
     },
     {
       "id": "8038c94ed2ca2010a4cb551f8bed17b9",
