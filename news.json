@@ -1,6 +1,24 @@
 {
-  "generated_at": "2026-10-13T04:02:34.000497Z",
+  "generated_at": "2026-10-13T05:02:20.101924Z",
   "items": [
+    {
+      "id": "b9785bee3956b32880762dafe54ad67f",
+      "title": "DataCube: A Relational Aggregation Operator Generalizing Group-By, Cross-Tab, and Sub-Totals (1997)",
+      "url": "https://arxiv.org/pdf/cs/0701155",
+      "source_id": "lobsters",
+      "source_name": "Lobsters",
+      "category": "tech",
+      "summary": "Abstract: Data analysis applications typically aggregate data across many dimensions looking for anomalies or unusual patterns. The SQL aggregate functions and the GROUP BY operator produce zero-dimensional or one-dimensional aggregates. Applications need the N-dimensional generalization of these operators. This paper defines that operator, called the data cube or simply cube. The cube operator generalizes the histogram, cross-tabulation, roll-up, drill-down, and sub-total constructs found in…",
+      "published_at": "2026-10-13T04:57:55Z",
+      "fetched_at": "2026-10-13T05:02:20.101924Z",
+      "discussion_url": "https://lobste.rs/s/rji3qe/datacube_relational_aggregation",
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 2
+    },
     {
       "id": "ca2541243b063dcbea8daba31cd441c1",
       "title": "OpenAI algorithm for the FFT is less a breakthrough and more a malicious exploit",
@@ -12,12 +30,12 @@
       "published_at": "2026-10-13T02:46:43Z",
       "fetched_at": "2026-10-13T04:02:34.000497Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50065932",
-      "points": 21,
-      "comments": 5,
+      "points": 60,
+      "comments": 36,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "938820eba55418315b468dbc603b0f17",
@@ -34,8 +52,8 @@
       "comments": 91,
       "engineering": false,
       "blog": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "42127328251249135cc589bf230dc45a",
@@ -48,12 +66,30 @@
       "published_at": "2026-10-13T02:25:00Z",
       "fetched_at": "2026-10-13T03:02:30.711143Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50065805",
-      "points": 59,
-      "comments": 43,
+      "points": 90,
+      "comments": 81,
       "engineering": false,
       "blog": false,
       "review": "kept",
       "importance": 3
+    },
+    {
+      "id": "425929463d4079269334968f5c295957",
+      "title": "The Dock on Mac, from OS 10 to macOS 27",
+      "url": "https://blog.jim-nielsen.com/2026/macos-dock-icons-over-time/",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-13T02:09:19Z",
+      "fetched_at": "2026-10-13T05:02:20.101924Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50065713",
+      "points": 18,
+      "comments": 5,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 2
     },
     {
       "id": "cd2c1d532cdaa3b98fb1c45dfb0e7e05",
@@ -66,8 +102,8 @@
       "published_at": "2026-10-13T02:07:08Z",
       "fetched_at": "2026-10-13T04:02:34.000497Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50065692",
-      "points": 15,
-      "comments": 1,
+      "points": 43,
+      "comments": 22,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -107,7 +143,25 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
+    },
+    {
+      "id": "026c8f3c2d1b483b4444be112b3d51cf",
+      "title": "Show HN: SolidCraft – Open-Source Parametric CAD in Rust (With MCP Support)",
+      "url": "https://github.com/bherbruck/solidcraft",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-13T00:11:04Z",
+      "fetched_at": "2026-10-13T05:02:20.101924Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50064840",
+      "points": 17,
+      "comments": 0,
+      "engineering": false,
+      "blog": null,
+      "review": "excluded",
+      "importance": null
     },
     {
       "id": "705e786a5694fba1b9a352807d9f71c2",
@@ -120,12 +174,12 @@
       "published_at": "2026-10-12T23:34:22Z",
       "fetched_at": "2026-10-13T00:02:26.424320Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50064536",
-      "points": 118,
-      "comments": 75,
+      "points": 129,
+      "comments": 85,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "720f026e0b268969d0490c4c375e9616",
@@ -138,8 +192,8 @@
       "published_at": "2026-10-12T23:21:12Z",
       "fetched_at": "2026-10-13T00:02:26.424320Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50064438",
-      "points": 27,
-      "comments": 15,
+      "points": 30,
+      "comments": 17,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -177,9 +231,9 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "e97eb394303cfd8203a9a69ae4bc3cd3",
@@ -210,8 +264,8 @@
       "published_at": "2026-10-12T22:05:43Z",
       "fetched_at": "2026-10-13T00:59:50.145513Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50063717",
-      "points": 61,
-      "comments": 25,
+      "points": 73,
+      "comments": 26,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -246,8 +300,8 @@
       "published_at": "2026-10-12T21:40:18Z",
       "fetched_at": "2026-10-12T22:02:17.795777Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50063427",
-      "points": 269,
-      "comments": 228,
+      "points": 285,
+      "comments": 238,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -264,12 +318,12 @@
       "published_at": "2026-10-12T21:39:32Z",
       "fetched_at": "2026-10-12T22:02:17.795777Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50063417",
-      "points": 92,
-      "comments": 27,
+      "points": 102,
+      "comments": 28,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "e8881de420a0eb8f6808fba38d321985",
@@ -282,12 +336,12 @@
       "published_at": "2026-10-12T21:35:35Z",
       "fetched_at": "2026-10-13T00:02:26.424320Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50063365",
-      "points": 104,
-      "comments": 44,
+      "points": 127,
+      "comments": 49,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "e1fd83b19dc8467bd4c304783a9fd945",
@@ -335,9 +389,9 @@
       "summary": null,
       "published_at": "2026-10-12T21:12:43Z",
       "fetched_at": "2026-10-12T23:02:23.440123Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50063138",
-      "points": 134,
-      "comments": 15,
+      "discussion_url": "https://lobste.rs/s/2h9opx/who_is_vfmaddrnd231pd",
+      "points": null,
+      "comments": null,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -359,7 +413,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "260d44252e6cd5347487d01ea2bd466c",
@@ -372,8 +426,8 @@
       "published_at": "2026-10-12T21:03:36Z",
       "fetched_at": "2026-10-12T23:02:23.440123Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50063042",
-      "points": 41,
-      "comments": 13,
+      "points": 44,
+      "comments": 15,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -534,8 +588,8 @@
       "published_at": "2026-10-12T19:36:02Z",
       "fetched_at": "2026-10-12T22:02:17.795777Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50061791",
-      "points": 119,
-      "comments": 43,
+      "points": 134,
+      "comments": 44,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -629,7 +683,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "c773517a9d288efaf7e95571a077559b",
@@ -678,8 +732,8 @@
       "published_at": "2026-10-12T18:29:04Z",
       "fetched_at": "2026-10-12T19:02:10.182905Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50060694",
-      "points": 491,
-      "comments": 253,
+      "points": 500,
+      "comments": 255,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -753,7 +807,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -773,7 +827,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "593f380231a2f677d04fbb8447a1cb7e",
@@ -791,7 +845,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "f907a560e26f18751c829b3791789a86",
@@ -915,9 +969,9 @@
       "points": null,
       "comments": null,
       "engineering": true,
-      "blog": true,
+      "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "6ccbc96cdc22c4b6c56bd3955ec441e2",
@@ -953,7 +1007,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "206354d345e159a042754609f0e6ef07",
@@ -971,7 +1025,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "f677fef95ba1f6b76e1a458ab0e92ce6",
@@ -989,7 +1043,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "84b716d9b7dedb04668c845c27247358",
@@ -1092,8 +1146,8 @@
       "published_at": "2026-10-12T16:48:01Z",
       "fetched_at": "2026-10-12T18:02:14.020879Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50059115",
-      "points": 558,
-      "comments": 308,
+      "points": 572,
+      "comments": 312,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -1110,8 +1164,8 @@
       "published_at": "2026-10-12T16:46:34Z",
       "fetched_at": "2026-10-12T18:02:14.020879Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50059096",
-      "points": 120,
-      "comments": 79,
+      "points": 122,
+      "comments": 81,
       "engineering": false,
       "blog": false,
       "review": "excluded",
@@ -1169,7 +1223,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "95e9f54211e68d4d1d576a834a80e5af",
@@ -1200,8 +1254,8 @@
       "published_at": "2026-10-12T16:11:45Z",
       "fetched_at": "2026-10-12T17:02:10.650034Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50058507",
-      "points": 473,
-      "comments": 266,
+      "points": 487,
+      "comments": 280,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -1223,7 +1277,7 @@
       "engineering": true,
       "blog": true,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "15c40a3f51901c94b263d609979f4d70",
@@ -1259,7 +1313,7 @@
       "engineering": true,
       "blog": true,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "3f191e84c05483314d393f7029432fb4",
@@ -1275,9 +1329,9 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "42d0c9a69fd8c7a058a075aa0cb66aa9",
@@ -1295,7 +1349,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "64da82e96443d2d3b70ebd62f11aa19c",
@@ -1385,7 +1439,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "f2ced4205ba86b401a2ab69b4bbc5f5a",
@@ -1403,7 +1457,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "c27523d7ec6658013d2b752f3ec080bd",
@@ -1455,7 +1509,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -1475,7 +1529,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "b5887a69a5ac88ca79e888b1b6706ba9",
@@ -1547,7 +1601,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "77fade98c4fd520efa0f09a390c7b905",
@@ -1601,7 +1655,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "f5d772c4f48f61a79f3539a8246a3a27",
@@ -1655,7 +1709,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "46bb5fe08c33b8db674f706155dc108f",
@@ -1673,7 +1727,7 @@
       "engineering": true,
       "blog": true,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "7544b69d7b1da56d98e02dfcc19aae35",
@@ -1745,7 +1799,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "3c2943c933c971cd3aca8ebc97d9216d",
@@ -1853,7 +1907,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "4154d8b6c04f150406144d76196eb1fc",
@@ -1905,9 +1959,9 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "177a5c181723e2dbbabde66bfdee0e78",
@@ -2105,7 +2159,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "d76d7552a8a3efa6b9e19fb29fdd6d51",
@@ -2141,7 +2195,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "c5b4c4daa0905eaa90620373f0ba3c9c",
@@ -2213,7 +2267,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "b86d151d39bbef65052e36713e666d30",
@@ -2231,7 +2285,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "e6b665da4145ac96c71dc2edb945c7f2",
@@ -2249,7 +2303,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "156c015fb8e87b1cba4095c54b7226d3",
@@ -2535,7 +2589,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -2697,7 +2751,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -2789,7 +2843,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "3f15a862ef3bcf0e509558fe81927001",
@@ -2825,7 +2879,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 3
     },
     {
       "id": "297da35d78281024c00fce526629b671",
@@ -2843,7 +2897,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "c523a57fdda0db1fc5f0039787afb2a6",
@@ -2861,7 +2915,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "ec1534f95f4863df8c77ce3b87a9bd40",
@@ -2897,7 +2951,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "a98a206e042261c5a8da97f481a977bd",
@@ -2931,9 +2985,9 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "defc2868d1de038cd44f00f4bbf92d1d",
@@ -2949,7 +3003,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -3005,7 +3059,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "64ee977c91ea1b669cb0a14de9669125",
@@ -3095,7 +3149,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "d374979cac67e806c2a29a93a5e3808f",
@@ -3147,9 +3201,9 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "ea56706c82567176a0d3dc1bd776730e",
@@ -3165,7 +3219,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 2
     },
@@ -3203,7 +3257,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "071934d0706c982959bd056e8371f7d0",
@@ -3275,7 +3329,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "19cffeb0e06c00acf4d5ffc7e58a3fde",
@@ -3417,7 +3471,7 @@
       "points": 106,
       "comments": 34,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -3833,7 +3887,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "555a2b729c079321162b8aff56bebc0b",
@@ -3851,7 +3905,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "430c908a60daaa16df1a8590d1c490c1",
@@ -3959,7 +4013,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "56556d09230794600a1d4bdbbf62a32a",
@@ -4029,7 +4083,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -14999,9 +15053,9 @@
   "top_stories": [
     {
       "id": "64604df83be7d45a52078bb0f2691ecb",
-      "title": "Meta announces Muse Wonder frontier AI models",
-      "summary": "Meta's Superintelligence Lab released Muse Wonder and Muse Wonder Full, the company's first attempt at a frontier model. The new models rival the world's best AI systems and include new features to keep agents from going off the rails.",
-      "why_it_matters": "Releasing new frontier models changes the competitive landscape for AI engineering and introduces new capabilities and safety features for agent development.",
+      "title": "Meta Launches Muse Wonder Frontier AI Models",
+      "summary": "Meta's Superintelligence Lab has released Muse Wonder and Muse Wonder Full, its first attempt at a frontier model. The models rival the world's best and include features designed to keep agents from going off the rails.",
+      "why_it_matters": "The release of new frontier models from major labs shifts the competitive landscape and introduces new architectural safety controls for developers building AI agents.",
       "item_ids": [
         "64604df83be7d45a52078bb0f2691ecb",
         "559be438c1e076438227e5d58dc1c762",
@@ -15010,13 +15064,13 @@
       ],
       "primary_url": null,
       "first_shown": "2026-10-12T18:02:14.020879Z",
-      "last_shown": "2026-10-13T04:02:34.000497Z"
+      "last_shown": "2026-10-13T05:02:20.101924Z"
     },
     {
       "id": "cbc85c5bb0acb19de4ebc30ee7c777fb",
-      "title": "Yandex data centers damaged by drone strikes causing outages",
-      "summary": "Russian cloud services provider Yandex announced that drone attacks damaged three of its data centers, forcing it to shut down two facilities and partially disable a third. Ukrainian drone strikes knocked cloud and payments offline, reducing network connectivity significantly.",
-      "why_it_matters": "Physical attacks on critical cloud infrastructure cause major service disruptions and highlight the vulnerability of centralized cloud architectures.",
+      "title": "Yandex Data Centers Hit by Ukrainian Drone Strikes",
+      "summary": "Russian cloud services provider Yandex confirmed that drone attacks damaged three of its data centers, forcing it to shut down two facilities and partially disable a third. The strikes knocked cloud and payments offline while network connectivity fell significantly.",
+      "why_it_matters": "Physical attacks on critical cloud infrastructure directly impact uptime, regional data availability, and the resilience of distributed system designs.",
       "item_ids": [
         "cbc85c5bb0acb19de4ebc30ee7c777fb",
         "bf5a1216203206841971fc50b6d2148f",
@@ -15024,44 +15078,43 @@
       ],
       "primary_url": null,
       "first_shown": "2026-10-12T14:02:14.663538Z",
-      "last_shown": "2026-10-13T04:02:34.000497Z"
-    },
-    {
-      "id": "38ddce910bbf1bf55a675a890b134b18",
-      "title": "Microsoft announces third-generation Maia 300 in-house AI chip",
-      "summary": "Microsoft is announcing its third-generation Maia in-house AI chip, designed to be the primary AI inference system for Microsoft's products and services. The new chip improves cost and makes the company less reliant on Nvidia's GPUs.",
-      "why_it_matters": "Custom silicon offerings from major cloud providers directly alter infrastructure costs, hardware dependencies, and deployment strategies for large-scale AI workloads.",
-      "item_ids": [
-        "38ddce910bbf1bf55a675a890b134b18",
-        "d4b50bc6b2e0a17a9a0cc86228f83e0e"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-12T13:02:11.067627Z",
-      "last_shown": "2026-10-13T04:02:34.000497Z"
+      "last_shown": "2026-10-13T05:02:20.101924Z"
     },
     {
       "id": "1d497afebc36900804b1914324637a7c",
-      "title": "Cyberattack remotely defrosts supermarket refrigerators across Europe",
-      "summary": "Attackers remotely defrosted refrigerators at multiple French supermarket chains overnight in a cyberattack targeting Danfoss refrigeration controllers. The security incident caused fires and food losses, forcing grocery chains to take systems offline.",
-      "why_it_matters": "This incident exposes critical vulnerabilities in industrial IoT and OT security systems used in commercial infrastructure.",
+      "title": "Cyberattack Remotely Defrosts French Supermarket Refrigerators",
+      "summary": "Attackers remotely defrosted refrigerators at multiple French supermarket chains overnight in a cyberattack that reportedly targeted Danfoss refrigeration controllers. The unprecedented attack sparked fires, food losses, and sudden supermarket refrigeration shutdowns.",
+      "why_it_matters": "This incident demonstrates how vulnerabilities in industrial IoT and commercial control systems can be exploited to cause physical damage and operational chaos.",
       "item_ids": [
         "1d497afebc36900804b1914324637a7c",
-        "2ed567de0d305699e9d66303d11e632c",
         "593f380231a2f677d04fbb8447a1cb7e",
-        "23a767f883c413e29a00c2c57c7a4bbe",
         "8ce6c1bb2dce04827df1c02a13ab227d",
+        "2ed567de0d305699e9d66303d11e632c",
         "0d1b2e922ec8436f450c98025affa1b8",
         "e6b665da4145ac96c71dc2edb945c7f2"
       ],
       "primary_url": null,
       "first_shown": "2026-10-12T13:02:11.067627Z",
-      "last_shown": "2026-10-13T04:02:34.000497Z"
+      "last_shown": "2026-10-13T05:02:20.101924Z"
+    },
+    {
+      "id": "d4b50bc6b2e0a17a9a0cc86228f83e0e",
+      "title": "Microsoft Announces Third-Generation Maia AI Chip",
+      "summary": "Microsoft is announcing its third-generation Maia in-house AI chip, designed to be the primary AI inference system for Microsoft's products and services. The new architecture aims to improve cost and reduce reliance on Nvidia's GPUs.",
+      "why_it_matters": "Custom in-house silicon developments by hyperscalers directly impact cloud pricing, hardware provisioning strategies, and the supply chain for AI infrastructure.",
+      "item_ids": [
+        "d4b50bc6b2e0a17a9a0cc86228f83e0e",
+        "e8881de420a0eb8f6808fba38d321985"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-12T13:02:11.067627Z",
+      "last_shown": "2026-10-13T05:02:20.101924Z"
     },
     {
       "id": "df627f245e810d8f47b9034f7b26a71d",
-      "title": "Ledger confirms unauthorized hardware implant in crypto wallets from reseller",
-      "summary": "Ledger has confirmed that some of its devices distributed through Southeast Asian reseller CryptoBilis were compromised with a hardware implant that drained users' cryptocurrency wallets. Ledger temporarily paused sales of its products via the reseller following reports of stolen funds.",
-      "why_it_matters": "Hardware-level supply chain compromises threaten device integrity and underscore the risks associated with third-party unauthorized resellers.",
+      "title": "Ledger Confirms Supply Chain Compromise via Reseller",
+      "summary": "Ledger confirmed that some of its devices distributed through Southeast Asian reseller CryptoBilis were compromised with a hardware implant that drained users' cryptocurrency wallets. Ledger temporarily paused sales through the reseller following reports of stolen funds.",
+      "why_it_matters": "Hardware supply chain attacks highlight the critical risks of third-party reseller integrity and physical device tampering in cryptographic security.",
       "item_ids": [
         "df627f245e810d8f47b9034f7b26a71d",
         "4c7b4f232aea51961f2ed11131da998b",
@@ -15069,8 +15122,71 @@
       ],
       "primary_url": "https://www.tibane.net/research/ledger-nano-x-implant",
       "first_shown": "2026-10-12T13:02:11.067627Z",
-      "last_shown": "2026-10-13T04:02:34.000497Z"
+      "last_shown": "2026-10-13T05:02:20.101924Z"
     },
+    {
+      "id": "705264224834e808a6befa470d5fa990",
+      "title": "Epic Games Reports Pivot to AI-First Development",
+      "summary": "Epic Games has reportedly pivoted to an AI-first game development model for its delayed Marvel/Star Wars shooter, telling employees to use AI to get the project done.",
+      "why_it_matters": "Widespread adoption of AI-first workflows by major studios signals a shift in software engineering practices within the gaming industry.",
+      "item_ids": [
+        "705264224834e808a6befa470d5fa990",
+        "4153c5d6c2b064aa192479a7e33eced6"
+      ],
+      "primary_url": "https://www.bloomberg.com/news/articles/2026-10-12/epic-games-delays-disney-project-asks-developers-to-use-more-ai",
+      "first_shown": "2026-10-12T22:02:17.795777Z",
+      "last_shown": "2026-10-13T05:02:20.101924Z"
+    },
+    {
+      "id": "35a91fc19e01e69d09463835f6e67211",
+      "title": "GitLab warns of max severity code execution vulnerability",
+      "summary": "GitLab warned users today to immediately patch a maximum-severity vulnerability in the CI/CD Regular Expression Compiler that could let remote attackers run arbitrary code on targeted instances. [...]",
+      "why_it_matters": "A maximum-severity remote code execution vulnerability in GitLab's CI/CD Regular Expression Compiler requires immediate patching to prevent arbitrary code execution on targeted instances.",
+      "item_ids": [
+        "35a91fc19e01e69d09463835f6e67211"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-12T14:02:14.663538Z",
+      "last_shown": "2026-10-13T05:02:20.101924Z"
+    },
+    {
+      "id": "24b922cbf71ef91e835a2384d7b05540",
+      "title": "Announcing AWS Lambda Web Functions",
+      "summary": "AWS Lambda Web Functions is a serverless compute primitive that runs your HTTP framework natively, delivering fast, consistent responses through multi-concurrent execution and automated global distribution.",
+      "why_it_matters": "AWS Lambda Web Functions introduces a serverless compute primitive that runs HTTP frameworks natively with multi-concurrent execution, changing how serverless backends are architected.",
+      "item_ids": [
+        "24b922cbf71ef91e835a2384d7b05540"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-12T23:02:23.440123Z",
+      "last_shown": "2026-10-13T05:02:20.101924Z"
+    },
+    {
+      "id": "53306493657d12d073228b22089d80c1",
+      "title": "Google paid $90,000 for this bug, then waited two months to fix it",
+      "summary": "Google took two months to patch an unauthenticated RCE vulnerability in its developer documentation infrastructure. The problem was a reused The post Google paid $90,000 for this bug, then waited two months to fix it appeared first on The New Stack.",
+      "why_it_matters": "A high-severity unauthenticated RCE vulnerability in developer documentation infrastructure highlights the risks of reused credentials and slow patch cycles in big tech.",
+      "item_ids": [
+        "53306493657d12d073228b22089d80c1"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-12T21:02:06.648941Z",
+      "last_shown": "2026-10-13T05:02:20.101924Z"
+    },
+    {
+      "id": "e4d35c967f07e44a86060d18ef4bf060",
+      "title": "Attackers Exploit CVSS 10.0 Bricksforge WordPress Flaw Enabling Unauthenticated RCE",
+      "summary": "A maximum-severity security flaw impacting the Bricksforge plugin for WordPress has come under active exploitation in the wild, according to Patchstack. The critical vulnerability in question is CVE-2026-85097 (CVSS score: 10.0), which allows unauthenticated attackers to upload and execute arbitrary PHP code on vulnerable WordPress websites, resulting in remote code execution (RCE). The",
+      "why_it_matters": "Active exploitation of a critical, unauthenticated RCE flaw in the Bricksforge WordPress plugin poses an immediate threat to vulnerable self-hosted instances.",
+      "item_ids": [
+        "e4d35c967f07e44a86060d18ef4bf060"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-13T05:02:20.101924Z",
+      "last_shown": "2026-10-13T05:02:20.101924Z"
+    }
+  ],
+  "past_top_stories": [
     {
       "id": "cf3bb04273a3c7a7d2f710995a2409c6",
       "title": "No Man's Sky coming to iPhone and iPad",
@@ -15081,19 +15197,6 @@
         "153b17e8ba1992f6af9d8b766b9ffad2"
       ],
       "primary_url": null,
-      "first_shown": "2026-10-12T22:02:17.795777Z",
-      "last_shown": "2026-10-13T04:02:34.000497Z"
-    },
-    {
-      "id": "705264224834e808a6befa470d5fa990",
-      "title": "Epic Games reportedly pivoting to AI-first game development",
-      "summary": "Epic Games is reportedly pivoting to an AI-first game development model for its delayed Marvel/Star Wars shooter, telling employees to use AI to get the Disney game done.",
-      "why_it_matters": "Widespread adoption of AI-first workflows by major studios shifts game engineering practices and tooling expectations.",
-      "item_ids": [
-        "705264224834e808a6befa470d5fa990",
-        "4153c5d6c2b064aa192479a7e33eced6"
-      ],
-      "primary_url": "https://www.bloomberg.com/news/articles/2026-10-12/epic-games-delays-disney-project-asks-developers-to-use-more-ai",
       "first_shown": "2026-10-12T22:02:17.795777Z",
       "last_shown": "2026-10-13T04:02:34.000497Z"
     },
@@ -15136,21 +15239,6 @@
       "primary_url": null,
       "first_shown": "2026-10-13T00:02:26.424320Z",
       "last_shown": "2026-10-13T04:02:34.000497Z"
-    }
-  ],
-  "past_top_stories": [
-    {
-      "id": "0e5af8172dfdcfeac402b81d4ea40898",
-      "title": "Google Patches Unauthenticated RCE Vulnerability in Documentation Infrastructure",
-      "summary": "Google paid a bounty for an unauthenticated remote code execution vulnerability found in its developer documentation infrastructure. The company took two months to patch the flaw, which stemmed from a reused configuration.",
-      "why_it_matters": "Unauthenticated RCE vulnerabilities in large-scale publishing infrastructure highlight the risks of configuration reuse.",
-      "item_ids": [
-        "0e5af8172dfdcfeac402b81d4ea40898",
-        "53306493657d12d073228b22089d80c1"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-12T21:02:06.648941Z",
-      "last_shown": "2026-10-13T03:02:30.711143Z"
     },
     {
       "id": "3abf44d15422bed5f849e0649719f79f",
@@ -15214,30 +15302,6 @@
       "last_shown": "2026-10-13T02:06:40.252594Z"
     },
     {
-      "id": "35a91fc19e01e69d09463835f6e67211",
-      "title": "GitLab warns of max severity code execution vulnerability",
-      "summary": "GitLab warned users today to immediately patch a maximum-severity vulnerability in the CI/CD Regular Expression Compiler that could let remote attackers run arbitrary code on targeted instances. [...]",
-      "why_it_matters": "Urges immediate patching of a maximum-severity remote code execution vulnerability in GitLab's CI/CD compiler.",
-      "item_ids": [
-        "35a91fc19e01e69d09463835f6e67211"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-12T14:02:14.663538Z",
-      "last_shown": "2026-10-13T01:03:26.913901Z"
-    },
-    {
-      "id": "24b922cbf71ef91e835a2384d7b05540",
-      "title": "Announcing AWS Lambda Web Functions",
-      "summary": "AWS Lambda Web Functions is a serverless compute primitive that runs your HTTP framework natively, delivering fast, consistent responses through multi-concurrent execution and automated global distribution.",
-      "why_it_matters": "Introduces a new serverless primitive for running HTTP frameworks natively with multi-concurrent execution.",
-      "item_ids": [
-        "24b922cbf71ef91e835a2384d7b05540"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-12T23:02:23.440123Z",
-      "last_shown": "2026-10-13T01:03:26.913901Z"
-    },
-    {
       "id": "61a82ff4bf1e1510ce848c6294a23e0d",
       "title": "Shipping Media Over QUIC at Meta Scale for Instagram Live Ingest",
       "summary": "Meta has begun deploying Media over QUIC (MoQ), an emerging open protocol for real-time video streaming at scale. MoQ will help simplify our protocol stack for live streaming video and enhance overall user experience for live video. We’re sharing how we shipped MoQ on Instagram Live ingest, and what the future looks like from here. [...] Read More... The post Shipping Media Over QUIC at Meta Scale for Instagram Live Ingest appeared first on Engineering at Meta.",
@@ -15248,18 +15312,6 @@
       "primary_url": null,
       "first_shown": "2026-10-13T00:02:26.424320Z",
       "last_shown": "2026-10-13T00:02:26.424320Z"
-    },
-    {
-      "id": "8c48e9aeec012991d49f6eb00fe9caf8",
-      "title": "Postgres isn't slow, your storage is",
-      "summary": null,
-      "why_it_matters": "Deep technical investigation into database performance showing how storage bottlenecks rather than Postgres itself limit throughput.",
-      "item_ids": [
-        "8c48e9aeec012991d49f6eb00fe9caf8"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-12T18:02:14.020879Z",
-      "last_shown": "2026-10-12T19:02:10.182905Z"
     }
   ]
 }
