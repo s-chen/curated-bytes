@@ -1,6 +1,114 @@
 {
-  "generated_at": "2026-10-13T06:02:37.213197Z",
+  "generated_at": "2026-10-13T07:02:22.066668Z",
   "items": [
+    {
+      "id": "e2e090afacfec3e9bfb3aca4690427f9",
+      "title": "VMware is pushing so many patches, it thinks users need new tools to manage the flood",
+      "url": "https://www.theregister.com/virtualization/2026/10/13/vmware-is-pushing-so-many-patches-it-thinks-users-need-new-tools-to-manage-the-flood-1/5302172",
+      "source_id": "the-register",
+      "source_name": "The Register",
+      "category": "tech",
+      "summary": "It's 2026 and Virtzilla reckons it's OK to pay for MFA",
+      "published_at": "2026-10-13T07:01:00Z",
+      "fetched_at": "2026-10-13T07:02:22.066668Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "27189fd0b964b48552adb53858fa0c98",
+      "title": "Cloudflare’s OHTTP Gateway Refuses to Decrypt Requests That Arrive Through Cloudflare",
+      "url": "https://www.infoq.com/news/2026/10/cloudflare-ohttp-gateway/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source_id": "infoq",
+      "source_name": "InfoQ",
+      "category": "tech",
+      "summary": "Cloudflare has opened a closed beta of its OHTTP Gateway, a managed endpoint that decrypts Oblivious HTTP requests for an origin. The design choice drawing attention is a refusal: the Gateway will not decrypt requests arriving from Cloudflare Workers or from hosts proxied through Cloudflare, because that would put client identifiers and request contents in the same hands. By Steef-Jan Wiggers",
+      "published_at": "2026-10-13T06:44:00Z",
+      "fetched_at": "2026-10-13T07:02:22.066668Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 4
+    },
+    {
+      "id": "d1338fc8bbb89c1a7e83132d17e445f4",
+      "title": "Denmark set to allow return of 'physical force' in school",
+      "url": "https://www.lemonde.fr/en/international/article/2026/10/10/denmark-set-to-allow-the-return-of-physical-force-to-maintain-order-in-schools_6758443_4.html",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-13T06:27:03Z",
+      "fetched_at": "2026-10-13T07:02:22.066668Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50067570",
+      "points": 4,
+      "comments": 1,
+      "engineering": false,
+      "blog": false,
+      "review": "pending",
+      "importance": null
+    },
+    {
+      "id": "49802056a00723a8dbc14b38ec4d281e",
+      "title": "A slightly faster slimmer curl",
+      "url": "https://daniel.haxx.se/blog/2026/10/13/a-slightly-faster-slimmer-curl/",
+      "source_id": "lobsters",
+      "source_name": "Lobsters",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-13T06:26:20Z",
+      "fetched_at": "2026-10-13T07:02:22.066668Z",
+      "discussion_url": "https://lobste.rs/s/d9rpcl/slightly_faster_slimmer_curl",
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "1ee09c2609a45533d1dd074dcc2b7b79",
+      "title": "Low-Cost Android Phones Ship With Preinstalled Malware That Turns Them Into Residential Proxies",
+      "url": "https://thehackernews.com/2026/10/low-cost-android-phones-ship-with.html",
+      "source_id": "the-hacker-news",
+      "source_name": "The Hacker News",
+      "category": "tech",
+      "summary": "Low-cost Android smartphones have been shipped with malicious software baked into the device firmware, allowing bad actors to covertly install apps, conduct ad fraud, and turn devices into residential proxies. The activity, which targets Android devices built on MediaTek platforms across several brands, is being tracked by Bitdefender under the moniker Midnight Mimosa. The preinstalled",
+      "published_at": "2026-10-13T06:00:11Z",
+      "fetched_at": "2026-10-13T07:02:22.066668Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 4
+    },
+    {
+      "id": "52712c5294fb36b237710fa23afa91b6",
+      "title": "Threat of AI share crash puts world financial stability at risk, says IMF",
+      "url": "https://www.theguardian.com/business/2026/oct/13/ai-share-crash-risk-global-imf-debt-corrowing-cyber-attacks",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-13T05:57:32Z",
+      "fetched_at": "2026-10-13T07:02:22.066668Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50067356",
+      "points": 35,
+      "comments": 14,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
     {
       "id": "64c432e1b0c23e15b10e4a9a1222c5ac",
       "title": "Wayfair Coupons: Up to 80% Off October 2026",
@@ -228,12 +336,12 @@
       "published_at": "2026-10-13T02:46:43Z",
       "fetched_at": "2026-10-13T04:02:34.000497Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50065932",
-      "points": 82,
-      "comments": 49,
+      "points": 97,
+      "comments": 65,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "938820eba55418315b468dbc603b0f17",
@@ -282,8 +390,8 @@
       "published_at": "2026-10-13T02:09:19Z",
       "fetched_at": "2026-10-13T05:02:20.101924Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50065713",
-      "points": 42,
-      "comments": 20,
+      "points": 59,
+      "comments": 35,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -300,8 +408,8 @@
       "published_at": "2026-10-13T02:07:08Z",
       "fetched_at": "2026-10-13T04:02:34.000497Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50065692",
-      "points": 93,
-      "comments": 46,
+      "points": 136,
+      "comments": 72,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -354,8 +462,8 @@
       "published_at": "2026-10-13T00:11:04Z",
       "fetched_at": "2026-10-13T05:02:20.101924Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50064840",
-      "points": 24,
-      "comments": 1,
+      "points": 33,
+      "comments": 3,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -372,8 +480,8 @@
       "published_at": "2026-10-12T23:34:22Z",
       "fetched_at": "2026-10-13T00:02:26.424320Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50064536",
-      "points": 136,
-      "comments": 89,
+      "points": 143,
+      "comments": 95,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -390,8 +498,8 @@
       "published_at": "2026-10-12T23:21:12Z",
       "fetched_at": "2026-10-13T00:02:26.424320Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50064438",
-      "points": 37,
-      "comments": 17,
+      "points": 44,
+      "comments": 21,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -413,7 +521,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 4
     },
     {
       "id": "24b922cbf71ef91e835a2384d7b05540",
@@ -462,8 +570,8 @@
       "published_at": "2026-10-12T22:05:43Z",
       "fetched_at": "2026-10-13T00:59:50.145513Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50063717",
-      "points": 92,
-      "comments": 31,
+      "points": 103,
+      "comments": 32,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -498,8 +606,8 @@
       "published_at": "2026-10-12T21:40:18Z",
       "fetched_at": "2026-10-12T22:02:17.795777Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50063427",
-      "points": 315,
-      "comments": 260,
+      "points": 350,
+      "comments": 280,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -516,8 +624,8 @@
       "published_at": "2026-10-12T21:39:32Z",
       "fetched_at": "2026-10-12T22:02:17.795777Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50063417",
-      "points": 110,
-      "comments": 29,
+      "points": 113,
+      "comments": 32,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -534,8 +642,8 @@
       "published_at": "2026-10-12T21:35:35Z",
       "fetched_at": "2026-10-13T00:02:26.424320Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50063365",
-      "points": 148,
-      "comments": 64,
+      "points": 161,
+      "comments": 72,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -624,8 +732,8 @@
       "published_at": "2026-10-12T21:03:36Z",
       "fetched_at": "2026-10-12T23:02:23.440123Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50063042",
-      "points": 48,
-      "comments": 26,
+      "points": 52,
+      "comments": 31,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -647,7 +755,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "457a0519955d460ca587e377cf2c1c24",
@@ -786,8 +894,8 @@
       "published_at": "2026-10-12T19:36:02Z",
       "fetched_at": "2026-10-12T22:02:17.795777Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50061791",
-      "points": 146,
-      "comments": 52,
+      "points": 165,
+      "comments": 63,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -930,8 +1038,8 @@
       "published_at": "2026-10-12T18:29:04Z",
       "fetched_at": "2026-10-12T19:02:10.182905Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50060694",
-      "points": 519,
-      "comments": 265,
+      "points": 534,
+      "comments": 271,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -1277,7 +1385,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "e41af6ba26382e404c21e1f5f2c93cdd",
@@ -1295,7 +1403,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "cda8279688c77a52d1be14977e5180e9",
@@ -1344,8 +1452,8 @@
       "published_at": "2026-10-12T16:48:01Z",
       "fetched_at": "2026-10-12T18:02:14.020879Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50059115",
-      "points": 585,
-      "comments": 320,
+      "points": 608,
+      "comments": 327,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -1362,8 +1470,8 @@
       "published_at": "2026-10-12T16:46:34Z",
       "fetched_at": "2026-10-12T18:02:14.020879Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50059096",
-      "points": 126,
-      "comments": 84,
+      "points": 127,
+      "comments": 91,
       "engineering": false,
       "blog": false,
       "review": "excluded",
@@ -1907,7 +2015,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "46bb5fe08c33b8db674f706155dc108f",
@@ -2033,7 +2141,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "f480e42398f051b19b5393788ca9eeb3",
@@ -2051,7 +2159,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "153b17e8ba1992f6af9d8b766b9ffad2",
@@ -2357,7 +2465,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "d76d7552a8a3efa6b9e19fb29fdd6d51",
@@ -2447,7 +2555,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "1d497afebc36900804b1914324637a7c",
@@ -2501,7 +2609,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "156c015fb8e87b1cba4095c54b7226d3",
@@ -2699,7 +2807,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "66c367f86d254518d6c98ff4f0551b85",
@@ -2717,7 +2825,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "34e5f5f52e0b30a01405f9801313e96a",
@@ -3185,7 +3293,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "defc2868d1de038cd44f00f4bbf92d1d",
@@ -3419,7 +3527,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "5b6e8d4042c12531a25479be02ca3d9c",
@@ -3905,7 +4013,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "74576a7839d0c6b34ae7732c55bfcbbc",
@@ -4085,7 +4193,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "555a2b729c079321162b8aff56bebc0b",
@@ -4103,7 +4211,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "430c908a60daaa16df1a8590d1c490c1",
@@ -15174,50 +15282,14 @@
       "blog": null,
       "review": "pending",
       "importance": null
-    },
-    {
-      "id": "91a521b73dac5688d120e8e544bc5b6a",
-      "title": "Critical Atlassian Flaw Lets Unauthenticated Attackers Read Known Files Across 8 Products",
-      "url": "https://thehackernews.com/2026/10/critical-atlassian-flaw-lets.html",
-      "source_id": "the-hacker-news",
-      "source_name": "The Hacker News",
-      "category": "tech",
-      "summary": "A critical flaw in 8 Atlassian Data Center products, which customers host themselves, allows an attacker with no login access to read specific files in each product's web application root directory. The attacker must already know a file's exact name and path and cannot list what the directory holds. Atlassian disclosed the flaw, CVE-2026-21589, on October 5, rated it 9.3 out of 10, and",
-      "published_at": "2026-10-06T06:58:56Z",
-      "fetched_at": "2026-10-11T21:02:10.292762Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": null,
-      "review": "pending",
-      "importance": null
-    },
-    {
-      "id": "114e2ef5619ec571e94e2664a2c7e5ba",
-      "title": "FBI Removes Accenture Contractor After Patch Failure Led to ShinyHunters Breach",
-      "url": "https://thehackernews.com/2026/10/fbi-removes-accenture-contractor-after.html",
-      "source_id": "the-hacker-news",
-      "source_name": "The Hacker News",
-      "category": "tech",
-      "summary": "The U.S. Federal Bureau of Investigation (FBI) has removed an Accenture contractor for their alleged role in a ShinyHunters-breach that led to the theft of personal details of thousands of bureau employees. That's according to a report from Reuters, citing two sources familiar with the matter. \"To date, our review has determined that the incident occurred as the result of a security failure ​",
-      "published_at": "2026-10-06T06:56:57Z",
-      "fetched_at": "2026-10-11T21:02:10.292762Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": null,
-      "review": "pending",
-      "importance": null
     }
   ],
   "top_stories": [
     {
       "id": "64604df83be7d45a52078bb0f2691ecb",
-      "title": "Meta Launches Muse Wonder and Muse Wonder Full Frontier AI Models",
-      "summary": "Meta's Superintelligence Lab released Muse Wonder and Muse Wonder Full, the company's first attempt at a frontier model. The new models rival the world's best and include features to keep AI agents from going off the rails.",
-      "why_it_matters": "This introduces new frontier-class AI models and safety mechanisms that directly impact developers building agentic systems.",
+      "title": "Meta Releases Muse Wonder Frontier AI Models",
+      "summary": "Meta's Superintelligence Lab has released Muse Wonder and Muse Wonder Full, the company's first attempt at a frontier model. The new state-of-the-art models rival the world's best and include features designed to keep agents from going off the rails.",
+      "why_it_matters": "The release of new frontier AI models impacts developers building on Meta's infrastructure and working with autonomous agents.",
       "item_ids": [
         "64604df83be7d45a52078bb0f2691ecb",
         "559be438c1e076438227e5d58dc1c762",
@@ -15226,44 +15298,45 @@
       ],
       "primary_url": null,
       "first_shown": "2026-10-12T18:02:14.020879Z",
-      "last_shown": "2026-10-13T06:02:37.213197Z"
-    },
-    {
-      "id": "d4b50bc6b2e0a17a9a0cc86228f83e0e",
-      "title": "Microsoft Unveils Maia 300 In-House AI Chip",
-      "summary": "Microsoft is announcing its third-generation Maia in-house AI chip, designed to serve as the primary AI inference system for its products and services. The new chip improves cost and reduces reliance on Nvidia's GPUs.",
-      "why_it_matters": "This hardware launch alters cloud infrastructure economics and reduces dependency on dominant GPU suppliers.",
-      "item_ids": [
-        "d4b50bc6b2e0a17a9a0cc86228f83e0e",
-        "e8881de420a0eb8f6808fba38d321985"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-12T13:02:11.067627Z",
-      "last_shown": "2026-10-13T06:02:37.213197Z"
+      "last_shown": "2026-10-13T07:02:22.066668Z"
     },
     {
       "id": "1d497afebc36900804b1914324637a7c",
       "title": "Cyberattack Forces Refrigerator Shutdowns Across French Supermarkets",
-      "summary": "Attackers remotely defrosted refrigerators at multiple French supermarket chains overnight in a cyberattack targeting Danfoss refrigeration controllers. The incident sparked fires and food losses across the affected supermarkets.",
-      "why_it_matters": "This highlights critical vulnerabilities in industrial IoT and operational technology security as cyberattacks impact physical infrastructure.",
+      "summary": "Attackers remotely defrosted refrigerators at multiple French supermarket chains overnight in a cyberattack targeting Danfoss refrigeration controllers. The incident sparked fires and caused food losses across the retail chains.",
+      "why_it_matters": "Highlights critical vulnerabilities in industrial control systems and IoT supply chains connected to physical infrastructure.",
       "item_ids": [
         "1d497afebc36900804b1914324637a7c",
-        "8ce6c1bb2dce04827df1c02a13ab227d",
+        "e6b665da4145ac96c71dc2edb945c7f2",
         "593f380231a2f677d04fbb8447a1cb7e",
         "23a767f883c413e29a00c2c57c7a4bbe",
+        "8ce6c1bb2dce04827df1c02a13ab227d",
         "2ed567de0d305699e9d66303d11e632c",
-        "0d1b2e922ec8436f450c98025affa1b8",
-        "e6b665da4145ac96c71dc2edb945c7f2"
+        "0d1b2e922ec8436f450c98025affa1b8"
       ],
       "primary_url": null,
       "first_shown": "2026-10-12T13:02:11.067627Z",
-      "last_shown": "2026-10-13T06:02:37.213197Z"
+      "last_shown": "2026-10-13T07:02:22.066668Z"
+    },
+    {
+      "id": "38ddce910bbf1bf55a675a890b134b18",
+      "title": "Microsoft Unveils Maia 300 Third-Generation In-House AI Chip",
+      "summary": "Microsoft is announcing its third-generation Maia in-house AI chip, designed to serve as the primary AI inference system for its products and services. The new chip aims to improve cost efficiency and reduce reliance on Nvidia's GPUs.",
+      "why_it_matters": "Custom hardware accelerators directly impact cloud infrastructure costs and AI workload performance for developers.",
+      "item_ids": [
+        "38ddce910bbf1bf55a675a890b134b18",
+        "e8881de420a0eb8f6808fba38d321985",
+        "d4b50bc6b2e0a17a9a0cc86228f83e0e"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-12T13:02:11.067627Z",
+      "last_shown": "2026-10-13T07:02:22.066668Z"
     },
     {
       "id": "df627f245e810d8f47b9034f7b26a71d",
       "title": "Ledger Confirms Spy Chip Implant in Hardware Wallets Sold via Reseller",
-      "summary": "Cryptocurrency hardware manufacturer Ledger confirmed that some of its devices distributed through a Southeast Asian reseller were compromised with a hardware implant. The compromised wallets drained users' cryptocurrency wallets, prompting Ledger to pause sales through the reseller.",
-      "why_it_matters": "This supply chain compromise underscores critical hardware security risks in cryptocurrency storage devices.",
+      "summary": "Ledger has confirmed that some of its hardware wallet devices distributed through Southeast Asian reseller CryptoBilis were compromised with a hardware implant that drained users' cryptocurrency wallets. Following reports of stolen funds, Ledger temporarily paused sales through the reseller.",
+      "why_it_matters": "Demonstrates severe supply chain attacks compromising hardware security modules and user funds.",
       "item_ids": [
         "df627f245e810d8f47b9034f7b26a71d",
         "4c7b4f232aea51961f2ed11131da998b",
@@ -15271,51 +15344,51 @@
       ],
       "primary_url": "https://www.tibane.net/research/ledger-nano-x-implant",
       "first_shown": "2026-10-12T13:02:11.067627Z",
-      "last_shown": "2026-10-13T06:02:37.213197Z"
+      "last_shown": "2026-10-13T07:02:22.066668Z"
     },
     {
       "id": "cbc85c5bb0acb19de4ebc30ee7c777fb",
-      "title": "Yandex Data Centers Hit by Drone Attacks and Outage",
-      "summary": "Russian cloud provider Yandex announced that drone attacks damaged three of its data centers, forcing it to shut down two facilities and partially disable a third. The outages knocked cloud and payment services offline.",
-      "why_it_matters": "This demonstrates the direct physical vulnerability of cloud and datacenter infrastructure to geopolitical conflict.",
+      "title": "Yandex Confirms Service Outage Following Data Center Damage",
+      "summary": "Russian cloud services provider Yandex announced that drone attacks damaged three of its data centers, forcing it to shut down two facilities and partially disable a third. The incident knocked cloud and payment services offline, dropping network connectivity significantly.",
+      "why_it_matters": "Shows the vulnerability of centralized cloud infrastructure to physical disruptions and geopolitical conflicts.",
       "item_ids": [
         "cbc85c5bb0acb19de4ebc30ee7c777fb",
         "20fb7ce00fc504a11545471dc519d251"
       ],
       "primary_url": null,
       "first_shown": "2026-10-12T14:02:14.663538Z",
-      "last_shown": "2026-10-13T06:02:37.213197Z"
-    },
-    {
-      "id": "153b17e8ba1992f6af9d8b766b9ffad2",
-      "title": "No Man's Sky Coming to iOS",
-      "summary": "Hello Games announced that its exploration game No Man's Sky is coming to the iPhone and iPad. Users with an iPhone 11 or later can download the game on iOS.",
-      "why_it_matters": null,
-      "item_ids": [
-        "153b17e8ba1992f6af9d8b766b9ffad2",
-        "cf3bb04273a3c7a7d2f710995a2409c6"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-12T22:02:17.795777Z",
-      "last_shown": "2026-10-13T06:02:37.213197Z"
+      "last_shown": "2026-10-13T07:02:22.066668Z"
     },
     {
       "id": "f2ced4205ba86b401a2ab69b4bbc5f5a",
-      "title": "Microsoft President Calls for Urgent AI Regulation",
-      "summary": "Microsoft President Brad Smith called for urgent AI regulation, noting that milk and washing machines have more oversight than AI companies. He warned that AI remains underregulated given its societal impact.",
-      "why_it_matters": "This signals potential shifts in major tech policy stances and upcoming regulatory frameworks for software development.",
+      "title": "Microsoft President Calls for Urgent Regulation on AI Safety",
+      "summary": "Microsoft President Brad Smith called for urgent AI regulation, noting that everyday items like milk and washing machines have more oversight than AI companies. He warned that AI is currently less regulated than consumer goods and emphasized safety concerns.",
+      "why_it_matters": "Regulatory shifts for artificial intelligence will impact compliance requirements for enterprise software development.",
       "item_ids": [
         "f2ced4205ba86b401a2ab69b4bbc5f5a",
         "9f3f1977746c22434f29923ef0e6f687"
       ],
       "primary_url": null,
       "first_shown": "2026-10-12T16:10:55.279146Z",
-      "last_shown": "2026-10-13T06:02:37.213197Z"
+      "last_shown": "2026-10-13T07:02:22.066668Z"
+    },
+    {
+      "id": "cf3bb04273a3c7a7d2f710995a2409c6",
+      "title": "No Man's Sky Coming to iOS for iPhone and iPad",
+      "summary": "Hello Games announced that its long-running sci-fi exploration game No Man's Sky is coming to iOS, supporting iPhone 11 and later models. The sci-fi exploration title will bring its entire universe to mobile devices.",
+      "why_it_matters": null,
+      "item_ids": [
+        "cf3bb04273a3c7a7d2f710995a2409c6",
+        "153b17e8ba1992f6af9d8b766b9ffad2"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-12T22:02:17.795777Z",
+      "last_shown": "2026-10-13T07:02:22.066668Z"
     },
     {
       "id": "334a30d4928e7561b3975fb98c819801",
-      "title": "Google Announces Fitbit Edge Wearable",
-      "summary": "Google announced the Fitbit Edge, a wearable priced at $179.99 that sits between the Fitbit Air and the Pixel Watch. The tracker features an OLED display, week-long battery life, and Pixel Watch smarts.",
+      "title": "Google Announces Fitbit Edge Wearable Tracker",
+      "summary": "Google has announced the Fitbit Edge, a wearable tracker priced at $179.99 featuring Pixel Watch smarts, an OLED display, and week-long battery life. The device sits between the Fitbit Air and the Pixel Watch.",
       "why_it_matters": null,
       "item_ids": [
         "334a30d4928e7561b3975fb98c819801",
@@ -15325,7 +15398,7 @@
       ],
       "primary_url": null,
       "first_shown": "2026-10-12T16:02:12.071552Z",
-      "last_shown": "2026-10-13T06:02:37.213197Z"
+      "last_shown": "2026-10-13T07:02:22.066668Z"
     },
     {
       "id": "e4d35c967f07e44a86060d18ef4bf060",
@@ -15337,8 +15410,22 @@
       ],
       "primary_url": null,
       "first_shown": "2026-10-13T05:02:20.101924Z",
-      "last_shown": "2026-10-13T06:02:37.213197Z"
+      "last_shown": "2026-10-13T07:02:22.066668Z"
     },
+    {
+      "id": "27189fd0b964b48552adb53858fa0c98",
+      "title": "Cloudflare’s OHTTP Gateway Refuses to Decrypt Requests That Arrive Through Cloudflare",
+      "summary": "Cloudflare has opened a closed beta of its OHTTP Gateway, a managed endpoint that decrypts Oblivious HTTP requests for an origin. The design choice drawing attention is a refusal: the Gateway will not decrypt requests arriving from Cloudflare Workers or from hosts proxied through Cloudflare, because that would put client identifiers and request contents in the same hands. By Steef-Jan Wiggers",
+      "why_it_matters": "Changes to Oblivious HTTP gateway routing affect privacy-preserving network architectures.",
+      "item_ids": [
+        "27189fd0b964b48552adb53858fa0c98"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-13T07:02:22.066668Z",
+      "last_shown": "2026-10-13T07:02:22.066668Z"
+    }
+  ],
+  "past_top_stories": [
     {
       "id": "24b922cbf71ef91e835a2384d7b05540",
       "title": "Announcing AWS Lambda Web Functions",
@@ -15350,9 +15437,7 @@
       "primary_url": null,
       "first_shown": "2026-10-12T23:02:23.440123Z",
       "last_shown": "2026-10-13T06:02:37.213197Z"
-    }
-  ],
-  "past_top_stories": [
+    },
     {
       "id": "705264224834e808a6befa470d5fa990",
       "title": "Epic Games Reports Pivot to AI-First Development",
@@ -15462,18 +15547,6 @@
       "primary_url": null,
       "first_shown": "2026-10-13T03:02:30.711143Z",
       "last_shown": "2026-10-13T03:02:30.711143Z"
-    },
-    {
-      "id": "61a82ff4bf1e1510ce848c6294a23e0d",
-      "title": "Shipping Media Over QUIC at Meta Scale for Instagram Live Ingest",
-      "summary": "Meta has begun deploying Media over QUIC (MoQ), an emerging open protocol for real-time video streaming at scale. MoQ will help simplify our protocol stack for live streaming video and enhance overall user experience for live video. We’re sharing how we shipped MoQ on Instagram Live ingest, and what the future looks like from here. [...] Read More... The post Shipping Media Over QUIC at Meta Scale for Instagram Live Ingest appeared first on Engineering at Meta.",
-      "why_it_matters": "Meta's deployment of Media over QUIC for Instagram Live offers practical engineering insights into modern real-time video streaming protocol stacks.",
-      "item_ids": [
-        "61a82ff4bf1e1510ce848c6294a23e0d"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-13T00:02:26.424320Z",
-      "last_shown": "2026-10-13T00:02:26.424320Z"
     }
   ]
 }
