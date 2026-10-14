@@ -1,6 +1,132 @@
 {
-  "generated_at": "2026-10-14T12:28:11.149202Z",
+  "generated_at": "2026-10-14T13:02:13.980201Z",
   "items": [
+    {
+      "id": "0f5febcaeaa0a31a19dfb1fb1e8132e2",
+      "title": "Formlabs Has a 3D Printer for Normies",
+      "url": "https://www.wired.com/story/formlabs-has-a-3d-printer-for-normies/",
+      "source_id": "wired",
+      "source_name": "Wired",
+      "category": "tech",
+      "summary": "The Form Studio 1 is a $699 desktop-sized printer that fits on a desk and only stinks a little bit.",
+      "published_at": "2026-10-14T13:00:00Z",
+      "fetched_at": "2026-10-14T13:02:13.980201Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "pending",
+      "importance": null
+    },
+    {
+      "id": "ee8954b8f5479297288fa9ab91951453",
+      "title": "CISA warns admins to immediately fix Ivanti flaw exploited as zero-day",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-admins-to-immediately-fix-ivanti-flaw-exploited-as-zero-day/",
+      "source_id": "bleepingcomputer",
+      "source_name": "BleepingComputer",
+      "category": "tech",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) urged security teams to immediately patch an Ivanti Connect Secure (ICS) flaw exploited in zero-day attacks since at least October 1st. [...]",
+      "published_at": "2026-10-14T12:58:07Z",
+      "fetched_at": "2026-10-14T13:02:13.980201Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 5
+    },
+    {
+      "id": "121206c70835ed21e825ea88057751a0",
+      "title": "US tech giants warn Europe that ditching US tech giants could cost €115B",
+      "url": "https://www.theregister.com/paas-and-iaas/2026/10/14/us-tech-giants-warn-europe-that-ditching-us-tech-giants-could-cost-115b/5303031",
+      "source_id": "the-register",
+      "source_name": "The Register",
+      "category": "tech",
+      "summary": "Amazon, Google, Meta among members of lobby group funding dire warnings over cloud sovereignty plans",
+      "published_at": "2026-10-14T12:45:00Z",
+      "fetched_at": "2026-10-14T13:02:13.980201Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "9dffcdec6a600c6fd908d8f12ae41515",
+      "title": "CISA Urges Immediate Ivanti Connect Secure Updates as Honeypots Log 105 Exploit Attempts",
+      "url": "https://thehackernews.com/2026/10/cisa-urges-immediate-ivanti-connect.html",
+      "source_id": "the-hacker-news",
+      "source_name": "The Hacker News",
+      "category": "tech",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday urged organizations to take steps to immediately update their Ivanti Connect Secure (ICS) appliances and deployments to the latest version following the disclosure of an actively exploited vulnerability. The security flaw, tracked as CVE-2026-104935 (CVSS score: 8.6), is a case of authentication bypass impacting ICS",
+      "published_at": "2026-10-14T12:30:42Z",
+      "fetched_at": "2026-10-14T13:02:13.980201Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 5
+    },
+    {
+      "id": "551d91d6552a1b352957bcd248152190",
+      "title": "The Aaronson Oracle",
+      "url": "https://aaronsonoracle.com/",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-14T12:16:35Z",
+      "fetched_at": "2026-10-14T13:02:13.980201Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50086484",
+      "points": 6,
+      "comments": 6,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 2
+    },
+    {
+      "id": "0301b104f85b0add13b74603159a6f5b",
+      "title": "curl Patches HTTP/2 Upload Flaw After PoC Demonstrates Client-Side Code Execution",
+      "url": "https://thehackernews.com/2026/10/curl-patches-http2-upload-flaw-after.html",
+      "source_id": "the-hacker-news",
+      "source_name": "The Hacker News",
+      "category": "tech",
+      "summary": "A flaw in how curl handles HTTP/2 uploads lets a malicious server receiving an upload corrupt the client's memory, and the researcher who reported it turned that into code execution on the uploading machine. The curl project fixed it on October 14 in curl 8.23.0. Taking over a client needs exact knowledge of its build and memory layout, and curl expects a real attack to end in a crash",
+      "published_at": "2026-10-14T12:13:36Z",
+      "fetched_at": "2026-10-14T13:02:13.980201Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 4
+    },
+    {
+      "id": "a7fd29e16110cfab763621b9a2cb3939",
+      "title": "Smart people don't think others are stupid",
+      "url": "https://sive.rs/ss",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-14T12:01:16Z",
+      "fetched_at": "2026-10-14T13:02:13.980201Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50086313",
+      "points": 51,
+      "comments": 26,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 2
+    },
     {
       "id": "063613b2c7419f7d25a39db00f658d09",
       "title": "Python 3.15 goes global with UTF-8 support",
@@ -20,6 +146,24 @@
       "importance": 3
     },
     {
+      "id": "f3d19350ea87cc2d98be356a31b0b5fe",
+      "title": "How to Run a Deepfake Readiness Drill Before a Cloned Voice Calls Your Team",
+      "url": "https://thehackernews.com/2026/10/how-to-run-deepfake-readiness-drill.html",
+      "source_id": "the-hacker-news",
+      "source_name": "The Hacker News",
+      "category": "tech",
+      "summary": "Cloned voices and synthetic video calls now show up in payment fraud, help desk resets, and access requests. A structured drill shows security teams exactly where verification breaks down, while nothing is at stake. The call comes in at 4:40 on a Friday. It's the CFO, or it sounds exactly like her, asking the controller to push a supplier payment out before the weekend because a deal closes",
+      "published_at": "2026-10-14T11:50:00Z",
+      "fetched_at": "2026-10-14T13:02:13.980201Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
       "id": "0deb2fc30712cb03c0b04fe2bb9888c2",
       "title": "Pg_vectorsearch: An index that is faster than pgvector's IVFFlat and HNSW",
       "url": "https://github.com/timescale/pg_vectorsearch",
@@ -30,8 +174,8 @@
       "published_at": "2026-10-14T11:47:53Z",
       "fetched_at": "2026-10-14T12:28:11.149202Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50086165",
-      "points": 14,
-      "comments": 2,
+      "points": 29,
+      "comments": 5,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -71,7 +215,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "28bcb150983233e0a7b11222d0ece14f",
@@ -142,8 +286,8 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "864e42ee4e1e3d8028e41444c29d5043",
@@ -179,7 +323,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "dd5f7248859d446637de69fb58c2713f",
@@ -269,7 +413,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "12591347e01f7ef9d963e86742269bde",
@@ -359,7 +503,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 1
+      "importance": 2
     },
     {
       "id": "448530ae4b1a08fcda39143b91ed5fe2",
@@ -480,8 +624,8 @@
       "published_at": "2026-10-14T10:28:26Z",
       "fetched_at": "2026-10-14T12:28:11.149202Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50085323",
-      "points": 6,
-      "comments": 1,
+      "points": 15,
+      "comments": 8,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -498,7 +642,7 @@
       "published_at": "2026-10-14T10:26:53Z",
       "fetched_at": "2026-10-14T11:02:15.403297Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50085306",
-      "points": 28,
+      "points": 34,
       "comments": 3,
       "engineering": false,
       "blog": false,
@@ -516,8 +660,8 @@
       "published_at": "2026-10-14T10:26:24Z",
       "fetched_at": "2026-10-14T11:02:15.403297Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50085302",
-      "points": 10,
-      "comments": 1,
+      "points": 12,
+      "comments": 3,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -539,7 +683,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "ff292cc02a86bd77c9590a38e3089feb",
@@ -570,8 +714,8 @@
       "published_at": "2026-10-14T10:00:24Z",
       "fetched_at": "2026-10-14T12:02:19.323822Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50085022",
-      "points": 11,
-      "comments": 5,
+      "points": 19,
+      "comments": 7,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -629,7 +773,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "2fae81a115309c65629abeaaaa1bebe4",
@@ -678,8 +822,8 @@
       "published_at": "2026-10-14T09:37:24Z",
       "fetched_at": "2026-10-14T12:02:19.323822Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50084838",
-      "points": 39,
-      "comments": 32,
+      "points": 51,
+      "comments": 51,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -732,12 +876,12 @@
       "published_at": "2026-10-14T09:28:17Z",
       "fetched_at": "2026-10-14T12:02:19.323822Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50084757",
-      "points": 99,
-      "comments": 74,
+      "points": 134,
+      "comments": 100,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "bbc3d6d01b392abd0c083e5fb309465b",
@@ -773,7 +917,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "f36baff3700eea418eda975cd7974d67",
@@ -809,7 +953,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "fb7fd507f5762144b71ba2e849b645a0",
@@ -827,7 +971,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "6353b7e71b18af35cd1b0b25bd81e07e",
@@ -881,7 +1025,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "79c4f80734fdbf465d0bc174af8d2dcd",
@@ -948,8 +1092,8 @@
       "published_at": "2026-10-14T08:27:59Z",
       "fetched_at": "2026-10-14T10:02:15.207500Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50084240",
-      "points": 233,
-      "comments": 85,
+      "points": 258,
+      "comments": 90,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -989,7 +1133,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "ab936570dc502d6d910e1e03dea38b8a",
@@ -1043,7 +1187,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 1
+      "importance": 2
     },
     {
       "id": "451c07ff3756a8370ae2e93b9bd96a05",
@@ -1056,8 +1200,8 @@
       "published_at": "2026-10-14T06:18:01Z",
       "fetched_at": "2026-10-14T07:02:18.134152Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50083130",
-      "points": 324,
-      "comments": 145,
+      "points": 338,
+      "comments": 158,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -1097,7 +1241,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 1
+      "importance": 2
     },
     {
       "id": "805bc910a8a0b33c49405f3ba9e5f206",
@@ -1115,7 +1259,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "de82e0fac2148405c37daa69f71ac7fb",
@@ -1398,8 +1542,8 @@
       "published_at": "2026-10-14T04:42:33Z",
       "fetched_at": "2026-10-14T05:29:28.703166Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50082470",
-      "points": 214,
-      "comments": 82,
+      "points": 223,
+      "comments": 86,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -1452,8 +1596,8 @@
       "published_at": "2026-10-14T03:28:00Z",
       "fetched_at": "2026-10-14T10:02:15.207500Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50082021",
-      "points": 49,
-      "comments": 35,
+      "points": 59,
+      "comments": 39,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -1475,7 +1619,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "227dff4b14eb0a63c2a62354a64c6f48",
@@ -1511,7 +1655,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "a01963d412edad852dd028d74658d0cc",
@@ -1781,7 +1925,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "7e839d1dab32527caf902f2b396e1372",
@@ -1812,8 +1956,8 @@
       "published_at": "2026-10-13T22:33:33Z",
       "fetched_at": "2026-10-14T00:02:16.827031Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50079865",
-      "points": 222,
-      "comments": 92,
+      "points": 226,
+      "comments": 95,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -1853,7 +1997,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "17556be06c13c8c864ca64c73de1b36e",
@@ -1938,8 +2082,8 @@
       "published_at": "2026-10-13T21:57:29Z",
       "fetched_at": "2026-10-13T23:02:39.257715Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50079464",
-      "points": 81,
-      "comments": 26,
+      "points": 82,
+      "comments": 27,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -2069,7 +2213,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "52680e62519384470dfa53f35bca4ae2",
@@ -2087,7 +2231,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 1
+      "importance": 2
     },
     {
       "id": "b12fbb5cc5cb86b248ba77704090756a",
@@ -2195,7 +2339,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "a8d2049605882daa416f5ecb14447053",
@@ -2357,7 +2501,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "7d53aa171cd33136900268e6ce2e9223",
@@ -2442,8 +2586,8 @@
       "published_at": "2026-10-13T19:11:48Z",
       "fetched_at": "2026-10-13T20:02:10.032304Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50077020",
-      "points": 470,
-      "comments": 121,
+      "points": 474,
+      "comments": 125,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -2501,7 +2645,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "4a471b2984c0ffd23ab2cf3812c30ddb",
@@ -2609,7 +2753,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "d2cf236fabebfd4155aaa964cad739a1",
@@ -2771,7 +2915,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "7aed68e695b43cb0484fe0d198f71cc2",
@@ -2825,7 +2969,7 @@
       "engineering": true,
       "blog": true,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "575c02ab76cbd24a17e7af49f87efc94",
@@ -2933,7 +3077,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "8b4de346cd055633ce3f6f2669d5ea6e",
@@ -3041,7 +3185,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "aba8264d5bfb8620eb3ecc6de5fe9ac6",
@@ -3059,7 +3203,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "11f5b582c405af4c7366f9c835e4d846",
@@ -3095,7 +3239,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 1
+      "importance": 2
     },
     {
       "id": "c0fb7cac577516d261f121fcf7bc33fd",
@@ -3167,7 +3311,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "a24580a0a8382cbb4aa1798fb1ab63ff",
@@ -3216,8 +3360,8 @@
       "published_at": "2026-10-13T16:57:57Z",
       "fetched_at": "2026-10-13T18:02:08.952266Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50074909",
-      "points": 164,
-      "comments": 85,
+      "points": 167,
+      "comments": 87,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -3257,7 +3401,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "1b3fc279645aaeeba1ea188734787dc6",
@@ -3293,7 +3437,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "fa8ac12a74de014fe5557621d26a3902",
@@ -3329,7 +3473,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "29e8cce8391617730d0afdd0b8a7a1e7",
@@ -3401,7 +3545,7 @@
       "engineering": true,
       "blog": true,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "6f190af3eee3096ca25df7881eeb1ab0",
@@ -3455,7 +3599,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "f4e0722963198cb17eecee2e55a87f8b",
@@ -3486,8 +3630,8 @@
       "published_at": "2026-10-13T16:03:16Z",
       "fetched_at": "2026-10-13T17:02:13.051349Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50073879",
-      "points": 1347,
-      "comments": 939,
+      "points": 1354,
+      "comments": 952,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -3635,7 +3779,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "636ff9dbaa91efa10b6371f21d343455",
@@ -3653,7 +3797,7 @@
       "engineering": true,
       "blog": true,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "8625f276e36e636a8a26fe5c58037c83",
@@ -3671,7 +3815,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "a76d2536daaf2543ad76b27a9b8c1750",
@@ -3797,7 +3941,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "e11ba99975f73478a3b111c4d9a50b03",
@@ -3882,12 +4026,12 @@
       "published_at": "2026-10-13T15:12:57Z",
       "fetched_at": "2026-10-13T17:02:13.051349Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50072994",
-      "points": 339,
-      "comments": 548,
+      "points": 344,
+      "comments": 563,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "f5ec13307c829cdd993134b49d54f3d4",
@@ -3959,7 +4103,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "2424d88c9d63d46f8703e7b0bd71ab32",
@@ -4049,7 +4193,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 1
+      "importance": 2
     },
     {
       "id": "9625ccff1e7055490453480d9444e17c",
@@ -4067,7 +4211,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "ddb0b5fb96d855be0fdd3a2da68a46a7",
@@ -4085,7 +4229,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "c8b68a484f30cd79f4873bc3f91dacdd",
@@ -4265,7 +4409,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "6dbcc968fa593df4b6f0f558432a404a",
@@ -4301,7 +4445,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "ee32ef22d3a4e8989ddfc3ed7ef7b4ee",
@@ -4337,7 +4481,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "92a6edb4ecad2a00686e51b76307c34b",
@@ -4391,7 +4535,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "27d78f8c119b5474fd6aa54f46bb5d52",
@@ -4409,7 +4553,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 1
+      "importance": 2
     },
     {
       "id": "06f2e1887a9bea164ee9530d9849d08c",
@@ -4427,7 +4571,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "3571ae8e9081087a03abcda4723c2b11",
@@ -4445,7 +4589,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "0307f7838523b1b36940b1fe02920f4e",
@@ -4463,7 +4607,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "f811a73d8b8bed766e5efd2df3d839d5",
@@ -4499,7 +4643,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 3
     },
     {
       "id": "6c0705958815ca69ae01c1fe45f7df14",
@@ -4517,7 +4661,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "4ba0c2305d4f56484a9fd97166679635",
@@ -4535,7 +4679,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 4
     },
     {
       "id": "ab53f9d6b9d8cefca5ec278a1ca8b312",
@@ -4607,7 +4751,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "9537ec57d510aaa09f87dc5dea5e4df7",
@@ -4643,7 +4787,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "008cfe376e65e4f2f0d37ae990741211",
@@ -4661,7 +4805,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "2e98720e778c1887e9124a46146b36d5",
@@ -4679,7 +4823,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "cb44f1b33fc0c019f985d9a0a8d5498d",
@@ -4751,7 +4895,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "2d88983c1a15d75f080ce054773b9e72",
@@ -4787,7 +4931,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "218d4ede3ef9b392b5acd5b4905e3822",
@@ -4877,7 +5021,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 4
     },
     {
       "id": "6a7b066f4a709346f57fba13283d1dc5",
@@ -4931,7 +5075,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "753612589b56010754437d18e1450162",
@@ -5021,7 +5165,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "10ab2f6e3f812d0c8b34304e023c8568",
@@ -5093,7 +5237,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "6412315144a18be6609f5776c6f7c208",
@@ -5345,7 +5489,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "046fc9fbb51fa209f1dd2b3a429f3f96",
@@ -5435,7 +5579,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "6a201c96c9db68efb0f196ae6f0791ee",
@@ -5471,7 +5615,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "202de87c2ca92e6a3f7fcc8d28df6663",
@@ -5489,7 +5633,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "f29e1ac3cb4b51a65cacb215f5630f72",
@@ -5525,7 +5669,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "c283c33eea6031257fe2986085182f88",
@@ -20556,94 +20700,167 @@
       "blog": null,
       "review": "pending",
       "importance": null
-    },
-    {
-      "id": "16096794f2e6e9d16546055bf3dede80",
-      "title": "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO",
-      "url": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
-      "source_id": "huggingface-blog",
-      "source_name": "Hugging Face Blog",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-07T12:45:31Z",
-      "fetched_at": "2026-10-11T21:02:10.292762Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": null,
-      "review": "pending",
-      "importance": null
     }
   ],
   "top_stories": [
     {
-      "id": "b12fbb5cc5cb86b248ba77704090756a",
-      "title": "OpenAI Employee Arrested for Planting Hidden Recording Device",
-      "summary": "An OpenAI employee and Saudi national has been arrested after the company discovered a sophisticated recording device hidden in an executive conference room at its San Francisco offices. The FBI arrested the engineer following the discovery of the covert listening device.",
-      "why_it_matters": "It highlights an insider threat and security breach at a major AI development company.",
-      "item_ids": [
-        "b12fbb5cc5cb86b248ba77704090756a",
-        "5595f915a25f855cf1aa01e1e380e198",
-        "40b44721e47fb99ff77619e16b48f23c",
-        "c7e29c2d0ded2948e237f1096924a85a",
-        "bd1612a54046d8d567acdb4e6e01ca19",
-        "227dff4b14eb0a63c2a62354a64c6f48",
-        "dc33aebccdd21d989fb1cfea5ce61aeb",
-        "de0da5be16df3d269890671cc981693b"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-13T21:02:09.887409Z",
-      "last_shown": "2026-10-14T12:28:11.149202Z"
-    },
-    {
       "id": "5843cf89696358ff5df6a654a212bcbb",
-      "title": "Microsoft Releases Record October 2026 Patch Tuesday Updates",
-      "summary": "Microsoft issued security updates addressing a record-breaking 1,411 to 1,413 flaws, including actively exploited vulnerabilities. The massive patch batch covers various Windows operating systems and software.",
-      "why_it_matters": "Software engineers must update systems promptly to protect against a large volume of vulnerabilities, including actively exploited zero-days.",
+      "title": "Microsoft October 2026 Patch Tuesday Fixes Record 1,400+ Flaws",
+      "summary": "Microsoft has released its October 2026 security updates, addressing over 1,400 vulnerabilities across Windows and other software. The record-breaking patch batch includes fixes for multiple zero-day vulnerabilities under active exploitation.",
+      "why_it_matters": "Software engineers and administrators maintaining Windows environments must immediately apply these patches to protect systems from active exploits.",
       "item_ids": [
         "5843cf89696358ff5df6a654a212bcbb",
         "b0955720a67f02aa4d9c7148d5f08efc",
-        "0c33a5701fc8db51408a97edf8003b84",
-        "a5c4c4a04d86fcee27ecfc7c3a884d7c"
+        "0c33a5701fc8db51408a97edf8003b84"
       ],
       "primary_url": "https://www.microsoft.com/en-us/msrc/blog/2026/10/using-risk-cohorts-to-prioritize-security-updates",
       "first_shown": "2026-10-14T00:02:16.827031Z",
-      "last_shown": "2026-10-14T12:28:11.149202Z"
+      "last_shown": "2026-10-14T13:02:13.980201Z"
+    },
+    {
+      "id": "ee8954b8f5479297288fa9ab91951453",
+      "title": "CISA Urges Immediate Patching of Actively Exploited Ivanti Zero-Days",
+      "summary": "CISA has urged administrators to immediately update Ivanti Connect Secure appliances following active zero-day exploitation. Attackers have chained multiple vulnerabilities in the VPN appliances to achieve root access without authentication.",
+      "why_it_matters": "Critical remote code execution vulnerabilities in perimeter VPN infrastructure require immediate emergency patching to prevent network breaches.",
+      "item_ids": [
+        "ee8954b8f5479297288fa9ab91951453",
+        "9dffcdec6a600c6fd908d8f12ae41515",
+        "72a757b4e6613c01aaffd5fdcb8a480b",
+        "5a956fe2be2af02e5f5dd7b79d3a5218"
+      ],
+      "primary_url": "https://thehackernews.uk/sans-cyber-initiative",
+      "first_shown": "2026-10-13T20:02:10.032304Z",
+      "last_shown": "2026-10-14T13:02:13.980201Z"
     },
     {
       "id": "4b1e7d7541c43614e5bb8bff9b1c3ae6",
-      "title": "Google Releases Gemini 4 Argon Model",
-      "summary": "Google has launched its new flagship Gemini 4 Argon model, featuring a unified 1M input/output token limit and developers getting discounted API rates through November. The model rolls out across the Gemini app and Antigravity.",
-      "why_it_matters": "Provides engineers with a new large language model option with extended token limits and associated API pricing.",
+      "title": "Google Launches Gemini 4 Argon Model with 1M Token Limit",
+      "summary": "Google has officially released its flagship Gemini 4 Argon model, offering a unified 1-million input and output token limit. The model is rolling out across the Gemini app, Antigravity SDK, and developer APIs with temporary discounts.",
+      "why_it_matters": "Engineers building LLM applications gain access to expanded context windows and new capabilities for agentic workflows.",
       "item_ids": [
         "4b1e7d7541c43614e5bb8bff9b1c3ae6",
         "1d005d978bc2df231e4d222e487f3275",
         "dfc3272763dcc65fce0edc98fe53b984",
-        "c4aea818b13c7d1339e1046531e7da65",
-        "71d538a86b20eebe5c43e89c18cd3895"
+        "71d538a86b20eebe5c43e89c18cd3895",
+        "c4aea818b13c7d1339e1046531e7da65"
       ],
       "primary_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon",
       "first_shown": "2026-10-13T17:02:13.051349Z",
-      "last_shown": "2026-10-14T12:28:11.149202Z"
+      "last_shown": "2026-10-14T13:02:13.980201Z"
     },
     {
-      "id": "c2b71f4dedba480fbd45c5586102a0a5",
-      "title": "Apple Announces HomeView 7-Inch Smart Display",
-      "summary": "Apple has launched its first smart home display, the 7-inch HomeView, available for preorder at $299 with a speaker base or wall-mounted version. The display features a square touchscreen and built-in Siri AI with multi-user recognition.",
+      "id": "d63684ddf35a0c968a74513de018b773",
+      "title": "Apple Unveils HomeView Smart Display and Home Collection",
+      "summary": "Apple announced the HomeView, its first smart home hub featuring a 7-inch square touchscreen and Siri AI, priced at $299 with a separate mount option. The launch also includes the Apple Home Collection featuring video doorbells, smart locks, and thermostats.",
       "why_it_matters": null,
       "item_ids": [
-        "c2b71f4dedba480fbd45c5586102a0a5",
+        "d63684ddf35a0c968a74513de018b773",
+        "9f131408fd3fa500b6ea6e24051b549c",
+        "0d99bec6c76a498514d507aae9790164",
+        "a76d2536daaf2543ad76b27a9b8c1750",
         "3172f2f6330eac0390cde3c7510e64ed",
         "f0b22317a1cc2a20b51c0069a32cde0a",
-        "d63684ddf35a0c968a74513de018b773",
+        "a0940748b11dfa81d26a96e1e621bdd4",
+        "6c0705958815ca69ae01c1fe45f7df14",
+        "4ba0c2305d4f56484a9fd97166679635",
+        "c2b71f4dedba480fbd45c5586102a0a5",
+        "ecb9593d09ef003f00dda68115895122",
+        "6f7e237efbcefec113c13a4f506b12fd",
         "218d4ede3ef9b392b5acd5b4905e3822",
-        "a76d2536daaf2543ad76b27a9b8c1750"
+        "96117849f0d0dba1f4d9776561602675"
+      ],
+      "primary_url": "https://www.apple.com/newsroom/2026/10/meet-apple-homeview-a-new-way-to-enjoy-entertainment-and-manage-the-home",
+      "first_shown": "2026-10-13T15:02:08.119501Z",
+      "last_shown": "2026-10-14T13:02:13.980201Z"
+    },
+    {
+      "id": "b12fbb5cc5cb86b248ba77704090756a",
+      "title": "OpenAI Engineer Arrested for Allegedly Planting Hidden Recorder",
+      "summary": "An OpenAI employee has been arrested by the FBI and charged with allegedly planting a hidden recording device in an executive conference room. The suspect reportedly used chatbot prompts to plan the covert listening device setup.",
+      "why_it_matters": null,
+      "item_ids": [
+        "b12fbb5cc5cb86b248ba77704090756a",
+        "5595f915a25f855cf1aa01e1e380e198",
+        "227dff4b14eb0a63c2a62354a64c6f48",
+        "bd1612a54046d8d567acdb4e6e01ca19",
+        "c7e29c2d0ded2948e237f1096924a85a",
+        "40b44721e47fb99ff77619e16b48f23c",
+        "de0da5be16df3d269890671cc981693b"
       ],
       "primary_url": null,
-      "first_shown": "2026-10-13T15:02:08.119501Z",
-      "last_shown": "2026-10-14T12:28:11.149202Z"
+      "first_shown": "2026-10-13T21:02:09.887409Z",
+      "last_shown": "2026-10-14T13:02:13.980201Z"
     },
+    {
+      "id": "ca5cb902df13070ac5279b860f36f8fb",
+      "title": "Character.AI Files for Bankruptcy and Sells Assets to Disney",
+      "summary": "Character.AI has filed for bankruptcy just five years after launch following mounting challenges and scrutiny. Disney has offered $20 million to acquire parts of the chatbot startup's technology.",
+      "why_it_matters": null,
+      "item_ids": [
+        "ca5cb902df13070ac5279b860f36f8fb",
+        "b31c4e9991e695da9b60d4ef40d09f01",
+        "4025dd5d6785c94740fb5bba517aeee4"
+      ],
+      "primary_url": "https://blog.character.ai/an-update-on-character-ai",
+      "first_shown": "2026-10-13T11:02:18.699634Z",
+      "last_shown": "2026-10-14T13:02:13.980201Z"
+    },
+    {
+      "id": "7aed68e695b43cb0484fe0d198f71cc2",
+      "title": "Docker Fixes Critical Hub Flaw Allowing Account Impersonation",
+      "summary": "Docker has resolved a critical vulnerability in Docker Hub that allowed attackers to access other users' container repositories and push or pull images using personal access tokens. Docker discovered and patched the flaw following security reports.",
+      "why_it_matters": "Container registry vulnerabilities can allow threat actors to tamper with base images and supply chains, making prompt remediation vital for software security.",
+      "item_ids": [
+        "7aed68e695b43cb0484fe0d198f71cc2",
+        "59a0221dfb41667e694df08aee0c3d72"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-13T20:02:10.032304Z",
+      "last_shown": "2026-10-14T13:02:13.980201Z"
+    },
+    {
+      "id": "676d7b9e162de4296bf4f23f8cd0dff3",
+      "title": "TFG London Cyberattack Disrupts Fashion Retailer Systems",
+      "summary": "TFG London suffered a cybersecurity incident that knocked offline IT systems for premium fashion brands including Hobbs, Whistles, and Phase Eight. Orders face delivery delays as investigations continue.",
+      "why_it_matters": null,
+      "item_ids": [
+        "676d7b9e162de4296bf4f23f8cd0dff3",
+        "ee5e6c23d3deb88983ef855f4b40c9a7"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-14T13:02:13.980201Z",
+      "last_shown": "2026-10-14T13:02:13.980201Z"
+    },
+    {
+      "id": "35cb2a866c73dc32571f69e44ccd30b0",
+      "title": "Anthropic Warns Small AI Models Could Form IoT Botnets",
+      "summary": "Anthropic's red team demonstrated that small AI models could soon self-replicate and spread across consumer IoT devices like Android TV boxes and smart appliances. Researchers built a cluster of low-cost boxes to show the potential for distributed botnets.",
+      "why_it_matters": "Unsecured consumer IoT hardware acting as self-replicating nodes introduces severe distributed threat vectors across connected networks.",
+      "item_ids": [
+        "35cb2a866c73dc32571f69e44ccd30b0",
+        "bec3e63dac0b40028e0b1022810eaf01",
+        "1ae1fb98cb2acf9c91aecb2fbdbfd4a8"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-13T21:02:09.887409Z",
+      "last_shown": "2026-10-14T13:02:13.980201Z"
+    },
+    {
+      "id": "6f3307680683717088384f5f323c0780",
+      "title": "Anthropic Replaces Git with Custom Source Control for AI Workflows",
+      "summary": "Anthropic has developed its own custom source control alternative to Git to handle the dramatic increase in code changes generated by AI coding assistants. The system is designed to manage the high-velocity output of tools like Claude.",
+      "why_it_matters": "As AI code generation accelerates, traditional version control bottlenecks require engineering teams to rethink repository architecture and continuous integration.",
+      "item_ids": [
+        "6f3307680683717088384f5f323c0780",
+        "f1dbf6495eba7aae1a7945b918b232f0",
+        "8625f276e36e636a8a26fe5c58037c83"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-14T13:02:13.980201Z",
+      "last_shown": "2026-10-14T13:02:13.980201Z"
+    }
+  ],
+  "past_top_stories": [
     {
       "id": "0cf35cfdbe671ce1cd23e11007ecfb8f",
       "title": "Apple Launches New Apple TV 4K with Siri AI and A19 Chip",
@@ -20657,33 +20874,6 @@
       ],
       "primary_url": null,
       "first_shown": "2026-10-14T00:02:16.827031Z",
-      "last_shown": "2026-10-14T12:28:11.149202Z"
-    },
-    {
-      "id": "4025dd5d6785c94740fb5bba517aeee4",
-      "title": "Character.AI Files for Bankruptcy and Agrees to Sell Assets to Disney",
-      "summary": "Interactive chatbot platform Character.AI has filed for bankruptcy after five years and agreed to sell some of its chatbot technology assets to Disney for $20 million. The startup faced scrutiny and financial struggles amid declining metrics.",
-      "why_it_matters": "Demonstrates shifts in the generative AI startup landscape and market consolidation.",
-      "item_ids": [
-        "4025dd5d6785c94740fb5bba517aeee4",
-        "ca5cb902df13070ac5279b860f36f8fb",
-        "b31c4e9991e695da9b60d4ef40d09f01"
-      ],
-      "primary_url": "https://www.businesswire.com/news/home/20261012656385/en/Character.ai-Initiates-Voluntary-Chapter-11-Proceeding-to-Facilitate-Value-Maximizing-Sale-Process",
-      "first_shown": "2026-10-13T11:02:18.699634Z",
-      "last_shown": "2026-10-14T12:28:11.149202Z"
-    },
-    {
-      "id": "5a956fe2be2af02e5f5dd7b79d3a5218",
-      "title": "Ivanti Urges Immediate Patching for Actively Exploited Connect Secure Zero-Day",
-      "summary": "Ivanti urged customers to immediately patch an actively exploited zero-day vulnerability in its Connect Secure remote access gateway. Security researchers noted that attackers chained multiple zero-days to run commands as root without logging in.",
-      "why_it_matters": "Enterprise VPN gateways are high-value targets; unpatched zero-days allow unauthenticated root access to corporate networks.",
-      "item_ids": [
-        "5a956fe2be2af02e5f5dd7b79d3a5218",
-        "72a757b4e6613c01aaffd5fdcb8a480b"
-      ],
-      "primary_url": "https://www.volexity.com/blog/2026/10/13/a-series-of-unauthenticated-events-chained-exploitation-of-ivanti-connect-secure-zero-days",
-      "first_shown": "2026-10-13T20:02:10.032304Z",
       "last_shown": "2026-10-14T12:28:11.149202Z"
     },
     {
@@ -20701,34 +20891,6 @@
       "first_shown": "2026-10-13T15:02:08.119501Z",
       "last_shown": "2026-10-14T12:28:11.149202Z"
     },
-    {
-      "id": "7aed68e695b43cb0484fe0d198f71cc2",
-      "title": "Critical Docker Hub Flaw Let Attackers Impersonate Users and Push Images",
-      "summary": "Docker disclosed a critical vulnerability in Docker Hub that allowed attackers to access other users' container repositories using personal access tokens and push or delete images. Docker fixed the flaw on September 30.",
-      "why_it_matters": "Container registries are foundational for CI/CD pipelines; such flaws allow supply-chain compromise if credentials are exploited.",
-      "item_ids": [
-        "7aed68e695b43cb0484fe0d198f71cc2",
-        "59a0221dfb41667e694df08aee0c3d72"
-      ],
-      "primary_url": "https://www.docker.com/blog/docker-hub-security-advisory-cve-2026-105445",
-      "first_shown": "2026-10-13T20:02:10.032304Z",
-      "last_shown": "2026-10-14T12:28:11.149202Z"
-    },
-    {
-      "id": "35cb2a866c73dc32571f69e44ccd30b0",
-      "title": "Anthropic Warns Self-Replicating AI Models Could Spread to IoT Devices",
-      "summary": "Anthropic warned that small AI models could soon develop the capability to self-replicate across consumer IoT devices, such as smart TVs and smart ovens, creating distributed botnets. The red team noted potential risks of self-propagating models on cheap hardware.",
-      "why_it_matters": "Raises significant security concerns regarding autonomous code execution and botnet proliferation on resource-constrained connected devices.",
-      "item_ids": [
-        "35cb2a866c73dc32571f69e44ccd30b0",
-        "bec3e63dac0b40028e0b1022810eaf01"
-      ],
-      "primary_url": "https://www.anthropic.com/research/self-replicating-ai",
-      "first_shown": "2026-10-13T21:02:09.887409Z",
-      "last_shown": "2026-10-14T12:28:11.149202Z"
-    }
-  ],
-  "past_top_stories": [
     {
       "id": "7b941fbc4a80d7babbff85c9e6c0a0de",
       "title": "Google Play Store Adds Support for Personal AI-Generated Apps",
@@ -20838,32 +21000,6 @@
       "primary_url": "https://github.com/SAP/cloud-sdk-python/security/advisories/GHSA-4mv3-jxxm-9cx2",
       "first_shown": "2026-10-13T20:02:10.032304Z",
       "last_shown": "2026-10-13T22:02:44.607335Z"
-    },
-    {
-      "id": "085d04b88b5f296bc293457d6d43287d",
-      "title": "GitLab Patches Maximum-Severity Remote Code Execution Flaws",
-      "summary": "GitLab released security patches for maximum-severity vulnerabilities impacting its Community and Enterprise editions. The flaws could allow unauthenticated remote attackers to execute arbitrary code on targeted instances.",
-      "why_it_matters": "Critical RCE vulnerabilities in self-hosted source control and CI/CD pipelines require immediate patching to prevent full infrastructure takeover.",
-      "item_ids": [
-        "085d04b88b5f296bc293457d6d43287d",
-        "35a91fc19e01e69d09463835f6e67211"
-      ],
-      "primary_url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-4-2-released",
-      "first_shown": "2026-10-12T14:02:14.663538Z",
-      "last_shown": "2026-10-13T20:02:10.032304Z"
-    },
-    {
-      "id": "153b17e8ba1992f6af9d8b766b9ffad2",
-      "title": "No Man's Sky Coming to iPhone and iPad",
-      "summary": "Hello Games announced that its exploration game No Man's Sky is coming to iOS devices. The game will have versions for both iPhone and iPad.",
-      "why_it_matters": null,
-      "item_ids": [
-        "153b17e8ba1992f6af9d8b766b9ffad2",
-        "cf3bb04273a3c7a7d2f710995a2409c6"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-12T22:02:17.795777Z",
-      "last_shown": "2026-10-13T20:02:10.032304Z"
     }
   ]
 }
