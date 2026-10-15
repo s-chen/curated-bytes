@@ -1,6 +1,132 @@
 {
-  "generated_at": "2026-10-15T20:02:14.040286Z",
+  "generated_at": "2026-10-15T21:02:19.888714Z",
   "items": [
+    {
+      "id": "765e91d18f9686e46a126921ed6b3679",
+      "title": "AI Hacks Leave a Mess That AI Companies Aren’t Paying For",
+      "url": "https://www.wired.com/story/ai-hacks-leave-a-mess-that-ai-companies-arent-cleaning-up/",
+      "source_id": "wired",
+      "source_name": "Wired",
+      "category": "tech",
+      "summary": "Powerful AI models continue to cause chaos, but their targets aren’t widely seeking justice. Instead, they’re being encouraged to adopt those same tools.",
+      "published_at": "2026-10-15T21:00:28Z",
+      "fetched_at": "2026-10-15T21:02:19.888714Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "fa5e9e8a6fec3e222b3ec0f0f63d4c4c",
+      "title": "Amazon devices chief Panos Panay on the importance of failure and bouncing back from it",
+      "url": "https://techcrunch.com/2026/10/15/amazon-devices-chief-panos-panay-on-the-importance-of-failure-and-bouncing-back-from-it/",
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "category": "tech",
+      "summary": "Panay said that it's possible to recover and learn from all sorts of failures, even catastrophic ones, when building products.",
+      "published_at": "2026-10-15T20:38:13Z",
+      "fetched_at": "2026-10-15T21:02:19.888714Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 2
+    },
+    {
+      "id": "fe5649d96d8aa75f9e286d57f09e1e02",
+      "title": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
+      "source_id": "huggingface-blog",
+      "source_name": "Hugging Face Blog",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-15T20:34:01Z",
+      "fetched_at": "2026-10-15T21:02:19.888714Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "af219cc608e1e3fa77c97329f84c0b61",
+      "title": "Hackers exploit Collabora RCE flaw to backdoor Nextcloud servers",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/",
+      "source_id": "bleepingcomputer",
+      "source_name": "BleepingComputer",
+      "category": "tech",
+      "summary": "Threat actors are exploiting a critical command execution flaw, now tracked as CVE-2026-110447, in the Collabora Online - Built-in CODE Server app (richdocumentscode) for Nextcloud. [...]",
+      "published_at": "2026-10-15T20:25:04Z",
+      "fetched_at": "2026-10-15T21:02:19.888714Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 5
+    },
+    {
+      "id": "518562e4a673e64181c5fa29d17dfc68",
+      "title": "Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory",
+      "url": "https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html",
+      "source_id": "the-hacker-news",
+      "source_name": "The Hacker News",
+      "category": "tech",
+      "summary": "A newly disclosed critical flaw in the Linux kernel allows code inside a virtual machine to read memory on the host computer it runs on. A researcher demonstrated the leak against Vercel's live cloud sandboxes, and Vercel confirmed it. The flaw, now tracked as CVE-2026-99999 and nicknamed PwnEscape, is in the Linux kernel's networking code, not in any one cloud's setup, so it reaches the shared",
+      "published_at": "2026-10-15T20:24:36Z",
+      "fetched_at": "2026-10-15T21:02:19.888714Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 5
+    },
+    {
+      "id": "d8648b3559383c6a74245021604e841e",
+      "title": "Why are we even doing all this?",
+      "url": "https://terrytao.wordpress.com/2026/10/15/why-are-we-even-doing-all-this/",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-15T20:22:50Z",
+      "fetched_at": "2026-10-15T21:02:19.888714Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50109707",
+      "points": 36,
+      "comments": 16,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 2
+    },
+    {
+      "id": "d3dd8b2e4e13d612a5565c2f5e1cfa04",
+      "title": "Meta launches an open-weight AI model that runs on Macs",
+      "url": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "category": "tech",
+      "summary": "Meta and Apple have teamed up for the launch of the social media giant's newest model, Muse Spark Open, which will run locally on Apple silicon.",
+      "published_at": "2026-10-15T20:04:53Z",
+      "fetched_at": "2026-10-15T21:02:19.888714Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 5
+    },
     {
       "id": "7046ca9567b30f00939b9f0ab633e7f5",
       "title": "Bluesky’s AI tool now lets you make games and apps to share on social",
@@ -17,7 +143,25 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
+    },
+    {
+      "id": "67f47845dab5e863fae4e29e7425f713",
+      "title": "New Withings Users Must Pay $99/Year for Apple Health Syncing",
+      "url": "https://support.withings.com/hc/en-us/community/posts/51887047154577-Unacceptable-Apple-Health-Sync-is-now-behind-a-99-year-paywall-for-new-accounts",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-15T19:55:49Z",
+      "fetched_at": "2026-10-15T21:02:19.888714Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50109375",
+      "points": 17,
+      "comments": 6,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "a2058adaf8b202ebb81cec1ea0c701bf",
@@ -53,7 +197,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "064b421b7b6de08793986cc61676f940",
@@ -89,7 +233,25 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 1
+      "importance": 2
+    },
+    {
+      "id": "8df0bb919845839b3edaa4b669940360",
+      "title": "Forgejo v17.0 is available",
+      "url": "https://forgejo.org/2026-10-release-v17-0/",
+      "source_id": "lobsters",
+      "source_name": "Lobsters",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-15T19:43:19Z",
+      "fetched_at": "2026-10-15T21:02:19.888714Z",
+      "discussion_url": "https://lobste.rs/s/vemho2/forgejo_v17_0_is_available",
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 2
     },
     {
       "id": "d5d71472593dda1b5d439dd9ba2eb5b7",
@@ -107,7 +269,25 @@
       "engineering": true,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 4
+    },
+    {
+      "id": "40aac4acdcc07c2f0d5a469d2031268b",
+      "title": "Gleam case exhaustiveness, as a fan",
+      "url": "https://oyster.pckt.blog/gleam-case-exhaustiveness-as-a-fan-fd4whyp",
+      "source_id": "lobsters",
+      "source_name": "Lobsters",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-15T19:33:19Z",
+      "fetched_at": "2026-10-15T21:02:19.888714Z",
+      "discussion_url": "https://lobste.rs/s/vyo9n2/gleam_case_exhaustiveness_as_fan",
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 2
     },
     {
       "id": "867e06fe09192bd35c0d7d24b375c153",
@@ -125,7 +305,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "2956a0f7bf93296ac1f7574eafc72fa5",
@@ -138,8 +318,8 @@
       "published_at": "2026-10-15T19:21:38Z",
       "fetched_at": "2026-10-15T20:02:14.040286Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50108872",
-      "points": 22,
-      "comments": 8,
+      "points": 72,
+      "comments": 25,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -215,7 +395,7 @@
       "engineering": true,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "709427342bbdf9b6d66d557ef1ffb963",
@@ -233,7 +413,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "b3110d8021dcc7fc816e6ac73f0c81a2",
@@ -246,8 +426,8 @@
       "published_at": "2026-10-15T18:54:36Z",
       "fetched_at": "2026-10-15T20:02:14.040286Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50108491",
-      "points": 12,
-      "comments": 6,
+      "points": 34,
+      "comments": 23,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -305,7 +485,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "dbd2e8f85dfc63f2b6c7fcf505cabb68",
@@ -332,16 +512,16 @@
       "source_id": "hacker-news",
       "source_name": "Hacker News",
       "category": "tech",
-      "summary": null,
+      "summary": "https://web.archive.org/web/20261015180401/https://www.eink....",
       "published_at": "2026-10-15T18:38:16Z",
       "fetched_at": "2026-10-15T19:02:19.040793Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50108229",
-      "points": 37,
-      "comments": 9,
+      "points": 70,
+      "comments": 31,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "a1cdf436af23dadb6dcdaaf501813a31",
@@ -377,7 +557,7 @@
       "engineering": true,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "62411309b794ece1ffc0372979d709cd",
@@ -431,7 +611,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "afc900f7a060fc1e1c13904b259a7ccf",
@@ -467,7 +647,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "ff14ed395738751c4066d0da4f7e49fd",
@@ -498,12 +678,30 @@
       "published_at": "2026-10-15T17:47:39Z",
       "fetched_at": "2026-10-15T18:02:14.850637Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50107379",
-      "points": 348,
-      "comments": 224,
+      "points": 433,
+      "comments": 266,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
+    },
+    {
+      "id": "092e8380d17d282679067d28b1a9b073",
+      "title": "Religious Studies In Software Engineering",
+      "url": "https://tombh.co.uk/religious-studies-in-software-engineering",
+      "source_id": "lobsters",
+      "source_name": "Lobsters",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-15T17:36:38Z",
+      "fetched_at": "2026-10-15T21:02:19.888714Z",
+      "discussion_url": "https://lobste.rs/s/ivsn8e/religious_studies_software_engineering",
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 2
     },
     {
       "id": "2b53c4a1ee44c77c99b6e351f0f05e7a",
@@ -521,7 +719,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "eb77f6484e453b05702aec37f970a57d",
@@ -557,7 +755,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "1e2587410b8a60b5b3786fa34aad6b87",
@@ -611,7 +809,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "e2cbc4d59d1ce4f46fe2717cf30c9300",
@@ -647,7 +845,7 @@
       "engineering": true,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "855ddbe3c0cdbae7f1446d82915fb87a",
@@ -701,7 +899,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "5d7444209e9bcccd7ddf87b92a901e76",
@@ -719,7 +917,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "f0474f473bfe580b32eb15ca5952d1a4",
@@ -737,7 +935,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 2
     },
     {
       "id": "a7ec24e46ea175195317bc13df8dcdcd",
@@ -786,8 +984,8 @@
       "published_at": "2026-10-15T16:26:16Z",
       "fetched_at": "2026-10-15T17:02:15.572752Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50106054",
-      "points": 24,
-      "comments": 5,
+      "points": 29,
+      "comments": 8,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -804,12 +1002,12 @@
       "published_at": "2026-10-15T16:24:52Z",
       "fetched_at": "2026-10-15T18:02:14.850637Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50106023",
-      "points": 113,
-      "comments": 47,
+      "points": 161,
+      "comments": 81,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "253eb4f225982c81218429f8f9ad1e9e",
@@ -872,16 +1070,16 @@
       "source_id": "hacker-news",
       "source_name": "Hacker News",
       "category": "tech",
-      "summary": null,
+      "summary": "No more leap seconds. Sorry, about the title, but I couldn‘t resist. Comments",
       "published_at": "2026-10-15T16:11:36Z",
       "fetched_at": "2026-10-15T17:02:15.572752Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50105777",
-      "points": 73,
-      "comments": 34,
+      "discussion_url": "https://lobste.rs/s/ipyrkv/about_time",
+      "points": null,
+      "comments": null,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "3133e9315d4af568b80bb98051a85b26",
@@ -894,8 +1092,8 @@
       "published_at": "2026-10-15T16:04:05Z",
       "fetched_at": "2026-10-15T17:02:15.572752Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50105648",
-      "points": 170,
-      "comments": 66,
+      "points": 192,
+      "comments": 70,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -912,8 +1110,8 @@
       "published_at": "2026-10-15T16:04:01Z",
       "fetched_at": "2026-10-15T17:02:15.572752Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50105647",
-      "points": 291,
-      "comments": 88,
+      "points": 354,
+      "comments": 113,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -930,8 +1128,8 @@
       "published_at": "2026-10-15T16:03:19Z",
       "fetched_at": "2026-10-15T17:02:15.572752Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50105635",
-      "points": 193,
-      "comments": 219,
+      "points": 217,
+      "comments": 232,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -953,7 +1151,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "2c4518ec6d6c7cd51eadd1a5a67007d4",
@@ -971,7 +1169,7 @@
       "engineering": true,
       "blog": true,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "007b3796a589bd917811d8e111dc58e8",
@@ -1007,7 +1205,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "233489b305c581f43fd54c726da48e6c",
@@ -1025,7 +1223,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "495c063dcca74379367d47ad4849e622",
@@ -1074,12 +1272,12 @@
       "published_at": "2026-10-15T15:52:08Z",
       "fetched_at": "2026-10-15T17:02:15.572752Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50105467",
-      "points": 55,
-      "comments": 9,
+      "points": 65,
+      "comments": 12,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "b4c024258f700ebbcd956ee6716ba50c",
@@ -1133,7 +1331,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 1
+      "importance": 2
     },
     {
       "id": "a3ad754dfe1f291394d1e150b8dd0a99",
@@ -1151,7 +1349,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "58ffcce06c5a44ff5dc1f9103f684d69",
@@ -1205,7 +1403,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "443f00404ecaa7799984c182e0b3d416",
@@ -1254,8 +1452,8 @@
       "published_at": "2026-10-15T15:03:17Z",
       "fetched_at": "2026-10-15T16:02:15.918460Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50104726",
-      "points": 156,
-      "comments": 60,
+      "points": 178,
+      "comments": 76,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -1295,7 +1493,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "fe3e2d9075f8504ed59110b00d936110",
@@ -1331,7 +1529,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "eef0e8a5cd075df1f3acfbcc5f6cd02d",
@@ -1344,8 +1542,8 @@
       "published_at": "2026-10-15T14:58:48Z",
       "fetched_at": "2026-10-15T16:02:15.918460Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50104654",
-      "points": 191,
-      "comments": 167,
+      "points": 200,
+      "comments": 173,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -1367,7 +1565,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "f9ee07bf800b0a189024e2a70311f2d0",
@@ -1547,7 +1745,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "980203f885da7bc1439e75fe749ee4c6",
@@ -1565,7 +1763,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "b7f38994f89e67563a8a8e4929824053",
@@ -1637,7 +1835,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "69d4ba4b13a013d8b2d6663cb2d33f85",
@@ -1655,7 +1853,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "8431ec80e60810be27251dc8da6168e6",
@@ -1673,7 +1871,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "7aa491dab7830c25a6cea31cda988745",
@@ -1799,7 +1997,7 @@
       "engineering": true,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "63d689d1bbbc7314f3345672c95d5eaa",
@@ -1830,12 +2028,12 @@
       "published_at": "2026-10-15T13:44:32Z",
       "fetched_at": "2026-10-15T15:02:18.945347Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50103630",
-      "points": 293,
-      "comments": 466,
+      "points": 310,
+      "comments": 496,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "681911cb6c1e2f110d530bf2b5da7b13",
@@ -1920,8 +2118,8 @@
       "published_at": "2026-10-15T13:23:44Z",
       "fetched_at": "2026-10-15T15:02:18.945347Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50103338",
-      "points": 387,
-      "comments": 161,
+      "points": 419,
+      "comments": 173,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -1997,7 +2195,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 1
+      "importance": 2
     },
     {
       "id": "37163d2c5e52a2623438e45447a66972",
@@ -2028,12 +2226,12 @@
       "published_at": "2026-10-15T13:11:26Z",
       "fetched_at": "2026-10-15T14:02:19.967788Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50103164",
-      "points": 104,
-      "comments": 101,
+      "points": 110,
+      "comments": 106,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "c86a7ac70786ef6df3255947eda694df",
@@ -2051,7 +2249,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "d56d46c53a07bf3eaf39d84cb415a54c",
@@ -2123,7 +2321,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "eef09eb5dfcecbbfa9c048f4c0f16054",
@@ -2175,9 +2373,9 @@
       "points": null,
       "comments": null,
       "engineering": true,
-      "blog": false,
+      "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "0fbc78eb7342172709f92664a5504bfd",
@@ -2195,7 +2393,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "529c0830392c22b47a1dfcb8da1a80a1",
@@ -2213,7 +2411,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "50edc5f3b99e3bc6c15265fdfe014592",
@@ -2267,7 +2465,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "836ba28ac03e317c55a0f4b1d25402d6",
@@ -2285,7 +2483,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "ca4f152d80a34139b403c45f15f16cc7",
@@ -2303,7 +2501,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "11e815b4be8d70838b168ff2645d6445",
@@ -2339,7 +2537,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "c614e6702818c8649f08788ad9e3fa8b",
@@ -2519,7 +2717,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "e0cc68b3fe1590b85407ad1a8e2c4449",
@@ -2537,7 +2735,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "916e69e794dfb65e005eab2b90e8ba16",
@@ -2663,7 +2861,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 5
     },
     {
       "id": "22b05e03e9afccb16aeb5672485e58f6",
@@ -2807,7 +3005,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "85180283924105ae2e013ecad5b5c420",
@@ -2825,7 +3023,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "b4ba26fc3fd7772980c6c43214d90aee",
@@ -2843,7 +3041,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "197f59131686e8ad1b58f48c57627ee1",
@@ -2879,7 +3077,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "8514a593081b82f0183def40aa9d5404",
@@ -2951,7 +3149,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "b04876230d7fbbd07dceb1016f3bfd1e",
@@ -2987,7 +3185,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "7302e3fe8d7353b9e6320c4a176b11fb",
@@ -3005,7 +3203,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "4cd1906aa676cfdff9372fb858a9b1e6",
@@ -3023,7 +3221,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "c5e28619afd03a560739249db79286e8",
@@ -3059,7 +3257,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "535b258f3cdf57f8f1e6796c8a780907",
@@ -3095,7 +3293,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "455bec4109619984891d19f893596b07",
@@ -3185,7 +3383,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "5902db94a77b44e850ba253612933858",
@@ -3203,7 +3401,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "d67d928374eb2972f819ac5e7990488e",
@@ -3239,7 +3437,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "4a2f2214073d5e00648291145dfee385",
@@ -3419,7 +3617,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "7e9903a8dfe7c5e317fea735bcddc8dc",
@@ -3545,7 +3743,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "447c9cbac27353b806e7a7bdfb0387cc",
@@ -3671,7 +3869,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "9b9420b910a0823e7b0f0c2f36e4103b",
@@ -3689,7 +3887,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 5
     },
     {
       "id": "83d869ed218b7887b06bb91d4c75ccb4",
@@ -3743,7 +3941,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "3b1f487377a8ff59b6327af3775eb22e",
@@ -3779,7 +3977,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "b771f398aeda561cd0a90aa838ef7777",
@@ -3797,7 +3995,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "89f69162f41d72ee215a3a006cd7062f",
@@ -3869,7 +4067,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "b602e77271eefc1f5e2776fbb7bfffc3",
@@ -3905,7 +4103,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "b30f85e92c18771da9af41af0b32b685",
@@ -3923,7 +4121,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "7a4d5ab593cc9b377d16d91caeb5686d",
@@ -3941,7 +4139,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "d5e206abbff03dc4ed15553b685f8699",
@@ -3977,7 +4175,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "b72f25cbab4b4e5b46ce75c54eee772a",
@@ -3995,7 +4193,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "2c786777bb57e78e5b8f147c4f817895",
@@ -4157,7 +4355,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "c8be76e11dfbd7a57c17f7144a71b59f",
@@ -4193,7 +4391,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "747e1bacb1c8cc92898672cc77e74a09",
@@ -4265,7 +4463,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 1
+      "importance": 2
     },
     {
       "id": "1786b4e2e6b8e252af220fa87167c283",
@@ -4283,7 +4481,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "2076a1ff9f6999e96b954b891e9ee813",
@@ -4301,7 +4499,7 @@
       "engineering": true,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "73e9b17095f5828a435feebaca9c61ab",
@@ -4319,7 +4517,7 @@
       "engineering": true,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "5f6745db29e7678ef4f5752ef824435e",
@@ -4337,7 +4535,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "b8c3b177446273f758d9fd1a674d8904",
@@ -4355,7 +4553,7 @@
       "engineering": true,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "8af7d6ccf78b281313c22f6cb5dc9c22",
@@ -4373,7 +4571,7 @@
       "engineering": true,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "ebc63d34ef588e1b3ed94be29224514e",
@@ -4391,7 +4589,7 @@
       "engineering": true,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "de1ca0e577593c55e35d75411057bd07",
@@ -4409,7 +4607,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "ef8398549a7c2663c3440060b70846de",
@@ -4427,7 +4625,7 @@
       "engineering": true,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "577193e9e3d4b1a126487182cc46b3e3",
@@ -4463,7 +4661,7 @@
       "engineering": true,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "b5516bdda124ac9b7372369056a0ad1c",
@@ -4481,7 +4679,7 @@
       "engineering": true,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "236dc336d76e03174de7a94b3569cbe9",
@@ -4499,7 +4697,7 @@
       "engineering": true,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "5c5f7785820d0d8b38399695182865b1",
@@ -4517,7 +4715,7 @@
       "engineering": true,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "f12d525bbc754a68854e61812081bf80",
@@ -4535,7 +4733,7 @@
       "engineering": true,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "7a100ae8286178de4b72101b3cea5110",
@@ -4643,7 +4841,7 @@
       "engineering": true,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "ec91ae31d4094edb7fe9bb8f481b15c1",
@@ -4823,7 +5021,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "4d9972e0a833af6706a911113cf9f29f",
@@ -4841,7 +5039,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "e3fc5498b831efdeae557abf83936f6c",
@@ -4877,7 +5075,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "beaf4c4f8ff3d46434dd76bfcdf2bca2",
@@ -4913,7 +5111,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "64998f193be78872e695a4e9f6f2cb3b",
@@ -5057,7 +5255,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "e3a23a07859040006261a28abf2fdb0f",
@@ -5093,7 +5291,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "f140abffc96963082f75c15b08eedabd",
@@ -5129,7 +5327,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "67c625bf894c00c383a407c3032d6a3c",
@@ -5165,7 +5363,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "0afae7ed372739e984c4b62589236c43",
@@ -5219,7 +5417,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "efd439ab4cd155669f1858b420c04955",
@@ -5273,7 +5471,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "d6bb2f394b3d8287be82349831b79f72",
@@ -5327,7 +5525,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "374814c0729621ddfca9cba50f53a135",
@@ -5399,7 +5597,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "fab67f7720b3696514973450be8065f8",
@@ -5669,7 +5867,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "d95daa121dd60661207a4f4f1165808d",
@@ -5795,7 +5993,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "7a3299efd3746143ddd8ed3baabcd79d",
@@ -5813,7 +6011,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 1
+      "importance": 2
     },
     {
       "id": "111173dc552a36a16883657fe629a445",
@@ -5885,7 +6083,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "f7357dd7be1001589490505bf3a00134",
@@ -6335,7 +6533,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "8150033de54251231c98b420c2e2ce29",
@@ -6425,7 +6623,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "75d31a0b339951140bb23b301aa688fb",
@@ -25112,276 +25310,6 @@
       "importance": 1
     },
     {
-      "id": "15b2cf3b17a6c0703465f0e6626662df",
-      "title": "AMD will bring FSR 4 to handhelds by the end of 2026",
-      "url": "https://www.theverge.com/games/1008353/amd-will-bring-fsr-4-to-handhelds-by-the-end-of-2026",
-      "source_id": "the-verge",
-      "source_name": "The Verge",
-      "category": "tech",
-      "summary": "It's already possible to get AMD's framerate-enhancing FSR 4 boost on handhelds as old as the Steam Deck - but in June, AMD reserved the right to disappoint handheld gamers by not officially bringing FSR 4 to older handhelds. But AMD consumer chip boss Jack Huynh now says he will bring the tech to some […]",
-      "published_at": "2026-10-08T21:01:18Z",
-      "fetched_at": "2026-10-08T21:02:13.695081Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": null,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "8f00650384c7ec7f93120a6363214f85",
-      "title": "Show HN: Free open source Adobe Lightroom alternative, completely local with AI",
-      "url": "https://github.com/thesnarkitecht/rembrandt",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-08T21:00:55Z",
-      "fetched_at": "2026-10-08T22:02:17.662664Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50012199",
-      "points": 37,
-      "comments": 38,
-      "engineering": false,
-      "blog": null,
-      "review": "excluded",
-      "importance": null
-    },
-    {
-      "id": "ad3f3e7d48473a5288961a200b5e4d13",
-      "title": "Pretend you’re sitting at Elizabeth Holmes’ desk on this weirdly detailed website",
-      "url": "https://techcrunch.com/2026/10/08/pretend-youre-sitting-at-elizabeth-holmes-desk-on-this-weirdly-detailed-website/",
-      "source_id": "techcrunch",
-      "source_name": "TechCrunch",
-      "category": "tech",
-      "summary": "With over a thousand emails, slides, texts, and documents from the United States v. Elizabeth Holmes trial, Extend engineer Bo Lau created a website that simulates what it might have been like to rifle through the Theranos founder's desk.",
-      "published_at": "2026-10-08T21:00:00Z",
-      "fetched_at": "2026-10-08T21:02:13.695081Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": null,
-      "review": "excluded",
-      "importance": 2
-    },
-    {
-      "id": "9d684388dae89211383525b8ede23482",
-      "title": "Judge weighs if Trump can charge $100K for early access to Truth Social posts",
-      "url": "https://arstechnica.com/tech-policy/2026/10/judge-weighs-if-trump-can-charge-100k-for-early-access-to-truth-social-posts/",
-      "source_id": "ars-technica",
-      "source_name": "Ars Technica",
-      "category": "tech",
-      "summary": "Judge questioned if Trump delaying access to Truth Social posts by a second harms the press.",
-      "published_at": "2026-10-08T20:53:01Z",
-      "fetched_at": "2026-10-09T01:02:14.418857Z",
-      "discussion_url": "https://arstechnica.com/tech-policy/2026/10/judge-weighs-if-trump-can-charge-100k-for-early-access-to-truth-social-posts/#comments",
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": null,
-      "review": "excluded",
-      "importance": 2
-    },
-    {
-      "id": "e02a3e83b40bbcab94de6994bd458834",
-      "title": "AI-ready biological data: $1.8B global commitment",
-      "url": "https://biohub.org/news/virtual-biology-initiative-expansion/",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-08T20:46:25Z",
-      "fetched_at": "2026-10-08T22:02:17.662664Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50011999",
-      "points": 139,
-      "comments": 20,
-      "engineering": false,
-      "blog": null,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "97517e08b38cffb384d3337df617fe3e",
-      "title": "ADHD as a circadian rhythm disorder: evidence and implications for chronotherapy",
-      "url": "https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2025.1697900/full",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-08T20:42:16Z",
-      "fetched_at": "2026-10-08T22:02:17.662664Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50011928",
-      "points": 340,
-      "comments": 216,
-      "engineering": false,
-      "blog": null,
-      "review": "excluded",
-      "importance": 3
-    },
-    {
-      "id": "bfb44ce2bb440f275132aaa91177a69d",
-      "title": "Trump Mobile hack and apparent lack of FCC authorization raise security alarms",
-      "url": "https://arstechnica.com/tech-policy/2026/10/trump-mobile-doesnt-seem-to-have-fcc-authorization-for-phone-service-senator-says/",
-      "source_id": "ars-technica",
-      "source_name": "Ars Technica",
-      "category": "tech",
-      "summary": "After hack and data breach, senator asks why Trump Mobile lacks some FCC filings.",
-      "published_at": "2026-10-08T20:39:31Z",
-      "fetched_at": "2026-10-09T01:02:14.418857Z",
-      "discussion_url": "https://arstechnica.com/tech-policy/2026/10/trump-mobile-doesnt-seem-to-have-fcc-authorization-for-phone-service-senator-says/#comments",
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": null,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "856d6f9f5af75137983a8e9b61a08dde",
-      "title": "Apple will reportedly debut its first touchscreen MacBook in three weeks",
-      "url": "https://www.theverge.com/tech/1008422/apple-macbook-pro-touchscreen-ipad-mini-rumor",
-      "source_id": "the-verge",
-      "source_name": "The Verge",
-      "category": "tech",
-      "summary": "Apple is set to introduce a new MacBook Pro with a touchscreen and an updated iPad Mini \"on or around\" October 27th, Bloomberg reports. If true, that would put the event just two weeks after the October 13th event Apple announced today, which is rumored to focus on smart home products. Bloomberg says that the […]",
-      "published_at": "2026-10-08T20:32:21Z",
-      "fetched_at": "2026-10-08T21:02:13.695081Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": null,
-      "review": "excluded",
-      "importance": 3
-    },
-    {
-      "id": "4a1a28e8eeb32cd762f874e7a5e8bef7",
-      "title": "Feds get ready to rewrite car headlight rules",
-      "url": "https://arstechnica.com/cars/2026/10/feds-get-ready-to-rewrite-car-headlight-rules/",
-      "source_id": "ars-technica",
-      "source_name": "Ars Technica",
-      "category": "tech",
-      "summary": "Reducing glare and allowing modern light technologies will be two goals.",
-      "published_at": "2026-10-08T20:26:13Z",
-      "fetched_at": "2026-10-09T01:02:14.418857Z",
-      "discussion_url": "https://arstechnica.com/cars/2026/10/feds-get-ready-to-rewrite-car-headlight-rules/#comments",
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": null,
-      "review": "excluded",
-      "importance": 3
-    },
-    {
-      "id": "841a518c39e46ae6a5686db66b96ab00",
-      "title": "There can be only one: Google Cloud casts Gemini as your enterprise AI hero",
-      "url": "https://www.theregister.com/ai-and-ml/2026/10/08/there-can-be-only-one-google-cloud-casts-gemini-as-your-enterprise-ai-hero/5302086",
-      "source_id": "the-register",
-      "source_name": "The Register",
-      "category": "tech",
-      "summary": "The Chocolate Factory proposes a single universal agent for work",
-      "published_at": "2026-10-08T20:16:27Z",
-      "fetched_at": "2026-10-08T23:02:22.848275Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": null,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "d4bf1bebf691c34df8c622e4f0512db6",
-      "title": "R.I.P. Margaret Hamilton, whose code saved the Apollo 11 Moon landing",
-      "url": "https://arstechnica.com/science/2026/10/r-i-p-margaret-hamilton-whose-code-saved-the-apollo-11-moon-landing/",
-      "source_id": "ars-technica",
-      "source_name": "Ars Technica",
-      "category": "tech",
-      "summary": "Hamilton also coined the term \"software engineering\" and founded two successful software companies.",
-      "published_at": "2026-10-08T20:15:53Z",
-      "fetched_at": "2026-10-08T21:02:13.695081Z",
-      "discussion_url": "https://arstechnica.com/science/2026/10/r-i-p-margaret-hamilton-whose-code-saved-the-apollo-11-moon-landing/#comments",
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": null,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "15ce69be32dfd15577ca5e04f90a8e78",
-      "title": "NASA taps DoE to help it build nuclear space reactors",
-      "url": "https://www.theregister.com/offbeat/2026/10/08/nasa-taps-doe-to-help-it-build-nuclear-space-reactors/5302096",
-      "source_id": "the-register",
-      "source_name": "The Register",
-      "category": "tech",
-      "summary": "Space agency claims steady progress on lunar reactor plans, but offers little evidence to back it up",
-      "published_at": "2026-10-08T20:15:01Z",
-      "fetched_at": "2026-10-08T23:02:22.848275Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": null,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "053c6289d164df85afba11035bc3ee90",
-      "title": "Ransomware attack disrupts Japan's IDCF Cloud used by govt clients",
-      "url": "https://www.bleepingcomputer.com/news/security/ransomware-attack-disrupts-japans-idcf-cloud-used-by-govt-clients/",
-      "source_id": "bleepingcomputer",
-      "source_name": "BleepingComputer",
-      "category": "tech",
-      "summary": "IDC Frontier, a major Japanese cloud and digital infrastructure company, disclosed that its IDCF Cloud service was targeted in a ransomware attack that caused an outage at a data center cluster serving the eastern part of the country. [...]",
-      "published_at": "2026-10-08T20:09:45Z",
-      "fetched_at": "2026-10-08T21:02:13.695081Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": null,
-      "review": "kept",
-      "importance": 4
-    },
-    {
-      "id": "59ead62f06a257122ecbb15d6ca123c0",
-      "title": "California is trying to shut down robot vs. human cage matches",
-      "url": "https://www.theverge.com/tech/1008401/california-shut-down-rek-fighting-robot-company-human",
-      "source_id": "the-verge",
-      "source_name": "The Verge",
-      "category": "tech",
-      "summary": "The California State Athletic Commission sent a cease-and-desist letter to a startup that hosted a match between a human and a robot last month, as reported by The New York Times. The fight, which took place on September 18th, pitted a human, Frankie LaPenna, against a humanoid robot owned by a tech startup, Rek, that […]",
-      "published_at": "2026-10-08T20:06:56Z",
-      "fetched_at": "2026-10-08T21:02:13.695081Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": null,
-      "review": "excluded",
-      "importance": 2
-    },
-    {
-      "id": "842678b8619412b4d869b55f60e46db5",
-      "title": "Fired OpenAI safety researchers dispute misconduct claims, warn of chilling effect",
-      "url": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
-      "source_id": "techcrunch",
-      "source_name": "TechCrunch",
-      "category": "tech",
-      "summary": "Later: https://www.cnbc.com/2026/10/09/openai-fired-researchers-ai-...",
-      "published_at": "2026-10-08T20:04:26Z",
-      "fetched_at": "2026-10-08T21:02:13.695081Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50018350",
-      "points": 284,
-      "comments": 186,
-      "engineering": false,
-      "blog": null,
-      "review": "kept",
-      "importance": 4
-    },
-    {
       "id": "8ffe53f1e875d93ea26949245cb49d4d",
       "title": "How one bug bounty researcher chooses the features they investigate",
       "url": "https://github.blog/security/how-one-bug-bounty-researcher-chooses-the-features-they-investigate/",
@@ -25403,31 +25331,102 @@
   "top_stories": [
     {
       "id": "3b44f1f13adced977362dcdbf6956bef",
-      "title": "Meta Launches Muse Spark Open AI Model",
-      "summary": "Meta has announced Muse Spark Open, an 816B open-weight multimodal mixture-of-experts model featuring 42B active parameters. The company claims it is the most capable US open-weight model to date and is designed to run efficiently on Macs and local hardware.",
-      "why_it_matters": "Provides software engineers and researchers with a powerful new open-weight frontier model optimized for local and desktop execution.",
+      "title": "Meta launches Muse Spark Open, an open-weight AI model optimized for Macs",
+      "summary": "Meta has launched Muse Spark Open, a new open-weight frontier multimodal mixture-of-experts AI model featuring 816B total and 42B active parameters. The model is designed to run locally on Apple silicon through a partnership with Apple.",
+      "why_it_matters": "Developers gain a large open-weight model capable of running locally on desktop hardware, opening up new on-device AI integration possibilities.",
       "item_ids": [
         "3b44f1f13adced977362dcdbf6956bef",
+        "d3dd8b2e4e13d612a5565c2f5e1cfa04",
         "fc7be023ada52fcc8ad5cafdc23ff5cf",
-        "5d7444209e9bcccd7ddf87b92a901e76"
+        "5d7444209e9bcccd7ddf87b92a901e76",
+        "9b9420b910a0823e7b0f0c2f36e4103b"
       ],
       "primary_url": null,
       "first_shown": "2026-10-15T19:02:19.040793Z",
-      "last_shown": "2026-10-15T20:02:14.040286Z"
+      "last_shown": "2026-10-15T21:02:19.888714Z"
     },
     {
-      "id": "e46003ec506c7298dd37a8027d06dbd2",
-      "title": "Citizen Lab Discovers Spyware Delivered via Online Ads",
-      "summary": "Researchers at The Citizen Lab have released technical evidence showing that zero-click mercenary spyware is being distributed via ordinary online ads. The attacks targeted devices at organizations like Al Jazeera without requiring any user action or clicks.",
-      "why_it_matters": "Highlights a critical security threat in the digital advertising supply chain that can compromise devices without user interaction.",
+      "id": "af219cc608e1e3fa77c97329f84c0b61",
+      "title": "Collabora RCE flaw in Nextcloud exploited to backdoor servers",
+      "summary": "Threat actors are actively exploiting a critical remote code execution flaw in the Collabora Online built-in CODE Server app for Nextcloud. Attackers have used the vulnerability, tracked as CVE-2026-110447, to plant web shells and backdoor targeted servers.",
+      "why_it_matters": "Nextcloud administrators must immediately patch or disable the vulnerable Collabora app to prevent critical server compromise and remote code execution.",
       "item_ids": [
+        "af219cc608e1e3fa77c97329f84c0b61",
+        "2ceea876a65c1584caf527d703247c4d"
+      ],
+      "primary_url": "https://github.com/CollaboraOnline/richdocumentscode/issues/354",
+      "first_shown": "2026-10-15T21:02:19.888714Z",
+      "last_shown": "2026-10-15T21:02:19.888714Z"
+    },
+    {
+      "id": "2b89857cca425ec5b3db4b3662231dba",
+      "title": "Citizen Lab reveals zero-click spyware infections delivered via online ads",
+      "summary": "Researchers at Citizen Lab have released technical evidence showing that governments are abusing online advertising networks to deliver zero-click mercenary spyware. The campaigns infected devices at organizations like Al Jazeera through ordinary online ads without requiring any user interaction.",
+      "why_it_matters": "This reveals a critical, passive attack vector in ad networks that bypasses traditional user vigilance, posing severe threats to enterprise and high-risk security.",
+      "item_ids": [
+        "2b89857cca425ec5b3db4b3662231dba",
+        "475627746f489d0dae8b70a684ab6f2a",
         "e46003ec506c7298dd37a8027d06dbd2",
+        "0fbc78eb7342172709f92664a5504bfd",
         "30eace7b32ae35a8d923ea6bcccd5d42",
         "b4ba26fc3fd7772980c6c43214d90aee"
       ],
-      "primary_url": "https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware",
+      "primary_url": null,
       "first_shown": "2026-10-15T12:02:25.026831Z",
-      "last_shown": "2026-10-15T20:02:14.040286Z"
+      "last_shown": "2026-10-15T21:02:19.888714Z"
+    },
+    {
+      "id": "6443ed26b6b41a48d481ea374bc7653d",
+      "title": "Palo Alto Networks patches actively exploited PAN-OS RCE vulnerability",
+      "summary": "Palo Alto Networks has issued emergency security updates for a high-severity remote code execution flaw in its PAN-OS software. Tracked as CVE-2026-0322, the zero-day vulnerability has come under active exploitation targeting enterprise firewalls.",
+      "why_it_matters": "Administrators must immediately patch PAN-OS firewalls to prevent unauthenticated remote code execution and active exploitation by attackers.",
+      "item_ids": [
+        "6443ed26b6b41a48d481ea374bc7653d",
+        "c6e3db8f72227268425747459464ff28"
+      ],
+      "primary_url": "https://security.paloaltonetworks.com/CVE-2026-0322",
+      "first_shown": "2026-10-15T13:02:13.629549Z",
+      "last_shown": "2026-10-15T21:02:19.888714Z"
+    },
+    {
+      "id": "2b53c4a1ee44c77c99b6e351f0f05e7a",
+      "title": "Volvo expands partnership with Nvidia for point-to-point autonomous driving",
+      "summary": "Volvo is expanding its long-standing partnership with Nvidia to level up its automated driving systems. The automaker plans to use Nvidia's advanced AI technology to launch hands-free, point-to-point driving capabilities by 2030.",
+      "why_it_matters": null,
+      "item_ids": [
+        "2b53c4a1ee44c77c99b6e351f0f05e7a",
+        "4aa31cd24289b5c4a5bccc078d5f8f04"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-15T19:02:19.040793Z",
+      "last_shown": "2026-10-15T21:02:19.888714Z"
+    },
+    {
+      "id": "ac17ea1b491f78eb6894f4643ed30670",
+      "title": "YouTube Music and YouTube roll out mandatory labels for AI-generated music",
+      "summary": "YouTube is introducing new 'Made with AI' labels across YouTube Music and YouTube for tracks and videos that are altered or fully generated using artificial intelligence. The labels are rolling out now to provide transparency as AI-generated content floods streaming platforms.",
+      "why_it_matters": null,
+      "item_ids": [
+        "ac17ea1b491f78eb6894f4643ed30670",
+        "435695b947293a221c9142a8d2c37aaf",
+        "9ba5013167fead0056e9da02f6aae450"
+      ],
+      "primary_url": "https://blog.youtube/news-and-events/youtube-music-ai-labels",
+      "first_shown": "2026-10-14T20:02:20.667985Z",
+      "last_shown": "2026-10-15T21:02:19.888714Z"
+    },
+    {
+      "id": "c614e6702818c8649f08788ad9e3fa8b",
+      "title": "Amazon-owned Bee launches two new AI-powered personal audio devices",
+      "summary": "Amazon-owned Bee has launched its first new AI devices since its acquisition, featuring an updated wearable and a credit-card-sized recorder that attaches to smartphones. The devices are capable of summarizing conversations and assisting with purchases starting at $75.",
+      "why_it_matters": null,
+      "item_ids": [
+        "c614e6702818c8649f08788ad9e3fa8b",
+        "5653078557c971913c87ae030b88ff59"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-15T12:02:25.026831Z",
+      "last_shown": "2026-10-15T21:02:19.888714Z"
     },
     {
       "id": "e0cc68b3fe1590b85407ad1a8e2c4449",
@@ -25440,21 +25439,36 @@
       ],
       "primary_url": null,
       "first_shown": "2026-10-15T20:02:14.040286Z",
-      "last_shown": "2026-10-15T20:02:14.040286Z"
+      "last_shown": "2026-10-15T21:02:19.888714Z"
     },
     {
-      "id": "6443ed26b6b41a48d481ea374bc7653d",
-      "title": "Palo Alto Networks Patches Actively Exploited PAN-OS RCE Flaw",
-      "summary": "Palo Alto Networks has issued emergency security updates for a high-severity remote code execution vulnerability in PAN-OS software. The flaw, tracked as CVE-2026-0322, has been actively exploited in attacks targeting enterprise firewalls.",
-      "why_it_matters": "Requires immediate patching for enterprise network administrators to prevent active remote code execution attacks on firewall infrastructure.",
+      "id": "709427342bbdf9b6d66d557ef1ffb963",
+      "title": "Bluesky Expands Attie Tool to Let Users Build Mini Apps and Websites",
+      "summary": "Bluesky is expanding its experimental Attie AI platform to allow users to build interactive small social apps, games, quizzes, and websites. These applications can integrate directly with data and features from the social network.",
+      "why_it_matters": null,
       "item_ids": [
-        "6443ed26b6b41a48d481ea374bc7653d",
-        "c6e3db8f72227268425747459464ff28"
+        "709427342bbdf9b6d66d557ef1ffb963",
+        "7046ca9567b30f00939b9f0ab633e7f5"
       ],
-      "primary_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "first_shown": "2026-10-15T13:02:13.629549Z",
-      "last_shown": "2026-10-15T20:02:14.040286Z"
+      "primary_url": null,
+      "first_shown": "2026-10-15T20:02:14.040286Z",
+      "last_shown": "2026-10-15T21:02:19.888714Z"
     },
+    {
+      "id": "543568ca382ba04cb86c27e3a7383b97",
+      "title": "E Ink Announces Kaleido 4 Color E-Paper Platform",
+      "summary": "E Ink has announced the next generation of its color e-paper screen technology, Kaleido 4. The updated platform delivers several improvements over existing Kaleido 3 displays used in commercial e-readers.",
+      "why_it_matters": null,
+      "item_ids": [
+        "543568ca382ba04cb86c27e3a7383b97",
+        "233489b305c581f43fd54c726da48e6c"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-15T20:02:14.040286Z",
+      "last_shown": "2026-10-15T21:02:19.888714Z"
+    }
+  ],
+  "past_top_stories": [
     {
       "id": "f0474f473bfe580b32eb15ca5952d1a4",
       "title": "Rocket Lab Delays Medium-Lift Neutron Rocket to 2027",
@@ -25466,19 +25480,6 @@
       ],
       "primary_url": null,
       "first_shown": "2026-10-15T18:02:14.850637Z",
-      "last_shown": "2026-10-15T20:02:14.040286Z"
-    },
-    {
-      "id": "c614e6702818c8649f08788ad9e3fa8b",
-      "title": "Amazon-Owned Bee Launches New Personal AI Devices",
-      "summary": "Amazon-owned Bee has launched its first new AI devices following its acquisition, including an updated wearable and a credit-card-sized recorder that attaches to smartphones. The devices are capable of summarizing conversations and recording interactions.",
-      "why_it_matters": null,
-      "item_ids": [
-        "c614e6702818c8649f08788ad9e3fa8b",
-        "5653078557c971913c87ae030b88ff59"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-15T12:02:25.026831Z",
       "last_shown": "2026-10-15T20:02:14.040286Z"
     },
     {
@@ -25494,47 +25495,6 @@
       "first_shown": "2026-10-15T15:02:18.945347Z",
       "last_shown": "2026-10-15T20:02:14.040286Z"
     },
-    {
-      "id": "709427342bbdf9b6d66d557ef1ffb963",
-      "title": "Bluesky Expands Attie Tool to Let Users Build Mini Apps and Websites",
-      "summary": "Bluesky is expanding its experimental Attie AI platform to allow users to build interactive small social apps, games, quizzes, and websites. These applications can integrate directly with data and features from the social network.",
-      "why_it_matters": null,
-      "item_ids": [
-        "709427342bbdf9b6d66d557ef1ffb963",
-        "7046ca9567b30f00939b9f0ab633e7f5"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-15T20:02:14.040286Z",
-      "last_shown": "2026-10-15T20:02:14.040286Z"
-    },
-    {
-      "id": "543568ca382ba04cb86c27e3a7383b97",
-      "title": "E Ink Announces Kaleido 4 Color E-Paper Platform",
-      "summary": "E Ink has announced the next generation of its color e-paper screen technology, Kaleido 4. The updated platform delivers several improvements over existing Kaleido 3 displays used in commercial e-readers.",
-      "why_it_matters": null,
-      "item_ids": [
-        "543568ca382ba04cb86c27e3a7383b97",
-        "233489b305c581f43fd54c726da48e6c"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-15T20:02:14.040286Z",
-      "last_shown": "2026-10-15T20:02:14.040286Z"
-    },
-    {
-      "id": "2b53c4a1ee44c77c99b6e351f0f05e7a",
-      "title": "Volvo Expands Nvidia Partnership for Point-to-Point Autonomous Driving",
-      "summary": "Volvo is expanding its long-term partnership with Nvidia to integrate advanced AI technology across its vehicle lineup. The automaker plans to launch hands-free, point-to-point driving capabilities powered by Nvidia by 2030.",
-      "why_it_matters": "Highlights major developments in autonomous driving infrastructure and automotive edge computing.",
-      "item_ids": [
-        "2b53c4a1ee44c77c99b6e351f0f05e7a",
-        "4aa31cd24289b5c4a5bccc078d5f8f04"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-15T19:02:19.040793Z",
-      "last_shown": "2026-10-15T20:02:14.040286Z"
-    }
-  ],
-  "past_top_stories": [
     {
       "id": "3b9c58223be247957fec158d1f9258eb",
       "title": "Epic Games Launches Faster 'Vibe Coded' PC Launcher with Linux Support",
@@ -25640,31 +25600,6 @@
       "primary_url": null,
       "first_shown": "2026-10-15T14:02:19.967788Z",
       "last_shown": "2026-10-15T18:02:14.850637Z"
-    },
-    {
-      "id": "435695b947293a221c9142a8d2c37aaf",
-      "title": "YouTube Adds AI-Generated Music Labels",
-      "summary": "YouTube is rolling out new labels on YouTube Music and YouTube to identify tracks that were altered or fully generated using AI. The labels will appear on player pages to flag songs involving AI-generated composition and vocals.",
-      "why_it_matters": "Changes transparency requirements and metadata labeling for media platforms hosting AI-generated content.",
-      "item_ids": [
-        "435695b947293a221c9142a8d2c37aaf",
-        "9ba5013167fead0056e9da02f6aae450"
-      ],
-      "primary_url": "https://blog.youtube/news-and-events/youtube-music-ai-labels",
-      "first_shown": "2026-10-14T20:02:20.667985Z",
-      "last_shown": "2026-10-15T18:02:14.850637Z"
-    },
-    {
-      "id": "63656400f4807a94b34f2fb56e5e31c3",
-      "title": "AI agents aren't 'going rogue.' Frontier labs are skipping security basics",
-      "summary": null,
-      "why_it_matters": "Critical industry commentary on foundational AI security practices highlights systemic risks in autonomous agent deployments.",
-      "item_ids": [
-        "63656400f4807a94b34f2fb56e5e31c3"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-15T17:24:06.558865Z",
-      "last_shown": "2026-10-15T17:24:06.558865Z"
     }
   ]
 }
