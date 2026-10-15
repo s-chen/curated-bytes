@@ -1,6 +1,114 @@
 {
-  "generated_at": "2026-10-15T12:10:14.464143Z",
+  "generated_at": "2026-10-15T13:02:13.629549Z",
   "items": [
+    {
+      "id": "91fbd91da555b1a32d99c1e3e3b6fe4b",
+      "title": "Seven stable kernels for Thursday with fix for critical vulnerability",
+      "url": "https://lwn.net/Articles/1100611/",
+      "source_id": "lwn",
+      "source_name": "LWN.net",
+      "category": "tech",
+      "summary": "Greg Kroah-Hartman has announced the release of the 7.2.11, 6.18.57, 6.12.113, 6.6.159, 6.1.190, 5.15.223, and 5.10.272 stable kernels. This series includes, among other things, a fix for a critical vulnerability (CVE-2026-99999). The flaw in skb_checksum_help() would allow an IPv4 packet with bad checksum metadata to \"corrupt the network header and cause a bunch of mischief\" in the words of patch author Michael S. Tsirkin. As usual, all users are advised to upgrade.",
+      "published_at": "2026-10-15T13:01:31Z",
+      "fetched_at": "2026-10-15T13:02:13.629549Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 4
+    },
+    {
+      "id": "37d0291aaaeb1846d442f798a58571a0",
+      "title": "Quick question: Who exactly is iPhone Handoff for?",
+      "url": "https://www.theverge.com/tech/1011338/iphone-handoff-t-mobile-work-iphone",
+      "source_id": "the-verge",
+      "source_name": "The Verge",
+      "category": "tech",
+      "summary": "Last month, Apple announced a feature called iPhone Handoff. Not to be confused with that Handoff; this is a new one. iPhone Handoff allows you to keep your number active on two iPhones at the same time so you can easily switch between them. According to Apple's support website, you pick one phone as your […]",
+      "published_at": "2026-10-15T13:00:00Z",
+      "fetched_at": "2026-10-15T13:02:13.629549Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "pending",
+      "importance": null
+    },
+    {
+      "id": "72902d9fb08155e53d45d3609a9a370a",
+      "title": "Google launches its ‘universal’ online shopping cart ahead of the holidays",
+      "url": "https://www.theverge.com/tech/1011797/google-ai-universal-cart-shopping-tool-launch",
+      "source_id": "the-verge",
+      "source_name": "The Verge",
+      "category": "tech",
+      "summary": "Google's intelligent AI shopping cart is finally here, and just in time to tempt users into Black Friday and seasonal holiday spending. The Universal Cart tool Google previewed at its I/O event in May is now rolling out in the US across the Gemini app and Google Search, with the aim of making it easier […]",
+      "published_at": "2026-10-15T13:00:00Z",
+      "fetched_at": "2026-10-15T13:02:13.629549Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "pending",
+      "importance": null
+    },
+    {
+      "id": "2e7090a9f8d12f8f32375dd7e6d16f18",
+      "title": "Cloudflare and OpenAI: making AI discovery better for everyone",
+      "url": "https://blog.cloudflare.com/cloudflare-openai-discovery-agentic-web/",
+      "source_id": "cloudflare-blog",
+      "source_name": "Cloudflare Blog",
+      "category": "tech",
+      "summary": "How Cloudflare and OpenAI are working together to help AI find useful content, keep up with changes, and make fewer wasted requests — making the experience better for users and website owners alike.",
+      "published_at": "2026-10-15T13:00:00Z",
+      "fetched_at": "2026-10-15T13:02:13.629549Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": true,
+      "blog": true,
+      "review": "kept",
+      "importance": 4
+    },
+    {
+      "id": "4172d04566e55282132a4eb993ed0a36",
+      "title": "X purges 13,000 accounts linked to suspected meddling ahead of US midterms",
+      "url": "https://www.theregister.com/security/2026/10/15/x-purges-13000-accounts-linked-to-suspected-meddling-ahead-of-us-midterms/5303234",
+      "source_id": "the-register",
+      "source_name": "The Register",
+      "category": "tech",
+      "summary": "Platform points to Iran, Russia, and China but provides no public evidence for attribution",
+      "published_at": "2026-10-15T12:45:00Z",
+      "fetched_at": "2026-10-15T13:02:13.629549Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "836ba28ac03e317c55a0f4b1d25402d6",
+      "title": "Rocket Lab pushes back first Neutron launch to 2027",
+      "url": "https://www.theregister.com/science/2026/10/15/rocket-lab-pushes-back-first-neutron-launch-to-2027/5303224",
+      "source_id": "the-register",
+      "source_name": "The Register",
+      "category": "tech",
+      "summary": "Carbon composite woes cause another delay for Peter Beck's Hungry Hippo",
+      "published_at": "2026-10-15T12:15:00Z",
+      "fetched_at": "2026-10-15T13:02:13.629549Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 2
+    },
     {
       "id": "ca4f152d80a34139b403c45f15f16cc7",
       "title": "Drupal Patches Critical Core RCE Flaw with No-Login Path via Contributed Modules",
@@ -18,6 +126,24 @@
       "blog": false,
       "review": "kept",
       "importance": 4
+    },
+    {
+      "id": "11e815b4be8d70838b168ff2645d6445",
+      "title": "The Costa GUI",
+      "url": "https://costa.jacobpalm.dk",
+      "source_id": "lobsters",
+      "source_name": "Lobsters",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-15T12:06:10Z",
+      "fetched_at": "2026-10-15T13:02:13.629549Z",
+      "discussion_url": "https://lobste.rs/s/uqugjk/costa_gui",
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "pending",
+      "importance": null
     },
     {
       "id": "1e4eaed0aa867cf5aae16d44bcffba90",
@@ -92,6 +218,24 @@
       "importance": 3
     },
     {
+      "id": "cbb7cf351cdf7e9291b19d66d5aeda52",
+      "title": "Ubuntu 26.10 (Stonking Stingray) released",
+      "url": "https://lists.ubuntu.com/archives/ubuntu-announce/2026-October/000330.html",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-15T11:59:09Z",
+      "fetched_at": "2026-10-15T13:02:13.629549Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50102423",
+      "points": 6,
+      "comments": 1,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
       "id": "9b3f4d57d3065074c7d81b97b9a883ba",
       "title": "Police arrests 95 suspects in international CSAM crackdown action",
       "url": "https://www.bleepingcomputer.com/news/security/police-arrests-95-suspects-in-child-sexual-abuse-material-crackdown/",
@@ -146,6 +290,24 @@
       "importance": 4
     },
     {
+      "id": "f83ecc76c69a65c38d10a122b1b7b634",
+      "title": "Show HN: Unfenced – Land for sale that borders public land",
+      "url": "https://unfenced.land/",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-15T11:38:57Z",
+      "fetched_at": "2026-10-15T13:02:13.629549Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50102247",
+      "points": 29,
+      "comments": 8,
+      "engineering": false,
+      "blog": false,
+      "review": "pending",
+      "importance": null
+    },
+    {
       "id": "eec3c307112d79fefd55843232763541",
       "title": "Optimizing Software Workflow: Exploring Fundamental Impacts in Technology",
       "url": "https://www.infoq.com/news/2026/10/optimize-software-workflow/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -179,7 +341,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "916e69e794dfb65e005eab2b90e8ba16",
@@ -197,7 +359,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "c487c6058b4685cde87d239b995a0df3",
@@ -305,7 +467,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "0426e2fbe94f680e710de42e18b961d8",
@@ -413,7 +575,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "85180283924105ae2e013ecad5b5c420",
@@ -449,7 +611,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "197f59131686e8ad1b58f48c57627ee1",
@@ -485,7 +647,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "8514a593081b82f0183def40aa9d5404",
@@ -665,7 +827,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "09ad7b11a5beb53bba81a6bddd6075c8",
@@ -683,7 +845,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "455bec4109619984891d19f893596b07",
@@ -750,8 +912,8 @@
       "published_at": "2026-10-15T07:20:39Z",
       "fetched_at": "2026-10-15T10:02:14.762609Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50100387",
-      "points": 13,
-      "comments": 12,
+      "points": 15,
+      "comments": 14,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -1020,8 +1182,8 @@
       "published_at": "2026-10-15T04:25:28Z",
       "fetched_at": "2026-10-15T07:02:11.687769Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50099136",
-      "points": 50,
-      "comments": 19,
+      "points": 52,
+      "comments": 22,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -1128,8 +1290,8 @@
       "published_at": "2026-10-15T02:06:36Z",
       "fetched_at": "2026-10-15T04:02:17.156015Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50098274",
-      "points": 72,
-      "comments": 24,
+      "points": 76,
+      "comments": 25,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -1223,7 +1385,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "4840322ab636dadb8255ab77cd3af8f8",
@@ -1254,8 +1416,8 @@
       "published_at": "2026-10-14T23:59:37Z",
       "fetched_at": "2026-10-15T01:02:10.768808Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50097369",
-      "points": 231,
-      "comments": 54,
+      "points": 246,
+      "comments": 58,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -1313,7 +1475,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "c6e3db8f72227268425747459464ff28",
@@ -1380,8 +1542,8 @@
       "published_at": "2026-10-14T22:10:08Z",
       "fetched_at": "2026-10-14T23:02:15.124339Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50096142",
-      "points": 479,
-      "comments": 94,
+      "points": 501,
+      "comments": 102,
       "engineering": false,
       "blog": false,
       "review": "excluded",
@@ -1457,7 +1619,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "b30f85e92c18771da9af41af0b32b685",
@@ -1475,7 +1637,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "7a4d5ab593cc9b377d16d91caeb5686d",
@@ -1560,8 +1722,8 @@
       "published_at": "2026-10-14T21:11:03Z",
       "fetched_at": "2026-10-14T21:58:00.358472Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50095353",
-      "points": 306,
-      "comments": 99,
+      "points": 318,
+      "comments": 102,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -1668,8 +1830,8 @@
       "published_at": "2026-10-14T20:48:24Z",
       "fetched_at": "2026-10-14T21:58:00.358472Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50094994",
-      "points": 669,
-      "comments": 264,
+      "points": 697,
+      "comments": 288,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -1709,7 +1871,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "c8be76e11dfbd7a57c17f7144a71b59f",
@@ -1961,7 +2123,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "ef8398549a7c2663c3440060b70846de",
@@ -2154,8 +2316,8 @@
       "published_at": "2026-10-14T19:26:30Z",
       "fetched_at": "2026-10-14T21:02:19.134962Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50093568",
-      "points": 1492,
-      "comments": 365,
+      "points": 1568,
+      "comments": 375,
       "engineering": false,
       "blog": false,
       "review": "excluded",
@@ -2249,7 +2411,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "b13709bb2cedf2f64c9ce9ac71154ce7",
@@ -2375,7 +2537,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "4d9972e0a833af6706a911113cf9f29f",
@@ -2393,7 +2555,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "e3fc5498b831efdeae557abf83936f6c",
@@ -2411,7 +2573,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "435695b947293a221c9142a8d2c37aaf",
@@ -2442,7 +2604,7 @@
       "published_at": "2026-10-14T18:23:14Z",
       "fetched_at": "2026-10-14T20:02:20.667985Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50092470",
-      "points": 185,
+      "points": 188,
       "comments": 39,
       "engineering": false,
       "blog": false,
@@ -2640,8 +2802,8 @@
       "published_at": "2026-10-14T17:45:23Z",
       "fetched_at": "2026-10-14T19:02:20.054915Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50091788",
-      "points": 916,
-      "comments": 550,
+      "points": 922,
+      "comments": 568,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -3234,8 +3396,8 @@
       "published_at": "2026-10-14T16:09:00Z",
       "fetched_at": "2026-10-14T17:38:05.738434Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50089921",
-      "points": 437,
-      "comments": 396,
+      "points": 460,
+      "comments": 414,
       "engineering": false,
       "blog": false,
       "review": "excluded",
@@ -4409,7 +4571,7 @@
       "engineering": true,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "15b77b20cfa5490a45aa2ebeac07258b",
@@ -4517,7 +4679,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "551d91d6552a1b352957bcd248152190",
@@ -4697,7 +4859,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 1
     },
     {
       "id": "1d4e6c057119d79dda3631024bb7bafa",
@@ -4733,7 +4895,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "f45c10e2deee7b183b867fe3d27417d9",
@@ -4751,7 +4913,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "d334679f02dbbcb1c8db05e17fb9dddf",
@@ -5376,12 +5538,12 @@
       "published_at": "2026-10-14T09:28:17Z",
       "fetched_at": "2026-10-14T12:02:19.323822Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50084757",
-      "points": 860,
-      "comments": 657,
+      "points": 875,
+      "comments": 664,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "bbc3d6d01b392abd0c083e5fb309465b",
@@ -5615,7 +5777,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "a7e68a2b2c183f9e94e2ac36798acaae",
@@ -5633,7 +5795,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "ab936570dc502d6d910e1e03dea38b8a",
@@ -5795,7 +5957,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "de82e0fac2148405c37daa69f71ac7fb",
@@ -6101,7 +6263,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "31138d3c6a73549e51b4956b9588fca1",
@@ -6582,8 +6744,8 @@
       "published_at": "2026-10-13T22:17:41Z",
       "fetched_at": "2026-10-15T10:02:14.762609Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50079701",
-      "points": 40,
-      "comments": 15,
+      "points": 56,
+      "comments": 21,
       "engineering": false,
       "blog": false,
       "review": "pending",
@@ -7014,8 +7176,8 @@
       "published_at": "2026-10-13T19:55:41Z",
       "fetched_at": "2026-10-15T08:02:16.575025Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50077709",
-      "points": 54,
-      "comments": 20,
+      "points": 56,
+      "comments": 21,
       "engineering": false,
       "blog": null,
       "review": "pending",
@@ -9360,6 +9522,24 @@
       "blog": false,
       "review": "kept",
       "importance": 2
+    },
+    {
+      "id": "f341093988c9e88237ec0901cb54d32b",
+      "title": "Tracing Mystery Network Traffic with eBPF Across HRT's Global Compute Cluster",
+      "url": "https://www.hudsonrivertrading.com/hrtbeat/long-on-research-short-on-bandwidth/",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-13T13:05:46Z",
+      "fetched_at": "2026-10-15T13:02:13.629549Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50071068",
+      "points": 10,
+      "comments": 0,
+      "engineering": false,
+      "blog": null,
+      "review": "pending",
+      "importance": null
     },
     {
       "id": "9537ec57d510aaa09f87dc5dea5e4df7",
@@ -12018,8 +12198,8 @@
       "published_at": "2026-10-12T17:17:18Z",
       "fetched_at": "2026-10-12T20:02:08.251496Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50071546",
-      "points": 98,
-      "comments": 65,
+      "points": 103,
+      "comments": 69,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -24336,164 +24516,144 @@
       "blog": null,
       "review": "pending",
       "importance": null
-    },
-    {
-      "id": "f5c416598c46225855ace67d7d998abb",
-      "title": "IBM offloads 'hundreds' of its cloudy VMware customers",
-      "url": "https://www.theregister.com/virtualization/2026/10/08/ibm-offloads-hundreds-of-its-cloudy-vmware-customers/5301849",
-      "source_id": "the-register",
-      "source_name": "The Register",
-      "category": "tech",
-      "summary": "Broadcom partner 11:11 picks ‘em up ahead of channel death deadline",
-      "published_at": "2026-10-08T13:01:00Z",
-      "fetched_at": "2026-10-11T21:02:10.292762Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": null,
-      "review": "pending",
-      "importance": null
-    },
-    {
-      "id": "da8bd67e185eba35a98390c969a62931",
-      "title": "The New Alexa Tablets Feel Like a Blueprint for an Amazon Phone",
-      "url": "https://www.wired.com/story/alexa-tablets-blueprint-for-upcoming-amazon-phone/",
-      "source_id": "wired",
-      "source_name": "Wired",
-      "category": "tech",
-      "summary": "Amazon is rumored to be making a smartphone, and the Alexa-powered experiences on its new tablets give us a taste of what might come if that happens.",
-      "published_at": "2026-10-08T13:00:00Z",
-      "fetched_at": "2026-10-11T21:02:10.292762Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": null,
-      "review": "pending",
-      "importance": null
-    },
-    {
-      "id": "13ccfc34ba6e3f95383beaf2c09180b1",
-      "title": "Amazon Alexa Tablet 12 Pro, Alexa Tablet 11, Alexa Tablet 8: Specs, Features, Price",
-      "url": "https://www.wired.com/story/amazon-alexa-tablets-2026/",
-      "source_id": "wired",
-      "source_name": "Wired",
-      "category": "tech",
-      "summary": "The three new aluminum Alexa Tablets now run Android with full access to the Google Play Store. There are versions for kids too.",
-      "published_at": "2026-10-08T13:00:00Z",
-      "fetched_at": "2026-10-11T21:02:10.292762Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": null,
-      "review": "pending",
-      "importance": null
-    },
-    {
-      "id": "1110b2fa2bd078f72ed99dccf69187e1",
-      "title": "Bridging technical depth and usability: The story behind Radar’s redesign",
-      "url": "https://blog.cloudflare.com/radar-redesign/",
-      "source_id": "cloudflare-blog",
-      "source_name": "Cloudflare Blog",
-      "category": "tech",
-      "summary": "We redesigned Cloudflare Radar to make real-time global traffic and outage data accessible to a wider audience — including journalists, less technical researchers, and everyday users. By introducing an interactive map and standardized components, we simplified navigation while preserving technical depth.",
-      "published_at": "2026-10-08T13:00:00Z",
-      "fetched_at": "2026-10-11T21:02:10.292762Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": true,
-      "blog": null,
-      "review": "pending",
-      "importance": null
-    },
-    {
-      "id": "f9766bea537e7a1b69cb33554c27998b",
-      "title": "AI changed how you respond to incidents. Your tabletops haven’t caught up.",
-      "url": "https://thenewstack.io/ai-incident-response-tabletops/",
-      "source_id": "the-new-stack",
-      "source_name": "The New Stack",
-      "category": "tech",
-      "summary": "Tabletop exercises answer one question: when something breaks, will the people responsible for fixing it do the right thing, in The post AI changed how you respond to incidents. Your tabletops haven’t caught up. appeared first on The New Stack.",
-      "published_at": "2026-10-08T13:00:00Z",
-      "fetched_at": "2026-10-11T21:02:10.292762Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": null,
-      "review": "pending",
-      "importance": null
-    },
-    {
-      "id": "84f2ed8eb396f012cb99dc41f85f2ee8",
-      "title": "AI giants promise to play nice with personal data after UK watchdog scrutiny",
-      "url": "https://www.theregister.com/ai-and-ml/2026/10/08/ai-giants-promise-to-play-nice-with-personal-data-after-uk-watchdog-scrutiny/5301966",
-      "source_id": "the-register",
-      "source_name": "The Register",
-      "category": "tech",
-      "summary": "Amazon, Google, Microsoft, OpenAI and six others agree to changes, but the ICO isn't done asking questions",
-      "published_at": "2026-10-08T12:35:00Z",
-      "fetched_at": "2026-10-11T21:02:10.292762Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": null,
-      "review": "pending",
-      "importance": null
-    },
-    {
-      "id": "80b6f196574746171306a9695e27c240",
-      "title": "Samsung eyes $80B quarterly profit as memory buyers pay the price",
-      "url": "https://www.theregister.com/systems/2026/10/08/samsung-eyes-80b-quarterly-profit-as-memory-buyers-pay-the-price/5301933",
-      "source_id": "the-register",
-      "source_name": "The Register",
-      "category": "tech",
-      "summary": "AI demand fattens chipmakers' margins while cheaper PCs and phones become harder to produce profitably",
-      "published_at": "2026-10-08T12:14:00Z",
-      "fetched_at": "2026-10-11T21:02:10.292762Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": null,
-      "review": "pending",
-      "importance": null
     }
   ],
   "top_stories": [
     {
-      "id": "b4ba26fc3fd7772980c6c43214d90aee",
-      "title": "Citizen Lab uncovers zero-click spyware distributed via online ads",
-      "summary": "Researchers at The Citizen Lab have released technical evidence of sophisticated mercenary spyware being distributed via online advertising. Dozens of devices at media organization Al Jazeera were hacked after being shown malicious online ads.",
-      "why_it_matters": "Exposes a major, novel attack vector bypassing traditional security perimeters through targeted advertising networks.",
+      "id": "6443ed26b6b41a48d481ea374bc7653d",
+      "title": "Palo Alto Networks patches actively exploited PAN-OS RCE zero-day",
+      "summary": "Palo Alto Networks has issued emergency security updates for a high-severity remote code execution flaw in PAN-OS software tracked as CVE-2026-0322. The vulnerability has come under active exploitation in attacks targeting firewalls.",
+      "why_it_matters": "Critical infrastructure vulnerability requiring immediate patching for organizations running affected Palo Alto firewall gateways.",
       "item_ids": [
-        "b4ba26fc3fd7772980c6c43214d90aee",
-        "30eace7b32ae35a8d923ea6bcccd5d42"
+        "6443ed26b6b41a48d481ea374bc7653d",
+        "c6e3db8f72227268425747459464ff28"
       ],
-      "primary_url": null,
-      "first_shown": "2026-10-15T12:02:25.026831Z",
-      "last_shown": "2026-10-15T12:10:14.464143Z"
+      "primary_url": "https://security.paloaltonetworks.com/CVE-2026-0322",
+      "first_shown": "2026-10-15T13:02:13.629549Z",
+      "last_shown": "2026-10-15T13:02:13.629549Z"
     },
     {
-      "id": "2df8560f9b0f9a496591611fe636f890",
-      "title": "CISA and vendors issue patches for actively exploited Cisco and Ivanti zero-days",
-      "summary": "Security agencies and vendors have issued urgent warnings and patches for actively exploited zero-day vulnerabilities in Cisco Secure Email Gateway and Ivanti Connect Secure. Attackers have been leveraging the flaws to execute commands or write files with elevated privileges.",
-      "why_it_matters": "Directly impacts enterprise perimeter security and demands immediate patching to prevent remote root compromise.",
+      "id": "d0204c75f4ba35e4eedad0d0238ca123",
+      "title": "CISA urges immediate patching of actively exploited Ivanti Connect Secure flaw",
+      "summary": "CISA and security vendors have urged organizations to immediately patch Ivanti Connect Secure deployments following active zero-day exploitation. Attackers have leveraged the critical vulnerability in real-world attacks since early October.",
+      "why_it_matters": "Critical perimeter security vulnerability affecting VPN gateways that demands immediate administrative patching.",
       "item_ids": [
-        "2df8560f9b0f9a496591611fe636f890",
-        "ba27e73991607a596b5447653e1d5d19",
         "d0204c75f4ba35e4eedad0d0238ca123",
         "ee8954b8f5479297288fa9ab91951453",
         "9dffcdec6a600c6fd908d8f12ae41515"
       ],
-      "primary_url": "https://info.varonis.com/en/state-of-data-security-report-2025",
+      "primary_url": "https://www.cisa.gov/news-events/alerts/2026/10/13/cisa-urges-patching-newly-exploited-vulnerability-ivanti-connect-secure",
       "first_shown": "2026-10-15T07:02:11.687769Z",
-      "last_shown": "2026-10-15T12:10:14.464143Z"
+      "last_shown": "2026-10-15T13:02:13.629549Z"
     },
+    {
+      "id": "ba27e73991607a596b5447653e1d5d19",
+      "title": "Cisco patches critical zero-day in Secure Email Gateway",
+      "summary": "Cisco has released security patches for a critical zero-day vulnerability in its Secure Email Gateway that allows unauthenticated remote attackers to execute commands with root privileges and write files to the appliance's operating system. Attackers have actively exploited the flaw in the wild.",
+      "why_it_matters": "Critical appliance-level vulnerability that lets remote attackers achieve root execution on email security gateways.",
+      "item_ids": [
+        "ba27e73991607a596b5447653e1d5d19",
+        "2df8560f9b0f9a496591611fe636f890"
+      ],
+      "primary_url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-afw-zqYJkjxp",
+      "first_shown": "2026-10-15T07:02:11.687769Z",
+      "last_shown": "2026-10-15T13:02:13.629549Z"
+    },
+    {
+      "id": "6ba7790f3e9d5cb2098fee63b96261a7",
+      "title": "OpenAI claims former employee stole secret files before joining Apple",
+      "summary": "OpenAI claims a former employee took more than 100 confidential files regarding product plans before joining Apple. In a legal filing, OpenAI accuses the unnamed employee of sending this information to Cupertino.",
+      "why_it_matters": "Highlights internal security risks and trade secret disputes between major AI labs and hardware giants.",
+      "item_ids": [
+        "6ba7790f3e9d5cb2098fee63b96261a7",
+        "bbf21dc9263f95170b3c1f312aaae0a3"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-13T21:02:09.887409Z",
+      "last_shown": "2026-10-15T13:02:13.629549Z"
+    },
+    {
+      "id": "1786b4e2e6b8e252af220fa87167c283",
+      "title": "Microsoft and international partners dismantle billion-message scam network",
+      "summary": "Microsoft and international law enforcement agencies, alongside industry partners, have disrupted a massive cybercriminal ecosystem responsible for over a billion scam messages targeting organizations and individuals. The network operated marketplaces for scammers and distributed fraudulent delivery and parking notifications.",
+      "why_it_matters": "Demonstrates the scale of coordinated multi-sector takedowns against global mobile messaging fraud infrastructure.",
+      "item_ids": [
+        "1786b4e2e6b8e252af220fa87167c283",
+        "3fd8fd3fa2730da827584962499131ab"
+      ],
+      "primary_url": "https://www.microsoft.com/en-us/security/blog/2026/10/14/the-hidden-network-inside-the-phishing-infrastructure-ecosystem-powering-global-cybercrime",
+      "first_shown": "2026-10-14T21:02:19.134962Z",
+      "last_shown": "2026-10-15T13:02:13.629549Z"
+    },
+    {
+      "id": "612defc60cb7a8128f4bce20fb78b3c1",
+      "title": "US Department of Justice disrupts North Korean IT worker laptop farms",
+      "summary": "The U.S. Department of Justice has disrupted North Korean remote IT worker schemes by arresting suspects, charging 14 individuals, and seizing numerous laptops and computers used to infiltrate U.S. companies. Authorities warned that sanctioned actors are increasingly using proxies to secure remote employment.",
+      "why_it_matters": "Directly impacts remote hiring compliance, insider threat management, and credential verification security protocols for engineering teams.",
+      "item_ids": [
+        "612defc60cb7a8128f4bce20fb78b3c1",
+        "b0ea1f4d0ab57be0baecffef14d7a2ac"
+      ],
+      "primary_url": "https://www.crowdstrike.com/en-us/blog/fbi-disrupts-famous-chollima-operation-with-crowdstrike-assistance",
+      "first_shown": "2026-10-14T17:02:15.342910Z",
+      "last_shown": "2026-10-15T13:02:13.629549Z"
+    },
+    {
+      "id": "65698a06dd66cdbfa65c419a45c261b2",
+      "title": "Ukraine reports unexpected Starlink throttling and service disruptions",
+      "summary": "Ukrainian officials and military forces report that Starlink has suddenly imposed new limits and disrupted service in the area without warning, affecting drone operations and missions. Kyiv's forces experienced connectivity problems on Elon Musk's satellite network.",
+      "why_it_matters": "Highlights operational risks and single-point-of-failure vulnerabilities when depending on commercial satellite internet for mission-critical infrastructure.",
+      "item_ids": [
+        "65698a06dd66cdbfa65c419a45c261b2",
+        "7e4bf47216a596b0759e2e96b119b722",
+        "f36baff3700eea418eda975cd7974d67"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-14T16:02:17.575301Z",
+      "last_shown": "2026-10-15T13:02:13.629549Z"
+    },
+    {
+      "id": "fab67f7720b3696514973450be8065f8",
+      "title": "OpenAI engineer arrested for planting covert recording device in meeting room",
+      "summary": "An OpenAI employee and Saudi national has been arrested and charged by the FBI for allegedly planting a hidden recording device in an executive conference room. The covert recorder was discovered plugged into a television, with a second device found in the employee's bag.",
+      "why_it_matters": "Sheds light on high-stakes corporate espionage and physical security breaches inside leading artificial intelligence laboratories.",
+      "item_ids": [
+        "fab67f7720b3696514973450be8065f8",
+        "dc33aebccdd21d989fb1cfea5ce61aeb",
+        "227dff4b14eb0a63c2a62354a64c6f48"
+      ],
+      "primary_url": "https://www.justice.gov/opa/pr/saudi-national-arrested-installing-surreptitious-audio-recording-device-openai",
+      "first_shown": "2026-10-13T21:02:09.887409Z",
+      "last_shown": "2026-10-15T13:02:13.629549Z"
+    },
+    {
+      "id": "30eace7b32ae35a8d923ea6bcccd5d42",
+      "title": "Citizen Lab reveals zero-click mercenary spyware distributed via online ads",
+      "summary": "Researchers at The Citizen Lab have released technical evidence showing sophisticated mercenary spyware being distributed via targeted online advertisements. The digital rights unit found evidence that devices at organizations like Al Jazeera were compromised through malicious ads.",
+      "why_it_matters": "Exposes a novel attack vector where standard ad networks are weaponized to deliver zero-click device exploits.",
+      "item_ids": [
+        "30eace7b32ae35a8d923ea6bcccd5d42",
+        "b4ba26fc3fd7772980c6c43214d90aee"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-15T12:02:25.026831Z",
+      "last_shown": "2026-10-15T13:02:13.629549Z"
+    },
+    {
+      "id": "1e4eaed0aa867cf5aae16d44bcffba90",
+      "title": "Ledger asks Asian distributors to halt sales amid supply-chain security incident",
+      "summary": "Following the introduction of its Android-based Atom hardware wallet, Ledger has asked regional sellers and distributors across Indonesia, Singapore, Thailand, and other parts of Asia to suspend sales and remove devices from shelves due to a supply-chain security issue.",
+      "why_it_matters": "Highlights supply-chain integrity risks for hardware security tokens and crypto wallets.",
+      "item_ids": [
+        "1e4eaed0aa867cf5aae16d44bcffba90",
+        "7e24035c6ae03397d25954b86d304aae"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-14T18:02:13.848676Z",
+      "last_shown": "2026-10-15T13:02:13.629549Z"
+    }
+  ],
+  "past_top_stories": [
     {
       "id": "b07e3d7c95d4dacbd965889e6dae167d",
       "title": "Netflix lays off approximately 1,000 employees",
@@ -24522,64 +24682,6 @@
       "last_shown": "2026-10-15T12:10:14.464143Z"
     },
     {
-      "id": "bbf21dc9263f95170b3c1f312aaae0a3",
-      "title": "OpenAI claims ex-employee stole secret files and planted hidden recording device",
-      "summary": "OpenAI has filed legal claims accusing a former employee of taking more than 100 confidential product files before joining Apple. An OpenAI engineer was also arrested and charged by the FBI for allegedly planting a hidden recording device in an executive conference room.",
-      "why_it_matters": "Highlights severe insider threat risks and corporate espionage challenges within high-profile AI labs.",
-      "item_ids": [
-        "bbf21dc9263f95170b3c1f312aaae0a3",
-        "6ba7790f3e9d5cb2098fee63b96261a7",
-        "dc33aebccdd21d989fb1cfea5ce61aeb",
-        "fab67f7720b3696514973450be8065f8",
-        "227dff4b14eb0a63c2a62354a64c6f48"
-      ],
-      "primary_url": "https://www.justice.gov/opa/pr/saudi-national-arrested-installing-surreptitious-audio-recording-device-openai",
-      "first_shown": "2026-10-13T21:02:09.887409Z",
-      "last_shown": "2026-10-15T12:10:14.464143Z"
-    },
-    {
-      "id": "3fd8fd3fa2730da827584962499131ab",
-      "title": "Global takedown disrupts cybercrime network behind one billion scam messages",
-      "summary": "Law enforcement and private sector partners, including Microsoft and the Japan Cybercrime Control Center, have disrupted a massive cybercriminal ecosystem. The network was responsible for facilitating more than a billion malicious phishing messages.",
-      "why_it_matters": "Removes a major global infrastructure used for high-volume smishing and credential harvesting.",
-      "item_ids": [
-        "3fd8fd3fa2730da827584962499131ab",
-        "1786b4e2e6b8e252af220fa87167c283",
-        "d826d308692d618818210d183a35a64d"
-      ],
-      "primary_url": "https://www.microsoft.com/en-us/security/blog/2026/10/14/the-hidden-network-inside-the-phishing-infrastructure-ecosystem-powering-global-cybercrime",
-      "first_shown": "2026-10-14T21:02:19.134962Z",
-      "last_shown": "2026-10-15T12:10:14.464143Z"
-    },
-    {
-      "id": "65698a06dd66cdbfa65c419a45c261b2",
-      "title": "Ukraine claims Starlink service throttling disrupts military operations",
-      "summary": "Ukrainian officials claim that Elon Musk-owned Starlink suddenly put new limits on its service and throttled connections in the area without warning. The unexpected restrictions disrupted the country's military drone operations and missions.",
-      "why_it_matters": "Demonstrates the geopolitical and operational dependencies of critical satellite communications in conflict zones.",
-      "item_ids": [
-        "65698a06dd66cdbfa65c419a45c261b2",
-        "f36baff3700eea418eda975cd7974d67",
-        "7e4bf47216a596b0759e2e96b119b722"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-14T16:02:17.575301Z",
-      "last_shown": "2026-10-15T12:10:14.464143Z"
-    },
-    {
-      "id": "612defc60cb7a8128f4bce20fb78b3c1",
-      "title": "US Department of Justice disrupts North Korean IT worker fraud schemes",
-      "summary": "The U.S. Department of Justice has disrupted North Korean threat group operations by arresting suspects, charging 14 individuals, and seizing numerous laptop farms used in fraudulent remote IT worker schemes. Authorities warn that sanctioned actors are actively infiltrating U.S. companies.",
-      "why_it_matters": "Underscores severe hiring and identity verification risks facing software engineering organizations.",
-      "item_ids": [
-        "612defc60cb7a8128f4bce20fb78b3c1",
-        "b0ea1f4d0ab57be0baecffef14d7a2ac",
-        "98ba3395635d4fdd0772577ce7fa58df"
-      ],
-      "primary_url": "https://www.crowdstrike.com/en-us/blog/fbi-disrupts-famous-chollima-operation-with-crowdstrike-assistance",
-      "first_shown": "2026-10-14T17:02:15.342910Z",
-      "last_shown": "2026-10-15T12:10:14.464143Z"
-    },
-    {
       "id": "e0cc68b3fe1590b85407ad1a8e2c4449",
       "title": "UK Legal Aid Agency suffers data breach spanning records back to 1978",
       "summary": "The Legal Aid Agency in the UK disclosed that hackers who breached its IT systems stole records dating back to 1978. Probation service records were also caught up in the nearly 50-year data haul.",
@@ -24592,21 +24694,6 @@
       "first_shown": "2026-10-15T12:10:14.464143Z",
       "last_shown": "2026-10-15T12:10:14.464143Z"
     },
-    {
-      "id": "1e4eaed0aa867cf5aae16d44bcffba90",
-      "title": "Ledger announces Atom hardware wallet amid supply-chain attack warnings",
-      "summary": "Ledger has announced its new Android-based Atom hardware wallet designed to accompany phones. Concurrently, Ledger has asked Asian resellers and distributors to suspend device sales and remove products following a supply-chain attack.",
-      "why_it_matters": "Raises critical hardware supply chain security concerns for cryptocurrency and cryptographic key storage tools.",
-      "item_ids": [
-        "1e4eaed0aa867cf5aae16d44bcffba90",
-        "7e24035c6ae03397d25954b86d304aae"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-14T18:02:13.848676Z",
-      "last_shown": "2026-10-15T12:10:14.464143Z"
-    }
-  ],
-  "past_top_stories": [
     {
       "id": "c614e6702818c8649f08788ad9e3fa8b",
       "title": "Amazon-Owned Bee Launches Two Personal AI Recording Devices",
@@ -24695,33 +24782,6 @@
       "primary_url": null,
       "first_shown": "2026-10-14T19:02:20.054915Z",
       "last_shown": "2026-10-15T05:18:30.652537Z"
-    },
-    {
-      "id": "5843cf89696358ff5df6a654a212bcbb",
-      "title": "Microsoft October 2026 Patch Tuesday fixes record 1,400+ security flaws",
-      "summary": "Microsoft shattered its Patch Tuesday record by issuing security updates addressing over 1,400 vulnerabilities across its operating systems and software. The massive batch includes patches for actively exploited and publicly disclosed zero-day vulnerabilities.",
-      "why_it_matters": "IT administrators must navigate an unprecedented volume of security patches to protect Windows environments from active exploits.",
-      "item_ids": [
-        "5843cf89696358ff5df6a654a212bcbb",
-        "b0955720a67f02aa4d9c7148d5f08efc",
-        "0c33a5701fc8db51408a97edf8003b84"
-      ],
-      "primary_url": "https://www.microsoft.com/en-us/msrc/blog/2026/10/using-risk-cohorts-to-prioritize-security-updates",
-      "first_shown": "2026-10-14T00:02:16.827031Z",
-      "last_shown": "2026-10-15T04:02:17.156015Z"
-    },
-    {
-      "id": "1d4e6c057119d79dda3631024bb7bafa",
-      "title": "Hirudo Android Malware Replaces Banking Apps to Bypass Security Checks",
-      "summary": "Security researchers have disclosed details of Hirudo, a new Android banking trojan that steals credentials by substituting legitimate banking apps with modified versions designed to disable built-in security checks.",
-      "why_it_matters": "Represents an evolving mobile malware threat utilizing application tampering to defeat device security controls.",
-      "item_ids": [
-        "1d4e6c057119d79dda3631024bb7bafa",
-        "d907b1db1361af7c51c3d78f01e3df16"
-      ],
-      "primary_url": "https://www.threatfabric.com/blogs/hirudo-from-fake-updates-to-patched-banking-apps",
-      "first_shown": "2026-10-14T19:02:20.054915Z",
-      "last_shown": "2026-10-15T00:02:18.031653Z"
     }
   ]
 }
