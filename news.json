@@ -1,6 +1,24 @@
 {
-  "generated_at": "2026-10-15T12:02:25.026831Z",
+  "generated_at": "2026-10-15T12:10:14.464143Z",
   "items": [
+    {
+      "id": "ca4f152d80a34139b403c45f15f16cc7",
+      "title": "Drupal Patches Critical Core RCE Flaw with No-Login Path via Contributed Modules",
+      "url": "https://thehackernews.com/2026/10/drupal-patches-critical-core-rce-flaw.html",
+      "source_id": "the-hacker-news",
+      "source_name": "The Hacker News",
+      "category": "tech",
+      "summary": "Drupal core has a critical flaw in its Field UI module that could let an attacker run code on the site's server, and fixes were shipped on October 14 in Drupal 11.4.10, 11.3.19, and 10.6.19. An attacker cannot reach the flaw through core alone, the Drupal Security Team said in its advisory. Several exploit paths exist through contributed modules, and at least one known path needs no login.",
+      "published_at": "2026-10-15T12:07:20Z",
+      "fetched_at": "2026-10-15T12:10:14.464143Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 4
+    },
     {
       "id": "1e4eaed0aa867cf5aae16d44bcffba90",
       "title": "Ledger’s new hardware wallet is an Android phone without the phone",
@@ -17,7 +35,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 4
     },
     {
       "id": "c614e6702818c8649f08788ad9e3fa8b",
@@ -35,7 +53,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "5653078557c971913c87ae030b88ff59",
@@ -53,7 +71,25 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
+    },
+    {
+      "id": "080e82fad22dce411d94bfc2a64b208b",
+      "title": "Agentic AI doesn’t have a model problem. It has a retrieval problem.",
+      "url": "https://thenewstack.io/agentic-ai-retrieval-problem/",
+      "source_id": "the-new-stack",
+      "source_name": "The New Stack",
+      "category": "tech",
+      "summary": "On BrowseComp-Plus, GPT-4.1 answered 93.49% of the questions correctly when it was given the supporting documents directly. When an agent The post Agentic AI doesn’t have a model problem. It has a retrieval problem. appeared first on The New Stack.",
+      "published_at": "2026-10-15T12:00:00Z",
+      "fetched_at": "2026-10-15T12:10:14.464143Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "9b3f4d57d3065074c7d81b97b9a883ba",
@@ -71,7 +107,25 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
+    },
+    {
+      "id": "c0927e815effec6825585a6e471006e9",
+      "title": "Fake AI Attacks Spread Across US Companies: How MSSPs Can Stop Incidents Early",
+      "url": "https://thehackernews.com/2026/10/fake-ai-attacks-spread-across-us.html",
+      "source_id": "the-hacker-news",
+      "source_name": "The Hacker News",
+      "category": "tech",
+      "summary": "Attackers are impersonating popular AI products to distribute malware, steal browser sessions, and compromise business accounts. ANY.RUN linked 1,258 public sandbox analyses to fake AI campaigns between April and October of 2026. The campaigns also increase operational pressure on MSSPs serving US businesses, which accounted for 16% of country-attributed targets. Similar attacks",
+      "published_at": "2026-10-15T11:46:59Z",
+      "fetched_at": "2026-10-15T12:10:14.464143Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "6ba7790f3e9d5cb2098fee63b96261a7",
@@ -107,7 +161,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "e0cc68b3fe1590b85407ad1a8e2c4449",
@@ -128,6 +182,24 @@
       "importance": 4
     },
     {
+      "id": "916e69e794dfb65e005eab2b90e8ba16",
+      "title": "Why AI Confidence Is Not Validation",
+      "url": "https://thehackernews.com/2026/10/why-ai-confidence-is-not-validation.html",
+      "source_id": "the-hacker-news",
+      "source_name": "The Hacker News",
+      "category": "tech",
+      "summary": "AI is already part of digital forensics and incident response work, with or without a policy in place to govern it. The issue is that these tools are growing more confident in their own output faster than practitioners are developing reliable ways to verify it. Without governance models and validation standards in place, that gap compounds and rarely stays contained to a workstation: an",
+      "published_at": "2026-10-15T11:04:35Z",
+      "fetched_at": "2026-10-15T12:10:14.464143Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 2
+    },
+    {
       "id": "c487c6058b4685cde87d239b995a0df3",
       "title": "Your secrets aren’t safe with this cute robot toy — they’re on Chinese servers ready to be hacked",
       "url": "https://www.theverge.com/tech/1010727/eiliko-robot-hack-energize-lab",
@@ -143,7 +215,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "6cb606ddb028a831c5a79e10c76519f2",
@@ -182,6 +254,24 @@
       "importance": 3
     },
     {
+      "id": "9610e7a39a23ceea546f15d35e805b38",
+      "title": "HOL Light Tutorial",
+      "url": "https://hol-light.github.io/tutorial/HTML/tutorial.html",
+      "source_id": "lobsters",
+      "source_name": "Lobsters",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-15T10:53:12Z",
+      "fetched_at": "2026-10-15T12:10:14.464143Z",
+      "discussion_url": "https://lobste.rs/s/zqa5yz/hol_light_tutorial",
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "pending",
+      "importance": null
+    },
+    {
       "id": "753f5c53aeaae725ece50236a3b7c6e4",
       "title": "The geometric model of maintenance",
       "url": "https://entropicthoughts.com/geometric-model-of-maintenance",
@@ -215,7 +305,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "0426e2fbe94f680e710de42e18b961d8",
@@ -233,7 +323,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "582dbd984f152f4e6243c96d247563fa",
@@ -323,7 +413,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "85180283924105ae2e013ecad5b5c420",
@@ -359,7 +449,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "197f59131686e8ad1b58f48c57627ee1",
@@ -467,7 +557,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "8b0180ba38486a34003b69baddb40882",
@@ -575,7 +665,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "09ad7b11a5beb53bba81a6bddd6075c8",
@@ -683,7 +773,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "5902db94a77b44e850ba253612933858",
@@ -719,7 +809,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "6443ed26b6b41a48d481ea374bc7653d",
@@ -737,7 +827,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "4a2f2214073d5e00648291145dfee385",
@@ -917,7 +1007,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "7e9903a8dfe7c5e317fea735bcddc8dc",
@@ -1097,7 +1187,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "2ed33c82e53af354564c4a2e15e5a267",
@@ -1241,7 +1331,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "b771f398aeda561cd0a90aa838ef7777",
@@ -1349,7 +1439,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "6fd3e1640a89d62c836f5cfcf24675c5",
@@ -1367,7 +1457,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "b30f85e92c18771da9af41af0b32b685",
@@ -1385,7 +1475,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "7a4d5ab593cc9b377d16d91caeb5686d",
@@ -1619,7 +1709,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "c8be76e11dfbd7a57c17f7144a71b59f",
@@ -1907,7 +1997,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "5293c5beac616f3ca30e5615b6127716",
@@ -2285,7 +2375,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "4d9972e0a833af6706a911113cf9f29f",
@@ -2339,7 +2429,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "beaf4c4f8ff3d46434dd76bfcdf2bca2",
@@ -2375,7 +2465,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "64998f193be78872e695a4e9f6f2cb3b",
@@ -2465,7 +2555,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "bd413d841994f12351090d52856d645d",
@@ -2591,7 +2681,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "67c625bf894c00c383a407c3032d6a3c",
@@ -2627,7 +2717,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "0afae7ed372739e984c4b62589236c43",
@@ -2681,7 +2771,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "efd439ab4cd155669f1858b420c04955",
@@ -2717,7 +2807,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "3fd8fd3fa2730da827584962499131ab",
@@ -2825,7 +2915,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "e3ab34da48918059678c6363274f7203",
@@ -2841,9 +2931,9 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "bbf21dc9263f95170b3c1f312aaae0a3",
@@ -3003,7 +3093,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -3095,7 +3185,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "963d1eb2732129e41b589822e32ea2f6",
@@ -3185,7 +3275,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "3930de4e35d8aa3bde258a48f593316f",
@@ -3239,7 +3329,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "1c2b752e992e7172376771868db66207",
@@ -3291,7 +3381,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -3329,7 +3419,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "4bcb76457cf807fc2b6e3760c6969795",
@@ -3455,7 +3545,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "65698a06dd66cdbfa65c419a45c261b2",
@@ -3509,7 +3599,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "7db6d965e6dfdf687d0fa6499260c720",
@@ -3779,7 +3869,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "1a27fbe299dca31e822687f8ac240260",
@@ -3797,7 +3887,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "8150033de54251231c98b420c2e2ce29",
@@ -3815,7 +3905,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "a1834308a1ddc487d6ed586092aa8d78",
@@ -3977,7 +4067,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "f94c8a5277e495cdfb626461bb1762ba",
@@ -4011,7 +4101,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -4085,7 +4175,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "310bcdb23332c90c555ac157479c66d3",
@@ -4193,7 +4283,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "8644aec7882290e4e9e6d7dcea8b9434",
@@ -4247,7 +4337,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "0f5febcaeaa0a31a19dfb1fb1e8132e2",
@@ -4355,7 +4445,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "11d648561ded0c91f95f33a6d6b1b55d",
@@ -4373,7 +4463,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "121206c70835ed21e825ea88057751a0",
@@ -4427,7 +4517,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "551d91d6552a1b352957bcd248152190",
@@ -4463,7 +4553,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "e9680a2476f1e3166b86bbde52239c8e",
@@ -4517,7 +4607,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "11f72270101b7c04f808498f9315fe5a",
@@ -4571,7 +4661,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "0deb2fc30712cb03c0b04fe2bb9888c2",
@@ -4605,7 +4695,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -4643,7 +4733,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "f45c10e2deee7b183b867fe3d27417d9",
@@ -4661,7 +4751,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "d334679f02dbbcb1c8db05e17fb9dddf",
@@ -5039,7 +5129,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "0d48e0b0181b207586ee3426e76e84f9",
@@ -5057,7 +5147,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "199111808df19615a0c6c146150aa4ef",
@@ -5075,7 +5165,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "5aa21ee70bc0de2e24b70c70feac1593",
@@ -5217,7 +5307,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -5291,7 +5381,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "bbc3d6d01b392abd0c083e5fb309465b",
@@ -5453,7 +5543,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "5c7787f211f5f10e6d4931b13baac949",
@@ -5489,7 +5579,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "b526fa1f329d0e9a55164e6733c17aa3",
@@ -5543,7 +5633,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "ab936570dc502d6d910e1e03dea38b8a",
@@ -5703,9 +5793,9 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "de82e0fac2148405c37daa69f71ac7fb",
@@ -5721,9 +5811,9 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "6d453c4ce1560289887d25c626afe6b6",
@@ -5759,7 +5849,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "bdc1f587915a79bfbd22b400ab6e6f04",
@@ -6011,7 +6101,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "31138d3c6a73549e51b4956b9588fca1",
@@ -24376,50 +24466,110 @@
   ],
   "top_stories": [
     {
-      "id": "fab67f7720b3696514973450be8065f8",
-      "title": "OpenAI Engineer Arrested for Hiding Recording Device in Executive Room",
-      "summary": "An OpenAI employee has been arrested and charged by the FBI after allegedly placing a covert recording device wrapped in toilet paper inside an executive conference room. The suspect, identified as a Saudi national, faces up to five years in prison and a $250,000 fine.",
-      "why_it_matters": "The incident highlights insider threat risks and corporate espionage vulnerabilities facing leading frontier AI companies.",
-      "item_ids": [
-        "fab67f7720b3696514973450be8065f8",
-        "dc33aebccdd21d989fb1cfea5ce61aeb",
-        "227dff4b14eb0a63c2a62354a64c6f48"
-      ],
-      "primary_url": "https://www.justice.gov/opa/pr/saudi-national-arrested-installing-surreptitious-audio-recording-device-openai",
-      "first_shown": "2026-10-13T21:02:09.887409Z",
-      "last_shown": "2026-10-15T12:02:25.026831Z"
-    },
-    {
-      "id": "bbf21dc9263f95170b3c1f312aaae0a3",
-      "title": "OpenAI Alleges Ex-Employee Took Confidential Plans to Apple",
-      "summary": "OpenAI claims a former employee took over 100 confidential product and hardware files before joining Apple. The allegations were made in court filings amid an ongoing trade secrets dispute between the two companies.",
-      "why_it_matters": "The legal battle highlights escalating trade-secret scrutiny and IP exposure when engineers transition between competing AI hardware teams.",
-      "item_ids": [
-        "bbf21dc9263f95170b3c1f312aaae0a3",
-        "6ba7790f3e9d5cb2098fee63b96261a7"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-15T12:02:25.026831Z",
-      "last_shown": "2026-10-15T12:02:25.026831Z"
-    },
-    {
       "id": "b4ba26fc3fd7772980c6c43214d90aee",
-      "title": "Citizen Lab Uncovers Zero-Click Spyware Delivered via Online Ads",
-      "summary": "Researchers at The Citizen Lab discovered technical evidence of mercenary zero-click spyware infecting mobile phones through targeted online advertising. The attacks targeted dozens of devices associated with media organization Al Jazeera.",
-      "why_it_matters": "This demonstrates a shift where ad networks can be leveraged for zero-click mobile compromise without requiring user interaction.",
+      "title": "Citizen Lab uncovers zero-click spyware distributed via online ads",
+      "summary": "Researchers at The Citizen Lab have released technical evidence of sophisticated mercenary spyware being distributed via online advertising. Dozens of devices at media organization Al Jazeera were hacked after being shown malicious online ads.",
+      "why_it_matters": "Exposes a major, novel attack vector bypassing traditional security perimeters through targeted advertising networks.",
       "item_ids": [
         "b4ba26fc3fd7772980c6c43214d90aee",
         "30eace7b32ae35a8d923ea6bcccd5d42"
       ],
       "primary_url": null,
       "first_shown": "2026-10-15T12:02:25.026831Z",
-      "last_shown": "2026-10-15T12:02:25.026831Z"
+      "last_shown": "2026-10-15T12:10:14.464143Z"
+    },
+    {
+      "id": "2df8560f9b0f9a496591611fe636f890",
+      "title": "CISA and vendors issue patches for actively exploited Cisco and Ivanti zero-days",
+      "summary": "Security agencies and vendors have issued urgent warnings and patches for actively exploited zero-day vulnerabilities in Cisco Secure Email Gateway and Ivanti Connect Secure. Attackers have been leveraging the flaws to execute commands or write files with elevated privileges.",
+      "why_it_matters": "Directly impacts enterprise perimeter security and demands immediate patching to prevent remote root compromise.",
+      "item_ids": [
+        "2df8560f9b0f9a496591611fe636f890",
+        "ba27e73991607a596b5447653e1d5d19",
+        "d0204c75f4ba35e4eedad0d0238ca123",
+        "ee8954b8f5479297288fa9ab91951453",
+        "9dffcdec6a600c6fd908d8f12ae41515"
+      ],
+      "primary_url": "https://info.varonis.com/en/state-of-data-security-report-2025",
+      "first_shown": "2026-10-15T07:02:11.687769Z",
+      "last_shown": "2026-10-15T12:10:14.464143Z"
+    },
+    {
+      "id": "b07e3d7c95d4dacbd965889e6dae167d",
+      "title": "Netflix lays off approximately 1,000 employees",
+      "summary": "Netflix has announced it is laying off approximately 1,000 employees. Most of the cuts will affect product, tech, legal, and human resources departments.",
+      "why_it_matters": "Reflects broader tech industry workforce adjustments and corporate restructuring affecting engineering teams.",
+      "item_ids": [
+        "b07e3d7c95d4dacbd965889e6dae167d",
+        "fde684812f72a336a503971ad4d4d762"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-14T16:02:17.575301Z",
+      "last_shown": "2026-10-15T12:10:14.464143Z"
+    },
+    {
+      "id": "9eae47a00eae4fbfdb0d7637c8d1d3c8",
+      "title": "Epic Games launches redesigned launcher with Linux support",
+      "summary": "Epic Games has released a preview of its redesigned PC games launcher, which the company says is faster and adds support for Linux. Epic is also working on bringing Fortnite to Linux through the new launcher.",
+      "why_it_matters": "Improves native Linux gaming infrastructure and platform availability for developers.",
+      "item_ids": [
+        "9eae47a00eae4fbfdb0d7637c8d1d3c8",
+        "3b9c58223be247957fec158d1f9258eb",
+        "17a57f1dbc1aabdf3509797f59cf3ce9"
+      ],
+      "primary_url": "https://store.epicgames.com/news/epic-games-launcher-preview",
+      "first_shown": "2026-10-15T00:02:18.031653Z",
+      "last_shown": "2026-10-15T12:10:14.464143Z"
+    },
+    {
+      "id": "bbf21dc9263f95170b3c1f312aaae0a3",
+      "title": "OpenAI claims ex-employee stole secret files and planted hidden recording device",
+      "summary": "OpenAI has filed legal claims accusing a former employee of taking more than 100 confidential product files before joining Apple. An OpenAI engineer was also arrested and charged by the FBI for allegedly planting a hidden recording device in an executive conference room.",
+      "why_it_matters": "Highlights severe insider threat risks and corporate espionage challenges within high-profile AI labs.",
+      "item_ids": [
+        "bbf21dc9263f95170b3c1f312aaae0a3",
+        "6ba7790f3e9d5cb2098fee63b96261a7",
+        "dc33aebccdd21d989fb1cfea5ce61aeb",
+        "fab67f7720b3696514973450be8065f8",
+        "227dff4b14eb0a63c2a62354a64c6f48"
+      ],
+      "primary_url": "https://www.justice.gov/opa/pr/saudi-national-arrested-installing-surreptitious-audio-recording-device-openai",
+      "first_shown": "2026-10-13T21:02:09.887409Z",
+      "last_shown": "2026-10-15T12:10:14.464143Z"
+    },
+    {
+      "id": "3fd8fd3fa2730da827584962499131ab",
+      "title": "Global takedown disrupts cybercrime network behind one billion scam messages",
+      "summary": "Law enforcement and private sector partners, including Microsoft and the Japan Cybercrime Control Center, have disrupted a massive cybercriminal ecosystem. The network was responsible for facilitating more than a billion malicious phishing messages.",
+      "why_it_matters": "Removes a major global infrastructure used for high-volume smishing and credential harvesting.",
+      "item_ids": [
+        "3fd8fd3fa2730da827584962499131ab",
+        "1786b4e2e6b8e252af220fa87167c283",
+        "d826d308692d618818210d183a35a64d"
+      ],
+      "primary_url": "https://www.microsoft.com/en-us/security/blog/2026/10/14/the-hidden-network-inside-the-phishing-infrastructure-ecosystem-powering-global-cybercrime",
+      "first_shown": "2026-10-14T21:02:19.134962Z",
+      "last_shown": "2026-10-15T12:10:14.464143Z"
+    },
+    {
+      "id": "65698a06dd66cdbfa65c419a45c261b2",
+      "title": "Ukraine claims Starlink service throttling disrupts military operations",
+      "summary": "Ukrainian officials claim that Elon Musk-owned Starlink suddenly put new limits on its service and throttled connections in the area without warning. The unexpected restrictions disrupted the country's military drone operations and missions.",
+      "why_it_matters": "Demonstrates the geopolitical and operational dependencies of critical satellite communications in conflict zones.",
+      "item_ids": [
+        "65698a06dd66cdbfa65c419a45c261b2",
+        "f36baff3700eea418eda975cd7974d67",
+        "7e4bf47216a596b0759e2e96b119b722"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-14T16:02:17.575301Z",
+      "last_shown": "2026-10-15T12:10:14.464143Z"
     },
     {
       "id": "612defc60cb7a8128f4bce20fb78b3c1",
-      "title": "US Charges 14 and Seizes Laptops in North Korean IT Worker Fraud Ring",
-      "summary": "The U.S. Department of Justice disrupted North Korean IT worker fraud schemes, charging 14 individuals and seizing roughly 187 laptops across laptop farms. Authorities warned that sanctioned operatives have infiltrated dozens of U.S. companies using local facilitators.",
-      "why_it_matters": "Security and engineering hiring pipelines face increased risk of credentialed infiltration and remote worker identity fraud.",
+      "title": "US Department of Justice disrupts North Korean IT worker fraud schemes",
+      "summary": "The U.S. Department of Justice has disrupted North Korean threat group operations by arresting suspects, charging 14 individuals, and seizing numerous laptop farms used in fraudulent remote IT worker schemes. Authorities warn that sanctioned actors are actively infiltrating U.S. companies.",
+      "why_it_matters": "Underscores severe hiring and identity verification risks facing software engineering organizations.",
       "item_ids": [
         "612defc60cb7a8128f4bce20fb78b3c1",
         "b0ea1f4d0ab57be0baecffef14d7a2ac",
@@ -24427,63 +24577,36 @@
       ],
       "primary_url": "https://www.crowdstrike.com/en-us/blog/fbi-disrupts-famous-chollima-operation-with-crowdstrike-assistance",
       "first_shown": "2026-10-14T17:02:15.342910Z",
-      "last_shown": "2026-10-15T12:02:25.026831Z"
+      "last_shown": "2026-10-15T12:10:14.464143Z"
     },
     {
-      "id": "2df8560f9b0f9a496591611fe636f890",
-      "title": "Cisco Patches Zero-Day Flaw in Secure Email Gateway Under Active Attack",
-      "summary": "Cisco released updates for a critical vulnerability in its Secure Email Gateway that allows remote unauthenticated attackers to write files and execute commands as root. Both Cisco and CISA warned that the flaw is being actively exploited in the wild.",
-      "why_it_matters": "Administrators must immediately patch exposed email gateways to prevent unauthenticated remote root takeover.",
+      "id": "e0cc68b3fe1590b85407ad1a8e2c4449",
+      "title": "UK Legal Aid Agency suffers data breach spanning records back to 1978",
+      "summary": "The Legal Aid Agency in the UK disclosed that hackers who breached its IT systems stole records dating back to 1978. Probation service records were also caught up in the nearly 50-year data haul.",
+      "why_it_matters": "Exposes long-term government data governance vulnerabilities and large-scale historical record exposure.",
       "item_ids": [
-        "2df8560f9b0f9a496591611fe636f890",
-        "ba27e73991607a596b5447653e1d5d19",
-        "6fd3e1640a89d62c836f5cfcf24675c5"
-      ],
-      "primary_url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-afw-zqYJkjxp",
-      "first_shown": "2026-10-15T07:02:11.687769Z",
-      "last_shown": "2026-10-15T12:02:25.026831Z"
-    },
-    {
-      "id": "ee8954b8f5479297288fa9ab91951453",
-      "title": "CISA and Ivanti Warn of Actively Exploited Connect Secure Zero-Day Flaw",
-      "summary": "Ivanti released patches for an actively exploited zero-day vulnerability in its Connect Secure appliances, while CISA urged immediate patching as honeypots recorded over 100 exploit attempts. Ivanti also stated that a fix for an additional privilege-escalation vulnerability will follow in coming weeks.",
-      "why_it_matters": "Edge VPN infrastructure remains a primary target for zero-day exploitation, requiring immediate defensive updates.",
-      "item_ids": [
-        "ee8954b8f5479297288fa9ab91951453",
-        "d0204c75f4ba35e4eedad0d0238ca123",
-        "9dffcdec6a600c6fd908d8f12ae41515"
-      ],
-      "primary_url": "https://www.cisa.gov/news-events/alerts/2026/10/13/cisa-urges-patching-newly-exploited-vulnerability-ivanti-connect-secure",
-      "first_shown": "2026-10-14T20:02:20.667985Z",
-      "last_shown": "2026-10-15T12:02:25.026831Z"
-    },
-    {
-      "id": "1786b4e2e6b8e252af220fa87167c283",
-      "title": "Global Coalition Takes Down Phishing Network Behind One Billion Scams",
-      "summary": "Microsoft, law enforcement agencies, and international cyber defense partners dismantled an infrastructure network responsible for sending over one billion scam messages. The operation disrupted three phishing kits targeting tens of thousands of organizations globally.",
-      "why_it_matters": "The takedown eliminates widespread automated phishing infrastructure used to harvest enterprise credentials.",
-      "item_ids": [
-        "1786b4e2e6b8e252af220fa87167c283",
-        "3fd8fd3fa2730da827584962499131ab",
-        "d826d308692d618818210d183a35a64d"
-      ],
-      "primary_url": "https://www.microsoft.com/en-us/security/blog/2026/10/14/the-hidden-network-inside-the-phishing-infrastructure-ecosystem-powering-global-cybercrime",
-      "first_shown": "2026-10-14T21:02:19.134962Z",
-      "last_shown": "2026-10-15T12:02:25.026831Z"
-    },
-    {
-      "id": "b07e3d7c95d4dacbd965889e6dae167d",
-      "title": "Netflix Laying Off Approximately 1,000 Employees",
-      "summary": "Netflix co-CEOs Ted Sarandos and Greg Peters announced layoffs affecting around 1,000 workers across the company. The job cuts primarily impact product, engineering, legal, and human resources teams.",
-      "why_it_matters": "The layoffs affect tech and product engineering roles at a major tech employer amid shifting business priorities.",
-      "item_ids": [
-        "b07e3d7c95d4dacbd965889e6dae167d",
-        "fde684812f72a336a503971ad4d4d762"
+        "e0cc68b3fe1590b85407ad1a8e2c4449",
+        "09ad7b11a5beb53bba81a6bddd6075c8"
       ],
       "primary_url": null,
-      "first_shown": "2026-10-14T16:02:17.575301Z",
-      "last_shown": "2026-10-15T12:02:25.026831Z"
+      "first_shown": "2026-10-15T12:10:14.464143Z",
+      "last_shown": "2026-10-15T12:10:14.464143Z"
     },
+    {
+      "id": "1e4eaed0aa867cf5aae16d44bcffba90",
+      "title": "Ledger announces Atom hardware wallet amid supply-chain attack warnings",
+      "summary": "Ledger has announced its new Android-based Atom hardware wallet designed to accompany phones. Concurrently, Ledger has asked Asian resellers and distributors to suspend device sales and remove products following a supply-chain attack.",
+      "why_it_matters": "Raises critical hardware supply chain security concerns for cryptocurrency and cryptographic key storage tools.",
+      "item_ids": [
+        "1e4eaed0aa867cf5aae16d44bcffba90",
+        "7e24035c6ae03397d25954b86d304aae"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-14T18:02:13.848676Z",
+      "last_shown": "2026-10-15T12:10:14.464143Z"
+    }
+  ],
+  "past_top_stories": [
     {
       "id": "c614e6702818c8649f08788ad9e3fa8b",
       "title": "Amazon-Owned Bee Launches Two Personal AI Recording Devices",
@@ -24498,36 +24621,6 @@
       "last_shown": "2026-10-15T12:02:25.026831Z"
     },
     {
-      "id": "65698a06dd66cdbfa65c419a45c261b2",
-      "title": "Ukraine Reports Sudden Starlink Disruptions Impacting Military Drones",
-      "summary": "Ukrainian officials reported unexpected service restrictions and throttling on SpaceX's Starlink network. The unannounced limits disrupted military communications and drone operations in active conflict zones.",
-      "why_it_matters": "It demonstrates the operational vulnerabilities of relying on commercial satellite networks for critical infrastructure.",
-      "item_ids": [
-        "65698a06dd66cdbfa65c419a45c261b2",
-        "7e4bf47216a596b0759e2e96b119b722",
-        "f36baff3700eea418eda975cd7974d67"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-14T16:02:17.575301Z",
-      "last_shown": "2026-10-15T12:02:25.026831Z"
-    }
-  ],
-  "past_top_stories": [
-    {
-      "id": "3b9c58223be247957fec158d1f9258eb",
-      "title": "Epic Games Releases New Vibe-Coded Epic Games Launcher with Linux Support",
-      "summary": "Epic Games has launched a preview of its redesigned PC games launcher, claiming the new application is significantly faster and now natively supports Linux. The company also stated its intention to bring Fortnite to Linux through the new launcher.",
-      "why_it_matters": "Expansion of major game distribution infrastructure to Linux platforms broadens accessibility for developers and gamers on open-source operating systems.",
-      "item_ids": [
-        "3b9c58223be247957fec158d1f9258eb",
-        "9eae47a00eae4fbfdb0d7637c8d1d3c8",
-        "17a57f1dbc1aabdf3509797f59cf3ce9"
-      ],
-      "primary_url": "https://store.epicgames.com/news/epic-games-launcher-preview",
-      "first_shown": "2026-10-15T00:02:18.031653Z",
-      "last_shown": "2026-10-15T11:02:14.868217Z"
-    },
-    {
       "id": "435695b947293a221c9142a8d2c37aaf",
       "title": "YouTube Adds 'Made with AI' Labels to AI-Generated Songs and Tracks",
       "summary": "YouTube is introducing a new label on player pages to identify tracks that were altered or fully generated using artificial intelligence, adopting a process similar to its existing AI video labeling. The update arrives as AI-generated music floods streaming platforms.",
@@ -24538,19 +24631,6 @@
       ],
       "primary_url": "https://blog.youtube/news-and-events/youtube-music-ai-labels",
       "first_shown": "2026-10-14T20:02:20.667985Z",
-      "last_shown": "2026-10-15T11:02:14.868217Z"
-    },
-    {
-      "id": "7e24035c6ae03397d25954b86d304aae",
-      "title": "Ledger Asks Asia Resellers to Halt Sales Following Supply Chain Attack Investigation",
-      "summary": "Ledger has asked distributors and resellers in Indonesia, Singapore, Thailand, the Philippines, Vietnam, Malaysia, and Hong Kong to suspend hardware wallet sales and remove products from shelves following a supply chain security incident.",
-      "why_it_matters": "Supply chain compromises affecting hardware wallets threaten user crypto asset security and force vendors to recall or halt distribution.",
-      "item_ids": [
-        "7e24035c6ae03397d25954b86d304aae",
-        "993a8112ec4bda23da2ec6a2600f450a"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-14T18:02:13.848676Z",
       "last_shown": "2026-10-15T11:02:14.868217Z"
     },
     {
