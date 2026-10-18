@@ -1,6 +1,204 @@
 {
-  "generated_at": "2026-10-18T14:02:02.122847Z",
+  "generated_at": "2026-10-18T15:01:59.401359Z",
   "items": [
+    {
+      "id": "d0ed5c4cf01204c61ac64d2e3cfa3548",
+      "title": "Lenovo’s fast, comfy SteamOS handheld is hundreds off",
+      "url": "https://www.theverge.com/gadgets/1013436/lenovo-legion-go-s-steamos-handheld-deal-sale",
+      "source_id": "the-verge",
+      "source_name": "The Verge",
+      "category": "tech",
+      "summary": "The Legion Go S with SteamOS is a pretty solid alternative to the $789 Steam Deck OLED. It runs identical software, but ships in a design with two-stage triggers, a bigger eight-inch IPS screen (1080p and up to 120Hz versus 800p and 90Hz in the Deck OLED), and it’s got double the RAM and storage […]",
+      "published_at": "2026-10-18T15:00:00Z",
+      "fetched_at": "2026-10-18T15:01:59.401359Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "excluded",
+      "importance": null
+    },
+    {
+      "id": "62fbc03cb9c7c26f7850dc3f1ea28c84",
+      "title": "Google Adopts Pyrefly for Faster, More Accurate Python Type Checking",
+      "url": "https://www.infoq.com/news/2026/10/google-pyrefly-python/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source_id": "infoq",
+      "source_name": "InfoQ",
+      "category": "tech",
+      "summary": "Google has replaced its long-standing Python type checker, Pytype, with Pyrefly, an open-source tool originally developed by Meta. The decision was driven by Pyrefly's advantages, including faster and more accurate type checking, and lower infrastructure costs. By Sergio De Simone",
+      "published_at": "2026-10-18T15:00:00Z",
+      "fetched_at": "2026-10-18T15:01:59.401359Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "075b287a9740a1b7e04f7f1b2d45dfa5",
+      "title": "Using timers to perform weekly tasks",
+      "url": "https://mbork.pl/2026-10-17_Using_timers_to_perform_weekly_tasks",
+      "source_id": "lobsters",
+      "source_name": "Lobsters",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-18T14:52:34Z",
+      "fetched_at": "2026-10-18T15:01:59.401359Z",
+      "discussion_url": "https://lobste.rs/s/u8vxmz/using_timers_perform_weekly_tasks",
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": true,
+      "review": "kept",
+      "importance": 2
+    },
+    {
+      "id": "2f5f2982a22a9e197d74a9120434c4fc",
+      "title": "High performance policy routed IPsec mesh SD-WAN",
+      "url": "https://ranet3.com/",
+      "source_id": "lobsters",
+      "source_name": "Lobsters",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-18T14:36:52Z",
+      "fetched_at": "2026-10-18T15:01:59.401359Z",
+      "discussion_url": "https://lobste.rs/s/np6czp/high_performance_policy_routed_ipsec",
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": true,
+      "review": "kept",
+      "importance": 2
+    },
+    {
+      "id": "875acd5997b8965e553a786148e3e5ab",
+      "title": "Liquid AI caught its model cheating on coding tests — then it recognized the sandbox",
+      "url": "https://thenewstack.io/liquid-ai-reward-hacking/",
+      "source_id": "the-new-stack",
+      "source_name": "The New Stack",
+      "category": "tech",
+      "summary": "Liquid AI’s new reasoning model was built to solve coding problems, but during training it kept combing Git history, GitHub, The post Liquid AI caught its model cheating on coding tests — then it recognized the sandbox appeared first on The New Stack.",
+      "published_at": "2026-10-18T14:30:00Z",
+      "fetched_at": "2026-10-18T15:01:59.401359Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "71cbb20af67342525c126dd7e80b0704",
+      "title": "A New Way to Think About Borrow Checking (In Reverse)",
+      "url": "https://verdagon.dev/blog/reverse-borrow-checking",
+      "source_id": "lobsters",
+      "source_name": "Lobsters",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-18T14:29:16Z",
+      "fetched_at": "2026-10-18T15:01:59.401359Z",
+      "discussion_url": "https://lobste.rs/s/vwgrix/new_way_think_about_borrow_checking",
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": true,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "efc2e010ed272c9de76c137958dc8cdd",
+      "title": "AWS Introduces Preview of Well-Architected Agent",
+      "url": "https://www.infoq.com/news/2026/10/aws-well-architected-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source_id": "infoq",
+      "source_name": "InfoQ",
+      "category": "tech",
+      "summary": "AWS recently announced the preview of the Well-Architected Agent, a service that analyzes environments against Well-Architected best practices and provides prioritized recommendations across cost, security, performance, and reliability. The AI agent can also suggest remediation steps and review infrastructure-as-code before deployment. By Renato Losio",
+      "published_at": "2026-10-18T14:29:00Z",
+      "fetched_at": "2026-10-18T15:01:59.401359Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "f52605ec1f8f8977a38dee54acb5dd34",
+      "title": "Hackers exploit SiteGuard WAF flaw to run commands as SYSTEM, root",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/",
+      "source_id": "bleepingcomputer",
+      "source_name": "BleepingComputer",
+      "category": "tech",
+      "summary": "Attackers are targeting an OS command injection vulnerability in SiteGuard Server Edition that lets them execute commands as root or SYSTEM on affected servers. [...]",
+      "published_at": "2026-10-18T14:23:16Z",
+      "fetched_at": "2026-10-18T15:01:59.401359Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "d3de9db898af32da10e8611a69ab1040",
+      "title": "J Mascis has nothing better to do",
+      "url": "https://www.theverge.com/entertainment/1012442/j-mascis-dinosaur-jr-fender-interview",
+      "source_id": "the-verge",
+      "source_name": "The Verge",
+      "category": "tech",
+      "summary": "Dinosaur Jr. frontman J Mascis is known as something of a slacker guitar god. He stands stoically onstage, barely moving, as he seemingly effortlessly works through deft guitar solos and lopsided riffs. Unfortunately, Mascis has developed a similar reputation as an interview subject, quietly sitting and offering deft nonanswers. That's not to say that Mascis […]",
+      "published_at": "2026-10-18T14:00:00Z",
+      "fetched_at": "2026-10-18T15:01:59.401359Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "excluded",
+      "importance": null
+    },
+    {
+      "id": "561fc10b37f19690a35bc202a082b210",
+      "title": "Scale isn’t one number: three ways a Kubernetes control plane runs out of room",
+      "url": "https://thenewstack.io/scaling-kubernetes-control-planes/",
+      "source_id": "the-new-stack",
+      "source_name": "The New Stack",
+      "category": "tech",
+      "summary": "Three clusters in trouble, and they look nothing alike. The first is a training fleet. It sat at a few The post Scale isn’t one number: three ways a Kubernetes control plane runs out of room appeared first on The New Stack.",
+      "published_at": "2026-10-18T14:00:00Z",
+      "fetched_at": "2026-10-18T15:01:59.401359Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": true,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "1d3ebabc210fdaa297f9c1693c2cb6d4",
+      "title": "RepRapMicron",
+      "url": "https://github.com/VikOlliver/RepRapMicron/wiki",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-18T13:48:48Z",
+      "fetched_at": "2026-10-18T15:01:59.401359Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50141076",
+      "points": 50,
+      "comments": 6,
+      "engineering": false,
+      "blog": null,
+      "review": "excluded",
+      "importance": null
+    },
     {
       "id": "00120dcf9703bb19ff61ce47b9a0b891",
       "title": "Gen Z Is the First Generation Dumber Than Their Parents",
@@ -138,7 +336,7 @@
       "published_at": "2026-10-18T11:16:22Z",
       "fetched_at": "2026-10-18T13:02:00.550791Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50140001",
-      "points": 45,
+      "points": 67,
       "comments": 5,
       "engineering": false,
       "blog": null,
@@ -251,7 +449,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "97e65f9e816ceb737aecd6ecf403a81c",
@@ -264,8 +462,8 @@
       "published_at": "2026-10-18T10:21:51Z",
       "fetched_at": "2026-10-18T11:46:36.584602Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50139692",
-      "points": 64,
-      "comments": 16,
+      "points": 94,
+      "comments": 27,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -287,7 +485,7 @@
       "engineering": false,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "4e8ad075e2afcda7b8377e78f0625ad4",
@@ -390,8 +588,8 @@
       "published_at": "2026-10-18T08:19:53Z",
       "fetched_at": "2026-10-18T11:02:05.671319Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50139067",
-      "points": 89,
-      "comments": 44,
+      "points": 109,
+      "comments": 49,
       "engineering": false,
       "blog": true,
       "review": "kept",
@@ -413,7 +611,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 1
+      "importance": 2
     },
     {
       "id": "84ed642bd078b1cce51eb8e9927dc381",
@@ -444,8 +642,8 @@
       "published_at": "2026-10-18T06:50:36Z",
       "fetched_at": "2026-10-18T08:02:03.151514Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50138531",
-      "points": 327,
-      "comments": 158,
+      "points": 361,
+      "comments": 182,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -570,8 +768,8 @@
       "published_at": "2026-10-18T04:33:49Z",
       "fetched_at": "2026-10-18T05:11:59.195592Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50137950",
-      "points": 180,
-      "comments": 55,
+      "points": 190,
+      "comments": 60,
       "engineering": false,
       "blog": false,
       "review": "excluded",
@@ -606,8 +804,8 @@
       "published_at": "2026-10-18T03:19:49Z",
       "fetched_at": "2026-10-18T05:02:00.871598Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50137620",
-      "points": 213,
-      "comments": 249,
+      "points": 231,
+      "comments": 284,
       "engineering": false,
       "blog": false,
       "review": "excluded",
@@ -645,7 +843,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 2
     },
@@ -678,8 +876,8 @@
       "published_at": "2026-10-18T00:14:22Z",
       "fetched_at": "2026-10-18T02:02:02.831493Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50136536",
-      "points": 354,
-      "comments": 153,
+      "points": 371,
+      "comments": 171,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -951,7 +1149,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -969,7 +1167,7 @@
       "points": 12,
       "comments": 2,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 2
     },
@@ -1002,8 +1200,8 @@
       "published_at": "2026-10-17T17:45:08Z",
       "fetched_at": "2026-10-17T22:01:46.193347Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50133231",
-      "points": 148,
-      "comments": 68,
+      "points": 156,
+      "comments": 70,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -1092,8 +1290,8 @@
       "published_at": "2026-10-17T17:06:07Z",
       "fetched_at": "2026-10-17T20:01:50.836596Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50132870",
-      "points": 369,
-      "comments": 208,
+      "points": 378,
+      "comments": 211,
       "engineering": false,
       "blog": false,
       "review": "excluded",
@@ -1254,8 +1452,8 @@
       "published_at": "2026-10-17T15:55:09Z",
       "fetched_at": "2026-10-17T19:01:48.652320Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50132193",
-      "points": 489,
-      "comments": 45,
+      "points": 506,
+      "comments": 46,
       "engineering": false,
       "blog": false,
       "review": "excluded",
@@ -1542,7 +1740,7 @@
       "published_at": "2026-10-17T13:55:28Z",
       "fetched_at": "2026-10-17T15:01:48.396198Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50131213",
-      "points": 326,
+      "points": 331,
       "comments": 84,
       "engineering": false,
       "blog": false,
@@ -1578,7 +1776,7 @@
       "published_at": "2026-10-17T13:28:46Z",
       "fetched_at": "2026-10-17T19:01:48.652320Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50131006",
-      "points": 155,
+      "points": 157,
       "comments": 35,
       "engineering": false,
       "blog": false,
@@ -1686,8 +1884,8 @@
       "published_at": "2026-10-17T12:06:44Z",
       "fetched_at": "2026-10-18T05:02:00.871598Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50130379",
-      "points": 58,
-      "comments": 0,
+      "points": 64,
+      "comments": 3,
       "engineering": false,
       "blog": true,
       "review": "kept",
@@ -2033,7 +2231,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "f3132748f6fdc29cdab10d49355834e3",
@@ -2046,12 +2244,12 @@
       "published_at": "2026-10-17T08:21:25Z",
       "fetched_at": "2026-10-17T09:02:05.365336Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50129045",
-      "points": 903,
-      "comments": 675,
+      "points": 908,
+      "comments": 680,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "041a5e5f95f0bd214127f21045137422",
@@ -2442,8 +2640,8 @@
       "published_at": "2026-10-16T23:47:31Z",
       "fetched_at": "2026-10-17T19:01:48.652320Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50126312",
-      "points": 307,
-      "comments": 77,
+      "points": 314,
+      "comments": 80,
       "engineering": false,
       "blog": false,
       "review": "excluded",
@@ -2460,8 +2658,8 @@
       "published_at": "2026-10-16T23:38:27Z",
       "fetched_at": "2026-10-18T01:02:05.325415Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50126253",
-      "points": 492,
-      "comments": 105,
+      "points": 505,
+      "comments": 106,
       "engineering": false,
       "blog": false,
       "review": "excluded",
@@ -2604,8 +2802,8 @@
       "published_at": "2026-10-16T21:07:24Z",
       "fetched_at": "2026-10-18T11:46:36.584602Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50124730",
-      "points": 75,
-      "comments": 29,
+      "points": 84,
+      "comments": 36,
       "engineering": false,
       "blog": null,
       "review": "pending",
@@ -2982,8 +3180,8 @@
       "published_at": "2026-10-16T19:01:17Z",
       "fetched_at": "2026-10-16T21:01:36.722272Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50122878",
-      "points": 591,
-      "comments": 132,
+      "points": 601,
+      "comments": 133,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -24878,132 +25076,6 @@
       "importance": null
     },
     {
-      "id": "e645f1fbd7422bda3367f6dbcc4041d5",
-      "title": "Efferon wants to eradicate the devastating toll of pediatric sepsis",
-      "url": "https://techcrunch.com/2026/10/11/efferon-wants-to-eradicate-the-devastating-toll-of-pediatric-sepsis/",
-      "source_id": "techcrunch",
-      "source_name": "TechCrunch",
-      "category": "tech",
-      "summary": "This Battlefield 200 startup has developed blood-purification tech to save children",
-      "published_at": "2026-10-11T15:00:00Z",
-      "fetched_at": "2026-10-11T20:10:18.079262Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "excluded",
-      "importance": 2
-    },
-    {
-      "id": "9948059f31bafb0c393a1087bcdc857e",
-      "title": "Prime Video unveils Blade Runner 2099 full trailer at NYCC",
-      "url": "https://arstechnica.com/culture/2026/10/prime-video-unveils-blade-runner-2099-full-trailer-at-nycc/",
-      "source_id": "ars-technica",
-      "source_name": "Ars Technica",
-      "category": "tech",
-      "summary": "Also: New trailer for Godzilla Minus Zero, the sequel to Takashi Yamazaki’s kaiju epic Godzilla Minus One.",
-      "published_at": "2026-10-11T14:50:24Z",
-      "fetched_at": "2026-10-11T20:10:18.079262Z",
-      "discussion_url": "https://arstechnica.com/culture/2026/10/prime-video-unveils-blade-runner-2099-full-trailer-at-nycc/#comments",
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "excluded",
-      "importance": null
-    },
-    {
-      "id": "1d2673b4e43a0ee801b2d9e9734b6739",
-      "title": "I'm still around.. I'm just not writing here",
-      "url": "https://rachelbythebay.com/w/2026/10/08/idle/",
-      "source_id": "lobsters",
-      "source_name": "Lobsters",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-11T14:44:03Z",
-      "fetched_at": "2026-10-11T20:10:18.079262Z",
-      "discussion_url": "https://lobste.rs/s/4ehrkn/i_m_still_around_i_m_just_not_writing_here",
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "excluded",
-      "importance": 1
-    },
-    {
-      "id": "7042a6fc942f0bd10bba3a37aee5f8b1",
-      "title": "Stable kernels 7.2.10 and 6.18.56",
-      "url": "https://lwn.net/Articles/1099764/",
-      "source_id": "lwn",
-      "source_name": "LWN.net",
-      "category": "tech",
-      "summary": "The 7.2.10 and 6.18.56 stable kernels have been released. Each contains another several hundred important fixes.",
-      "published_at": "2026-10-11T14:35:57Z",
-      "fetched_at": "2026-10-11T20:10:18.079262Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "bd6e04b0a657fe235cbcc1a2bf124f7a",
-      "title": "I'm sorry, but you still have to think",
-      "url": "https://itsallaboutthebit.com/i-am-sorry-but-you-still-have-to-think/",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-11T14:29:07Z",
-      "fetched_at": "2026-10-11T20:10:18.079262Z",
-      "discussion_url": "https://lobste.rs/s/k2natg/i_m_sorry_you_still_have_think",
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 2
-    },
-    {
-      "id": "41225d68acfbb6814be780d5cdd08edd",
-      "title": "Nippon Columbia malware incident exposes 8.6 million karaoke fan records",
-      "url": "https://www.bleepingcomputer.com/news/security/nippon-columbia-malware-incident-exposes-86-million-karaoke-fan-records/",
-      "source_id": "bleepingcomputer",
-      "source_name": "BleepingComputer",
-      "category": "tech",
-      "summary": "Daiichi Kosho, a major Japanese entertainment system maker, disclosed that a malware infection at its contractor, Nippon Columbia, exposed more than 8.7 million customer and employee records. [...]",
-      "published_at": "2026-10-11T14:23:46Z",
-      "fetched_at": "2026-10-11T20:10:18.079262Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "ce6aa77e0ed5b4a9aae524fac038d36d",
-      "title": "What to know about the landmark Warner Bros. Discovery sale",
-      "url": "https://techcrunch.com/2026/10/11/warner-bros-netflix-paramount-acquisition-timeline-wbd/",
-      "source_id": "techcrunch",
-      "source_name": "TechCrunch",
-      "category": "tech",
-      "summary": "Learn more about Paramount's planned acquisition of Warner Bros. Discovery — a historic Hollywood megadeal valued at $111 billion — as it continues to develop.",
-      "published_at": "2026-10-11T14:15:00Z",
-      "fetched_at": "2026-10-11T20:10:18.079262Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "excluded",
-      "importance": 4
-    },
-    {
       "id": "f2b7fe4cdacd4bb50fa7ea7e075c8769",
       "title": "Valen's Memory Safety: A New Kind of Borrow Checking",
       "url": "https://verdagon.dev/blog/valen-group-borrowing",
@@ -25385,22 +25457,22 @@
   "top_stories": [
     {
       "id": "39a7adebb3b0f4f29824d63781e9521a",
-      "title": "Meta Removes Terms Allowing Scraping of Web Content for AI Training",
-      "summary": "Meta updated its terms to remove language that suggested it could scrape content from sites, including news sites, to train its AI models. A spokesperson insisted that the updated terms did not reflect a change in how Meta crawls the web.",
-      "why_it_matters": "Engineers and publishers will see Meta retract explicit contractual permissions to scrape web and news content for training AI models.",
+      "title": "Meta Removes Terms Allowing Web Content Scraping for AI Training",
+      "summary": "Meta is updating its terms to remove language that suggested it could scrape content, including news sites, to train artificial intelligence models. A Meta spokesperson stated that the updated terms did not reflect a change in how the company crawls the web.",
+      "why_it_matters": "Software engineers and website operators face changing terms regarding how their web content can be scraped for AI training.",
       "item_ids": [
         "39a7adebb3b0f4f29824d63781e9521a",
         "f44f6e736d881b5092377418258287eb"
       ],
       "primary_url": null,
       "first_shown": "2026-10-16T17:02:48.605734Z",
-      "last_shown": "2026-10-18T14:02:02.122847Z"
+      "last_shown": "2026-10-18T15:01:59.401359Z"
     },
     {
       "id": "c464e053cbfe86d8e02878074a5116b1",
-      "title": "ConnectWise Suspends Cloud Backup After Attackers Breach Microsoft 365 Tenants",
-      "summary": "ConnectWise disabled seven application identities and shut down access to its Cloud Backup service following unauthorized access to Microsoft 365 tenants. Threat actors reportedly used a compromised credential to sign in to 173 Microsoft 365 tenants.",
-      "why_it_matters": "Administrators and engineers using ConnectWise Cloud Backup must review their Microsoft 365 tenants for unauthorized access and compromised credentials.",
+      "title": "ConnectWise Disables Cloud Backup Identities Following Microsoft 365 Breaches",
+      "summary": "ConnectWise shut down customer access to its Cloud Backup service and disabled seven application identities after threat actors gained unauthorized access to Microsoft 365 tenants. Threat actors reportedly used a compromised credential to access 173 Microsoft 365 tenants.",
+      "why_it_matters": "Engineers managing cloud infrastructure and Microsoft 365 tenants must secure third-party application identities against supply-chain compromise.",
       "item_ids": [
         "c464e053cbfe86d8e02878074a5116b1",
         "7c86a93f000579e53fd839a06913eec3",
@@ -25408,45 +25480,107 @@
       ],
       "primary_url": "https://www.huntress.com/blog/vendor-credential-enables-unauthorized-access",
       "first_shown": "2026-10-17T09:02:05.365336Z",
-      "last_shown": "2026-10-18T14:02:02.122847Z"
+      "last_shown": "2026-10-18T15:01:59.401359Z"
     },
     {
       "id": "84248f3bb838b097c4537fb0b107a336",
-      "title": "Anthropic Reports Shift Toward Senior Workforce and Increased Meeting Time",
-      "summary": "Anthropic stated that the composition of its workforce has become less junior over the past year. The company reported that employees are also spending significantly more time in meetings.",
-      "why_it_matters": "Software engineers can observe shifting organizational structures and meeting demands at prominent AI research and development companies.",
+      "title": "Anthropic Reports Workforce Shift Toward Senior Staff and Meetings",
+      "summary": "Anthropic stated that the composition of its workforce and the work being performed have changed significantly over the past year. The company noted its workforce has become less junior and that employees are spending more time in meetings.",
+      "why_it_matters": "The shift provides insight into changing engineering culture and organizational overhead within leading AI development labs.",
       "item_ids": [
         "84248f3bb838b097c4537fb0b107a336",
         "400761d0ded12e8ce1bbc15ab8b6b4aa"
       ],
       "primary_url": null,
       "first_shown": "2026-10-18T11:46:36.584602Z",
-      "last_shown": "2026-10-18T14:02:02.122847Z"
-    },
-    {
-      "id": "806927c7de51d672f5034b90c5ba3211",
-      "title": "OpenCode Hacked: User credentials leaked",
-      "summary": null,
-      "why_it_matters": "Software engineers with OpenCode accounts must immediately rotate credentials to protect their accounts.",
-      "item_ids": [
-        "806927c7de51d672f5034b90c5ba3211"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-17T20:01:50.836596Z",
-      "last_shown": "2026-10-18T14:02:02.122847Z"
+      "last_shown": "2026-10-18T15:01:59.401359Z"
     },
     {
       "id": "984f5483be3ae35f32c640565e666929",
       "title": "Replit is no longer working with Anthropic, CEO says",
       "summary": "Over the weekend, Masad clarified that OpenAI would replace Anthropic as its default model provider. Claude will still be available to customers on the platform.",
-      "why_it_matters": "Developers on Replit will see OpenAI replace Anthropic as the default AI model provider.",
+      "why_it_matters": "Replit switching its default model provider from Anthropic to OpenAI changes the default AI code generation engine for developers on the platform.",
       "item_ids": [
         "984f5483be3ae35f32c640565e666929"
       ],
       "primary_url": null,
       "first_shown": "2026-10-18T02:02:02.831493Z",
-      "last_shown": "2026-10-18T14:02:02.122847Z"
+      "last_shown": "2026-10-18T15:01:59.401359Z"
     },
+    {
+      "id": "806927c7de51d672f5034b90c5ba3211",
+      "title": "OpenCode Hacked: User credentials leaked",
+      "summary": null,
+      "why_it_matters": "Developers using OpenCode need to rotate credentials and review their accounts following a user credential leak.",
+      "item_ids": [
+        "806927c7de51d672f5034b90c5ba3211"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-17T20:01:50.836596Z",
+      "last_shown": "2026-10-18T15:01:59.401359Z"
+    },
+    {
+      "id": "62fbc03cb9c7c26f7850dc3f1ea28c84",
+      "title": "Google Adopts Pyrefly for Faster, More Accurate Python Type Checking",
+      "summary": "Google has replaced its long-standing Python type checker, Pytype, with Pyrefly, an open-source tool originally developed by Meta. The decision was driven by Pyrefly's advantages, including faster and more accurate type checking, and lower infrastructure costs. By Sergio De Simone",
+      "why_it_matters": "Python developers can evaluate Pyrefly as an alternative type checker following Google's internal adoption and migration away from Pytype.",
+      "item_ids": [
+        "62fbc03cb9c7c26f7850dc3f1ea28c84"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-18T15:01:59.401359Z",
+      "last_shown": "2026-10-18T15:01:59.401359Z"
+    },
+    {
+      "id": "c96b2eb12a69341cacbca7706b1f5280",
+      "title": "PwnEscape: Guest-to-Host KVM Escape (CVE-2026-99999)",
+      "summary": null,
+      "why_it_matters": "Hypervisor vulnerabilities in KVM allow guest virtual machines to escape isolation and compromise the host environment.",
+      "item_ids": [
+        "c96b2eb12a69341cacbca7706b1f5280"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-17T23:01:47.996796Z",
+      "last_shown": "2026-10-18T15:01:59.401359Z"
+    },
+    {
+      "id": "c34bc1a183afc4c306e120b962494dc9",
+      "title": "OpenAI discloses four more rogue incidents",
+      "summary": null,
+      "why_it_matters": "Engineers deploying autonomous AI agents must monitor disclosures regarding rogue behaviors and safety failures.",
+      "item_ids": [
+        "c34bc1a183afc4c306e120b962494dc9"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-17T01:01:39.055185Z",
+      "last_shown": "2026-10-18T15:01:59.401359Z"
+    },
+    {
+      "id": "50891c3c536515dc5594f8d1297d0daa",
+      "title": "AWS Will Run Its European Sovereign Cloud Without the Global Backbone for Several Hours",
+      "summary": "On October 24, AWS will operate its European Sovereign Cloud without a connection to the AWS Global Network backbone, with a team of EU residents and the region’s own hardware and software. AWS says neither of the two systems being severed is operation-critical, and practitioners are divided over whether the exercise answers the question customers are asking. By Steef-Jan Wiggers",
+      "why_it_matters": "Cloud architects can observe how AWS plans to test isolated sovereign cloud operations without relying on its global backbone network.",
+      "item_ids": [
+        "50891c3c536515dc5594f8d1297d0daa"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-18T06:02:03.198800Z",
+      "last_shown": "2026-10-18T15:01:59.401359Z"
+    },
+    {
+      "id": "f52605ec1f8f8977a38dee54acb5dd34",
+      "title": "Hackers exploit SiteGuard WAF flaw to run commands as SYSTEM, root",
+      "summary": "Attackers are targeting an OS command injection vulnerability in SiteGuard Server Edition that lets them execute commands as root or SYSTEM on affected servers. [...]",
+      "why_it_matters": "Security engineers and server administrators using SiteGuard Server Edition must patch an OS command injection flaw being exploited in the wild.",
+      "item_ids": [
+        "f52605ec1f8f8977a38dee54acb5dd34"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-18T15:01:59.401359Z",
+      "last_shown": "2026-10-18T15:01:59.401359Z"
+    }
+  ],
+  "past_top_stories": [
     {
       "id": "62c7b3d1283b014c2e3cfbf6a613e9d7",
       "title": "Drupal patches critical RCE flaws, warns exploits may emerge soon",
@@ -25457,18 +25591,6 @@
       ],
       "primary_url": null,
       "first_shown": "2026-10-17T15:01:48.396198Z",
-      "last_shown": "2026-10-18T14:02:02.122847Z"
-    },
-    {
-      "id": "50891c3c536515dc5594f8d1297d0daa",
-      "title": "AWS Will Run Its European Sovereign Cloud Without the Global Backbone for Several Hours",
-      "summary": "On October 24, AWS will operate its European Sovereign Cloud without a connection to the AWS Global Network backbone, with a team of EU residents and the region’s own hardware and software. AWS says neither of the two systems being severed is operation-critical, and practitioners are divided over whether the exercise answers the question customers are asking. By Steef-Jan Wiggers",
-      "why_it_matters": "Cloud architects can evaluate AWS's operational autonomy procedures as it tests running its European Sovereign Cloud disconnected from the global backbone.",
-      "item_ids": [
-        "50891c3c536515dc5594f8d1297d0daa"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-18T06:02:03.198800Z",
       "last_shown": "2026-10-18T14:02:02.122847Z"
     },
     {
@@ -25484,18 +25606,6 @@
       "last_shown": "2026-10-18T14:02:02.122847Z"
     },
     {
-      "id": "c34bc1a183afc4c306e120b962494dc9",
-      "title": "OpenAI discloses four more rogue incidents",
-      "summary": null,
-      "why_it_matters": "AI developers gain insight into safety risks and unintended behavior disclosures across OpenAI's models.",
-      "item_ids": [
-        "c34bc1a183afc4c306e120b962494dc9"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-17T01:01:39.055185Z",
-      "last_shown": "2026-10-18T14:02:02.122847Z"
-    },
-    {
       "id": "03d00b7b89e058deb6e34774a96df2c4",
       "title": "DeepSeek search and fetch – $0.75 per 1000 successful requests",
       "summary": null,
@@ -25506,9 +25616,7 @@
       "primary_url": null,
       "first_shown": "2026-10-18T14:02:02.122847Z",
       "last_shown": "2026-10-18T14:02:02.122847Z"
-    }
-  ],
-  "past_top_stories": [
+    },
     {
       "id": "244c6e348703922694fc9662187afd87",
       "title": "Chrome and Edge are removing XSLT: what breaks and what does not",
@@ -25519,18 +25627,6 @@
       ],
       "primary_url": null,
       "first_shown": "2026-10-17T21:01:45.557362Z",
-      "last_shown": "2026-10-18T13:02:00.550791Z"
-    },
-    {
-      "id": "c96b2eb12a69341cacbca7706b1f5280",
-      "title": "PwnEscape: Guest-to-Host KVM Escape (CVE-2026-99999)",
-      "summary": null,
-      "why_it_matters": "Infrastructure and virtualization engineers should assess hypervisor environments for guest-to-host breakout vulnerabilities in KVM.",
-      "item_ids": [
-        "c96b2eb12a69341cacbca7706b1f5280"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-17T23:01:47.996796Z",
       "last_shown": "2026-10-18T13:02:00.550791Z"
     },
     {
@@ -25605,19 +25701,6 @@
       "primary_url": null,
       "first_shown": "2026-10-17T21:03:33.034929Z",
       "last_shown": "2026-10-18T00:01:48.172527Z"
-    },
-    {
-      "id": "14eab160b9ebab98263384ceea726942",
-      "title": "International Authorities Vote to Eliminate the Leap Second",
-      "summary": "Global timekeeping authorities have decided to eliminate the leap second. The change aims to prevent potential infrastructure and system failures associated with irregular time adjustments.",
-      "why_it_matters": "Removing leap seconds alters timekeeping libraries, system clocks, and infrastructure scheduling logic.",
-      "item_ids": [
-        "14eab160b9ebab98263384ceea726942",
-        "b80a08db45e6d4d9fca8f653b12ae59a"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-16T11:02:16.990907Z",
-      "last_shown": "2026-10-17T21:03:33.034929Z"
     }
   ]
 }
