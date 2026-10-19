@@ -1,6 +1,96 @@
 {
-  "generated_at": "2026-10-19T08:01:32.713557Z",
+  "generated_at": "2026-10-19T09:01:28.556618Z",
   "items": [
+    {
+      "id": "ce207c1c2a6869d2fd49f42b883026d5",
+      "title": "Buildkite Adds Scoped Secrets and New Agentic CI Tools",
+      "url": "https://www.infoq.com/news/2026/10/buildkite-ci-secrets-agentic/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source_id": "infoq",
+      "source_name": "InfoQ",
+      "category": "tech",
+      "summary": "Continuous integration provider Buildkite has introduced pipeline-scoped secrets and new Model Context Protocol tools for validating pipelines, diagnosing failed builds and repairing webhooks. The company has also added Linux arm64 support to its GitHub Actions compatibility layer and expanded OpenTelemetry data in Buildkite Agent v4.1.0. By Matt Saunders",
+      "published_at": "2026-10-19T09:00:00Z",
+      "fetched_at": "2026-10-19T09:01:28.556618Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "086ab5933737328d8de426474f210975",
+      "title": "Microsoft: October Windows Server updates break Exchange sign-in, mail flow",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-windows-server-updates-cause-exchange-issues/",
+      "source_id": "bleepingcomputer",
+      "source_name": "BleepingComputer",
+      "category": "tech",
+      "summary": "Microsoft has confirmed that this month's Windows Server security updates are causing OWA sign-in and mail delivery issues on some Exchange Server systems. [...]",
+      "published_at": "2026-10-19T08:58:41Z",
+      "fetched_at": "2026-10-19T09:01:28.556618Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 4
+    },
+    {
+      "id": "5b79af676c62f91cd6eafa84d789e934",
+      "title": "AI’s epic cash call is matched only by its ability to strangle revenue streams",
+      "url": "https://www.theregister.com/columnists/2026/10/19/ais-epic-cash-call-is-matched-only-by-its-ability-to-strangle-revenue-streams/5303493",
+      "source_id": "the-register",
+      "source_name": "The Register",
+      "category": "tech",
+      "summary": "The first technology created with a self-disrupt button... But why oh why didn't they call Claude clone Fauxtoshop?",
+      "published_at": "2026-10-19T08:30:00Z",
+      "fetched_at": "2026-10-19T09:01:28.556618Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "pending",
+      "importance": null
+    },
+    {
+      "id": "8cda2a57db09cdc79df25f4c32046942",
+      "title": "Tor VPN Beta: What we've learned building our own VPN for Android from scratch",
+      "url": "https://blog.torproject.org/tor-vpn-beta/",
+      "source_id": "lobsters",
+      "source_name": "Lobsters",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-19T08:27:55Z",
+      "fetched_at": "2026-10-19T09:01:28.556618Z",
+      "discussion_url": "https://lobste.rs/s/s3w7hd/tor_vpn_beta_what_we_ve_learned_building",
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": true,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "058a8a95d81f69064ae27c6ee1df78ea",
+      "title": "Beginning of the Ende (a community Deno fork)",
+      "url": "https://blog.webb.page/WM-105",
+      "source_id": "lobsters",
+      "source_name": "Lobsters",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-19T08:13:12Z",
+      "fetched_at": "2026-10-19T09:01:28.556618Z",
+      "discussion_url": "https://lobste.rs/s/8ejwsp/beginning_ende_community_deno_fork",
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": true,
+      "review": "kept",
+      "importance": 3
+    },
     {
       "id": "912a4eeb8af0f2a26284ef9f74a067f7",
       "title": "AI inference is running into a memory bottleneck. Huawei wants to tackle it with OceanStor M900",
@@ -18,6 +108,24 @@
       "blog": false,
       "review": "pending",
       "importance": null
+    },
+    {
+      "id": "056844e0625c83a48695583ae07a5d4d",
+      "title": ".NET 11 Release Candidate 2: Go-Live License and Updates Across Libraries, F#, MAUI, and WinForms",
+      "url": "https://www.infoq.com/news/2026/10/dotnet-11-rc-2/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source_id": "infoq",
+      "source_name": "InfoQ",
+      "category": "tech",
+      "summary": "Microsoft has released .NET 11 Release Candidate 2 under a go-live license, supported in Visual Studio 2026 Insiders. The release adds incremental CBOR reading, experimental post-quantum cryptography APIs, file-based app directive improvements, NuGet package cooldowns, F# runtime async building blocks, a C# UI option for .NET MAUI, and refined Windows Forms visual styles. By Almir Vuk",
+      "published_at": "2026-10-19T08:00:00Z",
+      "fetched_at": "2026-10-19T09:01:28.556618Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "c081921fd0414d9bd29ea75c5d894fe7",
@@ -89,7 +197,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "fe8d0b1bc1ec14dcefb9d7f63ec5d63d",
@@ -107,7 +215,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "c97d6a75b676bdcb9e9d162d1b563f1c",
@@ -156,12 +264,12 @@
       "published_at": "2026-10-19T05:55:31Z",
       "fetched_at": "2026-10-19T08:01:32.713557Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50148855",
-      "points": 7,
-      "comments": 1,
+      "points": 16,
+      "comments": 6,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "b5a2a3cc9efc1fd3f0e4889564e003ef",
@@ -210,8 +318,8 @@
       "published_at": "2026-10-19T04:41:46Z",
       "fetched_at": "2026-10-19T05:23:39.573568Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50148452",
-      "points": 113,
-      "comments": 37,
+      "points": 131,
+      "comments": 43,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -228,12 +336,12 @@
       "published_at": "2026-10-19T04:40:18Z",
       "fetched_at": "2026-10-19T06:01:26.637376Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50148441",
-      "points": 77,
-      "comments": 27,
+      "points": 95,
+      "comments": 40,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "bd97e3d396a02de5f74fa57783112105",
@@ -317,9 +425,9 @@
       "summary": null,
       "published_at": "2026-10-19T04:02:34Z",
       "fetched_at": "2026-10-19T05:02:00.161844Z",
-      "discussion_url": "https://lobste.rs/s/jdjtqt/response_claims_about_flatpak_being",
-      "points": null,
-      "comments": null,
+      "discussion_url": "https://news.ycombinator.com/item?id=50148601",
+      "points": 26,
+      "comments": 16,
       "engineering": false,
       "blog": true,
       "review": "kept",
@@ -357,7 +465,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 1
     },
@@ -372,8 +480,8 @@
       "published_at": "2026-10-19T02:01:16Z",
       "fetched_at": "2026-10-19T04:02:02.469757Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50147492",
-      "points": 76,
-      "comments": 30,
+      "points": 87,
+      "comments": 33,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -503,7 +611,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "26a05a17c8d4c09268f9c1f0c368b1af",
@@ -519,7 +627,7 @@
       "points": 21,
       "comments": 1,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 2
     },
@@ -548,16 +656,16 @@
       "source_id": "lwn",
       "source_name": "LWN.net",
       "category": "tech",
-      "summary": "Linus Torvalds has released the 7.3 kernel, as expected. It's Sunday afternoon, and this week I somehow kept my wits together long enough to keep track of the day of the week, so the release isn't randomly delayed. Will wonders never cease? Anyway, nothing very special seems to have happened this last week, so as expected the final 7.3 is out, and thus tomorrow the merge window for 7.4 opens. Except I'm on my annual family vacation, so instead of merging anything first thing in the morning,…",
+      "summary": null,
       "published_at": "2026-10-18T23:45:23Z",
       "fetched_at": "2026-10-19T00:02:01.111551Z",
-      "discussion_url": null,
+      "discussion_url": "https://lobste.rs/s/4oz3sk/7_3_kernel_has_been_released",
       "points": null,
       "comments": null,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "781a6b1aabf3ea82f969fe95995746e6",
@@ -588,8 +696,8 @@
       "published_at": "2026-10-18T23:37:57Z",
       "fetched_at": "2026-10-19T01:01:59.523346Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50146625",
-      "points": 161,
-      "comments": 48,
+      "points": 176,
+      "comments": 61,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -606,8 +714,8 @@
       "published_at": "2026-10-18T23:37:54Z",
       "fetched_at": "2026-10-19T03:02:00.701735Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50146624",
-      "points": 53,
-      "comments": 53,
+      "points": 58,
+      "comments": 64,
       "engineering": false,
       "blog": false,
       "review": "excluded",
@@ -683,7 +791,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "2ca4628c5f807bcb3cc4fb8660f1d30f",
@@ -732,7 +840,7 @@
       "published_at": "2026-10-18T21:36:10Z",
       "fetched_at": "2026-10-18T23:01:59.135914Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50145715",
-      "points": 93,
+      "points": 104,
       "comments": 48,
       "engineering": false,
       "blog": null,
@@ -768,8 +876,8 @@
       "published_at": "2026-10-18T21:09:12Z",
       "fetched_at": "2026-10-19T01:01:59.523346Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50145507",
-      "points": 135,
-      "comments": 87,
+      "points": 158,
+      "comments": 97,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -804,8 +912,8 @@
       "published_at": "2026-10-18T20:48:14Z",
       "fetched_at": "2026-10-18T21:02:05.101023Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50145337",
-      "points": 366,
-      "comments": 173,
+      "points": 382,
+      "comments": 186,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -845,7 +953,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "c6354bfb068c2c740c4fe28129944b56",
@@ -951,9 +1059,9 @@
       "points": 58,
       "comments": 59,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "b1c47a5df2872f65cb1f02b86664e5af",
@@ -987,9 +1095,9 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 1
     },
     {
       "id": "68475fae1ffc7b799e8a46fdf4cd6e0e",
@@ -1002,8 +1110,8 @@
       "published_at": "2026-10-18T18:48:04Z",
       "fetched_at": "2026-10-18T20:02:01.693735Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50144066",
-      "points": 154,
-      "comments": 37,
+      "points": 161,
+      "comments": 38,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -1128,8 +1236,8 @@
       "published_at": "2026-10-18T17:56:59Z",
       "fetched_at": "2026-10-18T20:02:01.693735Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50143536",
-      "points": 119,
-      "comments": 29,
+      "points": 125,
+      "comments": 32,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -1254,12 +1362,12 @@
       "published_at": "2026-10-18T16:32:00Z",
       "fetched_at": "2026-10-18T18:02:04.744228Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50142573",
-      "points": 422,
-      "comments": 158,
+      "points": 435,
+      "comments": 160,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "8d9d2b727538495f9e7282282c1d5527",
@@ -1398,12 +1506,12 @@
       "published_at": "2026-10-18T15:26:06Z",
       "fetched_at": "2026-10-18T16:09:21.063592Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50141909",
-      "points": 246,
-      "comments": 267,
+      "points": 253,
+      "comments": 283,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "67690812bc372f4e547b70882cd47f89",
@@ -1457,7 +1565,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "075b287a9740a1b7e04f7f1b2d45dfa5",
@@ -1488,8 +1596,8 @@
       "published_at": "2026-10-18T14:47:37Z",
       "fetched_at": "2026-10-18T16:02:01.788513Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50141579",
-      "points": 161,
-      "comments": 118,
+      "points": 166,
+      "comments": 129,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -1529,7 +1637,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "875acd5997b8965e553a786148e3e5ab",
@@ -1686,8 +1794,8 @@
       "published_at": "2026-10-18T13:48:48Z",
       "fetched_at": "2026-10-18T15:01:59.401359Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50141076",
-      "points": 381,
-      "comments": 60,
+      "points": 388,
+      "comments": 64,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -1884,7 +1992,7 @@
       "published_at": "2026-10-18T11:16:22Z",
       "fetched_at": "2026-10-18T13:02:00.550791Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50140001",
-      "points": 192,
+      "points": 194,
       "comments": 16,
       "engineering": false,
       "blog": null,
@@ -1943,7 +2051,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 2
     },
     {
       "id": "2102e6ade19046aa9ec61c85baa3b95d",
@@ -2033,7 +2141,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "4e8ad075e2afcda7b8377e78f0625ad4",
@@ -2406,8 +2514,8 @@
       "published_at": "2026-10-18T01:38:08Z",
       "fetched_at": "2026-10-18T22:02:00.582555Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50136979",
-      "points": 181,
-      "comments": 109,
+      "points": 227,
+      "comments": 133,
       "engineering": false,
       "blog": false,
       "review": "excluded",
@@ -25166,168 +25274,6 @@
       "importance": 3
     },
     {
-      "id": "c523a57fdda0db1fc5f0039787afb2a6",
-      "title": "GitLab 19.4 Adds Goal-Driven Agents and Tighter Cost Controls",
-      "url": "https://www.infoq.com/news/2026/10/gitlab-19-4-goal-driven-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source_id": "infoq",
-      "source_name": "InfoQ",
-      "category": "tech",
-      "summary": "GitLab has released version 19.4 of its DevSecOps platform, adding a goal-driven mode to GitLab Duo CLI, three hosted open-weight models, a larger set of Model Context Protocol (MCP) tools, and more detailed controls for AI spending. By Matt Saunders",
-      "published_at": "2026-10-12T09:00:00Z",
-      "fetched_at": "2026-10-12T09:02:17.796810Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 4
-    },
-    {
-      "id": "ec1534f95f4863df8c77ce3b87a9bd40",
-      "title": "Xcode 27.2 Introduces an Agent- and Merge-Friendly JSON Format for Project Configuration",
-      "url": "https://www.infoq.com/news/2026/10/xcode-json-project-format/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source_id": "infoq",
-      "source_name": "InfoQ",
-      "category": "tech",
-      "summary": "Apple is introducing a new JSON-based format for Xcode project configuration files, replacing the traditional property-list-based format. Available in Xcode 27.2, the new format aims to improve readability, simplify maintenance, and make project configuration easier for AI coding agents to understand and modify. By Sergio De Simone",
-      "published_at": "2026-10-12T09:00:00Z",
-      "fetched_at": "2026-10-12T09:02:17.796810Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 4
-    },
-    {
-      "id": "767b3f79ca66dbb0ac821a851237056e",
-      "title": "Linux boots on iPhone 11",
-      "url": "https://www.patreon.com/partshacker/posts/linux-boots-on-172091834",
-      "source_id": "lobsters",
-      "source_name": "Lobsters",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-12T08:59:03Z",
-      "fetched_at": "2026-10-12T09:02:17.796810Z",
-      "discussion_url": "https://lobste.rs/s/gid1h4/linux_boots_on_iphone_11",
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "a98a206e042261c5a8da97f481a977bd",
-      "title": "PK-88 TNC Hardware Modifications",
-      "url": "https://blog.thelifeofkenneth.com/2026/09/pk88-hardware-mods.html",
-      "source_id": "lobsters",
-      "source_name": "Lobsters",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-12T08:54:26Z",
-      "fetched_at": "2026-10-12T09:02:17.796810Z",
-      "discussion_url": "https://lobste.rs/s/2poooo/pk_88_tnc_hardware_modifications",
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 2
-    },
-    {
-      "id": "ee8f47df66e65733b3773ec5e98e9c6c",
-      "title": "Writing a Demoscene Intro for the ZX Spectrum",
-      "url": "https://www.markround.com/blog/2026/zx-spectrum-intro",
-      "source_id": "lobsters",
-      "source_name": "Lobsters",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-12T08:46:10Z",
-      "fetched_at": "2026-10-12T09:02:17.796810Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50061859",
-      "points": 161,
-      "comments": 30,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 2
-    },
-    {
-      "id": "defc2868d1de038cd44f00f4bbf92d1d",
-      "title": "Implementing kubernetes node bin packing",
-      "url": "https://blog.costgraph.ai/node-rightsizing/",
-      "source_id": "lobsters",
-      "source_name": "Lobsters",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-12T08:32:12Z",
-      "fetched_at": "2026-10-12T09:02:17.796810Z",
-      "discussion_url": "https://lobste.rs/s/nothr5/implementing_kubernetes_node_bin",
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "8a333f4afad3d32667da11c00bdab857",
-      "title": "Fable Took My Job",
-      "url": "https://cendyne.dev/posts/2026-10-11-fable-took-my-jorb.html",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-12T08:30:33Z",
-      "fetched_at": "2026-10-12T10:02:17.069478Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50053216",
-      "points": 154,
-      "comments": 189,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "b3a7aa9ccc5bf5207cfb192672661b3b",
-      "title": "We Put Fighting Game Netcode in Brood War",
-      "url": "https://www.youtube.com/watch?v=vIt9xua9bLc",
-      "source_id": "lobsters",
-      "source_name": "Lobsters",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-12T08:27:11Z",
-      "fetched_at": "2026-10-12T09:02:17.796810Z",
-      "discussion_url": "https://lobste.rs/s/gr0ptb/we_put_fighting_game_netcode_brood_war",
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "b63be26e90d5c86cb0fb0efd38dad7d1",
-      "title": "Raspberry Pi Desktop catches up with Debian 13 after 4-year wait",
-      "url": "https://www.theregister.com/os-platforms/2026/10/12/raspberry-pi-desktop-catches-up-with-debian-13-after-4-year-wait/5301693",
-      "source_id": "the-register",
-      "source_name": "The Register",
-      "category": "tech",
-      "summary": "Want a lightweight GUI OS for an old PC? Try this first",
-      "published_at": "2026-10-12T08:15:00Z",
-      "fetched_at": "2026-10-12T09:02:17.796810Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
       "id": "960632550ac970b65271b918fb77e120",
       "title": "Highlights from \"I spent 6 years developing a game in Rust and it just shipped, AMA\" (2024)",
       "url": "https://gamesbymason.com/blog/2024/6-years-in-rust-ama/#what-made-you-decide-to-use-rust",
@@ -25817,58 +25763,42 @@
   "top_stories": [
     {
       "id": "92dd60e220b1c2f0c868691a0e329712",
-      "title": "ConnectWise Disables Cloud Services Following Microsoft 365 Tenant Compromise",
-      "summary": "ConnectWise has turned off several of its SaaS-y backup, security, and management services to investigate a security incident. The company disabled seven application identities after unauthorized threat actors compromised Microsoft 365 tenants.",
-      "why_it_matters": "This is critical security news for IT administrators and managed service providers using ConnectWise products and Microsoft 365 integrations.",
+      "title": "ConnectWise suspends cloud services following security incident",
+      "summary": "ConnectWise has disabled several application identities and turned off cloud backup, security, and management services to investigate an incident. The action comes after threat actors reportedly obtained unauthorized access to Microsoft 365 tenants.",
+      "why_it_matters": "It impacts cloud infrastructure security and requires administrators to review third-party access and connected integrations.",
       "item_ids": [
         "92dd60e220b1c2f0c868691a0e329712",
         "7c86a93f000579e53fd839a06913eec3"
       ],
       "primary_url": null,
       "first_shown": "2026-10-17T09:02:05.365336Z",
-      "last_shown": "2026-10-19T08:01:32.713557Z"
-    },
-    {
-      "id": "84248f3bb838b097c4537fb0b107a336",
-      "title": "Anthropic Commits Shares to Public Benefit Fund and Gives Watchdog Access",
-      "summary": "Anthropic is committing 5% of its shares to a public benefit fund and has given an outside AI watchdog employee-like access to publish findings without approval. Meanwhile, reports note that its workforce is becoming less junior, spending more time in meetings, and changing its employment structure.",
-      "why_it_matters": "Major developments in AI governance, corporate structure, and transparency directly impact the AI ecosystem and developer trust.",
-      "item_ids": [
-        "84248f3bb838b097c4537fb0b107a336",
-        "714666ded8b218868c18a20e799c7dd8",
-        "fb51dc534bd0b5c32c6507230163a000",
-        "86fcb061472457a75bca0ab2848ea1d9",
-        "400761d0ded12e8ce1bbc15ab8b6b4aa"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-18T11:46:36.584602Z",
-      "last_shown": "2026-10-19T08:01:32.713557Z"
+      "last_shown": "2026-10-19T09:01:28.556618Z"
     },
     {
       "id": "55e307d5f0302c924e01841ed318a2b9",
-      "title": "New Video Game Ownership Bills Introduced in Congress and New York",
-      "summary": "A video game ownership bill has been introduced in Congress by Rep. Ritchie Torres to direct the FTC to establish standards, following a similar state-level announcement in New York. The legislation aims to require digital ownership rather than mere licensing.",
-      "why_it_matters": "This legislation could set legal precedents for software licensing, digital goods, and consumer rights.",
+      "title": "Proposed bills in Congress and New York target video game licensing",
+      "summary": "A video game ownership bill has been introduced in Congress, directing the FTC to establish rules. Additionally, New York has announced a game ownership bill requiring ownership rather than software licensing.",
+      "why_it_matters": null,
       "item_ids": [
         "55e307d5f0302c924e01841ed318a2b9",
         "816ca3a8233f2d3c66f35f2cf4269cae"
       ],
       "primary_url": null,
       "first_shown": "2026-10-18T08:02:03.151514Z",
-      "last_shown": "2026-10-19T08:01:32.713557Z"
+      "last_shown": "2026-10-19T09:01:28.556618Z"
     },
     {
       "id": "97e65f9e816ceb737aecd6ecf403a81c",
-      "title": "Meta Updates Terms and Language Regarding Data Scraping and AI Training",
-      "summary": "Legal experts have warned that Meta's new terms still grant broad scraping permissions, even after the company removed language that raised scraping and AI training concerns. A Meta spokesperson insisted the updated terms did not reflect a change in how the company crawls the web.",
-      "why_it_matters": "Changes to platform terms of service and data scraping policies impact developers and web scraping practices.",
+      "title": "Meta updates terms amid scraping and AI training concerns",
+      "summary": "Meta has removed language from its terms that raised scraping and AI training concerns. However, legal experts warn that Meta's new terms still grant broad scraping permissions, while a company spokesperson insisted the update did not reflect a change in crawling behavior.",
+      "why_it_matters": "It affects data privacy policies and web scraping practices used for AI model training.",
       "item_ids": [
         "97e65f9e816ceb737aecd6ecf403a81c",
         "f44f6e736d881b5092377418258287eb"
       ],
       "primary_url": null,
       "first_shown": "2026-10-16T17:02:48.605734Z",
-      "last_shown": "2026-10-19T08:01:32.713557Z"
+      "last_shown": "2026-10-19T09:01:28.556618Z"
     },
     {
       "id": "7e96a5cc3f3eddb5a0fa87ec0758ec1e",
@@ -25881,8 +25811,82 @@
       ],
       "primary_url": null,
       "first_shown": "2026-10-19T07:01:34.208372Z",
-      "last_shown": "2026-10-19T08:01:32.713557Z"
+      "last_shown": "2026-10-19T09:01:28.556618Z"
     },
+    {
+      "id": "fe8d0b1bc1ec14dcefb9d7f63ec5d63d",
+      "title": "Unpatched Broadcom Wi-Fi Flaw Lets Attackers in Range Run Code as Root on Routers",
+      "summary": "A flaw in Broadcom's Wi-Fi setup software lets an attacker within radio range run code as root on Broadcom-based routers, without the network password or any pairing step, security researcher Quentin Kaiser disclosed on October 16. He showed the attack working against home gateways supplied by three Belgian internet providers, in one case reading the Wi-Fi password off the device",
+      "why_it_matters": "An unpatched remote code execution vulnerability in Broadcom Wi-Fi setup software allows attackers within range to run code as root.",
+      "item_ids": [
+        "fe8d0b1bc1ec14dcefb9d7f63ec5d63d"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-19T08:01:32.713557Z",
+      "last_shown": "2026-10-19T09:01:28.556618Z"
+    },
+    {
+      "id": "086ab5933737328d8de426474f210975",
+      "title": "Microsoft: October Windows Server updates break Exchange sign-in, mail flow",
+      "summary": "Microsoft has confirmed that this month's Windows Server security updates are causing OWA sign-in and mail delivery issues on some Exchange Server systems. [...]",
+      "why_it_matters": "Microsoft confirms that October security updates break Exchange sign-in and mail delivery, requiring immediate administrator attention.",
+      "item_ids": [
+        "086ab5933737328d8de426474f210975"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-19T09:01:28.556618Z",
+      "last_shown": "2026-10-19T09:01:28.556618Z"
+    },
+    {
+      "id": "dd12b97f57e3660c324e1abdbcf4b5ba",
+      "title": "OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys",
+      "summary": "An intruder reached a legacy system at OpenCode on the night of October 16 and may have exposed the third-party AI provider keys that users had saved in OpenCode Console, the company said. Console is OpenCode's optional hosted service: a workspace saves its own OpenAI, Anthropic, or Google key there, and Console uses that key to call the provider so team members can use the models without",
+      "why_it_matters": "A legacy system breach at OpenCode may have exposed third-party AI provider API keys saved by users.",
+      "item_ids": [
+        "dd12b97f57e3660c324e1abdbcf4b5ba"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-19T08:01:32.713557Z",
+      "last_shown": "2026-10-19T09:01:28.556618Z"
+    },
+    {
+      "id": "0fb423fa7ebabbbf0c3824f9310b2bb1",
+      "title": "Linux KVM guest-host escape rated critical, may represent a new way to attack penguin-powered networking",
+      "summary": "Party like it’s CVE-2026-99999 – a 9.3-rated nasty called PwnEscape",
+      "why_it_matters": "A critical Linux KVM guest-host escape vulnerability named PwnEscape presents a new attack vector for network infrastructure.",
+      "item_ids": [
+        "0fb423fa7ebabbbf0c3824f9310b2bb1"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-19T03:02:00.701735Z",
+      "last_shown": "2026-10-19T09:01:28.556618Z"
+    },
+    {
+      "id": "3e9ec10a9d27e0eebac848098d41667b",
+      "title": "Hybrid Reasoning Agents: 35–55% fewer tokens and up to 2.6× faster inference",
+      "summary": "https://x.com/Jiaru_Zou/status/2110400256647340476https://github.com/togethercomputer/HybridAgenthttps://huggingface.co/collections/togethercomputer/hybridag...Evaluations: https://arxiv.org/html/2610.18861v1#S5",
+      "why_it_matters": "Hybrid Reasoning Agents demonstrate significantly fewer tokens and faster inference speeds for LLM workflows.",
+      "item_ids": [
+        "3e9ec10a9d27e0eebac848098d41667b"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-19T01:01:59.523346Z",
+      "last_shown": "2026-10-19T09:01:28.556618Z"
+    },
+    {
+      "id": "fb51dc534bd0b5c32c6507230163a000",
+      "title": "Anthropic gives outside AI watchdog “employee-like” access",
+      "summary": "The outside watchdog can publish its findings without Anthropic's approval.",
+      "why_it_matters": "Anthropic grants an outside AI watchdog employee-like access with the freedom to publish findings independently.",
+      "item_ids": [
+        "fb51dc534bd0b5c32c6507230163a000"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-18T11:46:36.584602Z",
+      "last_shown": "2026-10-19T09:01:28.556618Z"
+    }
+  ],
+  "past_top_stories": [
     {
       "id": "f36f6aa4e7c279b4eb3ee53745e1f27b",
       "title": "Police Officer Fired for Sharing Flock Search Login with ICE Agent",
@@ -25897,18 +25901,6 @@
       "last_shown": "2026-10-19T08:01:32.713557Z"
     },
     {
-      "id": "0fb423fa7ebabbbf0c3824f9310b2bb1",
-      "title": "Linux KVM guest-host escape rated critical, may represent a new way to attack penguin-powered networking",
-      "summary": "Party like it’s CVE-2026-99999 – a 9.3-rated nasty called PwnEscape",
-      "why_it_matters": "A critical Linux KVM guest-host escape vulnerability rated 9.3 poses serious risks for virtualized networking infrastructure.",
-      "item_ids": [
-        "0fb423fa7ebabbbf0c3824f9310b2bb1"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-19T03:02:00.701735Z",
-      "last_shown": "2026-10-19T08:01:32.713557Z"
-    },
-    {
       "id": "e40163efa0821bf497bcb4438fadbe83",
       "title": "NestJS 12: ESM Packages, Standard Schema Validation and Native Observability",
       "summary": "NestJS version 12 has been released, transitioning core packages to ESM and adding Standard Schema validation. It updates the CLI and introduces an observability SDK. Key changes include project generation choices between CJS and ESM, improved validation options, and lifecycle project hooks. Users will need Node.js 20.19+ or 22.12+. Migration guides are available for upgrading. By Daniel Curtis",
@@ -25920,32 +25912,6 @@
       "first_shown": "2026-10-19T08:01:32.713557Z",
       "last_shown": "2026-10-19T08:01:32.713557Z"
     },
-    {
-      "id": "fe8d0b1bc1ec14dcefb9d7f63ec5d63d",
-      "title": "Unpatched Broadcom Wi-Fi Flaw Lets Attackers in Range Run Code as Root on Routers",
-      "summary": "A flaw in Broadcom's Wi-Fi setup software lets an attacker within radio range run code as root on Broadcom-based routers, without the network password or any pairing step, security researcher Quentin Kaiser disclosed on October 16. He showed the attack working against home gateways supplied by three Belgian internet providers, in one case reading the Wi-Fi password off the device",
-      "why_it_matters": "An unpatched Broadcom Wi-Fi vulnerability allows attackers within range to execute code as root on routers without authentication.",
-      "item_ids": [
-        "fe8d0b1bc1ec14dcefb9d7f63ec5d63d"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-19T08:01:32.713557Z",
-      "last_shown": "2026-10-19T08:01:32.713557Z"
-    },
-    {
-      "id": "dd12b97f57e3660c324e1abdbcf4b5ba",
-      "title": "OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys",
-      "summary": "An intruder reached a legacy system at OpenCode on the night of October 16 and may have exposed the third-party AI provider keys that users had saved in OpenCode Console, the company said. Console is OpenCode's optional hosted service: a workspace saves its own OpenAI, Anthropic, or Google key there, and Console uses that key to call the provider so team members can use the models without",
-      "why_it_matters": "OpenCode Console suffered a legacy system breach that may have exposed third-party API keys for OpenAI, Anthropic, and Google.",
-      "item_ids": [
-        "dd12b97f57e3660c324e1abdbcf4b5ba"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-19T08:01:32.713557Z",
-      "last_shown": "2026-10-19T08:01:32.713557Z"
-    }
-  ],
-  "past_top_stories": [
     {
       "id": "689044c8de96b559c5705ee0465e372f",
       "title": "The 7.3 kernel has been released",
@@ -26019,18 +25985,6 @@
       "last_shown": "2026-10-19T05:02:00.161844Z"
     },
     {
-      "id": "3e9ec10a9d27e0eebac848098d41667b",
-      "title": "Hybrid Reasoning Agents: 35–55% fewer tokens and up to 2.6× faster inference",
-      "summary": "https://x.com/Jiaru_Zou/status/2110400256647340476https://github.com/togethercomputer/HybridAgenthttps://huggingface.co/collections/togethercomputer/hybridag...Evaluations: https://arxiv.org/html/2610.18861v1#S5",
-      "why_it_matters": "New architectural reasoning approaches that significantly reduce token usage and improve inference speed directly affect the cost and feasibility of deploying LLMs.",
-      "item_ids": [
-        "3e9ec10a9d27e0eebac848098d41667b"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-19T01:01:59.523346Z",
-      "last_shown": "2026-10-19T04:02:02.469757Z"
-    },
-    {
       "id": "875acd5997b8965e553a786148e3e5ab",
       "title": "Liquid AI caught its model cheating on coding tests — then it recognized the sandbox",
       "summary": "Liquid AI’s new reasoning model was built to solve coding problems, but during training it kept combing Git history, GitHub, The post Liquid AI caught its model cheating on coding tests — then it recognized the sandbox appeared first on The New Stack.",
@@ -26052,18 +26006,6 @@
       ],
       "primary_url": null,
       "first_shown": "2026-10-18T06:02:03.198800Z",
-      "last_shown": "2026-10-18T23:01:59.135914Z"
-    },
-    {
-      "id": "cd836c2ea8c8846a8dc0a946c9157941",
-      "title": "Time Lords kill leap seconds, which they warn could become the new Y2K bug",
-      "summary": "Cite difficulty of updating IoT devices as major reason to stop adding time",
-      "why_it_matters": "Phasing out leap seconds removes edge-case time synchronization bugs that trouble distributed databases, operating systems, and IoT devices.",
-      "item_ids": [
-        "cd836c2ea8c8846a8dc0a946c9157941"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-18T23:01:59.135914Z",
       "last_shown": "2026-10-18T23:01:59.135914Z"
     }
   ]
