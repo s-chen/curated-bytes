@@ -1,6 +1,222 @@
 {
-  "generated_at": "2026-10-19T12:01:31.381537Z",
+  "generated_at": "2026-10-19T13:01:31.912970Z",
   "items": [
+    {
+      "id": "57f9bdb1ed32c44693a1c00ebc8126e9",
+      "title": "Inside Prometheus: Meta’s Journey to a Gigawatt-Scale Supercluster",
+      "url": "https://engineering.fb.com/2026/10/19/data-center-engineering/inside-prometheus-meta-gigawatt-scale-supercluster/",
+      "source_id": "meta-engineering",
+      "source_name": "Engineering at Meta",
+      "category": "tech",
+      "summary": "With the recent release of the Muse family of foundational models, we want to take you inside the infrastructure that has made it all possible. The first phase of Prometheus, our gigawatt-scale supercluster, is already complete and we’re working toward scaling it to comprise ~1 million GPUs. Prometheus also features technologies like closed-loop liquid cooling [...] Read More... The post Inside Prometheus: Meta’s Journey to a Gigawatt-Scale Supercluster appeared first on Engineering at Meta.",
+      "published_at": "2026-10-19T13:00:10Z",
+      "fetched_at": "2026-10-19T13:01:31.912970Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": true,
+      "blog": true,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "0627f6967125c427fbc82b2b0420c176",
+      "title": "Wyze moved the screen on its new smart scale to the handle so it’s easier to read at eye level",
+      "url": "https://www.theverge.com/tech/1013081/wyze-smart-scale-ultra-bodyscan-plus-handle-display",
+      "source_id": "the-verge",
+      "source_name": "The Verge",
+      "category": "tech",
+      "summary": "Wyze announced a new version of its Ultra BodyScan smart scale that debuted nearly a year ago with additional electrodes on a retractable handle, allowing it to provide a breakdown of various health metrics across your arms, legs, and torso. With the new Ultra BodyScan Plus, Wyze is introducing a redesign that moves the scale's […]",
+      "published_at": "2026-10-19T13:00:00Z",
+      "fetched_at": "2026-10-19T13:01:31.912970Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 1
+    },
+    {
+      "id": "0a1ad849d33b4a6896765beb06816b78",
+      "title": "Admin: 'I spent all weekend on my servers' after Microsoft breaks Exchange Server with October updates",
+      "url": "https://www.theregister.com/software/2026/10/19/admin-i-spent-all-weekend-on-my-servers-after-microsoft-breaks-exchange-server-with-october-updates/5303724",
+      "source_id": "the-register",
+      "source_name": "The Register",
+      "category": "tech",
+      "summary": "OWA borked and lengthy email queues reported on busy servers after Microsoft tweaks a Server default",
+      "published_at": "2026-10-19T13:00:00Z",
+      "fetched_at": "2026-10-19T13:01:31.912970Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 4
+    },
+    {
+      "id": "dce4c55d6db2e2e116df534200588f66",
+      "title": "Beyond the patch: Protecting your NetScaler gateway against future vulnerabilities",
+      "url": "https://blog.cloudflare.com/protect-your-netscaler-gateway/",
+      "source_id": "cloudflare-blog",
+      "source_name": "Cloudflare Blog",
+      "category": "tech",
+      "summary": "CVE-2026-88771 lets attackers run commands on NetScaler Gateway before anyone signs in. Patching takes time most teams don't have, so the sign-in decision has to move in front of the vulnerable code.",
+      "published_at": "2026-10-19T13:00:00Z",
+      "fetched_at": "2026-10-19T13:01:31.912970Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": true,
+      "blog": true,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "0a73273635ab829887331109af815b73",
+      "title": "The distroless security gap: Why bottom-up containers are the next evolution in OCI images",
+      "url": "https://thenewstack.io/distroless-container-security-gap/",
+      "source_id": "the-new-stack",
+      "source_name": "The New Stack",
+      "category": "tech",
+      "summary": "Ever tried to shrink your container images to reduce their attack surface? If you have, you’ve likely discovered a frustrating The post The distroless security gap: Why bottom-up containers are the next evolution in OCI images appeared first on The New Stack.",
+      "published_at": "2026-10-19T13:00:00Z",
+      "fetched_at": "2026-10-19T13:01:31.912970Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 2
+    },
+    {
+      "id": "07dd05a9abebcc54adeb46591f067dbb",
+      "title": "Apple updates guidelines to ban nudify apps masquerading as regular apps to pass review",
+      "url": "https://techcrunch.com/2026/10/19/apple-updates-guidelines-to-ban-nudify-apps-masquerading-as-regular-apps-to-pass-review/",
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "category": "tech",
+      "summary": "Apple said that it will ban AI apps that don't moderate offensive content.",
+      "published_at": "2026-10-19T12:56:14Z",
+      "fetched_at": "2026-10-19T13:01:31.912970Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "d120545b9688daab8f914be76024f8e6",
+      "title": "Microsoft fixes classic Outlook bug that hid Copilot buttons",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-that-hid-copilot-buttons-in-classic-outlook/",
+      "source_id": "bleepingcomputer",
+      "source_name": "BleepingComputer",
+      "category": "tech",
+      "summary": "Microsoft has fixed a known issue that removed the Copilot Chat and Copilot buttons in the classic Outlook desktop mail client for some Windows users. [...]",
+      "published_at": "2026-10-19T12:44:44Z",
+      "fetched_at": "2026-10-19T13:01:31.912970Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 2
+    },
+    {
+      "id": "c6f774f010b40cb7e8b57032dd84e968",
+      "title": "Musk pledges to give ‘every kid in America’ one of his SpaceX shares",
+      "url": "https://techcrunch.com/2026/10/19/musk-pledges-to-give-every-kid-in-america-one-of-his-spacex-shares/",
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "category": "tech",
+      "summary": "That's more than $10 billion in shares, or around 1% of Musk's current net worth.",
+      "published_at": "2026-10-19T12:42:55Z",
+      "fetched_at": "2026-10-19T13:01:31.912970Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 1
+    },
+    {
+      "id": "e48ad8ad7f7a5b08260076bf9169e32d",
+      "title": "Vibe coding is turning the music gear world upside down",
+      "url": "https://www.theverge.com/gadgets/1013493/vibe-coding-ai-music-gear-hacking-custom-firmware",
+      "source_id": "the-verge",
+      "source_name": "The Verge",
+      "category": "tech",
+      "summary": "If you spend any time on r/synthesizers or watch a lot of synth videos on YouTube, you've probably noticed the explosion of custom firmware for hardware synthesizers, samplers, and grooveboxes. What unites almost all of them is that they were made possible by increasingly sophisticated vibe coding tools. These sorts of custom firmware were exceedingly […]",
+      "published_at": "2026-10-19T12:30:00Z",
+      "fetched_at": "2026-10-19T13:01:31.912970Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 2
+    },
+    {
+      "id": "6469e974fd0d129c91104ff42e3f5f5a",
+      "title": "Microsoft abandons UK AI supercomputer as grid struggles to keep up",
+      "url": "https://www.theregister.com/on-prem/2026/10/19/microsoft-abandons-uk-ai-supercomputer-as-grid-struggles-to-keep-up/5303824",
+      "source_id": "the-register",
+      "source_name": "The Register",
+      "category": "tech",
+      "summary": "Tech giant walks away from flagship Essex project as power connection delays threaten to leave nation's AI ambitions waiting until the 2030s",
+      "published_at": "2026-10-19T12:15:48Z",
+      "fetched_at": "2026-10-19T13:01:31.912970Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "8e7038fd8d733a9a23b4f6ba0e4802a7",
+      "title": "What are you doing this week?",
+      "url": "https://lobste.rs/s/vyfegx/what_are_you_doing_this_week",
+      "source_id": "lobsters",
+      "source_name": "Lobsters",
+      "category": "tech",
+      "summary": "What are you doing this week? Feel free to share! Keep in mind it’s OK to do nothing at all, too.",
+      "published_at": "2026-10-19T12:09:29Z",
+      "fetched_at": "2026-10-19T13:01:31.912970Z",
+      "discussion_url": "https://lobste.rs/s/vyfegx/what_are_you_doing_this_week",
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "pending",
+      "importance": null
+    },
+    {
+      "id": "9343bdaf0c2d550658748ccf49a7bb74",
+      "title": "Harness Engineering 101: The LLM is the brain, the harness is the body",
+      "url": "https://github.com/IsuruMaduranga/harness-engineering-101",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-19T12:07:41Z",
+      "fetched_at": "2026-10-19T13:01:31.912970Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50151390",
+      "points": 30,
+      "comments": 6,
+      "engineering": false,
+      "blog": null,
+      "review": "excluded",
+      "importance": null
+    },
     {
       "id": "1d7aa9cfab7ec3cc26d69d56b1237b35",
       "title": "Democrats think cracking down on AI could give them an edge",
@@ -17,7 +233,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "334ab7f98fa54d2cdc87e9b15a71ac08",
@@ -54,6 +270,60 @@
       "blog": false,
       "review": "kept",
       "importance": 4
+    },
+    {
+      "id": "9def3e4e11179d8170733cfb1058086a",
+      "title": "ESA's Hera Will View Asteroid Scars from DART's Strike",
+      "url": "https://spectrum.ieee.org/esa-hera-dimorphos-rendezvous",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-19T11:12:02Z",
+      "fetched_at": "2026-10-19T13:01:31.912970Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50150935",
+      "points": 15,
+      "comments": 0,
+      "engineering": false,
+      "blog": false,
+      "review": "pending",
+      "importance": null
+    },
+    {
+      "id": "40d94d7c2ca8ff899e193d370b644e56",
+      "title": "Alternatives to Animal Testing Are Finally Taking Off",
+      "url": "https://spectrum.ieee.org/alternatives-to-animal-testing",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-19T11:10:54Z",
+      "fetched_at": "2026-10-19T13:01:31.912970Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50150927",
+      "points": 35,
+      "comments": 5,
+      "engineering": false,
+      "blog": false,
+      "review": "pending",
+      "importance": null
+    },
+    {
+      "id": "7ba9f2465d75e15ddb58a8e4c5110e02",
+      "title": "Stratospheric airship flew from US to Japan to test sky cell tower concept",
+      "url": "https://arstechnica.com/gadgets/2026/10/trans-pacific-journey-tested-stratospheric-cell-tower-concept-in-japan/",
+      "source_id": "ars-technica",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "summary": "Tests showed Sceye’s high-flying platform can deliver connectivity in disasters.",
+      "published_at": "2026-10-19T11:05:49Z",
+      "fetched_at": "2026-10-19T13:01:31.912970Z",
+      "discussion_url": "https://arstechnica.com/gadgets/2026/10/trans-pacific-journey-tested-stratospheric-cell-tower-concept-in-japan/#comments",
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 2
     },
     {
       "id": "dd5010dbd44a383d3eee1a4e19ad08a7",
@@ -107,7 +377,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "59c1a2278e082d1b1f8cb7f238720795",
@@ -125,7 +395,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "9689e72935753f0bdd8f298d6b48ad28",
@@ -138,8 +408,8 @@
       "published_at": "2026-10-19T10:53:39Z",
       "fetched_at": "2026-10-19T12:01:31.381537Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50150809",
-      "points": 14,
-      "comments": 0,
+      "points": 51,
+      "comments": 11,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -156,8 +426,8 @@
       "published_at": "2026-10-19T10:45:14Z",
       "fetched_at": "2026-10-19T12:01:31.381537Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50150750",
-      "points": 6,
-      "comments": 0,
+      "points": 182,
+      "comments": 92,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -299,9 +569,9 @@
       "summary": null,
       "published_at": "2026-10-19T09:59:32Z",
       "fetched_at": "2026-10-19T12:01:31.381537Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50150434",
-      "points": 38,
-      "comments": 2,
+      "discussion_url": "https://lobste.rs/s/7r9dcc/timestral_mistral_s_time_series",
+      "points": null,
+      "comments": null,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -341,7 +611,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "ce207c1c2a6869d2fd49f42b883026d5",
@@ -465,7 +735,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 2
     },
@@ -521,7 +791,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 1
     },
     {
       "id": "872f1c30f13f7182e319c2e476e75091",
@@ -609,7 +879,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 2
     },
@@ -642,8 +912,8 @@
       "published_at": "2026-10-19T05:55:31Z",
       "fetched_at": "2026-10-19T08:01:32.713557Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50148855",
-      "points": 56,
-      "comments": 30,
+      "points": 74,
+      "comments": 44,
       "engineering": false,
       "blog": true,
       "review": "kept",
@@ -701,7 +971,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "9aa66ce7fdb202fbd2586df2678f89a2",
@@ -843,7 +1113,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 2
     },
@@ -858,8 +1128,8 @@
       "published_at": "2026-10-19T02:01:16Z",
       "fetched_at": "2026-10-19T04:02:02.469757Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50147492",
-      "points": 104,
-      "comments": 42,
+      "points": 109,
+      "comments": 51,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -881,7 +1151,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "eba45f121160dbfabe7c281326493aff",
@@ -989,7 +1259,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "26a05a17c8d4c09268f9c1f0c368b1af",
@@ -1007,7 +1277,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 1
+      "importance": 2
     },
     {
       "id": "56ec28a130e3ae8782fc1f15e4558e1d",
@@ -1074,8 +1344,8 @@
       "published_at": "2026-10-18T23:37:57Z",
       "fetched_at": "2026-10-19T01:01:59.523346Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50146625",
-      "points": 199,
-      "comments": 80,
+      "points": 212,
+      "comments": 86,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -1092,8 +1362,8 @@
       "published_at": "2026-10-18T23:37:54Z",
       "fetched_at": "2026-10-19T03:02:00.701735Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50146624",
-      "points": 77,
-      "comments": 89,
+      "points": 89,
+      "comments": 107,
       "engineering": false,
       "blog": false,
       "review": "excluded",
@@ -1131,7 +1401,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 2
     },
@@ -1218,8 +1488,8 @@
       "published_at": "2026-10-18T21:36:10Z",
       "fetched_at": "2026-10-18T23:01:59.135914Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50145715",
-      "points": 115,
-      "comments": 66,
+      "points": 121,
+      "comments": 67,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -1254,8 +1524,8 @@
       "published_at": "2026-10-18T21:09:12Z",
       "fetched_at": "2026-10-19T01:01:59.523346Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50145507",
-      "points": 197,
-      "comments": 145,
+      "points": 210,
+      "comments": 152,
       "engineering": false,
       "blog": true,
       "review": "kept",
@@ -1290,8 +1560,8 @@
       "published_at": "2026-10-18T20:48:14Z",
       "fetched_at": "2026-10-18T21:02:05.101023Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50145337",
-      "points": 426,
-      "comments": 210,
+      "points": 441,
+      "comments": 216,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -1437,7 +1707,7 @@
       "points": 58,
       "comments": 59,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 2
     },
@@ -1475,7 +1745,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 1
     },
     {
       "id": "68475fae1ffc7b799e8a46fdf4cd6e0e",
@@ -1487,13 +1757,13 @@
       "summary": null,
       "published_at": "2026-10-18T18:48:04Z",
       "fetched_at": "2026-10-18T20:02:01.693735Z",
-      "discussion_url": "https://lobste.rs/s/dc2efo/dynamic_packages",
-      "points": null,
-      "comments": null,
+      "discussion_url": "https://news.ycombinator.com/item?id=50144066",
+      "points": 170,
+      "comments": 44,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "af37ddb59e711df8f5b5683a9c68db5a",
@@ -1614,7 +1884,7 @@
       "published_at": "2026-10-18T17:56:59Z",
       "fetched_at": "2026-10-18T20:02:01.693735Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50143536",
-      "points": 135,
+      "points": 137,
       "comments": 33,
       "engineering": false,
       "blog": null,
@@ -1725,7 +1995,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 2
     },
@@ -1740,8 +2010,8 @@
       "published_at": "2026-10-18T16:32:00Z",
       "fetched_at": "2026-10-18T18:02:04.744228Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50142573",
-      "points": 467,
-      "comments": 169,
+      "points": 486,
+      "comments": 175,
       "engineering": false,
       "blog": true,
       "review": "kept",
@@ -1763,7 +2033,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "816ca3a8233f2d3c66f35f2cf4269cae",
@@ -1781,7 +2051,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 2
     },
     {
       "id": "fb51dc534bd0b5c32c6507230163a000",
@@ -1943,7 +2213,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "075b287a9740a1b7e04f7f1b2d45dfa5",
@@ -1974,8 +2244,8 @@
       "published_at": "2026-10-18T14:47:37Z",
       "fetched_at": "2026-10-18T16:02:01.788513Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50141579",
-      "points": 177,
-      "comments": 136,
+      "points": 179,
+      "comments": 139,
       "engineering": false,
       "blog": true,
       "review": "kept",
@@ -2015,7 +2285,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "875acd5997b8965e553a786148e3e5ab",
@@ -2069,7 +2339,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "f52605ec1f8f8977a38dee54acb5dd34",
@@ -2087,7 +2357,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "e61ddb111e15a7c5b86608a92ab8d927",
@@ -2157,7 +2427,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -2172,8 +2442,8 @@
       "published_at": "2026-10-18T13:48:48Z",
       "fetched_at": "2026-10-18T15:01:59.401359Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50141076",
-      "points": 403,
-      "comments": 64,
+      "points": 411,
+      "comments": 65,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -2321,7 +2591,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 1
     },
     {
       "id": "20acc345304702b188337f17831ce0d1",
@@ -2501,7 +2771,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "6deb2efca54aaa41377ddecc00d23164",
@@ -2627,7 +2897,7 @@
       "engineering": false,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "13d25d63ead038e2677f4dfdd40dcfdc",
@@ -2753,7 +3023,7 @@
       "engineering": false,
       "blog": true,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "5b9531cd42b2f2a4c1f399a87d6d1b65",
@@ -24788,330 +25058,6 @@
       "importance": 5
     },
     {
-      "id": "f62e7860541f919831b2bf0c1256864a",
-      "title": "Google announces the Fitbit Edge, a middle ground between Pixel Watch 5 and Fitbit Air",
-      "url": "https://arstechnica.com/gadgets/2026/10/google-announces-the-fitbit-edge-a-middle-ground-between-pixel-watch-5-and-fitbit-air/",
-      "source_id": "ars-technica",
-      "source_name": "Ars Technica",
-      "category": "tech",
-      "summary": "The Fitbit Edge offers more than the Air, but it's not a real smartwatch.",
-      "published_at": "2026-10-12T13:00:52Z",
-      "fetched_at": "2026-10-12T16:02:12.071552Z",
-      "discussion_url": "https://arstechnica.com/gadgets/2026/10/google-announces-the-fitbit-edge-a-middle-ground-between-pixel-watch-5-and-fitbit-air/#comments",
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "cde650e0ffe29275aebca9c5f88bbbda",
-      "title": "Security updates for Monday",
-      "url": "https://lwn.net/Articles/1099949/",
-      "source_id": "lwn",
-      "source_name": "LWN.net",
-      "category": "tech",
-      "summary": "Security updates have been issued by AlmaLinux (cjose, compat-openssl10, compat-openssl11, curl, dogtag-pki, dovecot, emacs, glibc, kernel, openssl, python3.12, python3.14, and sssd), Debian (chromium, ghostscript, tor, and vips), Fedora (kernel, libical, markdownlint-cli2, openbao, openvpn, php-getid3, python3.10, python3.11, and python3.13), Mageia (capnproto, chirp, flatpak, freetype2, hamlib, mingw-pcre2, pcre2, openssl, tomcat, tomcat-native, and xdg-dbus-proxy), Oracle (bind, cjose,…",
-      "published_at": "2026-10-12T13:00:41Z",
-      "fetched_at": "2026-10-12T13:02:11.067627Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "4d060ed6c79d32f2a8cfc0d850538422",
-      "title": "CMF’s first wireless speakers look like musical milk cartons",
-      "url": "https://www.theverge.com/tech/1008191/nothing-cmf-speaker-m-s-series-bluetooth-design-customize",
-      "source_id": "the-verge",
-      "source_name": "The Verge",
-      "category": "tech",
-      "summary": "The CMF Speaker Series are the first portable Bluetooth speakers from the budget-focused brand that Nothing created but is in the process of spinning off into an India-based standalone subsidiary. As with many of CMF's products, like the Headphone Pro that launched a year ago, the new speakers deliver affordability alongside unique designs and bright […]",
-      "published_at": "2026-10-12T13:00:00Z",
-      "fetched_at": "2026-10-12T13:02:11.067627Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 2
-    },
-    {
-      "id": "a6c0b3f7580b69fea79f526df7a92855",
-      "title": "The Fitbit Edge is for folks who don’t want to go totally screenless",
-      "url": "https://www.theverge.com/gadgets/1008410/fitbit-edge-price-battery-specs-fitness-tracker",
-      "source_id": "the-verge",
-      "source_name": "The Verge",
-      "category": "tech",
-      "summary": "The Fitbit Edge may not be Google's best-kept fitness-tracking secret, but as of today, its existence is official. The tracker sits smack-dab between the recently launched Fitbit Air and the more powerful Google Pixel Watch 5 in the company's current wearable lineup. Basically, if you have smartwatch fatigue but don't want to give up notifications, […]",
-      "published_at": "2026-10-12T13:00:00Z",
-      "fetched_at": "2026-10-12T13:02:11.067627Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "d4b50bc6b2e0a17a9a0cc86228f83e0e",
-      "title": "Microsoft’s new AI chip makes it less reliant on Nvidia’s GPUs",
-      "url": "https://www.theverge.com/news/1009465/microsoft-maia-300-chip-improvements-rollout",
-      "source_id": "the-verge",
-      "source_name": "The Verge",
-      "category": "tech",
-      "summary": "Microsoft is announcing its third-generation Maia in-house AI chip today, designed to be the \"primary AI inference system\" for Microsoft's products and services. Maia 300 not only improves the cost and efficiency of running AI workloads in the cloud, it's also more capable of handling the latest reasoning models and agentic tasks. Maia 300 will […]",
-      "published_at": "2026-10-12T13:00:00Z",
-      "fetched_at": "2026-10-12T13:02:11.067627Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 5
-    },
-    {
-      "id": "19fac7dca13337f20b0b5b03cea1f396",
-      "title": "Google Fitbit Edge: Specs, Features, Price, Release Date",
-      "url": "https://www.wired.com/story/googles-fitbit-edge-debuts-a-replaceable-battery-and-brings-back-the-screen/",
-      "source_id": "wired",
-      "source_name": "Wired",
-      "category": "tech",
-      "summary": "The new $179 tracker features Pixel Watch smarts, week-long battery life, and an OLED screen.",
-      "published_at": "2026-10-12T13:00:00Z",
-      "fetched_at": "2026-10-12T14:02:14.663538Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "cc75978348a39f17909129209c1ef203",
-      "title": "UCLA settles Oracle ERP dispute with $3.1M in credits and $1.31M wiped off the bill",
-      "url": "https://www.theregister.com/saas/2026/10/12/ucla-settles-oracle-erp-dispute-with-31m-in-credits-and-131m-wiped-off-the-bill/5302520",
-      "source_id": "the-register",
-      "source_name": "The Register",
-      "category": "tech",
-      "summary": "University alleged cloud software couldn't meet its needs after years of delays to financial systems overhaul",
-      "published_at": "2026-10-12T12:58:00Z",
-      "fetched_at": "2026-10-12T13:02:11.067627Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "d76d7552a8a3efa6b9e19fb29fdd6d51",
-      "title": "Former Plaud exec raises $26M for AI app that listens to you in the background",
-      "url": "https://techcrunch.com/2026/10/12/former-plaud-exec-raises-26m-for-ai-app-that-listens-to-you-in-the-background/",
-      "source_id": "techcrunch",
-      "source_name": "TechCrunch",
-      "category": "tech",
-      "summary": "Ambi is releasing apps for iPhone, Mac, and Apple Watch that enables ambient capture",
-      "published_at": "2026-10-12T12:47:59Z",
-      "fetched_at": "2026-10-12T13:02:11.067627Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "9f3f1977746c22434f29923ef0e6f687",
-      "title": "AI less regulated than milk, Microsoft president says in warning over safety",
-      "url": "https://www.theguardian.com/technology/2026/oct/12/ai-less-regulated-than-milk-microsoft-president-calls-for-tougher-rules",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-12T12:46:52Z",
-      "fetched_at": "2026-10-12T16:02:12.071552Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50055654",
-      "points": 45,
-      "comments": 43,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "c5b4c4daa0905eaa90620373f0ba3c9c",
-      "title": "Inside Amazon’s robotic arms race and what it means for the future of human work",
-      "url": "https://arstechnica.com/ai/2026/10/inside-amazons-robotic-arms-race-and-what-it-means-for-the-future-of-human-work/",
-      "source_id": "ars-technica",
-      "source_name": "Ars Technica",
-      "category": "tech",
-      "summary": "The second-largest corporate employer has bet big on robot workers to scale.",
-      "published_at": "2026-10-12T12:43:10Z",
-      "fetched_at": "2026-10-12T13:02:11.067627Z",
-      "discussion_url": "https://arstechnica.com/ai/2026/10/inside-amazons-robotic-arms-race-and-what-it-means-for-the-future-of-human-work/#comments",
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "fce413df3716c650698a78658197f54e",
-      "title": "Turn a WiFi 7 Router into a 320Msps Software Defined Radio Receiver",
-      "url": "https://github.com/h0m3us3r/w1700k-sdr",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-12T12:41:58Z",
-      "fetched_at": "2026-10-12T17:02:10.650034Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50055593",
-      "points": 229,
-      "comments": 56,
-      "engineering": false,
-      "blog": null,
-      "review": "excluded",
-      "importance": null
-    },
-    {
-      "id": "ddfda23cc2d9947bcd14c75ceae09f68",
-      "title": "Microsoft giveth and Microsoft taketh away: Copilot edition",
-      "url": "https://www.theregister.com/applications/2026/10/12/microsoft-giveth-and-microsoft-taketh-away-copilot-edition/5302542",
-      "source_id": "the-register",
-      "source_name": "The Register",
-      "category": "tech",
-      "summary": "Office documents in Copilot? Absolutely! Using Copilot to make Outlook themes? Nah…",
-      "published_at": "2026-10-12T12:41:00Z",
-      "fetched_at": "2026-10-12T13:02:11.067627Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 2
-    },
-    {
-      "id": "1d497afebc36900804b1914324637a7c",
-      "title": "French supermarket chains say cyberattack forced refrigerator shutdown",
-      "url": "https://www.afp.com/en/french-supermarket-chains-say-cyberattack-forced-refrigerator-shutdown",
-      "source_id": "lobsters",
-      "source_name": "Lobsters",
-      "category": "tech",
-      "summary": "This popped up and reminded me strangely of a story post a month ago here: https://lobste.rs/s/ygjo0g/i_think_military_commissary_freezers And, lo and behold, the very same controller supplier is mentioned in both the earlier US article and the one covering this by french newspaper Le Monde: the danish company Danfoss. I could not find sources mentioning the supplier in English. Comments",
-      "published_at": "2026-10-12T12:23:52Z",
-      "fetched_at": "2026-10-12T13:02:11.067627Z",
-      "discussion_url": "https://lobste.rs/s/u4vlin/french_supermarket_chains_say",
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 4
-    },
-    {
-      "id": "b86d151d39bbef65052e36713e666d30",
-      "title": "Incident with Actions, Pull Requests and Issues",
-      "url": "https://www.githubstatus.com/incidents/93njd414rpbx",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-12T12:23:51Z",
-      "fetched_at": "2026-10-12T14:02:14.663538Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50055375",
-      "points": 148,
-      "comments": 134,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "e6b665da4145ac96c71dc2edb945c7f2",
-      "title": "Hackers activate automatic defrosting accross European supermarket fridges",
-      "url": "https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": "https://www.reuters.com/business/retail-consumer/french-supe...https://www.bbc.com/news/articles/crq5nzxv9q4yohttps://www.lemonde.fr/en/france/article/2026/10/12/french-s...",
-      "published_at": "2026-10-12T12:16:42Z",
-      "fetched_at": "2026-10-12T13:02:11.067627Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50055304",
-      "points": 259,
-      "comments": 500,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 5
-    },
-    {
-      "id": "156c015fb8e87b1cba4095c54b7226d3",
-      "title": "London cabbies want Sadiq Khan to slam the brakes on robotaxis",
-      "url": "https://www.theregister.com/personal-tech/2026/10/12/london-cabbies-want-sadiq-khan-to-slam-the-brakes-on-robotaxis/5302595",
-      "source_id": "the-register",
-      "source_name": "The Register",
-      "category": "tech",
-      "summary": "Union urges Mayor to halt driverless taxi rollout as City Hall report raises questions about safety, congestion, and who's actually in charge",
-      "published_at": "2026-10-12T12:13:00Z",
-      "fetched_at": "2026-10-12T13:02:11.067627Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 2
-    },
-    {
-      "id": "10bef58930e3b47abdd6ce8886d156f4",
-      "title": "Citroen revives the 2CV for an electric age",
-      "url": "https://www.bbc.co.uk/news/articles/c620r33plgppo",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-12T12:09:09Z",
-      "fetched_at": "2026-10-12T13:02:11.067627Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50055220",
-      "points": 114,
-      "comments": 123,
-      "engineering": false,
-      "blog": false,
-      "review": "excluded",
-      "importance": 2
-    },
-    {
-      "id": "10d948633a512d27f012eb5b9a440550",
-      "title": "Citroen revives the 2CV for an electric age",
-      "url": "https://www.bbc.com/news/articles/c620r33plgppo",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-12T12:09:09Z",
-      "fetched_at": "2026-10-12T19:02:10.182905Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50055220",
-      "points": 212,
-      "comments": 238,
-      "engineering": false,
-      "blog": false,
-      "review": "excluded",
-      "importance": 2
-    },
-    {
       "id": "960632550ac970b65271b918fb77e120",
       "title": "Highlights from \"I spent 6 years developing a game in Rust and it just shipped, AMA\" (2024)",
       "url": "https://gamesbymason.com/blog/2024/6-years-in-rust-ama/#what-made-you-decide-to-use-rust",
@@ -25600,44 +25546,131 @@
   ],
   "top_stories": [
     {
-      "id": "fe8d0b1bc1ec14dcefb9d7f63ec5d63d",
-      "title": "Broadcom Wi-Fi Vulnerability Allows Root Code Execution on Routers",
-      "summary": "A 16-year-old security vulnerability in Broadcom Wi-Fi setup software allows attackers within radio range to execute code as root on affected routers. The flaw requires no network password or pairing process and may affect millions of deployed devices.",
-      "why_it_matters": "Engineers deploying or managing affected routers face root-level remote compromise until vulnerable firmware is patched.",
+      "id": "086ab5933737328d8de426474f210975",
+      "title": "October Windows Server Updates Break Exchange Server Mail Flow and Sign-In",
+      "summary": "Microsoft confirmed that this month's Windows Server security updates cause Outlook Web App sign-in and mail delivery issues on some Exchange Server systems. Administrators reported broken OWA interfaces and lengthy email queues after a server default setting was modified.",
+      "why_it_matters": "Systems administrators managing Exchange Server deployments need to be aware of service disruptions and email queueing caused by the updates.",
       "item_ids": [
-        "fe8d0b1bc1ec14dcefb9d7f63ec5d63d",
-        "acb3013993f75088c2ab798a27e33052"
+        "086ab5933737328d8de426474f210975",
+        "0a1ad849d33b4a6896765beb06816b78"
       ],
       "primary_url": null,
-      "first_shown": "2026-10-19T08:01:32.713557Z",
-      "last_shown": "2026-10-19T12:01:31.381537Z"
+      "first_shown": "2026-10-19T09:01:28.556618Z",
+      "last_shown": "2026-10-19T13:01:31.912970Z"
     },
     {
       "id": "7c86a93f000579e53fd839a06913eec3",
-      "title": "ConnectWise Suspends Cloud Backup Services Following Microsoft 365 Tenant Attacks",
-      "summary": "ConnectWise has disabled seven application identities and suspended cloud services while probing unauthorized access. The incident reportedly allowed attackers to compromise customer Microsoft 365 environments.",
-      "why_it_matters": "Engineers and administrators using ConnectWise integrations must review their Microsoft 365 tenants for unauthorized access.",
+      "title": "ConnectWise Suspends Cloud Backup Services Following Microsoft 365 Account Takeovers",
+      "summary": "ConnectWise disabled seven application identities and suspended its cloud backup, security, and management services while probing an unauthorized access incident. Threat intelligence firm Huntress reported that attackers obtained access to compromise Microsoft 365 tenants.",
+      "why_it_matters": "Organizations relying on ConnectWise SaaS tools must assess their Microsoft 365 tenants for potential account takeovers.",
       "item_ids": [
         "7c86a93f000579e53fd839a06913eec3",
         "92dd60e220b1c2f0c868691a0e329712"
       ],
       "primary_url": null,
       "first_shown": "2026-10-17T09:02:05.365336Z",
-      "last_shown": "2026-10-19T12:01:31.381537Z"
+      "last_shown": "2026-10-19T13:01:31.912970Z"
+    },
+    {
+      "id": "fe8d0b1bc1ec14dcefb9d7f63ec5d63d",
+      "title": "Unpatched Broadcom Wi-Fi Vulnerability Allows Code Execution as Root",
+      "summary": "A flaw in Broadcom Wi-Fi setup software allows attackers within radio range to execute code as root on affected routers without requiring passwords or pairing. Researchers state the issue has persisted for years and leaves millions of Broadcom-based devices vulnerable.",
+      "why_it_matters": "Network and security engineers must account for unauthenticated local radio attacks against routers built on Broadcom chips.",
+      "item_ids": [
+        "fe8d0b1bc1ec14dcefb9d7f63ec5d63d",
+        "acb3013993f75088c2ab798a27e33052"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-19T08:01:32.713557Z",
+      "last_shown": "2026-10-19T13:01:31.912970Z"
     },
     {
       "id": "f36f6aa4e7c279b4eb3ee53745e1f27b",
-      "title": "Savannah Police Officer Fired for Sharing Flock Surveillance Login With ICE Agent",
-      "summary": "A Savannah police officer was fired after an internal probe revealed she shared her Flock license plate reader credentials with her husband, an ICE agent. The disclosure gave an unauthorized agency direct access to local surveillance systems.",
-      "why_it_matters": "Highlights access control and auditing vulnerabilities in shared law enforcement software platforms.",
+      "title": "Police Officer Fired for Giving Flock Surveillance Credentials to ICE Agent",
+      "summary": "Savannah police officer Amber Harpe was fired after a department investigation revealed she shared her Flock login credentials with her husband, an ICE agent. Department documents showed the unauthorized credential sharing granted external access to the Flock search system.",
+      "why_it_matters": "The incident highlights security concerns around access control, credential sharing, and auditing in surveillance software platforms.",
       "item_ids": [
         "f36f6aa4e7c279b4eb3ee53745e1f27b",
         "d986096ebbdf851ebded074152ffeb5f"
       ],
       "primary_url": null,
       "first_shown": "2026-10-19T05:02:00.161844Z",
-      "last_shown": "2026-10-19T12:01:31.381537Z"
+      "last_shown": "2026-10-19T13:01:31.912970Z"
     },
+    {
+      "id": "0fb423fa7ebabbbf0c3824f9310b2bb1",
+      "title": "Linux KVM guest-host escape rated critical, may represent a new way to attack penguin-powered networking",
+      "summary": "Party like it’s CVE-2026-99999 – a 9.3-rated nasty called PwnEscape",
+      "why_it_matters": "Cloud and infrastructure engineers face a critical 9.3-rated guest-host escape flaw in Linux KVM networking.",
+      "item_ids": [
+        "0fb423fa7ebabbbf0c3824f9310b2bb1"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-19T03:02:00.701735Z",
+      "last_shown": "2026-10-19T13:01:31.912970Z"
+    },
+    {
+      "id": "689044c8de96b559c5705ee0465e372f",
+      "title": "The 7.3 kernel has been released",
+      "summary": null,
+      "why_it_matters": "Linux kernel and systems programmers can inspect the newly released 7.3 kernel.",
+      "item_ids": [
+        "689044c8de96b559c5705ee0465e372f"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-19T00:02:01.111551Z",
+      "last_shown": "2026-10-19T13:01:31.912970Z"
+    },
+    {
+      "id": "62fbc03cb9c7c26f7850dc3f1ea28c84",
+      "title": "Google Adopts Pyrefly for Faster, More Accurate Python Type Checking",
+      "summary": "Google has replaced its long-standing Python type checker, Pytype, with Pyrefly, an open-source tool originally developed by Meta. The decision was driven by Pyrefly's advantages, including faster and more accurate type checking, and lower infrastructure costs. By Sergio De Simone",
+      "why_it_matters": "Python developers can evaluate Meta's open-source Pyrefly tool as Google adopts it to replace Pytype.",
+      "item_ids": [
+        "62fbc03cb9c7c26f7850dc3f1ea28c84"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-18T15:01:59.401359Z",
+      "last_shown": "2026-10-19T13:01:31.912970Z"
+    },
+    {
+      "id": "dd12b97f57e3660c324e1abdbcf4b5ba",
+      "title": "OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys",
+      "summary": "An intruder reached a legacy system at OpenCode on the night of October 16 and may have exposed the third-party AI provider keys that users had saved in OpenCode Console, the company said. Console is OpenCode's optional hosted service: a workspace saves its own OpenAI, Anthropic, or Google key there, and Console uses that key to call the provider so team members can use the models without",
+      "why_it_matters": "Engineers using OpenCode Console must rotate exposed OpenAI, Anthropic, and Google API keys.",
+      "item_ids": [
+        "dd12b97f57e3660c324e1abdbcf4b5ba"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-19T08:01:32.713557Z",
+      "last_shown": "2026-10-19T13:01:31.912970Z"
+    },
+    {
+      "id": "f52605ec1f8f8977a38dee54acb5dd34",
+      "title": "Hackers exploit SiteGuard WAF flaw to run commands as SYSTEM, root",
+      "summary": "Attackers are targeting an OS command injection vulnerability in SiteGuard Server Edition that lets them execute commands as root or SYSTEM on affected servers. [...]",
+      "why_it_matters": "Security teams using SiteGuard Server Edition must patch an actively exploited OS command injection flaw.",
+      "item_ids": [
+        "f52605ec1f8f8977a38dee54acb5dd34"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-18T15:01:59.401359Z",
+      "last_shown": "2026-10-19T13:01:31.912970Z"
+    },
+    {
+      "id": "8d9d2b727538495f9e7282282c1d5527",
+      "title": "Disney agrees to hire the majority of Character.AI’s workforce",
+      "summary": "After chatbot startup Character.AI filed for bankruptcy earlier this week, many of its employees will have the opportunity to take jobs at Disney. Character.AI’s former CEO Karandeep Anand recently became the entertainment giant’s first CTO, and the startup previously said that Disney had agreed to acquire some of its assets for $20 million. A legal […]",
+      "why_it_matters": "Signals significant movement of generative AI workforce and intellectual property following Character.AI's bankruptcy.",
+      "item_ids": [
+        "8d9d2b727538495f9e7282282c1d5527"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-18T08:02:03.151514Z",
+      "last_shown": "2026-10-19T13:01:31.912970Z"
+    }
+  ],
+  "past_top_stories": [
     {
       "id": "55e307d5f0302c924e01841ed318a2b9",
       "title": "Power to the Players Act Introduced in Congress to Mandate Video Game Ownership",
@@ -25652,66 +25685,6 @@
       "last_shown": "2026-10-19T12:01:31.381537Z"
     },
     {
-      "id": "0fb423fa7ebabbbf0c3824f9310b2bb1",
-      "title": "Linux KVM guest-host escape rated critical, may represent a new way to attack penguin-powered networking",
-      "summary": "Party like it’s CVE-2026-99999 – a 9.3-rated nasty called PwnEscape",
-      "why_it_matters": "A critical CVSS 9.3 vulnerability in KVM allows guest virtual machines to escape isolation and compromise host networking.",
-      "item_ids": [
-        "0fb423fa7ebabbbf0c3824f9310b2bb1"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-19T03:02:00.701735Z",
-      "last_shown": "2026-10-19T12:01:31.381537Z"
-    },
-    {
-      "id": "689044c8de96b559c5705ee0465e372f",
-      "title": "The 7.3 kernel has been released",
-      "summary": null,
-      "why_it_matters": "Provides the latest mainline Linux kernel release with updated drivers, architecture support, and core subsystem improvements.",
-      "item_ids": [
-        "689044c8de96b559c5705ee0465e372f"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-19T00:02:01.111551Z",
-      "last_shown": "2026-10-19T12:01:31.381537Z"
-    },
-    {
-      "id": "086ab5933737328d8de426474f210975",
-      "title": "Microsoft: October Windows Server updates break Exchange sign-in, mail flow",
-      "summary": "Microsoft has confirmed that this month's Windows Server security updates are causing OWA sign-in and mail delivery issues on some Exchange Server systems. [...]",
-      "why_it_matters": "Engineers managing Windows Server and Exchange installations must account for broken authentication and mail flow from recent security patches.",
-      "item_ids": [
-        "086ab5933737328d8de426474f210975"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-19T09:01:28.556618Z",
-      "last_shown": "2026-10-19T12:01:31.381537Z"
-    },
-    {
-      "id": "dd12b97f57e3660c324e1abdbcf4b5ba",
-      "title": "OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys",
-      "summary": "An intruder reached a legacy system at OpenCode on the night of October 16 and may have exposed the third-party AI provider keys that users had saved in OpenCode Console, the company said. Console is OpenCode's optional hosted service: a workspace saves its own OpenAI, Anthropic, or Google key there, and Console uses that key to call the provider so team members can use the models without",
-      "why_it_matters": "Developers using OpenCode Console should rotate third-party AI provider API keys to prevent unauthorized access.",
-      "item_ids": [
-        "dd12b97f57e3660c324e1abdbcf4b5ba"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-19T08:01:32.713557Z",
-      "last_shown": "2026-10-19T12:01:31.381537Z"
-    },
-    {
-      "id": "62fbc03cb9c7c26f7850dc3f1ea28c84",
-      "title": "Google Adopts Pyrefly for Faster, More Accurate Python Type Checking",
-      "summary": "Google has replaced its long-standing Python type checker, Pytype, with Pyrefly, an open-source tool originally developed by Meta. The decision was driven by Pyrefly's advantages, including faster and more accurate type checking, and lower infrastructure costs. By Sergio De Simone",
-      "why_it_matters": "Google has replaced its internal Pytype static analysis tool with Meta's open-source Pyrefly for faster Python type checking.",
-      "item_ids": [
-        "62fbc03cb9c7c26f7850dc3f1ea28c84"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-18T15:01:59.401359Z",
-      "last_shown": "2026-10-19T12:01:31.381537Z"
-    },
-    {
       "id": "e40163efa0821bf497bcb4438fadbe83",
       "title": "NestJS 12: ESM Packages, Standard Schema Validation and Native Observability",
       "summary": "NestJS version 12 has been released, transitioning core packages to ESM and adding Standard Schema validation. It updates the CLI and introduces an observability SDK. Key changes include project generation choices between CJS and ESM, improved validation options, and lifecycle project hooks. Users will need Node.js 20.19+ or 22.12+. Migration guides are available for upgrading. By Daniel Curtis",
@@ -25722,20 +25695,6 @@
       "primary_url": null,
       "first_shown": "2026-10-19T08:01:32.713557Z",
       "last_shown": "2026-10-19T12:01:31.381537Z"
-    }
-  ],
-  "past_top_stories": [
-    {
-      "id": "8d9d2b727538495f9e7282282c1d5527",
-      "title": "Disney agrees to hire the majority of Character.AI’s workforce",
-      "summary": "After chatbot startup Character.AI filed for bankruptcy earlier this week, many of its employees will have the opportunity to take jobs at Disney. Character.AI’s former CEO Karandeep Anand recently became the entertainment giant’s first CTO, and the startup previously said that Disney had agreed to acquire some of its assets for $20 million. A legal […]",
-      "why_it_matters": "The absorption of Character.AI's workforce by Disney alters the generative AI talent landscape following the startup's bankruptcy.",
-      "item_ids": [
-        "8d9d2b727538495f9e7282282c1d5527"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-18T08:02:03.151514Z",
-      "last_shown": "2026-10-19T11:01:32.219283Z"
     },
     {
       "id": "0b7a21400b0764107cb4b880e1b93b7e",
@@ -25822,18 +25781,6 @@
       "primary_url": null,
       "first_shown": "2026-10-18T11:46:36.584602Z",
       "last_shown": "2026-10-19T09:01:28.556618Z"
-    },
-    {
-      "id": "f52605ec1f8f8977a38dee54acb5dd34",
-      "title": "Hackers exploit SiteGuard WAF flaw to run commands as SYSTEM, root",
-      "summary": "Attackers are targeting an OS command injection vulnerability in SiteGuard Server Edition that lets them execute commands as root or SYSTEM on affected servers. [...]",
-      "why_it_matters": "Web administrators running SiteGuard Server Edition must patch immediately to prevent root remote command execution.",
-      "item_ids": [
-        "f52605ec1f8f8977a38dee54acb5dd34"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-18T15:01:59.401359Z",
-      "last_shown": "2026-10-19T06:01:26.637376Z"
     },
     {
       "id": "03d00b7b89e058deb6e34774a96df2c4",
