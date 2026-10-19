@@ -1,6 +1,78 @@
 {
-  "generated_at": "2026-10-18T23:01:59.135914Z",
+  "generated_at": "2026-10-19T00:02:01.111551Z",
   "items": [
+    {
+      "id": "56ec28a130e3ae8782fc1f15e4558e1d",
+      "title": "Superoptimizing an FPU emulator",
+      "url": "https://purplesyringa.moe/blog/superoptimizing-an-fpu-emulator/",
+      "source_id": "lobsters",
+      "source_name": "Lobsters",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-18T23:51:14Z",
+      "fetched_at": "2026-10-19T00:02:01.111551Z",
+      "discussion_url": "https://lobste.rs/s/1s3dve/superoptimizing_fpu_emulator",
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": true,
+      "review": "kept",
+      "importance": 2
+    },
+    {
+      "id": "689044c8de96b559c5705ee0465e372f",
+      "title": "The 7.3 kernel has been released",
+      "url": "https://lwn.net/Articles/1101143/",
+      "source_id": "lwn",
+      "source_name": "LWN.net",
+      "category": "tech",
+      "summary": "Linus Torvalds has released the 7.3 kernel, as expected. It's Sunday afternoon, and this week I somehow kept my wits together long enough to keep track of the day of the week, so the release isn't randomly delayed. Will wonders never cease? Anyway, nothing very special seems to have happened this last week, so as expected the final 7.3 is out, and thus tomorrow the merge window for 7.4 opens. Except I'm on my annual family vacation, so instead of merging anything first thing in the morning,…",
+      "published_at": "2026-10-18T23:45:23Z",
+      "fetched_at": "2026-10-19T00:02:01.111551Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 4
+    },
+    {
+      "id": "f2de23fabb346693b502a5558fb8ca01",
+      "title": "llm-echo 0.5",
+      "url": "https://simonwillison.net/2026/Oct/18/llm-echo/",
+      "source_id": "simon-willison",
+      "source_name": "Simon Willison",
+      "category": "tech",
+      "summary": "Release: llm-echo 0.5 I'm working towards a new LLM release, and testing PRs caused me to revisit the llm-echo debug plugin. This plugin provides a \"model\" which doesn't involve an LLM at all - it just repeats back the prompts that have been fed to it. The new release now updates the simulated token usage counts to take tool calls, system prompts, and reasoning tokens into account. Example usage: uvx --with llm-echo llm -m echo 'hi there' -o thinking 1 --usage Outputs: First I consider the…",
+      "published_at": "2026-10-18T23:16:16Z",
+      "fetched_at": "2026-10-19T00:02:01.111551Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "excluded",
+      "importance": null
+    },
+    {
+      "id": "753cc6d31fda335901ec79bf193a9d31",
+      "title": "August in Servo: CSS Grid, text selection, and more",
+      "url": "https://servo.org/blog/2026/10/09/august-in-servo/",
+      "source_id": "lobsters",
+      "source_name": "Lobsters",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-18T23:05:13Z",
+      "fetched_at": "2026-10-19T00:02:01.111551Z",
+      "discussion_url": "https://lobste.rs/s/ilul4v/august_servo_css_grid_text_selection_more",
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": true,
+      "review": "kept",
+      "importance": 3
+    },
     {
       "id": "cd836c2ea8c8846a8dc0a946c9157941",
       "title": "Time Lords kill leap seconds, which they warn could become the new Y2K bug",
@@ -18,6 +90,24 @@
       "blog": false,
       "review": "kept",
       "importance": 3
+    },
+    {
+      "id": "82a158da4f933d5a90f05041a442de5c",
+      "title": "Time Lords kill leap seconds, before they become the new Y2K bug",
+      "url": "https://www.theregister.com/networks/2026/10/19/time-lords-kill-leap-seconds-before-they-become-the-new-y2k-bug/5303711",
+      "source_id": "the-register",
+      "source_name": "The Register",
+      "category": "tech",
+      "summary": "Cite difficulty of updating IoT devices as major reason to stop adding time",
+      "published_at": "2026-10-18T23:01:00Z",
+      "fetched_at": "2026-10-19T00:02:01.111551Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 2
     },
     {
       "id": "f36f6aa4e7c279b4eb3ee53745e1f27b",
@@ -48,8 +138,8 @@
       "published_at": "2026-10-18T21:36:10Z",
       "fetched_at": "2026-10-18T23:01:59.135914Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50145715",
-      "points": 9,
-      "comments": 0,
+      "points": 25,
+      "comments": 13,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -102,8 +192,8 @@
       "published_at": "2026-10-18T20:48:14Z",
       "fetched_at": "2026-10-18T21:02:05.101023Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50145337",
-      "points": 112,
-      "comments": 56,
+      "points": 152,
+      "comments": 90,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -120,8 +210,8 @@
       "published_at": "2026-10-18T20:43:40Z",
       "fetched_at": "2026-10-18T22:02:00.582555Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50145295",
-      "points": 12,
-      "comments": 4,
+      "points": 13,
+      "comments": 5,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -143,7 +233,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "c6354bfb068c2c740c4fe28129944b56",
@@ -197,7 +287,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "15d075477d8a4e42bdb9be628dc99349",
@@ -300,12 +390,12 @@
       "published_at": "2026-10-18T18:48:04Z",
       "fetched_at": "2026-10-18T20:02:01.693735Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50144066",
-      "points": 91,
-      "comments": 12,
+      "points": 100,
+      "comments": 14,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "af37ddb59e711df8f5b5683a9c68db5a",
@@ -318,8 +408,8 @@
       "published_at": "2026-10-18T18:40:16Z",
       "fetched_at": "2026-10-18T20:02:01.693735Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50144005",
-      "points": 139,
-      "comments": 237,
+      "points": 153,
+      "comments": 263,
       "engineering": false,
       "blog": false,
       "review": "excluded",
@@ -426,8 +516,8 @@
       "published_at": "2026-10-18T17:56:59Z",
       "fetched_at": "2026-10-18T20:02:01.693735Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50143536",
-      "points": 72,
-      "comments": 20,
+      "points": 80,
+      "comments": 22,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -485,7 +575,7 @@
       "engineering": false,
       "blog": true,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "20a759149da4e656df0730dfdd1720a2",
@@ -498,8 +588,8 @@
       "published_at": "2026-10-18T16:56:56Z",
       "fetched_at": "2026-10-18T20:02:01.693735Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50142866",
-      "points": 345,
-      "comments": 163,
+      "points": 385,
+      "comments": 186,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -534,8 +624,8 @@
       "published_at": "2026-10-18T16:32:00Z",
       "fetched_at": "2026-10-18T18:02:04.744228Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50142573",
-      "points": 260,
-      "comments": 109,
+      "points": 277,
+      "comments": 116,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -611,7 +701,7 @@
       "engineering": false,
       "blog": true,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "1d12405ed3972f5d961931f6e7e71421",
@@ -627,7 +717,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 2
     },
@@ -768,7 +858,7 @@
       "published_at": "2026-10-18T14:47:37Z",
       "fetched_at": "2026-10-18T16:02:01.788513Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50141579",
-      "points": 121,
+      "points": 128,
       "comments": 98,
       "engineering": false,
       "blog": true,
@@ -845,7 +935,7 @@
       "engineering": false,
       "blog": true,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "efc2e010ed272c9de76c137958dc8cdd",
@@ -863,7 +953,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "f52605ec1f8f8977a38dee54acb5dd34",
@@ -951,7 +1041,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 3
     },
@@ -966,8 +1056,8 @@
       "published_at": "2026-10-18T13:48:48Z",
       "fetched_at": "2026-10-18T15:01:59.401359Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50141076",
-      "points": 311,
-      "comments": 48,
+      "points": 320,
+      "comments": 51,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -1038,8 +1128,8 @@
       "published_at": "2026-10-18T13:06:54Z",
       "fetched_at": "2026-10-18T16:02:01.788513Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50140769",
-      "points": 150,
-      "comments": 88,
+      "points": 156,
+      "comments": 92,
       "engineering": false,
       "blog": false,
       "review": "excluded",
@@ -1164,7 +1254,7 @@
       "published_at": "2026-10-18T11:16:22Z",
       "fetched_at": "2026-10-18T13:02:00.550791Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50140001",
-      "points": 168,
+      "points": 170,
       "comments": 13,
       "engineering": false,
       "blog": null,
@@ -1416,12 +1506,12 @@
       "published_at": "2026-10-18T08:19:53Z",
       "fetched_at": "2026-10-18T11:02:05.671319Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50139067",
-      "points": 217,
+      "points": 219,
       "comments": 77,
       "engineering": false,
       "blog": true,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "13d25d63ead038e2677f4dfdd40dcfdc",
@@ -1470,8 +1560,8 @@
       "published_at": "2026-10-18T06:50:36Z",
       "fetched_at": "2026-10-18T08:02:03.151514Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50138531",
-      "points": 518,
-      "comments": 249,
+      "points": 530,
+      "comments": 252,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -1547,7 +1637,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "5b9531cd42b2f2a4c1f399a87d6d1b65",
@@ -1597,7 +1687,7 @@
       "fetched_at": "2026-10-18T05:11:59.195592Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50137950",
       "points": 238,
-      "comments": 80,
+      "comments": 81,
       "engineering": false,
       "blog": false,
       "review": "excluded",
@@ -1632,8 +1722,8 @@
       "published_at": "2026-10-18T03:19:49Z",
       "fetched_at": "2026-10-18T05:02:00.871598Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50137620",
-      "points": 347,
-      "comments": 487,
+      "points": 354,
+      "comments": 499,
       "engineering": false,
       "blog": false,
       "review": "excluded",
@@ -1655,7 +1745,7 @@
       "engineering": false,
       "blog": true,
       "review": "kept",
-      "importance": 1
+      "importance": 2
     },
     {
       "id": "5791cda07a4425cbf1155c630cb6e44c",
@@ -1686,8 +1776,8 @@
       "published_at": "2026-10-18T01:38:08Z",
       "fetched_at": "2026-10-18T22:02:00.582555Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50136979",
-      "points": 81,
-      "comments": 57,
+      "points": 99,
+      "comments": 70,
       "engineering": false,
       "blog": false,
       "review": "excluded",
@@ -1781,7 +1871,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "f44f6e736d881b5092377418258287eb",
@@ -1869,7 +1959,7 @@
       "points": 104,
       "comments": 114,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -2139,7 +2229,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 2
     },
@@ -2393,7 +2483,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "39a7adebb3b0f4f29824d63781e9521a",
@@ -2733,7 +2823,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 2
     },
@@ -3738,8 +3828,8 @@
       "published_at": "2026-10-16T20:49:12Z",
       "fetched_at": "2026-10-16T21:01:36.722272Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50136150",
-      "points": 80,
-      "comments": 29,
+      "points": 113,
+      "comments": 54,
       "engineering": false,
       "blog": false,
       "review": "excluded",
@@ -25022,78 +25112,6 @@
       "importance": null
     },
     {
-      "id": "5c2b481fd3902a2c2703bd1d5c242785",
-      "title": "Qt An E2EE post-quantum messenger core in Rust (10k connections on 124MB RAM",
-      "url": "https://github.com/moral666/QT",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-11T23:52:23Z",
-      "fetched_at": "2026-10-12T02:02:14.432753Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50049425",
-      "points": 7,
-      "comments": 1,
-      "engineering": false,
-      "blog": null,
-      "review": "excluded",
-      "importance": null
-    },
-    {
-      "id": "16fa3e4adedb54b9512e37fb6a864f9d",
-      "title": "Whatever became of holography? (2011)",
-      "url": "https://www.americanscientist.org/article/whatever-became-of-holography",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-11T23:50:34Z",
-      "fetched_at": "2026-10-12T00:02:23.946952Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50049411",
-      "points": 163,
-      "comments": 90,
-      "engineering": false,
-      "blog": false,
-      "review": "excluded",
-      "importance": 2
-    },
-    {
-      "id": "27ad303b406ae6847188885b488c43c7",
-      "title": "Show HN: Plimsoll, a self-hosted sandbox for code your AI agent writes",
-      "url": "https://github.com/plimsollmark/plimsoll",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-11T23:47:59Z",
-      "fetched_at": "2026-10-12T01:02:22.240635Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50049388",
-      "points": 9,
-      "comments": 2,
-      "engineering": false,
-      "blog": null,
-      "review": "excluded",
-      "importance": null
-    },
-    {
-      "id": "58b259bc55ffe3f6a5e195c38c624cd1",
-      "title": "Governments are mishandling the affordability crisis",
-      "url": "https://www.economist.com/finance-and-economics/2026/10/08/governments-are-mishandling-the-affordability-crisis",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-11T23:40:06Z",
-      "fetched_at": "2026-10-12T01:02:22.240635Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50049302",
-      "points": 72,
-      "comments": 70,
-      "engineering": false,
-      "blog": false,
-      "review": "excluded",
-      "importance": null
-    },
-    {
       "id": "960632550ac970b65271b918fb77e120",
       "title": "Highlights from \"I spent 6 years developing a game in Rust and it just shipped, AMA\" (2024)",
       "url": "https://gamesbymason.com/blog/2024/6-years-in-rust-ama/#what-made-you-decide-to-use-rust",
@@ -25128,42 +25146,6 @@
       "blog": true,
       "review": "kept",
       "importance": 2
-    },
-    {
-      "id": "e851cdf98502cd0cb32165acbb8733bf",
-      "title": "Show HN: BraiNOTES, handwritten notes on your lecture PDFs in a browser tab",
-      "url": "https://github.com/swimmingbrain/brainotes",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": "In August, I posted here about TeXbrain, a LaTeX editor that runs completely in the browser, with no need for an account or server. (I didn't excpect it to get that much feedback, bug reports and help from here!)This is the same idea for the other half of my studies, the handwritten notes. I take them on a convertible laptop, and I've had a hard time with apps for that, taking notes from a device to another, exporting as PDF, needing an account for many of them, etc. So I've been working on the…",
-      "published_at": "2026-10-11T23:22:29Z",
-      "fetched_at": "2026-10-12T02:02:14.432753Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50049132",
-      "points": 10,
-      "comments": 0,
-      "engineering": false,
-      "blog": null,
-      "review": "excluded",
-      "importance": null
-    },
-    {
-      "id": "fbd638d0323ca7a923ba63237ca1707c",
-      "title": "ClickHouse C – Talk to ClickHouse using its native binary protocol",
-      "url": "https://github.com/ClickHouse/clickhouse-c",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-11T23:08:29Z",
-      "fetched_at": "2026-10-12T01:02:22.240635Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50049003",
-      "points": 36,
-      "comments": 1,
-      "engineering": false,
-      "blog": null,
-      "review": "excluded",
-      "importance": null
     },
     {
       "id": "df4ac89b754b48c34746181c785e5b4b",
@@ -25618,104 +25600,130 @@
   ],
   "top_stories": [
     {
-      "id": "c464e053cbfe86d8e02878074a5116b1",
-      "title": "ConnectWise Suspends Cloud Backup After Microsoft 365 Tenant Breaches",
-      "summary": "ConnectWise shut down access to its Cloud Backup service and disabled seven application identities after attackers obtained unauthorized access. Threat actors used the compromised identities to breach customer Microsoft 365 tenants in a supply-chain attack.",
-      "why_it_matters": "Engineers and administrators using ConnectWise Cloud Backup must review their Microsoft 365 environments for unauthorized activity and revoked application permissions.",
+      "id": "7c86a93f000579e53fd839a06913eec3",
+      "title": "ConnectWise Disables Cloud Backup After Hackers Breach Microsoft 365 Tenants",
+      "summary": "ConnectWise disabled seven application identities and shut down access to its Cloud Backup service after threat actors gained unauthorized access. Attackers leveraged the compromised identities to breach customer Microsoft 365 tenants in a supply-chain incident.",
+      "why_it_matters": "Engineers managing Microsoft 365 environments and cloud backup integrations must inspect their tenants for compromised application identities.",
       "item_ids": [
-        "c464e053cbfe86d8e02878074a5116b1",
-        "7c86a93f000579e53fd839a06913eec3"
+        "7c86a93f000579e53fd839a06913eec3",
+        "c464e053cbfe86d8e02878074a5116b1"
       ],
-      "primary_url": "https://www.huntress.com/blog/vendor-credential-enables-unauthorized-access",
+      "primary_url": "https://www.connectwise.com/company/trust/advisories",
       "first_shown": "2026-10-17T09:02:05.365336Z",
-      "last_shown": "2026-10-18T23:01:59.135914Z"
+      "last_shown": "2026-10-19T00:02:01.111551Z"
     },
     {
       "id": "55e307d5f0302c924e01841ed318a2b9",
-      "title": "US Bill Introduced to Mandate Digital Game Ownership Over Licensing",
-      "summary": "Representative Ritchie Torres introduced the Power To The Players Act in Congress to address digital game purchases. If enacted, the bill would direct the Federal Trade Commission to enforce rules requiring digital game ownership rather than licensing.",
-      "why_it_matters": "The proposed legislation could force storefront and game developers to alter digital distribution platforms and DRM licensing models.",
+      "title": "US Lawmaker Introduces Bill Mandating Video Game Ownership Over Licensing",
+      "summary": "Representative Ritchie Torres introduced the Power to the Players Act in Congress. If enacted, the bill would direct the Federal Trade Commission to enforce rules requiring digital game ownership rather than licensing.",
+      "why_it_matters": "Engineers designing digital marketplaces and DRM systems may face legal requirements to support perpetual ownership instead of revocable licenses.",
       "item_ids": [
         "55e307d5f0302c924e01841ed318a2b9",
         "816ca3a8233f2d3c66f35f2cf4269cae"
       ],
       "primary_url": null,
       "first_shown": "2026-10-18T08:02:03.151514Z",
-      "last_shown": "2026-10-18T23:01:59.135914Z"
+      "last_shown": "2026-10-19T00:02:01.111551Z"
     },
     {
       "id": "84248f3bb838b097c4537fb0b107a336",
-      "title": "Anthropic Reports Workforce Shift Toward Senior Roles and Meeting Time",
-      "summary": "Anthropic stated that its workforce has become less junior and is now spending more time in meetings. The company reported that both employee composition and the nature of work have changed significantly over the past year.",
-      "why_it_matters": "The shift illustrates evolving team structures and day-to-day engineering workflows within major frontier AI labs.",
+      "title": "Anthropic Reports Shift Toward Senior Workforce and Increased Meeting Time",
+      "summary": "Anthropic disclosed that its workforce composition and operational routines have changed significantly over the past year. The company stated that its staff has become less junior and now spends more time in meetings.",
+      "why_it_matters": "Software engineers tracking industry employment trends can see how scaling affects team seniority and meeting loads at leading AI labs.",
       "item_ids": [
         "84248f3bb838b097c4537fb0b107a336",
         "400761d0ded12e8ce1bbc15ab8b6b4aa"
       ],
       "primary_url": null,
       "first_shown": "2026-10-18T11:46:36.584602Z",
-      "last_shown": "2026-10-18T23:01:59.135914Z"
+      "last_shown": "2026-10-19T00:02:01.111551Z"
+    },
+    {
+      "id": "689044c8de96b559c5705ee0465e372f",
+      "title": "The 7.3 kernel has been released",
+      "summary": "Linus Torvalds has released the 7.3 kernel, as expected. It's Sunday afternoon, and this week I somehow kept my wits together long enough to keep track of the day of the week, so the release isn't randomly delayed. Will wonders never cease? Anyway, nothing very special seems to have happened this last week, so as expected the final 7.3 is out, and thus tomorrow the merge window for 7.4 opens. Except I'm on my annual family vacation, so instead of merging anything first thing in the morning,…",
+      "why_it_matters": "Linux systems engineers and kernel developers gain the new features, performance updates, and bug fixes included in the 7.3 release.",
+      "item_ids": [
+        "689044c8de96b559c5705ee0465e372f"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-19T00:02:01.111551Z",
+      "last_shown": "2026-10-19T00:02:01.111551Z"
     },
     {
       "id": "8d9d2b727538495f9e7282282c1d5527",
       "title": "Disney agrees to hire the majority of Character.AI’s workforce",
       "summary": "After chatbot startup Character.AI filed for bankruptcy earlier this week, many of its employees will have the opportunity to take jobs at Disney. Character.AI’s former CEO Karandeep Anand recently became the entertainment giant’s first CTO, and the startup previously said that Disney had agreed to acquire some of its assets for $20 million. A legal […]",
-      "why_it_matters": "Disney hiring the majority of Character.AI's workforce following its bankruptcy reshapes the conversational AI talent landscape.",
+      "why_it_matters": "Software engineers tracking generative AI talent consolidation should note Disney absorbing technical staff from bankrupt Character.AI.",
       "item_ids": [
         "8d9d2b727538495f9e7282282c1d5527"
       ],
       "primary_url": null,
       "first_shown": "2026-10-18T17:02:03.001112Z",
-      "last_shown": "2026-10-18T23:01:59.135914Z"
-    },
-    {
-      "id": "fb51dc534bd0b5c32c6507230163a000",
-      "title": "Anthropic gives outside AI watchdog “employee-like” access",
-      "summary": "The outside watchdog can publish its findings without Anthropic's approval.",
-      "why_it_matters": "Anthropic granting an outside watchdog independent publication rights establishes a new precedent for third-party AI safety oversight.",
-      "item_ids": [
-        "fb51dc534bd0b5c32c6507230163a000"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-18T18:02:04.744228Z",
-      "last_shown": "2026-10-18T23:01:59.135914Z"
+      "last_shown": "2026-10-19T00:02:01.111551Z"
     },
     {
       "id": "714666ded8b218868c18a20e799c7dd8",
       "title": "Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’",
       "summary": "Anthropic said that it will commit 5% of its shares to the fund.",
-      "why_it_matters": "Anthropic's commitment of five percent of its equity to a public benefit fund impacts the corporate governance of a major foundation model provider.",
+      "why_it_matters": "The equity pledge establishes a dedicated public benefit fund altering corporate governance at a frontier AI developer.",
       "item_ids": [
         "714666ded8b218868c18a20e799c7dd8"
       ],
       "primary_url": null,
       "first_shown": "2026-10-18T22:02:00.582555Z",
-      "last_shown": "2026-10-18T23:01:59.135914Z"
+      "last_shown": "2026-10-19T00:02:01.111551Z"
     },
     {
       "id": "f52605ec1f8f8977a38dee54acb5dd34",
       "title": "Hackers exploit SiteGuard WAF flaw to run commands as SYSTEM, root",
       "summary": "Attackers are targeting an OS command injection vulnerability in SiteGuard Server Edition that lets them execute commands as root or SYSTEM on affected servers. [...]",
-      "why_it_matters": "Security teams using SiteGuard Server Edition face active exploitation of an OS command injection flaw granting root or SYSTEM privileges.",
+      "why_it_matters": "Security engineers running SiteGuard Server Edition must patch an OS command injection flaw being exploited in the wild for root-level execution.",
       "item_ids": [
         "f52605ec1f8f8977a38dee54acb5dd34"
       ],
       "primary_url": null,
       "first_shown": "2026-10-18T15:01:59.401359Z",
-      "last_shown": "2026-10-18T23:01:59.135914Z"
+      "last_shown": "2026-10-19T00:02:01.111551Z"
     },
     {
       "id": "62fbc03cb9c7c26f7850dc3f1ea28c84",
       "title": "Google Adopts Pyrefly for Faster, More Accurate Python Type Checking",
       "summary": "Google has replaced its long-standing Python type checker, Pytype, with Pyrefly, an open-source tool originally developed by Meta. The decision was driven by Pyrefly's advantages, including faster and more accurate type checking, and lower infrastructure costs. By Sergio De Simone",
-      "why_it_matters": "Google replacing its Pytype type checker with Meta's open-source Pyrefly signals a significant shift in enterprise Python static analysis tooling.",
+      "why_it_matters": "Python developers may benefit from tooling improvements as Google shifts its internal ecosystem from Pytype to open-source Pyrefly.",
       "item_ids": [
         "62fbc03cb9c7c26f7850dc3f1ea28c84"
       ],
       "primary_url": null,
       "first_shown": "2026-10-18T15:01:59.401359Z",
-      "last_shown": "2026-10-18T23:01:59.135914Z"
+      "last_shown": "2026-10-19T00:02:01.111551Z"
     },
+    {
+      "id": "fb51dc534bd0b5c32c6507230163a000",
+      "title": "Anthropic gives outside AI watchdog “employee-like” access",
+      "summary": "The outside watchdog can publish its findings without Anthropic's approval.",
+      "why_it_matters": "Independent AI oversight arrangements with unfettered publishing rights could set new auditing standards for model developers.",
+      "item_ids": [
+        "fb51dc534bd0b5c32c6507230163a000"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-18T18:02:04.744228Z",
+      "last_shown": "2026-10-19T00:02:01.111551Z"
+    },
+    {
+      "id": "0b7a21400b0764107cb4b880e1b93b7e",
+      "title": "macOS 15.8.2 Breaks OpenGL",
+      "summary": null,
+      "why_it_matters": "Graphics programmers maintaining OpenGL-based applications on macOS must address compatibility breakages introduced in the 15.8.2 update.",
+      "item_ids": [
+        "0b7a21400b0764107cb4b880e1b93b7e"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-18T18:02:04.744228Z",
+      "last_shown": "2026-10-19T00:02:01.111551Z"
+    }
+  ],
+  "past_top_stories": [
     {
       "id": "50891c3c536515dc5594f8d1297d0daa",
       "title": "AWS Will Run Its European Sovereign Cloud Without the Global Backbone for Several Hours",
@@ -25739,20 +25747,6 @@
       "primary_url": null,
       "first_shown": "2026-10-18T23:01:59.135914Z",
       "last_shown": "2026-10-18T23:01:59.135914Z"
-    }
-  ],
-  "past_top_stories": [
-    {
-      "id": "0b7a21400b0764107cb4b880e1b93b7e",
-      "title": "macOS 15.8.2 Breaks OpenGL",
-      "summary": null,
-      "why_it_matters": "macOS developers supporting legacy graphics pipelines or cross-platform desktop applications need to address broken OpenGL functionality in version 15.8.2.",
-      "item_ids": [
-        "0b7a21400b0764107cb4b880e1b93b7e"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-18T18:02:04.744228Z",
-      "last_shown": "2026-10-18T22:02:00.582555Z"
     },
     {
       "id": "39a7adebb3b0f4f29824d63781e9521a",
@@ -25851,18 +25845,6 @@
       "primary_url": null,
       "first_shown": "2026-10-18T14:02:02.122847Z",
       "last_shown": "2026-10-18T14:02:02.122847Z"
-    },
-    {
-      "id": "0ed9a47ea1d5b1959040499011b7744c",
-      "title": "MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon",
-      "summary": "Cybersecurity researchers have discovered a malicious npm package that's part of a recently disclosed software supply chain attack campaign dubbed MALFEX. The package, named \"imgdecode,\" was uploaded to the package registry on September 30, 2026, by a user named \"malfexteste8.\" It has been downloaded 979 times as of writing and is still available on npm as of writing. The latest version of",
-      "why_it_matters": "A malicious npm package discovered in a supply chain attack highlights ongoing risks in software dependency management.",
-      "item_ids": [
-        "0ed9a47ea1d5b1959040499011b7744c"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-17T12:01:47.183991Z",
-      "last_shown": "2026-10-18T11:02:05.671319Z"
     }
   ]
 }
