@@ -1,6 +1,60 @@
 {
-  "generated_at": "2026-10-19T07:01:34.208372Z",
+  "generated_at": "2026-10-19T08:01:32.713557Z",
   "items": [
+    {
+      "id": "912a4eeb8af0f2a26284ef9f74a067f7",
+      "title": "AI inference is running into a memory bottleneck. Huawei wants to tackle it with OceanStor M900",
+      "url": "https://www.theregister.com/ai-and-ml/2026/10/19/sponsored-ai-inference-is-running-into-a-memory-bottleneck-huawei-wants-to-tackle-it-with-oceanstor-m900/5303543",
+      "source_id": "the-register",
+      "source_name": "The Register",
+      "category": "tech",
+      "summary": "SPONSORED POST: The Context Memory Storage platform aims to improve the economics of large-scale AI inference",
+      "published_at": "2026-10-19T08:00:00Z",
+      "fetched_at": "2026-10-19T08:01:32.713557Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "pending",
+      "importance": null
+    },
+    {
+      "id": "c081921fd0414d9bd29ea75c5d894fe7",
+      "title": "A Bazel Bard",
+      "url": "https://sluongng.substack.com/p/a-bazel-bard",
+      "source_id": "lobsters",
+      "source_name": "Lobsters",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-19T07:35:01Z",
+      "fetched_at": "2026-10-19T08:01:32.713557Z",
+      "discussion_url": "https://lobste.rs/s/c1zbmq/bazel_bard",
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": true,
+      "review": "kept",
+      "importance": 2
+    },
+    {
+      "id": "872f1c30f13f7182e319c2e476e75091",
+      "title": "Khosla Ventures doubles down on Even Healthcare to challenge India’s hospital economics",
+      "url": "https://techcrunch.com/2026/10/19/khosla-ventures-doubles-down-on-even-healthcare-to-challenge-indias-hospital-economics/",
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "category": "tech",
+      "summary": "Even Healthcare reaches a $300 million valuation in a Khosla Ventures-led round as it plans to expand its hospital network in India.",
+      "published_at": "2026-10-19T07:30:00Z",
+      "fetched_at": "2026-10-19T08:01:32.713557Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "pending",
+      "importance": null
+    },
     {
       "id": "6ebd4930d815de6ee2e6dd979530edaa",
       "title": "Crawlers, floods and fleets: a year of keeping our digital collections open",
@@ -35,7 +89,25 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
+    },
+    {
+      "id": "fe8d0b1bc1ec14dcefb9d7f63ec5d63d",
+      "title": "Unpatched Broadcom Wi-Fi Flaw Lets Attackers in Range Run Code as Root on Routers",
+      "url": "https://thehackernews.com/2026/10/unpatched-broadcom-wi-fi-flaw-lets.html",
+      "source_id": "the-hacker-news",
+      "source_name": "The Hacker News",
+      "category": "tech",
+      "summary": "A flaw in Broadcom's Wi-Fi setup software lets an attacker within radio range run code as root on Broadcom-based routers, without the network password or any pairing step, security researcher Quentin Kaiser disclosed on October 16. He showed the attack working against home gateways supplied by three Belgian internet providers, in one case reading the Wi-Fi password off the device",
+      "published_at": "2026-10-19T06:29:44Z",
+      "fetched_at": "2026-10-19T08:01:32.713557Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 4
     },
     {
       "id": "c97d6a75b676bdcb9e9d162d1b563f1c",
@@ -50,6 +122,42 @@
       "discussion_url": "https://lobste.rs/s/dtwbpu/programming_language_fundamentals_agda",
       "points": null,
       "comments": null,
+      "engineering": false,
+      "blog": true,
+      "review": "kept",
+      "importance": 2
+    },
+    {
+      "id": "dd12b97f57e3660c324e1abdbcf4b5ba",
+      "title": "OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys",
+      "url": "https://thehackernews.com/2026/10/opencode-console-breach-may-have.html",
+      "source_id": "the-hacker-news",
+      "source_name": "The Hacker News",
+      "category": "tech",
+      "summary": "An intruder reached a legacy system at OpenCode on the night of October 16 and may have exposed the third-party AI provider keys that users had saved in OpenCode Console, the company said. Console is OpenCode's optional hosted service: a workspace saves its own OpenAI, Anthropic, or Google key there, and Console uses that key to call the provider so team members can use the models without",
+      "published_at": "2026-10-19T06:07:08Z",
+      "fetched_at": "2026-10-19T08:01:32.713557Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 4
+    },
+    {
+      "id": "238ab2823bfd16348631388ad356650a",
+      "title": "Tmux and Claude Code: Sessions, Send-Keys, and the Ceiling",
+      "url": "https://crystl.dev/guides/tmux-for-ai-agents/",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-19T05:55:31Z",
+      "fetched_at": "2026-10-19T08:01:32.713557Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50148855",
+      "points": 7,
+      "comments": 1,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -102,8 +210,8 @@
       "published_at": "2026-10-19T04:41:46Z",
       "fetched_at": "2026-10-19T05:23:39.573568Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50148452",
-      "points": 71,
-      "comments": 19,
+      "points": 113,
+      "comments": 37,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -120,8 +228,8 @@
       "published_at": "2026-10-19T04:40:18Z",
       "fetched_at": "2026-10-19T06:01:26.637376Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50148441",
-      "points": 23,
-      "comments": 2,
+      "points": 77,
+      "comments": 27,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -195,7 +303,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 2
     },
@@ -215,7 +323,7 @@
       "engineering": false,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "d111a8a5bc53a4ca099b363e8f498808",
@@ -251,7 +359,7 @@
       "engineering": false,
       "blog": true,
       "review": "kept",
-      "importance": 2
+      "importance": 1
     },
     {
       "id": "b64569d6d2fe50edeb94d9d3432e0f21",
@@ -264,8 +372,8 @@
       "published_at": "2026-10-19T02:01:16Z",
       "fetched_at": "2026-10-19T04:02:02.469757Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50147492",
-      "points": 41,
-      "comments": 17,
+      "points": 76,
+      "comments": 30,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -282,12 +390,12 @@
       "published_at": "2026-10-19T01:55:03Z",
       "fetched_at": "2026-10-19T03:02:00.701735Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50147455",
-      "points": 72,
-      "comments": 24,
+      "points": 96,
+      "comments": 38,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "eba45f121160dbfabe7c281326493aff",
@@ -321,9 +429,9 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
-      "importance": 1
+      "importance": 2
     },
     {
       "id": "bde3b6cc13c79b0a11d3dd02c508bde0",
@@ -359,7 +467,7 @@
       "engineering": false,
       "blog": true,
       "review": "kept",
-      "importance": 4
+      "importance": 2
     },
     {
       "id": "204be96f8118aecb0d9645a08c282217",
@@ -408,12 +516,12 @@
       "published_at": "2026-10-19T00:30:34Z",
       "fetched_at": "2026-10-19T05:02:00.161844Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50146966",
-      "points": 17,
-      "comments": 0,
+      "points": 21,
+      "comments": 1,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 1
+      "importance": 2
     },
     {
       "id": "56ec28a130e3ae8782fc1f15e4558e1d",
@@ -431,7 +539,7 @@
       "engineering": false,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "689044c8de96b559c5705ee0465e372f",
@@ -480,8 +588,8 @@
       "published_at": "2026-10-18T23:37:57Z",
       "fetched_at": "2026-10-19T01:01:59.523346Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50146625",
-      "points": 125,
-      "comments": 33,
+      "points": 161,
+      "comments": 48,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -498,8 +606,8 @@
       "published_at": "2026-10-18T23:37:54Z",
       "fetched_at": "2026-10-19T03:02:00.701735Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50146624",
-      "points": 46,
-      "comments": 42,
+      "points": 53,
+      "comments": 53,
       "engineering": false,
       "blog": false,
       "review": "excluded",
@@ -575,7 +683,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "2ca4628c5f807bcb3cc4fb8660f1d30f",
@@ -611,7 +719,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "2a00123ae8ddb9bae36a95a64fb648fe",
@@ -624,8 +732,8 @@
       "published_at": "2026-10-18T21:36:10Z",
       "fetched_at": "2026-10-18T23:01:59.135914Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50145715",
-      "points": 78,
-      "comments": 41,
+      "points": 93,
+      "comments": 48,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -660,10 +768,10 @@
       "published_at": "2026-10-18T21:09:12Z",
       "fetched_at": "2026-10-19T01:01:59.523346Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50145507",
-      "points": 98,
-      "comments": 72,
+      "points": 135,
+      "comments": 87,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -696,12 +804,12 @@
       "published_at": "2026-10-18T20:48:14Z",
       "fetched_at": "2026-10-18T21:02:05.101023Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50145337",
-      "points": 307,
-      "comments": 162,
+      "points": 366,
+      "comments": 173,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "de95e572085550074bc0d29e504911cb",
@@ -737,7 +845,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "c6354bfb068c2c740c4fe28129944b56",
@@ -753,7 +861,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 2
     },
@@ -791,7 +899,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "15d075477d8a4e42bdb9be628dc99349",
@@ -843,7 +951,7 @@
       "points": 58,
       "comments": 59,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 2
     },
@@ -893,13 +1001,13 @@
       "summary": null,
       "published_at": "2026-10-18T18:48:04Z",
       "fetched_at": "2026-10-18T20:02:01.693735Z",
-      "discussion_url": "https://lobste.rs/s/dc2efo/dynamic_packages",
-      "points": null,
-      "comments": null,
+      "discussion_url": "https://news.ycombinator.com/item?id=50144066",
+      "points": 154,
+      "comments": 37,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "af37ddb59e711df8f5b5683a9c68db5a",
@@ -1020,8 +1128,8 @@
       "published_at": "2026-10-18T17:56:59Z",
       "fetched_at": "2026-10-18T20:02:01.693735Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50143536",
-      "points": 110,
-      "comments": 24,
+      "points": 119,
+      "comments": 29,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -1110,8 +1218,8 @@
       "published_at": "2026-10-18T16:56:56Z",
       "fetched_at": "2026-10-18T20:02:01.693735Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50142866",
-      "points": 520,
-      "comments": 270,
+      "points": 559,
+      "comments": 290,
       "engineering": false,
       "blog": false,
       "review": "excluded",
@@ -1146,12 +1254,12 @@
       "published_at": "2026-10-18T16:32:00Z",
       "fetched_at": "2026-10-18T18:02:04.744228Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50142573",
-      "points": 381,
-      "comments": 151,
+      "points": 422,
+      "comments": 158,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "8d9d2b727538495f9e7282282c1d5527",
@@ -1169,7 +1277,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "816ca3a8233f2d3c66f35f2cf4269cae",
@@ -1205,7 +1313,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "7b67d6470d4df9d19c0ac9e2833583b1",
@@ -1241,7 +1349,7 @@
       "engineering": false,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "f6d73ee876a4565967922d0575397696",
@@ -1290,12 +1398,12 @@
       "published_at": "2026-10-18T15:26:06Z",
       "fetched_at": "2026-10-18T16:09:21.063592Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50141909",
-      "points": 216,
-      "comments": 211,
+      "points": 246,
+      "comments": 267,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "67690812bc372f4e547b70882cd47f89",
@@ -1349,7 +1457,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "075b287a9740a1b7e04f7f1b2d45dfa5",
@@ -1380,10 +1488,10 @@
       "published_at": "2026-10-18T14:47:37Z",
       "fetched_at": "2026-10-18T16:02:01.788513Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50141579",
-      "points": 156,
-      "comments": 110,
+      "points": 161,
+      "comments": 118,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -1421,7 +1529,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "875acd5997b8965e553a786148e3e5ab",
@@ -1439,7 +1547,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "71cbb20af67342525c126dd7e80b0704",
@@ -1457,7 +1565,7 @@
       "engineering": false,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "efc2e010ed272c9de76c137958dc8cdd",
@@ -1563,7 +1671,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -1578,8 +1686,8 @@
       "published_at": "2026-10-18T13:48:48Z",
       "fetched_at": "2026-10-18T15:01:59.401359Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50141076",
-      "points": 360,
-      "comments": 56,
+      "points": 381,
+      "comments": 60,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -1776,8 +1884,8 @@
       "published_at": "2026-10-18T11:16:22Z",
       "fetched_at": "2026-10-18T13:02:00.550791Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50140001",
-      "points": 183,
-      "comments": 14,
+      "points": 192,
+      "comments": 16,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -1923,9 +2031,9 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "4e8ad075e2afcda7b8377e78f0625ad4",
@@ -2157,7 +2265,7 @@
       "points": 102,
       "comments": 80,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -2447,7 +2555,7 @@
       "engineering": false,
       "blog": true,
       "review": "kept",
-      "importance": 4
+      "importance": 2
     },
     {
       "id": "5ef1455d9ff87ef18ba8c2b8767bccaa",
@@ -25220,60 +25328,6 @@
       "importance": 3
     },
     {
-      "id": "64ee977c91ea1b669cb0a14de9669125",
-      "title": "Zod 4.6.6 compromised by malware?",
-      "url": "https://github.com/colinhacks/zod/commit/d821685ea6732436fcdf786a81d076958471e467",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-12T07:47:29Z",
-      "fetched_at": "2026-10-12T10:02:17.069478Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50052814",
-      "points": 159,
-      "comments": 46,
-      "engineering": false,
-      "blog": null,
-      "review": "excluded",
-      "importance": null
-    },
-    {
-      "id": "6caf0d9236781ba8e818b91f03245e03",
-      "title": "To save paper, mainframe tech ruined a week of work",
-      "url": "https://www.theregister.com/systems/2026/10/12/to-save-paper-mainframe-tech-ruined-a-week-of-work/5301546",
-      "source_id": "the-register",
-      "source_name": "The Register",
-      "category": "tech",
-      "summary": "While three bosses looked on, our hero made a very expensive mistake",
-      "published_at": "2026-10-12T07:28:00Z",
-      "fetched_at": "2026-10-12T08:02:16.282024Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "excluded",
-      "importance": 2
-    },
-    {
-      "id": "6d07d1766bd485a1959d71d3455945c9",
-      "title": "CyberXero Uses Claude Code in Campaign That Stole Over 628,000 Ukrainian Records",
-      "url": "https://thehackernews.com/2026/10/cyberxero-uses-claude-code-in-campaign.html",
-      "source_id": "the-hacker-news",
-      "source_name": "The Hacker News",
-      "category": "tech",
-      "summary": "Cybersecurity researchers have disclosed details of a two-pronged artificial intelligence (AI)-augmented initial access campaign targeting WordPress sites, e-commerce platforms, and critical infrastructure entities in Ukraine. The activity, which brings together commodity offensive tools like Cobalt Strike with an AI orchestration layer powered by Anthropic's Claude Code, has been attributed",
-      "published_at": "2026-10-12T07:26:12Z",
-      "fetched_at": "2026-10-12T08:02:16.282024Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 4
-    },
-    {
       "id": "960632550ac970b65271b918fb77e120",
       "title": "Highlights from \"I spent 6 years developing a game in Rust and it just shipped, AMA\" (2024)",
       "url": "https://gamesbymason.com/blog/2024/6-years-in-rust-ama/#what-made-you-decide-to-use-rust",
@@ -25763,55 +25817,58 @@
   "top_stories": [
     {
       "id": "92dd60e220b1c2f0c868691a0e329712",
-      "title": "ConnectWise Disables Cloud Backup Services to Probe Microsoft 365 Tenant Compromises",
-      "summary": "ConnectWise has disabled SaaS backup, security, and management services alongside seven application identities to investigate a security breach. Huntress reported threat actors obtained unauthorized access and executed takeovers of customer Microsoft 365 tenants.",
-      "why_it_matters": "Engineers using ConnectWise infrastructure should review their M365 tenant integrations and revoke potentially exposed application identities.",
+      "title": "ConnectWise Disables Cloud Services Following Microsoft 365 Tenant Compromise",
+      "summary": "ConnectWise has turned off several of its SaaS-y backup, security, and management services to investigate a security incident. The company disabled seven application identities after unauthorized threat actors compromised Microsoft 365 tenants.",
+      "why_it_matters": "This is critical security news for IT administrators and managed service providers using ConnectWise products and Microsoft 365 integrations.",
       "item_ids": [
         "92dd60e220b1c2f0c868691a0e329712",
         "7c86a93f000579e53fd839a06913eec3"
       ],
       "primary_url": null,
       "first_shown": "2026-10-17T09:02:05.365336Z",
-      "last_shown": "2026-10-19T07:01:34.208372Z"
+      "last_shown": "2026-10-19T08:01:32.713557Z"
+    },
+    {
+      "id": "84248f3bb838b097c4537fb0b107a336",
+      "title": "Anthropic Commits Shares to Public Benefit Fund and Gives Watchdog Access",
+      "summary": "Anthropic is committing 5% of its shares to a public benefit fund and has given an outside AI watchdog employee-like access to publish findings without approval. Meanwhile, reports note that its workforce is becoming less junior, spending more time in meetings, and changing its employment structure.",
+      "why_it_matters": "Major developments in AI governance, corporate structure, and transparency directly impact the AI ecosystem and developer trust.",
+      "item_ids": [
+        "84248f3bb838b097c4537fb0b107a336",
+        "714666ded8b218868c18a20e799c7dd8",
+        "fb51dc534bd0b5c32c6507230163a000",
+        "86fcb061472457a75bca0ab2848ea1d9",
+        "400761d0ded12e8ce1bbc15ab8b6b4aa"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-18T11:46:36.584602Z",
+      "last_shown": "2026-10-19T08:01:32.713557Z"
     },
     {
       "id": "55e307d5f0302c924e01841ed318a2b9",
-      "title": "US Bill Introduced to Mandate Video Game Ownership Over Digital Licensing",
-      "summary": "Representative Ritchie Torres introduced the Power To The Players Act in Congress. If enacted, the bill would direct the Federal Trade Commission to establish rules requiring ownership rather than mere licensing for digital game purchases.",
-      "why_it_matters": "This could legally mandate digital content ownership models and disrupt current DRM and digital software licensing frameworks.",
+      "title": "New Video Game Ownership Bills Introduced in Congress and New York",
+      "summary": "A video game ownership bill has been introduced in Congress by Rep. Ritchie Torres to direct the FTC to establish standards, following a similar state-level announcement in New York. The legislation aims to require digital ownership rather than mere licensing.",
+      "why_it_matters": "This legislation could set legal precedents for software licensing, digital goods, and consumer rights.",
       "item_ids": [
         "55e307d5f0302c924e01841ed318a2b9",
         "816ca3a8233f2d3c66f35f2cf4269cae"
       ],
       "primary_url": null,
       "first_shown": "2026-10-18T08:02:03.151514Z",
-      "last_shown": "2026-10-19T07:01:34.208372Z"
+      "last_shown": "2026-10-19T08:01:32.713557Z"
     },
     {
-      "id": "f44f6e736d881b5092377418258287eb",
-      "title": "Meta Updates Terms of Service Over AI Scraping Concerns",
-      "summary": "Meta removed specific clauses from its terms of service that previously triggered alarms regarding web scraping and AI training. Despite the revisions, legal experts warn that the updated language continues to grant broad scraping permissions.",
-      "why_it_matters": "Engineers and site operators should be aware of Meta's data scraping policies when serving web assets and content.",
+      "id": "97e65f9e816ceb737aecd6ecf403a81c",
+      "title": "Meta Updates Terms and Language Regarding Data Scraping and AI Training",
+      "summary": "Legal experts have warned that Meta's new terms still grant broad scraping permissions, even after the company removed language that raised scraping and AI training concerns. A Meta spokesperson insisted the updated terms did not reflect a change in how the company crawls the web.",
+      "why_it_matters": "Changes to platform terms of service and data scraping policies impact developers and web scraping practices.",
       "item_ids": [
-        "f44f6e736d881b5092377418258287eb",
-        "97e65f9e816ceb737aecd6ecf403a81c"
+        "97e65f9e816ceb737aecd6ecf403a81c",
+        "f44f6e736d881b5092377418258287eb"
       ],
       "primary_url": null,
       "first_shown": "2026-10-16T17:02:48.605734Z",
-      "last_shown": "2026-10-19T07:01:34.208372Z"
-    },
-    {
-      "id": "84248f3bb838b097c4537fb0b107a336",
-      "title": "Anthropic Reports Internal Workforce Shift Toward Seniority and Meetings",
-      "summary": "Anthropic stated that its workforce composition has shifted to become less junior over the past year. Employees are also spending significantly more time in meetings as the nature of day-to-day work changes.",
-      "why_it_matters": "Offers insight into organizational scaling and hiring dynamics at frontier AI labs.",
-      "item_ids": [
-        "84248f3bb838b097c4537fb0b107a336",
-        "400761d0ded12e8ce1bbc15ab8b6b4aa"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-18T11:46:36.584602Z",
-      "last_shown": "2026-10-19T07:01:34.208372Z"
+      "last_shown": "2026-10-19T08:01:32.713557Z"
     },
     {
       "id": "7e96a5cc3f3eddb5a0fa87ec0758ec1e",
@@ -25824,7 +25881,7 @@
       ],
       "primary_url": null,
       "first_shown": "2026-10-19T07:01:34.208372Z",
-      "last_shown": "2026-10-19T07:01:34.208372Z"
+      "last_shown": "2026-10-19T08:01:32.713557Z"
     },
     {
       "id": "f36f6aa4e7c279b4eb3ee53745e1f27b",
@@ -25837,20 +25894,58 @@
       ],
       "primary_url": null,
       "first_shown": "2026-10-19T05:02:00.161844Z",
-      "last_shown": "2026-10-19T07:01:34.208372Z"
+      "last_shown": "2026-10-19T08:01:32.713557Z"
     },
     {
       "id": "0fb423fa7ebabbbf0c3824f9310b2bb1",
       "title": "Linux KVM guest-host escape rated critical, may represent a new way to attack penguin-powered networking",
       "summary": "Party like it’s CVE-2026-99999 – a 9.3-rated nasty called PwnEscape",
-      "why_it_matters": "This critical 9.3-rated KVM guest-host escape flaw directly affects Linux virtualization and cloud hypervisors.",
+      "why_it_matters": "A critical Linux KVM guest-host escape vulnerability rated 9.3 poses serious risks for virtualized networking infrastructure.",
       "item_ids": [
         "0fb423fa7ebabbbf0c3824f9310b2bb1"
       ],
       "primary_url": null,
       "first_shown": "2026-10-19T03:02:00.701735Z",
-      "last_shown": "2026-10-19T07:01:34.208372Z"
+      "last_shown": "2026-10-19T08:01:32.713557Z"
     },
+    {
+      "id": "e40163efa0821bf497bcb4438fadbe83",
+      "title": "NestJS 12: ESM Packages, Standard Schema Validation and Native Observability",
+      "summary": "NestJS version 12 has been released, transitioning core packages to ESM and adding Standard Schema validation. It updates the CLI and introduces an observability SDK. Key changes include project generation choices between CJS and ESM, improved validation options, and lifecycle project hooks. Users will need Node.js 20.19+ or 22.12+. Migration guides are available for upgrading. By Daniel Curtis",
+      "why_it_matters": "NestJS 12 brings major updates including ESM package transitions, Standard Schema validation, and a new observability SDK.",
+      "item_ids": [
+        "e40163efa0821bf497bcb4438fadbe83"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-19T08:01:32.713557Z",
+      "last_shown": "2026-10-19T08:01:32.713557Z"
+    },
+    {
+      "id": "fe8d0b1bc1ec14dcefb9d7f63ec5d63d",
+      "title": "Unpatched Broadcom Wi-Fi Flaw Lets Attackers in Range Run Code as Root on Routers",
+      "summary": "A flaw in Broadcom's Wi-Fi setup software lets an attacker within radio range run code as root on Broadcom-based routers, without the network password or any pairing step, security researcher Quentin Kaiser disclosed on October 16. He showed the attack working against home gateways supplied by three Belgian internet providers, in one case reading the Wi-Fi password off the device",
+      "why_it_matters": "An unpatched Broadcom Wi-Fi vulnerability allows attackers within range to execute code as root on routers without authentication.",
+      "item_ids": [
+        "fe8d0b1bc1ec14dcefb9d7f63ec5d63d"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-19T08:01:32.713557Z",
+      "last_shown": "2026-10-19T08:01:32.713557Z"
+    },
+    {
+      "id": "dd12b97f57e3660c324e1abdbcf4b5ba",
+      "title": "OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys",
+      "summary": "An intruder reached a legacy system at OpenCode on the night of October 16 and may have exposed the third-party AI provider keys that users had saved in OpenCode Console, the company said. Console is OpenCode's optional hosted service: a workspace saves its own OpenAI, Anthropic, or Google key there, and Console uses that key to call the provider so team members can use the models without",
+      "why_it_matters": "OpenCode Console suffered a legacy system breach that may have exposed third-party API keys for OpenAI, Anthropic, and Google.",
+      "item_ids": [
+        "dd12b97f57e3660c324e1abdbcf4b5ba"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-19T08:01:32.713557Z",
+      "last_shown": "2026-10-19T08:01:32.713557Z"
+    }
+  ],
+  "past_top_stories": [
     {
       "id": "689044c8de96b559c5705ee0465e372f",
       "title": "The 7.3 kernel has been released",
@@ -25886,9 +25981,7 @@
       "primary_url": null,
       "first_shown": "2026-10-18T18:02:04.744228Z",
       "last_shown": "2026-10-19T07:01:34.208372Z"
-    }
-  ],
-  "past_top_stories": [
+    },
     {
       "id": "62fbc03cb9c7c26f7850dc3f1ea28c84",
       "title": "Google Adopts Pyrefly for Faster, More Accurate Python Type Checking",
@@ -25912,18 +26005,6 @@
       "primary_url": null,
       "first_shown": "2026-10-18T15:01:59.401359Z",
       "last_shown": "2026-10-19T06:01:26.637376Z"
-    },
-    {
-      "id": "fb51dc534bd0b5c32c6507230163a000",
-      "title": "Anthropic gives outside AI watchdog “employee-like” access",
-      "summary": "The outside watchdog can publish its findings without Anthropic's approval.",
-      "why_it_matters": "Anthropic grants an outside AI watchdog employee-like access to publish findings without approval, setting a new transparency precedent for AI safety governance.",
-      "item_ids": [
-        "fb51dc534bd0b5c32c6507230163a000"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-18T18:02:04.744228Z",
-      "last_shown": "2026-10-19T05:23:39.573568Z"
     },
     {
       "id": "03d00b7b89e058deb6e34774a96df2c4",
@@ -25984,30 +26065,6 @@
       "primary_url": null,
       "first_shown": "2026-10-18T23:01:59.135914Z",
       "last_shown": "2026-10-18T23:01:59.135914Z"
-    },
-    {
-      "id": "244c6e348703922694fc9662187afd87",
-      "title": "Chrome and Edge are removing XSLT: what breaks and what does not",
-      "summary": null,
-      "why_it_matters": "Web developers maintaining legacy XML/XSLT transformations must adapt before Chrome and Edge deprecate and remove XSLT support.",
-      "item_ids": [
-        "244c6e348703922694fc9662187afd87"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-17T21:01:45.557362Z",
-      "last_shown": "2026-10-18T20:02:01.693735Z"
-    },
-    {
-      "id": "984f5483be3ae35f32c640565e666929",
-      "title": "Replit is no longer working with Anthropic, CEO says",
-      "summary": "Over the weekend, Masad clarified that OpenAI would replace Anthropic as its default model provider. Claude will still be available to customers on the platform.",
-      "why_it_matters": "Shifts the default model provider for Replit developer tools from Claude to OpenAI.",
-      "item_ids": [
-        "984f5483be3ae35f32c640565e666929"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-18T02:02:02.831493Z",
-      "last_shown": "2026-10-18T18:02:04.744228Z"
     }
   ]
 }
