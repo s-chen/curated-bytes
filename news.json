@@ -1,23 +1,95 @@
 {
-  "generated_at": "2026-10-21T09:01:41.252805Z",
+  "generated_at": "2026-10-21T10:01:44.562466Z",
   "items": [
     {
-      "id": "46c57d3201f47c5c72ffb3db7b4e9f9c",
-      "title": "Article: Distributed Spring Batch Without a Message Broker",
-      "url": "https://www.infoq.com/articles/spring-batch-without-broker/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source_id": "infoq",
-      "source_name": "InfoQ",
+      "id": "31e3642d5e1e112704eec1a57bf5bf73",
+      "title": "The spec is the new code, so brush up on your prose, says Kaseya CTO",
+      "url": "https://www.theregister.com/software/2026/10/21/the-spec-is-the-new-code-so-brush-up-on-your-prose-says-kaseya-cto/5304002",
+      "source_id": "the-register",
+      "source_name": "The Register",
       "category": "tech",
-      "summary": "Distributed Spring Batch partitioning already needs a shared, persistent job repository. This article makes that database the whole coordination plane and drops the message broker, sizing work to the live node count, a per-job master with no standing coordinator, compare-and-set claiming that prevents double-execution, two-phase heartbeat failover, and where a broker is still the right choice. By Janardhan Reddy Chejarla",
-      "published_at": "2026-10-21T09:00:00Z",
-      "fetched_at": "2026-10-21T09:01:41.252805Z",
+      "summary": "Domain expertise and clear writing will matter more than syntax, and yes, that means documentation",
+      "published_at": "2026-10-21T10:00:00Z",
+      "fetched_at": "2026-10-21T10:01:44.562466Z",
       "discussion_url": null,
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
+    },
+    {
+      "id": "ef0aa7081e61eba35e94d5aa3f441ae3",
+      "title": "Happiness is the next AI KPI if Oxford boffins have their way",
+      "url": "https://www.theregister.com/offbeat/2026/10/21/happiness-is-the-next-ai-kpi-if-oxford-boffins-have-their-way/5304253",
+      "source_id": "the-register",
+      "source_name": "The Register",
+      "category": "tech",
+      "summary": "Researchers say public subsidies for AI should be repaid in wellbeing, not just economic growth",
+      "published_at": "2026-10-21T09:15:00Z",
+      "fetched_at": "2026-10-21T10:01:44.562466Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 2
+    },
+    {
+      "id": "2bfb27f3295f80d21dd6034cbc845177",
+      "title": "Eight Bits of Trust; eMudhra's CA keys cracked in milliseconds",
+      "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-21T09:08:08Z",
+      "fetched_at": "2026-10-21T10:01:44.562466Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50177916",
+      "points": 28,
+      "comments": 5,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 4
+    },
+    {
+      "id": "6d7c1a253d80d90bbe292bc54e43ea42",
+      "title": "The 1.5°C goal of the Paris Agreement is no longer viable",
+      "url": "https://unric.org/en/unep-emissions-gap-report-2026-1-5-degree-overshoot/",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-21T09:07:49Z",
+      "fetched_at": "2026-10-21T10:01:44.562466Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50177911",
+      "points": 90,
+      "comments": 36,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "abf67d322f37a8744d9ab5139fc40ff0",
+      "title": "Attackers Abuse UpdraftCentral Keys to Plant Backdoors on WordPress Sites",
+      "url": "https://thehackernews.com/2026/10/attackers-abuse-updraftcentral-keys-to.html",
+      "source_id": "the-hacker-news",
+      "source_name": "The Hacker News",
+      "category": "tech",
+      "summary": "Unknown threat actors breached TeamUpdraft's website and potentially gained unauthorized access to customers' connection keys for UpdraftCentral, UpdraftVault, and UpdraftClone, using them to backdoor WordPress sites. TeamUpdraft is the developer behind UpdraftPlus, a popular WordPress backup plugin with over four million active installations. The vendor also offers UpdraftCentral, a remote",
+      "published_at": "2026-10-21T09:01:12Z",
+      "fetched_at": "2026-10-21T10:01:44.562466Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 4
     },
     {
       "id": "3d7bcf2656d77e4a068068e11a0ffd95",
@@ -36,6 +108,24 @@
       "blog": false,
       "review": "kept",
       "importance": 4
+    },
+    {
+      "id": "46c57d3201f47c5c72ffb3db7b4e9f9c",
+      "title": "Article: Distributed Spring Batch Without a Message Broker",
+      "url": "https://www.infoq.com/articles/spring-batch-without-broker/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source_id": "infoq",
+      "source_name": "InfoQ",
+      "category": "tech",
+      "summary": "Distributed Spring Batch partitioning already needs a shared, persistent job repository. This article makes that database the whole coordination plane and drops the message broker, sizing work to the live node count, a per-job master with no standing coordinator, compare-and-set claiming that prevents double-execution, two-phase heartbeat failover, and where a broker is still the right choice. By Janardhan Reddy Chejarla",
+      "published_at": "2026-10-21T09:00:00Z",
+      "fetched_at": "2026-10-21T09:01:41.252805Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "d35e5053d6243afb8374a70ab725783e",
@@ -88,8 +178,8 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "159591bd7b4c98a56e20ba6e2541497b",
@@ -108,6 +198,24 @@
       "blog": false,
       "review": "kept",
       "importance": 3
+    },
+    {
+      "id": "1a4aeb69ffabf83ea97350db21a8602e",
+      "title": "U.S. Orders DeepSeek Removed From Federal Civilian Systems, Bans New Purchases",
+      "url": "https://thehackernews.com/2026/10/us-orders-deepseek-removed-from-federal.html",
+      "source_id": "the-hacker-news",
+      "source_name": "The Hacker News",
+      "category": "tech",
+      "summary": "U.S. federal civilian agencies must remove DeepSeek products from their information technology systems, along with any third-party products or services \"developed using DeepSeek implementations,\" under a Department of Homeland Security order. They may also no longer buy information technology products or services from the Chinese AI developer or its affiliates Homeland Security Secretary",
+      "published_at": "2026-10-21T08:04:17Z",
+      "fetched_at": "2026-10-21T10:01:44.562466Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 4
     },
     {
       "id": "566e97e2e8e8b68580543231b679771c",
@@ -143,7 +251,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "1d94362b990b3e0bcb63a1091013b2a9",
@@ -197,7 +305,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "64da09b46a5733bd419efdca2bab108d",
@@ -269,7 +377,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "cbf28bb49b011c79f5f8a29e4f203036",
@@ -282,8 +390,8 @@
       "published_at": "2026-10-21T05:05:37Z",
       "fetched_at": "2026-10-21T05:22:15.479941Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50176301",
-      "points": 39,
-      "comments": 22,
+      "points": 46,
+      "comments": 24,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -300,8 +408,8 @@
       "published_at": "2026-10-21T05:05:19Z",
       "fetched_at": "2026-10-21T05:22:15.479941Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50176298",
-      "points": 26,
-      "comments": 16,
+      "points": 30,
+      "comments": 22,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -498,8 +606,8 @@
       "published_at": "2026-10-21T03:36:43Z",
       "fetched_at": "2026-10-21T06:01:36.898211Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50175779",
-      "points": 33,
-      "comments": 10,
+      "points": 49,
+      "comments": 19,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -570,8 +678,8 @@
       "published_at": "2026-10-21T02:53:47Z",
       "fetched_at": "2026-10-21T08:01:40.454111Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50175510",
-      "points": 42,
-      "comments": 12,
+      "points": 65,
+      "comments": 15,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -606,8 +714,8 @@
       "published_at": "2026-10-21T02:04:15Z",
       "fetched_at": "2026-10-21T04:01:40.936901Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50175185",
-      "points": 90,
-      "comments": 46,
+      "points": 97,
+      "comments": 51,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -642,7 +750,7 @@
       "published_at": "2026-10-21T01:45:07Z",
       "fetched_at": "2026-10-21T02:01:36.569486Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50175059",
-      "points": 111,
+      "points": 123,
       "comments": 12,
       "engineering": false,
       "blog": false,
@@ -809,7 +917,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "8b9a2183fa578342324a798e2db02311",
@@ -858,8 +966,8 @@
       "published_at": "2026-10-20T23:04:09Z",
       "fetched_at": "2026-10-21T00:01:41.139516Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50173891",
-      "points": 180,
-      "comments": 135,
+      "points": 199,
+      "comments": 146,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -917,7 +1025,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "a982df87437e73a82fef6dbde28222d7",
@@ -935,7 +1043,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "3552df20e888badd317162ce5bf027b2",
@@ -1007,7 +1115,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 1
+      "importance": 2
     },
     {
       "id": "4e351a8b3a7c6f869e0f770fbd083b5c",
@@ -1169,7 +1277,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 1
+      "importance": 2
     },
     {
       "id": "a1bb3d84d988e0c60560c06489221f3f",
@@ -1187,7 +1295,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "6ad0a5b5785dc4d33d22c4fd4c041edd",
@@ -1241,7 +1349,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "01fd118f24a0973c6010c0c8f7ec7cc8",
@@ -1506,8 +1614,8 @@
       "published_at": "2026-10-20T20:15:50Z",
       "fetched_at": "2026-10-21T02:01:36.569486Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50172041",
-      "points": 712,
-      "comments": 267,
+      "points": 846,
+      "comments": 340,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -1619,7 +1727,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "e77b63f815d4325e85c5ca0847454e1b",
@@ -1763,7 +1871,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 1
+      "importance": 2
     },
     {
       "id": "01124370f33d722504cb0110fb5292a9",
@@ -1853,7 +1961,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "3f237a1762164611ff0b2955db55e35e",
@@ -1974,8 +2082,8 @@
       "published_at": "2026-10-20T18:29:09Z",
       "fetched_at": "2026-10-20T19:01:43.059138Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50170593",
-      "points": 777,
-      "comments": 369,
+      "points": 796,
+      "comments": 376,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -1997,7 +2105,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "bafbb5974fa17f55a930ceef6a5716e1",
@@ -2105,7 +2213,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "fbdebe87a361661cd296c5e60cf5e521",
@@ -2141,7 +2249,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "d4747c7f387ee9d7aee7efa2e52599d6",
@@ -2177,7 +2285,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "2cc225d2c268b6838bb4de5ca8cef4d0",
@@ -2244,8 +2352,8 @@
       "published_at": "2026-10-20T17:25:07Z",
       "fetched_at": "2026-10-20T18:01:37.424697Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50169707",
-      "points": 384,
-      "comments": 459,
+      "points": 400,
+      "comments": 467,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -2285,7 +2393,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "95fce7b3d7c691642bb950988a8b3f0a",
@@ -2406,7 +2514,7 @@
       "published_at": "2026-10-20T16:40:24Z",
       "fetched_at": "2026-10-20T17:01:42.751428Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50169053",
-      "points": 334,
+      "points": 342,
       "comments": 73,
       "engineering": false,
       "blog": null,
@@ -2429,7 +2537,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "6c49b77466909da2a745523ee8361c64",
@@ -2532,12 +2640,12 @@
       "published_at": "2026-10-20T16:02:07Z",
       "fetched_at": "2026-10-20T17:01:42.751428Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50168396",
-      "points": 652,
-      "comments": 164,
+      "points": 674,
+      "comments": 168,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "47c6037410c0cce2558522ce2608f10f",
@@ -2573,7 +2681,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "cf18d11196a2296ceb587269f726cfe9",
@@ -2622,8 +2730,8 @@
       "published_at": "2026-10-20T15:59:06Z",
       "fetched_at": "2026-10-20T19:01:43.059138Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50168357",
-      "points": 266,
-      "comments": 156,
+      "points": 280,
+      "comments": 159,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -2681,7 +2789,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "4ca49e2d0783adba8fb3552b58288e4b",
@@ -2789,7 +2897,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "7c4819e061ed35389c116f1b79240aa3",
@@ -2879,7 +2987,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "8e203e66966270e2882a010e7c11e3f4",
@@ -2933,7 +3041,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "204f34f381e22c7b295175bb4cccef56",
@@ -2987,7 +3095,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "404c73dd11339ce256d7bd850979f629",
@@ -3108,8 +3216,8 @@
       "published_at": "2026-10-20T14:30:31Z",
       "fetched_at": "2026-10-20T17:01:42.751428Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50167028",
-      "points": 382,
-      "comments": 295,
+      "points": 391,
+      "comments": 305,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -3203,7 +3311,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "670e4070fca889f9149d3a858d2d4a6b",
@@ -3437,7 +3545,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "ac3302285d594c4976fa6b8365413f1b",
@@ -3473,7 +3581,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "07b0468a851267a38652cdc3c0845784",
@@ -3491,7 +3599,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "b894862e23b60dfe3dfdf03017af7fdb",
@@ -3509,7 +3617,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "eb89dcdd6886ef7607e59022dd22e497",
@@ -3545,7 +3653,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "9c5753da79fd5cdf42551dd9695123ba",
@@ -3581,7 +3689,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 1
+      "importance": 2
     },
     {
       "id": "09a44d38cc10e5f893cef0da680ae3d2",
@@ -3743,7 +3851,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "6cdac93cf674eba75a4abbd1149ba1c5",
@@ -4247,7 +4355,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 1
+      "importance": 2
     },
     {
       "id": "7fe982bdd84825e936a23842043b37c3",
@@ -4265,7 +4373,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 1
+      "importance": 2
     },
     {
       "id": "92899dde59386e3f89bbc2946ab2fc93",
@@ -4391,7 +4499,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 1
+      "importance": 2
     },
     {
       "id": "e7b7f8dda8210812c506e8c4a4cd44e3",
@@ -4427,7 +4535,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "4dc51b94b29cabfa33fe9d93431593a1",
@@ -4481,7 +4589,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "e1f7a3ff692dc82e682f9739ae56f7e2",
@@ -4553,7 +4661,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 1
+      "importance": 2
     },
     {
       "id": "3c3629409e3ed2eef879a08a879ad404",
@@ -4607,7 +4715,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 1
+      "importance": 2
     },
     {
       "id": "055f549bcf7cf8692d713dd9cc9ea63d",
@@ -4751,7 +4859,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "eba8ffdf8b17c3b1b76dfba451b3acfe",
@@ -5255,7 +5363,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "bae4e7817b512fd06bd9e93ffc065743",
@@ -5345,7 +5453,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 1
+      "importance": 2
     },
     {
       "id": "62fcf972670ab94dee80876ad870e638",
@@ -5435,7 +5543,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "1ce5d96638a696e9e8a05084674b2186",
@@ -5525,7 +5633,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "50a158cfb01b8660f5abf178c560d0c4",
@@ -5597,7 +5705,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "cfcc9b30137284997c108d095cb42ecf",
@@ -25418,258 +25526,6 @@
       "importance": 2
     },
     {
-      "id": "4ddd8856ef56c5c4bc23dd0a8a9de942",
-      "title": "Show HN: A guided 3D Leonardo da Vinci museum, built in code",
-      "url": "https://museumofages.org/w/vinci",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": "Hello HN,I am the founder of a small nonprofit which built Museum of Ages. We opened its first wing last week, a digital Leonardo da Vinci museum. It is a virtual tour with 17 stops, his works and then his last house in Amboise. The entrance is free.At the different stops you can see for example his paintings close to their real size, or 15 of his machines rebuilt in code, and you can have a look at 29 of his anatomy sheets. We also selected 207 of his manuscript pages which you can read in a…",
-      "published_at": "2026-10-14T10:00:24Z",
-      "fetched_at": "2026-10-14T12:02:19.323822Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50085022",
-      "points": 75,
-      "comments": 31,
-      "engineering": false,
-      "blog": false,
-      "review": "excluded",
-      "importance": 2
-    },
-    {
-      "id": "5b81e6148fad1de93ddafd37faec177b",
-      "title": "Nothing Headphone (1) Pro: Studio Quality",
-      "url": "https://www.wired.com/review/nothing-headphone-1-pro/",
-      "source_id": "wired",
-      "source_name": "Wired",
-      "category": "tech",
-      "summary": "Nothing’s best headphones yet double down on design, comfort, sound quality, and highly adjustable EQ settings.",
-      "published_at": "2026-10-14T10:00:00Z",
-      "fetched_at": "2026-10-14T11:02:15.403297Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "excluded",
-      "importance": 2
-    },
-    {
-      "id": "faa62a95a4a0f46451d3dc48eb6368ad",
-      "title": "cool kids are writing in all lowercase now. does that make you mad?",
-      "url": "https://www.wired.com/story/the-case-for-lowercase/",
-      "source_id": "wired",
-      "source_name": "Wired",
-      "category": "tech",
-      "summary": "a certain kind of person writes in all lowercase now. why?",
-      "published_at": "2026-10-14T10:00:00Z",
-      "fetched_at": "2026-10-14T11:02:15.403297Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "excluded",
-      "importance": 1
-    },
-    {
-      "id": "dc33aebccdd21d989fb1cfea5ce61aeb",
-      "title": "OpenAI engineer charged after boardroom bug found wrapped in toilet paper",
-      "url": "https://www.theregister.com/security/2026/10/14/openai-engineer-charged-after-boardroom-bug-found-wrapped-in-toilet-paper/5303000",
-      "source_id": "the-register",
-      "source_name": "The Register",
-      "category": "tech",
-      "summary": "FBI alleges covert recorder was plugged into a TV, with a second device later discovered in the employee's bag",
-      "published_at": "2026-10-14T09:55:00Z",
-      "fetched_at": "2026-10-14T11:02:15.403297Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 4
-    },
-    {
-      "id": "2fae81a115309c65629abeaaaa1bebe4",
-      "title": "Ask HN: What is the current trajectory of a senior engineer?",
-      "url": "https://news.ycombinator.com/item?id=50084969",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": "Been recently thinking about this more and more: When the need for a human in the design loop ceases?Given that LLMs are RL'd to the max with everything that can be given a wrong/right answer (code/maths), what currently is stopping Anthropic, OpenAI et al. from internally building (and maybe buying) datasets of good and bad architecture, and RL'ing that?Given that LLMs were a fancy autocomplete back in 2024, and now people are talking about building \"software factories\" with the agents, what…",
-      "published_at": "2026-10-14T09:54:23Z",
-      "fetched_at": "2026-10-14T11:02:15.403297Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50084969",
-      "points": 13,
-      "comments": 9,
-      "engineering": false,
-      "blog": false,
-      "review": "excluded",
-      "importance": 3
-    },
-    {
-      "id": "fefcd58b0a3c15a95361cd409d06ae04",
-      "title": "A UAF turned RCE",
-      "url": "https://daniel.haxx.se/blog/2026/10/14/a-uaf-turned-rce/",
-      "source_id": "lobsters",
-      "source_name": "Lobsters",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-14T09:44:11Z",
-      "fetched_at": "2026-10-14T10:02:15.207500Z",
-      "discussion_url": "https://lobste.rs/s/g46xkj/uaf_turned_rce",
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 2
-    },
-    {
-      "id": "993a8112ec4bda23da2ec6a2600f450a",
-      "title": "Who Is Planting Backdoors in Ledger Crypto Wallets?",
-      "url": "https://www.zetter-zeroday.com/who-is-planting-backdoors-in-ledger-crypto-wallets/",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-14T09:37:24Z",
-      "fetched_at": "2026-10-14T12:02:19.323822Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50084838",
-      "points": 103,
-      "comments": 103,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "2396593381588b885268ff8a097b1afd",
-      "title": "I Ranked 28 Energy Drinks, From Celsius to Black Rifle (2026)",
-      "url": "https://www.wired.com/story/best-energy-drinks/",
-      "source_id": "wired",
-      "source_name": "Wired",
-      "category": "tech",
-      "summary": "The future is here, and it is jacked up on B vitamins, red dye, and taurine. These are the best energy drinks to get from tired to wired.",
-      "published_at": "2026-10-14T09:36:00Z",
-      "fetched_at": "2026-10-14T10:02:15.207500Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "excluded",
-      "importance": 1
-    },
-    {
-      "id": "ceaaf45117480904e7d5777dcbb3e771",
-      "title": "The Economic Complexity of the Western Roman Empire",
-      "url": "https://www.michelecoscia.com/?p=2613",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-14T09:32:09Z",
-      "fetched_at": "2026-10-16T11:56:30.626981Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50084790",
-      "points": 46,
-      "comments": 9,
-      "engineering": false,
-      "blog": null,
-      "review": "pending",
-      "importance": null
-    },
-    {
-      "id": "4b7ff1f46676b332607a6c587f1579b6",
-      "title": "Men Can’t Stop Faking How Much They Know About AI",
-      "url": "https://www.wired.com/story/men-cant-stop-faking-how-much-they-know-about-ai/",
-      "source_id": "wired",
-      "source_name": "Wired",
-      "category": "tech",
-      "summary": "More than half of the men surveyed in a new Harvard study claimed to recognize AI leaders who were, in fact, totally fictional.",
-      "published_at": "2026-10-14T09:30:00Z",
-      "fetched_at": "2026-10-14T10:02:15.207500Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "excluded",
-      "importance": 2
-    },
-    {
-      "id": "2ec66df661b21799748842af5b870f31",
-      "title": "Amazon pushes up prices across the Internet",
-      "url": "https://www.not-ship.com/how-amazon-pushes-up-prices-all-across-the-internet/",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-14T09:28:17Z",
-      "fetched_at": "2026-10-14T12:02:19.323822Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50084757",
-      "points": 897,
-      "comments": 684,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "bbc3d6d01b392abd0c083e5fb309465b",
-      "title": "Tesla’s Roadster 2 Is Late—and Entering a Different EV World",
-      "url": "https://www.wired.com/story/tesla-roadster-2-is-late-and-entering-a-different-ev-world/",
-      "source_id": "wired",
-      "source_name": "Wired",
-      "category": "tech",
-      "summary": "Nine years after its reveal, the overdue Roadster is set to debut on Thursday to an EV market that has grown skeptical of electric hypercars.",
-      "published_at": "2026-10-14T09:15:00Z",
-      "fetched_at": "2026-10-14T10:02:15.207500Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "excluded",
-      "importance": 2
-    },
-    {
-      "id": "3f3716649ff1003b3f798faf659ec9f1",
-      "title": "Cat-Like Whiskers Help Tiny Drones Fly in the Dark",
-      "url": "https://www.wired.com/story/cat-like-whiskers-help-tiny-drones-fly-in-the-dark/",
-      "source_id": "wired",
-      "source_name": "Wired",
-      "category": "tech",
-      "summary": "Researchers took lessons from nocturnal animals to help rescue drones overcome a key challenge: flying in the dark.",
-      "published_at": "2026-10-14T09:15:00Z",
-      "fetched_at": "2026-10-14T10:02:15.207500Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "excluded",
-      "importance": 3
-    },
-    {
-      "id": "f36baff3700eea418eda975cd7974d67",
-      "title": "Starlink limit hits Ukraine's drones. The battlefield depends on SpaceX",
-      "url": "https://defence24.com/geopolitics/starlink-limit-hits-ukraines-drones-the-battlefield-depends-on-spacex",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-14T09:10:37Z",
-      "fetched_at": "2026-10-14T10:02:15.207500Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50084622",
-      "points": 18,
-      "comments": 2,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 4
-    },
-    {
       "id": "6f3307680683717088384f5f323c0780",
       "title": "Redesigning source control at Anthropic",
       "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
@@ -26374,45 +26230,75 @@
   ],
   "top_stories": [
     {
-      "id": "bf070611882ebcd90f6e196f4f649a15",
-      "title": "Compromised eMudhra Certificate Authority Keys Trigger Emergency Browser and Software Blocks",
-      "summary": "Mozilla, Google, and other major software providers have confirmed that the private keys of eight eMudhra intermediate certificate authority certificates have been compromised. The incident allows attackers to potentially impersonate websites or services, prompting emergency updates and mitigations across browsers, operating systems, and developer tools.",
-      "why_it_matters": "This is a critical security emergency requiring immediate updates across software systems to prevent widespread TLS impersonation and Man-in-the-Middle attacks.",
+      "id": "f60bdcf85ea62c041283594fe2943d6b",
+      "title": "Compromised eMudhra CA Intermediate Keys Trigger Emergency Patching",
+      "summary": "Mozilla, Google, and other browsers have blocked eight eMudhra intermediate certificate authority certificates after discovering their private keys were compromised. Software vendors and cloud providers are issuing emergency updates to reject certificate chains passing through the affected keys.",
+      "why_it_matters": "This is a severe security incident that allows attackers to potentially impersonate any website or service, requiring immediate updates to applications and trust stores.",
       "item_ids": [
-        "bf070611882ebcd90f6e196f4f649a15",
+        "f60bdcf85ea62c041283594fe2943d6b",
+        "4ce83de252c5a008321a497f0d4d0794",
         "9f9695e97b94ae78b7291c6c5ca2af4f",
         "0640c2e267ce2057643ee6d037ca910e",
         "0b1aab66b8a0e7ad849ee0af02db33ba",
-        "f60bdcf85ea62c041283594fe2943d6b",
         "69230cad5c8cafcb5b59440aa6a72210",
         "502291a40ce1dfeb8f540457a237b3f5",
-        "4ce83de252c5a008321a497f0d4d0794",
         "179a7337cfd034c5098734f2f3494f36"
       ],
       "primary_url": null,
       "first_shown": "2026-10-20T16:01:39.052590Z",
-      "last_shown": "2026-10-21T09:01:41.252805Z"
+      "last_shown": "2026-10-21T10:01:44.562466Z"
     },
     {
       "id": "915860bfea659048238128ecdfeedfa5",
-      "title": "PHP Security Team Warns of Critical RCE Flaws and Upcoming Emergency Patches",
-      "summary": "The PHP security team has issued warnings regarding two unpatched critical remote code execution vulnerabilities rated 9.2 on the CVSS scale. Out-of-cycle emergency patches are scheduled for release to address the exploits.",
-      "why_it_matters": "Web infrastructure engineers must prepare to immediately patch PHP deployments to protect against active remote code execution threats.",
+      "title": "PHP Issues Emergency Security Release for Two Critical Vulnerabilities",
+      "summary": "The PHP security team has released an out-of-cycle emergency update for two unpatched critical RCE flaws rated 9.2 on the CVSS scale. Administrators were warned to prepare for upgrades following reports that details of the vulnerabilities had leaked.",
+      "why_it_matters": "Critical remote code execution vulnerabilities in PHP require immediate patching across deployed web applications to prevent active exploitation.",
       "item_ids": [
         "915860bfea659048238128ecdfeedfa5",
         "895f5af72f2687d5f9138bf4ae40b0f5",
+        "ba3251ba958e8334891555930f0f6a9c",
         "70f3f8c781cad8e5faf29cdf49ebad9a",
-        "6ad0a5b5785dc4d33d22c4fd4c041edd"
+        "6ad0a5b5785dc4d33d22c4fd4c041edd",
+        "c3beb6d13222186e290acbc50634cc7d"
       ],
       "primary_url": null,
       "first_shown": "2026-10-20T23:01:41.641528Z",
-      "last_shown": "2026-10-21T09:01:41.252805Z"
+      "last_shown": "2026-10-21T10:01:44.562466Z"
+    },
+    {
+      "id": "b4209a77364b3e6c36d01f9c6e399fb7",
+      "title": "Google Cloud London Zone Outage Disupts Major Services",
+      "summary": "A power event in Google Cloud's London zone caused a major outage, disrupting operations for multiple banks, postal services, and fintech firms like Revolut. Recovery efforts were initiated following the disruption.",
+      "why_it_matters": "Cloud infrastructure outages directly impact service availability for hosted systems and applications depending on regional redundancy.",
+      "item_ids": [
+        "b4209a77364b3e6c36d01f9c6e399fb7",
+        "61fa54d233009afd490d77b3679b839b",
+        "a361e832dd1d2e7dad3f93781d9ff8b1"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-21T00:01:41.139516Z",
+      "last_shown": "2026-10-21T10:01:44.562466Z"
+    },
+    {
+      "id": "ac3302285d594c4976fa6b8365413f1b",
+      "title": "U.S. Orders Federal Civilian Agencies to Remove DeepSeek Products",
+      "summary": "The U.S. government has ordered federal civilian agencies to remove DeepSeek products and any third-party services developed using its technology from their IT systems. The directive cites national security concerns regarding the AI service.",
+      "why_it_matters": "Government bans on specific AI tools impact compliance and procurement policies for contractors and federal systems.",
+      "item_ids": [
+        "ac3302285d594c4976fa6b8365413f1b",
+        "1a4aeb69ffabf83ea97350db21a8602e",
+        "72b49e308f7b2f5dfa98f91faddb5472",
+        "909a0da1b687b3253dac3492d3d5a2c7"
+      ],
+      "primary_url": "https://www.federalregister.gov/documents/2026/10/20/2026-21447/notice-of-order-regarding-exclusion-and-removal-of-deepseek-products-from-federal-civilian-executive",
+      "first_shown": "2026-10-20T03:01:39.617768Z",
+      "last_shown": "2026-10-21T10:01:44.562466Z"
     },
     {
       "id": "e947a3266b35f7980da81bee0bf40578",
       "title": "Tesla and SpaceX Form Special Committees to Discuss Potential Merger",
-      "summary": "Tesla and SpaceX have formed special committees of independent directors to discuss a potential merger between the two companies. Elon Musk confirmed the discussions during an earnings call, stating he sees significant merit in combining the firms.",
-      "why_it_matters": "A merger between two major tech and hardware giants would significantly alter industry capital allocation, aerospace projects, and automotive software operations.",
+      "summary": "Tesla and SpaceX have formed special committees of independent directors to discuss a possible merger of the two companies. Elon Musk stated he believes combining the companies has significant merit.",
+      "why_it_matters": null,
       "item_ids": [
         "e947a3266b35f7980da81bee0bf40578",
         "bd384a6f1424ffc7a7795fa10ac8e6bf",
@@ -26420,49 +26306,77 @@
       ],
       "primary_url": null,
       "first_shown": "2026-10-20T21:55:57.584288Z",
-      "last_shown": "2026-10-21T09:01:41.252805Z"
+      "last_shown": "2026-10-21T10:01:44.562466Z"
     },
     {
-      "id": "ac3302285d594c4976fa6b8365413f1b",
-      "title": "U.S. Department of Homeland Security Bans DeepSeek Products Across Federal Agencies",
-      "summary": "The U.S. Department of Homeland Security has ordered federal civilian agencies to immediately stop using DeepSeek products and remove them from government systems. The directive cites national security concerns regarding the Chinese AI service.",
-      "why_it_matters": "This federal ban creates compliance and procurement restrictions for contractors and organizations interacting with US government systems.",
+      "id": "a5f2aba9bed160d1051af6300eb6a05b",
+      "title": "OpenBSD 8.0 Released with ARM64 Hibernation and Hardware Support",
+      "summary": "OpenBSD 8.0 has been officially released, introducing new features such as ARM64 hibernation support, increased kernel virtual address space for AMD64, and new Intel Arc support while maintaining its security record.",
+      "why_it_matters": "Operating system releases provide security enhancements and new hardware support configurations for infrastructure and workstations.",
       "item_ids": [
-        "ac3302285d594c4976fa6b8365413f1b",
-        "72b49e308f7b2f5dfa98f91faddb5472",
-        "909a0da1b687b3253dac3492d3d5a2c7"
+        "a5f2aba9bed160d1051af6300eb6a05b",
+        "d8068fb636c24da0d54ab71de846bf75",
+        "a313f796be1b1a0cffd6010fe4df3b4c"
       ],
-      "primary_url": "https://www.federalregister.gov/documents/2026/10/20/2026-21447/notice-of-order-regarding-exclusion-and-removal-of-deepseek-products-from-federal-civilian-executive",
-      "first_shown": "2026-10-20T03:01:39.617768Z",
-      "last_shown": "2026-10-21T09:01:41.252805Z"
+      "primary_url": "https://www.openbsd.org/80.html",
+      "first_shown": "2026-10-21T02:01:36.569486Z",
+      "last_shown": "2026-10-21T10:01:44.562466Z"
     },
     {
-      "id": "61fa54d233009afd490d77b3679b839b",
-      "title": "Google Cloud London Zone Outage Disupts Major Banks and Services",
-      "summary": "A power event at a Google Cloud facility took down the europe-west2-b zone in London, causing widespread disruptions to banking, parcel, and postal services. Recovery efforts were initiated following the unexpected infrastructure failure.",
-      "why_it_matters": "Cloud infrastructure outages directly impact service availability for critical financial and enterprise applications hosted in affected regions.",
+      "id": "ede6d2eb493f6421a2b8bebf48c0de05",
+      "title": "OVHcloud CLI Tool Releases Compromised on GitHub",
+      "summary": "Attackers hijacked a contributor's GitHub account to replace download archives on five existing releases of OVHcloud's command-line interface tool with backdoored malware designed to steal developer secrets.",
+      "why_it_matters": "Compromised developer CLI tools and supply chain attacks can instantly expose internal cloud credentials and access keys.",
       "item_ids": [
-        "61fa54d233009afd490d77b3679b839b",
-        "a361e832dd1d2e7dad3f93781d9ff8b1",
-        "b4209a77364b3e6c36d01f9c6e399fb7"
+        "ede6d2eb493f6421a2b8bebf48c0de05",
+        "6cf35074374b51eaf651947bfd0cba9f"
       ],
-      "primary_url": null,
-      "first_shown": "2026-10-21T00:01:41.139516Z",
-      "last_shown": "2026-10-21T09:01:41.252805Z"
+      "primary_url": "https://opensourcemalware.com/blog/glassworm-hacks-ovh-clouds-cli-tool",
+      "first_shown": "2026-10-20T10:01:38.510206Z",
+      "last_shown": "2026-10-21T10:01:44.562466Z"
     },
     {
       "id": "1ce5d96638a696e9e8a05084674b2186",
-      "title": "OpenAI Acquires Orchestra Bio to Expand Life Sciences R&D Operations",
-      "summary": "OpenAI is acquiring Orchestra Bio to integrate its team and technology into its biotech division. The acquisition aims to enhance the Rosalind AI model and workbench tools for life sciences research and drug development.",
-      "why_it_matters": "Major AI labs expanding into domain-specific biotech tooling indicates shifting enterprise workflows and specialized compute demands for life sciences.",
+      "title": "OpenAI Acquires Orchestra Bio to Expand Life Sciences Operations",
+      "summary": "OpenAI is acquiring Orchestra Bio to integrate its team and technology into Rosalind, an AI model and workbench tool aimed at life sciences research and drug development.",
+      "why_it_matters": null,
       "item_ids": [
         "1ce5d96638a696e9e8a05084674b2186",
         "7585a11b1dff8f9ba015dc1634fc6cfd"
       ],
       "primary_url": null,
       "first_shown": "2026-10-20T21:01:39.360574Z",
-      "last_shown": "2026-10-21T09:01:41.252805Z"
+      "last_shown": "2026-10-21T10:01:44.562466Z"
     },
+    {
+      "id": "883ff07c63800485be10b4eb98b7faa1",
+      "title": "Google Brings Personal Intelligence Gemini Features to Cars",
+      "summary": "Google is expanding its Gemini AI assistant with Personal Intelligence features in Android Auto and cars with Google built-in. The integration allows the assistant to pull information from apps like Gmail, Calendar, Maps, and YouTube.",
+      "why_it_matters": null,
+      "item_ids": [
+        "883ff07c63800485be10b4eb98b7faa1",
+        "c1e957c841e90215698f1f578bb781b6",
+        "a2caf9f28b7b154490c6b296b470cc3e"
+      ],
+      "primary_url": "https://blog.google/products-and-platforms/platforms/android/android-auto-cars-with-google-built-in-gemini-personal-intelligence",
+      "first_shown": "2026-10-20T21:55:57.584288Z",
+      "last_shown": "2026-10-21T10:01:44.562466Z"
+    },
+    {
+      "id": "ddccf82cc0820d9e7eac7afce9e947d0",
+      "title": "Court Documents Show TikTok Ignored Staff Child Safety Warnings",
+      "summary": "Court records show that TikTok employees raised concerns regarding platform risks to children, but executives failed to act on the warnings. Staff members expressed frustration over the response from leadership.",
+      "why_it_matters": null,
+      "item_ids": [
+        "ddccf82cc0820d9e7eac7afce9e947d0",
+        "cbb16ad6bc7371b3e8e67b59a0a1bf9f"
+      ],
+      "primary_url": "https://www.npr.org/2026/10/20/nx-s1-6005809/tiktok-child-safety-money-laundering",
+      "first_shown": "2026-10-20T22:01:40.055237Z",
+      "last_shown": "2026-10-21T10:01:44.562466Z"
+    }
+  ],
+  "past_top_stories": [
     {
       "id": "05e54c16dc300338045ccf8b3c8eea05",
       "title": "Meta Pauses Muse Feature After Public URLs Expose User AI Conversations",
@@ -26474,19 +26388,6 @@
       ],
       "primary_url": null,
       "first_shown": "2026-10-20T19:01:43.059138Z",
-      "last_shown": "2026-10-21T09:01:41.252805Z"
-    },
-    {
-      "id": "ede6d2eb493f6421a2b8bebf48c0de05",
-      "title": "OVHcloud CLI Releases Compromised on GitHub to Distribute Malware",
-      "summary": "Attackers hijacked a contributor's GitHub account to replace download archives on five releases of OVHcloud's command-line interface tool with information-stealing malware. Users and developers have been warned of the supply chain compromise.",
-      "why_it_matters": "Compromised developer CLI tools pose a direct supply-chain threat, risking local developer credentials and cloud infrastructure access.",
-      "item_ids": [
-        "ede6d2eb493f6421a2b8bebf48c0de05",
-        "6cf35074374b51eaf651947bfd0cba9f"
-      ],
-      "primary_url": "https://opensourcemalware.com/blog/glassworm-hacks-ovh-clouds-cli-tool",
-      "first_shown": "2026-10-20T10:01:38.510206Z",
       "last_shown": "2026-10-21T09:01:41.252805Z"
     },
     {
@@ -26502,36 +26403,6 @@
       "primary_url": null,
       "first_shown": "2026-10-20T21:55:57.584288Z",
       "last_shown": "2026-10-21T09:01:41.252805Z"
-    },
-    {
-      "id": "883ff07c63800485be10b4eb98b7faa1",
-      "title": "Google Brings Gemini's Personal Intelligence Feature to Vehicles",
-      "summary": "Google is integrating Personal Intelligence features into Gemini for Android Auto and built-in automotive systems. The update enables the AI assistant to access information across Google apps like Gmail, Calendar, and Maps.",
-      "why_it_matters": "Expanding personal AI context across connected automotive platforms introduces new privacy auditing requirements for users.",
-      "item_ids": [
-        "883ff07c63800485be10b4eb98b7faa1",
-        "c1e957c841e90215698f1f578bb781b6",
-        "a2caf9f28b7b154490c6b296b470cc3e"
-      ],
-      "primary_url": "https://blog.google/products-and-platforms/platforms/android/android-auto-cars-with-google-built-in-gemini-personal-intelligence",
-      "first_shown": "2026-10-20T21:55:57.584288Z",
-      "last_shown": "2026-10-21T09:01:41.252805Z"
-    }
-  ],
-  "past_top_stories": [
-    {
-      "id": "d8068fb636c24da0d54ab71de846bf75",
-      "title": "OpenBSD 8.0 Released with Security Improvements and New Drivers",
-      "summary": "OpenBSD 8.0 has been officially released with its security record intact. The new version features Intel Arc support, ARM64 hibernation, and kernel updates.",
-      "why_it_matters": "Provides important system updates, security enhancements, and driver expansions for infrastructure operators.",
-      "item_ids": [
-        "d8068fb636c24da0d54ab71de846bf75",
-        "a5f2aba9bed160d1051af6300eb6a05b",
-        "bae4e7817b512fd06bd9e93ffc065743"
-      ],
-      "primary_url": "https://www.openbsd.org/80.html",
-      "first_shown": "2026-10-21T02:01:36.569486Z",
-      "last_shown": "2026-10-21T08:01:40.454111Z"
     },
     {
       "id": "3007015fa5685406bd5c99c387cc1afb",
@@ -26597,19 +26468,6 @@
       ],
       "primary_url": "https://www.businessinsider.com/judge-detains-fired-openai-engineer-abdulrahman-alfozan-concerns-saudi-arabia-2026-10",
       "first_shown": "2026-10-21T02:01:36.569486Z",
-      "last_shown": "2026-10-21T05:22:15.479941Z"
-    },
-    {
-      "id": "ddccf82cc0820d9e7eac7afce9e947d0",
-      "title": "Court Records Show TikTok Staff Raised Child Safety Concerns Ignored by Executives",
-      "summary": "Newly unsealed court documents show that TikTok employees repeatedly raised internal concerns regarding risks the platform posed to child safety. Staff members expressed frustration that executives failed to act on these warnings.",
-      "why_it_matters": null,
-      "item_ids": [
-        "ddccf82cc0820d9e7eac7afce9e947d0",
-        "cbb16ad6bc7371b3e8e67b59a0a1bf9f"
-      ],
-      "primary_url": "https://www.npr.org/2026/10/20/nx-s1-6005809/tiktok-child-safety-money-laundering",
-      "first_shown": "2026-10-20T22:01:40.055237Z",
       "last_shown": "2026-10-21T05:22:15.479941Z"
     },
     {
