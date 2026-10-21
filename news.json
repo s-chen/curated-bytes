@@ -1,6 +1,60 @@
 {
-  "generated_at": "2026-10-21T01:01:39.730821Z",
+  "generated_at": "2026-10-21T02:01:36.569486Z",
   "items": [
+    {
+      "id": "a652a57876be9d7a878c896f432fe72c",
+      "title": "Good type against all odds",
+      "url": "https://unsung.aresluna.org/good-type-against-all-odds/",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-21T01:45:07Z",
+      "fetched_at": "2026-10-21T02:01:36.569486Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50175059",
+      "points": 7,
+      "comments": 1,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 2
+    },
+    {
+      "id": "52e814306a2031d483eae07630965138",
+      "title": "Stolen UpdraftCentral keys used to backdoor WordPress sites",
+      "url": "https://www.bleepingcomputer.com/news/security/stolen-updraftcentral-keys-used-to-backdoor-wordpress-sites/",
+      "source_id": "bleepingcomputer",
+      "source_name": "BleepingComputer",
+      "category": "tech",
+      "summary": "A threat actor breached TeamUpdraft's website, a developer of popular WordPress backup and security plugins, potentially compromising UpdraftCentral connection keys that can send commands to connected websites. [...]",
+      "published_at": "2026-10-21T01:01:50Z",
+      "fetched_at": "2026-10-21T02:01:36.569486Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 4
+    },
+    {
+      "id": "1c57facae41ffb51adcdabcd3abae46e",
+      "title": "Lobsters NYC Meetup on the 28th of October",
+      "url": "https://lobste.rs/s/73ozwc/lobsters_nyc_meetup_on_28th_october",
+      "source_id": "lobsters",
+      "source_name": "Lobsters",
+      "category": "tech",
+      "summary": "I previously arranged (by PMing everyone who mentioned it) a 5 Lobster meetup in Mexico. I'll be in NYC next week and think this could be nice. There will be cross contamination from Array Language people. We can target e.g. 5:30PM until ???, perhaps by Bryant Park or Borough Hall. (I don't know the general city well, mostly commuting to friends near Myrtle or in Manhattan on quick trips, but these seem like generally accessibly locations). As a first pass, I suggest Maman Cafe, but hope…",
+      "published_at": "2026-10-21T01:01:13Z",
+      "fetched_at": "2026-10-21T02:01:36.569486Z",
+      "discussion_url": "https://lobste.rs/s/73ozwc/lobsters_nyc_meetup_on_28th_october",
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "pending",
+      "importance": null
+    },
     {
       "id": "0640c2e267ce2057643ee6d037ca910e",
       "title": "Mozilla, Google, Apple block compromised eMudhra CA certificates",
@@ -53,7 +107,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "af2a1c71fb174aa2c23e4efcfe360686",
@@ -71,7 +125,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "c32892ea15459dc83e3cd1bd6b5abb76",
@@ -107,7 +161,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "8b9a2183fa578342324a798e2db02311",
@@ -156,8 +210,8 @@
       "published_at": "2026-10-20T23:04:09Z",
       "fetched_at": "2026-10-21T00:01:41.139516Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50173891",
-      "points": 44,
-      "comments": 21,
+      "points": 61,
+      "comments": 41,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -179,7 +233,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "bd384a6f1424ffc7a7795fa10ac8e6bf",
@@ -198,6 +252,24 @@
       "blog": false,
       "review": "kept",
       "importance": 4
+    },
+    {
+      "id": "1c6e7d8681e0b04e28fdd0fcd63d8d3c",
+      "title": "Indian certification authority eMudhra’s private keys compromised – one of them was the number ‘4’",
+      "url": "https://www.theregister.com/security/2026/10/20/indian-certification-authority-emudhras-private-keys-compromised-one-of-them-was-the-number-4/5304312",
+      "source_id": "the-register",
+      "source_name": "The Register",
+      "category": "tech",
+      "summary": "Massive clean-up job under way because this mess makes it possible to impersonate any website or service",
+      "published_at": "2026-10-20T22:57:44Z",
+      "fetched_at": "2026-10-21T02:01:36.569486Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 5
     },
     {
       "id": "3552df20e888badd317162ce5bf027b2",
@@ -326,6 +398,24 @@
       "importance": 4
     },
     {
+      "id": "4b1dfbf7f25caa91b614467bfac7c40f",
+      "title": "Auto tech startup claims it traced hack attempt back to rival's IP address",
+      "url": "https://www.theregister.com/cyber-crime/2026/10/20/auto-tech-startup-claims-it-traced-hack-attempt-back-to-rivals-ip-address/5304281",
+      "source_id": "the-register",
+      "source_name": "The Register",
+      "category": "tech",
+      "summary": "IQ.Lvbs implies that rival Comma.ai isn't playing fair",
+      "published_at": "2026-10-20T22:00:46Z",
+      "fetched_at": "2026-10-21T02:01:36.569486Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
       "id": "9cba24bd4bc9d2ba92ab7329b2024453",
       "title": "Cops raid office of RFK Jr. allies planning “unethical” vaccine trial on babies",
       "url": "https://arstechnica.com/health/2026/10/cops-raid-office-of-rfk-jr-allies-planning-unethical-vaccine-trial-on-babies/",
@@ -359,7 +449,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "e947a3266b35f7980da81bee0bf40578",
@@ -593,7 +683,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "056b95aed3e6a653a6f9589fe0a6a093",
@@ -683,7 +773,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "f18b8435eca90b8659eb0f6359394582",
@@ -738,6 +828,24 @@
       "blog": false,
       "review": "kept",
       "importance": 2
+    },
+    {
+      "id": "915860bfea659048238128ecdfeedfa5",
+      "title": "Upcoming Critical PHP Security Release",
+      "url": "https://news-web.php.net/php.announce/509",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-20T20:15:50Z",
+      "fetched_at": "2026-10-21T02:01:36.569486Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50172041",
+      "points": 54,
+      "comments": 6,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 4
     },
     {
       "id": "4e144eb695acbd2d5f204309be6a7c12",
@@ -845,7 +953,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "e77b63f815d4325e85c5ca0847454e1b",
@@ -863,7 +971,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "74c8b343bfe7de0cef78c32780baf87f",
@@ -899,7 +1007,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "0ee3d2bcbaf7daaaf3956af46ad673b7",
@@ -1074,12 +1182,12 @@
       "published_at": "2026-10-20T18:51:40Z",
       "fetched_at": "2026-10-20T22:01:40.055237Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50170917",
-      "points": 111,
-      "comments": 46,
+      "points": 134,
+      "comments": 70,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "3f237a1762164611ff0b2955db55e35e",
@@ -1200,12 +1308,12 @@
       "published_at": "2026-10-20T18:29:09Z",
       "fetched_at": "2026-10-20T19:01:43.059138Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50170593",
-      "points": 524,
-      "comments": 277,
+      "points": 568,
+      "comments": 289,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "e245a3818ab4a825b4b66b95b7bc05b4",
@@ -1223,7 +1331,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "bafbb5974fa17f55a930ceef6a5716e1",
@@ -1239,9 +1347,9 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "281701770542f114c2d2f4479c32514a",
@@ -1259,7 +1367,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "fa2b4e269c65c801d5e5fd6c6f0702f1",
@@ -1331,7 +1439,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "fbdebe87a361661cd296c5e60cf5e521",
@@ -1421,7 +1529,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "edeec153cec087cfd7a1da66c6d2d08e",
@@ -1470,8 +1578,8 @@
       "published_at": "2026-10-20T17:25:07Z",
       "fetched_at": "2026-10-20T18:01:37.424697Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50169707",
-      "points": 246,
-      "comments": 307,
+      "points": 268,
+      "comments": 329,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -1524,7 +1632,7 @@
       "published_at": "2026-10-20T17:10:31Z",
       "fetched_at": "2026-10-21T00:01:41.139516Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50169506",
-      "points": 21,
+      "points": 28,
       "comments": 0,
       "engineering": false,
       "blog": false,
@@ -1547,7 +1655,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "94a4e571b798be95b927f1055e094f1f",
@@ -1632,8 +1740,8 @@
       "published_at": "2026-10-20T16:40:24Z",
       "fetched_at": "2026-10-20T17:01:42.751428Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50169053",
-      "points": 253,
-      "comments": 59,
+      "points": 265,
+      "comments": 64,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -1655,7 +1763,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "6c49b77466909da2a745523ee8361c64",
@@ -1691,7 +1799,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "f40f87a51b415a0ad723538b4e6e56e3",
@@ -1707,7 +1815,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 2
     },
@@ -1758,8 +1866,8 @@
       "published_at": "2026-10-20T16:02:07Z",
       "fetched_at": "2026-10-20T17:01:42.751428Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50168396",
-      "points": 511,
-      "comments": 138,
+      "points": 531,
+      "comments": 143,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -1817,7 +1925,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "f23f955618963d86f6ce28d56788e33d",
@@ -1848,8 +1956,8 @@
       "published_at": "2026-10-20T15:59:06Z",
       "fetched_at": "2026-10-20T19:01:43.059138Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50168357",
-      "points": 174,
-      "comments": 107,
+      "points": 196,
+      "comments": 115,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -1871,7 +1979,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "83c84daadb9c9d3f6dd6c5940260f5db",
@@ -1907,7 +2015,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "4ca49e2d0783adba8fb3552b58288e4b",
@@ -1938,8 +2046,8 @@
       "published_at": "2026-10-20T15:42:45Z",
       "fetched_at": "2026-10-20T17:34:18.285330Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50168096",
-      "points": 132,
-      "comments": 48,
+      "points": 142,
+      "comments": 51,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -2013,7 +2121,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -2082,8 +2190,8 @@
       "published_at": "2026-10-20T15:09:29Z",
       "fetched_at": "2026-10-20T17:01:42.751428Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50167583",
-      "points": 43,
-      "comments": 16,
+      "points": 45,
+      "comments": 18,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -2105,7 +2213,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "8e203e66966270e2882a010e7c11e3f4",
@@ -2177,7 +2285,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "318d59f247f80c8ab5c89b7a5ef252fd",
@@ -2213,7 +2321,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "404c73dd11339ce256d7bd850979f629",
@@ -2334,8 +2442,8 @@
       "published_at": "2026-10-20T14:30:31Z",
       "fetched_at": "2026-10-20T17:01:42.751428Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50167028",
-      "points": 325,
-      "comments": 238,
+      "points": 331,
+      "comments": 253,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -2388,7 +2496,7 @@
       "published_at": "2026-10-20T14:13:49Z",
       "fetched_at": "2026-10-20T15:01:39.887326Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50166794",
-      "points": 163,
+      "points": 171,
       "comments": 47,
       "engineering": false,
       "blog": false,
@@ -2465,7 +2573,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "db740c5402062c9b2cac2f1e4300a5bc",
@@ -2514,12 +2622,12 @@
       "published_at": "2026-10-20T13:58:33Z",
       "fetched_at": "2026-10-20T15:01:39.887326Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50166579",
-      "points": 608,
-      "comments": 330,
+      "points": 646,
+      "comments": 339,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "aa5550e5caeb24244fe406fb4b52ded2",
@@ -2537,7 +2645,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "172b5fecdb1044d44ae31e39f57f3c3b",
@@ -2555,7 +2663,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "4b0380614c30c1311eedfe5a9af61edf",
@@ -2609,7 +2717,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "a5f5ff0cf950984a416b32d4cad704c2",
@@ -2699,7 +2807,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "07b0468a851267a38652cdc3c0845784",
@@ -2892,8 +3000,8 @@
       "published_at": "2026-10-20T13:00:00Z",
       "fetched_at": "2026-10-20T14:01:39.086027Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50165953",
-      "points": 338,
-      "comments": 166,
+      "points": 344,
+      "comments": 169,
       "engineering": true,
       "blog": true,
       "review": "kept",
@@ -2969,7 +3077,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "6cdac93cf674eba75a4abbd1149ba1c5",
@@ -3000,8 +3108,8 @@
       "published_at": "2026-10-20T12:17:28Z",
       "fetched_at": "2026-10-20T15:01:39.887326Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50165208",
-      "points": 457,
-      "comments": 243,
+      "points": 496,
+      "comments": 250,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -3041,7 +3149,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 1
+      "importance": 2
     },
     {
       "id": "a405039260f4fe7b0679f77dafff319a",
@@ -3095,7 +3203,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "d05a83a200957ce239802a331e21592e",
@@ -3113,7 +3221,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "39cb5c3016ca64710be697dd569356ae",
@@ -3167,7 +3275,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "ede6d2eb493f6421a2b8bebf48c0de05",
@@ -3437,7 +3545,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "0c6b465bc42f7ca55ff00a9442c1710e",
@@ -3653,7 +3761,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "4dc51b94b29cabfa33fe9d93431593a1",
@@ -3689,7 +3797,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "ada84ce6ea8c141b992721ee386affa4",
@@ -3761,7 +3869,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "b97dc3af78cd37537ce7afbef238968b",
@@ -3923,7 +4031,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "14817ceca31a31b178fabba34441e9b6",
@@ -3953,6 +4061,24 @@
       "summary": "Blackwall has raised $100M at a $2.2B valuation to continue building security and filtering tools that help websites grapple with growing bot and AI traffic.",
       "published_at": "2026-10-20T07:01:00Z",
       "fetched_at": "2026-10-20T07:01:49.348986Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "7b80adca1cfe45f89cd5006ea456c7d9",
+      "title": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
+      "url": "https://openai.com/index/terminal-x",
+      "source_id": "openai-news",
+      "source_name": "OpenAI News",
+      "category": "tech",
+      "summary": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.",
+      "published_at": "2026-10-20T07:00:00Z",
+      "fetched_at": "2026-10-21T02:01:36.569486Z",
       "discussion_url": null,
       "points": null,
       "comments": null,
@@ -4013,7 +4139,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "a442ef4db5cae1b252c7002764930f3c",
@@ -4031,7 +4157,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "ca3f38eaf7ad242873faf44d4acd626d",
@@ -4445,7 +4571,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "a313f796be1b1a0cffd6010fe4df3b4c",
@@ -4463,7 +4589,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "bae4e7817b512fd06bd9e93ffc065743",
@@ -4535,7 +4661,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "03d1852a94f77817d62b4ec877c1323f",
@@ -4607,7 +4733,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "909a0da1b687b3253dac3492d3d5a2c7",
@@ -4677,7 +4803,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -4695,7 +4821,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -4713,7 +4839,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -4733,7 +4859,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "50a158cfb01b8660f5abf178c560d0c4",
@@ -4805,7 +4931,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "cfcc9b30137284997c108d095cb42ecf",
@@ -5237,7 +5363,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "662c2bb58e3e00872dbb2c987397d681",
@@ -5345,7 +5471,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "509ff25955aa06e5626540676195ee16",
@@ -5651,7 +5777,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "d21c4ab59ad9ad83c79575d7ce248453",
@@ -5795,7 +5921,7 @@
       "engineering": true,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "e429d864d1cb1a655d1cd40139b38598",
@@ -5813,7 +5939,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "84ab166d5f429ade4864c3b89b60eac9",
@@ -25598,78 +25724,6 @@
       "importance": 2
     },
     {
-      "id": "227dff4b14eb0a63c2a62354a64c6f48",
-      "title": "OpenAI Employee Arrested for Allegedly Planting Hidden Recorder in Executive Conference Room",
-      "url": "https://thehackernews.com/2026/10/openai-employee-arrested-for-allegedly.html",
-      "source_id": "the-hacker-news",
-      "source_name": "The Hacker News",
-      "category": "tech",
-      "summary": "A Saudi National and employee of OpenAI has been arrested for allegedly planting a hidden recording device in an executive conference room at the company's San Francisco offices to covertly record sensitive conversations. Abdulrahman Alfozan, 35, has been charged with using or endeavoring to use an electronic, mechanical, or other device to intercept oral communications. He was arrested by",
-      "published_at": "2026-10-14T01:59:25Z",
-      "fetched_at": "2026-10-14T04:02:15.190159Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 4
-    },
-    {
-      "id": "98ba3395635d4fdd0772577ce7fa58df",
-      "title": "Justice Department says North Koreans have infiltrated dozens of U.S. companies",
-      "url": "https://techcrunch.com/2026/10/13/justice-department-says-north-koreans-have-infiltrated-dozens-of-u-s-companies/",
-      "source_id": "techcrunch",
-      "source_name": "TechCrunch",
-      "category": "tech",
-      "summary": "U.S. authorities warn that sanctioned hackers are increasingly targeting Americans to act as facilitators between breached U.S. companies and Pyongyang.",
-      "published_at": "2026-10-14T01:30:42Z",
-      "fetched_at": "2026-10-14T02:02:15.392434Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 4
-    },
-    {
-      "id": "a01963d412edad852dd028d74658d0cc",
-      "title": "Bru: Send and read SMS from the browser",
-      "url": "https://sverre.me/projects/bru/",
-      "source_id": "lobsters",
-      "source_name": "Lobsters",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-14T01:14:17Z",
-      "fetched_at": "2026-10-14T03:02:12.057868Z",
-      "discussion_url": "https://lobste.rs/s/a0jmkh/bru_send_read_sms_from_browser",
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "excluded",
-      "importance": 2
-    },
-    {
-      "id": "b8a49590ba293f631137282e382deedf",
-      "title": "I built a tool to track what AI leaders say and how their views change on video",
-      "url": "https://blumify.io/people",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-14T01:09:13Z",
-      "fetched_at": "2026-10-14T03:02:12.057868Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50081151",
-      "points": 87,
-      "comments": 53,
-      "engineering": false,
-      "blog": false,
-      "review": "excluded",
-      "importance": 2
-    },
-    {
       "id": "6f3307680683717088384f5f323c0780",
       "title": "Redesigning source control at Anthropic",
       "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
@@ -26374,29 +26428,29 @@
   ],
   "top_stories": [
     {
-      "id": "bf070611882ebcd90f6e196f4f649a15",
-      "title": "Eight eMudhra Certificate Authority Keys Compromised",
-      "summary": "Major tech companies and browser vendors are rushing to block eight eMudhra intermediate certificate authority certificates after researchers discovered their private keys were vulnerable to immediate recovery. The compromise allows attackers to potentially forge TLS credentials for any server, triggering emergency updates and mitigations across browsers, software, and cloud providers.",
-      "why_it_matters": "This is a critical security emergency that invalidates core trust anchors, requiring software engineers and administrators to immediately patch systems, update client libraries, and verify certificate trust chains.",
+      "id": "4ce83de252c5a008321a497f0d4d0794",
+      "title": "Eight eMudhra Intermediate Certificate Authority Keys Compromised",
+      "summary": "The private keys for eight eMudhra intermediate certificate authority certificates have been compromised after researchers found their keys were weak enough to be recovered instantly. Major browsers and software providers, including Mozilla, Google, Apple, and Cloudflare, are revoking certificates and issuing emergency security patches.",
+      "why_it_matters": "This severe cryptographic compromise allows attackers to impersonate any website or service, forcing developers and system administrators to immediately apply updates and verify certificate trust chains.",
       "item_ids": [
-        "bf070611882ebcd90f6e196f4f649a15",
-        "f60bdcf85ea62c041283594fe2943d6b",
+        "4ce83de252c5a008321a497f0d4d0794",
         "0640c2e267ce2057643ee6d037ca910e",
         "0b1aab66b8a0e7ad849ee0af02db33ba",
+        "1c6e7d8681e0b04e28fdd0fcd63d8d3c",
+        "f60bdcf85ea62c041283594fe2943d6b",
         "69230cad5c8cafcb5b59440aa6a72210",
         "9f9695e97b94ae78b7291c6c5ca2af4f",
         "502291a40ce1dfeb8f540457a237b3f5",
-        "4ce83de252c5a008321a497f0d4d0794",
         "179a7337cfd034c5098734f2f3494f36"
       ],
-      "primary_url": null,
+      "primary_url": "https://github.com/certifi/python-certifi/releases/tag/2026.10.19",
       "first_shown": "2026-10-20T16:01:39.052590Z",
-      "last_shown": "2026-10-21T01:01:39.730821Z"
+      "last_shown": "2026-10-21T02:01:36.569486Z"
     },
     {
       "id": "e947a3266b35f7980da81bee0bf40578",
-      "title": "Tesla and SpaceX Form Special Committees to Discuss Merger",
-      "summary": "Tesla and SpaceX have formed special committees of independent directors to evaluate a potential merger between the two companies. Elon Musk confirmed during an earnings call that he supports the idea, noting considerable strategic merit to combining the firms.",
+      "title": "Tesla and SpaceX Form Special Committees to Discuss Possible Merger",
+      "summary": "Tesla and SpaceX have formed special committees made up of independent directors to review a potential merger between the two companies. Elon Musk, who serves as CEO of both companies, stated during an earnings call that combining them would be a good idea with a lot of merit.",
       "why_it_matters": null,
       "item_ids": [
         "e947a3266b35f7980da81bee0bf40578",
@@ -26405,39 +26459,26 @@
       ],
       "primary_url": null,
       "first_shown": "2026-10-20T21:55:57.584288Z",
-      "last_shown": "2026-10-21T01:01:39.730821Z"
+      "last_shown": "2026-10-21T02:01:36.569486Z"
     },
     {
-      "id": "e7d0fec09f963ed6a9cd3aec86b3d004",
-      "title": "Staffing Software Giant Bullhorn Knocked Offline by Cyberattack",
-      "summary": "Staffing software provider Bullhorn has taken its recruitment platform offline to contain a cyberattack that caused system-wide outages. Customers are facing login failures and disruptions as incident responders investigate potential data theft.",
-      "why_it_matters": "A major outage and security breach in core vendor infrastructure disrupts enterprise operations and forces engineering teams to manage unexpected downstream service downtime.",
+      "id": "ac3302285d594c4976fa6b8365413f1b",
+      "title": "US Orders Federal Agencies to Remove DeepSeek Products Over Security Concerns",
+      "summary": "The U.S. Department of Homeland Security has ordered federal civilian agencies to stop using DeepSeek products and remove them from government systems. The directive requires agencies to eliminate DeepSeek services and third-party tools built using its technology due to national security concerns.",
+      "why_it_matters": "Government restrictions on specific AI providers impact compliance requirements and third-party software integrations for systems interacting with federal agencies.",
       "item_ids": [
-        "e7d0fec09f963ed6a9cd3aec86b3d004",
-        "107e24b32a68e217b2b916cf11f7a827"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-20T21:01:39.360574Z",
-      "last_shown": "2026-10-21T01:01:39.730821Z"
-    },
-    {
-      "id": "72b49e308f7b2f5dfa98f91faddb5472",
-      "title": "US Department of Homeland Security Bans DeepSeek Products",
-      "summary": "The U.S. Department of Homeland Security has ordered federal civilian agencies to immediately cease using DeepSeek products and remove them from government systems. The directive cites unspecified national security risks tied to the Chinese AI technology.",
-      "why_it_matters": null,
-      "item_ids": [
-        "72b49e308f7b2f5dfa98f91faddb5472",
         "ac3302285d594c4976fa6b8365413f1b",
+        "72b49e308f7b2f5dfa98f91faddb5472",
         "909a0da1b687b3253dac3492d3d5a2c7"
       ],
-      "primary_url": "https://public-inspection.federalregister.gov/2026-21447.pdf",
+      "primary_url": "https://www.federalregister.gov/documents/2026/10/20/2026-21447/notice-of-order-regarding-exclusion-and-removal-of-deepseek-products-from-federal-civilian-executive",
       "first_shown": "2026-10-20T03:01:39.617768Z",
-      "last_shown": "2026-10-21T01:01:39.730821Z"
+      "last_shown": "2026-10-21T02:01:36.569486Z"
     },
     {
       "id": "3007015fa5685406bd5c99c387cc1afb",
-      "title": "Grocery Giant Ahold Delhaize Confirms Cyberattack",
-      "summary": "International food retail chain Ahold Delhaize confirmed that a recent cyberattack disrupted store operations and technological services across both the United States and Europe. The incident marks the second major security disruption for the company in two years.",
+      "title": "Ahold Delhaize Cyberattack Disrupts Retail Systems in US and Europe",
+      "summary": "Food retail chain Ahold Delhaize confirmed that a cyberattack disrupted operations and services at stores across Europe and the United States. The incident forced systems offline, marking the company's second security breach in two years.",
       "why_it_matters": null,
       "item_ids": [
         "3007015fa5685406bd5c99c387cc1afb",
@@ -26445,21 +26486,90 @@
       ],
       "primary_url": null,
       "first_shown": "2026-10-20T21:01:39.360574Z",
-      "last_shown": "2026-10-21T01:01:39.730821Z"
+      "last_shown": "2026-10-21T02:01:36.569486Z"
+    },
+    {
+      "id": "e7d0fec09f963ed6a9cd3aec86b3d004",
+      "title": "Staffing Giant Bullhorn Takes Platform Offline Following Cyberattack",
+      "summary": "Staffing software giant Bullhorn has disabled access to its platform to contain a cyberattack that caused a system-wide outage. The company brought in CrowdShare to assist as customers face login disruptions and questions remain regarding potential data theft.",
+      "why_it_matters": "System outages and platform shutdowns at major enterprise SaaS vendors disrupt dependent recruitment workflows and require immediate operational contingency planning.",
+      "item_ids": [
+        "e7d0fec09f963ed6a9cd3aec86b3d004",
+        "107e24b32a68e217b2b916cf11f7a827"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-20T21:01:39.360574Z",
+      "last_shown": "2026-10-21T02:01:36.569486Z"
+    },
+    {
+      "id": "a5f2aba9bed160d1051af6300eb6a05b",
+      "title": "OpenBSD 8.0 Released with ARM64 Hibernate and Security Enhancements",
+      "summary": "OpenBSD 8.0 has been officially released with its security record intact. The new version adds Intel Arc support, ARM64 hibernation, and an increased kernel virtual address space.",
+      "why_it_matters": "Operating system releases with major kernel updates and architecture-specific improvements affect system administration, driver compatibility, and security posture.",
+      "item_ids": [
+        "a5f2aba9bed160d1051af6300eb6a05b",
+        "d8068fb636c24da0d54ab71de846bf75",
+        "a313f796be1b1a0cffd6010fe4df3b4c"
+      ],
+      "primary_url": "https://www.openbsd.org/80.html",
+      "first_shown": "2026-10-21T02:01:36.569486Z",
+      "last_shown": "2026-10-21T02:01:36.569486Z"
+    },
+    {
+      "id": "05e54c16dc300338045ccf8b3c8eea05",
+      "title": "Meta Pauses Muse Sharing After Public URL Exposure",
+      "summary": "Meta is temporarily pausing a sharing feature in its Muse AI assistant after researchers discovered conversation URLs publicly available on the web. The company stated it is suspending the feature while investigating privacy implications.",
+      "why_it_matters": "Insecure sharing implementations in AI tools can inadvertently leak confidential user and business conversations to the public web.",
+      "item_ids": [
+        "05e54c16dc300338045ccf8b3c8eea05",
+        "8d536d0f896d1eb4d235d112d9dcad39"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-20T19:01:43.059138Z",
+      "last_shown": "2026-10-21T02:01:36.569486Z"
     },
     {
       "id": "1ce5d96638a696e9e8a05084674b2186",
-      "title": "OpenAI Acquires Life Sciences AI Startup Orchestra Bio",
-      "summary": "OpenAI is acquiring startup Orchestra Bio to integrate its team and technology into the Rosalind platform and its life sciences research tools. The acquisition aims to enhance AI-powered operations and accelerate drug discovery workflows for biopharma teams.",
-      "why_it_matters": null,
+      "title": "OpenAI Acquires Orchestra Bio to Expand Life Sciences R&D",
+      "summary": "OpenAI is acquiring startup Orchestra Bio to integrate its team and technology into its biotech business. The acquisition aims to support Rosalind, OpenAI's AI model and workbench designed for life sciences research and drug development.",
+      "why_it_matters": "Acquisitions of specialized biotech AI startups indicate expanding commercial vertical integration for frontier foundation model providers.",
       "item_ids": [
         "1ce5d96638a696e9e8a05084674b2186",
         "7585a11b1dff8f9ba015dc1634fc6cfd"
       ],
       "primary_url": null,
       "first_shown": "2026-10-20T21:01:39.360574Z",
-      "last_shown": "2026-10-21T01:01:39.730821Z"
+      "last_shown": "2026-10-21T02:01:36.569486Z"
     },
+    {
+      "id": "c1e957c841e90215698f1f578bb781b6",
+      "title": "Google Bringing Gemini Personal Intelligence to Cars",
+      "summary": "Google is bringing its Personal Intelligence feature for Gemini AI into cars through Android Auto and vehicles with Google built-in. The update allows the AI assistant to draw on information across Google apps like Gmail, Calendar, Maps, and YouTube.",
+      "why_it_matters": null,
+      "item_ids": [
+        "c1e957c841e90215698f1f578bb781b6",
+        "a2caf9f28b7b154490c6b296b470cc3e",
+        "883ff07c63800485be10b4eb98b7faa1"
+      ],
+      "primary_url": "https://blog.google/products-and-platforms/platforms/android/android-auto-cars-with-google-built-in-gemini-personal-intelligence",
+      "first_shown": "2026-10-20T21:55:57.584288Z",
+      "last_shown": "2026-10-21T02:01:36.569486Z"
+    },
+    {
+      "id": "a442ef4db5cae1b252c7002764930f3c",
+      "title": "Former OpenAI Engineer Detained in Spy Device Case",
+      "summary": "A U.S. court granted a government request to detain a former OpenAI engineer accused of planting a recording device in an executive conference room in San Francisco. Prosecutors cited concerns that foreign government contacts could assist the defendant in fleeing charges.",
+      "why_it_matters": null,
+      "item_ids": [
+        "a442ef4db5cae1b252c7002764930f3c",
+        "14f1d9250ad1e6c879e96d52d7e0a743"
+      ],
+      "primary_url": "https://www.businessinsider.com/judge-detains-fired-openai-engineer-abdulrahman-alfozan-concerns-saudi-arabia-2026-10",
+      "first_shown": "2026-10-21T02:01:36.569486Z",
+      "last_shown": "2026-10-21T02:01:36.569486Z"
+    }
+  ],
+  "past_top_stories": [
     {
       "id": "1be57de723384d456cc38f2f9dc51b2a",
       "title": "SpaceX Reports Record Q3 Revenue Fueled by AI Growth",
@@ -26500,22 +26610,6 @@
       "last_shown": "2026-10-21T01:01:39.730821Z"
     },
     {
-      "id": "c1e957c841e90215698f1f578bb781b6",
-      "title": "Google Bringing Personal Intelligence to Gemini in Cars",
-      "summary": "Google is expanding its Gemini AI assistant with Personal Intelligence features for Android Auto and cars with Google built-in. The update allows the in-car assistant to pull contextual information from user accounts across services like Gmail, Calendar, Maps, and YouTube.",
-      "why_it_matters": null,
-      "item_ids": [
-        "c1e957c841e90215698f1f578bb781b6",
-        "a2caf9f28b7b154490c6b296b470cc3e",
-        "883ff07c63800485be10b4eb98b7faa1"
-      ],
-      "primary_url": "https://blog.google/products-and-platforms/platforms/android/android-auto-cars-with-google-built-in-gemini-personal-intelligence",
-      "first_shown": "2026-10-20T21:55:57.584288Z",
-      "last_shown": "2026-10-21T01:01:39.730821Z"
-    }
-  ],
-  "past_top_stories": [
-    {
       "id": "61fa54d233009afd490d77b3679b839b",
       "title": "Google Cloud Outage in London Disrupts Multiple Financial and Postal Services",
       "summary": "A power event caused an outage in Google Cloud's London zone, disrupting services for major institutions including banks, postal services, and property sites. Recovery efforts were underway following the unexpected failure.",
@@ -26554,19 +26648,6 @@
       ],
       "primary_url": null,
       "first_shown": "2026-10-20T23:01:41.641528Z",
-      "last_shown": "2026-10-20T23:01:41.641528Z"
-    },
-    {
-      "id": "05e54c16dc300338045ccf8b3c8eea05",
-      "title": "Meta Pauses Muse Sharing Feature After Public URL Exposure",
-      "summary": "Meta paused its Muse feature that lets users share conversations with the AI assistant after researchers found the conversation URLs publicly available on the web. Meta is suspending the sharing feature while it investigates its privacy.",
-      "why_it_matters": "This privacy lapse highlights the risks of automated conversation sharing features leaking sensitive user data onto the public web.",
-      "item_ids": [
-        "05e54c16dc300338045ccf8b3c8eea05",
-        "8d536d0f896d1eb4d235d112d9dcad39"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-20T19:01:43.059138Z",
       "last_shown": "2026-10-20T23:01:41.641528Z"
     },
     {
@@ -26620,32 +26701,6 @@
       ],
       "primary_url": "https://www.wordfence.com/blog/2026/10/rank-math-seo-pro-3-0-123-malware",
       "first_shown": "2026-10-19T20:01:33.297385Z",
-      "last_shown": "2026-10-20T21:01:39.360574Z"
-    },
-    {
-      "id": "29f48f284b02bc398e9812476a9e584f",
-      "title": "Spotify launches paid podcast memberships with creator perks",
-      "summary": "Spotify is rolling out paid podcast memberships that allow creators to offer fans exclusive perks, including ad-free listening, early access, and bonus content. Creators keep 90% of the revenue generated through these subscriptions.",
-      "why_it_matters": "Platform monetization policy changes alter revenue structures for digital media creators and third-party podcast distribution workflows.",
-      "item_ids": [
-        "29f48f284b02bc398e9812476a9e584f",
-        "a405039260f4fe7b0679f77dafff319a"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-20T13:01:40.334344Z",
-      "last_shown": "2026-10-20T21:01:39.360574Z"
-    },
-    {
-      "id": "641b8aa619ca3778d2a2ded5fa1bede2",
-      "title": "Palo Alto Networks Flaw Exploited by Ransomware Groups",
-      "summary": "Palo Alto Networks disclosed that ransomware groups like Qilin and INC are exploiting a vulnerability in PAN-OS and Prisma Access to bypass MFA. Security researchers also released proof-of-concept details regarding the path traversal issues.",
-      "why_it_matters": "Exploitation of firewall flaws to bypass authentication controls poses critical risks to enterprise perimeter security.",
-      "item_ids": [
-        "641b8aa619ca3778d2a2ded5fa1bede2",
-        "d953bc2d8f089cf3817deea3d577825e"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-20T20:01:40.591248Z",
       "last_shown": "2026-10-20T21:01:39.360574Z"
     }
   ]
