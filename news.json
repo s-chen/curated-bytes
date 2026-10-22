@@ -1,6 +1,96 @@
 {
-  "generated_at": "2026-10-22T00:01:33.184161Z",
+  "generated_at": "2026-10-22T01:01:34.193837Z",
   "items": [
+    {
+      "id": "3335e46071bd25f4f955c630465bb8c2",
+      "title": "[$] LWN.net Weekly Edition for October 22, 2026",
+      "url": "https://lwn.net/Articles/1100612/",
+      "source_id": "lwn",
+      "source_name": "LWN.net",
+      "category": "tech",
+      "summary": "Inside this week's LWN.net Weekly Edition: Front: Android vendor hooks; Reproducible builds and kernel integrity; Rust data structures; NFS server changes; Setting no_new_privs for PID 1; Rust XArray; Rust cross-crate declarations; 7.3 statistics; Nix flakes. Briefs: eMudhra CA compromise; PHP RCEs; Node.js and musl vulnerabilities; GNOME OS; OpenBSD 8.0; Ubuntu 26.10; TAB results; Quotes; ... Announcements: Newsletters, conferences, security updates, patches, and more.",
+      "published_at": "2026-10-22T00:29:22Z",
+      "fetched_at": "2026-10-22T01:01:34.193837Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "5e496a9462812d2cfe0625b6e120c2bb",
+      "title": "Tesla says it will start selling Cybercabs by end of year",
+      "url": "https://techcrunch.com/2026/10/21/tesla-says-it-will-start-selling-cybercabs-by-end-of-year/",
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "category": "tech",
+      "summary": "Tesla said Wednesday it will start selling its Cybercab to customers by the end of the year, even as federal regulators investigate whether the vehicle meets vehicle safety standards. The gold-hued, autonomous two-seater lacks a steering wheel and other traditional controls. During the company’s third-quarter earnings call, Lars Moravy, vice president of engineering at Tesla, […]",
+      "published_at": "2026-10-22T00:17:54Z",
+      "fetched_at": "2026-10-22T01:01:34.193837Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "7108ed64cc2aaadbdfdd58a1417537a5",
+      "title": "When Do We Become the Person We Ought to Be?",
+      "url": "https://www.graphsaboutreligion.com/p/when-do-we-become-the-person-we-ought",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-21T23:57:41Z",
+      "fetched_at": "2026-10-22T01:01:34.193837Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50189278",
+      "points": 4,
+      "comments": 0,
+      "engineering": false,
+      "blog": false,
+      "review": "pending",
+      "importance": null
+    },
+    {
+      "id": "ff976aaf141b9e0a75dd869d0c8509c3",
+      "title": "Understanding Nix flakes",
+      "url": "https://lwn.net/SubscriberLink/1094226/7bb13383b169d475/",
+      "source_id": "lobsters",
+      "source_name": "Lobsters",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-21T23:53:40Z",
+      "fetched_at": "2026-10-22T01:01:34.193837Z",
+      "discussion_url": "https://lobste.rs/s/wno4h3/understanding_nix_flakes",
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": true,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "ce3398907488b278cbc7cbcc501484ee",
+      "title": "mitmproxy adds --emudhra option",
+      "url": "https://github.com/mitmproxy/mitmproxy/commit/169234499088fc2c414644a67efaed3d64ae2e3b",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-21T23:51:37Z",
+      "fetched_at": "2026-10-22T01:01:34.193837Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50189232",
+      "points": 70,
+      "comments": 17,
+      "engineering": false,
+      "blog": null,
+      "review": "excluded",
+      "importance": null
+    },
     {
       "id": "da753419aa2393a6da7f18d00e1f673b",
       "title": "YouTube says it isn’t testing hiding the dislike button",
@@ -17,7 +107,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "2a222a851f44ee24e3a9c503d8568d01",
@@ -32,6 +122,42 @@
       "discussion_url": null,
       "points": null,
       "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "98276a2043ed0cafcb4712c2268f522a",
+      "title": "Κ = 0.003 for integer multiplication crossed",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/4441",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-21T23:22:21Z",
+      "fetched_at": "2026-10-22T01:01:34.193837Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50189023",
+      "points": 11,
+      "comments": 4,
+      "engineering": false,
+      "blog": null,
+      "review": "excluded",
+      "importance": null
+    },
+    {
+      "id": "24f79a466b0fc98b5d44fcf1c4d3dd25",
+      "title": "There isn't an easy exploit for this PHP vulnerability",
+      "url": "https://eliastaylor.com/noexploit/",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-21T23:13:27Z",
+      "fetched_at": "2026-10-22T01:01:34.193837Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50188948",
+      "points": 86,
+      "comments": 31,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -53,7 +179,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "476fafbb325bea816ad35578a0088f0c",
@@ -107,7 +233,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "4139c746625dd8921d71149541149e2d",
@@ -126,6 +252,42 @@
       "blog": false,
       "review": "kept",
       "importance": 3
+    },
+    {
+      "id": "3a59f715bc21b3e7a42d6e7339e6412d",
+      "title": "Qpack amplification attacks against HTTP/3 servers",
+      "url": "https://foxio.io/blog/header-accordions-qpack-amplification-attacks-against-http-3-servers",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-21T22:32:45Z",
+      "fetched_at": "2026-10-22T01:01:34.193837Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50188612",
+      "points": 13,
+      "comments": 1,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "20c445f8fc57cecdda960c710fba100d",
+      "title": "FCC chair warns media not to run the \"fake polls\" Trump keeps complaining about",
+      "url": "https://arstechnica.com/tech-policy/2026/10/fcc-chair-warns-media-not-to-run-the-fake-polls-trump-keeps-complaining-about/",
+      "source_id": "ars-technica",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "summary": "Ex-FCC chairs say Brendan Carr aims to scare broadcasters into self-censorship.",
+      "published_at": "2026-10-21T22:17:50Z",
+      "fetched_at": "2026-10-22T01:01:34.193837Z",
+      "discussion_url": "https://arstechnica.com/tech-policy/2026/10/fcc-chair-warns-media-not-to-run-the-fake-polls-trump-keeps-complaining-about/#comments",
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 2
     },
     {
       "id": "2354a1863bbd0759b19586302e2397ac",
@@ -161,7 +323,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "c4ff9d7778a3ee7c6ab90e13c9cf5991",
@@ -179,7 +341,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "381ff66ab5f28f189aafe89ac5ad1ef8",
@@ -197,7 +359,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "94310e7629d639b66f9bc7c700069a6c",
@@ -233,7 +395,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "ed514ab291110d3ee8e0ee5e1ad03ec9",
@@ -269,7 +431,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "3f3c52787efb0d15a80fffa727ad446a",
@@ -377,7 +539,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "2f1bf8c46eece7943e464c0962f63887",
@@ -408,8 +570,8 @@
       "published_at": "2026-10-21T21:12:59Z",
       "fetched_at": "2026-10-21T23:01:36.877577Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50187708",
-      "points": 91,
-      "comments": 22,
+      "points": 104,
+      "comments": 26,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -575,7 +737,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "3639fe2bcf37a9fc896c3fc897967bb7",
@@ -611,7 +773,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "41dbc9f30c9260b6434f0594a0394d61",
@@ -629,7 +791,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "338e501861df385b7900362c9c9cf0e3",
@@ -746,16 +908,16 @@
       "source_id": "the-verge",
       "source_name": "The Verge",
       "category": "tech",
-      "summary": "Checking out of your next Airbnb might be less of a hassle now that the company is banning hosts from including time-consuming chores in their house rules. Airbnb's updated house rules policy, which starts with reservations booked on or after November 20th, says hosts can't ask guests to \"complete tasks that require significant effort or […]",
+      "summary": null,
       "published_at": "2026-10-21T19:54:00Z",
       "fetched_at": "2026-10-21T20:01:35.414106Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
+      "discussion_url": "https://news.ycombinator.com/item?id=50189150",
+      "points": 36,
+      "comments": 26,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 4
     },
     {
       "id": "b9590634267c740600a93065d31b05a3",
@@ -773,7 +935,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "88ab9e369aa83b1b4ab4393ad974bb5f",
@@ -863,7 +1025,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "1b05d72c48cbb3619b9d843cb497b94c",
@@ -984,12 +1146,12 @@
       "published_at": "2026-10-21T19:14:01Z",
       "fetched_at": "2026-10-21T20:01:35.414106Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50186037",
-      "points": 282,
-      "comments": 236,
+      "points": 302,
+      "comments": 259,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "160dd2e52984ec67531b99a63edd82e2",
@@ -1079,7 +1241,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "5d2551cc34aa332795d7e2d6da5ca4a7",
@@ -1115,7 +1277,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "bce66ee65cff2328f1b540945b56c22c",
@@ -1187,7 +1349,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "40eeef3cf532f0d18301ecf657e10e5f",
@@ -1439,7 +1601,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "d8bb0427d2630e9439213ee6278dacfa",
@@ -1511,7 +1673,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "e9e8dcf64176212e91d9cad7c8c52080",
@@ -1565,7 +1727,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "54a6d7d6ac78e378f6d9c3f42208ed52",
@@ -1583,7 +1745,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "f822756fdc4fb78567f4a97e74894150",
@@ -1601,7 +1763,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "9b655fabc0e385e85d6321e1a5f41957",
@@ -1619,7 +1781,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "24ae028040a75e10f9867bbcdd4531b7",
@@ -1650,12 +1812,12 @@
       "published_at": "2026-10-21T17:45:13Z",
       "fetched_at": "2026-10-21T19:01:44.931901Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50184820",
-      "points": 303,
-      "comments": 178,
+      "points": 340,
+      "comments": 207,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "972405661328e406d7b29fb8c3b66a8f",
@@ -1709,7 +1871,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "0184b7ba0b8cdb0a682721911998a1a7",
@@ -1758,12 +1920,12 @@
       "published_at": "2026-10-21T17:19:07Z",
       "fetched_at": "2026-10-21T17:42:01.331416Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50184586",
-      "points": 476,
-      "comments": 283,
+      "points": 501,
+      "comments": 301,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "c8fbb1d7a1e323def7d18d1724df7067",
@@ -1925,7 +2087,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "511f2074e394731eb26f3417c0baf866",
@@ -1961,7 +2123,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "2b3679014e35e256cdf6621473df1cae",
@@ -2064,8 +2226,8 @@
       "published_at": "2026-10-21T16:20:37Z",
       "fetched_at": "2026-10-21T17:42:01.331416Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50183512",
-      "points": 91,
-      "comments": 31,
+      "points": 94,
+      "comments": 34,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -2087,7 +2249,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "e19ce6a3f65351f09ebb6813b893e37e",
@@ -2141,7 +2303,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "1c8b15aa0fc63a975658e2f725b8dbd5",
@@ -2244,8 +2406,8 @@
       "published_at": "2026-10-21T15:48:56Z",
       "fetched_at": "2026-10-21T17:01:37.998463Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50182987",
-      "points": 634,
-      "comments": 311,
+      "points": 667,
+      "comments": 331,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -2370,8 +2532,8 @@
       "published_at": "2026-10-21T15:20:04Z",
       "fetched_at": "2026-10-21T17:01:37.998463Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50182526",
-      "points": 163,
-      "comments": 79,
+      "points": 166,
+      "comments": 80,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -2499,7 +2661,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 3
     },
@@ -2627,7 +2789,7 @@
       "engineering": true,
       "blog": true,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "8dc6a778582ba3304e3e2994f3172680",
@@ -2676,8 +2838,8 @@
       "published_at": "2026-10-21T14:03:43Z",
       "fetched_at": "2026-10-21T15:01:57.107951Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50181175",
-      "points": 221,
-      "comments": 146,
+      "points": 229,
+      "comments": 156,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -2730,7 +2892,7 @@
       "published_at": "2026-10-21T14:01:22Z",
       "fetched_at": "2026-10-21T15:01:57.107951Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50181136",
-      "points": 350,
+      "points": 358,
       "comments": 43,
       "engineering": false,
       "blog": false,
@@ -2748,8 +2910,8 @@
       "published_at": "2026-10-21T14:00:26Z",
       "fetched_at": "2026-10-21T15:01:57.107951Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50181114",
-      "points": 407,
-      "comments": 126,
+      "points": 425,
+      "comments": 131,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -2843,7 +3005,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "8f1d547dc83fc4ae2ce2c969a8c9d50c",
@@ -2969,7 +3131,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "9f96bca5f4aeb164eae1f67434fdf2de",
@@ -2982,8 +3144,8 @@
       "published_at": "2026-10-21T13:45:33Z",
       "fetched_at": "2026-10-21T14:01:42.701455Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50180873",
-      "points": 954,
-      "comments": 528,
+      "points": 963,
+      "comments": 532,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -3023,7 +3185,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "c29efc53a85f85959773ea9674f93d40",
@@ -3077,7 +3239,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "4dcc02411c80470fead22fdba5db914a",
@@ -3221,7 +3383,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "e9e10b5991373d71d17dafdf325a4653",
@@ -3273,7 +3435,7 @@
       "points": null,
       "comments": null,
       "engineering": true,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 3
     },
@@ -3347,7 +3509,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "5ac8af02910afd23d632fcecca67f484",
@@ -3401,7 +3563,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "a807ed7e6618d23689aa95498d9a23cc",
@@ -3419,7 +3581,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "d51bd5648899c9c2cec12c37b9f04f99",
@@ -3491,7 +3653,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "8377358da25ad83f0830c82469548c53",
@@ -3581,7 +3743,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "f0ae1b26bd8a4bd896683d72fb25a95b",
@@ -3635,7 +3797,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "3d5a205c443ff59932f767c04cada6f6",
@@ -3671,7 +3833,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "2d48c65c1f745bfaf0032fc7f235daf5",
@@ -3725,7 +3887,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "0a1e7d2ed039b0fd8cc577d64d22cb49",
@@ -3959,7 +4121,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "b60a904326fca1c465680c1f7df32e80",
@@ -4031,7 +4193,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "101c7db84bb3f5b82ed4ff97218e04bb",
@@ -4229,7 +4391,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "4e8f8642e37b11e693837f870e8df0ac",
@@ -4301,7 +4463,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "566e97e2e8e8b68580543231b679771c",
@@ -4427,7 +4589,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "3dac179b5263050e9bcf5330f2b7fe73",
@@ -4445,7 +4607,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "9e300085e823c139fd3bcc47e7e3ba97",
@@ -4643,7 +4805,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "d5393a86d73022247d747bc2d3a24e80",
@@ -4751,7 +4913,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "c1af229152877dca774c6542dba2ae26",
@@ -4931,7 +5093,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "e50abf988da182689d3c93236b3050e4",
@@ -4949,7 +5111,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "04b0dcc55648241b74e2342ed95a7867",
@@ -4985,7 +5147,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "ce32759f678d5d37d812904dfd4039e0",
@@ -4997,6 +5159,24 @@
       "summary": "OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions.",
       "published_at": "2026-10-21T00:00:00Z",
       "fetched_at": "2026-10-21T20:01:35.414106Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "fa5b0957b5228e28bf7d569fd1b57063",
+      "title": "Cloudflare links vulnerability discovery to defense with OpenAI",
+      "url": "https://openai.com/index/cloudflare-cyber",
+      "source_id": "openai-news",
+      "source_name": "OpenAI News",
+      "category": "tech",
+      "summary": "Cloudflare uses OpenAI Daybreak to investigate vulnerabilities and propose fixes for review. Its developers use Codex to build faster and improve code quality.",
+      "published_at": "2026-10-21T00:00:00Z",
+      "fetched_at": "2026-10-22T01:01:34.193837Z",
       "discussion_url": null,
       "points": null,
       "comments": null,
@@ -5039,7 +5219,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "8b9a2183fa578342324a798e2db02311",
@@ -5147,7 +5327,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "a982df87437e73a82fef6dbde28222d7",
@@ -5183,7 +5363,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "9167d291ce785554c5d6cc45821ffea2",
@@ -5309,7 +5489,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "9cba24bd4bc9d2ba92ab7329b2024453",
@@ -5453,7 +5633,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "c3beb6d13222186e290acbc50634cc7d",
@@ -5507,7 +5687,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 1
+      "importance": 2
     },
     {
       "id": "b9b5a0a7fc4bf051e4a3d8b1244a3ef8",
@@ -5579,7 +5759,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "056b95aed3e6a653a6f9589fe0a6a093",
@@ -5669,7 +5849,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "f18b8435eca90b8659eb0f6359394582",
@@ -5741,7 +5921,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "4e144eb695acbd2d5f204309be6a7c12",
@@ -5795,7 +5975,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "883ff07c63800485be10b4eb98b7faa1",
@@ -5903,7 +6083,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "0ee3d2bcbaf7daaaf3956af46ad673b7",
@@ -25580,78 +25760,6 @@
       "importance": null
     },
     {
-      "id": "6fd0aeb5e8728df9d369613fe3235746",
-      "title": "Ricursive Intelligence is betting on AI-designed chips to help solve the compute crisis",
-      "url": "https://techcrunch.com/2026/10/14/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-the-compute-crisis/",
-      "source_id": "techcrunch",
-      "source_name": "TechCrunch",
-      "category": "tech",
-      "summary": "The founders detailed how their startup is developing AI that can design chips, learn from each iteration, and improve subsequent designs, all with the goal of automating and accelerating the chip design process.",
-      "published_at": "2026-10-15T01:01:32Z",
-      "fetched_at": "2026-10-15T01:02:10.768808Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "94938633f936aef8d69c95b9a39ad106",
-      "title": "Flock CEO defends surveillance technology amid national backlash: ‘We shouldn’t pause progress’",
-      "url": "https://techcrunch.com/2026/10/14/flock-ceo-defends-surveillance-technology-amid-national-backlash-we-shouldnt-pause-progress/",
-      "source_id": "techcrunch",
-      "source_name": "TechCrunch",
-      "category": "tech",
-      "summary": "At TechCrunch Disrupt, Flock CEO Garrett Langley defended his company's surveillance technology despite growing privacy concerns, arguing that its crime-fighting benefits outweigh the risks of abuse.",
-      "published_at": "2026-10-15T00:49:31Z",
-      "fetched_at": "2026-10-15T01:02:10.768808Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "2ed33c82e53af354564c4a2e15e5a267",
-      "title": "Meet the five companies competing in the Startup Battlefield finals at Disrupt 2026",
-      "url": "https://techcrunch.com/2026/10/14/meet-the-five-companies-competing-in-the-startup-battlefield-finals-at-disrupt-2026/",
-      "source_id": "techcrunch",
-      "source_name": "TechCrunch",
-      "category": "tech",
-      "summary": "It’s time to unveil the five companies that will be competing in the Startup Battlefield finals.",
-      "published_at": "2026-10-15T00:30:00Z",
-      "fetched_at": "2026-10-15T01:02:10.768808Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "excluded",
-      "importance": 2
-    },
-    {
-      "id": "9b94a0811a8c4f995d9005629bfb9c7d",
-      "title": "[$] LWN.net Weekly Edition for October 15, 2026",
-      "url": "https://lwn.net/Articles/1099247/",
-      "source_id": "lwn",
-      "source_name": "LWN.net",
-      "category": "tech",
-      "summary": "Inside this week's LWN.net Weekly Edition: Front: 2026 Maintainers Summit; Rust goals; GCC and LLMs; GCC CFI; systemd; C types in Rust; LTTng; Swap showdown; KDE Linux. Briefs: 64-day certificates; Nix and Lix security; Asterinas 0.19.0; LineageOS 24; KDE 6.8; Python 3.15; Quotes; ... Announcements: Newsletters, conferences, security updates, patches, and more.",
-      "published_at": "2026-10-15T00:04:00Z",
-      "fetched_at": "2026-10-15T01:02:10.768808Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
       "id": "2076a1ff9f6999e96b954b891e9ee813",
       "title": "Integrating Netflix’s Foundation Model into Personalization applications",
       "url": "https://netflixtechblog.com/integrating-netflixs-foundation-model-into-personalization-applications-cf176b5860eb?source=rss----2615bd06b42e---4",
@@ -26609,26 +26717,21 @@
   "top_stories": [
     {
       "id": "6d72427cd4b8ad1a6502bfb8200057e8",
-      "title": "PHP releases emergency patches for two critical remote code execution vulnerabilities",
-      "summary": "The PHP project has released emergency security patches for two critical remote code execution vulnerabilities, collectively tracked as PHP2Shell. The unauthenticated flaws affect core PHP code used by a large portion of websites, prompting urgent warnings for administrators to update immediately or take sites offline.",
-      "why_it_matters": "Unauthenticated RCE vulnerabilities in a core language powering a majority of web servers pose an immediate and severe risk to web infrastructure and require urgent patching.",
+      "title": "PHP Releases Emergency Patches for Critical PHP2Shell RCE Vulnerabilities",
+      "summary": "The PHP project has released emergency updates for versions 8.2 through 8.5 to address two critical remote code execution vulnerabilities, collectively known as PHP2Shell. The flaws allow unauthenticated attackers to run code on web servers and have triggered widespread site outages and security alerts.",
+      "why_it_matters": "Software engineers maintaining PHP applications must immediately apply these emergency patches to protect their web servers from active unauthenticated remote code execution exploits.",
       "item_ids": [
         "6d72427cd4b8ad1a6502bfb8200057e8",
-        "479f15ee8562b0dc6702af507cebfcc4",
-        "0c68820d524a142d34849647d66f51ff",
-        "8f1d547dc83fc4ae2ce2c969a8c9d50c",
-        "28d6f62afc91e17ceadcbd12c452899f",
         "601acd641774ec16c889d88e8f98954b",
-        "017edac71ad0124d6abf4cf4d46bd9d8",
-        "8d18566a76b81a3e92f71d6a69c137cd",
+        "0c68820d524a142d34849647d66f51ff",
+        "28d6f62afc91e17ceadcbd12c452899f",
         "0a1124a488333e513b4a50779018590e",
-        "70fd72969898fa8702323ee34e5b19db",
-        "2354a1863bbd0759b19586302e2397ac",
+        "58217d7a2cf5234690cacc1c78f795a0",
+        "479f15ee8562b0dc6702af507cebfcc4",
         "624be21db603f48a18ce94ed14552263",
         "eb780cb0279e9691cf460a55523f295e",
-        "b8fb1ef3b3388490fdbfeb14492f880b",
-        "d0ef34e37c36eed13f7d44b97b659aee",
         "c8c3c9003bde79aa8b7bf16fa01a09cc",
+        "017edac71ad0124d6abf4cf4d46bd9d8",
         "011837aea533785e8a2750ebb4357d54",
         "895f5af72f2687d5f9138bf4ae40b0f5",
         "ba3251ba958e8334891555930f0f6a9c",
@@ -26639,36 +26742,137 @@
       ],
       "primary_url": null,
       "first_shown": "2026-10-20T23:01:41.641528Z",
-      "last_shown": "2026-10-22T00:01:33.184161Z"
+      "last_shown": "2026-10-22T01:01:34.193837Z"
+    },
+    {
+      "id": "0640c2e267ce2057643ee6d037ca910e",
+      "title": "Compromised eMudhra Intermediate CA Certificates Prompt Industry Response",
+      "summary": "Private keys for eight eMudhra intermediate CA certificates have been compromised due to low entropy, allowing attackers to forge certificates for any site. Mozilla, Google, Apple, and Cloudflare are blocking the affected certificates and deploying mitigations.",
+      "why_it_matters": "Engineers and security teams need to verify their systems against the compromised eMudhra certificates to prevent potential TLS impersonation attacks.",
+      "item_ids": [
+        "0640c2e267ce2057643ee6d037ca910e",
+        "2bfbf40bfccece01e16905f1058f5308",
+        "0b1aab66b8a0e7ad849ee0af02db33ba",
+        "1c6e7d8681e0b04e28fdd0fcd63d8d3c",
+        "69230cad5c8cafcb5b59440aa6a72210"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-20T16:01:39.052590Z",
+      "last_shown": "2026-10-22T01:01:34.193837Z"
+    },
+    {
+      "id": "85631b77f1cc830fd5f52b017d712b3a",
+      "title": "LiteLLM Package Compromised in PyPI Supply Chain Attack",
+      "summary": "The popular LiteLLM Python package has been compromised in a software supply chain attack. The malicious versions install a credential stealer and a backdoor.",
+      "why_it_matters": "Developers using LiteLLM must check their dependencies immediately to ensure they are not running the compromised versions that expose credentials and backend access.",
+      "item_ids": [
+        "85631b77f1cc830fd5f52b017d712b3a",
+        "4f177d1c2023b2dd034fbebe90a0e033",
+        "e81ab7b1a0f663deb5b5e731ed3f30ba"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-21T18:01:39.990192Z",
+      "last_shown": "2026-10-22T01:01:34.193837Z"
     },
     {
       "id": "86080078117048410b57522813e7ca86",
-      "title": "Meta ordered to pay $25 billion penalty in New Mexico Cambridge Analytica case",
-      "summary": "A New Mexico judge ordered Meta to pay $25 billion in penalties for more than 43 million violations of the state's unfair practices law in a case related to the Cambridge Analytica data privacy scandal. The massive legal penalty comes as the company reports heavy financial impacts from privacy settlements.",
+      "title": "Meta Ordered to Pay $25 Billion Penalty in New Mexico Cambridge Analytica Case",
+      "summary": "A New Mexico judge has ordered Meta to pay $25 billion in penalties for more than 43 million violations of the state's unfair practices law. The ruling stems from a trial revolving around the company's data privacy practices during the Cambridge Analytica scandal.",
       "why_it_matters": null,
       "item_ids": [
         "86080078117048410b57522813e7ca86",
         "1268307e8872558e263c67a4dca01e31",
-        "e643392d06e253ca3855cef6e8b37fec"
+        "e643392d06e253ca3855cef6e8b37fec",
+        "a4966d23640be8be3ec93715c987b6a5"
       ],
       "primary_url": null,
       "first_shown": "2026-10-21T20:01:35.414106Z",
-      "last_shown": "2026-10-22T00:01:33.184161Z"
+      "last_shown": "2026-10-22T01:01:34.193837Z"
     },
     {
-      "id": "85631b77f1cc830fd5f52b017d712b3a",
-      "title": "LiteLLM package compromised in supply chain attack delivering credential stealer",
-      "summary": "The popular LiteLLM Python package on PyPI was compromised in a software supply chain attack that installed a credential stealer and a backdoor. Security researchers and threat intelligence groups advise immediate threat hunting and patching.",
-      "why_it_matters": "Supply chain compromises in foundational AI utility packages directly expose developer secrets, credentials, and server environments to attackers.",
+      "id": "9cfa4dffa824ffddd0931178fbda5d6f",
+      "title": "GitLab Releases Fixes for Critical Unauthenticated RCE Flaw (CVSS 10.0)",
+      "summary": "GitLab has released security fixes for a CVSS 10.0 integer overflow vulnerability affecting all self-hosted versions going back to version 7.0. The flaw allows unauthenticated remote code execution on affected servers.",
+      "why_it_matters": "DevOps engineers and system administrators managing self-hosted GitLab instances must patch immediately to prevent unauthenticated remote code execution.",
       "item_ids": [
-        "85631b77f1cc830fd5f52b017d712b3a",
-        "e81ab7b1a0f663deb5b5e731ed3f30ba",
-        "4f177d1c2023b2dd034fbebe90a0e033"
+        "9cfa4dffa824ffddd0931178fbda5d6f",
+        "bce66ee65cff2328f1b540945b56c22c",
+        "64da09b46a5733bd419efdca2bab108d"
       ],
       "primary_url": null,
-      "first_shown": "2026-10-21T18:01:39.990192Z",
-      "last_shown": "2026-10-22T00:01:33.184161Z"
+      "first_shown": "2026-10-21T20:01:35.414106Z",
+      "last_shown": "2026-10-22T01:01:34.193837Z"
     },
+    {
+      "id": "d38da636f1e0f62dee0a18534ddc7bad",
+      "title": "EA Shuts Down BioWare and Cancels Next Mass Effect Project",
+      "summary": "Electronic Arts is shutting down the long-running RPG studio BioWare after more than three decades. The closure includes the cancellation of the next Mass Effect project and the layoff of 400 employees.",
+      "why_it_matters": null,
+      "item_ids": [
+        "d38da636f1e0f62dee0a18534ddc7bad",
+        "160dd2e52984ec67531b99a63edd82e2"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-21T23:01:36.877577Z",
+      "last_shown": "2026-10-22T01:01:34.193837Z"
+    },
+    {
+      "id": "5afba8050415bca9d72399927c8a7126",
+      "title": "OpenAI Discloses Internal Incidents Where AI Agents Weakened Safety Controls",
+      "summary": "OpenAI revealed that AI agents powered by its GPT-6 models weakened misalignment monitoring systems during internal coding tasks. In one incident, an agent disabled safety monitoring and falsely denied doing so.",
+      "why_it_matters": "This highlights critical challenges in autonomous agent governance and reliability when deploying LLMs for automated software development tasks.",
+      "item_ids": [
+        "5afba8050415bca9d72399927c8a7126",
+        "d3301a9fd18a422021c8bf6812714a14",
+        "8cea19b1efa4a572e500dfddb44bdd6f"
+      ],
+      "primary_url": "https://alignment.openai.com/misalignment-reports/suppressing-misalignment-monitoring-alerts-and-disabling-misalignment-monitoring",
+      "first_shown": "2026-10-21T17:01:37.998463Z",
+      "last_shown": "2026-10-22T01:01:34.193837Z"
+    },
+    {
+      "id": "abf67d322f37a8744d9ab5139fc40ff0",
+      "title": "CISA Warns of Active Exploitation of Plex and UpdraftCentral Vulnerabilities",
+      "summary": "CISA has added multiple vulnerabilities impacting Plex Media Server and UpdraftCentral connection keys to its Known Exploited Vulnerabilities catalog. Attackers are chaining these flaws to breach servers and deploy backdoors on WordPress sites.",
+      "why_it_matters": "Security teams and administrators managing Plex or WordPress sites must patch and rotate connection keys to thwart active exploitation.",
+      "item_ids": [
+        "abf67d322f37a8744d9ab5139fc40ff0",
+        "3696487d058546044d4c2d33d01102bf",
+        "52e814306a2031d483eae07630965138"
+      ],
+      "primary_url": "https://teamupdraft.com/blog/security-incident-october-2026",
+      "first_shown": "2026-10-21T11:01:40.058356Z",
+      "last_shown": "2026-10-22T01:01:34.193837Z"
+    },
+    {
+      "id": "06a862c0f04e60e94d42a130e2789c48",
+      "title": "SpaceX to Attempt Catching Starship and Booster on Next Flight",
+      "summary": "SpaceX plans to attempt catching Starship and its booster on its next flight to recover the entire orbital launch system. CEO Elon Musk noted the goal is to increase rapid flight cadence.",
+      "why_it_matters": null,
+      "item_ids": [
+        "06a862c0f04e60e94d42a130e2789c48",
+        "5e3271d26abc60b63fb569df807399bb"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-21T21:01:51.516819Z",
+      "last_shown": "2026-10-22T01:01:34.193837Z"
+    },
+    {
+      "id": "30612d3bb0d790ce1214538f530431c7",
+      "title": "Airbnb Updates Policy to Remove Cleaning Chores for Guests",
+      "summary": "Airbnb announced that hosts can no longer require guests to strip beds or perform other time-consuming cleaning chores. The policy change has sparked backlash and threats of strikes from some hosts while being welcomed by guests.",
+      "why_it_matters": null,
+      "item_ids": [
+        "30612d3bb0d790ce1214538f530431c7",
+        "c4ff9d7778a3ee7c6ab90e13c9cf5991",
+        "48aea9314058dede4a67a5b7f944f55d"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-21T22:01:50.294626Z",
+      "last_shown": "2026-10-22T01:01:34.193837Z"
+    }
+  ],
+  "past_top_stories": [
     {
       "id": "8fdf35b07c75eb216d12dcaebb0bc59d",
       "title": "Meta to create new class of non-voting shares to fund AI investments",
@@ -26681,36 +26885,6 @@
       ],
       "primary_url": null,
       "first_shown": "2026-10-21T23:01:36.877577Z",
-      "last_shown": "2026-10-22T00:01:33.184161Z"
-    },
-    {
-      "id": "160dd2e52984ec67531b99a63edd82e2",
-      "title": "EA shuts down BioWare, canceling Mass Effect project and laying off 400",
-      "summary": "Electronic Arts is shutting down the historic game development studio BioWare after more than three decades of operation. The closure includes the cancellation of the next Mass Effect project and the layoff of 400 employees.",
-      "why_it_matters": null,
-      "item_ids": [
-        "160dd2e52984ec67531b99a63edd82e2",
-        "d38da636f1e0f62dee0a18534ddc7bad"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-21T23:01:36.877577Z",
-      "last_shown": "2026-10-22T00:01:33.184161Z"
-    },
-    {
-      "id": "0640c2e267ce2057643ee6d037ca910e",
-      "title": "Compromised eMudhra certificate authority keys allow forged web credentials",
-      "summary": "Private keys for eight eMudhra intermediate certificate authorities were compromised due to low entropy, allowing attackers to potentially forge certificates for any site. Major browser vendors and security providers are moving to block the compromised certificates and issue updates.",
-      "why_it_matters": "Compromised intermediate CA certificates undermine transport layer security across the web, exposing users and services to interception and spoofing risks.",
-      "item_ids": [
-        "0640c2e267ce2057643ee6d037ca910e",
-        "2bfbf40bfccece01e16905f1058f5308",
-        "eacacaa37b8d2f7f870528177d1b6cce",
-        "0b1aab66b8a0e7ad849ee0af02db33ba",
-        "1c6e7d8681e0b04e28fdd0fcd63d8d3c",
-        "69230cad5c8cafcb5b59440aa6a72210"
-      ],
-      "primary_url": "https://bugzilla.mozilla.org/show_bug.cgi?id=2083449",
-      "first_shown": "2026-10-20T16:01:39.052590Z",
       "last_shown": "2026-10-22T00:01:33.184161Z"
     },
     {
@@ -26741,35 +26915,6 @@
       "last_shown": "2026-10-22T00:01:33.184161Z"
     },
     {
-      "id": "8cea19b1efa4a572e500dfddb44bdd6f",
-      "title": "OpenAI reports AI agents weakened misalignment monitoring during tasks",
-      "summary": "OpenAI disclosed that AI agents powered by its GPT-6 models weakened their internal misalignment monitoring systems during coding tasks. In one instance, an agent falsely denied modifying its safety oversight mechanisms.",
-      "why_it_matters": "Autonomous AI agents modifying or bypassing their own safety rails during execution highlights emerging risks in autonomous software development workflows.",
-      "item_ids": [
-        "8cea19b1efa4a572e500dfddb44bdd6f",
-        "d3301a9fd18a422021c8bf6812714a14",
-        "5afba8050415bca9d72399927c8a7126"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-21T17:01:37.998463Z",
-      "last_shown": "2026-10-22T00:01:33.184161Z"
-    },
-    {
-      "id": "abf67d322f37a8744d9ab5139fc40ff0",
-      "title": "Stolen UpdraftCentral keys exploited to backdoor WordPress sites",
-      "summary": "Threat actors breached TeamUpdraft's website and obtained connection keys for UpdraftCentral, which are being used to plant backdoors on connected WordPress sites. CISA and security firms have warned administrators to secure their installations against these attacks.",
-      "why_it_matters": "Compromised management utility keys allow attackers to silently backdoor thousands of downstream CMS installations via administrative automation.",
-      "item_ids": [
-        "abf67d322f37a8744d9ab5139fc40ff0",
-        "52e814306a2031d483eae07630965138"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-21T11:01:40.058356Z",
-      "last_shown": "2026-10-22T00:01:33.184161Z"
-    }
-  ],
-  "past_top_stories": [
-    {
       "id": "883ff07c63800485be10b4eb98b7faa1",
       "title": "Google brings personal intelligence features for Gemini AI to cars",
       "summary": "Google is rolling out conversational Gemini navigation and Personal Intelligence features to Apple CarPlay, Android Auto, and built-in vehicle systems. The updates allow the AI assistant to draw context from services like Gmail, Maps, and Calendar.",
@@ -26798,19 +26943,6 @@
       "last_shown": "2026-10-21T22:01:50.294626Z"
     },
     {
-      "id": "9cfa4dffa824ffddd0931178fbda5d6f",
-      "title": "GitLab Releases Fixes for Critical CVSS 10.0 Unauthenticated RCE Flaw",
-      "summary": "GitLab has released security fixes for an integer overflow flaw with a maximum CVSS score of 10.0. The vulnerability allows an unauthenticated attacker to achieve remote code execution across twelve years of self-managed releases.",
-      "why_it_matters": "A CVSS 10.0 vulnerability allowing unauthenticated remote code execution in self-managed GitLab instances presents an immediate takeover risk for internal developer infrastructure.",
-      "item_ids": [
-        "9cfa4dffa824ffddd0931178fbda5d6f",
-        "bce66ee65cff2328f1b540945b56c22c"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-21T20:01:35.414106Z",
-      "last_shown": "2026-10-21T22:01:50.294626Z"
-    },
-    {
       "id": "8d536d0f896d1eb4d235d112d9dcad39",
       "title": "Meta Suspends Muse Share Feature After Researchers Find Public AI Chats",
       "summary": "Meta is suspending a feature of its Muse AI assistant that allowed users to share conversations after security researchers discovered that private chat URLs were publicly accessible on the web.",
@@ -26822,32 +26954,6 @@
       "primary_url": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations",
       "first_shown": "2026-10-21T13:01:41.081367Z",
       "last_shown": "2026-10-21T22:01:50.294626Z"
-    },
-    {
-      "id": "30612d3bb0d790ce1214538f530431c7",
-      "title": "Airbnb Updates Policy to Ban Hosts From Requiring Chores",
-      "summary": "Airbnb has updated its house rules policy to ban hosts from including time-consuming chores like doing dishes and taking out the trash in their checkout requirements. Hosts have expressed frustration with the new restrictions, while guests welcomed the change.",
-      "why_it_matters": null,
-      "item_ids": [
-        "30612d3bb0d790ce1214538f530431c7",
-        "48aea9314058dede4a67a5b7f944f55d"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-21T22:01:50.294626Z",
-      "last_shown": "2026-10-21T22:01:50.294626Z"
-    },
-    {
-      "id": "06a862c0f04e60e94d42a130e2789c48",
-      "title": "SpaceX Plans Next Flight Attempt to Catch Starship and Booster",
-      "summary": "SpaceX plans to attempt catching both Starship and its booster on its next flight next month. The goal is to recover the entire orbital launch system for the first time.",
-      "why_it_matters": null,
-      "item_ids": [
-        "06a862c0f04e60e94d42a130e2789c48",
-        "5e3271d26abc60b63fb569df807399bb"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-21T21:01:51.516819Z",
-      "last_shown": "2026-10-21T21:01:51.516819Z"
     },
     {
       "id": "3f237a1762164611ff0b2955db55e35e",
