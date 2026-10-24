@@ -1,6 +1,96 @@
 {
-  "generated_at": "2026-10-24T22:01:26.080779Z",
+  "generated_at": "2026-10-24T23:01:23.161910Z",
   "items": [
+    {
+      "id": "8326722b61d9f36d20bfaf854f74f346",
+      "title": "An animated explainer of the PHP2Shell vulnerability",
+      "url": "https://www.youtube.com/watch?v=6Kz4bWKoXhU",
+      "source_id": "lobsters",
+      "source_name": "Lobsters",
+      "category": "tech",
+      "summary": "Hi all! 3 days since the Internet almost melted down, I've wanted to know how you can pwn any PHP server with a single request, and the explanations have been mostly \"something about out-of-memory.\" I found the official write-up to be quite a challenge, spending as much time on the history of PHP bugs and how this one was found as on how it works, and with key parts that are hard to follow unless you already know the conventions of the Zend engine codebase. I'm pleased to share my first…",
+      "published_at": "2026-10-24T22:48:29Z",
+      "fetched_at": "2026-10-24T23:01:23.161910Z",
+      "discussion_url": "https://lobste.rs/s/9b14at/animated_explainer_php2shell",
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "42f5ddd9bdfb12ce8afdb335231309a4",
+      "title": "Argus – a free, open-source agentic security operations platform – MIT",
+      "url": "https://thomasunise.com/argus",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-24T21:54:16Z",
+      "fetched_at": "2026-10-24T23:01:23.161910Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50225748",
+      "points": 13,
+      "comments": 3,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "0d73ccf1cb05a54a7dffd834c2995cff",
+      "title": "We should be more ambitious with the software we build",
+      "url": "https://danluu.com/ambitious/",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-24T21:47:31Z",
+      "fetched_at": "2026-10-24T23:01:23.161910Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50225695",
+      "points": 16,
+      "comments": 5,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 2
+    },
+    {
+      "id": "86ae1cb9cfb9f341005e545889c32eed",
+      "title": "Small Programs and Languages",
+      "url": "https://ratfactor.com/cards/pl-small",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-24T21:44:23Z",
+      "fetched_at": "2026-10-24T23:01:23.161910Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50225674",
+      "points": 7,
+      "comments": 0,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 2
+    },
+    {
+      "id": "763cc5caf504c1d31ee7d51db7eaf43c",
+      "title": "The Importance of Limitations for Creativity and Learning",
+      "url": "https://ratfactor.com/cards/limitations",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-24T21:42:47Z",
+      "fetched_at": "2026-10-24T23:01:23.161910Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50225663",
+      "points": 5,
+      "comments": 1,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 2
+    },
     {
       "id": "b1787c28a15080e7145887de5fef719a",
       "title": "Blue Planet III is keeping the rough edges in the age of AI",
@@ -44,16 +134,16 @@
       "source_id": "hacker-news",
       "source_name": "Hacker News",
       "category": "tech",
-      "summary": null,
+      "summary": "Made this because I'm curious if anyone out there has figured out how to actually use this PHP RCE we spent the last few days panicking over. Have fun!",
       "published_at": "2026-10-24T20:30:31Z",
       "fetched_at": "2026-10-24T21:01:28.477339Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50224916",
-      "points": 165,
-      "comments": 48,
+      "points": 289,
+      "comments": 141,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "f5520c2d8c4b8d23060985066ff66bd8",
@@ -84,8 +174,8 @@
       "published_at": "2026-10-24T19:47:19Z",
       "fetched_at": "2026-10-24T20:01:25.434998Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50224463",
-      "points": 327,
-      "comments": 292,
+      "points": 404,
+      "comments": 374,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -102,8 +192,8 @@
       "published_at": "2026-10-24T19:43:27Z",
       "fetched_at": "2026-10-24T20:01:25.434998Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50224422",
-      "points": 65,
-      "comments": 33,
+      "points": 83,
+      "comments": 44,
       "engineering": false,
       "blog": false,
       "review": "excluded",
@@ -116,16 +206,16 @@
       "source_id": "hacker-news",
       "source_name": "Hacker News",
       "category": "tech",
-      "summary": null,
+      "summary": "https://twitter.com/ID_AA_Carmack/status/2113704269274636568",
       "published_at": "2026-10-24T19:27:41Z",
       "fetched_at": "2026-10-24T20:01:25.434998Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50224300",
-      "points": 146,
-      "comments": 51,
+      "discussion_url": "https://news.ycombinator.com/item?id=50224100",
+      "points": 153,
+      "comments": 123,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "2c6853d0b174d7a909ee1f14905dc5a8",
@@ -138,8 +228,8 @@
       "published_at": "2026-10-24T19:19:43Z",
       "fetched_at": "2026-10-24T21:01:28.477339Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50224210",
-      "points": 12,
-      "comments": 2,
+      "points": 35,
+      "comments": 8,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -161,7 +251,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "b495a836fa11813f68230d87fc24b34d",
@@ -246,8 +336,26 @@
       "published_at": "2026-10-24T18:23:24Z",
       "fetched_at": "2026-10-24T19:01:25.685045Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50223785",
-      "points": 124,
-      "comments": 60,
+      "points": 143,
+      "comments": 68,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 2
+    },
+    {
+      "id": "821f3fb9b268481edfb7c995a91d5fc8",
+      "title": "Bbtree: Fastest Ordered Map",
+      "url": "https://bbtree.xiangpeng.systems/post/",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-24T18:22:14Z",
+      "fetched_at": "2026-10-24T23:01:23.161910Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50223777",
+      "points": 15,
+      "comments": 2,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -282,12 +390,12 @@
       "published_at": "2026-10-24T18:04:57Z",
       "fetched_at": "2026-10-24T20:01:25.434998Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50223647",
-      "points": 121,
-      "comments": 115,
+      "points": 135,
+      "comments": 133,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "da086b593f7ac649b0721e6d5f800e36",
@@ -305,7 +413,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "d2f50322a95b6eb3503abd5a3704ec13",
@@ -354,8 +462,8 @@
       "published_at": "2026-10-24T16:41:55Z",
       "fetched_at": "2026-10-24T18:01:26.212807Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50222927",
-      "points": 75,
-      "comments": 15,
+      "points": 80,
+      "comments": 20,
       "engineering": false,
       "blog": false,
       "review": "excluded",
@@ -390,8 +498,8 @@
       "published_at": "2026-10-24T16:06:26Z",
       "fetched_at": "2026-10-24T18:01:26.212807Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50222622",
-      "points": 217,
-      "comments": 145,
+      "points": 227,
+      "comments": 154,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -431,7 +539,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "4d6ad75ca98b5b42b621f7d0af1d475f",
@@ -444,8 +552,8 @@
       "published_at": "2026-10-24T15:57:17Z",
       "fetched_at": "2026-10-24T18:01:26.212807Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50222525",
-      "points": 73,
-      "comments": 22,
+      "points": 77,
+      "comments": 26,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -462,8 +570,8 @@
       "published_at": "2026-10-24T15:35:17Z",
       "fetched_at": "2026-10-24T18:01:26.212807Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50222283",
-      "points": 22,
-      "comments": 17,
+      "points": 27,
+      "comments": 19,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -516,8 +624,8 @@
       "published_at": "2026-10-24T15:20:01Z",
       "fetched_at": "2026-10-24T16:01:31.784775Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50222133",
-      "points": 214,
-      "comments": 56,
+      "points": 225,
+      "comments": 59,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -629,7 +737,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "7afe813f1a9889e6a85a102981a3d9d7",
@@ -737,7 +845,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "8c21fac96168cdc357acdbcd0106a64b",
@@ -755,7 +863,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 1
+      "importance": 2
     },
     {
       "id": "6ef2527a15623bb2e807bced8f6f72da",
@@ -917,7 +1025,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "86757ae9823ce93202016a1759963b28",
@@ -971,7 +1079,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "5230cfc02030dcb5ed96112bff11df0d",
@@ -1223,7 +1331,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 1
     },
     {
       "id": "ff6ef720bf18a420639809b173f0f596",
@@ -1272,8 +1380,8 @@
       "published_at": "2026-10-24T09:58:27Z",
       "fetched_at": "2026-10-24T15:01:28.243265Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50219700",
-      "points": 148,
-      "comments": 56,
+      "points": 158,
+      "comments": 59,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -1290,8 +1398,8 @@
       "published_at": "2026-10-24T09:53:26Z",
       "fetched_at": "2026-10-24T10:01:34.462941Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50219666",
-      "points": 249,
-      "comments": 183,
+      "points": 263,
+      "comments": 191,
       "engineering": false,
       "blog": false,
       "review": "excluded",
@@ -1419,7 +1527,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 4
     },
@@ -1493,7 +1601,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "3ad7187da4a4b0d2093c825bc4280640",
@@ -1565,7 +1673,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "bcc2ccbb4ab6f4db14d6ac2cb16968a8",
@@ -1583,7 +1691,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 2
     },
     {
       "id": "23a346bd75b741cb6c2df63fba4caebc",
@@ -1727,7 +1835,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "f34b50a33dffc3e3d6ead76766f1787b",
@@ -1835,7 +1943,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "ef66c5531c963151818e938018470576",
@@ -1997,7 +2105,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "41908f550da163b040bb795ecbee526f",
@@ -2285,7 +2393,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "ca9c569760ef278245ebca688aa6afad",
@@ -2483,7 +2591,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "db82a1c3df5f12b6d43f20d36437529a",
@@ -2519,7 +2627,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "ec2de2d97e52740d9e820be94cb5c8ad",
@@ -2537,7 +2645,7 @@
       "engineering": true,
       "blog": true,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "9fad4d34765d9e1e37d0231af804d105",
@@ -2663,7 +2771,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "3826e312001cd2ff7e5a00bf1a80d4cb",
@@ -2699,7 +2807,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "2201448646cbf3b14a83879efedb4457",
@@ -2771,7 +2879,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "935b2fbe4acdbf549ca1a7740cd6ab62",
@@ -2789,7 +2897,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "8101fda7e20ded28a6979838f6d702a4",
@@ -2949,7 +3057,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -3149,7 +3257,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 2
     },
     {
       "id": "8f0d2fcf45da73375fc48ba951826246",
@@ -3167,7 +3275,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "2298e796196b150bdaceba6d35f59833",
@@ -3383,7 +3491,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 1
     },
     {
       "id": "f40eaf830b0c9461bbf236421a9a7719",
@@ -3401,7 +3509,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "b44ee1a25f060464a7974ce49cb1ea4e",
@@ -3743,7 +3851,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "cf2b005477032687ad737b07b725317f",
@@ -4121,7 +4229,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "fa0e6ae4bce52d4a930e9645f4762e2b",
@@ -4229,7 +4337,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "64dbdf6a53450e8af4f1e349325bf44a",
@@ -4265,7 +4373,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "6fa29b8d8688e2e69cd045cc5e866516",
@@ -4355,7 +4463,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "12be73adc3da1190c24c1ee634c9c28d",
@@ -26120,24 +26228,6 @@
       "importance": null
     },
     {
-      "id": "22435fa01d48350e9eb725b28fb33b48",
-      "title": "I built a programming language that LLMs can't use",
-      "url": "https://blog.picheta.me/post/killswitch-lang/",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-17T22:26:47Z",
-      "fetched_at": "2026-10-19T02:01:59.464657Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50135762",
-      "points": 119,
-      "comments": 94,
-      "engineering": false,
-      "blog": false,
-      "review": "excluded",
-      "importance": null
-    },
-    {
       "id": "4a8ddfc466370f536948da8f15b2214c",
       "title": "Inline rendering with document​.currentScript",
       "url": "https://simonwillison.net/2026/Oct/17/document-currentscript/",
@@ -27724,6 +27814,62 @@
   ],
   "top_stories": [
     {
+      "id": "8155d0e962266ebe94d1e3ec331905fc",
+      "title": "Critical PHP Vulnerabilities and AI-Assisted Exploits Disrupt Web Servers",
+      "summary": "Critical security vulnerabilities in the PHP programming language have threatened the internet, with security researchers utilizing AI tools to help uncover years-old flaws. The incidents have driven widespread disruptions and patch races across government websites and public services.",
+      "why_it_matters": "Crucial security updates and RCE flaws directly impact backend infrastructure and server management for developers.",
+      "item_ids": [
+        "8155d0e962266ebe94d1e3ec331905fc",
+        "5f1ed6206097fd866e82ec3dd692f177",
+        "876916b91da65d7d249777d767b573cb"
+      ],
+      "primary_url": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security",
+      "first_shown": "2026-10-24T01:01:29.618228Z",
+      "last_shown": "2026-10-24T23:01:23.161910Z"
+    },
+    {
+      "id": "c874b23267c2dd7cbaad8d2ebb6a1840",
+      "title": "Google Updates Privacy Policy Regarding Gmail and Photos Data for AI and Ads",
+      "summary": "Google has updated its privacy policy to specify that personalized artificial intelligence features in Search and Gemini, along with data from Gmail and Google Photos, could be used to serve targeted ads. Turning on Personal Intelligence gives the company more data for ad targeting.",
+      "why_it_matters": "Informs developers and users about changes to data collection and privacy practices for Google services.",
+      "item_ids": [
+        "c874b23267c2dd7cbaad8d2ebb6a1840",
+        "9d31f2762710859842b27bdc85c530eb",
+        "a08e7d50b12c6e1efc370682635f8737"
+      ],
+      "primary_url": "https://www.androidauthority.com/google-personal-intelligence-privacy-3727111",
+      "first_shown": "2026-10-23T21:43:21.053855Z",
+      "last_shown": "2026-10-24T23:01:23.161910Z"
+    },
+    {
+      "id": "73c73f0157867ccbf52af97d59b15925",
+      "title": "OpenAI Halts Internet Access During Frontier Model Training",
+      "summary": "OpenAI is now training its most advanced AI models without internet access following a string of rogue hacking incidents. The company announced it will no longer train its AI models on the live internet, citing significant risks.",
+      "why_it_matters": "Highlights changes in AI safety practices and training data sourcing for major frontier models.",
+      "item_ids": [
+        "73c73f0157867ccbf52af97d59b15925",
+        "78c968c7120787cb9def557127029fc4",
+        "7e17a59473d8405a9e832c617cd78e1d"
+      ],
+      "primary_url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+      "first_shown": "2026-10-23T21:43:21.053855Z",
+      "last_shown": "2026-10-24T23:01:23.161910Z"
+    },
+    {
+      "id": "f76395b595c2377d38f29d9979dd7593",
+      "title": "Security Researchers Remotely Disable Abandoned Popcorn Time Updater",
+      "summary": "Security firms pushed over 2 million updates to computers they did not own to remotely switch off a background updater in the abandoned Popcorn Time BitTorrent app. The intervention closed an unmaintained security flaw that could have exposed millions of devices to remote code execution and botnets.",
+      "why_it_matters": "Demonstrates unusual mass remediation tactics for vulnerable unmaintained open-source applications.",
+      "item_ids": [
+        "f76395b595c2377d38f29d9979dd7593",
+        "496e6a3fdfaf71299a11d6483f5b4b33",
+        "28b6f5c59fd4d2d8bd20d455871b7bd1"
+      ],
+      "primary_url": "https://labs.eye.security/operation-ixim-preventing-a-botnet-of-millions-of-popcorn-time-users",
+      "first_shown": "2026-10-23T21:01:29.576282Z",
+      "last_shown": "2026-10-24T23:01:23.161910Z"
+    },
+    {
       "id": "737ca289db817855fb38343541d8181c",
       "title": "Starlink access throttled in Ukraine as Musk plays politics",
       "summary": "Elon Musk reportedly ordered SpaceX to throttle Ukraine's Starlink access to block terminals traveling above certain speeds. Ukraine has since changed drone and war-fighting tech to reduce reliance on Starlink.",
@@ -27735,61 +27881,7 @@
       ],
       "primary_url": null,
       "first_shown": "2026-10-24T21:01:28.477339Z",
-      "last_shown": "2026-10-24T22:01:26.080779Z"
-    },
-    {
-      "id": "f76395b595c2377d38f29d9979dd7593",
-      "title": "Security firm pushes forced updates to disable abandoned Popcorn Time app",
-      "summary": "Between November 2025 and March 2026, a security firm pushed more than 2 million updates to computers it did not own to switch off a background updater in the abandoned Popcorn Time streaming app. The intervention closed a security flaw that could have allowed attackers to execute remote code and build a botnet.",
-      "why_it_matters": "Highlights the extreme risks of unmaintained abandoned software and the controversial practice of third parties pushing unauthorized patches to user devices.",
-      "item_ids": [
-        "f76395b595c2377d38f29d9979dd7593",
-        "28b6f5c59fd4d2d8bd20d455871b7bd1"
-      ],
-      "primary_url": "https://labs.eye.security/operation-ixim-preventing-a-botnet-of-millions-of-popcorn-time-users",
-      "first_shown": "2026-10-23T21:01:29.576282Z",
-      "last_shown": "2026-10-24T22:01:26.080779Z"
-    },
-    {
-      "id": "0f71ebe7a492d15c9a932e8296f3a142",
-      "title": "Brotli decoder memory corruption vulnerability impacts Node.js, Python, and Bun",
-      "summary": "A memory-corruption flaw in Google's Brotli decoder affects widely used software that unpacks Brotli-compressed data, including Bun, the Python Brotli packages, and Envoy proxies. The vulnerability poses severe remote code execution risks across multiple language ecosystems.",
-      "why_it_matters": "Presents widespread supply-chain and RCE risks for engineers relying on common compression libraries across diverse tech stacks.",
-      "item_ids": [
-        "0f71ebe7a492d15c9a932e8296f3a142",
-        "f2753ef5c84b2b0948a726c31513cae7"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-24T19:01:25.685045Z",
-      "last_shown": "2026-10-24T22:01:26.080779Z"
-    },
-    {
-      "id": "73c73f0157867ccbf52af97d59b15925",
-      "title": "OpenAI stops training frontier AI models on the live internet",
-      "summary": "OpenAI will cut frontier models off from the internet and train its most advanced AI models without internet access following a string of rogue hacking incidents. The company built an offline testing environment to mitigate significant security risks.",
-      "why_it_matters": "Changes how AI labs handle training data security and isolation in response to active cyber threats and supply-chain attacks.",
-      "item_ids": [
-        "73c73f0157867ccbf52af97d59b15925",
-        "78c968c7120787cb9def557127029fc4",
-        "7e17a59473d8405a9e832c617cd78e1d"
-      ],
-      "primary_url": "https://openai.com/index/securing-our-frontier-model-training-environment",
-      "first_shown": "2026-10-23T21:43:21.053855Z",
-      "last_shown": "2026-10-24T22:01:26.080779Z"
-    },
-    {
-      "id": "c874b23267c2dd7cbaad8d2ebb6a1840",
-      "title": "Google updates privacy policy to state Gmail and Photos data may target ads",
-      "summary": "Google has updated its privacy policy to specify that using personalized artificial intelligence features in Search or Gemini, as well as turning on Personal Intelligence, could allow the company to serve targeted ads using Gmail and Google Photos data.",
-      "why_it_matters": "Raises privacy concerns regarding how user data processed by AI features is leveraged for advertising monetization.",
-      "item_ids": [
-        "c874b23267c2dd7cbaad8d2ebb6a1840",
-        "9d31f2762710859842b27bdc85c530eb",
-        "a08e7d50b12c6e1efc370682635f8737"
-      ],
-      "primary_url": "https://www.androidauthority.com/google-personal-intelligence-privacy-3727111",
-      "first_shown": "2026-10-23T21:43:21.053855Z",
-      "last_shown": "2026-10-24T22:01:26.080779Z"
+      "last_shown": "2026-10-24T23:01:23.161910Z"
     },
     {
       "id": "f8e210e6e3ffc9c0ead3a3622c251270",
@@ -27803,19 +27895,43 @@
       ],
       "primary_url": null,
       "first_shown": "2026-10-24T21:13:27.053864Z",
-      "last_shown": "2026-10-24T22:01:26.080779Z"
+      "last_shown": "2026-10-24T23:01:23.161910Z"
     },
     {
-      "id": "8155d0e962266ebe94d1e3ec331905fc",
-      "title": "PHP-ocalypse: How two critical web bugs almost broke the internet",
-      "summary": "Two critical bugs in the PHP web programming language, used by the majority of the internet, threatened to upend the internet — and it's unlikely to be the last major software scare.",
-      "why_it_matters": "Examines how critical vulnerabilities in foundational web languages threaten global internet infrastructure and highlight automated exploitation risks.",
+      "id": "ab65af4124a1be28a5c42b18318814ea",
+      "title": "Cloudflare Reclaims 100 TB of RAM by Optimizing Consistent Hashing",
+      "summary": "Cloudflare recently documented how it reduced the memory footprint of its internal load-balancing service by more than 100 TB by optimizing the Rust implementation of consistent hashing in pingora-ketama. The changes compacted hash-ring entries and used statistical analysis of hash distribution and collision rates to reduce the number of hashes per backend by about 90%. By Renato Losio",
+      "why_it_matters": "Details memory optimizations in Rust-based consistent hashing, useful for backend systems and load balancing.",
       "item_ids": [
-        "8155d0e962266ebe94d1e3ec331905fc"
+        "ab65af4124a1be28a5c42b18318814ea"
       ],
       "primary_url": null,
-      "first_shown": "2026-10-24T01:01:29.618228Z",
-      "last_shown": "2026-10-24T22:01:26.080779Z"
+      "first_shown": "2026-10-24T23:01:23.161910Z",
+      "last_shown": "2026-10-24T23:01:23.161910Z"
+    },
+    {
+      "id": "9d52cbe35a240de8dd0dac040558a025",
+      "title": "Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline",
+      "summary": "LiteLLM on Friday revealed that an Agent Platform master key accidentally published to a public GitHub repository in late May 2026 ultimately allowed the threat actor to push a malicious version of the popular Python package. \"On May 27, 2026, a configuration file was committed to the public LiteLLM-Labs/lite-harness repository which inadvertently contained the master key to a deployment of",
+      "why_it_matters": "Details a supply chain security incident where an exposed master key allowed attackers to push malicious package versions.",
+      "item_ids": [
+        "9d52cbe35a240de8dd0dac040558a025"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-23T17:01:27.441963Z",
+      "last_shown": "2026-10-24T23:01:23.161910Z"
+    },
+    {
+      "id": "7afe813f1a9889e6a85a102981a3d9d7",
+      "title": "BlackX UEFI bootkit exploits Baton Drop flaw to bypass Secure Boot",
+      "summary": "A new UEFI bootkit named BlackX, deployed in an espionage campaign in early 2026, exploited the old Baton Drop vulnerability to bypass Secure Boot and load a malicious driver designed to interfere with security solutions from Kaspersky and Avast. [...]",
+      "why_it_matters": "Analyzes a sophisticated UEFI bootkit exploiting legacy flaws to bypass Secure Boot mechanisms.",
+      "item_ids": [
+        "7afe813f1a9889e6a85a102981a3d9d7"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-24T16:01:31.784775Z",
+      "last_shown": "2026-10-24T23:01:23.161910Z"
     },
     {
       "id": "da086b593f7ac649b0721e6d5f800e36",
@@ -27827,6 +27943,21 @@
       ],
       "primary_url": null,
       "first_shown": "2026-10-24T21:01:28.477339Z",
+      "last_shown": "2026-10-24T23:01:23.161910Z"
+    }
+  ],
+  "past_top_stories": [
+    {
+      "id": "0f71ebe7a492d15c9a932e8296f3a142",
+      "title": "Brotli decoder memory corruption vulnerability impacts Node.js, Python, and Bun",
+      "summary": "A memory-corruption flaw in Google's Brotli decoder affects widely used software that unpacks Brotli-compressed data, including Bun, the Python Brotli packages, and Envoy proxies. The vulnerability poses severe remote code execution risks across multiple language ecosystems.",
+      "why_it_matters": "Presents widespread supply-chain and RCE risks for engineers relying on common compression libraries across diverse tech stacks.",
+      "item_ids": [
+        "0f71ebe7a492d15c9a932e8296f3a142",
+        "f2753ef5c84b2b0948a726c31513cae7"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-24T19:01:25.685045Z",
       "last_shown": "2026-10-24T22:01:26.080779Z"
     },
     {
@@ -27852,9 +27983,7 @@
       "primary_url": null,
       "first_shown": "2026-10-24T18:01:26.212807Z",
       "last_shown": "2026-10-24T22:01:26.080779Z"
-    }
-  ],
-  "past_top_stories": [
+    },
     {
       "id": "c2ab07b998dc1bb4a006a0c972c95ac1",
       "title": "Block announces Dessa full-duplex conversational speech AI model",
@@ -27867,30 +27996,6 @@
       ],
       "primary_url": null,
       "first_shown": "2026-10-24T01:01:29.618228Z",
-      "last_shown": "2026-10-24T21:13:27.053864Z"
-    },
-    {
-      "id": "7afe813f1a9889e6a85a102981a3d9d7",
-      "title": "BlackX UEFI bootkit exploits Baton Drop flaw to bypass Secure Boot",
-      "summary": "A new UEFI bootkit named BlackX, deployed in an espionage campaign in early 2026, exploited the old Baton Drop vulnerability to bypass Secure Boot and load a malicious driver designed to interfere with security solutions from Kaspersky and Avast. [...]",
-      "why_it_matters": "Details a sophisticated UEFI bootkit exploiting legacy flaws to bypass Secure Boot systems.",
-      "item_ids": [
-        "7afe813f1a9889e6a85a102981a3d9d7"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-24T16:01:31.784775Z",
-      "last_shown": "2026-10-24T21:13:27.053864Z"
-    },
-    {
-      "id": "9d52cbe35a240de8dd0dac040558a025",
-      "title": "Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline",
-      "summary": "LiteLLM on Friday revealed that an Agent Platform master key accidentally published to a public GitHub repository in late May 2026 ultimately allowed the threat actor to push a malicious version of the popular Python package. \"On May 27, 2026, a configuration file was committed to the public LiteLLM-Labs/lite-harness repository which inadvertently contained the master key to a deployment of",
-      "why_it_matters": "Illustrates supply chain compromise vectors resulting from accidentally exposed API master keys on public repositories.",
-      "item_ids": [
-        "9d52cbe35a240de8dd0dac040558a025"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-23T17:01:27.441963Z",
       "last_shown": "2026-10-24T21:13:27.053864Z"
     },
     {
