@@ -1,6 +1,114 @@
 {
-  "generated_at": "2026-10-26T10:01:30.861037Z",
+  "generated_at": "2026-10-26T11:01:41.058348Z",
   "items": [
+    {
+      "id": "3bc80c1bafd8fc123910bcc940ffb1a2",
+      "title": "Article: The Evolution of Agentic Harnesses: From Chains to Graph to Code",
+      "url": "https://www.infoq.com/articles/agentic-ai-architecture-harness-evolution/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source_id": "infoq",
+      "source_name": "InfoQ",
+      "category": "tech",
+      "summary": "Agentic LLM systems have moved from linear prompt chains to graph-based workflows and, more recently, code-executing harnesses. Chains are simple but fragile, graphs add branching, retries, and validation, and code harnesses verify outputs through execution. The article advises validating model outputs and choosing the least complex design that meets reliability, speed, and cost needs. By Karthik Ramgopal",
+      "published_at": "2026-10-26T11:00:00Z",
+      "fetched_at": "2026-10-26T11:01:41.058348Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": true,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "3aed585658335be0cbe1f4d872edb521",
+      "title": "MoLE Protocols",
+      "url": "https://datatracker.ietf.org/doc/draft-jms-mole-protocols/",
+      "source_id": "lobsters",
+      "source_name": "Lobsters",
+      "category": "tech",
+      "summary": "This document defines protocols that instantiate the MoLE architecture: two endorsement protocols, by which a Client proves to a Moderator that it holds an Endorsement from a trusted Anchor without revealing which one, and three credential protocols, by which a Moderator issues, verifies, and updates per-Client state without being able to link presentations. It also establishes the registries that identify these protocols. Comments",
+      "published_at": "2026-10-26T10:39:55Z",
+      "fetched_at": "2026-10-26T11:01:41.058348Z",
+      "discussion_url": "https://lobste.rs/s/xj200h/mole_protocols",
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": true,
+      "review": "kept",
+      "importance": 2
+    },
+    {
+      "id": "9fa00b53ac3f967a6f7b51572afe84cf",
+      "title": "LG B6 OLED TV Review (2026)",
+      "url": "https://www.wired.com/review/lg-b6/",
+      "source_id": "wired",
+      "source_name": "Wired",
+      "category": "tech",
+      "summary": "The LG B6 has deep and rich blacks and a low price tag, but midrange performance elsewhere.",
+      "published_at": "2026-10-26T10:30:00Z",
+      "fetched_at": "2026-10-26T11:01:41.058348Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "pending",
+      "importance": null
+    },
+    {
+      "id": "c0a9568eaee8e71c57a1c18e32ecbd9e",
+      "title": "Kali Linux 2026.3 released with 6 new tools, desktop updates",
+      "url": "https://www.bleepingcomputer.com/news/linux/kali-linux-20263-released-with-6-new-tools-desktop-updates/",
+      "source_id": "bleepingcomputer",
+      "source_name": "BleepingComputer",
+      "category": "tech",
+      "summary": "Kali Linux has released version 2026.3, its third release this year, featuring six new hacking tools, desktop environment improvements, refreshed build scripts, and more. [...]",
+      "published_at": "2026-10-26T10:26:52Z",
+      "fetched_at": "2026-10-26T11:01:41.058348Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 4
+    },
+    {
+      "id": "91bafb2dfa8cf2f984df418e509b686d",
+      "title": "Cloudflare’s Auto Router Rates Each Request for Stakes, from the Most Recent Turns",
+      "url": "https://www.infoq.com/news/2026/10/cloudflare-auto-router/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source_id": "infoq",
+      "source_name": "InfoQ",
+      "category": "tech",
+      "summary": "Cloudflare has released Auto Router in public beta through AI Gateway, picking a model per request from a classifier that scores complexity, ambiguity, stakes and context dependence. Cloudflare’s own benchmark puts it ten points below Claude Opus 5.5 on success rate at a third of the cost, and practitioners have questioned how stakes survive a long agent session. By Steef-Jan Wiggers",
+      "published_at": "2026-10-26T10:20:00Z",
+      "fetched_at": "2026-10-26T11:01:41.058348Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 4
+    },
+    {
+      "id": "273a2126e08368992e9fd50f73d964a4",
+      "title": "Euro open source specialist proposes LLM gateway to ease token bills",
+      "url": "https://www.theregister.com/ai-and-ml/2026/10/26/euro-open-source-specialist-proposes-llm-gateway-to-ease-token-bills/5305170",
+      "source_id": "the-register",
+      "source_name": "The Register",
+      "category": "tech",
+      "summary": "Aiven hopes to do for LLMs what it does for databases",
+      "published_at": "2026-10-26T10:15:00Z",
+      "fetched_at": "2026-10-26T11:01:41.058348Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
     {
       "id": "4b754752aecea9d7789f9cc42f7145c9",
       "title": "The city that fought Flock",
@@ -20,6 +128,42 @@
       "importance": 3
     },
     {
+      "id": "919d7a2baede1021b7895b6e12b8456b",
+      "title": "The Tragedy of Having a Wikipedia Page—and Then Losing It",
+      "url": "https://www.wired.com/story/the-tragedy-of-losing-your-wikipedia-page/",
+      "source_id": "wired",
+      "source_name": "Wired",
+      "category": "tech",
+      "summary": "Every day, Wikipedia biographies of living people are flagged for deletion because the subjects are not “notable” enough. How do these poor souls take the news?",
+      "published_at": "2026-10-26T10:00:00Z",
+      "fetched_at": "2026-10-26T11:01:41.058348Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 1
+    },
+    {
+      "id": "5fd373cc5b0c5d227162b9b2a1efc2ac",
+      "title": "Lykyn Review: A Mushroom Garden Worth Showing Off",
+      "url": "https://www.wired.com/review/lykyn-automated-mushroom-grow-box/",
+      "source_id": "wired",
+      "source_name": "Wired",
+      "category": "tech",
+      "summary": "Dramatic lighting and fog make this countertop fruiting chamber a conversation starter. The mushrooms are pretty good too.",
+      "published_at": "2026-10-26T10:00:00Z",
+      "fetched_at": "2026-10-26T11:01:41.058348Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "pending",
+      "importance": null
+    },
+    {
       "id": "4b9401cdc115013226da0cc9dc0ce45a",
       "title": "About the compromised eMudhra intermediate CAs",
       "url": "https://support.apple.com/en-us/149555",
@@ -34,6 +178,42 @@
       "comments": null,
       "engineering": false,
       "blog": true,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "966c5639fe45a4c54879b1a0ba8f6aa5",
+      "title": "uCreator Android Spyware Can Steal Telegram 2FA Passwords and Clone WeChat Accounts",
+      "url": "https://thehackernews.com/2026/10/ucreator-android-spyware-can-steal.html",
+      "source_id": "the-hacker-news",
+      "source_name": "The Hacker News",
+      "category": "tech",
+      "summary": "A rentable Android spyware kit called uCreator takes over Telegram and WeChat accounts by hiding its code inside working copies of the two apps, researcher Ovi found. It only reaches people who install one of these tampered copies, spread outside the official app stores, or who run WeChat inside the kit makers' own container app. The kit's Telegram part matches Baohuo, a backdoor that Doctor",
+      "published_at": "2026-10-26T09:54:02Z",
+      "fetched_at": "2026-10-26T11:01:41.058348Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 4
+    },
+    {
+      "id": "b4830b95b76a5ca3649eb477839717fb",
+      "title": "PHP2Shell is a warning shot for vulnerability disclosure",
+      "url": "https://www.theregister.com/columnists/2026/10/26/php2shell-is-a-warning-shot-for-vulnerability-disclosure/5304918",
+      "source_id": "the-register",
+      "source_name": "The Register",
+      "category": "tech",
+      "summary": "Keeping secrets is difficult in an open world, but we've done it before and must do it again",
+      "published_at": "2026-10-26T09:38:00Z",
+      "fetched_at": "2026-10-26T11:01:41.058348Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -120,8 +300,8 @@
       "published_at": "2026-10-26T08:46:09Z",
       "fetched_at": "2026-10-26T10:01:30.861037Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50240922",
-      "points": 56,
-      "comments": 7,
+      "points": 129,
+      "comments": 46,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -159,7 +339,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -215,7 +395,7 @@
       "engineering": false,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "42a2c4566cd66240ae97629138614c4c",
@@ -251,7 +431,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "22954baad70d9ef53013f67dfc660f48",
@@ -269,7 +449,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "081c0897359f5216c4c8e5ed44493d9d",
@@ -341,7 +521,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 1
     },
     {
       "id": "203d2609cc35320b8fa712efe7d2732d",
@@ -354,12 +534,12 @@
       "published_at": "2026-10-26T03:31:11Z",
       "fetched_at": "2026-10-26T04:01:29.573323Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50238763",
-      "points": 109,
-      "comments": 49,
+      "points": 130,
+      "comments": 61,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "1a4ef7905b099ee1daeb4832c4e778b5",
@@ -372,8 +552,8 @@
       "published_at": "2026-10-26T03:29:05Z",
       "fetched_at": "2026-10-26T04:01:29.573323Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50238739",
-      "points": 133,
-      "comments": 30,
+      "points": 148,
+      "comments": 40,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -390,8 +570,8 @@
       "published_at": "2026-10-26T03:23:57Z",
       "fetched_at": "2026-10-26T04:01:29.573323Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50238708",
-      "points": 229,
-      "comments": 36,
+      "points": 248,
+      "comments": 39,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -408,12 +588,12 @@
       "published_at": "2026-10-26T03:12:05Z",
       "fetched_at": "2026-10-26T05:01:25.846305Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50238620",
-      "points": 58,
-      "comments": 23,
+      "points": 65,
+      "comments": 24,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "c116a6cd58fe33ec40347dedc5e334d6",
@@ -431,7 +611,7 @@
       "engineering": false,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "a3a398ae453e5641ef01ebe8eae51965",
@@ -449,7 +629,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "311b9af24fac1a88337a80af1b9621fb",
@@ -485,7 +665,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "511cd142e72db00565a4b6dc55a629d5",
@@ -516,12 +696,12 @@
       "published_at": "2026-10-26T01:03:39Z",
       "fetched_at": "2026-10-26T03:01:27.706334Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50237712",
-      "points": 137,
-      "comments": 76,
+      "points": 142,
+      "comments": 82,
       "engineering": false,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "61e5ec778114584eb1d8258335f530b2",
@@ -557,7 +737,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "2f8b37e97415028427e86f7705f2f0c9",
@@ -593,7 +773,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "b5a568ea4e8f9ec6204598b14d534397",
@@ -606,8 +786,8 @@
       "published_at": "2026-10-26T00:15:17Z",
       "fetched_at": "2026-10-26T03:01:27.706334Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50237379",
-      "points": 112,
-      "comments": 23,
+      "points": 122,
+      "comments": 29,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -624,8 +804,8 @@
       "published_at": "2026-10-25T23:52:05Z",
       "fetched_at": "2026-10-26T03:01:27.706334Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50237224",
-      "points": 107,
-      "comments": 37,
+      "points": 121,
+      "comments": 40,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -642,8 +822,8 @@
       "published_at": "2026-10-25T23:27:30Z",
       "fetched_at": "2026-10-26T01:01:27.219240Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50237078",
-      "points": 117,
-      "comments": 58,
+      "points": 124,
+      "comments": 61,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -663,7 +843,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 2
     },
@@ -701,7 +881,7 @@
       "engineering": false,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "e58b14fb554b6b3fa2796bddcb5b9643",
@@ -719,7 +899,7 @@
       "engineering": false,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "b5c8072a312ddd7d955607f4fb1021f8",
@@ -755,7 +935,7 @@
       "engineering": false,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "aa2239f061d7a5796cf9f3188d8002cb",
@@ -786,8 +966,8 @@
       "published_at": "2026-10-25T21:11:31Z",
       "fetched_at": "2026-10-25T22:01:26.078642Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50236102",
-      "points": 309,
-      "comments": 306,
+      "points": 324,
+      "comments": 318,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -809,7 +989,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "a79aa91fc4c9b2b51fbcb86987e8a580",
@@ -840,8 +1020,8 @@
       "published_at": "2026-10-25T20:32:31Z",
       "fetched_at": "2026-10-25T22:01:26.078642Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50235780",
-      "points": 183,
-      "comments": 42,
+      "points": 189,
+      "comments": 43,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -858,12 +1038,12 @@
       "published_at": "2026-10-25T20:27:09Z",
       "fetched_at": "2026-10-25T21:01:25.178831Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50235738",
-      "points": 140,
-      "comments": 62,
+      "points": 146,
+      "comments": 64,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 1
     },
     {
       "id": "3666a003ec97adc43ab75cc85464b4c0",
@@ -953,7 +1133,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 1
     },
     {
       "id": "5cf25e0ccaec0c129accad44283d13ef",
@@ -984,12 +1164,12 @@
       "published_at": "2026-10-25T19:11:31Z",
       "fetched_at": "2026-10-25T21:01:25.178831Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50235017",
-      "points": 225,
-      "comments": 69,
+      "points": 239,
+      "comments": 74,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "981823d9d867f14544036c255b4e4206",
@@ -1020,12 +1200,12 @@
       "published_at": "2026-10-25T18:58:14Z",
       "fetched_at": "2026-10-25T21:16:10.409514Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50234879",
-      "points": 96,
-      "comments": 37,
+      "points": 103,
+      "comments": 38,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 1
+      "importance": 2
     },
     {
       "id": "e7b3f3550748fb165e5db27e59dba3f8",
@@ -1056,8 +1236,8 @@
       "published_at": "2026-10-25T18:23:54Z",
       "fetched_at": "2026-10-25T19:01:34.755458Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50234474",
-      "points": 540,
-      "comments": 93,
+      "points": 556,
+      "comments": 95,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -1079,7 +1259,7 @@
       "engineering": false,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "dbfc5b1287f96c2bb81fd594a7861200",
@@ -1169,7 +1349,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 1
     },
     {
       "id": "d0e30b2dcbfe1189a0edd29b3f386d36",
@@ -1182,8 +1362,8 @@
       "published_at": "2026-10-25T17:30:55Z",
       "fetched_at": "2026-10-25T18:01:24.500172Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50233929",
-      "points": 460,
-      "comments": 223,
+      "points": 482,
+      "comments": 231,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -1254,8 +1434,8 @@
       "published_at": "2026-10-25T17:15:38Z",
       "fetched_at": "2026-10-25T18:01:24.500172Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50233779",
-      "points": 553,
-      "comments": 237,
+      "points": 567,
+      "comments": 242,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -1293,7 +1473,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 2
     },
@@ -1493,7 +1673,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "41060ed72dbc5c74cc7277568bd4f856",
@@ -1547,7 +1727,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "f439142049b9e730bcf6535beb177310",
@@ -1599,7 +1779,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 2
     },
@@ -1635,7 +1815,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 2
     },
@@ -1673,7 +1853,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 1
     },
     {
       "id": "3ec1a4051cc5ec5d766b6fd153a719ec",
@@ -1848,8 +2028,8 @@
       "published_at": "2026-10-25T13:09:16Z",
       "fetched_at": "2026-10-25T18:01:24.500172Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50231166",
-      "points": 151,
-      "comments": 59,
+      "points": 154,
+      "comments": 60,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -1961,7 +2141,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "ce9db91ee6c6db18b673f7df7c636dda",
@@ -2069,7 +2249,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 1
     },
     {
       "id": "0de3e1e87006f44b96121bb89dceb4bf",
@@ -2159,7 +2339,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "9e7ab3f8135fc0c91f6fe539a24e70fe",
@@ -2285,7 +2465,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "66c251824c12e8937b4c6b6fa5c98b16",
@@ -2301,7 +2481,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 2
     },
@@ -2337,7 +2517,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 2
     },
@@ -2388,8 +2568,8 @@
       "published_at": "2026-10-25T03:47:56Z",
       "fetched_at": "2026-10-26T08:01:27.911387Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50228115",
-      "points": 115,
-      "comments": 25,
+      "points": 172,
+      "comments": 56,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -2429,7 +2609,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "e083f8453accf775b0083d28a273a3d4",
@@ -2481,7 +2661,7 @@
       "points": 50,
       "comments": 23,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 3
     },
@@ -2499,7 +2679,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 2
     },
@@ -12558,8 +12738,8 @@
       "published_at": "2026-10-22T04:26:39Z",
       "fetched_at": "2026-10-22T05:26:41.853848Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50238088",
-      "points": 244,
-      "comments": 138,
+      "points": 272,
+      "comments": 160,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -25904,168 +26084,6 @@
       "importance": null
     },
     {
-      "id": "41d44efc680d705cc2425d8232ae3963",
-      "title": "The Maeving RM2 is high-style electric riding with a few compromises",
-      "url": "https://www.theverge.com/transportation/1013049/maeving-rm2-electric-motorcycle-review-specs",
-      "source_id": "the-verge",
-      "source_name": "The Verge",
-      "category": "tech",
-      "summary": "There's a fast-growing category of two-wheeled electric vehicles splitting the difference between high-end scooters and entry-level motorcycles, fresh bikes with avant-garde style but approachable performance. I'm talking about offerings like the Infinite Machine P1 and BMW CE 02, similar concepts but with wildly different attitudes. Among this class, the Maeving RM2 stands out. It has […]",
-      "published_at": "2026-10-19T11:00:00Z",
-      "fetched_at": "2026-10-19T11:01:32.219283Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "excluded",
-      "importance": null
-    },
-    {
-      "id": "aec4120c086d7c0622eed51aeecd19fe",
-      "title": "Article: From Microservices to Agents: The Next Evolution of Distributed Systems",
-      "url": "https://www.infoq.com/articles/distributed-systems-microservices-agentic-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source_id": "infoq",
-      "source_name": "InfoQ",
-      "category": "tech",
-      "summary": "The article examines the transition from microservices to agentic AI architecture in distributed systems. Microservices allow for functional decomposition, while agentic systems focus on decision decomposition. This shift introduces new complexities in observability, reliability, and system design, highlighting the need for updated architectural patterns and practices. By Mallika Rao",
-      "published_at": "2026-10-19T11:00:00Z",
-      "fetched_at": "2026-10-19T11:01:32.219283Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "59c1a2278e082d1b1f8cb7f238720795",
-      "title": "Podcast: The Future of Web Apps: Will AI Agents Generate UIs on the Fly?",
-      "url": "https://www.infoq.com/podcasts/future-web-apps/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source_id": "infoq",
-      "source_name": "InfoQ",
-      "category": "tech",
-      "summary": "Rachel Lee Nabors, former React core team member, dives into the architecture and philosophy behind local-first applications, exploring how small language models (SLMs) running directly on-device can deliver privacy-focused, low-latency, and cost-effective alternatives to cloud-hosted LLM wrappers. By Rachel Lee Nabors",
-      "published_at": "2026-10-19T11:00:00Z",
-      "fetched_at": "2026-10-19T11:01:32.219283Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "9689e72935753f0bdd8f298d6b48ad28",
-      "title": "Let's Encrypt is adding two additional remote perspectives for domain validation",
-      "url": "https://community.letsencrypt.org/t/lets-encrypt-is-adding-two-additional-remote-perspectives-for-domain-validation/252166",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-19T10:53:39Z",
-      "fetched_at": "2026-10-19T12:01:31.381537Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50150809",
-      "points": 244,
-      "comments": 77,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "d986096ebbdf851ebded074152ffeb5f",
-      "title": "Documents: Police officer gave her Flock login to her ICE agent husband",
-      "url": "https://www.wjcl.com/article/savannah-police-officer-ice-agent-flock-access/74135816",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-19T10:45:14Z",
-      "fetched_at": "2026-10-19T12:01:31.381537Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50150750",
-      "points": 365,
-      "comments": 183,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "091a1c8a7490c7159bf471497af4641a",
-      "title": "How the Xbox’s Disc-to-Digital Program Works",
-      "url": "https://www.wired.com/story/xbox-disc-to-digital/",
-      "source_id": "wired",
-      "source_name": "Wired",
-      "category": "tech",
-      "summary": "Microsoft is letting players digitize their game discs for free, but don't sell your physical collection just yet.",
-      "published_at": "2026-10-19T10:30:00Z",
-      "fetched_at": "2026-10-19T11:01:32.219283Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "excluded",
-      "importance": 2
-    },
-    {
-      "id": "c91ec184f208ca48d90238063514d6f2",
-      "title": "Maricopa County, Arizona, Is Again Ground Zero of Election Conspiracy Theories",
-      "url": "https://www.wired.com/story/maricopa-county-arizona-is-again-ground-zero-of-election-conspiracy-theories/",
-      "source_id": "wired",
-      "source_name": "Wired",
-      "category": "tech",
-      "summary": "In 2020, Maricopa County became the epicenter for Trump’s claims the election was stolen. Six years, later the president and his allies are dusting off their “rigged” playbook ahead of the midterms.",
-      "published_at": "2026-10-19T10:30:00Z",
-      "fetched_at": "2026-10-19T11:01:32.219283Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "excluded",
-      "importance": null
-    },
-    {
-      "id": "f50362383455fc7bb657a80e5fd4f79d",
-      "title": "Museum exhibit reveals the intricate workings of a knackered Dell",
-      "url": "https://www.theregister.com/offbeat/2026/10/19/museum-exhibit-reveals-the-intricate-workings-of-a-knackered-dell/5303250",
-      "source_id": "the-register",
-      "source_name": "The Register",
-      "category": "tech",
-      "summary": "When it should have been weaving tales of the Jacquard loom",
-      "published_at": "2026-10-19T10:15:00Z",
-      "fetched_at": "2026-10-19T11:01:32.219283Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "excluded",
-      "importance": 1
-    },
-    {
-      "id": "6443aaaa2192120573b9a19eda5b8b37",
-      "title": "Fake Web3 Accelerator Uses npm Packages to Spread Malware and Hijack AI Agent Traffic",
-      "url": "https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html",
-      "source_id": "the-hacker-news",
-      "source_name": "The Hacker News",
-      "category": "tech",
-      "summary": "A fake Web3 accelerator has been observed pushing information stealers and backdoors to Windows and macOS systems using malicious npm packages under the pretext of offering free artificial intelligence (AI) credits for Anthropic Claude and Google Gemini, coding tools, and security audits. \"The tools delivered information-stealing malware and backdoors for macOS and Windows machines,\" Elastic",
-      "published_at": "2026-10-19T10:06:40Z",
-      "fetched_at": "2026-10-19T12:01:31.381537Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 4
-    },
-    {
       "id": "9fba733ce125d2bee41063b877451d7b",
       "title": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
       "url": "https://huggingface.co/blog/hf-torchneuron",
@@ -27688,57 +27706,134 @@
   ],
   "top_stories": [
     {
-      "id": "92cebdad37355ab854c99e57545ade44",
-      "title": "PHP2Shell Critical RCE Vulnerabilities Exploited in the Wild",
-      "summary": "Two critical remote code execution vulnerabilities, collectively tracked as PHP2Shell, are being actively exploited in the wild. PHP has released patches to fix the flaws, which allow unauthenticated remote code execution.",
-      "why_it_matters": "Engineers maintaining PHP servers need to patch immediately as these unauthenticated RCE flaws are under active global attack and exploitation.",
+      "id": "dbfc5b1287f96c2bb81fd594a7861200",
+      "title": "PHP Patches Critical RCE Vulnerabilities Under Active Exploitation",
+      "summary": "PHP released versions 8.5.12, 8.4.27, 8.3.36, and 8.2.35 to fix two critical remote code execution vulnerabilities, collectively tracked as PHP2Shell. The flaws are actively exploited in the wild, with Amazon recording exploitation attempts days before the patches were issued and threat actors leveraging AI platforms for post-exploitation.",
+      "why_it_matters": "Unpatched RCE vulnerabilities in a major web language pose an immediate critical security risk to production server environments.",
       "item_ids": [
-        "92cebdad37355ab854c99e57545ade44",
         "dbfc5b1287f96c2bb81fd594a7861200",
+        "92cebdad37355ab854c99e57545ade44",
         "0f2325be7a104e58c762057e345c1c5e"
       ],
-      "primary_url": "https://blog.cloudflare.com/php-vulnerabilities-waf-protection",
+      "primary_url": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security",
       "first_shown": "2026-10-24T19:01:25.685045Z",
-      "last_shown": "2026-10-26T10:01:30.861037Z"
+      "last_shown": "2026-10-26T11:01:41.058348Z"
+    },
+    {
+      "id": "19250ae33b5227a0412eb135e8257d49",
+      "title": "r/opensource Bans AI Projects and Solo Repositories",
+      "summary": "The moderators of Reddit's open-source community posted new submission rules banning projects that use AI, are made by AI, or involve non-English speakers, prompting backlash and discussion among developers. The community also banned all solo projects.",
+      "why_it_matters": "This policy change impacts where and how open-source developers share and discuss their AI-assisted and solo software projects.",
+      "item_ids": [
+        "19250ae33b5227a0412eb135e8257d49",
+        "5be67215b3f9cb863f1846a3e80dc126"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-25T14:01:27.948859Z",
+      "last_shown": "2026-10-26T11:01:41.058348Z"
+    },
+    {
+      "id": "e4ca21c00b882706d9c45420cbd0960a",
+      "title": "iFixit Teardown Explores Folding Screen Concerns in iPhone Duo",
+      "summary": "iFixit and social media users have torn apart Apple's new folding iPhone Duo, highlighting design details around the screen crease and investigating reports of fast hardware failures and broken hinges.",
+      "why_it_matters": null,
+      "item_ids": [
+        "e4ca21c00b882706d9c45420cbd0960a",
+        "b5c8072a312ddd7d955607f4fb1021f8",
+        "19512286cfc4d1975e508a34d5b5a1c2"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-26T04:01:29.573323Z",
+      "last_shown": "2026-10-26T11:01:41.058348Z"
     },
     {
       "id": "981823d9d867f14544036c255b4e4206",
-      "title": "Gheist Campaign Steals GitHub Tokens to Expose Repository Secrets",
-      "summary": "An automated campaign dubbed Gheist is using stolen GitHub tokens to plant workflows that dump repository secrets into GitHub Actions logs. Attackers then download the logs and delete the runs to hide their activity.",
-      "why_it_matters": "Developers and DevOps engineers must audit their GitHub Actions workflows and token permissions to prevent unauthorized secret exfiltration.",
+      "title": "Automated Campaign Exploits Stolen GitHub Tokens to Exfiltrate Secrets",
+      "summary": "An automated threat campaign is using stolen GitHub tokens to plant malicious workflows that print private repository secrets into GitHub Actions logs for download before deleting the runs.",
+      "why_it_matters": "Developers must immediately audit GitHub Actions workflows and token permissions to prevent credential theft and secret exposure.",
       "item_ids": [
         "981823d9d867f14544036c255b4e4206",
         "bfadde3853787c6dbdb61276e1fe5f1b"
       ],
       "primary_url": null,
       "first_shown": "2026-10-26T10:01:30.861037Z",
-      "last_shown": "2026-10-26T10:01:30.861037Z"
+      "last_shown": "2026-10-26T11:01:41.058348Z"
     },
     {
-      "id": "5be67215b3f9cb863f1846a3e80dc126",
-      "title": "r/opensource Implements Ban on AI Projects and Other Restrictions",
-      "summary": "The moderators of the r/opensource community have instituted new submission rules that ban projects utilizing or generated by artificial intelligence. The sudden policy change also restricts non-English submissions among other updates.",
-      "why_it_matters": "Open source maintainers and contributors are impacted by shifting platform policies regarding AI-generated code and tooling.",
+      "id": "fc327d6f853a430b7270f59c23913400",
+      "title": "Malicious Files in Local Folders Trick AI Coding Agents into Installing Malware",
+      "summary": "Security researchers discovered that a malicious markdown instruction file sitting in a customer's Downloads folder can trick an AI coding agent into automatically installing a known-malicious npm package.",
+      "why_it_matters": "AI coding assistants with local file access introduce new vector risks where untrusted text files can execute unauthorized package installations.",
       "item_ids": [
-        "5be67215b3f9cb863f1846a3e80dc126",
-        "19250ae33b5227a0412eb135e8257d49"
+        "fc327d6f853a430b7270f59c23913400",
+        "31bb69bdf9032e0c54daf86e0ebb93e1"
+      ],
+      "primary_url": "https://forever.security/blog/hijacking-ai-agents-via-downloads-folder",
+      "first_shown": "2026-10-25T16:01:29.083151Z",
+      "last_shown": "2026-10-26T11:01:41.058348Z"
+    },
+    {
+      "id": "c0a9568eaee8e71c57a1c18e32ecbd9e",
+      "title": "Kali Linux 2026.3 released with 6 new tools, desktop updates",
+      "summary": "Kali Linux has released version 2026.3, its third release this year, featuring six new hacking tools, desktop environment improvements, refreshed build scripts, and more. [...]",
+      "why_it_matters": "Kali Linux 2026.3 introduces new penetration testing tools and desktop updates relevant to security engineers.",
+      "item_ids": [
+        "c0a9568eaee8e71c57a1c18e32ecbd9e"
       ],
       "primary_url": null,
-      "first_shown": "2026-10-25T14:01:27.948859Z",
-      "last_shown": "2026-10-26T10:01:30.861037Z"
+      "first_shown": "2026-10-26T11:01:41.058348Z",
+      "last_shown": "2026-10-26T11:01:41.058348Z"
+    },
+    {
+      "id": "91bafb2dfa8cf2f984df418e509b686d",
+      "title": "Cloudflare’s Auto Router Rates Each Request for Stakes, from the Most Recent Turns",
+      "summary": "Cloudflare has released Auto Router in public beta through AI Gateway, picking a model per request from a classifier that scores complexity, ambiguity, stakes and context dependence. Cloudflare’s own benchmark puts it ten points below Claude Opus 5.5 on success rate at a third of the cost, and practitioners have questioned how stakes survive a long agent session. By Steef-Jan Wiggers",
+      "why_it_matters": "Cloudflare's new public beta feature dynamically routes requests to optimal LLM models based on complexity and stakes.",
+      "item_ids": [
+        "91bafb2dfa8cf2f984df418e509b686d"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-26T11:01:41.058348Z",
+      "last_shown": "2026-10-26T11:01:41.058348Z"
+    },
+    {
+      "id": "966c5639fe45a4c54879b1a0ba8f6aa5",
+      "title": "uCreator Android Spyware Can Steal Telegram 2FA Passwords and Clone WeChat Accounts",
+      "summary": "A rentable Android spyware kit called uCreator takes over Telegram and WeChat accounts by hiding its code inside working copies of the two apps, researcher Ovi found. It only reaches people who install one of these tampered copies, spread outside the official app stores, or who run WeChat inside the kit makers' own container app. The kit's Telegram part matches Baohuo, a backdoor that Doctor",
+      "why_it_matters": "New rentable Android spyware kits hiding inside cloned messaging apps highlight emerging mobile endpoint risks.",
+      "item_ids": [
+        "966c5639fe45a4c54879b1a0ba8f6aa5"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-26T11:01:41.058348Z",
+      "last_shown": "2026-10-26T11:01:41.058348Z"
     },
     {
       "id": "7f8d18c3f18792d9b0637ee99384b13e",
       "title": "Microsoft 365 Token-Replay Attacks Compromise 97 Accounts at 79 Organizations",
       "summary": "Cybersecurity researchers have disclosed a Microsoft 365 campaign that has been observed leveraging an adversary-in-the-middle (AitM) relay to capture sign-in sessions and then replay the stolen tokens to break into email accounts at 79 organizations. Huntress, which observed the activity between July 14 and September 22, 2026, said it detected 497 successful Microsoft 365 sign-in events across",
-      "why_it_matters": "Security teams must monitor for AitM relay campaigns targeting Microsoft 365 tokens to compromise organization accounts.",
+      "why_it_matters": "Adversary-in-the-middle token replay attacks compromising multiple enterprise Microsoft 365 tenants require immediate defensive reviews.",
       "item_ids": [
         "7f8d18c3f18792d9b0637ee99384b13e"
       ],
       "primary_url": null,
       "first_shown": "2026-10-26T10:01:30.861037Z",
-      "last_shown": "2026-10-26T10:01:30.861037Z"
+      "last_shown": "2026-10-26T11:01:41.058348Z"
     },
+    {
+      "id": "7920bc9ccd6c980976221cc4f91d40aa",
+      "title": "MCP C# SDK 2.0 Makes HTTP Stateless by Default and Adds Multi Round-Trip Requests",
+      "summary": "Microsoft announced version 2.0 of the official MCP C# SDK, which implements the 2026-07-28 revision of the Model Context Protocol with stateless HTTP servers by default, standardised routing headers and Multi Round-Trip Requests. Releases 2.1 to 2.3 have since added hybrid session serving, a subscriptions/listen handler and a series of discovery, OAuth and shutdown fixes. By Edin Kapić",
+      "why_it_matters": "Updates to the MCP C# SDK standardize stateless HTTP servers for modern model context protocol integrations.",
+      "item_ids": [
+        "7920bc9ccd6c980976221cc4f91d40aa"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-26T08:01:27.911387Z",
+      "last_shown": "2026-10-26T11:01:41.058348Z"
+    }
+  ],
+  "past_top_stories": [
     {
       "id": "ddeb0210b0637c5cb25f6d600b266c45",
       "title": "PyTorch Conference 2026: Google and Meta Open-Source TorchTPU for Native PyTorch on TPUs",
@@ -27786,47 +27881,6 @@
       "primary_url": null,
       "first_shown": "2026-10-26T07:01:29.313803Z",
       "last_shown": "2026-10-26T10:01:30.861037Z"
-    },
-    {
-      "id": "7920bc9ccd6c980976221cc4f91d40aa",
-      "title": "MCP C# SDK 2.0 Makes HTTP Stateless by Default and Adds Multi Round-Trip Requests",
-      "summary": "Microsoft announced version 2.0 of the official MCP C# SDK, which implements the 2026-07-28 revision of the Model Context Protocol with stateless HTTP servers by default, standardised routing headers and Multi Round-Trip Requests. Releases 2.1 to 2.3 have since added hybrid session serving, a subscriptions/listen handler and a series of discovery, OAuth and shutdown fixes. By Edin Kapić",
-      "why_it_matters": "Microsoft's release of the official MCP C# SDK 2.0 brings stateless HTTP servers by default and standardized routing headers, changing how developers build Model Context Protocol services in .NET.",
-      "item_ids": [
-        "7920bc9ccd6c980976221cc4f91d40aa"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-26T08:01:27.911387Z",
-      "last_shown": "2026-10-26T10:01:30.861037Z"
-    }
-  ],
-  "past_top_stories": [
-    {
-      "id": "fc327d6f853a430b7270f59c23913400",
-      "title": "Malicious Instruction Files in Downloads Target AI Coding Agents",
-      "summary": "Security researchers discovered a malicious markdown instruction file placed in a developer's Downloads folder. The file attempted to trick AI coding agents into installing a known-malicious npm package.",
-      "why_it_matters": "This exposes a novel attack vector against developer workflows utilizing AI coding agents, requiring safeguards against untrusted file prompts.",
-      "item_ids": [
-        "fc327d6f853a430b7270f59c23913400",
-        "31bb69bdf9032e0c54daf86e0ebb93e1"
-      ],
-      "primary_url": "https://forever.security/blog/hijacking-ai-agents-via-downloads-folder",
-      "first_shown": "2026-10-25T16:01:29.083151Z",
-      "last_shown": "2026-10-26T09:01:27.656884Z"
-    },
-    {
-      "id": "e4ca21c00b882706d9c45420cbd0960a",
-      "title": "iFixit and Teardowns Examine New Apple iPhone Duo Folding Screen",
-      "summary": "Teardowns of Apple's folding iPhone Duo reveal internal structural details regarding how the company attempts to hide the crease. Social media and user reports indicate instances of screens and hinges failing rapidly after purchase.",
-      "why_it_matters": null,
-      "item_ids": [
-        "e4ca21c00b882706d9c45420cbd0960a",
-        "b5c8072a312ddd7d955607f4fb1021f8",
-        "19512286cfc4d1975e508a34d5b5a1c2"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-26T04:01:29.573323Z",
-      "last_shown": "2026-10-26T09:01:27.656884Z"
     },
     {
       "id": "22954baad70d9ef53013f67dfc660f48",
@@ -27900,30 +27954,6 @@
       "primary_url": null,
       "first_shown": "2026-10-26T05:01:25.846305Z",
       "last_shown": "2026-10-26T06:01:26.129329Z"
-    },
-    {
-      "id": "7690dd5e1f4a0e5fbab6192e6bead94f",
-      "title": "Samsung running a TensorFlow lite model on 960x540 image to track you",
-      "summary": null,
-      "why_it_matters": "Security and privacy researchers highlight unexpected background telemetry practices running lightweight machine learning models on smart devices.",
-      "item_ids": [
-        "7690dd5e1f4a0e5fbab6192e6bead94f"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-25T20:01:25.805094Z",
-      "last_shown": "2026-10-26T05:26:15.174540Z"
-    },
-    {
-      "id": "b2ad077c0834c3e843ee870fe19d974a",
-      "title": "Active incident at Dreamhost forcing password reset",
-      "summary": null,
-      "why_it_matters": "Informs infrastructure operators and web administrators of active security incidents affecting hosting providers.",
-      "item_ids": [
-        "b2ad077c0834c3e843ee870fe19d974a"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-26T01:01:27.219240Z",
-      "last_shown": "2026-10-26T05:01:25.846305Z"
     }
   ]
 }
