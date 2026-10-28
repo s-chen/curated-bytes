@@ -1,6 +1,96 @@
 {
-  "generated_at": "2026-10-28T07:01:25.396714Z",
+  "generated_at": "2026-10-28T08:01:24.025905Z",
   "items": [
+    {
+      "id": "3134801ade433daaaaa760c89e7584b4",
+      "title": "Who’s 0xabadbabe and why? (2011)",
+      "url": "https://daniel.haxx.se/blog/2011/10/28/whos-0xabadbabe-and-why/",
+      "source_id": "lobsters",
+      "source_name": "Lobsters",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-28T07:57:21Z",
+      "fetched_at": "2026-10-28T08:01:24.025905Z",
+      "discussion_url": "https://lobste.rs/s/ml4m9a/who_s_0xabadbabe_why_2011",
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "pending",
+      "importance": null
+    },
+    {
+      "id": "896170ab9f62f48837b39a009cc8d0f9",
+      "title": "Scalable Vector Grief",
+      "url": "https://portswigger.net/research/scalable-vector-grief",
+      "source_id": "lobsters",
+      "source_name": "Lobsters",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-28T07:26:03Z",
+      "fetched_at": "2026-10-28T08:01:24.025905Z",
+      "discussion_url": "https://lobste.rs/s/vekgyd/scalable_vector_grief",
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 2
+    },
+    {
+      "id": "b3b457f8e5d1b762110fb4370f340a5e",
+      "title": "Japan's GMO Offers $1 Million Bounty to Catch Hackers Behind FX Trading Cloud Breach",
+      "url": "https://thehackernews.com/2026/10/japans-gmo-offers-1-million-bounty-to.html",
+      "source_id": "the-hacker-news",
+      "source_name": "The Hacker News",
+      "category": "tech",
+      "summary": "Japan's GMO Internet Group is offering up to $1 million in total for tips that help catch the attackers who breached its Onamae.com Desktop Cloud service, after refusing to pay an extortion demand. The reward program opened on October 28 and pays only if a tip helps lead to an arrest or an international wanted notice. The service hosts Windows desktops used for FX trading,",
+      "published_at": "2026-10-28T07:13:21Z",
+      "fetched_at": "2026-10-28T08:01:24.025905Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 5
+    },
+    {
+      "id": "7d8c7385df85661ce52cdb5ee53824d3",
+      "title": "Tailscale Patches SSH Flaws That Could Let Hacked Devices Gain Root Access on Other Servers",
+      "url": "https://thehackernews.com/2026/10/tailscale-patches-ssh-flaws-that-could.html",
+      "source_id": "the-hacker-news",
+      "source_name": "The Hacker News",
+      "category": "tech",
+      "summary": "Tailscale has released version 1.104.4 to fix flaws in its built-in SSH server that could let an attacker reach services and files on other servers that only the root user should be able to touch. The flaws are in how Tailscale SSH forwards network connections, a job the Tailscale background process carries out with root privileges. To use them, an attacker must",
+      "published_at": "2026-10-28T06:20:37Z",
+      "fetched_at": "2026-10-28T08:01:24.025905Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 5
+    },
+    {
+      "id": "3b0e37578c9d526f1eaeb063f590909c",
+      "title": "ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws",
+      "url": "https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html",
+      "source_id": "the-hacker-news",
+      "source_name": "The Hacker News",
+      "category": "tech",
+      "summary": "The critical Oracle PeopleSoft bug that ShinyHunters has exploited since May is not one flaw but three chained together, the researchers who reported it said this week. Oracle patched all three under a single identifier, CVE-2026-35273, in June. Its root is a server-side request forgery (SSRF) that reaches an internal management interface because PeopleSoft trusts its own loopback address",
+      "published_at": "2026-10-28T06:04:58Z",
+      "fetched_at": "2026-10-28T08:01:24.025905Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 5
+    },
     {
       "id": "cf3261bb9d4f1764b120c62dc6f2fa63",
       "title": "Should AI Decide Your Court Case? This Judge Says Yes",
@@ -20,6 +110,24 @@
       "importance": 3
     },
     {
+      "id": "51a71e1c175d2fa62aa2c89fde75c4ff",
+      "title": "Adobe Commerce PolyShell Attacks Breach Hundreds of Stores as Brotli Exploit Traffic Emerges",
+      "url": "https://thehackernews.com/2026/10/adobe-commerce-polyshell-attacks-breach.html",
+      "source_id": "the-hacker-news",
+      "source_name": "The Hacker News",
+      "category": "tech",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added two vulnerabilities impacting Adobe Commerce and Magento, and Google's Brotli decoder library to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-111497 (CVSS score: 9.2) - An unchecked return value vulnerability in",
+      "published_at": "2026-10-28T05:42:26Z",
+      "fetched_at": "2026-10-28T08:01:24.025905Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 5
+    },
+    {
       "id": "02c0ed1e22275f4b7b6357a88b996e70",
       "title": "Artificial Analysis Intelligence Index v5.0",
       "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
@@ -35,7 +143,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "892e0fc186bc09a7fbfc1f8f3af5c942",
@@ -53,7 +161,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "5eab77cca68c08b92a4650e747aa035f",
@@ -413,7 +521,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "1218415a7d2c9b96997243bb6a22028c",
@@ -431,7 +539,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "8da478923fd42c7b939ec0fee53d7fb7",
@@ -467,7 +575,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "3e79ecb7743b761c31dda9f065849f66",
@@ -539,7 +647,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "3aa224ec33d2cd0d2dd7ec943c827845",
@@ -557,7 +665,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "b93e04848267f6afac73518d887cd72c",
@@ -683,7 +791,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "808cc2e636d031c0e37bede320d37c9c",
@@ -701,7 +809,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "cb40f75f765056d20761700eac709911",
@@ -737,7 +845,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "43664f238c5010e69e51e0f6b0d7552c",
@@ -755,7 +863,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "60035e2cb0280b5ef1a9ccf9559d8d4c",
@@ -863,7 +971,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "9e22205eaa34a4bcce585a330b3a0c8b",
@@ -881,7 +989,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "922fe676a6fb4830f35892627ffa333e",
@@ -989,7 +1097,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "b9c99b2c964c8ac02438bbf716abcc19",
@@ -1043,7 +1151,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "4fe0e5b4771f46672ae43be438227999",
@@ -1079,7 +1187,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "81ad41f2875afe7250c903c92b2dddd8",
@@ -1097,7 +1205,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "5cdbd160f4908af274fb52ef8fd9fb39",
@@ -1115,7 +1223,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "d676c01c66093a3fc2c5d457dfea96e3",
@@ -1133,7 +1241,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "abe7eb50b8edb0f9b39d92017a895139",
@@ -1205,7 +1313,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "7bf53cde8adcca8912e8c0139b645a7f",
@@ -1457,7 +1565,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "3d9e1f5086dd610bf8a3263d156d344b",
@@ -1583,7 +1691,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "9e02d8d09c8a7f959e54724f4b6078d2",
@@ -1745,7 +1853,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "b35a800dd054eb1405165dcf88312765",
@@ -1763,7 +1871,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "34fc514719d0a7a560d27131b42e85a2",
@@ -1781,7 +1889,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "6808aa957d92f6bc10447f2550ce97c7",
@@ -1817,7 +1925,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "bd823125205abe20a381cf683e3b4ea8",
@@ -1997,7 +2105,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 1
     },
     {
       "id": "9c68ba0c41605c90335fce213932902e",
@@ -2519,7 +2627,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "878af53bf1344f6f0f04dcb6df66bc84",
@@ -2537,7 +2645,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "fd24df5e1c1598f91994121fbb1807b1",
@@ -2591,7 +2699,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "152367a2cc5b30cc92e63ddc464a91bc",
@@ -2627,7 +2735,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "3f532ca48e782f83012360b5bf2ac779",
@@ -2843,7 +2951,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "a57659993e8d7d060ca8237b0fe077b1",
@@ -2879,7 +2987,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 5
     },
     {
       "id": "ee22a4ddcb8c62587170de81845b14b5",
@@ -2969,7 +3077,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "544f7fa8ae45d6fee1713edbd8a91f99",
@@ -3149,7 +3257,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "c3aed5198ae0f036b7d9530d03b9e9e8",
@@ -3221,7 +3329,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "b6ad9cb59ee6cc6166bd76f5e14bb48d",
@@ -3239,7 +3347,7 @@
       "engineering": true,
       "blog": true,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "db269eb453f4c047d582d4e7ca34a471",
@@ -3489,9 +3597,9 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "87c7e7e2392ea5a8df6c8399a66bc5a0",
@@ -3545,7 +3653,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "8d71359a28e5648ff0505f36870bd648",
@@ -3797,7 +3905,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "16daf16ab0c394996f7a1e226327ce7f",
@@ -3833,7 +3941,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "d0f6c38518c07543d0c59dc64b751c63",
@@ -3851,7 +3959,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "bad594fc7a1dfd5240254ba26697e0a3",
@@ -3975,7 +4083,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -4031,7 +4139,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "1b7c454504962524612b035b85ddb1b3",
@@ -4049,7 +4157,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "76d55bed50b4033eed95a1cfccbd1fa3",
@@ -4067,7 +4175,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "866a8680f78e7f42618480bf762a74f2",
@@ -4175,7 +4283,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "0e765d555eab0fe11e975e9e5eb889f4",
@@ -4265,7 +4373,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "fbc0b58dc2ef30a51b5125042e5df634",
@@ -4319,7 +4427,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "16c5d3e380f2ea1053375a4f7ec4298f",
@@ -4373,7 +4481,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "41e389fef2178131dec343f83940c0a3",
@@ -4391,7 +4499,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 5
     },
     {
       "id": "c1adb0edaeaca7e2ab0f8f15a63626ea",
@@ -4445,7 +4553,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "e24ed278a4c0ad29ccce644eb7978e61",
@@ -4535,7 +4643,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "636dd8e40f57df258940d50144b45208",
@@ -4589,7 +4697,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "821f242e1ea88815fbb68a5a3886d0ef",
@@ -4643,7 +4751,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "21d84f8bdf7c1cfe9353104cb34457eb",
@@ -4715,7 +4823,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "328307fafa2c109d222a5df6dfd616cb",
@@ -4733,7 +4841,7 @@
       "engineering": true,
       "blog": true,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "f3e782fd588531e389a1b2253ff9a196",
@@ -4841,7 +4949,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "6b6861f5dfdd32fb2d11c0f0e034f5ef",
@@ -4895,7 +5003,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "e9d0a08c11a97edec7ecf8a7edac2737",
@@ -4967,7 +5075,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "22691fc5174a0b24e7362cd4d0928899",
@@ -5039,7 +5147,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "1304e798ac44329f5a03e7157e7b91ea",
@@ -25490,132 +25598,6 @@
       "importance": 4
     },
     {
-      "id": "566e97e2e8e8b68580543231b679771c",
-      "title": "Unikernels in OCaml",
-      "url": "https://uniker.nl/",
-      "source_id": "lobsters",
-      "source_name": "Lobsters",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-21T07:51:20Z",
-      "fetched_at": "2026-10-21T08:01:40.454111Z",
-      "discussion_url": "https://lobste.rs/s/mfserj/unikernels_ocaml",
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "b596a67c60f3caac0380747c53ce5061",
-      "title": "State Bank of India Confirms Data Leak After 3,897 Customer Records Found on Dark Web",
-      "url": "https://thehackernews.com/2026/10/state-bank-of-india-confirms-data-leak.html",
-      "source_id": "the-hacker-news",
-      "source_name": "The Hacker News",
-      "category": "tech",
-      "summary": "State Bank of India has identified 3,897 customer records containing personal information in a set of about 375,000 records available on the dark web, and it does not yet know where the data came from. The state-owned bank, India's largest, said in a stock-exchange filing dated October 21 that it \"has experienced an incident involving the loss of certain data.\" The count is",
-      "published_at": "2026-10-21T07:44:22Z",
-      "fetched_at": "2026-10-21T08:01:40.454111Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 4
-    },
-    {
-      "id": "1d94362b990b3e0bcb63a1091013b2a9",
-      "title": "ConcurrentML: Improving on Go's concurrency model",
-      "url": "https://nikhilism.com/post/2026/golang-racket-concurrency/",
-      "source_id": "lobsters",
-      "source_name": "Lobsters",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-21T07:38:00Z",
-      "fetched_at": "2026-10-21T08:01:40.454111Z",
-      "discussion_url": "https://lobste.rs/s/50whrl/concurrentml_improving_on_go_s",
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "c90c9d2a735e1533586ff473825fd287",
-      "title": "Vector Graphics in Lil",
-      "url": "https://beyondloom.com/blog/vectorgraphics.html",
-      "source_id": "lobsters",
-      "source_name": "Lobsters",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-21T07:33:04Z",
-      "fetched_at": "2026-10-21T08:01:40.454111Z",
-      "discussion_url": "https://lobste.rs/s/tsfina/vector_graphics_lil",
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "300081f80ee2dcbfaf47a5b510cb51cb",
-      "title": "Announcing the GPU notification group and Linker Working Area",
-      "url": "https://blog.rust-lang.org/inside-rust/2026/10/20/gpu-target-notification-group/",
-      "source_id": "lobsters",
-      "source_name": "Lobsters",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-21T07:27:17Z",
-      "fetched_at": "2026-10-21T08:01:40.454111Z",
-      "discussion_url": "https://lobste.rs/s/ydbql4/announcing_gpu_notification_group",
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "64da09b46a5733bd419efdca2bab108d",
-      "title": "CISA Orders Federal Agencies to Patch Exploited Plex2Shell, Siemens, and SiteGuard Flaws",
-      "url": "https://thehackernews.com/2026/10/cisa-orders-federal-agencies-to-patch.html",
-      "source_id": "the-hacker-news",
-      "source_name": "The Hacker News",
-      "category": "tech",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, including four vulnerabilities impacting Plex Media Server that's collectively called Plex2Shell. The vulnerabilities are listed below - CVE-2026-96652 (CVSS score: 5.3) - Plex Media Server Server-Side Request Forgery (SSRF)",
-      "published_at": "2026-10-21T07:26:49Z",
-      "fetched_at": "2026-10-21T08:01:40.454111Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 4
-    },
-    {
-      "id": "f27a6042b1d0b9503f03f2b017d9b7c0",
-      "title": "Firefox security patch tests are now private for at least a week",
-      "url": "https://groups.google.com/a/mozilla.org/g/firefox-dev/c/4I1HSPtVyrI/m/giGra4ZzAQAJ",
-      "source_id": "lobsters",
-      "source_name": "Lobsters",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-21T07:13:16Z",
-      "fetched_at": "2026-10-21T08:01:40.454111Z",
-      "discussion_url": "https://lobste.rs/s/othohc/firefox_security_patch_tests_are_now",
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
       "id": "f60bdcf85ea62c041283594fe2943d6b",
       "title": "8 eMudhra certificates are compromised. Here's what you need to know",
       "url": "https://blog.cloudflare.com/emudhra-certificate-compromise/",
@@ -27454,10 +27436,107 @@
   ],
   "top_stories": [
     {
+      "id": "b3b457f8e5d1b762110fb4370f340a5e",
+      "title": "Japan's GMO Internet Group Refuses Extortion Following Cloud Breach",
+      "summary": "Japan's GMO Internet Group is offering a $1 million bounty for tips to catch attackers who breached its Onamae.com Desktop Cloud service after refusing an extortion demand. The company urged customers to shut down computers and disconnect systems as suspected hackers posted stolen customer data.",
+      "why_it_matters": "Crucial security incident affecting cloud infrastructure users and highlighting ongoing risks from targeted ransomware and extortion campaigns.",
+      "item_ids": [
+        "b3b457f8e5d1b762110fb4370f340a5e",
+        "1a6952294aa4c3ab09234ebdee86f449",
+        "a87ce6383f38e8358eddd9e6b0807b4e",
+        "41e389fef2178131dec343f83940c0a3"
+      ],
+      "primary_url": "https://internet.gmo/en/news/article/256",
+      "first_shown": "2026-10-28T03:01:25.779927Z",
+      "last_shown": "2026-10-28T08:01:24.025905Z"
+    },
+    {
+      "id": "fb3ff1b53a57e297f351022a6824fbf2",
+      "title": "Tailscale Patches Critical SSH Vulnerabilities",
+      "summary": "Tailscale released version 1.104.4 to fix severe flaws in its built-in SSH server that could allow an attacker to gain root access on other servers. The security team warned that the vulnerabilities could be exploited to steal credentials, crash servers, and escalate privileges.",
+      "why_it_matters": "Requires immediate patching for administrators using Tailscale SSH to prevent remote root compromise across managed networks.",
+      "item_ids": [
+        "fb3ff1b53a57e297f351022a6824fbf2",
+        "7d8c7385df85661ce52cdb5ee53824d3",
+        "6d1979bbd659bffc50ce74bbff195b7f"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-28T08:01:24.025905Z",
+      "last_shown": "2026-10-28T08:01:24.025905Z"
+    },
+    {
+      "id": "3b0e37578c9d526f1eaeb063f590909c",
+      "title": "CISA Confirms Active Exploitation of Critical PHP Vulnerabilities",
+      "summary": "CISA added critical vulnerabilities impacting Adobe Commerce, Magento, and PHP to its Known Exploited Vulnerabilities catalog. Security agencies and researchers confirm that hackers are actively exploiting these flaws to gain remote code execution and deploy web shells.",
+      "why_it_matters": "Immediate security emergency for web administrators as widespread automated attacks target unpatched PHP environments.",
+      "item_ids": [
+        "3b0e37578c9d526f1eaeb063f590909c",
+        "51a71e1c175d2fa62aa2c89fde75c4ff",
+        "83821ccc9a093611ae4aca27710963a7",
+        "9285f33e57f94cf44ab3761e25f89617",
+        "878af53bf1344f6f0f04dcb6df66bc84",
+        "a08e8ee76138b62b3dcc9fae2e96bf49",
+        "135db9795e4c328f3fd18731082eeb75"
+      ],
+      "primary_url": "https://www.cisa.gov/news-events/alerts/2026/10/26/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "first_shown": "2026-10-24T19:01:25.685045Z",
+      "last_shown": "2026-10-28T08:01:24.025905Z"
+    },
+    {
+      "id": "892e0fc186bc09a7fbfc1f8f3af5c942",
+      "title": "Anthropic Files for IPO Amid Scrutiny Over Financials and Resources",
+      "summary": "Anthropic has released its S-1 filing for an upcoming IPO, revealing complex governance structures, massive venture payouts, and significant energy demands. Analysts note that the prospectus omits key financial figures while highlighting power constraints and safety risks.",
+      "why_it_matters": "Signals a major financial milestone for the AI industry and provides rare transparency into the commercial scaling costs of frontier model labs.",
+      "item_ids": [
+        "892e0fc186bc09a7fbfc1f8f3af5c942",
+        "871b2958d62747dbed261e8e8e477039",
+        "27245b422d12b1aac6ae4deb8ebc116d",
+        "fd3e8079f74a2b71ad0dcf9f5c2631c6",
+        "34fc514719d0a7a560d27131b42e85a2",
+        "d3366d9121198bafe0924593df707393",
+        "dace5288fc19ee9cdae65fe948ac1413",
+        "7cc4c541a5886d2454bd064251dd816f"
+      ],
+      "primary_url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+      "first_shown": "2026-10-28T06:21:10.373185Z",
+      "last_shown": "2026-10-28T08:01:24.025905Z"
+    },
+    {
+      "id": "1218415a7d2c9b96997243bb6a22028c",
+      "title": "OpenAI Launches GPT-6.1 Terra Amid Safety and Liability Scrutiny",
+      "summary": "OpenAI released GPT-6.1 Terra, highlighting improved coding and computer-use capabilities alongside lower API pricing. Safety evaluations confirmed the model is generally safer but flagged increased destructive-action test flags, coinciding with a lawsuit alleging a prior model encouraged harmful behavior.",
+      "why_it_matters": "Important updates to commercial model capabilities and pricing directly impact developer cost structures and safety requirements.",
+      "item_ids": [
+        "1218415a7d2c9b96997243bb6a22028c",
+        "3e79ecb7743b761c31dda9f065849f66"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-26T21:01:28.000738Z",
+      "last_shown": "2026-10-28T08:01:24.025905Z"
+    },
+    {
+      "id": "12bd3d55ef10f437e5c8f0d86d1a774e",
+      "title": "Apple Refreshes iMac and MacBook Pro Lineup with M6 Chips",
+      "summary": "Apple updated its entry-level MacBook Pro and iMac models with new M6 silicon, featuring more cores, faster memory, and a larger NPU. The updated laptops and all-in-ones also introduce Wi-Fi 7 and Bluetooth 6 connectivity.",
+      "why_it_matters": "Hardware spec updates establish new performance baselines for developer workstations across macOS ecosystems.",
+      "item_ids": [
+        "12bd3d55ef10f437e5c8f0d86d1a774e",
+        "7c417411289567a192aaab2cc1ba4121",
+        "d5865e8ff411ed827293f6dafbbadd46",
+        "12b9f7ef9ae18ec79b60ffd9ff37a94a",
+        "ad5ed4f3bbbabce52fa03e4abd4adb41",
+        "b7b74437c19bd096f7bbbc1cc5dafb20",
+        "57e0067694c6c182970f142883418fea"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-27T17:01:31.778539Z",
+      "last_shown": "2026-10-28T08:01:24.025905Z"
+    },
+    {
       "id": "fe99b2c7911354c0a5e5b2bfe304b83c",
-      "title": "Google DeepMind introduces Genie 4 world model",
-      "summary": "Google DeepMind has released Genie 4, a new world model that renders interactive environments in real time with simulated physics. The model adds real-time audio, more realistic human and environmental simulation, and mid-simulation text prompts.",
-      "why_it_matters": "Provides AI engineers with advanced simulation environments for training interactive AI agents with improved physical realism.",
+      "title": "Google DeepMind Announces Genie 4 Interactive World Model",
+      "summary": "Google DeepMind introduced Genie 4, a world model that renders interactive simulated environments in real time. The updated version adds real-time audio, more realistic physics, and mid-simulation text prompts for trusted testers and developers.",
+      "why_it_matters": "Advances in real-time environment generation expand capabilities for training autonomous AI agents in simulated physics worlds.",
       "item_ids": [
         "fe99b2c7911354c0a5e5b2bfe304b83c",
         "c0920d5ed86c35144d45b1b04dbf31b4",
@@ -27466,40 +27545,49 @@
       ],
       "primary_url": null,
       "first_shown": "2026-10-27T17:01:31.778539Z",
-      "last_shown": "2026-10-28T07:01:25.396714Z"
+      "last_shown": "2026-10-28T08:01:24.025905Z"
     },
     {
-      "id": "3e79ecb7743b761c31dda9f065849f66",
-      "title": "OpenAI launches GPT-6.1 Terra model",
-      "summary": "OpenAI has announced GPT-6.1 Terra, a new budget-friendly mid-tier model focused on computer use, visual reasoning, and coding. The release cuts API prices in half and delivers faster AI agents, though safety tests noted some destructive-action flags.",
-      "why_it_matters": "Lowers inference costs and provides developers with improved agentic and computer-use capabilities at lower price points.",
+      "id": "4ca8ee79627561995746eb37c5cd4c7f",
+      "title": "University of New Mexico Health Center Disrupted by Cyberattack",
+      "summary": "The University of New Mexico Health Sciences Center suffered a ransomware cyberattack that caused severe system outages and disrupted patient care and surgeries. Following initial emergency diversions, hospital systems began phased recoveries.",
+      "why_it_matters": "Highlights the severe operational impact of healthcare sector cyberattacks and the challenges of clinical system restoration.",
       "item_ids": [
-        "3e79ecb7743b761c31dda9f065849f66",
-        "2d94c0f701913a50d48cf79913dbd71c",
-        "4cf7e19b70ae8bff64b086fc86bed18b",
-        "33c12d5b14e758bc21ad5c3ee7b26e13"
-      ],
-      "primary_url": "https://www.huntress.com/community-series/tradecraft-tuesday?hnt=nsnzaa2spign",
-      "first_shown": "2026-10-26T21:01:28.000738Z",
-      "last_shown": "2026-10-28T07:01:25.396714Z"
-    },
-    {
-      "id": "12bd3d55ef10f437e5c8f0d86d1a774e",
-      "title": "Apple refreshes iMac and 14-inch MacBook Pro with M6 chip",
-      "summary": "Apple has updated its 14-inch MacBook Pro and all-in-one iMac lineup with the new M6 chip. The updated hardware features more cores, faster memory, a larger NPU, Wi-Fi 7, and Bluetooth 6 support.",
-      "why_it_matters": "Brings faster local compute and enhanced neural processing units to developer workstations.",
-      "item_ids": [
-        "12bd3d55ef10f437e5c8f0d86d1a774e",
-        "7c417411289567a192aaab2cc1ba4121",
-        "b7b74437c19bd096f7bbbc1cc5dafb20",
-        "ad5ed4f3bbbabce52fa03e4abd4adb41",
-        "12b9f7ef9ae18ec79b60ffd9ff37a94a",
-        "57e0067694c6c182970f142883418fea"
+        "4ca8ee79627561995746eb37c5cd4c7f",
+        "51f5672f4fd14884ed010ff0e0f21528"
       ],
       "primary_url": null,
-      "first_shown": "2026-10-27T17:01:31.778539Z",
-      "last_shown": "2026-10-28T07:01:25.396714Z"
+      "first_shown": "2026-10-28T03:01:25.779927Z",
+      "last_shown": "2026-10-28T08:01:24.025905Z"
     },
+    {
+      "id": "c471c754d7b4107ff7ca1b83df240912",
+      "title": "Discord Public Server Messages to Appear in Search Engine Results",
+      "summary": "Discord announced that messages from public, discoverable servers will begin appearing in external search engine results starting in December. The upcoming change has raised privacy and discoverability concerns among users.",
+      "why_it_matters": "Changes public indexing rules for community platforms, altering how technical discussions and user data are exposed externally.",
+      "item_ids": [
+        "c471c754d7b4107ff7ca1b83df240912",
+        "60035e2cb0280b5ef1a9ccf9559d8d4c"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-27T23:01:26.195251Z",
+      "last_shown": "2026-10-28T08:01:24.025905Z"
+    },
+    {
+      "id": "5cdbd160f4908af274fb52ef8fd9fb39",
+      "title": "Google Launches Registered App Stores Program for Android",
+      "summary": "Google opened applications for its Android Registered App Stores program, scheduled to launch on December 1. The initiative aims to streamline third-party app installations under Google review criteria.",
+      "why_it_matters": "Modifies distribution mechanisms for alternative application storefronts on Android devices.",
+      "item_ids": [
+        "5cdbd160f4908af274fb52ef8fd9fb39",
+        "b25a532c6b3e66828947013d0b5337c8"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-28T08:01:24.025905Z",
+      "last_shown": "2026-10-28T08:01:24.025905Z"
+    }
+  ],
+  "past_top_stories": [
     {
       "id": "5c190d1e9649cf9c7173b0a4408a2a32",
       "title": "Early adopters report screen issues on Apple iPhone Duo",
@@ -27512,35 +27600,6 @@
       ],
       "primary_url": null,
       "first_shown": "2026-10-26T15:01:33.719175Z",
-      "last_shown": "2026-10-28T07:01:25.396714Z"
-    },
-    {
-      "id": "83821ccc9a093611ae4aca27710963a7",
-      "title": "CISA confirms active exploitation of PHP2Shell vulnerabilities",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency has added critical PHP2Shell vulnerabilities to its known exploited flaws catalog as attacks ramp up. Security researchers confirm that hackers are successfully executing code and acquiring working shells.",
-      "why_it_matters": "Critical remote code execution vulnerabilities in widely deployed web software require immediate patching across server infrastructure.",
-      "item_ids": [
-        "83821ccc9a093611ae4aca27710963a7",
-        "9285f33e57f94cf44ab3761e25f89617",
-        "878af53bf1344f6f0f04dcb6df66bc84",
-        "a08e8ee76138b62b3dcc9fae2e96bf49",
-        "135db9795e4c328f3fd18731082eeb75"
-      ],
-      "primary_url": "https://www.cisa.gov/news-events/alerts/2026/10/26/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "first_shown": "2026-10-24T19:01:25.685045Z",
-      "last_shown": "2026-10-28T07:01:25.396714Z"
-    },
-    {
-      "id": "4ca8ee79627561995746eb37c5cd4c7f",
-      "title": "UNM Health Sciences Center hit by ransomware attack",
-      "summary": "The University of New Mexico Health Sciences Center disclosed a cyberattack that caused severe system outages and disrupted patient care and academic activities. Hospital facilities experienced canceled classes and patient diversions as recovery efforts proceeded in phases.",
-      "why_it_matters": null,
-      "item_ids": [
-        "4ca8ee79627561995746eb37c5cd4c7f",
-        "51f5672f4fd14884ed010ff0e0f21528"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-28T03:01:25.779927Z",
       "last_shown": "2026-10-28T07:01:25.396714Z"
     },
     {
@@ -27569,47 +27628,6 @@
       "primary_url": null,
       "first_shown": "2026-10-28T07:01:25.396714Z",
       "last_shown": "2026-10-28T07:01:25.396714Z"
-    },
-    {
-      "id": "c471c754d7b4107ff7ca1b83df240912",
-      "title": "Discord public server messages to appear in search engines",
-      "summary": "Messages from Discord's public discoverable servers will begin appearing in search engine results starting in December. The move to make public communities more searchable has raised privacy concerns among users.",
-      "why_it_matters": null,
-      "item_ids": [
-        "c471c754d7b4107ff7ca1b83df240912",
-        "60035e2cb0280b5ef1a9ccf9559d8d4c"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-27T23:01:26.195251Z",
-      "last_shown": "2026-10-28T07:01:25.396714Z"
-    },
-    {
-      "id": "892e0fc186bc09a7fbfc1f8f3af5c942",
-      "title": "Jio IPO and Memory Shortage Outlook",
-      "summary": "Jio debuted as India's second-most valuable listed company following a blockbuster IPO. Meanwhile, SK Hynix warned that memory shortages will persist until 2030, impacting PC and smartphone markets.",
-      "why_it_matters": "Memory shortages directly constrain hardware procurement, server provisioning, and manufacturing timelines for engineering teams.",
-      "item_ids": [
-        "892e0fc186bc09a7fbfc1f8f3af5c942",
-        "45bc9e845caaa1adb842b833c0dfb4f6"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-28T06:21:10.373185Z",
-      "last_shown": "2026-10-28T07:01:25.396714Z"
-    }
-  ],
-  "past_top_stories": [
-    {
-      "id": "1a6952294aa4c3ab09234ebdee86f449",
-      "title": "Japan's GMO Group Urges Shutdowns After Cloud Breach and Data Leak",
-      "summary": "Japan's GMO Group urged customers to disconnect systems and shut down computers after a threat actor breached its Onamae Desktop Cloud service and posted stolen customer data.",
-      "why_it_matters": "Informs teams of an active cloud infrastructure breach and subsequent credential or data exposure risks affecting managed environments.",
-      "item_ids": [
-        "1a6952294aa4c3ab09234ebdee86f449",
-        "a87ce6383f38e8358eddd9e6b0807b4e"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-28T03:01:25.779927Z",
-      "last_shown": "2026-10-28T06:21:10.373185Z"
     },
     {
       "id": "ec3a76bd7e730bc95c13922d6a14dbdd",
@@ -27701,33 +27719,6 @@
       "primary_url": null,
       "first_shown": "2026-10-27T02:01:26.421167Z",
       "last_shown": "2026-10-28T00:01:29.955496Z"
-    },
-    {
-      "id": "a267acb52e1e7b4e92c6cc58098dc53b",
-      "title": "Apple rolls out iOS and macOS 27.2 with new Siri features",
-      "summary": "Apple has released iOS and macOS 27.2, introducing new Siri AI languages, expanded features, and important security fixes. The update includes the ability to limit which applications Siri can directly access.",
-      "why_it_matters": null,
-      "item_ids": [
-        "a267acb52e1e7b4e92c6cc58098dc53b",
-        "a86d022d08f7d9989945a13564939836"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-27T15:01:29.978928Z",
-      "last_shown": "2026-10-28T00:01:29.955496Z"
-    },
-    {
-      "id": "f18588ed785cfb8f8c9770c557cc6a37",
-      "title": "Instagram expands into long-form horizontal video",
-      "summary": "Instagram is introducing a major push into long-form horizontal videos of up to 90 minutes. The platform aims to compete directly with video streaming services like YouTube.",
-      "why_it_matters": null,
-      "item_ids": [
-        "f18588ed785cfb8f8c9770c557cc6a37",
-        "0045064d96cf0c4c0a2f12a28422d123",
-        "22691fc5174a0b24e7362cd4d0928899"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-27T02:01:26.421167Z",
-      "last_shown": "2026-10-27T22:39:25.881421Z"
     }
   ]
 }
