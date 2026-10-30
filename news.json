@@ -1,6 +1,96 @@
 {
-  "generated_at": "2026-10-30T14:01:26.544432Z",
+  "generated_at": "2026-10-30T15:01:25.063662Z",
   "items": [
+    {
+      "id": "34fa48f6f5fad79ba4771dd47363c9ef",
+      "title": "AlpineBSD announced – an AI-free FOSS OS",
+      "url": "https://www.theregister.com/os-platforms/2026/10/30/alpinebsd-announced-an-ai-free-foss-os/5306589",
+      "source_id": "the-register",
+      "source_name": "The Register",
+      "category": "tech",
+      "summary": "Combining the NetBSD kernel with the Alpine Linux userland",
+      "published_at": "2026-10-30T14:45:00Z",
+      "fetched_at": "2026-10-30T15:01:25.063662Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "eef70c4cd6518f64690d4db02ce39544",
+      "title": "Malicious Claude Code extension on Cursor planted SSH backdoors",
+      "url": "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/",
+      "source_id": "bleepingcomputer",
+      "source_name": "BleepingComputer",
+      "category": "tech",
+      "summary": "A malicious version of Anthropic's Claude Code VS Code extension was distributed through Cursor's extension marketplace for approximately 11 hours on October 29, exposing up to 5,000 developers to malware designed to install persistent SSH backdoors. [...]",
+      "published_at": "2026-10-30T14:36:54Z",
+      "fetched_at": "2026-10-30T15:01:25.063662Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 5
+    },
+    {
+      "id": "719c50a73228e16ea0a55f006fbd0b25",
+      "title": "Cloudflare services for private origins is now generally available",
+      "url": "https://blog.cloudflare.com/private-origins-public-to-private/",
+      "source_id": "cloudflare-blog",
+      "source_name": "Cloudflare Blog",
+      "category": "tech",
+      "summary": "Public traffic to private origins, with WAF, bot management, caching, and Workers, is now available to every customer with Cloudflare One connectivity.",
+      "published_at": "2026-10-30T14:23:43Z",
+      "fetched_at": "2026-10-30T15:01:25.063662Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": true,
+      "blog": true,
+      "review": "kept",
+      "importance": 4
+    },
+    {
+      "id": "8d27aa6fa7494b60b3c1dccea5992981",
+      "title": "This electric screwdriver uses a camera and AI to figure out what bit you need",
+      "url": "https://www.theverge.com/tech/1023057/arrowmax-arrowspace-s1-electric-screwdriver-ai-camera-kickstarter",
+      "source_id": "the-verge",
+      "source_name": "The Verge",
+      "category": "tech",
+      "summary": "Companies like Hoto and Fanttik have elevated the design and functionality of tools like electric screwdrivers, but Arrowmax wants to make them smarter by adding a camera and AI that work together to eliminate the trial and error of finding the exact type and size of bit you need. It's convenient, but also helpful, as […]",
+      "published_at": "2026-10-30T14:23:26Z",
+      "fetched_at": "2026-10-30T15:01:25.063662Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "pending",
+      "importance": null
+    },
+    {
+      "id": "73b964cbb7be513394f5927dbb1d6c81",
+      "title": "Eight more stable kernel updates",
+      "url": "https://lwn.net/Articles/1104177/",
+      "source_id": "lwn",
+      "source_name": "LWN.net",
+      "category": "tech",
+      "summary": "Greg Kroah-Hartman has announced the release of the 7.3.1, 7.2.14, 6.18.60, 6.12.115, 6.6.161, 6.1.191, 5.15.224, and 5.10.273 stable kernels. As usual, he advises all users to update—advice that seems especially wise given the increased number of security-relevant bug fixes that the kernel is seeing these days. [Edit: the 7.2.15 stable release is already in review as well.]",
+      "published_at": "2026-10-30T14:22:39Z",
+      "fetched_at": "2026-10-30T15:01:25.063662Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
     {
       "id": "ccdff1f49f0883386a23e8db41c80183",
       "title": "North Korean hackers blamed for stealing record $6.3B in Binance breach",
@@ -56,6 +146,24 @@
       "importance": null
     },
     {
+      "id": "dddae056666779b02eb1845a9f34f5d4",
+      "title": "NASA ponders a Hubble servicing mission or a controlled deorbit",
+      "url": "https://www.theregister.com/science/2026/10/30/nasa-ponders-a-hubble-servicing-mission-or-a-controlled-deorbit/5306622",
+      "source_id": "the-register",
+      "source_name": "The Register",
+      "category": "tech",
+      "summary": "Agency only looking for information, but reentry countdown ticking for veteran space telescope",
+      "published_at": "2026-10-30T14:00:00Z",
+      "fetched_at": "2026-10-30T15:01:25.063662Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 2
+    },
+    {
       "id": "de2842284c12aec976e6013fd096c5c1",
       "title": "DoorDash said it’s only received ‘several hundred’ orders from AI agents",
       "url": "https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/",
@@ -74,6 +182,42 @@
       "importance": 3
     },
     {
+      "id": "15da7607100ba0b60274250d66e72c0b",
+      "title": "Update on AO3 Downtime, October 30, 2026 | Organization for Transformative Works",
+      "url": "https://www.transformativeworks.org/update-on-ao3-downtime-october-30-2026/",
+      "source_id": "lobsters",
+      "source_name": "Lobsters",
+      "category": "tech",
+      "summary": "The Archive of our Own aka AO3, a huge, non-profit, volunteer-run fanfic archive with over 11 million registered users, discovered a security incident yesterday and took the site down. They expect the site to be down at least two weeks. Comments",
+      "published_at": "2026-10-30T13:54:17Z",
+      "fetched_at": "2026-10-30T15:01:25.063662Z",
+      "discussion_url": "https://lobste.rs/s/yu5k5y/update_on_ao3_downtime_october_30_2026",
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 4
+    },
+    {
+      "id": "d9f7d9660eae94705e80b27ce36322d2",
+      "title": "GM to pay $220 million after selling customer Smart Driver data",
+      "url": "https://arstechnica.com/cars/2026/10/gm-to-pay-220-million-after-selling-customer-smart-driver-data/",
+      "source_id": "ars-technica",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "summary": "Owners of GM cars found their driving data had been sold to insurance companies.",
+      "published_at": "2026-10-30T13:53:20Z",
+      "fetched_at": "2026-10-30T15:01:25.063662Z",
+      "discussion_url": "https://arstechnica.com/cars/2026/10/gm-to-pay-220-million-after-selling-customer-smart-driver-data/#comments",
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 4
+    },
+    {
       "id": "091f8c06d4c13b4fb45b6962f518bb29",
       "title": "Waymo’s next robotaxi is a purpose-built Toyota bZ4X",
       "url": "https://www.theverge.com/transportation/1023112/waymos-next-robotaxi-is-a-purpose-built-toyota-bz4x",
@@ -89,7 +233,25 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
+    },
+    {
+      "id": "48fd4163dda936ad3fb9a816b0fa3497",
+      "title": "Hackers steal $6.3 billion from Binance in record crypto heist",
+      "url": "https://arstechnica.com/security/2026/10/hackers-steal-6-3-billion-from-binance-in-record-crypto-heist/",
+      "source_id": "ars-technica",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "summary": "Binance scrambles to freeze billions after record-breaking hack linked to North Korea.",
+      "published_at": "2026-10-30T13:46:39Z",
+      "fetched_at": "2026-10-30T15:01:25.063662Z",
+      "discussion_url": "https://arstechnica.com/security/2026/10/hackers-steal-6-3-billion-from-binance-in-record-crypto-heist/#comments",
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 5
     },
     {
       "id": "e8085c82b758b6e20fb73570354e90ee",
@@ -107,7 +269,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "b9435a11891605a013ccd4d1dfd56aad",
@@ -198,6 +360,24 @@
       "blog": false,
       "review": "pending",
       "importance": null
+    },
+    {
+      "id": "550fa262d5da6d32669291b3fe0feec7",
+      "title": "AI projects not paying off? Keep at it, says Uni Productivity Institute",
+      "url": "https://www.theregister.com/ai-and-ml/2026/10/30/ai-projects-not-paying-off-keep-at-it-says-uni-productivity-institute/5306581",
+      "source_id": "the-register",
+      "source_name": "The Register",
+      "category": "tech",
+      "summary": "All that up-front investment needs time to take effect, and speeding individual tasks won't necessarily boost the entire firm",
+      "published_at": "2026-10-30T13:15:00Z",
+      "fetched_at": "2026-10-30T15:01:25.063662Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 2
     },
     {
       "id": "97cc063537e04ec4734a7002e76f1789",
@@ -359,7 +539,7 @@
       "engineering": true,
       "blog": true,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "6358b706b966747ae14f55b96c6bd477",
@@ -378,6 +558,24 @@
       "blog": false,
       "review": "kept",
       "importance": 2
+    },
+    {
+      "id": "43db9fb69a3df8bba868b58451cc6cb6",
+      "title": "NHS quango warns of risk to GP patient data after website vendor collapse",
+      "url": "https://www.theregister.com/public-sector/2026/10/30/nhs-quango-warns-of-risk-to-gp-patient-data-after-website-vendor-collapse/5306647",
+      "source_id": "the-register",
+      "source_name": "The Register",
+      "category": "tech",
+      "summary": "Hundreds of practices hit by small health tech firm going into administration",
+      "published_at": "2026-10-30T12:30:00Z",
+      "fetched_at": "2026-10-30T15:01:25.063662Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "3307520d3b6ecd5b830f8d16a79de7d6",
@@ -425,7 +623,7 @@
       "summary": "Nissan’s series hybrid e-Power system has been retuned for American roads.",
       "published_at": "2026-10-30T12:00:18Z",
       "fetched_at": "2026-10-30T13:01:24.709080Z",
-      "discussion_url": null,
+      "discussion_url": "https://arstechnica.com/cars/2026/10/2027-nissan-rogue-hybrid-drives-like-an-ev-but-theres-no-plug-involved/#comments",
       "points": null,
       "comments": null,
       "engineering": false,
@@ -449,7 +647,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "41bc30418c57b2d0a5fe7f36499f750e",
@@ -465,9 +663,9 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "a1b9924296d8f03cfca16b40c36ac269",
@@ -485,7 +683,25 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
+    },
+    {
+      "id": "52ab9ba8546980d4851a844cb9b9d2f8",
+      "title": "British intelligence agency misplaced 'thousands' of storage devices, years later still can't say how many",
+      "url": "https://www.theregister.com/security/2026/10/30/british-intelligence-agency-misplaced-thousands-of-storage-devices-years-later-still-cant-say-how-many/5306605",
+      "source_id": "the-register",
+      "source_name": "The Register",
+      "category": "tech",
+      "summary": "Other agency errors included an unchecked software bug that led to Terrorism Act detentions",
+      "published_at": "2026-10-30T11:45:00Z",
+      "fetched_at": "2026-10-30T15:01:25.063662Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "417675d6e8e0d65786eb6551bba02d77",
@@ -530,7 +746,7 @@
       "source_id": "ars-technica",
       "source_name": "Ars Technica",
       "category": "tech",
-      "summary": "Elizabeth Holmes has some people falling for her act all over again.",
+      "summary": "Disgraced founder of Theranos has some people falling for her act all over again.",
       "published_at": "2026-10-30T11:30:01Z",
       "fetched_at": "2026-10-30T13:01:24.709080Z",
       "discussion_url": "https://arstechnica.com/culture/2026/10/review-you-can-see-everything-blurs-the-view-of-elizabeth-holmes-deceit/#comments",
@@ -620,7 +836,7 @@
       "source_id": "ars-technica",
       "source_name": "Ars Technica",
       "category": "tech",
-      "summary": "It's been a good week for ULA with a big NASA contract and Vulcan nearing return-to-flight.",
+      "summary": "It's been a good week for ULA, with big NASA contract, Vulcan nearing return-to-flight.",
       "published_at": "2026-10-30T11:00:35Z",
       "fetched_at": "2026-10-30T13:01:24.709080Z",
       "discussion_url": "https://arstechnica.com/space/2026/10/rocket-report-winter-is-coming-for-themis-cowboy-space-adds-iron-to-the-fire/#comments",
@@ -683,7 +899,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "8f7b5da71cc5745b635f027a72569d08",
@@ -1007,7 +1223,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "3c378952716949cb56b657a895aa22ab",
@@ -1025,7 +1241,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 1
     },
     {
       "id": "0c6525dbf79a2c8e3f7e6c62a15553f4",
@@ -1079,7 +1295,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "5fcc72655496d4f69cce09ae70f38ccd",
@@ -1151,7 +1367,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "7976a2736fee64c91cccd659abb5c910",
@@ -1187,7 +1403,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "f20df8f26a8a587c6fa608f90f35f860",
@@ -1331,7 +1547,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "7c3068f8485ef9d302bd6342747741a9",
@@ -1673,7 +1889,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "08ddcdc2a7756e69ca7c3323cf8444c8",
@@ -1691,7 +1907,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "894e10f479342da43aeba9dc83638927",
@@ -1763,7 +1979,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "a3c97c46040004b75c9ba02aea2daaed",
@@ -2015,7 +2231,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "fb2ad309a3ec13def077f37d3c46fef1",
@@ -2051,7 +2267,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "f578280222372d79a7066e479351906e",
@@ -2141,7 +2357,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "87e31aaef6c0f5b8ef38031768818c8e",
@@ -2357,7 +2573,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "6dfc970929eef4ed91d59bf0ad20a7f8",
@@ -2393,7 +2609,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "8947e8f45aca6fed53deb6638a0c4433",
@@ -2519,7 +2735,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "a7718cf475e8d81b405afd3610eb4b09",
@@ -2789,7 +3005,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "8439773cf2844d814c0a34e2da9f70c9",
@@ -2897,7 +3113,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "af0ab15cd8b395d96e7e807b3547948b",
@@ -2933,7 +3149,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "58df18ddbf868b5e38bc540d414e4f23",
@@ -2969,7 +3185,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "c6dff013327add4d7248f4625cd5196d",
@@ -3311,7 +3527,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "a99d7d1fd5f43c008dfa1ee2b7613855",
@@ -3329,7 +3545,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "d3c808733b9b0c87d70415cc3379e635",
@@ -3365,7 +3581,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "438c260dfd61af10aa08b3bc71ac4703",
@@ -3491,7 +3707,7 @@
       "engineering": true,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "8943f3910cc317363ce6cdcdff78a5b0",
@@ -3653,7 +3869,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "e36721ede48d07d34970f2db5daa9922",
@@ -4085,7 +4301,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "5eedcbee66b08b300224d1b44c6d7c1f",
@@ -4101,7 +4317,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -4193,7 +4409,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "9fbb4b15a7c1fcd567d950ec91d573b4",
@@ -4247,7 +4463,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "f0cfa3978ff4a41cf7e6dd30c3a986ad",
@@ -4283,7 +4499,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "6d646c81a2dec2a853a317ad3866b70e",
@@ -4319,7 +4535,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "3cba003fbb9b83f0df3e52fc3299b2e2",
@@ -4481,7 +4697,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "48370d0e15a2744d51bd36defcaca5ce",
@@ -4517,7 +4733,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "fbb894232b6218dbe4c6fc49ebdc26d0",
@@ -4641,7 +4857,7 @@
       "points": null,
       "comments": null,
       "engineering": true,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 3
     },
@@ -4697,7 +4913,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "2acef176c3edee380292b26db79e61b6",
@@ -4733,7 +4949,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "913eb4b9ea6e36e98a90d8aae31a2e09",
@@ -4841,7 +5057,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "2faf01e57c110ed59563385599430606",
@@ -5453,7 +5669,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "f73ab8aa4476fc30b2de58df99e8e8b9",
@@ -25040,258 +25256,6 @@
       "importance": 3
     },
     {
-      "id": "f069f445e939ae1776a132aa373e1d6c",
-      "title": "Lab testing giant Quest Diagnostics confirms patients’ personal and health data was compromised during breach",
-      "url": "https://techcrunch.com/2026/10/23/lab-testing-giant-quest-diagnostics-confirms-patients-personal-and-health-data-was-compromised-during-breach/",
-      "source_id": "techcrunch",
-      "source_name": "TechCrunch",
-      "category": "tech",
-      "summary": "Quest is the latest in a series of healthcare technology companies that have been hacked in recent months.",
-      "published_at": "2026-10-23T15:00:09Z",
-      "fetched_at": "2026-10-23T15:01:31.875094Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 5
-    },
-    {
-      "id": "de31c640c2c00cd236ec5f89dd415b25",
-      "title": "How Many Billions Would It Take to Hold Meta Accountable?",
-      "url": "https://www.wired.com/story/how-many-billions-would-it-take-to-hold-meta-accountable/",
-      "source_id": "wired",
-      "source_name": "Wired",
-      "category": "tech",
-      "summary": "Meta got hit this week with its biggest fine yet, the latest in a mounting pile of court-ordered payments.",
-      "published_at": "2026-10-23T15:00:00Z",
-      "fetched_at": "2026-10-23T16:01:35.288616Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "42446afbaa396bc0b979c89e62827c78",
-      "title": "[$] Seeking smaller kernel stacks",
-      "url": "https://lwn.net/Articles/1100271/",
-      "source_id": "lwn",
-      "source_name": "LWN.net",
-      "category": "tech",
-      "summary": "Memory has always been a scarce resource in computing systems, but the problem seems to have worsened recently. In particular, the worldwide shortage of memory chips has led to a renewed focus by systems developers on reducing memory usage. During the memory-management microconference at the 2026 Linux Plumbers Conference, Will Deacon discussed one specific consumer of memory that is being re-examined: kernel stacks.",
-      "published_at": "2026-10-23T14:59:24Z",
-      "fetched_at": "2026-10-23T15:01:31.875094Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "d6d8307d7e7b8e90965cf0ae85b7c00e",
-      "title": "Pentagon grants DHS permission to test heat ray weapon for use at border",
-      "url": "https://www.cnn.com/2026/10/21/politics/heat-ray-weapon-dhs-pentagon",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-23T14:52:47Z",
-      "fetched_at": "2026-10-23T17:01:27.441963Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50210075",
-      "points": 76,
-      "comments": 73,
-      "engineering": false,
-      "blog": false,
-      "review": "excluded",
-      "importance": 3
-    },
-    {
-      "id": "f8e210e6e3ffc9c0ead3a3622c251270",
-      "title": "eMudhra ignored Mozilla Root investigation deadline; blames social media",
-      "url": "https://bugzilla.mozilla.org/show_bug.cgi?id=2083449",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-23T14:52:08Z",
-      "fetched_at": "2026-10-23T16:01:35.288616Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50210067",
-      "points": 142,
-      "comments": 67,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "b8a6b67b5c401cbcbee5379a8efc05f6",
-      "title": "Meta delays new business terms after publisher pushback on AI scraping",
-      "url": "https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping",
-      "source_id": "the-verge",
-      "source_name": "The Verge",
-      "category": "tech",
-      "summary": "Meta is delaying the enforcement of its new business terms after publishers raised concerns that they could allow the company to scrape news sites for AI training, as reported earlier by Fast Company. In a statement to The Verge, Meta spokesperson Daniel Roberts says the terms will go into effect on November 20th \"to allow […]",
-      "published_at": "2026-10-23T14:47:41Z",
-      "fetched_at": "2026-10-23T15:01:31.875094Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "beab1a533966064ffa37f7f5aa5953c7",
-      "title": "An alignment assessment of the UK AISI cybertesting incident",
-      "url": "https://www.anthropic.com/research/alignment-assessment-ukaisi",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-23T14:44:50Z",
-      "fetched_at": "2026-10-23T17:01:27.441963Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50209939",
-      "points": 7,
-      "comments": 1,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 2
-    },
-    {
-      "id": "51fe03ce2971d5f28605e9e48878fa87",
-      "title": "Gemma-4-26B-A4B with 39-69% less thinking at same accuracy",
-      "url": "https://bottlecapai.com/post/thinkingcap-gemma-4-26b/",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-23T14:43:02Z",
-      "fetched_at": "2026-10-23T17:01:27.441963Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50209907",
-      "points": 102,
-      "comments": 19,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "3c3a2c3604caa738ff23a367def0ead3",
-      "title": "The Sigma FP2 brings significant upgrades to the ‘world’s smallest’ full-frame camera",
-      "url": "https://www.theverge.com/tech/1017410/sigma-fp2-mirrorless-full-frame-modular-camera-upgrade",
-      "source_id": "the-verge",
-      "source_name": "The Verge",
-      "category": "tech",
-      "summary": "Seven years after Sigma claimed its original fp was the world's smallest and lightest full-frame mirrorless camera, the company has announced a similarly compact follow-up with several welcome upgrades including an improved sensor, an articulating LCD display, and longer battery life. But this time around Sigma is only claiming its new FP2 is the \"world's […]",
-      "published_at": "2026-10-23T14:42:46Z",
-      "fetched_at": "2026-10-23T15:01:31.875094Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "excluded",
-      "importance": 3
-    },
-    {
-      "id": "999e83111b6532c0adbb51167c09e1a9",
-      "title": "Emacs finally folds to my liking: kirigami, tree-sitter, hide-show, Org, XML",
-      "url": "https://jointhefreeworld.org/blog/articles/emacs/emacs-folding-kirigami/",
-      "source_id": "lobsters",
-      "source_name": "Lobsters",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-23T14:38:13Z",
-      "fetched_at": "2026-10-23T15:01:31.875094Z",
-      "discussion_url": "https://lobste.rs/s/yczems/emacs_finally_folds_my_liking",
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 2
-    },
-    {
-      "id": "b4d46b8ff363afae56e7219722106b42",
-      "title": "SparkyOS: Lightweight general-purpose Arch, on a pendrive",
-      "url": "https://www.theregister.com/os-platforms/2026/10/23/sparkyos-lightweight-general-purpose-arch-on-a-pendrive/5304984",
-      "source_id": "the-register",
-      "source_name": "The Register",
-      "category": "tech",
-      "summary": "Interesting new project from the minds behind SparkyLinux",
-      "published_at": "2026-10-23T14:35:00Z",
-      "fetched_at": "2026-10-23T15:01:31.875094Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 2
-    },
-    {
-      "id": "bc051d7943a95eb590deb64a2d8f9d56",
-      "title": "The glorious @xkcdRandom Zig builtin",
-      "url": "https://ochagavia.nl/blog/the-glorious-@xkcdrandom-zig-builtin/",
-      "source_id": "lobsters",
-      "source_name": "Lobsters",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-23T14:30:57Z",
-      "fetched_at": "2026-10-23T15:01:31.875094Z",
-      "discussion_url": "https://lobste.rs/s/5hoqzj/glorious_xkcdrandom_zig_builtin",
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 2
-    },
-    {
-      "id": "a50629bb7548a1e6021b25ba35d933c1",
-      "title": "CSIRO Uses Serverless Architecture to Query 100x More Genomic Variants on AWS",
-      "url": "https://www.infoq.com/news/2026/10/csiro-serverless-genomic-variant/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source_id": "infoq",
-      "source_name": "InfoQ",
-      "category": "tech",
-      "summary": "CSIRO has developed Serverless Beacon, a serverless architecture for querying genomic variants without copying VCF files into a central database. The system combines Amazon S3, Lambda, Athena and DynamoDB, using metadata indexes and HTTP byte range requests to query compressed genomic regions. Tests reported 1.52 second average latency for 10,000 base pair queries. By Leela Kumili",
-      "published_at": "2026-10-23T14:30:00Z",
-      "fetched_at": "2026-10-23T15:01:31.875094Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "6035f60c53c5397f993475f440a8e787",
-      "title": "Profiling Org->HTML formal grammar and optimizing it: orgwebalchemy",
-      "url": "https://jointhefreeworld.org/blog/articles/lisps/orgwebalchemy-benchmarking-profiling-and-org-support/",
-      "source_id": "lobsters",
-      "source_name": "Lobsters",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-23T14:04:10Z",
-      "fetched_at": "2026-10-23T15:01:31.875094Z",
-      "discussion_url": "https://lobste.rs/s/9gak0g/profiling_org_html_formal_grammar",
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 2
-    },
-    {
       "id": "01797bbf5bda9961c02ec9ff6ee2971d",
       "title": "The Many Many Missed Opportunities of Sonic 06",
       "url": "https://isaacmarovitz.com/posts/sonic-06/",
@@ -27401,13 +27365,14 @@
   "top_stories": [
     {
       "id": "dffa6111b0b1771a1dfec8613067d9bd",
-      "title": "Binance Discloses Record $6.3 Billion Crypto Theft Linked to DevOps Laptop",
-      "summary": "Cryptocurrency exchange Binance has disclosed that $6.3 billion worth of crypto funds were stolen in what is believed to be the largest cryptocurrency hack on record. Investigators have linked the security breach to a compromised DevOps employee's laptop.",
-      "why_it_matters": "This massive security incident highlights critical supply chain and endpoint security vulnerabilities in high-value financial infrastructure.",
+      "title": "Binance suffers record $6.3 billion crypto heist linked to compromised DevOps laptop",
+      "summary": "Cryptocurrency exchange Binance disclosed a security breach resulting in the theft of approximately $6.3 billion in digital assets. Binance linked the massive crypto theft to a compromised DevOps engineer's laptop.",
+      "why_it_matters": "This massive security incident highlights critical supply chain and workstation security risks for DevOps infrastructure managing high-value assets.",
       "item_ids": [
         "dffa6111b0b1771a1dfec8613067d9bd",
-        "417675d6e8e0d65786eb6551bba02d77",
+        "48fd4163dda936ad3fb9a816b0fa3497",
         "ccdff1f49f0883386a23e8db41c80183",
+        "417675d6e8e0d65786eb6551bba02d77",
         "d20c1c7a37f6c2e4b82cbd72c5fefeff",
         "7b92a46e1274a74b666927ce22941db4",
         "bd017d0e295436c618e04714566174be",
@@ -27419,8 +27384,131 @@
       ],
       "primary_url": null,
       "first_shown": "2026-10-29T23:00:27.287845Z",
-      "last_shown": "2026-10-30T14:01:26.544432Z"
+      "last_shown": "2026-10-30T15:01:25.063662Z"
     },
+    {
+      "id": "879452bb433294ed5fb7b053fd24b545",
+      "title": "Linux kernel TCP vulnerability tracked as CVE-2026-98432 affects major distros",
+      "summary": "A high-severity use-after-free vulnerability in the Linux kernel's TCP implementation, tracked as CVE-2026-98432, impacts major distributions including Ubuntu and Red Hat Enterprise Linux. The vulnerability carries a critical CVSS score.",
+      "why_it_matters": "System administrators and developers must immediately patch their Linux kernels to mitigate potential remote code execution or denial of service risks.",
+      "item_ids": [
+        "879452bb433294ed5fb7b053fd24b545",
+        "a6b14848ecf6167ec17d67802b88250d"
+      ],
+      "primary_url": "https://www.cve.org/CVERecord?id=CVE-2026-98432",
+      "first_shown": "2026-10-30T04:01:23.673910Z",
+      "last_shown": "2026-10-30T15:01:25.063662Z"
+    },
+    {
+      "id": "eef70c4cd6518f64690d4db02ce39544",
+      "title": "Malicious Claude Code extension on Cursor and Open VSX installs SSH backdoors",
+      "summary": "A malicious version of Anthropic's Claude Code extension was distributed through Cursor's extension marketplace and the Open VSX registry, exposing developers to persistent SSH backdoors.",
+      "why_it_matters": "This supply chain attack on popular AI developer tooling underscores the acute security risks of compromised IDE extension registries.",
+      "item_ids": [
+        "eef70c4cd6518f64690d4db02ce39544",
+        "48c3875fc77930f1245d5d4117219907",
+        "e3ba0e73a5be595605c1015af9613215"
+      ],
+      "primary_url": "https://opensourcemalware.com/blog/trojanized-claude-code-extension-plants-persistent-ssh-backdoor",
+      "first_shown": "2026-10-30T14:01:26.544432Z",
+      "last_shown": "2026-10-30T15:01:25.063662Z"
+    },
+    {
+      "id": "091f8c06d4c13b4fb45b6962f518bb29",
+      "title": "Waymo partners with Toyota to supply bZ4X electric vehicles for robotaxis",
+      "summary": "Waymo announced a strategic partnership with Toyota to use purpose-built Toyota bZ4X electric vehicles for upcoming robotaxi services in Tokyo and the UK. Testing is set to begin next year.",
+      "why_it_matters": "This partnership expands the autonomous vehicle fleet manufacturing supply chain using dedicated commercial electric platforms.",
+      "item_ids": [
+        "091f8c06d4c13b4fb45b6962f518bb29",
+        "fce48f3baba0c3956219f30a522ae9b0"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-30T15:01:25.063662Z",
+      "last_shown": "2026-10-30T15:01:25.063662Z"
+    },
+    {
+      "id": "87e31aaef6c0f5b8ef38031768818c8e",
+      "title": "General Motors agrees to $220 million settlement over selling driving data",
+      "summary": "General Motors reached a $220 million settlement resolving claims that it illegally sold driver and location data to insurance companies and data brokers. Under the settlement, GM must obtain express consent before collecting or sharing driving habits data.",
+      "why_it_matters": "This ruling establishes strict consent requirements for automakers monetizing telematics and user driving telemetry data.",
+      "item_ids": [
+        "87e31aaef6c0f5b8ef38031768818c8e",
+        "d9f7d9660eae94705e80b27ce36322d2",
+        "8c4625d05a31770b9bdf4caffd9357d9"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-29T21:01:55.771810Z",
+      "last_shown": "2026-10-30T15:01:25.063662Z"
+    },
+    {
+      "id": "728d9441cdeb76dfe79e8d88b4e4e0bd",
+      "title": "Thrive Holdings acquires ADT in $7.6 billion deal to integrate AI",
+      "summary": "Joshua Kushner-led Thrive Holdings is acquiring home security company ADT in an all-cash deal valued at $7.6 billion. The private transaction plans to bring artificial intelligence capabilities to the home security sector.",
+      "why_it_matters": "This acquisition signals increased private equity investment in integrating edge AI features into traditional consumer security hardware.",
+      "item_ids": [
+        "728d9441cdeb76dfe79e8d88b4e4e0bd",
+        "9e76916405844a7a253fa3cf901fe22d"
+      ],
+      "primary_url": "https://investor.adt.com/News--Events/news/news-details/2026/ADT-to-be-Acquired-by-Thrive-Holdings-in-15-3-Billion-Transaction/default.aspx",
+      "first_shown": "2026-10-29T18:01:54.325962Z",
+      "last_shown": "2026-10-30T15:01:25.063662Z"
+    },
+    {
+      "id": "dc0da6be6fc27434d401a36c94ac1de9",
+      "title": "Attackers chain PHP2Shell and Linux kernel flaws to compromise servers",
+      "summary": "Threat actors are actively exploiting custom PHP2Shell exploits chained with high-severity Linux kernel privilege escalation flaws to root multiple servers, including government-affiliated networks.",
+      "why_it_matters": "The active exploitation of chained server vulnerabilities demands immediate patching of web application entry points and underlying OS kernels.",
+      "item_ids": [
+        "dc0da6be6fc27434d401a36c94ac1de9",
+        "3c6640eb56221ad3beb473aaac0fd989",
+        "2d3092a449c46b095917805da100c51d"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-30T14:01:26.544432Z",
+      "last_shown": "2026-10-30T15:01:25.063662Z"
+    },
+    {
+      "id": "9a78aaedf4a40de39617ffd19de74c57",
+      "title": "Cisco patches actively exploited ASA and FTD firewall zero-day vulnerability",
+      "summary": "Cisco released security updates to address a denial-of-service zero-day vulnerability in Secure Firewall ASA and FTD software. CISA added the flaw to its Known Exploited Vulnerabilities list after observing active attacks.",
+      "why_it_matters": "Network administrators must apply patches immediately to prevent remote crash exploits affecting perimeter enterprise firewalls.",
+      "item_ids": [
+        "9a78aaedf4a40de39617ffd19de74c57",
+        "5246e5bcec06c2699d5e8f565a88ebc9",
+        "a800a3570aa1dd689c631611982a42a3"
+      ],
+      "primary_url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-tunnel-dos-s6mgkb75",
+      "first_shown": "2026-10-30T13:01:24.709080Z",
+      "last_shown": "2026-10-30T15:01:25.063662Z"
+    },
+    {
+      "id": "58c72ca415e26e01f7bd67e0f3ffd87b",
+      "title": "Drupal warns of critical Commerce Core authorization bypass flaw in active attacks",
+      "summary": "Drupal issued warnings about a highly critical authorization bypass vulnerability in its Commerce Core module that is actively being exploited in the wild.",
+      "why_it_matters": "Web administrators running Drupal e-commerce instances face immediate risk and must apply security patches to prevent unauthorized access.",
+      "item_ids": [
+        "58c72ca415e26e01f7bd67e0f3ffd87b",
+        "f20df8f26a8a587c6fa608f90f35f860"
+      ],
+      "primary_url": "https://www.drupal.org/sa-contrib-2026-254",
+      "first_shown": "2026-10-30T06:01:25.298585Z",
+      "last_shown": "2026-10-30T15:01:25.063662Z"
+    },
+    {
+      "id": "f578280222372d79a7066e479351906e",
+      "title": "Polymarket halts trading following third-party script breach and draining",
+      "summary": "Prediction market platform Polymarket temporarily suspended international trading after a compromised third-party service distributed cryptocurrency-draining JavaScript. The company stated trading has resumed and affected users will be compensated.",
+      "why_it_matters": "This security breach highlights the ongoing risks third-party JavaScript dependencies pose to web-based decentralized financial applications.",
+      "item_ids": [
+        "f578280222372d79a7066e479351906e",
+        "f33c657e2e1a3807f9bfad9048aa617a"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-29T22:01:51.918203Z",
+      "last_shown": "2026-10-30T15:01:25.063662Z"
+    }
+  ],
+  "past_top_stories": [
     {
       "id": "0fbe2d69258566167e865aad93b7a0e9",
       "title": "DoorDash to Acquire Instacart for $17 Billion",
@@ -27437,19 +27525,6 @@
       "last_shown": "2026-10-30T14:01:26.544432Z"
     },
     {
-      "id": "879452bb433294ed5fb7b053fd24b545",
-      "title": "Critical Linux Kernel TCP Use-After-Free Vulnerability Disclosed",
-      "summary": "A severe vulnerability tracked as CVE-2026-98432 has been found in the Linux kernel's TCP code, affecting distributions like Ubuntu and Red Hat. The flaw carries a CVSS severity score of 9.8 out of 10.",
-      "why_it_matters": "High-severity kernel network stack vulnerabilities expose nearly all enterprise Linux deployments to remote memory corruption risks.",
-      "item_ids": [
-        "879452bb433294ed5fb7b053fd24b545",
-        "a6b14848ecf6167ec17d67802b88250d"
-      ],
-      "primary_url": "https://ubuntu.com/security/CVE-2026-98432",
-      "first_shown": "2026-10-30T04:01:23.673910Z",
-      "last_shown": "2026-10-30T14:01:26.544432Z"
-    },
-    {
       "id": "fea1ce1fe72aac12ddbf625c8ee0f29e",
       "title": "Mistral Releases Open Weights for Trillion-Parameter Mistral Large 4 Model",
       "summary": "Mistral has released the open weights for its frontier model, Mistral Large 4, on Hugging Face. The release highlights competitive coding and cybersecurity capabilities compared to closed models.",
@@ -27460,72 +27535,6 @@
       ],
       "primary_url": null,
       "first_shown": "2026-10-28T21:01:26.643790Z",
-      "last_shown": "2026-10-30T14:01:26.544432Z"
-    },
-    {
-      "id": "e3ba0e73a5be595605c1015af9613215",
-      "title": "Official Anthropic Claude Code Extension Compromised with Persistent SSH Backdoor",
-      "summary": "The official Anthropic Claude Code extension on the Open VSX registry was compromised to install a persistent SSH backdoor on infected hosts. Cybersecurity researchers disclosed the supply chain attack affecting developer environments.",
-      "why_it_matters": "Compromised official developer extensions pose severe supply chain risks, allowing threat actors to execute remote code inside developer workstations.",
-      "item_ids": [
-        "e3ba0e73a5be595605c1015af9613215",
-        "48c3875fc77930f1245d5d4117219907",
-        "31048f112c515cc26d8515ffd37444ac"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-30T14:01:26.544432Z",
-      "last_shown": "2026-10-30T14:01:26.544432Z"
-    },
-    {
-      "id": "728d9441cdeb76dfe79e8d88b4e4e0bd",
-      "title": "Thrive Holdings Acquires ADT for $7.6 Billion to Integrate Smart Home AI",
-      "summary": "Joshua Kushner-led Thrive Holdings is acquiring home security company ADT in an all-cash deal valued at $7.6 billion. The acquisition aims to integrate artificial intelligence technologies into consumer home security systems.",
-      "why_it_matters": "This acquisition represents a major consolidation of smart home hardware and AI monitoring platforms.",
-      "item_ids": [
-        "728d9441cdeb76dfe79e8d88b4e4e0bd",
-        "9e76916405844a7a253fa3cf901fe22d"
-      ],
-      "primary_url": "https://investor.adt.com/News--Events/news/news-details/2026/ADT-to-be-Acquired-by-Thrive-Holdings-in-15-3-Billion-Transaction/default.aspx",
-      "first_shown": "2026-10-29T18:01:54.325962Z",
-      "last_shown": "2026-10-30T14:01:26.544432Z"
-    },
-    {
-      "id": "f20df8f26a8a587c6fa608f90f35f860",
-      "title": "Drupal Warns of Critical Commerce Core Authorization Bypass Flaw Being Exploited",
-      "summary": "Drupal has issued warnings that threat actors are actively exploiting a highly critical authorization bypass vulnerability in its Commerce Core component. Admins have been urged to apply security patches immediately.",
-      "why_it_matters": "Active exploitation of critical enterprise CMS vulnerabilities requires immediate patching to prevent unauthorized remote access.",
-      "item_ids": [
-        "f20df8f26a8a587c6fa608f90f35f860",
-        "58c72ca415e26e01f7bd67e0f3ffd87b"
-      ],
-      "primary_url": "https://www.drupal.org/sa-contrib-2026-254",
-      "first_shown": "2026-10-30T06:01:25.298585Z",
-      "last_shown": "2026-10-30T14:01:26.544432Z"
-    },
-    {
-      "id": "8c4625d05a31770b9bdf4caffd9357d9",
-      "title": "General Motors Reaches $220 Million Settlement Over Selling Driver Data",
-      "summary": "General Motors has agreed to pay $220 million to resolve claims that it illegally sold driver and location information to data brokers. Under the settlement, GM must obtain express consent prior to collecting or sharing driving data.",
-      "why_it_matters": "This regulatory settlement sets strict legal precedents for connected vehicle telemetry collection and user privacy consent.",
-      "item_ids": [
-        "8c4625d05a31770b9bdf4caffd9357d9",
-        "87e31aaef6c0f5b8ef38031768818c8e"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-29T21:01:55.771810Z",
-      "last_shown": "2026-10-30T14:01:26.544432Z"
-    },
-    {
-      "id": "dc0da6be6fc27434d401a36c94ac1de9",
-      "title": "Custom PHP2Shell Exploits Chained to Root 25 Servers Including Government Systems",
-      "summary": "Attacker campaigns using custom PHP2Shell exploits have successfully rooted 25 servers, including networks affiliated with the US government. CISA and security agencies have warned about active chaining of these flaws.",
-      "why_it_matters": "Widespread server compromise via web shell exploits highlights ongoing risks in legacy web application hardening.",
-      "item_ids": [
-        "dc0da6be6fc27434d401a36c94ac1de9",
-        "2d3092a449c46b095917805da100c51d"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-30T14:01:26.544432Z",
       "last_shown": "2026-10-30T14:01:26.544432Z"
     },
     {
@@ -27541,21 +27550,6 @@
       "primary_url": "https://investor.redditinc.com/news-events/news-releases/news-details/2026/Reddit-Reports-Third-Quarter-2026-Results/default.aspx",
       "first_shown": "2026-10-29T23:00:27.287845Z",
       "last_shown": "2026-10-30T14:01:26.544432Z"
-    }
-  ],
-  "past_top_stories": [
-    {
-      "id": "193fba4ea8217d855d605d872540384d",
-      "title": "CISA Adds Maximum-Severity GitLab Vulnerability to Known Exploited List",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency has added a maximum-severity GitLab vulnerability to its Known Exploited Vulnerabilities catalog after confirming active exploitation in the wild.",
-      "why_it_matters": "Active exploitation of a maximum-severity GitLab flaw requires immediate patching to prevent unauthorized remote code execution on enterprise code hosting servers.",
-      "item_ids": [
-        "193fba4ea8217d855d605d872540384d",
-        "5246e5bcec06c2699d5e8f565a88ebc9"
-      ],
-      "primary_url": "https://www.cisa.gov/news-events/alerts/2026/10/29/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "first_shown": "2026-10-30T13:01:24.709080Z",
-      "last_shown": "2026-10-30T13:41:04.114808Z"
     },
     {
       "id": "9af323792a103ea36f9b1e6c8e990714",
@@ -27599,19 +27593,6 @@
       "last_shown": "2026-10-30T13:01:24.709080Z"
     },
     {
-      "id": "f578280222372d79a7066e479351906e",
-      "title": "Polymarket halts trading after third-party breach distributes crypto-draining script",
-      "summary": "Prediction market platform Polymarket temporarily suspended trading after hackers compromised an unnamed third-party provider to distribute cryptocurrency-draining JavaScript. The company stated that trading has resumed and affected traders will be made whole.",
-      "why_it_matters": "Third-party supply chain compromises can instantly jeopardize user funds on high-frequency financial platforms, emphasizing strict external dependency auditing.",
-      "item_ids": [
-        "f578280222372d79a7066e479351906e",
-        "f33c657e2e1a3807f9bfad9048aa617a"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-29T22:01:51.918203Z",
-      "last_shown": "2026-10-30T12:01:27.609885Z"
-    },
-    {
       "id": "596a5120e26cd791687357845204ba14",
       "title": "Reports detail investigations into alleged Chinese spy with close ties to Nvidia CEO",
       "summary": "Reports indicate that a top executive of a Singapore AI cloud company accused of illegally selling Nvidia chips to China had a close relationship with Nvidia CEO Jensen Huang. Sources state the individual was suspected of acting as a Chinese spy and funneling secrets.",
@@ -27624,19 +27605,6 @@
       "primary_url": "https://www.nytimes.com/2026/10/29/us/politics/nvidia-china-jensen-huang-trump.html",
       "first_shown": "2026-10-29T23:00:27.287845Z",
       "last_shown": "2026-10-30T12:01:27.609885Z"
-    },
-    {
-      "id": "9a78aaedf4a40de39617ffd19de74c57",
-      "title": "Cisco Patches Actively Exploited ASA and FTD Zero-Day Flaw",
-      "summary": "Cisco released security updates to patch a high-severity denial-of-service and authentication-bypass zero-day vulnerability in Secure Firewall ASA and FTD software that attackers actively exploited in the wild.",
-      "why_it_matters": "Network administrators must immediately apply patches to prevent remote attackers from crashing corporate firewalls and VPN appliances.",
-      "item_ids": [
-        "9a78aaedf4a40de39617ffd19de74c57",
-        "a800a3570aa1dd689c631611982a42a3"
-      ],
-      "primary_url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-tunnel-dos-s6mgkb75",
-      "first_shown": "2026-10-30T06:01:25.298585Z",
-      "last_shown": "2026-10-30T11:01:26.697861Z"
     },
     {
       "id": "46440273174f78c2a5184b444eae2b4d",
