@@ -1,6 +1,78 @@
 {
-  "generated_at": "2026-10-31T19:01:24.981446Z",
+  "generated_at": "2026-10-31T20:01:22.527320Z",
   "items": [
+    {
+      "id": "1483390d28a6ea8a4bd202064136ff42",
+      "title": "Cloudflare’s Post-Quantum GeoKey Manager Enters Closed Beta Without Attribute-Based Encryption",
+      "url": "https://www.infoq.com/news/2026/10/cf-pq-geokey-manager/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source_id": "infoq",
+      "source_name": "InfoQ",
+      "category": "tech",
+      "summary": "Cloudflare has moved a post-quantum rebuild of GeoKey Manager into closed beta, guarding geo-fenced keys with hybrid ML-KEM-768 and X25519 instead of the attribute-based encryption used since 2022. Keys live only in kernel memory on verified regional servers, and any failed check rejects the request, a fail-closed choice practitioners ask could cause a regional outage. GA is planned for Q1 2027. By Steef-Jan Wiggers",
+      "published_at": "2026-10-31T19:56:00Z",
+      "fetched_at": "2026-10-31T20:01:22.527320Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "9efd70000e67462ec819ee8badb18ae5",
+      "title": "A game scripting language that runs speech-to-text 5x faster than llama.cpp on CPU",
+      "url": "https://dasllama.io/articles/2026-10-28-the-need-for-speed.html",
+      "source_id": "lobsters",
+      "source_name": "Lobsters",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-31T19:52:22Z",
+      "fetched_at": "2026-10-31T20:01:22.527320Z",
+      "discussion_url": "https://lobste.rs/s/zhyenw/game_scripting_language_runs_speech_text",
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "fbb1cf8501e143ff781f0d1a324bcd02",
+      "title": "Mystery of 60-Second Fluctuations in Power Grids Solved",
+      "url": "https://www.fz-juelich.de/en/news/archive/press-release/2026/mystery-of-60-second-fluctuations-in-power-grids-solved",
+      "source_id": "lobsters",
+      "source_name": "Lobsters",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-31T19:50:11Z",
+      "fetched_at": "2026-10-31T20:01:22.527320Z",
+      "discussion_url": "https://lobste.rs/s/qwou15/mystery_60_second_fluctuations_power",
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 2
+    },
+    {
+      "id": "68e79934a3f6c5d5102aeb627c5b8649",
+      "title": "Keyboards of The Verge",
+      "url": "https://www.theverge.com/gadgets/1017979/keyboards-of-the-verge-staff-picks",
+      "source_id": "the-verge",
+      "source_name": "The Verge",
+      "category": "tech",
+      "summary": "What is a keyboard if not the original brain-computer interface? You can tap on a touchscreen or talk to the computer, but if your work involves getting information out of your head and into the computer, you're probably spending a lot of time using a keyboard. We've written about many keyboards over the years, from […]",
+      "published_at": "2026-10-31T19:30:00Z",
+      "fetched_at": "2026-10-31T20:01:22.527320Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "pending",
+      "importance": null
+    },
     {
       "id": "4dd2ab7fa688cfd556ea9b75d2e0c37e",
       "title": "Binance CEO says 90 percent of stolen assets have been ‘replenished’",
@@ -125,7 +197,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 1
     },
     {
       "id": "95aaac6adb354b4aa5ae6ee58eea5111",
@@ -161,7 +233,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "9d589aeb3c83c62b242a9983e8c00030",
@@ -233,7 +305,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 1
+      "importance": 2
     },
     {
       "id": "0d2e7ddcdf8a6776a0f22a532c0297ba",
@@ -269,7 +341,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "e5e77a37d5b41cc58142ff799a105a73",
@@ -323,7 +395,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "056f96d30e4254b740b5e2ab11c11be0",
@@ -1673,7 +1745,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 1
+      "importance": 2
     },
     {
       "id": "6e8dd6f8239017e07700588f7052220a",
@@ -1997,7 +2069,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "20444642f5d711b8a1226369acaf9a49",
@@ -2123,7 +2195,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "5226755954e1c3cbce9a341bca210e2e",
@@ -2141,7 +2213,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "ffde722614df1516bda085e035b045fe",
@@ -2249,7 +2321,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "18ea57daed9dddc63c4dcf6e903bafbc",
@@ -2681,7 +2753,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "b119c6eeb05f2544f94bcea51d13f31d",
@@ -2771,7 +2843,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 1
     },
     {
       "id": "344e5cabf30f470a26e194c3102fafea",
@@ -2807,7 +2879,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "c95e4a61894fc24cee70f6781b8d64d2",
@@ -2843,7 +2915,7 @@
       "engineering": true,
       "blog": true,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "86befd427bd63abd9fbe57c0d4be11a2",
@@ -2879,7 +2951,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "988bd91f5dd53139b44399ef6d9841bf",
@@ -3221,7 +3293,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "73f21c7226074c603bc8ac7714b26ed1",
@@ -3383,7 +3455,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "252194a411bb7b32f93f6a4fb46f7ae4",
@@ -3401,7 +3473,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "d7d50a046ad6f84ab506d22d2f4f4387",
@@ -3815,7 +3887,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 1
+      "importance": 2
     },
     {
       "id": "719c50a73228e16ea0a55f006fbd0b25",
@@ -3941,7 +4013,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "fb68d0635c2e291f5ad1177388bb414a",
@@ -3959,7 +4031,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "c14e9fff84c1a1dc386edca69e7497d6",
@@ -3995,7 +4067,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "de2842284c12aec976e6013fd096c5c1",
@@ -4013,7 +4085,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "15da7607100ba0b60274250d66e72c0b",
@@ -4031,7 +4103,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "d9f7d9660eae94705e80b27ce36322d2",
@@ -4067,7 +4139,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "48fd4163dda936ad3fb9a816b0fa3497",
@@ -4265,7 +4337,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 1
+      "importance": 2
     },
     {
       "id": "20dbf889167656871b147b49a41be5c0",
@@ -4283,7 +4355,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "193fba4ea8217d855d605d872540384d",
@@ -4463,7 +4535,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "080661d80d835594264a8635e550b9a7",
@@ -4517,7 +4589,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "a1b9924296d8f03cfca16b40c36ac269",
@@ -4679,7 +4751,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "13efea149e77bdbcc2a8e4ac9725e41c",
@@ -4697,7 +4769,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "62deaf73d869952b290fdd04f20fb970",
@@ -4751,7 +4823,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "8f7b5da71cc5745b635f027a72569d08",
@@ -5237,7 +5309,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "e3ba0e73a5be595605c1015af9613215",
@@ -5255,7 +5327,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "7976a2736fee64c91cccd659abb5c910",
@@ -5273,7 +5345,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "879a789063fff67cd3bf1a2337e4b92b",
@@ -25814,114 +25886,6 @@
       "importance": 2
     },
     {
-      "id": "c89ec80395343725928a84e0f9b192d0",
-      "title": "No Signs of AI Payoff Outside the Tech Sector",
-      "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-24T19:47:19Z",
-      "fetched_at": "2026-10-24T20:01:25.434998Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50224463",
-      "points": 499,
-      "comments": 499,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 4
-    },
-    {
-      "id": "56ab4125655e1dd6aa40b0b421626a6b",
-      "title": "Listen and read USA nuclear forces Emergency Action Messages, heard on 11175 kHz",
-      "url": "https://missileer.watch",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-24T19:43:27Z",
-      "fetched_at": "2026-10-24T20:01:25.434998Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50224422",
-      "points": 164,
-      "comments": 107,
-      "engineering": false,
-      "blog": false,
-      "review": "excluded",
-      "importance": null
-    },
-    {
-      "id": "85e58fd636ddf1f0319ab7aa36aa90f0",
-      "title": "The Goose Programming Language",
-      "url": "https://aardappel.github.io/goose/",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-24T19:27:41Z",
-      "fetched_at": "2026-10-24T20:01:25.434998Z",
-      "discussion_url": "https://lobste.rs/s/dkoryq/goose_programming_language",
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "2c6853d0b174d7a909ee1f14905dc5a8",
-      "title": "SpeedCrunch 1.1",
-      "url": "https://www.speedcrunch.org/",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-24T19:19:43Z",
-      "fetched_at": "2026-10-24T21:01:28.477339Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50224210",
-      "points": 208,
-      "comments": 47,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "b05ff1f9b15631c09e94b4d07fbdff4e",
-      "title": "John Carmack on the Goose Language: multiple data stacks and relative references",
-      "url": "https://twitter.com/ID_AA_Carmack/status/2113704269274636568",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-24T19:06:55Z",
-      "fetched_at": "2026-10-24T20:01:25.434998Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50224100",
-      "points": 116,
-      "comments": 49,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "b495a836fa11813f68230d87fc24b34d",
-      "title": "PHP Foundation 'under-funded' with one full-time staff member, director says",
-      "url": "https://www.reuters.com/technology/php-foundation-under-funded-with-one-full-time-staff-member-director-says-2026-10-23/",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-24T19:03:59Z",
-      "fetched_at": "2026-10-24T20:01:25.434998Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50224074",
-      "points": 91,
-      "comments": 51,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
       "id": "821f3fb9b268481edfb7c995a91d5fc8",
       "title": "Bbtree: Fastest Ordered Map",
       "url": "https://bbtree.xiangpeng.systems/post/",
@@ -28282,46 +28246,71 @@
   ],
   "top_stories": [
     {
-      "id": "ccdff1f49f0883386a23e8db41c80183",
-      "title": "Hackers Steal $6.3 Billion from Binance in Record-Breaking Crypto Heist",
-      "summary": "Hackers stole $6.3 billion worth of crypto funds from Binance in what is believed to be the biggest cryptocurrency hack on record. Binance linked the heist to a DevOps engineer's compromised laptop and noted that 90 percent of the stolen assets have since been replenished.",
-      "why_it_matters": "This massive security incident highlights critical supply chain and internal access vulnerabilities in major crypto infrastructure.",
+      "id": "48fd4163dda936ad3fb9a816b0fa3497",
+      "title": "Binance Suffers Record $6.3 Billion Crypto Heist Linked to North Korea",
+      "summary": "Hackers stole a record-breaking $6.3 billion from Binance customers after compromising a DevOps engineer's laptop. Blockchain intelligence firms and exchange disclosures point to North Korean threat actors, while Binance reports that 90 percent of the stolen funds have since been replenished.",
+      "why_it_matters": "This massive breach highlights severe vulnerabilities in enterprise credential management and DevOps security for cryptocurrency exchanges.",
       "item_ids": [
-        "ccdff1f49f0883386a23e8db41c80183",
+        "48fd4163dda936ad3fb9a816b0fa3497",
         "417675d6e8e0d65786eb6551bba02d77",
         "d20c1c7a37f6c2e4b82cbd72c5fefeff",
-        "d7d50a046ad6f84ab506d22d2f4f4387",
+        "ccdff1f49f0883386a23e8db41c80183",
         "7b92a46e1274a74b666927ce22941db4",
-        "bd017d0e295436c618e04714566174be",
+        "d7d50a046ad6f84ab506d22d2f4f4387",
         "4dd2ab7fa688cfd556ea9b75d2e0c37e"
       ],
       "primary_url": "https://www.trmlabs.com/resources/blog/north-korea-steals-usd-6-36-billion-from-binance-in-the-largest-hack-in-history",
       "first_shown": "2026-10-29T23:00:27.287845Z",
-      "last_shown": "2026-10-31T19:01:24.981446Z"
+      "last_shown": "2026-10-31T20:01:22.527320Z"
     },
     {
-      "id": "31048f112c515cc26d8515ffd37444ac",
-      "title": "Official Anthropic Claude Code Extension Compromised on Cursor Marketplace",
-      "summary": "A malicious version of Anthropic's Claude Code extension was distributed through Cursor's extension marketplace for approximately 11 hours, exposing up to 5,000 developers. The supply chain attack installed a persistent SSH backdoor on infected hosts before being mitigated.",
-      "why_it_matters": "Compromised developer tools and extensions represent a severe supply chain risk that can directly inject backdoors into engineers' local environments.",
+      "id": "e3ba0e73a5be595605c1015af9613215",
+      "title": "Anthropic Claude Code Extension on Cursor Compromised with Backdoor",
+      "summary": "A malicious version of Anthropic's official Claude Code extension was distributed through Cursor's extension marketplace, exposing up to 5,000 developers to persistent SSH backdoors. Security flaws in the supply chain allowed attackers to compromise verified developer extension accounts.",
+      "why_it_matters": "Compromised developer IDE extensions present an immediate supply-chain risk for executing arbitrary code and harvesting access keys on local machines.",
       "item_ids": [
-        "31048f112c515cc26d8515ffd37444ac",
         "e3ba0e73a5be595605c1015af9613215",
-        "eef70c4cd6518f64690d4db02ce39544",
         "37d4e0cd799df6408da13b7177da77e3",
+        "eef70c4cd6518f64690d4db02ce39544",
         "21bbcb364781ae83898106584704468a",
-        "ddd4e2187ef132bb2ed187951ac1e062",
-        "48c3875fc77930f1245d5d4117219907"
+        "ddd4e2187ef132bb2ed187951ac1e062"
+      ],
+      "primary_url": "https://cursor.com/blog/claude-code-extension-security-notice",
+      "first_shown": "2026-10-30T14:01:26.544432Z",
+      "last_shown": "2026-10-31T20:01:22.527320Z"
+    },
+    {
+      "id": "9e4c149d34aa3a48dd5fb43467bba12d",
+      "title": "Archive of Our Own (AO3) Takes Site Down Following Security Incident",
+      "summary": "The Archive of Our Own fanfiction platform suffered a security incident that forced administrators to take the site offline. The volunteer-run platform, which serves over 11 million users, remains down as recovery efforts continue.",
+      "why_it_matters": "Service outages at major community platforms highlight risks to non-profit infrastructure and data storage security.",
+      "item_ids": [
+        "9e4c149d34aa3a48dd5fb43467bba12d",
+        "ab59995cacbb125b8701c445782186b1",
+        "15da7607100ba0b60274250d66e72c0b"
       ],
       "primary_url": null,
-      "first_shown": "2026-10-30T14:01:26.544432Z",
-      "last_shown": "2026-10-31T19:01:24.981446Z"
+      "first_shown": "2026-10-31T16:01:22.926189Z",
+      "last_shown": "2026-10-31T20:01:22.527320Z"
+    },
+    {
+      "id": "065d6fd5d0631ffc27d73b8c2b655996",
+      "title": "Chainalysis Discloses Data Breach Involving Offensive Agentic Techniques",
+      "summary": "Blockchain analytics firm Chainalysis disclosed a cybersecurity incident where external attackers used offensive agentic techniques to access internal systems. The breach exposed non-sensitive customer data, including names, email addresses, and user identifiers.",
+      "why_it_matters": "The use of autonomous agentic attacks against internal security tools signals an evolving threat vector for enterprise data platforms.",
+      "item_ids": [
+        "065d6fd5d0631ffc27d73b8c2b655996",
+        "8a3f9c49ba0fb369d84b8b932507b81f"
+      ],
+      "primary_url": "https://www.chainalysis.com/blog/security-incident-october-30",
+      "first_shown": "2026-10-31T13:01:33.654119Z",
+      "last_shown": "2026-10-31T20:01:22.527320Z"
     },
     {
       "id": "b119c6eeb05f2544f94bcea51d13f31d",
-      "title": "Google's TPU-Equipped Satellite Transmits First Response to Earth",
-      "summary": "Google successfully booted up the Tensor Processing Units on its experimental orbital datacenter satellite. The spacecraft generated its first response from space, running a DeepMind Gemma model to write poetry.",
-      "why_it_matters": "Demonstrating edge AI inference and tensor processing in orbital environments opens up new possibilities for distributed satellite infrastructure.",
+      "title": "Google TPU Satellite Prototype Successfully Boots and Generates Text in Space",
+      "summary": "Google's experimental orbital datacenter prototype has successfully booted its Tensor Processing Units in space. The satellite executed a Gemma AI model to generate text responses and poetry from orbit.",
+      "why_it_matters": "Demonstrating edge AI inference and TPU workloads in space opens new architectural possibilities for orbital datacenters.",
       "item_ids": [
         "b119c6eeb05f2544f94bcea51d13f31d",
         "e7cbf78c304a365b5eecc80bcd6127ea",
@@ -28329,7 +28318,20 @@
       ],
       "primary_url": null,
       "first_shown": "2026-10-30T19:03:26.384502Z",
-      "last_shown": "2026-10-31T19:01:24.981446Z"
+      "last_shown": "2026-10-31T20:01:22.527320Z"
+    },
+    {
+      "id": "024ccae8ac54a5d5fad5bc3fc5447923",
+      "title": "Northflank Discloses Security Breach Leading to AI API Key Exposure",
+      "summary": "Cloud hosting platform Northflank suffered a security breach that compromised customer credentials stored on its platform. The incident resulted in the unauthorized abuse of customers' AI API keys, prompting urgent warnings to rotate secrets.",
+      "why_it_matters": "Compromised hosting platforms expose downstream secrets and third-party AI keys, forcing widespread credential rotation.",
+      "item_ids": [
+        "024ccae8ac54a5d5fad5bc3fc5447923",
+        "e3805bbe0cc3eb6f0f60b963b7952010"
+      ],
+      "primary_url": "https://www.wiz.io/blog/black-october-for-ai-developer-platforms",
+      "first_shown": "2026-10-31T18:01:24.140946Z",
+      "last_shown": "2026-10-31T20:01:22.527320Z"
     },
     {
       "id": "4877b7ec4c095a35debe80f8a01151c1",
@@ -28343,8 +28345,48 @@
       ],
       "primary_url": null,
       "first_shown": "2026-10-31T19:01:24.981446Z",
-      "last_shown": "2026-10-31T19:01:24.981446Z"
+      "last_shown": "2026-10-31T20:01:22.527320Z"
     },
+    {
+      "id": "6e8dd6f8239017e07700588f7052220a",
+      "title": "NASA Explores Options for Servicing or Deorbiting Hubble Space Telescope",
+      "summary": "NASA solicited ideas for reboosting the Hubble Space Telescope and weighed options between a servicing mission or a controlled deorbit. The agency's reentry countdown continues as it evaluates proposals for the veteran telescope.",
+      "why_it_matters": null,
+      "item_ids": [
+        "6e8dd6f8239017e07700588f7052220a",
+        "dddae056666779b02eb1845a9f34f5d4"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-31T19:01:24.981446Z",
+      "last_shown": "2026-10-31T20:01:22.527320Z"
+    },
+    {
+      "id": "a9e2dda1166cf5c698b6e0423449f5e2",
+      "title": "OpenAI reportedly falls short of funding targets for latest round",
+      "summary": "OpenAI's latest funding round is failing to meet expectations, with reports indicating the company raised significantly less than its multi-billion-dollar targets. The adjustment reflects changing investor sentiment around massive AI capital requirements.",
+      "why_it_matters": "Shifts in AI funding rounds and capital availability signal broader valuation adjustments across the artificial intelligence sector.",
+      "item_ids": [
+        "a9e2dda1166cf5c698b6e0423449f5e2",
+        "53d4c9d19e1784453d96f08f0c09ca50"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-31T17:01:25.323194Z",
+      "last_shown": "2026-10-31T20:01:22.527320Z"
+    },
+    {
+      "id": "51bdc2b9199a30997784142d5a142b34",
+      "title": "Critical Linux kernel flaw allows remote root attacks on MPTCP servers",
+      "summary": "Security researchers at Anthropic have developed an exploit for a critical Linux kernel vulnerability that allows unauthenticated attackers to remotely execute commands as root on servers running Multipath TCP (MPTCP) listeners. [...]",
+      "why_it_matters": "Critical kernel remote code execution vulnerabilities require immediate patching to prevent unauthenticated root exploitation.",
+      "item_ids": [
+        "51bdc2b9199a30997784142d5a142b34"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-30T04:01:23.673910Z",
+      "last_shown": "2026-10-31T20:01:22.527320Z"
+    }
+  ],
+  "past_top_stories": [
     {
       "id": "cf9827198cd4046b14ebdf7539674115",
       "title": "Shared ChatGPT Link Vulnerability Allowed Code Execution and Chat Access",
@@ -28359,57 +28401,6 @@
       "last_shown": "2026-10-31T19:01:24.981446Z"
     },
     {
-      "id": "065d6fd5d0631ffc27d73b8c2b655996",
-      "title": "Chainalysis Discloses Data Breach Involving Offensive Agentic Techniques",
-      "summary": "Blockchain analytics firm Chainalysis disclosed a data breach after attackers utilized offensive agentic techniques to access internal tools and systems. The security incident exposed customer names, email addresses, and user ID data.",
-      "why_it_matters": "The use of automated agentic techniques by attackers highlights evolving threat models targeting internal corporate analytics infrastructure.",
-      "item_ids": [
-        "065d6fd5d0631ffc27d73b8c2b655996",
-        "8a3f9c49ba0fb369d84b8b932507b81f"
-      ],
-      "primary_url": "https://www.chainalysis.com/blog/security-incident-october-30",
-      "first_shown": "2026-10-31T13:01:33.654119Z",
-      "last_shown": "2026-10-31T19:01:24.981446Z"
-    },
-    {
-      "id": "6e8dd6f8239017e07700588f7052220a",
-      "title": "NASA Explores Options for Servicing or Deorbiting Hubble Space Telescope",
-      "summary": "NASA solicited ideas for reboosting the Hubble Space Telescope and weighed options between a servicing mission or a controlled deorbit. The agency's reentry countdown continues as it evaluates proposals for the veteran telescope.",
-      "why_it_matters": null,
-      "item_ids": [
-        "6e8dd6f8239017e07700588f7052220a",
-        "dddae056666779b02eb1845a9f34f5d4"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-31T19:01:24.981446Z",
-      "last_shown": "2026-10-31T19:01:24.981446Z"
-    },
-    {
-      "id": "a9e2dda1166cf5c698b6e0423449f5e2",
-      "title": "OpenAI reportedly falls short of funding targets for latest round",
-      "summary": "OpenAI's latest funding round is failing to meet expectations, with reports indicating the company raised significantly less than its multi-billion-dollar targets. The adjustment reflects changing investor sentiment around massive AI capital requirements.",
-      "why_it_matters": "Shifts in AI funding rounds and capital availability signal broader valuation adjustments across the artificial intelligence sector.",
-      "item_ids": [
-        "a9e2dda1166cf5c698b6e0423449f5e2",
-        "53d4c9d19e1784453d96f08f0c09ca50"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-31T17:01:25.323194Z",
-      "last_shown": "2026-10-31T19:01:24.981446Z"
-    },
-    {
-      "id": "e3805bbe0cc3eb6f0f60b963b7952010",
-      "title": "Northflank security breach leads to abuse of customers' AI API keys",
-      "summary": "Cloud application hosting platform Northflank is warning customers to rotate all credentials and secrets stored on its platform after a security breach led to unauthorized use of customers' AI API keys. [...]",
-      "why_it_matters": "A cloud platform security breach leading to unauthorized use of customer AI API keys underscores the critical importance of secure credential management.",
-      "item_ids": [
-        "e3805bbe0cc3eb6f0f60b963b7952010"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-31T18:01:24.140946Z",
-      "last_shown": "2026-10-31T19:01:24.981446Z"
-    },
-    {
       "id": "2457c85808b294a1b2df2d24b6cd3261",
       "title": "Reddit to lock content behind logins to fight scrapers",
       "summary": "Reddit announced in a post by co-founder Steve Huffman that the site will gradually become a \"logged-in service,\" offering limited access to visitors without accounts. [...]",
@@ -28420,20 +28411,6 @@
       "primary_url": null,
       "first_shown": "2026-10-31T15:01:25.288814Z",
       "last_shown": "2026-10-31T19:01:24.981446Z"
-    }
-  ],
-  "past_top_stories": [
-    {
-      "id": "51bdc2b9199a30997784142d5a142b34",
-      "title": "Critical Linux kernel flaw allows remote root attacks on MPTCP servers",
-      "summary": "Security researchers at Anthropic have developed an exploit for a critical Linux kernel vulnerability that allows unauthenticated attackers to remotely execute commands as root on servers running Multipath TCP (MPTCP) listeners. [...]",
-      "why_it_matters": "Anthropic security researchers disclosed a critical Linux kernel flaw allowing remote root execution on MPTCP servers.",
-      "item_ids": [
-        "51bdc2b9199a30997784142d5a142b34"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-30T04:01:23.673910Z",
-      "last_shown": "2026-10-31T18:01:24.140946Z"
     },
     {
       "id": "2c1ffc90ca5ca707aebe507ff90abd4b",
@@ -28457,18 +28434,6 @@
       ],
       "primary_url": null,
       "first_shown": "2026-10-31T18:01:24.140946Z",
-      "last_shown": "2026-10-31T18:01:24.140946Z"
-    },
-    {
-      "id": "ab59995cacbb125b8701c445782186b1",
-      "title": "Molly(Signal fork) has not been updated since 3 months and is vulnerable",
-      "summary": null,
-      "why_it_matters": "A popular Signal fork, Molly, went unmaintained for months, leaving users exposed to unpatched security vulnerabilities.",
-      "item_ids": [
-        "ab59995cacbb125b8701c445782186b1"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-31T16:01:22.926189Z",
       "last_shown": "2026-10-31T18:01:24.140946Z"
     },
     {
