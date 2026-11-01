@@ -1,6 +1,24 @@
 {
-  "generated_at": "2026-11-01T04:01:26.829401Z",
+  "generated_at": "2026-11-01T05:01:24.835135Z",
   "items": [
+    {
+      "id": "d13f9bba28318a164c9702b46c947ed0",
+      "title": "A brief history of just-in-time (2003)",
+      "url": "https://dl.acm.org/doi/10.1145/857076.857077",
+      "source_id": "lobsters",
+      "source_name": "Lobsters",
+      "category": "tech",
+      "summary": "PDF Software systems have been using \"just-in-time\" compilation (JIT) techniques since the 1960s. Broadly, JIT compilation includes any translation performed dynamically, after a program has started execution. We examine the motivation behind JIT compilation and constraints imposed on JIT compilation systems, and present a classification scheme for such systems. This classification emerges as we survey forty years of JIT work, from 1960--2000. Comments",
+      "published_at": "2026-11-01T04:46:09Z",
+      "fetched_at": "2026-11-01T05:01:24.835135Z",
+      "discussion_url": "https://lobste.rs/s/h6dt6e/brief_history_just_time_2003",
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": true,
+      "review": "kept",
+      "importance": 2
+    },
     {
       "id": "26a1c04951aa16059cea39bf0268f2dd",
       "title": "Introducing Kwi, a new KDE terminal emulator",
@@ -34,8 +52,8 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 2
     },
     {
       "id": "e4b01e5dfe07d214ea4b87a6d81b7fc5",
@@ -48,8 +66,8 @@
       "published_at": "2026-11-01T02:19:53Z",
       "fetched_at": "2026-11-01T04:01:26.829401Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50322173",
-      "points": 14,
-      "comments": 5,
+      "points": 32,
+      "comments": 15,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -71,7 +89,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "84cf9329714eea168e1f2ad3db7bd938",
@@ -84,10 +102,10 @@
       "published_at": "2026-11-01T01:46:29Z",
       "fetched_at": "2026-11-01T04:01:26.829401Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50322022",
-      "points": 7,
-      "comments": 0,
+      "points": 23,
+      "comments": 10,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -102,7 +120,7 @@
       "published_at": "2026-11-01T00:10:30Z",
       "fetched_at": "2026-11-01T03:01:25.663589Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50321522",
-      "points": 12,
+      "points": 14,
       "comments": 5,
       "engineering": false,
       "blog": true,
@@ -120,7 +138,7 @@
       "published_at": "2026-10-31T23:55:21Z",
       "fetched_at": "2026-11-01T02:01:28.643325Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50321436",
-      "points": 12,
+      "points": 14,
       "comments": 1,
       "engineering": false,
       "blog": true,
@@ -156,8 +174,8 @@
       "published_at": "2026-10-31T23:08:12Z",
       "fetched_at": "2026-11-01T00:01:26.402950Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50321130",
-      "points": 48,
-      "comments": 28,
+      "points": 52,
+      "comments": 33,
       "engineering": false,
       "blog": false,
       "review": "excluded",
@@ -174,10 +192,10 @@
       "published_at": "2026-10-31T22:54:55Z",
       "fetched_at": "2026-11-01T01:01:25.104054Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50321048",
-      "points": 70,
+      "points": 74,
       "comments": 4,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 2
     },
@@ -192,8 +210,8 @@
       "published_at": "2026-10-31T22:46:12Z",
       "fetched_at": "2026-11-01T00:01:26.402950Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50320995",
-      "points": 121,
-      "comments": 65,
+      "points": 140,
+      "comments": 75,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -210,8 +228,8 @@
       "published_at": "2026-10-31T22:41:06Z",
       "fetched_at": "2026-11-01T00:01:26.402950Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50320963",
-      "points": 226,
-      "comments": 65,
+      "points": 247,
+      "comments": 71,
       "engineering": false,
       "blog": false,
       "review": "excluded",
@@ -282,10 +300,28 @@
       "published_at": "2026-10-31T21:50:13Z",
       "fetched_at": "2026-11-01T01:01:25.104054Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50320599",
-      "points": 34,
+      "points": 37,
       "comments": 6,
       "engineering": false,
-      "blog": true,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "e705a4465849e1b608d0a5aab1f5dc06",
+      "title": "ChatGPT and Codex usage limits merging",
+      "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-31T21:49:07Z",
+      "fetched_at": "2026-11-01T05:01:24.835135Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50320588",
+      "points": 35,
+      "comments": 11,
+      "engineering": false,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -393,7 +429,7 @@
       "points": 22,
       "comments": 1,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 2
     },
@@ -444,8 +480,8 @@
       "published_at": "2026-10-31T20:02:06Z",
       "fetched_at": "2026-10-31T21:55:03.324759Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50319563",
-      "points": 74,
-      "comments": 23,
+      "points": 82,
+      "comments": 26,
       "engineering": false,
       "blog": false,
       "review": "excluded",
@@ -462,12 +498,12 @@
       "published_at": "2026-10-31T19:56:53Z",
       "fetched_at": "2026-10-31T21:55:03.324759Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50319510",
-      "points": 881,
-      "comments": 278,
+      "points": 935,
+      "comments": 291,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "1483390d28a6ea8a4bd202064136ff42",
@@ -485,7 +521,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "9efd70000e67462ec819ee8badb18ae5",
@@ -501,7 +537,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -534,8 +570,8 @@
       "published_at": "2026-10-31T19:39:19Z",
       "fetched_at": "2026-10-31T21:55:03.324759Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50319358",
-      "points": 248,
-      "comments": 132,
+      "points": 269,
+      "comments": 144,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -570,8 +606,8 @@
       "published_at": "2026-10-31T19:18:48Z",
       "fetched_at": "2026-10-31T21:55:03.324759Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50319169",
-      "points": 69,
-      "comments": 39,
+      "points": 73,
+      "comments": 44,
       "engineering": false,
       "blog": false,
       "review": "excluded",
@@ -588,8 +624,8 @@
       "published_at": "2026-10-31T19:16:30Z",
       "fetched_at": "2026-10-31T21:55:03.324759Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50319143",
-      "points": 390,
-      "comments": 182,
+      "points": 408,
+      "comments": 189,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -606,10 +642,10 @@
       "published_at": "2026-10-31T19:13:34Z",
       "fetched_at": "2026-11-01T02:01:28.643325Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50319110",
-      "points": 48,
-      "comments": 7,
+      "points": 60,
+      "comments": 11,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 2
     },
@@ -647,7 +683,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "4dd2ab7fa688cfd556ea9b75d2e0c37e",
@@ -678,10 +714,10 @@
       "published_at": "2026-10-31T18:38:16Z",
       "fetched_at": "2026-10-31T21:55:03.324759Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50318720",
-      "points": 153,
+      "points": 164,
       "comments": 43,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -699,7 +735,7 @@
       "points": 44,
       "comments": 30,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 2
     },
@@ -717,7 +753,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 2
     },
@@ -899,7 +935,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 1
     },
     {
       "id": "0d2e7ddcdf8a6776a0f22a532c0297ba",
@@ -953,7 +989,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "f02a3d11dee0f5ab3f1e5adada2eb255",
@@ -989,7 +1025,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "056f96d30e4254b740b5e2ab11c11be0",
@@ -1185,7 +1221,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 2
     },
@@ -1203,9 +1239,9 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 1
     },
     {
       "id": "caa5fccb89152b860435211bfce249b4",
@@ -1277,7 +1313,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "7f4d22f3bb304e66bbae471337c1e9a4",
@@ -1437,7 +1473,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 2
     },
@@ -1475,7 +1511,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "e37890ec88ada68f734f1ed31eb395b2",
@@ -1506,8 +1542,8 @@
       "published_at": "2026-10-31T12:58:29Z",
       "fetched_at": "2026-10-31T21:55:03.324759Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50315782",
-      "points": 61,
-      "comments": 1,
+      "points": 66,
+      "comments": 3,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -1691,7 +1727,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "06f474c4f7fd92ec232818dab22f13a3",
@@ -1763,7 +1799,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "4d397de3754fdc09d3134984f28a9458",
@@ -1923,7 +1959,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 2
     },
@@ -2069,7 +2105,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 1
     },
     {
       "id": "6c360090011ba79dbeda4ab126f73505",
@@ -2195,7 +2231,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 1
+      "importance": 2
     },
     {
       "id": "0ab8fba09e2d39c70fc356b313988629",
@@ -2285,7 +2321,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "e90f0377b69a25778ca3221fa62ba099",
@@ -2321,7 +2357,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "e2d21565310f1a0eb274465c33cdafae",
@@ -2357,7 +2393,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "d8dd95fb7ef6d61e2dff008df357167e",
@@ -2499,7 +2535,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 2
     },
@@ -2607,7 +2643,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -2663,7 +2699,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "2d7ad302032a1e70efcf2d00ea41abea",
@@ -2715,7 +2751,7 @@
       "points": 139,
       "comments": 31,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -2841,7 +2877,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 2
     },
@@ -3021,7 +3057,7 @@
       "points": 11,
       "comments": 0,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -3129,7 +3165,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 2
     },
@@ -3309,7 +3345,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 2
     },
@@ -3471,9 +3507,9 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 1
     },
     {
       "id": "344e5cabf30f470a26e194c3102fafea",
@@ -3489,7 +3525,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 2
     },
@@ -3635,7 +3671,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "d375569d884eddedb37fe645635e76ec",
@@ -3689,7 +3725,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "1316c19c03e2641d9c0936855384cc28",
@@ -26066,24 +26102,6 @@
       "importance": 2
     },
     {
-      "id": "1a47fe5b174af50279be403f6ba47e11",
-      "title": "Nim vs Rust: Language is a Matter of 'Coherence', Not 'Performance'",
-      "url": "https://wintrover.github.io/#/post/nim-vs-rust-language-is-a-matter-of-coherence-not-performance",
-      "source_id": "lobsters",
-      "source_name": "Lobsters",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-25T05:00:38Z",
-      "fetched_at": "2026-10-25T05:23:08.450040Z",
-      "discussion_url": "https://lobste.rs/s/y26mhi/nim_vs_rust_language_is_matter_coherence",
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 2
-    },
-    {
       "id": "70406f647dd07cd5959af1ffee236d4b",
       "title": "Show HN: ADRs for AI – Deliberation records for human–AI work, versioned in Git",
       "url": "https://adrs.systems",
@@ -28535,57 +28553,58 @@
   "top_stories": [
     {
       "id": "cf9827198cd4046b14ebdf7539674115",
-      "title": "ChatGPT Accounts Compromised via Artifacts Exploit and Shared Links",
-      "summary": "Researchers discovered an exploit involving ChatGPT's artifacts pattern that allowed attackers to take over accounts and execute arbitrary code. A malicious shared link could also run attacker code in a user's logged-in session to read private chats.",
-      "why_it_matters": "This is a critical security vulnerability affecting LLM user sessions and platform trust, requiring immediate user awareness.",
+      "title": "Vulnerability in ChatGPT share links allows attackers to run code and read chats",
+      "summary": "Security researchers uncovered an exploit against ChatGPT's artifacts pattern where a shared link can run attacker code in a logged-in user's session. The flaw allows unauthorized actors to read private conversations and access user accounts.",
+      "why_it_matters": "Highlights serious security flaws in AI web application architectures and prompt patterns that engineers must defend against.",
       "item_ids": [
         "cf9827198cd4046b14ebdf7539674115",
-        "0c564788cac6ac55b1310472e8353688",
-        "0ab8fba09e2d39c70fc356b313988629"
+        "0ab8fba09e2d39c70fc356b313988629",
+        "0c564788cac6ac55b1310472e8353688"
       ],
       "primary_url": null,
       "first_shown": "2026-11-01T00:01:26.402950Z",
-      "last_shown": "2026-11-01T04:01:26.829401Z"
+      "last_shown": "2026-11-01T05:01:24.835135Z"
+    },
+    {
+      "id": "21bbcb364781ae83898106584704468a",
+      "title": "Supply chain attack targets Anthropic Claude extensions on developer devices",
+      "summary": "Attackers injected malicious code into Anthropic's Claude extensions distributed via platforms like Cursor, compromising thousands of developer machines. Security researchers and hosting platforms like Northflank warned users to rotate compromised credentials and AI API keys.",
+      "why_it_matters": "Directly impacts developer environments and underscores supply chain risks in third-party AI coding tool extensions.",
+      "item_ids": [
+        "21bbcb364781ae83898106584704468a",
+        "37d4e0cd799df6408da13b7177da77e3",
+        "e3805bbe0cc3eb6f0f60b963b7952010"
+      ],
+      "primary_url": "https://cursor.com/blog/claude-code-extension-security-notice",
+      "first_shown": "2026-10-31T19:01:24.981446Z",
+      "last_shown": "2026-11-01T05:01:24.835135Z"
     },
     {
       "id": "b119c6eeb05f2544f94bcea51d13f31d",
-      "title": "Google's TPU-Equipped Satellite Transmits First Response from Space",
-      "summary": "Google successfully booted up the Tensor Processing Units on an experimental orbital datacenter satellite, which transmitted its first response and wrote poetry from space. The experimental orbital prototype puts its TPU to work running a Google DeepMind Gemma model.",
-      "why_it_matters": "This represents a novel architectural milestone in pushing AI inference and edge data processing into orbital infrastructure.",
+      "title": "Google and Satlyt test AI data center workloads on orbit satellites",
+      "summary": "Google successfully booted up Tensor Processing Units on an experimental orbital satellite to transmit responses back to Earth. Concurrently, companies like Satlyt are running tests to turn spacecraft into virtual data centers.",
+      "why_it_matters": "Explores novel edge infrastructure paradigms and space-based computing capabilities for distributed AI workloads.",
       "item_ids": [
         "b119c6eeb05f2544f94bcea51d13f31d",
         "e7cbf78c304a365b5eecc80bcd6127ea",
-        "6a2b1e66199bdae06b28d207caa569e3"
+        "fe8591d46794c782bd0b9bfe2afb4e14"
       ],
       "primary_url": null,
       "first_shown": "2026-10-30T19:03:26.384502Z",
-      "last_shown": "2026-11-01T04:01:26.829401Z"
+      "last_shown": "2026-11-01T05:01:24.835135Z"
     },
     {
-      "id": "065d6fd5d0631ffc27d73b8c2b655996",
-      "title": "Chainalysis Discloses Data Breach Involving Offensive Agentic Techniques",
-      "summary": "Blockchain analytics firm Chainalysis confirmed a security incident after external actors used offensive agentic techniques to access internal systems and tools. The breach exposed non-sensitive customer data, email addresses, and user IDs.",
-      "why_it_matters": "It highlights an emerging threat vector where automated agentic tools are leveraged by attackers to breach enterprise analytics platforms.",
+      "id": "8a3f9c49ba0fb369d84b8b932507b81f",
+      "title": "Chainalysis discloses security breach involving offensive agentic techniques",
+      "summary": "Blockchain analytics firm Chainalysis confirmed an intrusion into its internal systems and tools. Attackers utilized offensive agentic techniques to access non-sensitive customer identity data.",
+      "why_it_matters": "Demonstrates the emerging use of autonomous agentic tools by malicious actors to breach enterprise internal security perimeters.",
       "item_ids": [
-        "065d6fd5d0631ffc27d73b8c2b655996",
-        "8a3f9c49ba0fb369d84b8b932507b81f"
+        "8a3f9c49ba0fb369d84b8b932507b81f",
+        "065d6fd5d0631ffc27d73b8c2b655996"
       ],
       "primary_url": "https://www.chainalysis.com/blog/security-incident-october-30",
       "first_shown": "2026-10-31T13:01:33.654119Z",
-      "last_shown": "2026-11-01T04:01:26.829401Z"
-    },
-    {
-      "id": "a9e2dda1166cf5c698b6e0423449f5e2",
-      "title": "OpenAI Lowers Funding Target for New Round",
-      "summary": "OpenAI's latest funding round is failing to live up to expectations after the company raised less than half of its initial 30 billion dollar target. The scaling back highlights growing investor caution regarding AI infrastructure spending.",
-      "why_it_matters": "Shifts in funding targets signal changing venture capital appetites for foundational AI model developers.",
-      "item_ids": [
-        "a9e2dda1166cf5c698b6e0423449f5e2",
-        "53d4c9d19e1784453d96f08f0c09ca50"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-31T19:01:24.981446Z",
-      "last_shown": "2026-11-01T04:01:26.829401Z"
+      "last_shown": "2026-11-01T05:01:24.835135Z"
     },
     {
       "id": "4877b7ec4c095a35debe80f8a01151c1",
@@ -28599,30 +28618,81 @@
       ],
       "primary_url": null,
       "first_shown": "2026-11-01T02:01:28.643325Z",
-      "last_shown": "2026-11-01T04:01:26.829401Z"
+      "last_shown": "2026-11-01T05:01:24.835135Z"
     },
     {
       "id": "b3d72d5cb22270220a93ac32672f722f",
       "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
       "summary": null,
-      "why_it_matters": "A critical CVSS 9.8 use-after-free vulnerability in TCP stacks poses widespread remote code execution risks across network infrastructure.",
+      "why_it_matters": "A critical TCP use-after-free vulnerability carrying a maximum CVSS score of 9.8 requires immediate network and kernel patching.",
       "item_ids": [
         "b3d72d5cb22270220a93ac32672f722f"
       ],
       "primary_url": null,
       "first_shown": "2026-10-31T21:55:03.324759Z",
-      "last_shown": "2026-11-01T04:01:26.829401Z"
+      "last_shown": "2026-11-01T05:01:24.835135Z"
+    },
+    {
+      "id": "5e5bbde4ea12fd957eb24499c6367439",
+      "title": "HackerTube: YouTube built from videos recommended by HN",
+      "summary": "YouTube-style UI over 6,454 videos sourced from 39,834 HN comments since 2007.https://hackertube.org/",
+      "why_it_matters": "Provides a valuable community-driven video repository mapping historical Hacker News discussions to practical talks.",
+      "item_ids": [
+        "5e5bbde4ea12fd957eb24499c6367439"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-31T23:01:21.704371Z",
+      "last_shown": "2026-11-01T05:01:24.835135Z"
+    },
+    {
+      "id": "d2a83512dbe5f6177546b61c70afbc3a",
+      "title": "GPT-5.6 Sol can beat Factorio on peaceful mode",
+      "summary": null,
+      "why_it_matters": "Demonstrates advanced model capability limits by beating complex simulation games on peaceful mode.",
+      "item_ids": [
+        "d2a83512dbe5f6177546b61c70afbc3a"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-01T05:01:24.835135Z",
+      "last_shown": "2026-11-01T05:01:24.835135Z"
     },
     {
       "id": "2457c85808b294a1b2df2d24b6cd3261",
       "title": "Reddit to lock content behind logins to fight scrapers",
       "summary": "Reddit announced in a post by co-founder Steve Huffman that the site will gradually become a \"logged-in service,\" offering limited access to visitors without accounts. [...]",
-      "why_it_matters": "Reddit's move to lock content behind logins alters data access patterns for scrapers and researchers relying on open web endpoints.",
+      "why_it_matters": "Changes data access models by shifting community content behind logins to combat aggressive scraping.",
       "item_ids": [
         "2457c85808b294a1b2df2d24b6cd3261"
       ],
       "primary_url": null,
       "first_shown": "2026-10-31T15:01:25.288814Z",
+      "last_shown": "2026-11-01T05:01:24.835135Z"
+    },
+    {
+      "id": "2c1ffc90ca5ca707aebe507ff90abd4b",
+      "title": "Google Discloses PageBreak AI Security Agent That Found 500+ XSS Bugs",
+      "summary": "According to a paper published by Google, its AI-powered security agent has uncovered more than 500 XSS vulnerabilities across its web applications since entering full operation in January. PageBreak uses Gemini models to autonomously investigate potential vulnerabilities, but reports them only after deterministic validators successfully reproduce the exploit against a running application. By Renato Losio",
+      "why_it_matters": "Details Google's internal deployment of an AI security agent that successfully surfaced hundreds of XSS bugs.",
+      "item_ids": [
+        "2c1ffc90ca5ca707aebe507ff90abd4b"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-31T18:01:24.140946Z",
+      "last_shown": "2026-11-01T05:01:24.835135Z"
+    }
+  ],
+  "past_top_stories": [
+    {
+      "id": "a9e2dda1166cf5c698b6e0423449f5e2",
+      "title": "OpenAI Lowers Funding Target for New Round",
+      "summary": "OpenAI's latest funding round is failing to live up to expectations after the company raised less than half of its initial 30 billion dollar target. The scaling back highlights growing investor caution regarding AI infrastructure spending.",
+      "why_it_matters": "Shifts in funding targets signal changing venture capital appetites for foundational AI model developers.",
+      "item_ids": [
+        "a9e2dda1166cf5c698b6e0423449f5e2",
+        "53d4c9d19e1784453d96f08f0c09ca50"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-31T19:01:24.981446Z",
       "last_shown": "2026-11-01T04:01:26.829401Z"
     },
     {
@@ -28648,21 +28718,6 @@
       "primary_url": null,
       "first_shown": "2026-11-01T03:01:25.663589Z",
       "last_shown": "2026-11-01T04:01:26.829401Z"
-    }
-  ],
-  "past_top_stories": [
-    {
-      "id": "024ccae8ac54a5d5fad5bc3fc5447923",
-      "title": "Northflank Discloses Security Breach Leading to AI API Key Exposure",
-      "summary": "Cloud application hosting platform Northflank warned customers to rotate all credentials and secrets stored on its platform after a security breach. The incident led to the unauthorized use of customers' AI API keys.",
-      "why_it_matters": "Stolen credentials and exposed API keys put all hosted cloud workloads and connected third-party AI services at immediate risk of abuse.",
-      "item_ids": [
-        "024ccae8ac54a5d5fad5bc3fc5447923",
-        "e3805bbe0cc3eb6f0f60b963b7952010"
-      ],
-      "primary_url": "https://www.wiz.io/blog/black-october-for-ai-developer-platforms",
-      "first_shown": "2026-10-31T19:01:24.981446Z",
-      "last_shown": "2026-11-01T03:01:25.663589Z"
     },
     {
       "id": "d7d50a046ad6f84ab506d22d2f4f4387",
@@ -28688,18 +28743,6 @@
       ],
       "primary_url": null,
       "first_shown": "2026-11-01T01:01:25.104054Z",
-      "last_shown": "2026-11-01T03:01:25.663589Z"
-    },
-    {
-      "id": "2c1ffc90ca5ca707aebe507ff90abd4b",
-      "title": "Google Discloses PageBreak AI Security Agent That Found 500+ XSS Bugs",
-      "summary": "According to a paper published by Google, its AI-powered security agent has uncovered more than 500 XSS vulnerabilities across its web applications since entering full operation in January. PageBreak uses Gemini models to autonomously investigate potential vulnerabilities, but reports them only after deterministic validators successfully reproduce the exploit against a running application. By Renato Losio",
-      "why_it_matters": "Google's disclosure of an internal AI security agent uncovering over 500 XSS bugs demonstrates practical applications of autonomous security scanning.",
-      "item_ids": [
-        "2c1ffc90ca5ca707aebe507ff90abd4b"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-31T18:01:24.140946Z",
       "last_shown": "2026-11-01T03:01:25.663589Z"
     },
     {
@@ -28750,18 +28793,6 @@
       "primary_url": null,
       "first_shown": "2026-11-01T00:01:26.402950Z",
       "last_shown": "2026-11-01T00:01:26.402950Z"
-    },
-    {
-      "id": "5e5bbde4ea12fd957eb24499c6367439",
-      "title": "HackerTube: YouTube built from videos recommended by HN",
-      "summary": "YouTube-style UI over 6,454 videos sourced from 39,834 HN comments since 2007.https://hackertube.org/",
-      "why_it_matters": "HackerTube offers a novel, community-curated video interface mapping decades of Hacker News technical discussions to primary video references.",
-      "item_ids": [
-        "5e5bbde4ea12fd957eb24499c6367439"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-31T23:01:21.704371Z",
-      "last_shown": "2026-10-31T23:01:21.704371Z"
     },
     {
       "id": "15f9f966df72dac47db7af3ef38b7717",
