@@ -1,6 +1,150 @@
 {
-  "generated_at": "2026-11-01T16:01:25.978254Z",
+  "generated_at": "2026-11-01T17:01:30.198487Z",
   "items": [
+    {
+      "id": "406bb6b49fcf652c37954c9587df3110",
+      "title": "Quoting Kyle Kingsbury",
+      "url": "https://simonwillison.net/2026/Nov/1/kyle-kingsbury/",
+      "source_id": "simon-willison",
+      "source_name": "Simon Willison",
+      "category": "tech",
+      "summary": "More broadly, the use of LLMs erodes trust in documentation, in software, and in the organizations which produce them. Perhaps engineers will begin to treat any new software project with suspicion—the signals we used to rely on as markers of a mature system are now easier to counterfeit. [...] In the age of LLMs, what can maintainers do to ensure correct software and accurate documentation? Having done that work, how can they demonstrate its quality to users? — Kyle Kingsbury, Jepsen results…",
+      "published_at": "2026-11-01T16:49:04Z",
+      "fetched_at": "2026-11-01T17:01:30.198487Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "e8cf5d7778e5778f5be800703d5db86a",
+      "title": "Seoul Biosys Begins Production of Rare Earth-Free White Micro LEDs",
+      "url": "https://www.ajupress.com/view/20261028171670308",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-11-01T16:23:26Z",
+      "fetched_at": "2026-11-01T17:01:30.198487Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50327058",
+      "points": 4,
+      "comments": 0,
+      "engineering": false,
+      "blog": false,
+      "review": "pending",
+      "importance": null
+    },
+    {
+      "id": "3a9ed011ea6d2edba929acd6f74c534e",
+      "title": "Binance resumes withdrawals following $6.3 billion breach",
+      "url": "https://techcrunch.com/2026/11/01/binance-resumes-withdrawals-following-6-3-billion-breach/",
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "category": "tech",
+      "summary": "The cryptocurrency exchange said it's now covered 95% of the stolen assets.",
+      "published_at": "2026-11-01T16:20:10Z",
+      "fetched_at": "2026-11-01T17:01:30.198487Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 5
+    },
+    {
+      "id": "4cabe501aeb433bb60178cd5bd79ef41",
+      "title": "A fully playable version of Portal prequel F-Stop leaked",
+      "url": "https://www.theverge.com/games/1024206/playable-portal-prequel-f-stop-leak",
+      "source_id": "the-verge",
+      "source_name": "The Verge",
+      "category": "tech",
+      "summary": "Leakers have pieced together a playable version of the canceled Portal prequel F-Stop. Most of the assets came from the massive 12-terabyte leak that dropped this August. That didn't include the game's source code or map data, but those final pieces apparently hit the Valve Cut Content Discord this week, allowing a nearly complete version […]",
+      "published_at": "2026-11-01T16:19:21Z",
+      "fetched_at": "2026-11-01T17:01:30.198487Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "pending",
+      "importance": null
+    },
+    {
+      "id": "d2d9504970088f2ceb84dc1980787baf",
+      "title": "A Specialised Haskell Processor on FPGA",
+      "url": "https://bathtub-01.github.io/technical/ouros-demo/",
+      "source_id": "lobsters",
+      "source_name": "Lobsters",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-11-01T16:13:20Z",
+      "fetched_at": "2026-11-01T17:01:30.198487Z",
+      "discussion_url": "https://lobste.rs/s/8o9wus/specialised_haskell_processor_on_fpga",
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": true,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "17a4775124a31d9efdb2600c74259cb1",
+      "title": "Open-source security in the AI exploit era: Patch without changing a thing",
+      "url": "https://thenewstack.io/patchmageddon-open-source-security22842502/",
+      "source_id": "the-new-stack",
+      "source_name": "The New Stack",
+      "category": "tech",
+      "summary": "Here’s how a vulnerability in a popular open-source library plays out in 2026: A maintainer merges a fix and publishes The post Open-source security in the AI exploit era: Patch without changing a thing appeared first on The New Stack.",
+      "published_at": "2026-11-01T16:00:00Z",
+      "fetched_at": "2026-11-01T17:01:30.198487Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "efa7ab2d5407d7f06486c3fa68cd6464",
+      "title": "Show HN: HackerBooks – HackerTube, but for books recommended on HN",
+      "url": "https://hackerbooks.org",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": "Saw Karpathy's HackerTube and wanted the same thing for books. So I had Claude build one (Opus 5.5).It's ~16.5k books that at least two different HN commenters brought up, from 2007 till now. Each book links back to the comments that mentioned it. Data is downloadable from the about page.To be clear: Claude wrote almost all of it, including the data pipeline and the site. I mostly steered and made calls, bought the domain name, etc.It counts mentions, so it's not perfect (praising a book and…",
+      "published_at": "2026-11-01T15:58:28Z",
+      "fetched_at": "2026-11-01T17:01:30.198487Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50326821",
+      "points": 95,
+      "comments": 29,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "46e0da61266442c1288373adbee8c9eb",
+      "title": "Anthropic's Mythos-class model allegedly leaked on Hugging Face",
+      "url": "https://news.ycombinator.com/item?id=50326727",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": "URL deleted for malware concerns.",
+      "published_at": "2026-11-01T15:45:10Z",
+      "fetched_at": "2026-11-01T17:01:30.198487Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50326727",
+      "points": 13,
+      "comments": 2,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
     {
       "id": "d66f90ffd48ae80674a826fd3d2a49c1",
       "title": "Dead Internet theory",
@@ -18,6 +162,24 @@
       "blog": false,
       "review": "pending",
       "importance": null
+    },
+    {
+      "id": "f960decb10d088fdf6fd68c98176b542",
+      "title": "An outsider's perspective on Scion and Mononoke",
+      "url": "https://typesanitizer.com/blog/scion.html",
+      "source_id": "lobsters",
+      "source_name": "Lobsters",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-11-01T15:22:36Z",
+      "fetched_at": "2026-11-01T17:01:30.198487Z",
+      "discussion_url": "https://lobste.rs/s/s2qeww/outsider_s_perspective_on_scion_mononoke",
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": true,
+      "review": "kept",
+      "importance": 2
     },
     {
       "id": "1248bc6c2e96b92f837d107a285cf74c",
@@ -51,7 +213,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -87,7 +249,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -102,8 +264,8 @@
       "published_at": "2026-11-01T14:36:13Z",
       "fetched_at": "2026-11-01T16:01:25.978254Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50326118",
-      "points": 41,
-      "comments": 7,
+      "points": 132,
+      "comments": 31,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -120,8 +282,8 @@
       "published_at": "2026-11-01T14:34:43Z",
       "fetched_at": "2026-11-01T15:01:22.357217Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50326099",
-      "points": 63,
-      "comments": 24,
+      "points": 131,
+      "comments": 54,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -228,12 +390,12 @@
       "published_at": "2026-11-01T13:47:24Z",
       "fetched_at": "2026-11-01T15:01:22.357217Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50325662",
-      "points": 49,
-      "comments": 14,
+      "points": 70,
+      "comments": 29,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "62d113b51aff066a23c9992b70a44075",
@@ -246,8 +408,8 @@
       "published_at": "2026-11-01T13:24:49Z",
       "fetched_at": "2026-11-01T14:01:23.349600Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50325454",
-      "points": 38,
-      "comments": 8,
+      "points": 51,
+      "comments": 17,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -282,8 +444,8 @@
       "published_at": "2026-11-01T13:02:30Z",
       "fetched_at": "2026-11-01T16:01:25.978254Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50325253",
-      "points": 4,
-      "comments": 7,
+      "points": 16,
+      "comments": 15,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -323,7 +485,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "e043832f5603e6167da273e754dd0628",
@@ -503,7 +665,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "36f6ab4d64fdf690b8d9f626ef92634c",
@@ -519,7 +681,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 3
     },
@@ -539,7 +701,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "cb703f29404232cc77a229a3019c017e",
@@ -570,8 +732,8 @@
       "published_at": "2026-11-01T10:47:58Z",
       "fetched_at": "2026-11-01T12:01:25.666492Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50324388",
-      "points": 593,
-      "comments": 338,
+      "points": 605,
+      "comments": 346,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -588,8 +750,8 @@
       "published_at": "2026-11-01T10:44:20Z",
       "fetched_at": "2026-11-01T12:01:25.666492Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50324371",
-      "points": 34,
-      "comments": 26,
+      "points": 36,
+      "comments": 31,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -728,12 +890,12 @@
       "source_id": "the-register",
       "source_name": "The Register",
       "category": "tech",
-      "summary": "Legacy public switched telephone network service is to be retired on January 31, 2027",
+      "summary": null,
       "published_at": "2026-11-01T09:04:00Z",
       "fetched_at": "2026-11-01T10:01:25.798932Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
+      "discussion_url": "https://news.ycombinator.com/item?id=50326609",
+      "points": 10,
+      "comments": 1,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -791,7 +953,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "a0d63b5c831701beec290532fd002c3e",
@@ -845,7 +1007,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "a18021832e4899eecedd397871a53614",
@@ -912,12 +1074,12 @@
       "published_at": "2026-11-01T06:06:19Z",
       "fetched_at": "2026-11-01T08:01:22.916101Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50323088",
-      "points": 182,
-      "comments": 122,
+      "points": 195,
+      "comments": 136,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "d13f9bba28318a164c9702b46c947ed0",
@@ -953,7 +1115,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "9797929427dea2f4b7b3e02327cfda4e",
@@ -971,7 +1133,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "e4b01e5dfe07d214ea4b87a6d81b7fc5",
@@ -984,8 +1146,8 @@
       "published_at": "2026-11-01T02:19:53Z",
       "fetched_at": "2026-11-01T04:01:26.829401Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50322173",
-      "points": 216,
-      "comments": 108,
+      "points": 232,
+      "comments": 124,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -1025,7 +1187,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "84cf9329714eea168e1f2ad3db7bd938",
@@ -1038,8 +1200,8 @@
       "published_at": "2026-11-01T01:46:29Z",
       "fetched_at": "2026-11-01T04:01:26.829401Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50322022",
-      "points": 138,
-      "comments": 69,
+      "points": 146,
+      "comments": 73,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -1059,7 +1221,7 @@
       "points": 35,
       "comments": 8,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 3
     },
@@ -1077,7 +1239,7 @@
       "points": 15,
       "comments": 1,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 3
     },
@@ -1128,7 +1290,7 @@
       "published_at": "2026-10-31T22:54:55Z",
       "fetched_at": "2026-11-01T01:01:25.104054Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50321048",
-      "points": 139,
+      "points": 146,
       "comments": 7,
       "engineering": false,
       "blog": false,
@@ -1146,8 +1308,8 @@
       "published_at": "2026-10-31T22:46:12Z",
       "fetched_at": "2026-11-01T00:01:26.402950Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50320995",
-      "points": 338,
-      "comments": 165,
+      "points": 358,
+      "comments": 175,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -1164,8 +1326,8 @@
       "published_at": "2026-10-31T22:41:06Z",
       "fetched_at": "2026-11-01T00:01:26.402950Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50320963",
-      "points": 598,
-      "comments": 173,
+      "points": 625,
+      "comments": 176,
       "engineering": false,
       "blog": false,
       "review": "excluded",
@@ -1416,8 +1578,8 @@
       "published_at": "2026-10-31T20:21:55Z",
       "fetched_at": "2026-11-01T16:01:25.978254Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50319749",
-      "points": 6,
-      "comments": 0,
+      "points": 20,
+      "comments": 14,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -1529,7 +1691,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "68e79934a3f6c5d5102aeb627c5b8649",
@@ -1745,7 +1907,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "e3805bbe0cc3eb6f0f60b963b7952010",
@@ -1851,7 +2013,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 3
     },
@@ -1925,7 +2087,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "e5e77a37d5b41cc58142ff799a105a73",
@@ -2013,9 +2175,9 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "0289b26f177bf3f8786fdf29b40924da",
@@ -2159,7 +2321,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "566cc2e4f131bb7a3b5b579512f43811",
@@ -2175,9 +2337,9 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "728be93c2dcd8117b092c99db7a720b6",
@@ -2321,7 +2483,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "433fba26eee99574ae52aa1e18df2893",
@@ -2339,7 +2501,7 @@
       "engineering": false,
       "blog": true,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "28f26e08ec877a193dc5bdcc3bc5d17b",
@@ -2699,7 +2861,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "06f474c4f7fd92ec232818dab22f13a3",
@@ -2861,7 +3023,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "883230cc7ed81bfe581f0eb761786911",
@@ -2931,7 +3093,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 3
     },
@@ -3149,7 +3311,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "174c60cff894cccf84bc1583311fa102",
@@ -3239,7 +3401,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "64c432e1b0c23e15b10e4a9a1222c5ac",
@@ -26066,186 +26228,6 @@
       "importance": 2
     },
     {
-      "id": "324fe27793de592fcc2bc0a9afa42224",
-      "title": "This Switch 2 sequel accessory was a few millimeters away from being good",
-      "url": "https://www.theverge.com/tech/1017508/crkd-nitro-deck-2-nintendo-switch-2-controller-case-hands-on",
-      "source_id": "the-verge",
-      "source_name": "The Verge",
-      "category": "tech",
-      "summary": "The Crkd Nitro Deck was a saving grace for the original Nintendo Switch. The slide-on $59.99 accessory brought Hall effect sticks to drift-plagued consoles - no need to open up your Joy-Con for a complicated repair. The Nitro Deck 2, made for both the original Switch and the larger Switch 2, continues the tradition of […]",
-      "published_at": "2026-10-25T17:00:00Z",
-      "fetched_at": "2026-10-25T17:01:24.273030Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "9b3629dfd2d255b4a64933ed87201374",
-      "title": "Google ML Drift Accelerates On-Device AI Inference Across Diverse GPUs",
-      "url": "https://www.infoq.com/news/2026/10/google-ml-drift/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source_id": "infoq",
-      "source_name": "InfoQ",
-      "category": "tech",
-      "summary": "Google has released ML Drift, an open-source, cross-platform GPU compute engine designed for on-device AI and machine learning inference. Licensed under Apache 2.0, it abstracts the complexities of different GPU hardware and low-level APIs, supporting OpenGL ES, OpenCL, Metal, and WebGPU. By Sergio De Simone",
-      "published_at": "2026-10-25T17:00:00Z",
-      "fetched_at": "2026-10-25T17:01:24.273030Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "b8f1d92dc2639331bf220c3556fa567f",
-      "title": "AI delivers ‘zero financial payoff’ to most companies, according to Apollo economist",
-      "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
-      "source_id": "techcrunch",
-      "source_name": "TechCrunch",
-      "category": "tech",
-      "summary": "\"Despite massive investments and widespread hype around artificial intelligence, the technology has delivered zero financial payoff to corporate America outside of tech.\"",
-      "published_at": "2026-10-25T16:57:32Z",
-      "fetched_at": "2026-10-25T17:01:24.273030Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "b790e3d0282af7d6e55827503e98e882",
-      "title": "UTS #39: Unicode Security Mechanisms",
-      "url": "https://unicode.org/reports/tr39/",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-25T16:40:37Z",
-      "fetched_at": "2026-10-25T20:01:25.805094Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50233438",
-      "points": 35,
-      "comments": 19,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 2
-    },
-    {
-      "id": "64252f08d87850396b1c3c8eb7d9a197",
-      "title": "A Mathematician Reads the AI Future",
-      "url": "https://www.theatlantic.com/ideas/2026/10/ai-math-human-future/689133/",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-25T16:31:21Z",
-      "fetched_at": "2026-10-25T18:01:24.500172Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50233347",
-      "points": 44,
-      "comments": 61,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "d2109c0279d39849f7ed8d2d05ca9fb1",
-      "title": "Jukebox-OS: Deterministic time-travel replay and ACID tool sandbox for AI agents",
-      "url": "https://github.com/socrates6969/jukebox-os",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-25T16:29:46Z",
-      "fetched_at": "2026-10-25T18:01:24.500172Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50233325",
-      "points": 3,
-      "comments": 0,
-      "engineering": false,
-      "blog": null,
-      "review": "excluded",
-      "importance": null
-    },
-    {
-      "id": "0f648f49cd0177b4dd5216076287bd98",
-      "title": "AI use leads UC Berkeley math professor to see 'no point' in grading homework",
-      "url": "https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-25T16:28:26Z",
-      "fetched_at": "2026-10-25T16:51:49.174661Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50233304",
-      "points": 195,
-      "comments": 276,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "9fe0ab02c3e767b097dc0447fed108f0",
-      "title": "JetBrains Thinkrail",
-      "url": "https://github.com/JetBrains/thinkrail",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-25T16:27:12Z",
-      "fetched_at": "2026-10-25T20:01:25.805094Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50233294",
-      "points": 176,
-      "comments": 118,
-      "engineering": false,
-      "blog": null,
-      "review": "excluded",
-      "importance": null
-    },
-    {
-      "id": "9bfef0e6e8d1e40298c4717d3efb6e24",
-      "title": "Now you can watch Instagram Reels on your Apple TV",
-      "url": "https://www.theverge.com/tech/1018253/now-you-can-watch-instagram-reels-on-your-apple-tv",
-      "source_id": "the-verge",
-      "source_name": "The Verge",
-      "category": "tech",
-      "summary": "Instagram is continuing its expansion into living rooms with Instagram for TV, for Apple TV. The company first started testing a version of the platform focused on Reels, live streams, and other video content, blown up for a bigger screen in December of last year. Then, in June, it launched a slew of new features […]",
-      "published_at": "2026-10-25T16:20:17Z",
-      "fetched_at": "2026-10-25T16:51:49.174661Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 4
-    },
-    {
-      "id": "6da54fc019bd1df0ce0f498a52bb4067",
-      "title": "TechCrunch Mobility: Blue-green is the color of autonomy",
-      "url": "https://techcrunch.com/2026/10/25/techcrunch-mobility-blue-green-is-the-color-of-autonomy/",
-      "source_id": "techcrunch",
-      "source_name": "TechCrunch",
-      "category": "tech",
-      "summary": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, the role AI is playing in it.",
-      "published_at": "2026-10-25T16:05:00Z",
-      "fetched_at": "2026-10-25T16:51:49.174661Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
       "id": "70406f647dd07cd5959af1ffee236d4b",
       "title": "Show HN: ADRs for AI – Deliberation records for human–AI work, versioned in Git",
       "url": "https://adrs.systems",
@@ -28696,24 +28678,25 @@
   ],
   "top_stories": [
     {
-      "id": "df2d7fa4d3fef565ac345741141cf64c",
-      "title": "FBI links North Korea's TraderTraitor to massive $6.43B Binance crypto heist",
-      "summary": "The FBI stated that North Korea's TraderTraitor group was behind the $6.3 to $6.43 billion crypto heist that hit Binance on October 29. Binance's CEO later announced that 90 percent of the stolen assets have been replenished.",
-      "why_it_matters": "This massive security incident highlights critical vulnerabilities in exchange infrastructure and attributes record-breaking thefts to state-sponsored threat actors.",
+      "id": "3a9ed011ea6d2edba929acd6f74c534e",
+      "title": "Binance Resumes Withdrawals After $6.3 Billion Breach Linked to North Korea",
+      "summary": "Cryptocurrency exchange Binance has resumed withdrawals following a $6.3 billion security breach. The FBI attributed the massive heist to North Korea-aligned hacking group TraderTraitor, while Binance's CEO stated that the vast majority of the stolen assets have been replenished.",
+      "why_it_matters": "This massive cryptocurrency security breach and subsequent recovery highlight major vulnerabilities in exchange infrastructure and state-sponsored cyber threats.",
       "item_ids": [
+        "3a9ed011ea6d2edba929acd6f74c534e",
         "df2d7fa4d3fef565ac345741141cf64c",
-        "a18021832e4899eecedd397871a53614",
-        "4dd2ab7fa688cfd556ea9b75d2e0c37e"
+        "4dd2ab7fa688cfd556ea9b75d2e0c37e",
+        "a18021832e4899eecedd397871a53614"
       ],
       "primary_url": "https://www.fbi.gov/investigate/cyber/alerts/2026/north-korea-responsible-for-6-billion-binance-attack",
       "first_shown": "2026-10-29T23:00:27.287845Z",
-      "last_shown": "2026-11-01T16:01:25.978254Z"
+      "last_shown": "2026-11-01T17:01:30.198487Z"
     },
     {
       "id": "cf9827198cd4046b14ebdf7539674115",
-      "title": "Parameter Labs uncovers exploit allowing ChatGPT account takeovers via shared links",
-      "summary": "Researchers discovered an exploit against ChatGPT's implementation of artifacts that allowed malicious shared links to run arbitrary code in a victim's session. This vulnerability enabled attackers to read private conversations and compromise user accounts.",
-      "why_it_matters": "A critical vulnerability in a widely used AI platform's interactive sharing features presents severe privacy and session security risks for users.",
+      "title": "Parameter Labs Discloses ChatGPT Exploit Allowing Session Takeover",
+      "summary": "Security researchers at Parameter Labs discovered an exploit against ChatGPT's implementation of artifacts and shared links. A malicious shared link could run an attacker's code in a victim's active session, allowing them to read private chats and take over accounts.",
+      "why_it_matters": "This critical security vulnerability in a major AI platform demonstrates the risks of client-side code execution within conversational interfaces.",
       "item_ids": [
         "cf9827198cd4046b14ebdf7539674115",
         "0c564788cac6ac55b1310472e8353688",
@@ -28721,34 +28704,108 @@
       ],
       "primary_url": null,
       "first_shown": "2026-11-01T00:01:26.402950Z",
-      "last_shown": "2026-11-01T16:01:25.978254Z"
+      "last_shown": "2026-11-01T17:01:30.198487Z"
     },
     {
       "id": "2557ff03205c626b01d4035ef9646593",
-      "title": "OpenAI combines usage limits and brings Work features to ChatGPT chat",
-      "summary": "OpenAI has confirmed it is rolling out ChatGPT Work capabilities directly into regular chat while combining usage allowances across ChatGPT and Codex. The updates double Pro usage limits.",
-      "why_it_matters": "Developers utilizing both ChatGPT and Codex will see changes to their usage quotas and integrated workflow capabilities.",
+      "title": "OpenAI Merges Usage Limits and Brings Work Features to ChatGPT",
+      "summary": "OpenAI confirmed that it is combining usage allowances across ChatGPT and Codex while doubling Pro usage limits. The update also brings ChatGPT Work capabilities directly into regular chat interfaces.",
+      "why_it_matters": "Changes to usage limits and plan integrations directly impact developer workflows and resource allocation for heavy AI users.",
       "item_ids": [
         "2557ff03205c626b01d4035ef9646593",
         "e705a4465849e1b608d0a5aab1f5dc06"
       ],
       "primary_url": null,
       "first_shown": "2026-11-01T12:01:25.666492Z",
-      "last_shown": "2026-11-01T16:01:25.978254Z"
+      "last_shown": "2026-11-01T17:01:30.198487Z"
     },
     {
       "id": "1c2104fbc8ff6fb12a23ac733091fdb3",
-      "title": "Enlightenment 0.28 released with major improvements",
-      "summary": "The Enlightenment project released version 0.28 alongside updates to its alternative widget toolkit EFL. The release brings numerous performance improvements and bug fixes.",
-      "why_it_matters": "Updates to lightweight window managers and alternative toolkits offer developers alternatives to Qt and GTK for Linux desktop environments.",
+      "title": "Enlightenment Desktop Environment Releases Version 0.28",
+      "summary": "The Enlightenment project and its alternative to Qt/GTK toolkit have released version 0.28, bringing numerous performance improvements and updates.",
+      "why_it_matters": "Updates to alternative window managers and UI toolkits offer choices for low-resource or specialized desktop Linux environments.",
       "item_ids": [
         "1c2104fbc8ff6fb12a23ac733091fdb3",
         "ffb1ef557fc0ea20eae1a9eb279db2ff"
       ],
       "primary_url": null,
       "first_shown": "2026-11-01T15:01:22.357217Z",
-      "last_shown": "2026-11-01T16:01:25.978254Z"
+      "last_shown": "2026-11-01T17:01:30.198487Z"
     },
+    {
+      "id": "1248bc6c2e96b92f837d107a285cf74c",
+      "title": "Alpine Linux rebuilds GitLab after attempted RCE attack",
+      "summary": "Hackers attempted to exploit a critical GitLab vulnerability in Alpine Linux's development infrastructure on October 20-21, prompting the open-source project to rebuild its GitLab server and reset all passwords over concerns of a possible compromise. [...]",
+      "why_it_matters": "Alpine Linux's forced GitLab rebuild following an attempted RCE attack highlights ongoing risks to open-source project infrastructure.",
+      "item_ids": [
+        "1248bc6c2e96b92f837d107a285cf74c"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-01T16:01:25.978254Z",
+      "last_shown": "2026-11-01T17:01:30.198487Z"
+    },
+    {
+      "id": "4215f7796e3907e8b22c683a1ae114ca",
+      "title": "CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key",
+      "summary": "A critical flaw in Canonical's LXD and MicroCloud let an attacker log in as a trusted client without holding that client's private key. To do it, the attacker had to reach their HTTPS API over the network and have the trusted client's public certificate. Once in, the attacker would act as that client, with access to the cluster and its virtual machines. If the impersonated account is",
+      "why_it_matters": "A critical authentication bypass flaw in Canonical's LXD and MicroCloud allows attackers to impersonate trusted clients over the API.",
+      "item_ids": [
+        "4215f7796e3907e8b22c683a1ae114ca"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-01T11:01:24.000358Z",
+      "last_shown": "2026-11-01T17:01:30.198487Z"
+    },
+    {
+      "id": "28646d9dcd9888e2807256f1b37827f6",
+      "title": "Hackers Steal About $2.7 Million From Polymarket Traders via Hijacked DebugBear Script",
+      "summary": "Malicious code on the website of prediction market Polymarket sold some signed-in traders' positions and moved their funds to the hackers on October 29. The code had replaced a page-speed script that the site loaded from an outside company. Polymarket says it is refunding about $2.7 million to 726 affected wallets. Blockchain records show crypto worth about $2.64 million reached",
+      "why_it_matters": "A compromised script on Polymarket allowed attackers to hijack user sessions and drain trader funds via injected malicious code.",
+      "item_ids": [
+        "28646d9dcd9888e2807256f1b37827f6"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-01T08:01:22.916101Z",
+      "last_shown": "2026-11-01T17:01:30.198487Z"
+    },
+    {
+      "id": "41060ed57e94f4dbe37eaf49a6cf8190",
+      "title": "The AI cost of JavaScript frameworks",
+      "summary": null,
+      "why_it_matters": "Analysis of the performance and resource overhead of JavaScript frameworks provides valuable architectural insights for web developers.",
+      "item_ids": [
+        "41060ed57e94f4dbe37eaf49a6cf8190"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-01T17:01:30.198487Z",
+      "last_shown": "2026-11-01T17:01:30.198487Z"
+    },
+    {
+      "id": "84cf9329714eea168e1f2ad3db7bd938",
+      "title": "Leaking Secrets from Air-Gap Computers by Spelling Radio Signals from RAM",
+      "summary": null,
+      "why_it_matters": "Security research demonstrating data exfiltration from air-gapped computers via radio signals emitted from RAM illustrates extreme side-channel risks.",
+      "item_ids": [
+        "84cf9329714eea168e1f2ad3db7bd938"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-01T08:01:22.916101Z",
+      "last_shown": "2026-11-01T17:01:30.198487Z"
+    },
+    {
+      "id": "e4b01e5dfe07d214ea4b87a6d81b7fc5",
+      "title": "Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing",
+      "summary": null,
+      "why_it_matters": "A Brazilian court sanctioning lawyers for prompt injection in court filings marks an unusual intersection of legal compliance and AI manipulation.",
+      "item_ids": [
+        "e4b01e5dfe07d214ea4b87a6d81b7fc5"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-01T08:01:22.916101Z",
+      "last_shown": "2026-11-01T17:01:30.198487Z"
+    }
+  ],
+  "past_top_stories": [
     {
       "id": "b3d72d5cb22270220a93ac32672f722f",
       "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
@@ -28762,30 +28819,6 @@
       "last_shown": "2026-11-01T16:01:25.978254Z"
     },
     {
-      "id": "1248bc6c2e96b92f837d107a285cf74c",
-      "title": "Alpine Linux rebuilds GitLab after attempted RCE attack",
-      "summary": "Hackers attempted to exploit a critical GitLab vulnerability in Alpine Linux's development infrastructure on October 20-21, prompting the open-source project to rebuild its GitLab server and reset all passwords over concerns of a possible compromise. [...]",
-      "why_it_matters": "Alpine Linux's response to an attempted RCE exploit on its GitLab server highlights ongoing supply-chain security risks for development infrastructures.",
-      "item_ids": [
-        "1248bc6c2e96b92f837d107a285cf74c"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-01T16:01:25.978254Z",
-      "last_shown": "2026-11-01T16:01:25.978254Z"
-    },
-    {
-      "id": "4215f7796e3907e8b22c683a1ae114ca",
-      "title": "CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key",
-      "summary": "A critical flaw in Canonical's LXD and MicroCloud let an attacker log in as a trusted client without holding that client's private key. To do it, the attacker had to reach their HTTPS API over the network and have the trusted client's public certificate. Once in, the attacker would act as that client, with access to the cluster and its virtual machines. If the impersonated account is",
-      "why_it_matters": "A critical authentication bypass in Canonical's LXD and MicroCloud allows unauthenticated attackers to impersonate trusted clients over the HTTPS API.",
-      "item_ids": [
-        "4215f7796e3907e8b22c683a1ae114ca"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-01T11:01:24.000358Z",
-      "last_shown": "2026-11-01T16:01:25.978254Z"
-    },
-    {
       "id": "e3805bbe0cc3eb6f0f60b963b7952010",
       "title": "Northflank security breach leads to abuse of customers' AI API keys",
       "summary": "Cloud application hosting platform Northflank is warning customers to rotate all credentials and secrets stored on its platform after a security breach led to unauthorized use of customers' AI API keys. [...]",
@@ -28796,22 +28829,6 @@
       "primary_url": null,
       "first_shown": "2026-10-31T19:01:24.981446Z",
       "last_shown": "2026-11-01T16:01:25.978254Z"
-    }
-  ],
-  "past_top_stories": [
-    {
-      "id": "28646d9dcd9888e2807256f1b37827f6",
-      "title": "Chainalysis discloses data breach following offensive agentic cyberattacks",
-      "summary": "Blockchain analytics firm Chainalysis disclosed a data breach after attackers utilized offensive agentic techniques to access internal systems and tools. The intrusion exposed customer names, email addresses, and user IDs.",
-      "why_it_matters": "This incident highlights emerging threats from automated agentic cyberattacks targeting enterprise analytics and customer data.",
-      "item_ids": [
-        "28646d9dcd9888e2807256f1b37827f6",
-        "8a3f9c49ba0fb369d84b8b932507b81f",
-        "065d6fd5d0631ffc27d73b8c2b655996"
-      ],
-      "primary_url": "https://thehackernews.uk/control-visibility",
-      "first_shown": "2026-11-01T08:01:22.916101Z",
-      "last_shown": "2026-11-01T15:01:22.357217Z"
     },
     {
       "id": "53d4c9d19e1784453d96f08f0c09ca50",
@@ -28824,18 +28841,6 @@
       ],
       "primary_url": null,
       "first_shown": "2026-10-31T19:01:24.981446Z",
-      "last_shown": "2026-11-01T15:01:22.357217Z"
-    },
-    {
-      "id": "84cf9329714eea168e1f2ad3db7bd938",
-      "title": "Leaking Secrets from Air-Gap Computers by Spelling Radio Signals from RAM",
-      "summary": null,
-      "why_it_matters": "Security researchers demonstrated a novel attack vector capable of exfiltrating secrets from air-gapped computers using manipulated RAM radio signals.",
-      "item_ids": [
-        "84cf9329714eea168e1f2ad3db7bd938"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-01T08:01:22.916101Z",
       "last_shown": "2026-11-01T15:01:22.357217Z"
     },
     {
@@ -28884,18 +28889,6 @@
       ],
       "primary_url": null,
       "first_shown": "2026-11-01T13:01:25.149184Z",
-      "last_shown": "2026-11-01T13:01:25.149184Z"
-    },
-    {
-      "id": "e4b01e5dfe07d214ea4b87a6d81b7fc5",
-      "title": "Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing",
-      "summary": null,
-      "why_it_matters": "Reports on a Brazilian court sanctioning lawyers for using prompt injection inside a legal court filing.",
-      "item_ids": [
-        "e4b01e5dfe07d214ea4b87a6d81b7fc5"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-01T08:01:22.916101Z",
       "last_shown": "2026-11-01T13:01:25.149184Z"
     },
     {
