@@ -1,6 +1,60 @@
 {
-  "generated_at": "2026-11-01T02:01:28.643325Z",
+  "generated_at": "2026-11-01T03:01:25.663589Z",
   "items": [
+    {
+      "id": "26a1c04951aa16059cea39bf0268f2dd",
+      "title": "Introducing Kwi, a new KDE terminal emulator",
+      "url": "https://blogs.kde.org/2026/11/01/introducing-kwi/",
+      "source_id": "lobsters",
+      "source_name": "Lobsters",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-11-01T02:56:29Z",
+      "fetched_at": "2026-11-01T03:01:25.663589Z",
+      "discussion_url": "https://lobste.rs/s/lt44rt/introducing_kwi_new_kde_terminal",
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "pending",
+      "importance": null
+    },
+    {
+      "id": "9797929427dea2f4b7b3e02327cfda4e",
+      "title": "Data centers are now a midterm issue, even in Brooklyn",
+      "url": "https://techcrunch.com/2026/10/31/data-centers-are-now-a-midterm-issue-even-in-brooklyn/",
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "category": "tech",
+      "summary": "At a Brooklyn midterm party five days before Election Day, every conversation, from a council member’s fireside chat to a debate about the Democratic Party, kept circling back to AI and data centers.",
+      "published_at": "2026-11-01T02:22:10Z",
+      "fetched_at": "2026-11-01T03:01:25.663589Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "pending",
+      "importance": null
+    },
+    {
+      "id": "2342fe2f3965fd11b3caa05c68cdf5c0",
+      "title": "Show HN: BBRouter – Ben Eater's 8-bit computer, simulated on 3D breadboards",
+      "url": "https://bbrouter.com/bbrouter/ben-eater-sap-1",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": "Hi HN,I kept wiring Ben Eater's 8-bit computer wrong, so I built a realistic virtual breadboard editor.Some of the nice features are side-by-side diff, scope, schematics auto-sync, auto-router (BBRouter stands for breadboard router), and my favorites: upload from the real Arduino IDE and connect to your AI with MCP, let Claude & co build it or help you troubleshoot.The link is the SAP-1 running. You can orbit it, probe a hole with the scope, slow the clock down, play with the virtual displays…",
+      "published_at": "2026-11-01T00:10:30Z",
+      "fetched_at": "2026-11-01T03:01:25.663589Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50321522",
+      "points": 9,
+      "comments": 3,
+      "engineering": false,
+      "blog": false,
+      "review": "pending",
+      "importance": null
+    },
     {
       "id": "d20d7de5c7e7869ee4ef3eb938912375",
       "title": "Constructing a Quine from Kleene's Second Recursion Theorem",
@@ -12,10 +66,10 @@
       "published_at": "2026-10-31T23:55:21Z",
       "fetched_at": "2026-11-01T02:01:28.643325Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50321436",
-      "points": 5,
-      "comments": 0,
+      "points": 10,
+      "comments": 1,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 2
     },
@@ -48,8 +102,8 @@
       "published_at": "2026-10-31T23:08:12Z",
       "fetched_at": "2026-11-01T00:01:26.402950Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50321130",
-      "points": 36,
-      "comments": 9,
+      "points": 47,
+      "comments": 21,
       "engineering": false,
       "blog": false,
       "review": "excluded",
@@ -66,8 +120,8 @@
       "published_at": "2026-10-31T22:54:55Z",
       "fetched_at": "2026-11-01T01:01:25.104054Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50321048",
-      "points": 39,
-      "comments": 1,
+      "points": 53,
+      "comments": 3,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -84,8 +138,8 @@
       "published_at": "2026-10-31T22:46:12Z",
       "fetched_at": "2026-11-01T00:01:26.402950Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50320995",
-      "points": 81,
-      "comments": 39,
+      "points": 99,
+      "comments": 49,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -102,8 +156,8 @@
       "published_at": "2026-10-31T22:41:06Z",
       "fetched_at": "2026-11-01T00:01:26.402950Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50320963",
-      "points": 153,
-      "comments": 46,
+      "points": 188,
+      "comments": 54,
       "engineering": false,
       "blog": false,
       "review": "excluded",
@@ -123,7 +177,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 3
     },
@@ -159,7 +213,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 2
     },
@@ -174,8 +228,8 @@
       "published_at": "2026-10-31T21:50:13Z",
       "fetched_at": "2026-11-01T01:01:25.104054Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50320599",
-      "points": 20,
-      "comments": 4,
+      "points": 25,
+      "comments": 5,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -321,7 +375,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 2
     },
@@ -336,8 +390,8 @@
       "published_at": "2026-10-31T20:02:06Z",
       "fetched_at": "2026-10-31T21:55:03.324759Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50319563",
-      "points": 60,
-      "comments": 17,
+      "points": 68,
+      "comments": 20,
       "engineering": false,
       "blog": false,
       "review": "excluded",
@@ -354,8 +408,8 @@
       "published_at": "2026-10-31T19:56:53Z",
       "fetched_at": "2026-10-31T21:55:03.324759Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50319510",
-      "points": 728,
-      "comments": 246,
+      "points": 802,
+      "comments": 257,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -377,7 +431,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "9efd70000e67462ec819ee8badb18ae5",
@@ -393,7 +447,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 2
     },
@@ -411,7 +465,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 2
     },
@@ -426,8 +480,8 @@
       "published_at": "2026-10-31T19:39:19Z",
       "fetched_at": "2026-10-31T21:55:03.324759Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50319358",
-      "points": 199,
-      "comments": 116,
+      "points": 217,
+      "comments": 123,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -462,8 +516,8 @@
       "published_at": "2026-10-31T19:18:48Z",
       "fetched_at": "2026-10-31T21:55:03.324759Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50319169",
-      "points": 53,
-      "comments": 31,
+      "points": 58,
+      "comments": 34,
       "engineering": false,
       "blog": false,
       "review": "excluded",
@@ -480,8 +534,8 @@
       "published_at": "2026-10-31T19:16:30Z",
       "fetched_at": "2026-10-31T21:55:03.324759Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50319143",
-      "points": 350,
-      "comments": 168,
+      "points": 369,
+      "comments": 175,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -498,8 +552,8 @@
       "published_at": "2026-10-31T19:13:34Z",
       "fetched_at": "2026-11-01T02:01:28.643325Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50319110",
-      "points": 25,
-      "comments": 3,
+      "points": 36,
+      "comments": 7,
       "engineering": false,
       "blog": false,
       "review": "pending",
@@ -570,10 +624,10 @@
       "published_at": "2026-10-31T18:38:16Z",
       "fetched_at": "2026-10-31T21:55:03.324759Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50318720",
-      "points": 126,
-      "comments": 39,
+      "points": 140,
+      "comments": 41,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -609,7 +663,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 2
     },
@@ -647,7 +701,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "e3805bbe0cc3eb6f0f60b963b7952010",
@@ -678,7 +732,7 @@
       "published_at": "2026-10-31T17:59:41Z",
       "fetched_at": "2026-10-31T19:01:24.981446Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50318376",
-      "points": 55,
+      "points": 60,
       "comments": 21,
       "engineering": false,
       "blog": false,
@@ -753,7 +807,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 2
     },
@@ -773,7 +827,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "eb89469ceae4403c8bc1c3a24d6bcc03",
@@ -827,7 +881,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "e5e77a37d5b41cc58142ff799a105a73",
@@ -881,7 +935,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "056f96d30e4254b740b5e2ab11c11be0",
@@ -915,7 +969,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 2
     },
@@ -1061,7 +1115,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "566cc2e4f131bb7a3b5b579512f43811",
@@ -1077,7 +1131,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 2
     },
@@ -1095,7 +1149,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 2
     },
@@ -1223,7 +1277,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "433fba26eee99574ae52aa1e18df2893",
@@ -1331,7 +1385,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "c54673c71475799bc5ec984507865e23",
@@ -1398,7 +1452,7 @@
       "published_at": "2026-10-31T12:58:29Z",
       "fetched_at": "2026-10-31T21:55:03.324759Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50315782",
-      "points": 59,
+      "points": 61,
       "comments": 1,
       "engineering": false,
       "blog": null,
@@ -1583,7 +1637,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "06f474c4f7fd92ec232818dab22f13a3",
@@ -1740,8 +1794,8 @@
       "published_at": "2026-10-31T10:30:11Z",
       "fetched_at": "2026-10-31T12:01:22.409476Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50314699",
-      "points": 303,
-      "comments": 150,
+      "points": 304,
+      "comments": 151,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -1794,8 +1848,8 @@
       "published_at": "2026-10-31T10:21:30Z",
       "fetched_at": "2026-10-31T11:01:22.511823Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50314654",
-      "points": 802,
-      "comments": 461,
+      "points": 823,
+      "comments": 469,
       "engineering": false,
       "blog": false,
       "review": "excluded",
@@ -2105,7 +2159,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "64c432e1b0c23e15b10e4a9a1222c5ac",
@@ -2177,7 +2231,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "e90f0377b69a25778ca3221fa62ba099",
@@ -2483,7 +2537,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "d108719896473881d76b163fd2d1a604",
@@ -2499,7 +2553,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 2
     },
@@ -2607,7 +2661,7 @@
       "points": 139,
       "comments": 31,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -2699,7 +2753,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "51bdc2b9199a30997784142d5a142b34",
@@ -2717,7 +2771,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "5226755954e1c3cbce9a341bca210e2e",
@@ -2733,7 +2787,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 2
     },
@@ -2825,7 +2879,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "e270cc9c3f9ab74c778d56ae4cd921ce",
@@ -2861,7 +2915,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "64cac7098c0b68e4efb828420fbb6d24",
@@ -2913,7 +2967,7 @@
       "points": 11,
       "comments": 0,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -3021,7 +3075,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 2
     },
@@ -3201,7 +3255,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 2
     },
@@ -3239,7 +3293,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "9f5218fab492b818ca3000bee770bbd2",
@@ -3329,7 +3383,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "0e4d46d15a5057847781983ba1329de2",
@@ -3363,7 +3417,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 2
     },
@@ -3527,7 +3581,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "d375569d884eddedb37fe645635e76ec",
@@ -3563,7 +3617,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "9752838b21f1bc3c886ddb86707fb6f2",
@@ -3687,7 +3741,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 3
     },
@@ -3705,7 +3759,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 2
     },
@@ -3797,7 +3851,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "fcc1c1061dc85d6922bffc3742da0ff0",
@@ -3887,7 +3941,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "bb369b2281c045746500a1f253129031",
@@ -3993,7 +4047,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 2
     },
@@ -4139,7 +4193,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "67aefda107420da109293cf272a78fe4",
@@ -4263,7 +4317,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 2
     },
@@ -26030,24 +26084,6 @@
       "importance": 3
     },
     {
-      "id": "c15fd2cc4cc470b2f5608cdbc6536006",
-      "title": "Meta employees say Lula’s accounts restricted in Brazil election: Report",
-      "url": "https://www.aljazeera.com/economy/2026/10/16/meta-employees-say-lulas-accounts-restricted-in-brazil-election-report",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-25T02:18:35Z",
-      "fetched_at": "2026-10-25T05:01:30.121002Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50227639",
-      "points": 138,
-      "comments": 55,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 2
-    },
-    {
       "id": "70406f647dd07cd5959af1ffee236d4b",
       "title": "Show HN: ADRs for AI – Deliberation records for human–AI work, versioned in Git",
       "url": "https://adrs.systems",
@@ -28498,10 +28534,23 @@
   ],
   "top_stories": [
     {
+      "id": "b3d72d5cb22270220a93ac32672f722f",
+      "title": "Critical TCP Use-After-Free Vulnerability (CVE-2026-98432)",
+      "summary": "A critical use-after-free vulnerability in the Linux kernel affects systems running multipath TCP listeners. Security researchers discovered the bug, which can be triggered by responses to retransmitted packets to achieve remote code execution.",
+      "why_it_matters": "This severe 9.8 CVSS vulnerability impacts core network stacks on Linux servers, making patching essential to prevent remote root exploitation.",
+      "item_ids": [
+        "b3d72d5cb22270220a93ac32672f722f",
+        "40f2b7c5e317edf0fed6e4da3bc6be00"
+      ],
+      "primary_url": "https://www.anthropic.com/research/discovering-vulnerabilities-with-claude",
+      "first_shown": "2026-10-31T21:55:03.324759Z",
+      "last_shown": "2026-11-01T03:01:25.663589Z"
+    },
+    {
       "id": "cf9827198cd4046b14ebdf7539674115",
-      "title": "Parameter Labs exploit allows takeover of ChatGPT accounts via Artifacts",
-      "summary": "Parameter Labs discovered an exploit against ChatGPT's implementation of the artifacts pattern that allowed a malicious share link to run an attacker's code in a logged-in user's session and read private chats. Security researchers demonstrated how they took over ChatGPT accounts using the vulnerability.",
-      "why_it_matters": "This vulnerability directly impacts users of ChatGPT by exposing private conversations and allowing arbitrary code execution within active sessions.",
+      "title": "ChatGPT Implementation Vulnerability Allowed Account Takeover",
+      "summary": "Security researchers discovered an exploit against ChatGPT's implementation of artifacts that allowed malicious share links to run attacker code in a victim's session. The vulnerability exposed private conversations and allowed attackers to take over accounts.",
+      "why_it_matters": "This vulnerability affects core security boundaries in AI web applications, letting malicious links execute arbitrary code within active user sessions.",
       "item_ids": [
         "cf9827198cd4046b14ebdf7539674115",
         "0c564788cac6ac55b1310472e8353688",
@@ -28509,48 +28558,114 @@
       ],
       "primary_url": null,
       "first_shown": "2026-11-01T00:01:26.402950Z",
-      "last_shown": "2026-11-01T02:01:28.643325Z"
-    },
-    {
-      "id": "b3d72d5cb22270220a93ac32672f722f",
-      "title": "Critical TCP Use-After-Free Vulnerability (CVE-2026-98432) Affects Linux Systems",
-      "summary": "A critical use-after-free vulnerability in the Linux kernel tracked as CVE-2026-98432 with a CVSS score of 9.8 allows unauthenticated attackers to remotely execute commands as root on servers running multipath TCP listeners. Security researchers and LLM providers reported that the bug is triggered by crafting network responses to retransmitted packets.",
-      "why_it_matters": "This is a severe remote code execution vulnerability affecting core Linux networking components, requiring immediate kernel patching for server infrastructure.",
-      "item_ids": [
-        "b3d72d5cb22270220a93ac32672f722f",
-        "40f2b7c5e317edf0fed6e4da3bc6be00",
-        "344e5cabf30f470a26e194c3102fafea"
-      ],
-      "primary_url": "https://www.anthropic.com/research/discovering-vulnerabilities-with-claude",
-      "first_shown": "2026-10-31T21:55:03.324759Z",
-      "last_shown": "2026-11-01T02:01:28.643325Z"
+      "last_shown": "2026-11-01T03:01:25.663589Z"
     },
     {
       "id": "024ccae8ac54a5d5fad5bc3fc5447923",
-      "title": "Northflank suffers security breach exposing customer AI API keys and credentials",
-      "summary": "Cloud application hosting platform Northflank suffered a security breach that led to the unauthorized use and exposure of customers' AI API keys. The company is warning customers to rotate all credentials and secrets stored on its platform.",
-      "why_it_matters": "Compromised hosting platforms and leaked API keys put downstream applications and external AI services at risk of credential theft and unauthorized usage.",
+      "title": "Northflank Discloses Security Breach Leading to AI API Key Exposure",
+      "summary": "Cloud application hosting platform Northflank warned customers to rotate all credentials and secrets stored on its platform after a security breach. The incident led to the unauthorized use of customers' AI API keys.",
+      "why_it_matters": "Stolen credentials and exposed API keys put all hosted cloud workloads and connected third-party AI services at immediate risk of abuse.",
       "item_ids": [
         "024ccae8ac54a5d5fad5bc3fc5447923",
         "e3805bbe0cc3eb6f0f60b963b7952010"
       ],
       "primary_url": "https://www.wiz.io/blog/black-october-for-ai-developer-platforms",
       "first_shown": "2026-10-31T19:01:24.981446Z",
-      "last_shown": "2026-11-01T02:01:28.643325Z"
+      "last_shown": "2026-11-01T03:01:25.663589Z"
     },
     {
-      "id": "8a3f9c49ba0fb369d84b8b932507b81f",
-      "title": "Chainalysis discloses data breach after attacker access via agentic techniques",
-      "summary": "Blockchain analytics firm Chainalysis disclosed a cybersecurity incident in which an external actor accessed internal systems and tools. The breach exposed non-sensitive customer identity data, including names, email addresses, and user IDs.",
-      "why_it_matters": "This incident highlights emerging security risks as threat actors begin deploying automated, offensive agentic techniques against enterprise systems.",
+      "id": "b119c6eeb05f2544f94bcea51d13f31d",
+      "title": "Google's Experimental Satellite AI Server Successfully Transmits Response",
+      "summary": "Google successfully booted up the Tensor Processing Units (TPUs) on an experimental orbital datacenter satellite. The satellite generated its first response from space, running a DeepMind Gemma model.",
+      "why_it_matters": "This demonstrates the viability of edge computing and AI inference workloads running in orbital space infrastructure.",
       "item_ids": [
-        "8a3f9c49ba0fb369d84b8b932507b81f",
-        "065d6fd5d0631ffc27d73b8c2b655996"
+        "b119c6eeb05f2544f94bcea51d13f31d",
+        "e7cbf78c304a365b5eecc80bcd6127ea",
+        "6a2b1e66199bdae06b28d207caa569e3"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-30T19:03:26.384502Z",
+      "last_shown": "2026-11-01T03:01:25.663589Z"
+    },
+    {
+      "id": "065d6fd5d0631ffc27d73b8c2b655996",
+      "title": "Chainalysis Discloses Data Breach Involving Agentic Techniques",
+      "summary": "Blockchain analytics firm Chainalysis disclosed a security incident after external actors accessed internal systems and non-sensitive customer data. Attackers utilized offensive agentic techniques to penetrate internal tools.",
+      "why_it_matters": "The use of autonomous agentic attacks against enterprise targets highlights an emerging threat vector in automated corporate espionage.",
+      "item_ids": [
+        "065d6fd5d0631ffc27d73b8c2b655996",
+        "8a3f9c49ba0fb369d84b8b932507b81f"
       ],
       "primary_url": "https://www.chainalysis.com/blog/security-incident-october-30",
       "first_shown": "2026-10-31T13:01:33.654119Z",
-      "last_shown": "2026-11-01T02:01:28.643325Z"
+      "last_shown": "2026-11-01T03:01:25.663589Z"
     },
+    {
+      "id": "d7d50a046ad6f84ab506d22d2f4f4387",
+      "title": "Binance Recovers 90 Percent of Funds Following Massive Crypto Heist",
+      "summary": "Following a record-breaking crypto heist where hackers stole $6.3 billion from Binance customers, the company's CEO stated that 90 percent of the funds have been replenished. Blockchain intelligence firms have linked North Korea to the breach.",
+      "why_it_matters": "This massive security incident and subsequent fund replenishment highlight extreme vulnerabilities in cryptocurrency exchange infrastructure.",
+      "item_ids": [
+        "d7d50a046ad6f84ab506d22d2f4f4387",
+        "4dd2ab7fa688cfd556ea9b75d2e0c37e"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-29T23:00:27.287845Z",
+      "last_shown": "2026-11-01T03:01:25.663589Z"
+    },
+    {
+      "id": "4877b7ec4c095a35debe80f8a01151c1",
+      "title": "US tech stocks decline sharply amid growing fears over high AI infrastructure costs",
+      "summary": "US tech stocks experienced sharp falls driven by investor skepticism and concerns over mounting debt, negative cash flow, and the sustainability of massive AI infrastructure spending. Filings and market analyses highlighted that high capital outlays for AI may not yield immediate investment-grade returns.",
+      "why_it_matters": "Market corrections driven by AI spending pressures can impact tech sector investments, hiring, and infrastructure availability.",
+      "item_ids": [
+        "4877b7ec4c095a35debe80f8a01151c1",
+        "9aac94722016ff7dc5a489e9afe3fd56",
+        "d40da7f1de19a73306504b3cef8c31ac"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-01T02:01:28.643325Z",
+      "last_shown": "2026-11-01T03:01:25.663589Z"
+    },
+    {
+      "id": "1c2104fbc8ff6fb12a23ac733091fdb3",
+      "title": "Enlightenment Desktop 0.28.0 and EFL 1.29.0 Released",
+      "summary": "The Enlightenment project released version 0.28.0 of its lightweight desktop environment featuring multiple improvements. Simultaneously, the Enlightenment Foundation Libraries alternative toolkit to Qt and GTK was upgraded to release 1.29.0.",
+      "why_it_matters": "Delivers new capabilities and fixes for developers building UI components on the EFL and Enlightenment desktop ecosystem.",
+      "item_ids": [
+        "1c2104fbc8ff6fb12a23ac733091fdb3",
+        "ffb1ef557fc0ea20eae1a9eb279db2ff"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-01T01:01:25.104054Z",
+      "last_shown": "2026-11-01T03:01:25.663589Z"
+    },
+    {
+      "id": "ab59995cacbb125b8701c445782186b1",
+      "title": "Molly(Signal fork) has not been updated since 3 months and is vulnerable",
+      "summary": null,
+      "why_it_matters": "Security warnings regarding unmaintained forks of cryptographic messaging apps like Signal highlight critical risks for private communications.",
+      "item_ids": [
+        "ab59995cacbb125b8701c445782186b1"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-01T03:01:25.663589Z",
+      "last_shown": "2026-11-01T03:01:25.663589Z"
+    },
+    {
+      "id": "2c1ffc90ca5ca707aebe507ff90abd4b",
+      "title": "Google Discloses PageBreak AI Security Agent That Found 500+ XSS Bugs",
+      "summary": "According to a paper published by Google, its AI-powered security agent has uncovered more than 500 XSS vulnerabilities across its web applications since entering full operation in January. PageBreak uses Gemini models to autonomously investigate potential vulnerabilities, but reports them only after deterministic validators successfully reproduce the exploit against a running application. By Renato Losio",
+      "why_it_matters": "Google's disclosure of an internal AI security agent uncovering over 500 XSS bugs demonstrates practical applications of autonomous security scanning.",
+      "item_ids": [
+        "2c1ffc90ca5ca707aebe507ff90abd4b"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-31T18:01:24.140946Z",
+      "last_shown": "2026-11-01T03:01:25.663589Z"
+    }
+  ],
+  "past_top_stories": [
     {
       "id": "e90f0377b69a25778ca3221fa62ba099",
       "title": "Scribd discloses security incident impacting user data",
@@ -28562,21 +28677,6 @@
       ],
       "primary_url": null,
       "first_shown": "2026-10-31T16:01:22.926189Z",
-      "last_shown": "2026-11-01T02:01:28.643325Z"
-    },
-    {
-      "id": "b119c6eeb05f2544f94bcea51d13f31d",
-      "title": "Google successfully boots orbital TPU satellite and transmits first response",
-      "summary": "Google successfully booted up the Tensor Processing Units (TPUs) on an experimental orbital datacenter satellite and transmitted its first response back to Earth. The space-based server ran a Google DeepMind Gemma model to generate text and poetry from orbit, marking a step toward space-based cloud infrastructure.",
-      "why_it_matters": "This experiment explores the viability of edge computing and AI inference workloads running directly in low-Earth orbit infrastructure.",
-      "item_ids": [
-        "b119c6eeb05f2544f94bcea51d13f31d",
-        "e7cbf78c304a365b5eecc80bcd6127ea",
-        "6a2b1e66199bdae06b28d207caa569e3",
-        "fe8591d46794c782bd0b9bfe2afb4e14"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-30T19:03:26.384502Z",
       "last_shown": "2026-11-01T02:01:28.643325Z"
     },
     {
@@ -28595,33 +28695,6 @@
       "last_shown": "2026-11-01T02:01:28.643325Z"
     },
     {
-      "id": "4877b7ec4c095a35debe80f8a01151c1",
-      "title": "US tech stocks decline sharply amid growing fears over high AI infrastructure costs",
-      "summary": "US tech stocks experienced sharp falls driven by investor skepticism and concerns over mounting debt, negative cash flow, and the sustainability of massive AI infrastructure spending. Filings and market analyses highlighted that high capital outlays for AI may not yield immediate investment-grade returns.",
-      "why_it_matters": "Market corrections driven by AI spending pressures can impact tech sector investments, hiring, and infrastructure availability.",
-      "item_ids": [
-        "4877b7ec4c095a35debe80f8a01151c1",
-        "9aac94722016ff7dc5a489e9afe3fd56",
-        "d40da7f1de19a73306504b3cef8c31ac"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-01T02:01:28.643325Z",
-      "last_shown": "2026-11-01T02:01:28.643325Z"
-    },
-    {
-      "id": "1c2104fbc8ff6fb12a23ac733091fdb3",
-      "title": "Enlightenment Desktop 0.28.0 and EFL 1.29.0 Released",
-      "summary": "The Enlightenment project released version 0.28.0 of its lightweight desktop environment featuring multiple improvements. Simultaneously, the Enlightenment Foundation Libraries alternative toolkit to Qt and GTK was upgraded to release 1.29.0.",
-      "why_it_matters": "Delivers new capabilities and fixes for developers building UI components on the EFL and Enlightenment desktop ecosystem.",
-      "item_ids": [
-        "1c2104fbc8ff6fb12a23ac733091fdb3",
-        "ffb1ef557fc0ea20eae1a9eb279db2ff"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-01T01:01:25.104054Z",
-      "last_shown": "2026-11-01T02:01:28.643325Z"
-    },
-    {
       "id": "1483390d28a6ea8a4bd202064136ff42",
       "title": "Cloudflare’s Post-Quantum GeoKey Manager Enters Closed Beta Without Attribute-Based Encryption",
       "summary": "Cloudflare has moved a post-quantum rebuild of GeoKey Manager into closed beta, guarding geo-fenced keys with hybrid ML-KEM-768 and X25519 instead of the attribute-based encryption used since 2022. Keys live only in kernel memory on verified regional servers, and any failed check rejects the request, a fail-closed choice practitioners ask could cause a regional outage. GA is planned for Q1 2027. By Steef-Jan Wiggers",
@@ -28632,23 +28705,6 @@
       "primary_url": null,
       "first_shown": "2026-10-31T21:01:25.763102Z",
       "last_shown": "2026-11-01T02:01:28.643325Z"
-    }
-  ],
-  "past_top_stories": [
-    {
-      "id": "4dd2ab7fa688cfd556ea9b75d2e0c37e",
-      "title": "Hackers Steal Record $6.3 Billion from Binance in North Korea-Linked Breach",
-      "summary": "Hackers suspected of working for North Korea compromised a Binance employee laptop and stole $6.3 billion worth of crypto assets in a record breach. Binance's CEO reported that 90 percent of the stolen assets have since been replenished.",
-      "why_it_matters": "Engineers and infrastructure teams should note the massive operational impact that endpoint compromises can have on custodial platforms and institutional crypto systems.",
-      "item_ids": [
-        "4dd2ab7fa688cfd556ea9b75d2e0c37e",
-        "48fd4163dda936ad3fb9a816b0fa3497",
-        "ccdff1f49f0883386a23e8db41c80183",
-        "d7d50a046ad6f84ab506d22d2f4f4387"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-29T23:00:27.287845Z",
-      "last_shown": "2026-11-01T01:01:25.104054Z"
     },
     {
       "id": "6c360090011ba79dbeda4ab126f73505",
@@ -28711,18 +28767,6 @@
       "last_shown": "2026-10-31T23:01:21.704371Z"
     },
     {
-      "id": "2c1ffc90ca5ca707aebe507ff90abd4b",
-      "title": "Google Discloses PageBreak AI Security Agent That Found 500+ XSS Bugs",
-      "summary": "According to a paper published by Google, its AI-powered security agent has uncovered more than 500 XSS vulnerabilities across its web applications since entering full operation in January. PageBreak uses Gemini models to autonomously investigate potential vulnerabilities, but reports them only after deterministic validators successfully reproduce the exploit against a running application. By Renato Losio",
-      "why_it_matters": "Google disclosed that an internal AI-powered security agent successfully detected over 500 cross-site scripting vulnerabilities.",
-      "item_ids": [
-        "2c1ffc90ca5ca707aebe507ff90abd4b"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-31T18:01:24.140946Z",
-      "last_shown": "2026-10-31T22:01:26.793795Z"
-    },
-    {
       "id": "21bbcb364781ae83898106584704468a",
       "title": "Malicious Anthropic Claude Extensions Planted on Cursor Marketplace",
       "summary": "A malicious version of Anthropic's Claude Code VS Code extension was distributed through Cursor's extension marketplace for about 11 hours, exposing up to 5,000 developers to SSH backdoors and remote access risks. Flawed code in the tainted extension prevented full worm propagation on some targeted machines while investigations into the supply-chain attack continued.",
@@ -28748,18 +28792,6 @@
       "primary_url": null,
       "first_shown": "2026-10-31T15:01:25.288814Z",
       "last_shown": "2026-10-31T19:01:24.981446Z"
-    },
-    {
-      "id": "d85df1e10c1e1df7baedacae31ff9adf",
-      "title": "Malware uses LLMs to rank victims by how much they're worth",
-      "summary": null,
-      "why_it_matters": "Malware developers are weaponizing large language models to dynamically profile and rank victims based on estimated financial worth.",
-      "item_ids": [
-        "d85df1e10c1e1df7baedacae31ff9adf"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-31T18:01:24.140946Z",
-      "last_shown": "2026-10-31T18:01:24.140946Z"
     }
   ]
 }
