@@ -1,6 +1,60 @@
 {
-  "generated_at": "2026-11-01T15:01:22.357217Z",
+  "generated_at": "2026-11-01T16:01:25.978254Z",
   "items": [
+    {
+      "id": "d66f90ffd48ae80674a826fd3d2a49c1",
+      "title": "Dead Internet theory",
+      "url": "https://en.wikipedia.org/wiki/Dead_Internet_theory",
+      "source_id": "lobsters",
+      "source_name": "Lobsters",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-11-01T15:24:56Z",
+      "fetched_at": "2026-11-01T16:01:25.978254Z",
+      "discussion_url": "https://lobste.rs/s/uia6c3/dead_internet_theory",
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "pending",
+      "importance": null
+    },
+    {
+      "id": "1248bc6c2e96b92f837d107a285cf74c",
+      "title": "Alpine Linux rebuilds GitLab after attempted RCE attack",
+      "url": "https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack/",
+      "source_id": "bleepingcomputer",
+      "source_name": "BleepingComputer",
+      "category": "tech",
+      "summary": "Hackers attempted to exploit a critical GitLab vulnerability in Alpine Linux's development infrastructure on October 20-21, prompting the open-source project to rebuild its GitLab server and reset all passwords over concerns of a possible compromise. [...]",
+      "published_at": "2026-11-01T15:11:21Z",
+      "fetched_at": "2026-11-01T16:01:25.978254Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 4
+    },
+    {
+      "id": "0d586c7b68ffdebc9388ce7ec075a986",
+      "title": "Final release for the 7.2 stable series",
+      "url": "https://lwn.net/Articles/1104629/",
+      "source_id": "lwn",
+      "source_name": "LWN.net",
+      "category": "tech",
+      "summary": "Greg Kroah-Hartman has announced the release of the 7.2.15 kernel, with a handful of updates. Note, this is the LAST 7.2.y kernel release. After this one the 7.2.y kernel tree is end-of-life. Please move to 7.3.y at this time. And yes, you aren't imagining things, this one went \"end-of-life\" a bit sooner than normal. But based on the release cycle at the moment, and the number of pending cc: stable patches in the queue, I figured it was better this way so we can focus on the latest 7.3.y…",
+      "published_at": "2026-11-01T15:03:40Z",
+      "fetched_at": "2026-11-01T16:01:25.978254Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": true,
+      "review": "kept",
+      "importance": 3
+    },
     {
       "id": "1dde1c5e87f55e4c16f1d5cdc6dc5344",
       "title": "Pixel 11 Pro Fold: Sturdy rectengale in a wide wide world",
@@ -20,6 +74,42 @@
       "importance": null
     },
     {
+      "id": "3d78143c0873b4065834236315155b08",
+      "title": "A step-by-step guide for how to kill the line-by-line code review",
+      "url": "https://thenewstack.io/ai-code-review-invariants/",
+      "source_id": "the-new-stack",
+      "source_name": "The New Stack",
+      "category": "tech",
+      "summary": "Agents verify; people decide. Most teams running AI code review today have it the other way around. They point a The post A step-by-step guide for how to kill the line-by-line code review appeared first on The New Stack.",
+      "published_at": "2026-11-01T15:00:00Z",
+      "fetched_at": "2026-11-01T16:01:25.978254Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": true,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "b9124c9d6c893136388072718670bee5",
+      "title": "Police chief unplugs Flock cameras after company ignores contract cancellation",
+      "url": "https://www.tomshardware.com/tech-industry/big-tech/police-chief-physically-unplugs-flock-cameras-after-the-company-ignores-contract-cancellation-city-takes-matters-into-its-own-hands-amid-privacy-controversies",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-11-01T14:36:13Z",
+      "fetched_at": "2026-11-01T16:01:25.978254Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50326118",
+      "points": 41,
+      "comments": 7,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
       "id": "7005e71023c645b7acf03abb63692630",
       "title": "Lenovo's 'encrypted' fingerprint USB is just an unencrypted SD card in a case",
       "url": "https://www.reddit.com/r/technology/comments/1xl2pr3/lenovos_encrypted_fingerprint_usb_drive_is_just/",
@@ -30,8 +120,8 @@
       "published_at": "2026-11-01T14:34:43Z",
       "fetched_at": "2026-11-01T15:01:22.357217Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50326099",
-      "points": 11,
-      "comments": 1,
+      "points": 63,
+      "comments": 24,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -69,7 +159,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 2
     },
@@ -138,12 +228,12 @@
       "published_at": "2026-11-01T13:47:24Z",
       "fetched_at": "2026-11-01T15:01:22.357217Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50325662",
-      "points": 34,
-      "comments": 5,
+      "points": 49,
+      "comments": 14,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "62d113b51aff066a23c9992b70a44075",
@@ -156,10 +246,10 @@
       "published_at": "2026-11-01T13:24:49Z",
       "fetched_at": "2026-11-01T14:01:23.349600Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50325454",
-      "points": 28,
-      "comments": 4,
+      "points": 38,
+      "comments": 8,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -174,12 +264,30 @@
       "published_at": "2026-11-01T13:20:23Z",
       "fetched_at": "2026-11-01T14:01:23.349600Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50325411",
-      "points": 14,
+      "points": 20,
       "comments": 1,
       "engineering": false,
       "blog": false,
       "review": "kept",
       "importance": 2
+    },
+    {
+      "id": "ab8e3a821dcd28037f28381d5ae27ad2",
+      "title": "Show HN: OmniDiff – Opensource, super fast, content aware Git difftool, in Rust",
+      "url": "https://github.com/ivankovic/omnidiff",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": "I have been researching what the ultimate diff tool would look like, based on actual diffs in open source repositories.OmniDiff can diff: code (25 languages), config, images, PDFs, archives, cursors, fonts...It's fast. It can diff C++ files of tens of thousands of lines in under 100ms, on a 2023 ThinkPad T14s.It's open source. AGPLv3.It's based on real diffs. I looked at the 7400 repositories that are listed in Gentoo packages, sampled 2000 diffs and solved them manually to get a good…",
+      "published_at": "2026-11-01T13:02:30Z",
+      "fetched_at": "2026-11-01T16:01:25.978254Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50325253",
+      "points": 4,
+      "comments": 7,
+      "engineering": false,
+      "blog": null,
+      "review": "excluded",
+      "importance": null
     },
     {
       "id": "28cc0d192f516beec50ad11fc3104d8b",
@@ -285,9 +393,9 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "1153023ed5eebc3565aa61877f414289",
@@ -411,7 +519,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -447,7 +555,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 2
     },
@@ -462,8 +570,8 @@
       "published_at": "2026-11-01T10:47:58Z",
       "fetched_at": "2026-11-01T12:01:25.666492Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50324388",
-      "points": 544,
-      "comments": 297,
+      "points": 593,
+      "comments": 338,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -480,8 +588,8 @@
       "published_at": "2026-11-01T10:44:20Z",
       "fetched_at": "2026-11-01T12:01:25.666492Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50324371",
-      "points": 32,
-      "comments": 24,
+      "points": 34,
+      "comments": 26,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -804,8 +912,8 @@
       "published_at": "2026-11-01T06:06:19Z",
       "fetched_at": "2026-11-01T08:01:22.916101Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50323088",
-      "points": 169,
-      "comments": 116,
+      "points": 182,
+      "comments": 122,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -876,8 +984,8 @@
       "published_at": "2026-11-01T02:19:53Z",
       "fetched_at": "2026-11-01T04:01:26.829401Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50322173",
-      "points": 204,
-      "comments": 99,
+      "points": 216,
+      "comments": 108,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -930,8 +1038,8 @@
       "published_at": "2026-11-01T01:46:29Z",
       "fetched_at": "2026-11-01T04:01:26.829401Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50322022",
-      "points": 129,
-      "comments": 67,
+      "points": 138,
+      "comments": 69,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -969,7 +1077,7 @@
       "points": 15,
       "comments": 1,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -1020,7 +1128,7 @@
       "published_at": "2026-10-31T22:54:55Z",
       "fetched_at": "2026-11-01T01:01:25.104054Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50321048",
-      "points": 133,
+      "points": 139,
       "comments": 7,
       "engineering": false,
       "blog": false,
@@ -1038,8 +1146,8 @@
       "published_at": "2026-10-31T22:46:12Z",
       "fetched_at": "2026-11-01T00:01:26.402950Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50320995",
-      "points": 329,
-      "comments": 160,
+      "points": 338,
+      "comments": 165,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -1056,8 +1164,8 @@
       "published_at": "2026-10-31T22:41:06Z",
       "fetched_at": "2026-11-01T00:01:26.402950Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50320963",
-      "points": 580,
-      "comments": 171,
+      "points": 598,
+      "comments": 173,
       "engineering": false,
       "blog": false,
       "review": "excluded",
@@ -1293,7 +1401,25 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
+      "review": "kept",
+      "importance": 2
+    },
+    {
+      "id": "aa1a29bec620cc52ec5cddfc0efbf99e",
+      "title": "Bidirectional Charging During Grid Outages",
+      "url": "https://www.jefftk.com/p/bidirectional-charging-during-grid-outages",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-31T20:21:55Z",
+      "fetched_at": "2026-11-01T16:01:25.978254Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50319749",
+      "points": 6,
+      "comments": 0,
+      "engineering": false,
+      "blog": false,
       "review": "kept",
       "importance": 2
     },
@@ -1326,8 +1452,8 @@
       "published_at": "2026-10-31T19:56:53Z",
       "fetched_at": "2026-10-31T21:55:03.324759Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50319510",
-      "points": 1619,
-      "comments": 428,
+      "points": 1677,
+      "comments": 441,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -1365,7 +1491,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -1452,8 +1578,8 @@
       "published_at": "2026-10-31T19:16:30Z",
       "fetched_at": "2026-10-31T21:55:03.324759Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50319143",
-      "points": 579,
-      "comments": 280,
+      "points": 586,
+      "comments": 287,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -1542,10 +1668,10 @@
       "published_at": "2026-10-31T18:38:16Z",
       "fetched_at": "2026-10-31T21:55:03.324759Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50318720",
-      "points": 227,
-      "comments": 74,
+      "points": 232,
+      "comments": 75,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 3
     },
@@ -1563,7 +1689,7 @@
       "points": 44,
       "comments": 30,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -1619,7 +1745,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "e3805bbe0cc3eb6f0f60b963b7952010",
@@ -1725,7 +1851,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -1799,7 +1925,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "e5e77a37d5b41cc58142ff799a105a73",
@@ -1853,7 +1979,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "056f96d30e4254b740b5e2ab11c11be0",
@@ -1887,7 +2013,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 2
     },
@@ -2033,7 +2159,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "566cc2e4f131bb7a3b5b579512f43811",
@@ -2049,7 +2175,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 2
     },
@@ -2067,7 +2193,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 2
     },
@@ -2195,7 +2321,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "433fba26eee99574ae52aa1e18df2893",
@@ -2213,7 +2339,7 @@
       "engineering": false,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "28f26e08ec877a193dc5bdcc3bc5d17b",
@@ -2280,8 +2406,8 @@
       "published_at": "2026-10-31T13:41:18Z",
       "fetched_at": "2026-11-01T12:01:25.666492Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50316117",
-      "points": 29,
-      "comments": 25,
+      "points": 37,
+      "comments": 35,
       "engineering": false,
       "blog": false,
       "review": "pending",
@@ -2321,7 +2447,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "c54673c71475799bc5ec984507865e23",
@@ -2553,7 +2679,7 @@
       "points": 154,
       "comments": 106,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 3
     },
@@ -2735,7 +2861,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "883230cc7ed81bfe581f0eb761786911",
@@ -2771,7 +2897,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "57f4ab8c9a08bf113dd4185476d39d83",
@@ -2805,7 +2931,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -2861,7 +2987,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "eb986da067a5ba708079e26fbd730f82",
@@ -3023,7 +3149,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "174c60cff894cccf84bc1583311fa102",
@@ -3113,7 +3239,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "64c432e1b0c23e15b10e4a9a1222c5ac",
@@ -3149,7 +3275,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "0c63f39df6bcd64b27deb554846e4189",
@@ -26120,168 +26246,6 @@
       "importance": 3
     },
     {
-      "id": "31bb69bdf9032e0c54daf86e0ebb93e1",
-      "title": "AI coding agents hijacked using AGENTS.md file in Downloads folder",
-      "url": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
-      "source_id": "bleepingcomputer",
-      "source_name": "BleepingComputer",
-      "category": "tech",
-      "summary": "Researchers found a malicious AGENTS markdown instruction file in a customer's Downloads folder that tricked an AI coding agent into installing a rogue npm package. [...]",
-      "published_at": "2026-10-25T15:49:38Z",
-      "fetched_at": "2026-10-25T16:01:29.083151Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 4
-    },
-    {
-      "id": "41060ed72dbc5c74cc7277568bd4f856",
-      "title": "What Adobe v ArtCraft teaches us",
-      "url": "https://techbronerd.substack.com/p/openai-and-anthropic-wanted-to-replace",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-25T15:34:44Z",
-      "fetched_at": "2026-10-25T18:01:24.500172Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50232682",
-      "points": 65,
-      "comments": 43,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 2
-    },
-    {
-      "id": "4ba0d3584b4760e0c064bf2df3dbd225",
-      "title": "When a glibc update accidentally breaks Chromium's audio (2021)",
-      "url": "https://refi64.dev/posts/chromium-audio-break.html",
-      "source_id": "lobsters",
-      "source_name": "Lobsters",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-25T15:34:21Z",
-      "fetched_at": "2026-10-25T16:01:29.083151Z",
-      "discussion_url": "https://lobste.rs/s/5ullyu/when_glibc_update_accidentally_breaks",
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 2
-    },
-    {
-      "id": "7385a8fa0e79eb40b9f9557c2e3beda1",
-      "title": "Ask HN: Can we do something about this impending AI dystopia",
-      "url": "https://news.ycombinator.com/item?id=50232407",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": "There have been, increasingly, a large number of posts [1] on HN in the past few weeks, where developers are slowly coming to terms with the breakneck speed with which Agentic Coding has advanced in the past few months.We all agree that an average software developer today is closely resembling the horse-carriage just when automobiles were becoming mainstream around 120 years ago.And coming to HN daily and finding at least one such lament from a software engineer is becoming quite tiresome.We…",
-      "published_at": "2026-10-25T15:12:10Z",
-      "fetched_at": "2026-10-25T17:01:24.273030Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50232407",
-      "points": 14,
-      "comments": 4,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "f439142049b9e730bcf6535beb177310",
-      "title": "Seam Cutter",
-      "url": "https://simonwillison.net/2026/Oct/25/seam-cutter/",
-      "source_id": "simon-willison",
-      "source_name": "Simon Willison",
-      "category": "tech",
-      "summary": "Tool: Seam Cutter I built this weird and very specific cropping tool - it lets you create a horizontal or vertical cut across an image, then slide the two sides relative to each other. Effectively it lets you crop out a section in the middle of an image. I wanted this because I often use Tailor on my iPhone to stitch several screenshots together into lot long image, but sometimes I find myself wanting to crop out a section in the middle - to redact an irrelevant prompt from a transcript, for…",
-      "published_at": "2026-10-25T15:10:19Z",
-      "fetched_at": "2026-10-26T05:01:25.846305Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 2
-    },
-    {
-      "id": "449f7b7e6dce127abfa37c86d97ab9a7",
-      "title": "POSIX wordexp(3) is dangerous",
-      "url": "https://yossarian.net/til/post/posix-wordexp-3-is-dangerous/",
-      "source_id": "lobsters",
-      "source_name": "Lobsters",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-25T15:09:29Z",
-      "fetched_at": "2026-10-25T16:01:29.083151Z",
-      "discussion_url": "https://lobste.rs/s/tbbiqb/posix_wordexp_3_is_dangerous",
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 2
-    },
-    {
-      "id": "9432fdd61925130be4a22d6bda5db0a8",
-      "title": "Vim Classic",
-      "url": "https://vim-classic.org/",
-      "source_id": "lobsters",
-      "source_name": "Lobsters",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-25T15:05:45Z",
-      "fetched_at": "2026-10-25T16:01:29.083151Z",
-      "discussion_url": "https://lobste.rs/s/cxwpil/vim_classic",
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 2
-    },
-    {
-      "id": "f57313c9af3e13349f35cf34d736df1f",
-      "title": "Show HN: I put employees inside S&P 500 market-cap bubbles",
-      "url": "https://bigwhalehunting.com/workforce/",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": "I was playing around with visualising the S&P 500 by market cap and decided to add employees to each company's bubble.What surprised me was how empty some of the biggest companies looked.Nvidia is worth $5.2 trillion but employs only 42,000 people. That's around $124 million in market cap per employee. Meanwhile, Accenture employs 814,000 people and is worth $146 billion.Each stick figure represents 10,000 employees. You can zoom in and explore individual companies.I wrote a bit more about what…",
-      "published_at": "2026-10-25T15:05:39Z",
-      "fetched_at": "2026-10-25T16:51:49.174661Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50232312",
-      "points": 157,
-      "comments": 47,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "2080e99fda02da39e679bca283e05828",
-      "title": "A vision for a next-generation timeline",
-      "url": "https://media.ccc.de/v/matrix-conference-2026-99070-a-vision-for-a-next-generation-timeline",
-      "source_id": "lobsters",
-      "source_name": "Lobsters",
-      "category": "tech",
-      "summary": "Slides: https://cfp.2026.matrix.org/media/matrix-conference-2026/submissions/WRGTRX/resources/sli_ZZVyXQu.pdf Comments",
-      "published_at": "2026-10-25T15:03:10Z",
-      "fetched_at": "2026-10-25T16:01:29.083151Z",
-      "discussion_url": "https://lobste.rs/s/jdczl6/vision_for_next_generation_timeline",
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 2
-    },
-    {
       "id": "70406f647dd07cd5959af1ffee236d4b",
       "title": "Show HN: ADRs for AI – Deliberation records for human–AI work, versioned in Git",
       "url": "https://adrs.systems",
@@ -28733,9 +28697,9 @@
   "top_stories": [
     {
       "id": "df2d7fa4d3fef565ac345741141cf64c",
-      "title": "FBI links North Korea's TraderTraitor to $6.3B Binance crypto heist",
-      "summary": "The FBI attributed a massive $6.3 billion crypto heist affecting Binance to North Korea-aligned hacking group TraderTraitor. Binance's CEO stated that 90 percent of the stolen assets have since been replenished.",
-      "why_it_matters": "This massive cryptocurrency theft and subsequent asset recovery highlight significant security vulnerabilities in major crypto exchanges and ongoing state-sponsored threats.",
+      "title": "FBI links North Korea's TraderTraitor to massive $6.43B Binance crypto heist",
+      "summary": "The FBI stated that North Korea's TraderTraitor group was behind the $6.3 to $6.43 billion crypto heist that hit Binance on October 29. Binance's CEO later announced that 90 percent of the stolen assets have been replenished.",
+      "why_it_matters": "This massive security incident highlights critical vulnerabilities in exchange infrastructure and attributes record-breaking thefts to state-sponsored threat actors.",
       "item_ids": [
         "df2d7fa4d3fef565ac345741141cf64c",
         "a18021832e4899eecedd397871a53614",
@@ -28743,13 +28707,13 @@
       ],
       "primary_url": "https://www.fbi.gov/investigate/cyber/alerts/2026/north-korea-responsible-for-6-billion-binance-attack",
       "first_shown": "2026-10-29T23:00:27.287845Z",
-      "last_shown": "2026-11-01T15:01:22.357217Z"
+      "last_shown": "2026-11-01T16:01:25.978254Z"
     },
     {
       "id": "cf9827198cd4046b14ebdf7539674115",
-      "title": "Exploit in ChatGPT shared links allows session hijacking and chat reading",
-      "summary": "Researchers discovered an exploit in ChatGPT's shared links and artifacts feature that allowed malicious code to run in a victim's logged-in session, enabling attackers to read private conversations. Parameter Labs detailed how the vulnerability could be used to take over accounts.",
-      "why_it_matters": "This critical security flaw directly impacts user data privacy on a widely used AI platform, demonstrating risks in how web applications handle shared interactive sessions.",
+      "title": "Parameter Labs uncovers exploit allowing ChatGPT account takeovers via shared links",
+      "summary": "Researchers discovered an exploit against ChatGPT's implementation of artifacts that allowed malicious shared links to run arbitrary code in a victim's session. This vulnerability enabled attackers to read private conversations and compromise user accounts.",
+      "why_it_matters": "A critical vulnerability in a widely used AI platform's interactive sharing features presents severe privacy and session security risks for users.",
       "item_ids": [
         "cf9827198cd4046b14ebdf7539674115",
         "0c564788cac6ac55b1310472e8353688",
@@ -28757,8 +28721,84 @@
       ],
       "primary_url": null,
       "first_shown": "2026-11-01T00:01:26.402950Z",
-      "last_shown": "2026-11-01T15:01:22.357217Z"
+      "last_shown": "2026-11-01T16:01:25.978254Z"
     },
+    {
+      "id": "2557ff03205c626b01d4035ef9646593",
+      "title": "OpenAI combines usage limits and brings Work features to ChatGPT chat",
+      "summary": "OpenAI has confirmed it is rolling out ChatGPT Work capabilities directly into regular chat while combining usage allowances across ChatGPT and Codex. The updates double Pro usage limits.",
+      "why_it_matters": "Developers utilizing both ChatGPT and Codex will see changes to their usage quotas and integrated workflow capabilities.",
+      "item_ids": [
+        "2557ff03205c626b01d4035ef9646593",
+        "e705a4465849e1b608d0a5aab1f5dc06"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-01T12:01:25.666492Z",
+      "last_shown": "2026-11-01T16:01:25.978254Z"
+    },
+    {
+      "id": "1c2104fbc8ff6fb12a23ac733091fdb3",
+      "title": "Enlightenment 0.28 released with major improvements",
+      "summary": "The Enlightenment project released version 0.28 alongside updates to its alternative widget toolkit EFL. The release brings numerous performance improvements and bug fixes.",
+      "why_it_matters": "Updates to lightweight window managers and alternative toolkits offer developers alternatives to Qt and GTK for Linux desktop environments.",
+      "item_ids": [
+        "1c2104fbc8ff6fb12a23ac733091fdb3",
+        "ffb1ef557fc0ea20eae1a9eb279db2ff"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-01T15:01:22.357217Z",
+      "last_shown": "2026-11-01T16:01:25.978254Z"
+    },
+    {
+      "id": "b3d72d5cb22270220a93ac32672f722f",
+      "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
+      "summary": null,
+      "why_it_matters": "A severe TCP use-after-free vulnerability carrying a CVSS score of 9.8 poses major network stack security risks.",
+      "item_ids": [
+        "b3d72d5cb22270220a93ac32672f722f"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-31T21:55:03.324759Z",
+      "last_shown": "2026-11-01T16:01:25.978254Z"
+    },
+    {
+      "id": "1248bc6c2e96b92f837d107a285cf74c",
+      "title": "Alpine Linux rebuilds GitLab after attempted RCE attack",
+      "summary": "Hackers attempted to exploit a critical GitLab vulnerability in Alpine Linux's development infrastructure on October 20-21, prompting the open-source project to rebuild its GitLab server and reset all passwords over concerns of a possible compromise. [...]",
+      "why_it_matters": "Alpine Linux's response to an attempted RCE exploit on its GitLab server highlights ongoing supply-chain security risks for development infrastructures.",
+      "item_ids": [
+        "1248bc6c2e96b92f837d107a285cf74c"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-01T16:01:25.978254Z",
+      "last_shown": "2026-11-01T16:01:25.978254Z"
+    },
+    {
+      "id": "4215f7796e3907e8b22c683a1ae114ca",
+      "title": "CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key",
+      "summary": "A critical flaw in Canonical's LXD and MicroCloud let an attacker log in as a trusted client without holding that client's private key. To do it, the attacker had to reach their HTTPS API over the network and have the trusted client's public certificate. Once in, the attacker would act as that client, with access to the cluster and its virtual machines. If the impersonated account is",
+      "why_it_matters": "A critical authentication bypass in Canonical's LXD and MicroCloud allows unauthenticated attackers to impersonate trusted clients over the HTTPS API.",
+      "item_ids": [
+        "4215f7796e3907e8b22c683a1ae114ca"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-01T11:01:24.000358Z",
+      "last_shown": "2026-11-01T16:01:25.978254Z"
+    },
+    {
+      "id": "e3805bbe0cc3eb6f0f60b963b7952010",
+      "title": "Northflank security breach leads to abuse of customers' AI API keys",
+      "summary": "Cloud application hosting platform Northflank is warning customers to rotate all credentials and secrets stored on its platform after a security breach led to unauthorized use of customers' AI API keys. [...]",
+      "why_it_matters": "A security breach at application hosting platform Northflank forces customers to rotate all stored credentials and API keys due to compromised AI integrations.",
+      "item_ids": [
+        "e3805bbe0cc3eb6f0f60b963b7952010"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-31T19:01:24.981446Z",
+      "last_shown": "2026-11-01T16:01:25.978254Z"
+    }
+  ],
+  "past_top_stories": [
     {
       "id": "28646d9dcd9888e2807256f1b37827f6",
       "title": "Chainalysis discloses data breach following offensive agentic cyberattacks",
@@ -28774,19 +28814,6 @@
       "last_shown": "2026-11-01T15:01:22.357217Z"
     },
     {
-      "id": "2557ff03205c626b01d4035ef9646593",
-      "title": "OpenAI merges ChatGPT and Codex usage limits, expands Work features",
-      "summary": "OpenAI confirmed it is combining usage allowances across ChatGPT and Codex while doubling Pro usage limits. The update also brings ChatGPT Work capabilities directly into regular Chat.",
-      "why_it_matters": "Consolidating limits and embedding enterprise features into standard accounts alters developer workflows and resource availability for AI coding tools.",
-      "item_ids": [
-        "2557ff03205c626b01d4035ef9646593",
-        "e705a4465849e1b608d0a5aab1f5dc06"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-01T12:01:25.666492Z",
-      "last_shown": "2026-11-01T15:01:22.357217Z"
-    },
-    {
       "id": "53d4c9d19e1784453d96f08f0c09ca50",
       "title": "OpenAI raises less than half of its $30 billion funding target",
       "summary": "OpenAI's latest major funding round fell short of expectations, raising less than half of its targeted $30 billion. The reduced haul reflects shifting investor sentiment toward capital-intensive AI ventures.",
@@ -28797,43 +28824,6 @@
       ],
       "primary_url": null,
       "first_shown": "2026-10-31T19:01:24.981446Z",
-      "last_shown": "2026-11-01T15:01:22.357217Z"
-    },
-    {
-      "id": "1c2104fbc8ff6fb12a23ac733091fdb3",
-      "title": "Enlightenment 0.28 released with major improvements",
-      "summary": "The Enlightenment project released version 0.28 alongside updates to its alternative widget toolkit EFL. The release brings numerous performance improvements and bug fixes.",
-      "why_it_matters": "Updates to lightweight window managers and alternative toolkits offer developers alternatives to Qt and GTK for Linux desktop environments.",
-      "item_ids": [
-        "1c2104fbc8ff6fb12a23ac733091fdb3",
-        "ffb1ef557fc0ea20eae1a9eb279db2ff"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-01T15:01:22.357217Z",
-      "last_shown": "2026-11-01T15:01:22.357217Z"
-    },
-    {
-      "id": "b3d72d5cb22270220a93ac32672f722f",
-      "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
-      "summary": null,
-      "why_it_matters": "A severe TCP use-after-free vulnerability carrying a 9.8 CVSS score poses widespread risks to networking stacks and operating system security.",
-      "item_ids": [
-        "b3d72d5cb22270220a93ac32672f722f"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-31T21:55:03.324759Z",
-      "last_shown": "2026-11-01T15:01:22.357217Z"
-    },
-    {
-      "id": "4215f7796e3907e8b22c683a1ae114ca",
-      "title": "CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key",
-      "summary": "A critical flaw in Canonical's LXD and MicroCloud let an attacker log in as a trusted client without holding that client's private key. To do it, the attacker had to reach their HTTPS API over the network and have the trusted client's public certificate. Once in, the attacker would act as that client, with access to the cluster and its virtual machines. If the impersonated account is",
-      "why_it_matters": "A critical vulnerability in Canonical's LXD and MicroCloud allows unauthenticated attackers to impersonate trusted clients, threatening container infrastructure security.",
-      "item_ids": [
-        "4215f7796e3907e8b22c683a1ae114ca"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-01T11:01:24.000358Z",
       "last_shown": "2026-11-01T15:01:22.357217Z"
     },
     {
@@ -28859,20 +28849,6 @@
       "primary_url": null,
       "first_shown": "2026-11-01T09:01:28.748811Z",
       "last_shown": "2026-11-01T15:01:22.357217Z"
-    }
-  ],
-  "past_top_stories": [
-    {
-      "id": "e3805bbe0cc3eb6f0f60b963b7952010",
-      "title": "Northflank security breach leads to abuse of customers' AI API keys",
-      "summary": "Cloud application hosting platform Northflank is warning customers to rotate all credentials and secrets stored on its platform after a security breach led to unauthorized use of customers' AI API keys. [...]",
-      "why_it_matters": "A security breach at hosting platform Northflank resulted in unauthorized use of customers' AI API keys.",
-      "item_ids": [
-        "e3805bbe0cc3eb6f0f60b963b7952010"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-31T19:01:24.981446Z",
-      "last_shown": "2026-11-01T14:01:23.349600Z"
     },
     {
       "id": "15ef8df9ce5503d24b79fb88c5495088",
@@ -28945,43 +28921,6 @@
       "primary_url": null,
       "first_shown": "2026-11-01T11:01:24.000358Z",
       "last_shown": "2026-11-01T11:01:24.000358Z"
-    },
-    {
-      "id": "d85df1e10c1e1df7baedacae31ff9adf",
-      "title": "Malware uses LLMs to rank victims by how much they're worth",
-      "summary": null,
-      "why_it_matters": "Malware utilizing LLMs to dynamically rank victims by their financial worth demonstrates emerging tactics in automated cyberattacks.",
-      "item_ids": [
-        "d85df1e10c1e1df7baedacae31ff9adf"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-01T06:01:24.173995Z",
-      "last_shown": "2026-11-01T11:01:24.000358Z"
-    },
-    {
-      "id": "0289b26f177bf3f8786fdf29b40924da",
-      "title": "Meta's Muse AI Agent and Hardware Launch Sparks Industry Discussion",
-      "summary": "Meta is introducing the Muse Charm, allowing users to carry an AI helper, while companies evaluate the business impacts of Meta's new agentic AI technology. Tech leaders are navigating the shift as the new tools present both opportunities and competitive threats.",
-      "why_it_matters": "The commercialization of consumer-facing AI agents changes market dynamics and developer integration requirements.",
-      "item_ids": [
-        "0289b26f177bf3f8786fdf29b40924da",
-        "883230cc7ed81bfe581f0eb761786911"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-01T08:01:22.916101Z",
-      "last_shown": "2026-11-01T10:01:25.798932Z"
-    },
-    {
-      "id": "5e5bbde4ea12fd957eb24499c6367439",
-      "title": "HackerTube: YouTube built from videos recommended by HN",
-      "summary": "YouTube-style UI over 6,454 videos sourced from 39,834 HN comments since 2007.https://hackertube.org/",
-      "why_it_matters": "A unique community curation project providing a YouTube-style UI over thousands of developer-recommended videos.",
-      "item_ids": [
-        "5e5bbde4ea12fd957eb24499c6367439"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-31T23:01:21.704371Z",
-      "last_shown": "2026-11-01T09:01:28.748811Z"
     }
   ]
 }
