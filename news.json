@@ -1,6 +1,60 @@
 {
-  "generated_at": "2026-11-01T09:01:28.748811Z",
+  "generated_at": "2026-11-01T10:01:25.798932Z",
   "items": [
+    {
+      "id": "e743e68c9e4b91b7f5b03c03cfc71e9f",
+      "title": "Landline phones will switch off across Britland in 100 days, no extensions – Openreach",
+      "url": "https://www.theregister.com/networks/2026/11/01/landline-phones-will-switch-off-across-britland-in-100-days-no-extensions-openreach/5306673",
+      "source_id": "the-register",
+      "source_name": "The Register",
+      "category": "tech",
+      "summary": "Legacy public switched telephone network service is to be retired on January 31, 2027",
+      "published_at": "2026-11-01T09:04:00Z",
+      "fetched_at": "2026-11-01T10:01:25.798932Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "4215f7796e3907e8b22c683a1ae114ca",
+      "title": "CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key",
+      "url": "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
+      "source_id": "the-hacker-news",
+      "source_name": "The Hacker News",
+      "category": "tech",
+      "summary": "A critical flaw in Canonical's LXD and MicroCloud let an attacker log in as a trusted client without holding that client's private key. To do it, the attacker had to reach their HTTPS API over the network and have the trusted client's public certificate. Once in, the attacker would act as that client, with access to the cluster and its virtual machines. If the impersonated account is",
+      "published_at": "2026-11-01T08:51:31Z",
+      "fetched_at": "2026-11-01T10:01:25.798932Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 4
+    },
+    {
+      "id": "cc4a14764ab4d5d1e0cfbd32f44ad48e",
+      "title": "Japan's trains are great. Why is booking one so hard?",
+      "url": "https://vinibrasil.com/japan-train/",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-11-01T08:47:50Z",
+      "fetched_at": "2026-11-01T10:01:25.798932Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50323731",
+      "points": 8,
+      "comments": 12,
+      "engineering": false,
+      "blog": false,
+      "review": "pending",
+      "importance": null
+    },
     {
       "id": "132263ccaea09553152a91154361e6c5",
       "title": "AWS Capacity Largely Sold Out Through 2027, With On Demand Headroom Reserved",
@@ -17,7 +71,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "a0d63b5c831701beec290532fd002c3e",
@@ -71,7 +125,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "a18021832e4899eecedd397871a53614",
@@ -89,7 +143,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "552eca1886b98e14d37801dedbe7d72d",
@@ -120,8 +174,8 @@
       "published_at": "2026-11-01T06:29:49Z",
       "fetched_at": "2026-11-01T09:01:28.748811Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50323187",
-      "points": 9,
-      "comments": 3,
+      "points": 18,
+      "comments": 6,
       "engineering": false,
       "blog": false,
       "review": "pending",
@@ -138,8 +192,8 @@
       "published_at": "2026-11-01T06:06:19Z",
       "fetched_at": "2026-11-01T08:01:22.916101Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50323088",
-      "points": 38,
-      "comments": 13,
+      "points": 66,
+      "comments": 33,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -210,8 +264,8 @@
       "published_at": "2026-11-01T02:19:53Z",
       "fetched_at": "2026-11-01T04:01:26.829401Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50322173",
-      "points": 104,
-      "comments": 41,
+      "points": 117,
+      "comments": 49,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -251,7 +305,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "84cf9329714eea168e1f2ad3db7bd938",
@@ -264,12 +318,12 @@
       "published_at": "2026-11-01T01:46:29Z",
       "fetched_at": "2026-11-01T04:01:26.829401Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50322022",
-      "points": 77,
-      "comments": 35,
+      "points": 86,
+      "comments": 40,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "2342fe2f3965fd11b3caa05c68cdf5c0",
@@ -282,7 +336,7 @@
       "published_at": "2026-11-01T00:10:30Z",
       "fetched_at": "2026-11-01T03:01:25.663589Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50321522",
-      "points": 27,
+      "points": 30,
       "comments": 8,
       "engineering": false,
       "blog": false,
@@ -354,7 +408,7 @@
       "published_at": "2026-10-31T22:54:55Z",
       "fetched_at": "2026-11-01T01:01:25.104054Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50321048",
-      "points": 105,
+      "points": 109,
       "comments": 4,
       "engineering": false,
       "blog": false,
@@ -372,8 +426,8 @@
       "published_at": "2026-10-31T22:46:12Z",
       "fetched_at": "2026-11-01T00:01:26.402950Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50320995",
-      "points": 213,
-      "comments": 104,
+      "points": 228,
+      "comments": 109,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -390,8 +444,8 @@
       "published_at": "2026-10-31T22:41:06Z",
       "fetched_at": "2026-11-01T00:01:26.402950Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50320963",
-      "points": 380,
-      "comments": 108,
+      "points": 433,
+      "comments": 124,
       "engineering": false,
       "blog": false,
       "review": "excluded",
@@ -449,7 +503,7 @@
       "engineering": false,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "d3b4a726d753c6f05dbc52d60570fe69",
@@ -480,8 +534,8 @@
       "published_at": "2026-10-31T21:49:07Z",
       "fetched_at": "2026-11-01T05:01:24.835135Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50320588",
-      "points": 103,
-      "comments": 45,
+      "points": 121,
+      "comments": 58,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -642,8 +696,8 @@
       "published_at": "2026-10-31T20:02:06Z",
       "fetched_at": "2026-10-31T21:55:03.324759Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50319563",
-      "points": 114,
-      "comments": 34,
+      "points": 116,
+      "comments": 36,
       "engineering": false,
       "blog": false,
       "review": "excluded",
@@ -660,12 +714,12 @@
       "published_at": "2026-10-31T19:56:53Z",
       "fetched_at": "2026-10-31T21:55:03.324759Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50319510",
-      "points": 1225,
-      "comments": 353,
+      "points": 1294,
+      "comments": 365,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "1483390d28a6ea8a4bd202064136ff42",
@@ -732,12 +786,12 @@
       "published_at": "2026-10-31T19:39:19Z",
       "fetched_at": "2026-10-31T21:55:03.324759Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50319358",
-      "points": 334,
-      "comments": 190,
+      "points": 347,
+      "comments": 204,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "68e79934a3f6c5d5102aeb627c5b8649",
@@ -786,8 +840,8 @@
       "published_at": "2026-10-31T19:16:30Z",
       "fetched_at": "2026-10-31T21:55:03.324759Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50319143",
-      "points": 491,
-      "comments": 226,
+      "points": 503,
+      "comments": 232,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -804,8 +858,8 @@
       "published_at": "2026-10-31T19:13:34Z",
       "fetched_at": "2026-11-01T02:01:28.643325Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50319110",
-      "points": 95,
-      "comments": 40,
+      "points": 106,
+      "comments": 43,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -822,7 +876,7 @@
       "published_at": "2026-10-31T19:07:36Z",
       "fetched_at": "2026-10-31T21:55:03.324759Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50319061",
-      "points": 115,
+      "points": 118,
       "comments": 32,
       "engineering": false,
       "blog": false,
@@ -863,7 +917,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "2eec121539282a21bda334395a804683",
@@ -876,10 +930,10 @@
       "published_at": "2026-10-31T18:38:16Z",
       "fetched_at": "2026-10-31T21:55:03.324759Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50318720",
-      "points": 188,
-      "comments": 54,
+      "points": 194,
+      "comments": 61,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -917,7 +971,7 @@
       "engineering": false,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "130fdb09e8ea5478efc360f6c7ff12df",
@@ -1097,7 +1151,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 1
+      "importance": 2
     },
     {
       "id": "0d2e7ddcdf8a6776a0f22a532c0297ba",
@@ -1221,7 +1275,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 2
     },
@@ -1331,7 +1385,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "15ef8df9ce5503d24b79fb88c5495088",
@@ -1349,7 +1403,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "29a8bbdb55f283fd3b32978544a373d0",
@@ -1383,7 +1437,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 2
     },
@@ -1401,7 +1455,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 2
     },
@@ -1673,7 +1727,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "e37890ec88ada68f734f1ed31eb395b2",
@@ -1853,7 +1907,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "888c7a04e18bd0b208f7d622ad621b29",
@@ -1889,7 +1943,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "06f474c4f7fd92ec232818dab22f13a3",
@@ -1943,7 +1997,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 1
+      "importance": 2
     },
     {
       "id": "3ddd15876c2be0a7ddaf77edd1af6926",
@@ -2046,8 +2100,8 @@
       "published_at": "2026-10-31T10:30:11Z",
       "fetched_at": "2026-10-31T12:01:22.409476Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50314699",
-      "points": 325,
-      "comments": 162,
+      "points": 330,
+      "comments": 164,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -2123,7 +2177,7 @@
       "engineering": false,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "bb6b9e889f929480e3e240e13344384f",
@@ -2285,7 +2339,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "dcbb24c416f448a0ff7d9a42b529084d",
@@ -2375,7 +2429,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "cb0987e4c264f2fc85743ec47a6a401a",
@@ -2501,7 +2555,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "6ced685d11b75a91cb83d7ef3d3a3468",
@@ -2573,7 +2627,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 1
+      "importance": 2
     },
     {
       "id": "6e8dd6f8239017e07700588f7052220a",
@@ -2663,7 +2717,25 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
+    },
+    {
+      "id": "ca36d63f08e3ee377287ea1d5f44070e",
+      "title": "Zinc creep in cable spelter sockets brought down the Arecibo telescope in 2020",
+      "url": "https://maketecheasier.com/arecibo-zinc-creep-collapse/",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-10-30T22:41:03Z",
+      "fetched_at": "2026-11-01T10:01:25.798932Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50311045",
+      "points": 110,
+      "comments": 27,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "38de4b51ef7155ceadc20c137be40a0b",
@@ -2697,7 +2769,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 2
     },
@@ -2789,7 +2861,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "d108719896473881d76b163fd2d1a604",
@@ -26012,96 +26084,6 @@
       "importance": 2
     },
     {
-      "id": "7b67217126030ec4dc203b85db3fd15f",
-      "title": "Hyve Smart Package Locker Review: Protecting Your Holiday Deliveries",
-      "url": "https://www.wired.com/review/hyve-smart-package-locker/",
-      "source_id": "wired",
-      "source_name": "Wired",
-      "category": "tech",
-      "summary": "Hyve’s smart porch lockbox can secure incoming gifts—if your delivery driver uses it and there’s still room inside.",
-      "published_at": "2026-10-25T10:01:00Z",
-      "fetched_at": "2026-10-25T11:01:28.671114Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "pending",
-      "importance": null
-    },
-    {
-      "id": "05be33b96f4d26715b54a4b080cea1d3",
-      "title": "What the US Movement Against Data Centers Can Learn From Abroad",
-      "url": "https://www.wired.com/story/what-the-us-anti-data-center-movement-can-learn-from-everywhere-else/",
-      "source_id": "wired",
-      "source_name": "Wired",
-      "category": "tech",
-      "summary": "Paris Marx, author of Hyperscale, has been tracking global data center development for years. The US has a lot to learn from what’s happened everywhere from Ireland to New Zealand.",
-      "published_at": "2026-10-25T10:00:00Z",
-      "fetched_at": "2026-10-25T11:01:28.671114Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 2
-    },
-    {
-      "id": "edee85d7a87adf79321ccc1089d4291e",
-      "title": "France asked ISPs to prepare temporary DNS blocks for major social platforms",
-      "url": "https://www.blast-info.fr/articles/2026/information-exclusive-blast-le-premier-ministre-a-prepare-la-coupure-des-reseaux-sociaux-pour-le-24-octobre-9D8cgrU5S5iiW14Sb9nMzQ",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-25T09:56:49Z",
-      "fetched_at": "2026-10-25T11:01:28.671114Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50229861",
-      "points": 82,
-      "comments": 68,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "82278c2d47ed8bcab226b3dd4623c2bc",
-      "title": "Nikon photography contest winner loses title after scientists spot signs of AI",
-      "url": "https://www.techspot.com/news/114171-nikon-photography-contest-winner-loses-title-after-scientists.html",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-25T09:51:17Z",
-      "fetched_at": "2026-10-25T12:01:26.091857Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50229827",
-      "points": 111,
-      "comments": 44,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "9e7ab3f8135fc0c91f6fe539a24e70fe",
-      "title": "Online censorship is crushing indie webcomics",
-      "url": "https://xtramagazine.com/culture/online-censorship-indie-webcomics-284463",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-25T09:04:13Z",
-      "fetched_at": "2026-10-25T10:01:26.569353Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50229599",
-      "points": 79,
-      "comments": 59,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
       "id": "70406f647dd07cd5959af1ffee236d4b",
       "title": "Show HN: ADRs for AI – Deliberation records for human–AI work, versioned in Git",
       "url": "https://adrs.systems",
@@ -28552,49 +28534,10 @@
   ],
   "top_stories": [
     {
-      "id": "a18021832e4899eecedd397871a53614",
-      "title": "FBI Links North Korea's TraderTraitor to Record $6.43 Billion Binance Crypto Heist",
-      "summary": "The FBI has officially attributed the theft of over $6 billion in virtual assets to North Korea-aligned hacking group TraderTraitor following a record-breaking crypto heist on Binance. The Binance CEO stated that 90 percent of the stolen customer assets have since been replenished.",
-      "why_it_matters": "Highlights massive vulnerabilities and financial scale in crypto exchange security and threat actor attribution.",
-      "item_ids": [
-        "a18021832e4899eecedd397871a53614",
-        "4dd2ab7fa688cfd556ea9b75d2e0c37e"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-29T23:00:27.287845Z",
-      "last_shown": "2026-11-01T09:01:28.748811Z"
-    },
-    {
-      "id": "8a3f9c49ba0fb369d84b8b932507b81f",
-      "title": "Chainalysis Discloses Data Breach After Attackers Use Offensive Agentic Techniques",
-      "summary": "Blockchain analytics firm Chainalysis disclosed a security breach after attackers used offensive agentic techniques to access internal systems and tools. The intrusion exposed customer names, email addresses, user IDs, and non-sensitive customer data.",
-      "why_it_matters": "Demonstrates the emerging risk of AI-driven and agentic attacks targeting enterprise internal security tools.",
-      "item_ids": [
-        "8a3f9c49ba0fb369d84b8b932507b81f",
-        "065d6fd5d0631ffc27d73b8c2b655996"
-      ],
-      "primary_url": "https://www.chainalysis.com/blog/security-incident-october-30",
-      "first_shown": "2026-10-31T13:01:33.654119Z",
-      "last_shown": "2026-11-01T09:01:28.748811Z"
-    },
-    {
-      "id": "a9e2dda1166cf5c698b6e0423449f5e2",
-      "title": "OpenAI Lowers Funding Target as Latest Round Falls Short of Expectations",
-      "summary": "OpenAI's latest funding round has reportedly lowered its target, failing to live up to initial expectations. Reports indicate the company raised less than half of its $30 billion target.",
-      "why_it_matters": "Signals shifting financial and investor sentiment around high-growth generative AI infrastructure funding.",
-      "item_ids": [
-        "a9e2dda1166cf5c698b6e0423449f5e2",
-        "53d4c9d19e1784453d96f08f0c09ca50"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-31T19:01:24.981446Z",
-      "last_shown": "2026-11-01T09:01:28.748811Z"
-    },
-    {
       "id": "cf9827198cd4046b14ebdf7539674115",
-      "title": "Parameter Labs Expose Vulnerability in ChatGPT Artifacts Allowing Account Takeovers",
-      "summary": "Researchers at Parameter Labs discovered an exploit against ChatGPT's implementation of the artifacts pattern that let malicious shared links run attacker code in a logged-in user's session and read private chats.",
-      "why_it_matters": "Highlights critical frontend sandboxing and session safety risks in interactive AI chat platforms.",
+      "title": "Parameter Labs Exploit Lets Attackers Take Over ChatGPT Accounts",
+      "summary": "Researchers at Parameter Labs uncovered an exploit involving ChatGPT's implementation of the artifacts pattern. A malicious shared link could run an attacker's code in a logged-in user's session and read private chats.",
+      "why_it_matters": "This is a critical security vulnerability affecting LLM web applications, illustrating how untrusted data and code execution patterns can compromise user sessions and privacy.",
       "item_ids": [
         "cf9827198cd4046b14ebdf7539674115",
         "0c564788cac6ac55b1310472e8353688",
@@ -28602,7 +28545,46 @@
       ],
       "primary_url": null,
       "first_shown": "2026-11-01T00:01:26.402950Z",
-      "last_shown": "2026-11-01T09:01:28.748811Z"
+      "last_shown": "2026-11-01T10:01:25.798932Z"
+    },
+    {
+      "id": "a18021832e4899eecedd397871a53614",
+      "title": "FBI Links North Korea's TraderTraitor to Record $6.43 Billion Binance Heist",
+      "summary": "The FBI officially attributed the theft of over $6 billion in virtual assets to the North Korea-aligned hacking group TraderTraitor. The company's CEO stated that 90 percent of the stolen assets have been replenished.",
+      "why_it_matters": "It highlights massive cryptocurrency security breaches, state-sponsored cybercrime groups, and the financial exposure of major exchanges.",
+      "item_ids": [
+        "a18021832e4899eecedd397871a53614",
+        "4dd2ab7fa688cfd556ea9b75d2e0c37e"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-29T23:00:27.287845Z",
+      "last_shown": "2026-11-01T10:01:25.798932Z"
+    },
+    {
+      "id": "8a3f9c49ba0fb369d84b8b932507b81f",
+      "title": "Chainalysis Discloses Data Breach Resulting From Offensive Agentic Techniques",
+      "summary": "Blockchain analytics firm Chainalysis disclosed a data breach after attackers used offensive agentic techniques to access internal systems and tools. The breach exposed customer names, email addresses, and user data.",
+      "why_it_matters": "It demonstrates how attackers are beginning to weaponize autonomous agentic techniques against enterprise systems.",
+      "item_ids": [
+        "8a3f9c49ba0fb369d84b8b932507b81f",
+        "065d6fd5d0631ffc27d73b8c2b655996"
+      ],
+      "primary_url": "https://www.chainalysis.com/blog/security-incident-october-30",
+      "first_shown": "2026-10-31T13:01:33.654119Z",
+      "last_shown": "2026-11-01T10:01:25.798932Z"
+    },
+    {
+      "id": "53d4c9d19e1784453d96f08f0c09ca50",
+      "title": "OpenAI Lowers Funding Target for New Funding Round",
+      "summary": "OpenAI's latest funding round reportedly did not live up to expectations, with the company raising less than half of its $30 billion target.",
+      "why_it_matters": "It sheds light on shifting venture capital dynamics and market appetite for massive AI infrastructure investments.",
+      "item_ids": [
+        "53d4c9d19e1784453d96f08f0c09ca50",
+        "a9e2dda1166cf5c698b6e0423449f5e2"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-31T19:01:24.981446Z",
+      "last_shown": "2026-11-01T10:01:25.798932Z"
     },
     {
       "id": "0289b26f177bf3f8786fdf29b40924da",
@@ -28615,20 +28597,70 @@
       ],
       "primary_url": null,
       "first_shown": "2026-11-01T08:01:22.916101Z",
-      "last_shown": "2026-11-01T09:01:28.748811Z"
+      "last_shown": "2026-11-01T10:01:25.798932Z"
     },
     {
       "id": "b3d72d5cb22270220a93ac32672f722f",
       "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
       "summary": null,
-      "why_it_matters": "Discloses a critical TCP Use-After-Free vulnerability carrying a CVSS score of 9.8, demanding immediate kernel patching.",
+      "why_it_matters": "A critical TCP use-after-free vulnerability with a CVSS score of 9.8 presents severe networking and infrastructure security risks across systems.",
       "item_ids": [
         "b3d72d5cb22270220a93ac32672f722f"
       ],
       "primary_url": null,
       "first_shown": "2026-10-31T21:55:03.324759Z",
-      "last_shown": "2026-11-01T09:01:28.748811Z"
+      "last_shown": "2026-11-01T10:01:25.798932Z"
     },
+    {
+      "id": "d85df1e10c1e1df7baedacae31ff9adf",
+      "title": "Malware uses LLMs to rank victims by how much they're worth",
+      "summary": null,
+      "why_it_matters": "Malware leveraging LLMs to profile and rank victims based on estimated financial worth marks an evolution in automated cyber extortion tactics.",
+      "item_ids": [
+        "d85df1e10c1e1df7baedacae31ff9adf"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-01T06:01:24.173995Z",
+      "last_shown": "2026-11-01T10:01:25.798932Z"
+    },
+    {
+      "id": "e3805bbe0cc3eb6f0f60b963b7952010",
+      "title": "Northflank security breach leads to abuse of customers' AI API keys",
+      "summary": "Cloud application hosting platform Northflank is warning customers to rotate all credentials and secrets stored on its platform after a security breach led to unauthorized use of customers' AI API keys. [...]",
+      "why_it_matters": "A security breach at application hosting platform Northflank forced warnings to rotate credentials due to unauthorized AI API key usage.",
+      "item_ids": [
+        "e3805bbe0cc3eb6f0f60b963b7952010"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-10-31T19:01:24.981446Z",
+      "last_shown": "2026-11-01T10:01:25.798932Z"
+    },
+    {
+      "id": "8b95ff6d8b4ea23c3160222bba897f42",
+      "title": "Anthropic blocks users for anything touching training larger models",
+      "summary": null,
+      "why_it_matters": "Anthropic's policy enforcement and account blocking related to training larger models highlights rising tensions around data scraping and model extraction.",
+      "item_ids": [
+        "8b95ff6d8b4ea23c3160222bba897f42"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-01T10:01:25.798932Z",
+      "last_shown": "2026-11-01T10:01:25.798932Z"
+    },
+    {
+      "id": "28646d9dcd9888e2807256f1b37827f6",
+      "title": "Hackers Steal About $2.7 Million From Polymarket Traders via Hijacked DebugBear Script",
+      "summary": "Malicious code on the website of prediction market Polymarket sold some signed-in traders' positions and moved their funds to the hackers on October 29. The code had replaced a page-speed script that the site loaded from an outside company. Polymarket says it is refunding about $2.7 million to 726 affected wallets. Blockchain records show crypto worth about $2.64 million reached",
+      "why_it_matters": "A script hijacking attack on prediction market Polymarket drained trader funds, underscoring supply chain risks in web frontend dependencies.",
+      "item_ids": [
+        "28646d9dcd9888e2807256f1b37827f6"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-01T08:01:22.916101Z",
+      "last_shown": "2026-11-01T10:01:25.798932Z"
+    }
+  ],
+  "past_top_stories": [
     {
       "id": "5e5bbde4ea12fd957eb24499c6367439",
       "title": "HackerTube: YouTube built from videos recommended by HN",
@@ -28666,32 +28698,6 @@
       "last_shown": "2026-11-01T09:01:28.748811Z"
     },
     {
-      "id": "d85df1e10c1e1df7baedacae31ff9adf",
-      "title": "Malware uses LLMs to rank victims by how much they're worth",
-      "summary": null,
-      "why_it_matters": "Details a concerning evolution in threat intelligence where malware leverages LLMs to evaluate and rank victims.",
-      "item_ids": [
-        "d85df1e10c1e1df7baedacae31ff9adf"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-01T06:01:24.173995Z",
-      "last_shown": "2026-11-01T09:01:28.748811Z"
-    }
-  ],
-  "past_top_stories": [
-    {
-      "id": "28646d9dcd9888e2807256f1b37827f6",
-      "title": "Hackers Steal About $2.7 Million From Polymarket Traders via Hijacked DebugBear Script",
-      "summary": "Malicious code on the website of prediction market Polymarket sold some signed-in traders' positions and moved their funds to the hackers on October 29. The code had replaced a page-speed script that the site loaded from an outside company. Polymarket says it is refunding about $2.7 million to 726 affected wallets. Blockchain records show crypto worth about $2.64 million reached",
-      "why_it_matters": "Malicious code injection replacing site scripts on prediction platforms demonstrates ongoing risks to user assets and frontend security.",
-      "item_ids": [
-        "28646d9dcd9888e2807256f1b37827f6"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-01T08:01:22.916101Z",
-      "last_shown": "2026-11-01T08:01:22.916101Z"
-    },
-    {
       "id": "552eca1886b98e14d37801dedbe7d72d",
       "title": "File Mover Express: AWS Releases Open-Source Tool for S3 File Transfers",
       "summary": "AWS has recently released File Mover Express, an open-source application under the Apache 2.0 license for transferring large files between local systems and Amazon S3. Available for macOS, Windows, and Linux, it supports parallel transfers, automatic performance tuning, retries, pause and resume, and file integrity verification. By Renato Losio",
@@ -28714,18 +28720,6 @@
       "primary_url": null,
       "first_shown": "2026-11-01T08:01:22.916101Z",
       "last_shown": "2026-11-01T08:01:22.916101Z"
-    },
-    {
-      "id": "e3805bbe0cc3eb6f0f60b963b7952010",
-      "title": "Northflank security breach leads to abuse of customers' AI API keys",
-      "summary": "Cloud application hosting platform Northflank is warning customers to rotate all credentials and secrets stored on its platform after a security breach led to unauthorized use of customers' AI API keys. [...]",
-      "why_it_matters": "A cloud hosting platform breach resulting in unauthorized use of AI API keys underscores critical secrets management risks.",
-      "item_ids": [
-        "e3805bbe0cc3eb6f0f60b963b7952010"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-31T19:01:24.981446Z",
-      "last_shown": "2026-11-01T07:01:27.762462Z"
     },
     {
       "id": "15ef8df9ce5503d24b79fb88c5495088",
@@ -28786,18 +28780,6 @@
       ],
       "primary_url": null,
       "first_shown": "2026-10-30T19:03:26.384502Z",
-      "last_shown": "2026-11-01T06:01:24.173995Z"
-    },
-    {
-      "id": "2c1ffc90ca5ca707aebe507ff90abd4b",
-      "title": "Google Discloses PageBreak AI Security Agent That Found 500+ XSS Bugs",
-      "summary": "According to a paper published by Google, its AI-powered security agent has uncovered more than 500 XSS vulnerabilities across its web applications since entering full operation in January. PageBreak uses Gemini models to autonomously investigate potential vulnerabilities, but reports them only after deterministic validators successfully reproduce the exploit against a running application. By Renato Losio",
-      "why_it_matters": "Google's disclosure of its PageBreak AI agent uncovering over 500 XSS bugs illustrates the growing role of autonomous security tooling.",
-      "item_ids": [
-        "2c1ffc90ca5ca707aebe507ff90abd4b"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-31T18:01:24.140946Z",
       "last_shown": "2026-11-01T06:01:24.173995Z"
     }
   ]
