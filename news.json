@@ -1,6 +1,24 @@
 {
-  "generated_at": "2026-11-02T00:01:24.045043Z",
+  "generated_at": "2026-11-02T01:01:23.840227Z",
   "items": [
+    {
+      "id": "8a9387ebf3f240fe2ebd1cbf83a5aa49",
+      "title": "Kernel prepatch 7.4-rc1",
+      "url": "https://lwn.net/Articles/1104654/",
+      "source_id": "lwn",
+      "source_name": "LWN.net",
+      "category": "tech",
+      "summary": "The 7.4-rc1 kernel prepatch is out, and the merge window is closed for this development cycle. This is a *BIG* merge window. I think the reason is the by now obvious one, but I'm actually taking it as a good sign: I'm *much* happier with the flood of AI triggered work going into the merge window than it showing up mainly as extra fixes during the -rc period. So I'm hoping that this merge window being larger than usual is a sign that the AI fixes are becoming more part of the \"normal…",
+      "published_at": "2026-11-02T00:17:08Z",
+      "fetched_at": "2026-11-02T01:01:23.840227Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 4
+    },
     {
       "id": "d1b8b52dd727496a359b5f6ee4aa6f4b",
       "title": "If in doubt, delete the uv.lock file",
@@ -15,7 +33,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -30,12 +48,12 @@
       "published_at": "2026-11-01T23:20:31Z",
       "fetched_at": "2026-11-02T00:01:24.045043Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50330939",
-      "points": 89,
-      "comments": 15,
+      "points": 177,
+      "comments": 74,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "b34b905399522735f9529396f2db5776",
@@ -69,9 +87,9 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "b8f1d92dc2639331bf220c3556fa567f",
@@ -84,8 +102,8 @@
       "published_at": "2026-11-01T22:10:45Z",
       "fetched_at": "2026-11-02T00:01:24.045043Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50330456",
-      "points": 68,
-      "comments": 40,
+      "points": 128,
+      "comments": 114,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -159,7 +177,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 2
     },
@@ -179,7 +197,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "9bf56bd7683a5d58872d16aee5c5b821",
@@ -231,7 +249,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 2
     },
@@ -249,7 +267,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -300,8 +318,8 @@
       "published_at": "2026-11-01T19:35:27Z",
       "fetched_at": "2026-11-01T22:27:44.134364Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50328896",
-      "points": 83,
-      "comments": 147,
+      "points": 119,
+      "comments": 209,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -323,7 +341,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "b7ecff74ee5f84a462fc160e9a92cb4e",
@@ -359,7 +377,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "9a5647257a9e0144d60b2f8044db4c34",
@@ -377,7 +395,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "da814404112ed02e3c06393d0a646116",
@@ -408,8 +426,8 @@
       "published_at": "2026-11-01T18:28:42Z",
       "fetched_at": "2026-11-01T19:01:27.444228Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50328251",
-      "points": 199,
-      "comments": 212,
+      "points": 214,
+      "comments": 233,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -429,9 +447,9 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "30c964b75ac62c66999c957f271333c8",
@@ -447,7 +465,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -465,7 +483,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 2
     },
@@ -483,9 +501,9 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "ddb8d6f8717eccb016cccad6e68d7b52",
@@ -498,8 +516,8 @@
       "published_at": "2026-11-01T17:28:16Z",
       "fetched_at": "2026-11-01T18:01:23.687417Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50327650",
-      "points": 338,
-      "comments": 242,
+      "points": 359,
+      "comments": 250,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -519,9 +537,9 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "83a842b3635c3d14bd6aba5e1bac6d5a",
@@ -573,7 +591,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -588,12 +606,12 @@
       "published_at": "2026-11-01T16:46:33Z",
       "fetched_at": "2026-11-01T18:01:23.687417Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50327266",
-      "points": 160,
-      "comments": 53,
+      "points": 167,
+      "comments": 60,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "e8cf5d7778e5778f5be800703d5db86a",
@@ -611,7 +629,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "43a8fe31836aa3e4c874ff696e0b9263",
@@ -624,12 +642,12 @@
       "published_at": "2026-11-01T16:23:26Z",
       "fetched_at": "2026-11-01T18:08:34.929426Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50327058",
-      "points": 127,
-      "comments": 32,
+      "points": 132,
+      "comments": 33,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "3a9ed011ea6d2edba929acd6f74c534e",
@@ -681,9 +699,9 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "17a4775124a31d9efdb2600c74259cb1",
@@ -701,7 +719,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "efa7ab2d5407d7f06486c3fa68cd6464",
@@ -714,12 +732,12 @@
       "published_at": "2026-11-01T15:58:28Z",
       "fetched_at": "2026-11-01T17:01:30.198487Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50326821",
-      "points": 810,
-      "comments": 165,
+      "points": 884,
+      "comments": 172,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "46e0da61266442c1288373adbee8c9eb",
@@ -753,9 +771,9 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 1
     },
     {
       "id": "f960decb10d088fdf6fd68c98176b542",
@@ -771,7 +789,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 2
     },
@@ -827,7 +845,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "3d78143c0873b4065834236315155b08",
@@ -876,8 +894,8 @@
       "published_at": "2026-11-01T14:34:43Z",
       "fetched_at": "2026-11-01T15:01:22.357217Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50326099",
-      "points": 366,
-      "comments": 130,
+      "points": 387,
+      "comments": 138,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -899,7 +917,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "a03168139cf40f6f4cd4fe7e42fe681d",
@@ -915,7 +933,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 2
     },
@@ -935,7 +953,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "66736265d1050c216ea953774e6b565d",
@@ -953,7 +971,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "2557ff03205c626b01d4035ef9646593",
@@ -1002,10 +1020,10 @@
       "published_at": "2026-11-01T13:24:49Z",
       "fetched_at": "2026-11-01T14:01:23.349600Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50325454",
-      "points": 101,
-      "comments": 55,
+      "points": 105,
+      "comments": 59,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -1038,7 +1056,7 @@
       "published_at": "2026-11-01T13:02:30Z",
       "fetched_at": "2026-11-01T16:01:25.978254Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50325253",
-      "points": 138,
+      "points": 150,
       "comments": 38,
       "engineering": false,
       "blog": null,
@@ -1079,7 +1097,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "e043832f5603e6167da273e754dd0628",
@@ -1131,9 +1149,9 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "3d3d9cc389d5f76aa3175ceb2dd1da61",
@@ -1149,7 +1167,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 2
     },
@@ -1187,7 +1205,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "3c0a5e92cd1c531f571a56507ba5d6fc",
@@ -1205,7 +1223,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "16726248d87d28bae8045badfa862b44",
@@ -1259,7 +1277,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "36f6ab4d64fdf690b8d9f626ef92634c",
@@ -1275,9 +1293,9 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "056690115def86b45d85e4e571d5879a",
@@ -1295,7 +1313,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "cb703f29404232cc77a229a3019c017e",
@@ -1311,7 +1329,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 2
     },
@@ -1349,7 +1367,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "523d2155e10547ef8e87ec86306daa4a",
@@ -1362,12 +1380,12 @@
       "published_at": "2026-11-01T10:44:20Z",
       "fetched_at": "2026-11-01T22:27:44.134364Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50324371",
-      "points": 51,
+      "points": 53,
       "comments": 47,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "f7564fa4c6054ced82da4f317daa81af",
@@ -1403,7 +1421,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "d84037f748b423fbdd6bc34c3e9b032b",
@@ -1506,12 +1524,12 @@
       "published_at": "2026-11-01T09:04:00Z",
       "fetched_at": "2026-11-01T10:01:25.798932Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50326609",
-      "points": 120,
-      "comments": 93,
+      "points": 129,
+      "comments": 100,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "4215f7796e3907e8b22c683a1ae114ca",
@@ -1565,7 +1583,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "a0d63b5c831701beec290532fd002c3e",
@@ -1619,7 +1637,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "a18021832e4899eecedd397871a53614",
@@ -1637,7 +1655,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "552eca1886b98e14d37801dedbe7d72d",
@@ -1673,7 +1691,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 1
     },
     {
       "id": "41060ed57e94f4dbe37eaf49a6cf8190",
@@ -1686,12 +1704,12 @@
       "published_at": "2026-11-01T06:06:19Z",
       "fetched_at": "2026-11-01T08:01:22.916101Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50323088",
-      "points": 282,
-      "comments": 220,
+      "points": 291,
+      "comments": 227,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "d13f9bba28318a164c9702b46c947ed0",
@@ -1707,9 +1725,9 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "26a1c04951aa16059cea39bf0268f2dd",
@@ -1725,7 +1743,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 2
     },
@@ -1763,7 +1781,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "47f35c4530bcf6f6679b95f269e647ae",
@@ -1799,7 +1817,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "84cf9329714eea168e1f2ad3db7bd938",
@@ -1833,7 +1851,7 @@
       "points": 35,
       "comments": 8,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -1851,9 +1869,9 @@
       "points": 15,
       "comments": 1,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "0c564788cac6ac55b1310472e8353688",
@@ -1871,7 +1889,7 @@
       "engineering": false,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "5a2a8f7bfacc00814ae9a4f0558fdb68",
@@ -1938,7 +1956,7 @@
       "published_at": "2026-10-31T22:41:06Z",
       "fetched_at": "2026-11-01T00:01:26.402950Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50320963",
-      "points": 760,
+      "points": 768,
       "comments": 197,
       "engineering": false,
       "blog": false,
@@ -1977,7 +1995,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 2
     },
@@ -1995,9 +2013,9 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "d3b4a726d753c6f05dbc52d60570fe69",
@@ -2015,7 +2033,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "e705a4465849e1b608d0a5aab1f5dc06",
@@ -2051,7 +2069,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "b2f4babeed363cb4ad8575f14a851e04",
@@ -2159,7 +2177,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 1
+      "importance": 2
     },
     {
       "id": "447d86b60f00db6896b79664fc8cb740",
@@ -2175,7 +2193,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 2
     },
@@ -2190,8 +2208,8 @@
       "published_at": "2026-10-31T20:21:55Z",
       "fetched_at": "2026-11-01T16:01:25.978254Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50319749",
-      "points": 80,
-      "comments": 118,
+      "points": 84,
+      "comments": 121,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -2226,12 +2244,12 @@
       "published_at": "2026-10-31T19:56:53Z",
       "fetched_at": "2026-10-31T21:55:03.324759Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50319510",
-      "points": 2209,
-      "comments": 532,
+      "points": 2260,
+      "comments": 538,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "1483390d28a6ea8a4bd202064136ff42",
@@ -2249,7 +2267,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "9efd70000e67462ec819ee8badb18ae5",
@@ -2265,7 +2283,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -2283,7 +2301,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 2
     },
@@ -2303,7 +2321,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "68e79934a3f6c5d5102aeb627c5b8649",
@@ -2375,7 +2393,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "5859df24cbb5864d6d1e5b44a1887570",
@@ -2481,7 +2499,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -2517,7 +2535,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 2
     },
@@ -2604,12 +2622,12 @@
       "published_at": "2026-10-31T17:29:39Z",
       "fetched_at": "2026-11-02T00:01:24.045043Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50318129",
-      "points": 8,
-      "comments": 0,
+      "points": 12,
+      "comments": 1,
       "engineering": false,
       "blog": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 1
     },
     {
       "id": "9d589aeb3c83c62b242a9983e8c00030",
@@ -2643,7 +2661,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -2805,9 +2823,9 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "0289b26f177bf3f8786fdf29b40924da",
@@ -2915,7 +2933,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "15ef8df9ce5503d24b79fb88c5495088",
@@ -2951,7 +2969,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "566cc2e4f131bb7a3b5b579512f43811",
@@ -2967,9 +2985,9 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "728be93c2dcd8117b092c99db7a720b6",
@@ -2985,9 +3003,9 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 1
     },
     {
       "id": "caa5fccb89152b860435211bfce249b4",
@@ -3113,7 +3131,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "433fba26eee99574ae52aa1e18df2893",
@@ -3203,7 +3221,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 1
+      "importance": 2
     },
     {
       "id": "c339e35c92ebea3f54d3ce4431a73fd2",
@@ -3275,7 +3293,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "e37890ec88ada68f734f1ed31eb395b2",
@@ -3738,8 +3756,8 @@
       "published_at": "2026-10-31T10:14:08Z",
       "fetched_at": "2026-11-01T15:01:22.357217Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50314617",
-      "points": 22,
-      "comments": 5,
+      "points": 120,
+      "comments": 39,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -26084,96 +26102,6 @@
       "importance": 4
     },
     {
-      "id": "61e5ec778114584eb1d8258335f530b2",
-      "title": "After threatening AI export bans, China allows DeepSeek to keep selling",
-      "url": "https://www.theregister.com/ai-and-ml/2026/10/26/after-threatening-ai-export-bans-china-allows-deepseek-to-keep-selling/5305267",
-      "source_id": "the-register",
-      "source_name": "The Register",
-      "category": "tech",
-      "summary": "PLUS: AI datacenter bubble wobbles in Australia; E-commerce app suggests it can detect diseases; India’s top telco to IPO amid investor frenzy; and more!",
-      "published_at": "2026-10-26T00:39:57Z",
-      "fetched_at": "2026-10-26T03:01:27.706334Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "8d4d77d9843f033474bff91de9934225",
-      "title": "Lula wins election after final votes tallied",
-      "url": "https://www.reuters.com/live/brazil-election-live-lula-bolsonaro-face-off-presidential-runoff-2026-10-25/",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-26T00:31:07Z",
-      "fetched_at": "2026-10-26T01:01:27.219240Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50237485",
-      "points": 344,
-      "comments": 318,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 1
-    },
-    {
-      "id": "2f8b37e97415028427e86f7705f2f0c9",
-      "title": "“AI Skills” are worthless in 2026",
-      "url": "https://fishbowl.pastiche.org/2026/10/26/ai-skills",
-      "source_id": "lobsters",
-      "source_name": "Lobsters",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-26T00:23:42Z",
-      "fetched_at": "2026-10-26T01:01:27.219240Z",
-      "discussion_url": "https://lobste.rs/s/x1s5oq/ai_skills_are_worthless_2026",
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 2
-    },
-    {
-      "id": "1a4d73632832b1e90a884e4bc230eac8",
-      "title": "Lula Wins Brazilian Election",
-      "url": "https://resultados.tse.jus.br/oficial/app/index.html#/eleicao/6258/uf/br/cargo/1/vis/nominal/resultados",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-26T00:23:29Z",
-      "fetched_at": "2026-10-26T01:01:27.219240Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50237426",
-      "points": 45,
-      "comments": 10,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 1
-    },
-    {
-      "id": "b5a568ea4e8f9ec6204598b14d534397",
-      "title": "Steal My Bitcoin CTF PoC",
-      "url": "https://github.com/KillaBoi/StealMyBitcoin-PoC",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-26T00:15:17Z",
-      "fetched_at": "2026-10-26T03:01:27.706334Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50237379",
-      "points": 150,
-      "comments": 43,
-      "engineering": false,
-      "blog": null,
-      "review": "excluded",
-      "importance": null
-    },
-    {
       "id": "70406f647dd07cd5959af1ffee236d4b",
       "title": "Show HN: ADRs for AI – Deliberation records for human–AI work, versioned in Git",
       "url": "https://adrs.systems",
@@ -28625,9 +28553,9 @@
   "top_stories": [
     {
       "id": "09e5cfd99f839cfad411cde5c4b329e7",
-      "title": "FBI links North Korea's TraderTraitor to $6.3B Binance heist",
-      "summary": "The FBI has confirmed that North Korean state-sponsored hackers known as TraderTraitor were behind the $6.3 billion crypto-theft attack on Binance. This makes the incident the largest cryptocurrency heist on record.",
-      "why_it_matters": "Highlights massive security incidents and state-sponsored threats targeting cryptocurrency infrastructure.",
+      "title": "FBI Links $6.3 Billion Binance Crypto Heist to North Korean Hackers",
+      "summary": "The FBI has confirmed that North Korean state-sponsored hackers known as TraderTraitor were behind the massive multi-billion-dollar crypto theft attack on Binance. The cryptocurrency exchange subsequently reported that a large percentage of the stolen assets have been replenished or recovered.",
+      "why_it_matters": "Highlights major security incidents and threat actor tactics affecting large financial infrastructure and exchanges.",
       "item_ids": [
         "09e5cfd99f839cfad411cde5c4b329e7",
         "df2d7fa4d3fef565ac345741141cf64c",
@@ -28635,21 +28563,84 @@
       ],
       "primary_url": "https://www.fbi.gov/investigate/cyber/alerts/2026/north-korea-responsible-for-6-billion-binance-attack",
       "first_shown": "2026-10-29T23:00:27.287845Z",
-      "last_shown": "2026-11-02T00:01:24.045043Z"
+      "last_shown": "2026-11-02T01:01:23.840227Z"
     },
     {
       "id": "3a9ed011ea6d2edba929acd6f74c534e",
-      "title": "Binance resumes withdrawals and replaces stolen funds after breach",
-      "summary": "Following a massive $6.3 billion breach, cryptocurrency exchange Binance resumed withdrawals after covering 95 percent of the stolen assets. The company's CEO stated that the majority of the funds have been replaced.",
-      "why_it_matters": "Demonstrates major financial recovery protocols and incident response steps for large-scale exchange breaches.",
+      "title": "Binance Resumes Withdrawals and Replenishes Stolen Assets After Breach",
+      "summary": "Following a massive crypto heist, cryptocurrency exchange Binance resumed withdrawals and stated that the vast majority of the stolen assets have been replenished or covered. The company announced plans to continue addressing the fallout from the breach.",
+      "why_it_matters": "Provides critical post-incident recovery information for services managing large-scale user assets.",
       "item_ids": [
         "3a9ed011ea6d2edba929acd6f74c534e",
         "4dd2ab7fa688cfd556ea9b75d2e0c37e"
       ],
       "primary_url": null,
       "first_shown": "2026-10-29T23:00:27.287845Z",
-      "last_shown": "2026-11-02T00:01:24.045043Z"
+      "last_shown": "2026-11-02T01:01:23.840227Z"
     },
+    {
+      "id": "8cf788ce91338f5ec2046bf1d2c35e59",
+      "title": "Cities Struggle to Cancel Contracts with Automated Surveillance Firm Flock",
+      "summary": "Cities are discovering how difficult it can be to terminate their contracts with automated license plate reader company Flock Safety as more municipalities attempt to cancel agreements. In some instances, local officials have taken direct action to unplug cameras after facing resistance or ignored requests.",
+      "why_it_matters": "Demonstrates contractual and operational hurdles when dealing with municipal surveillance vendors.",
+      "item_ids": [
+        "8cf788ce91338f5ec2046bf1d2c35e59",
+        "b9124c9d6c893136388072718670bee5"
+      ],
+      "primary_url": "https://www.thedrive.com/news/my-city-canceled-flocks-contract-flock-ignored-it-so-the-police-chief-unplugged-the-cameras",
+      "first_shown": "2026-11-01T18:01:23.687417Z",
+      "last_shown": "2026-11-02T01:01:23.840227Z"
+    },
+    {
+      "id": "8a9387ebf3f240fe2ebd1cbf83a5aa49",
+      "title": "Kernel prepatch 7.4-rc1",
+      "summary": "The 7.4-rc1 kernel prepatch is out, and the merge window is closed for this development cycle. This is a *BIG* merge window. I think the reason is the by now obvious one, but I'm actually taking it as a good sign: I'm *much* happier with the flood of AI triggered work going into the merge window than it showing up mainly as extra fixes during the -rc period. So I'm hoping that this merge window being larger than usual is a sign that the AI fixes are becoming more part of the \"normal…",
+      "why_it_matters": "Kernel 7.4-rc1 is out with a notably large merge window, signaling major upcoming changes for operating system developers.",
+      "item_ids": [
+        "8a9387ebf3f240fe2ebd1cbf83a5aa49"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-02T01:01:23.840227Z",
+      "last_shown": "2026-11-02T01:01:23.840227Z"
+    },
+    {
+      "id": "efa7ab2d5407d7f06486c3fa68cd6464",
+      "title": "Show HN: HackerBooks – HackerTube, but for books recommended on HN",
+      "summary": "Saw Karpathy's HackerTube and wanted the same thing for books. So I had Claude build one (Opus 5.5).It's ~16.5k books that at least two different HN commenters brought up, from 2007 till now. Each book links back to the comments that mentioned it. Data is downloadable from the about page.To be clear: Claude wrote almost all of it, including the data pipeline and the site. I mostly steered and made calls, bought the domain name, etc.It counts mentions, so it's not perfect (praising a book and…",
+      "why_it_matters": "Show HN project HackerBooks uses Claude to curate thousands of books recommended by HN commenters over nearly two decades.",
+      "item_ids": [
+        "efa7ab2d5407d7f06486c3fa68cd6464"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-01T18:08:34.929426Z",
+      "last_shown": "2026-11-02T01:01:23.840227Z"
+    },
+    {
+      "id": "4215f7796e3907e8b22c683a1ae114ca",
+      "title": "CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key",
+      "summary": "A critical flaw in Canonical's LXD and MicroCloud let an attacker log in as a trusted client without holding that client's private key. To do it, the attacker had to reach their HTTPS API over the network and have the trusted client's public certificate. Once in, the attacker would act as that client, with access to the cluster and its virtual machines. If the impersonated account is",
+      "why_it_matters": "A critical flaw in Canonical's LXD and MicroCloud allows attackers to impersonate trusted clients without holding private keys via the HTTPS API.",
+      "item_ids": [
+        "4215f7796e3907e8b22c683a1ae114ca"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-01T11:01:24.000358Z",
+      "last_shown": "2026-11-02T01:01:23.840227Z"
+    },
+    {
+      "id": "84cf9329714eea168e1f2ad3db7bd938",
+      "title": "Leaking Secrets from Air-Gap Computers by Spelling Radio Signals from RAM",
+      "summary": null,
+      "why_it_matters": "Researchers demonstrated a novel side-channel technique to leak secrets from air-gapped computers by manipulating radio signals emitted from RAM.",
+      "item_ids": [
+        "84cf9329714eea168e1f2ad3db7bd938"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-01T08:01:22.916101Z",
+      "last_shown": "2026-11-02T01:01:23.840227Z"
+    }
+  ],
+  "past_top_stories": [
     {
       "id": "2557ff03205c626b01d4035ef9646593",
       "title": "OpenAI merges usage limits and brings Work features to Chat",
@@ -28664,19 +28655,6 @@
       "last_shown": "2026-11-02T00:01:24.045043Z"
     },
     {
-      "id": "8cf788ce91338f5ec2046bf1d2c35e59",
-      "title": "Cities struggle to cancel Flock Safety contracts as police unplugs cameras",
-      "summary": "Cities are discovering how difficult it is to cancel their contracts with Flock Safety as companies ignore cancellation requests. In response to ignored contract terminations, a police chief decided to unplug the cameras.",
-      "why_it_matters": "Sheds light on vendor lock-in and legal disputes involving public surveillance infrastructure.",
-      "item_ids": [
-        "8cf788ce91338f5ec2046bf1d2c35e59",
-        "b9124c9d6c893136388072718670bee5"
-      ],
-      "primary_url": "https://www.thedrive.com/news/my-city-canceled-flocks-contract-flock-ignored-it-so-the-police-chief-unplugged-the-cameras",
-      "first_shown": "2026-11-01T18:01:23.687417Z",
-      "last_shown": "2026-11-02T00:01:24.045043Z"
-    },
-    {
       "id": "1248bc6c2e96b92f837d107a285cf74c",
       "title": "Alpine Linux rebuilds GitLab after attempted RCE attack",
       "summary": "Hackers attempted to exploit a critical GitLab vulnerability in Alpine Linux's development infrastructure on October 20-21, prompting the open-source project to rebuild its GitLab server and reset all passwords over concerns of a possible compromise. [...]",
@@ -28686,18 +28664,6 @@
       ],
       "primary_url": null,
       "first_shown": "2026-11-01T16:01:25.978254Z",
-      "last_shown": "2026-11-02T00:01:24.045043Z"
-    },
-    {
-      "id": "4215f7796e3907e8b22c683a1ae114ca",
-      "title": "CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key",
-      "summary": "A critical flaw in Canonical's LXD and MicroCloud let an attacker log in as a trusted client without holding that client's private key. To do it, the attacker had to reach their HTTPS API over the network and have the trusted client's public certificate. Once in, the attacker would act as that client, with access to the cluster and its virtual machines. If the impersonated account is",
-      "why_it_matters": "A critical authentication bypass in Canonical's LXD allows attackers to impersonate trusted clients without private keys.",
-      "item_ids": [
-        "4215f7796e3907e8b22c683a1ae114ca"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-01T11:01:24.000358Z",
       "last_shown": "2026-11-02T00:01:24.045043Z"
     },
     {
@@ -28725,18 +28691,6 @@
       "last_shown": "2026-11-02T00:01:24.045043Z"
     },
     {
-      "id": "84cf9329714eea168e1f2ad3db7bd938",
-      "title": "Leaking Secrets from Air-Gap Computers by Spelling Radio Signals from RAM",
-      "summary": null,
-      "why_it_matters": "Academic research demonstrating data exfiltration from air-gapped computers via radio signals emitted from RAM presents novel hardware security concerns.",
-      "item_ids": [
-        "84cf9329714eea168e1f2ad3db7bd938"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-01T08:01:22.916101Z",
-      "last_shown": "2026-11-02T00:01:24.045043Z"
-    },
-    {
       "id": "28646d9dcd9888e2807256f1b37827f6",
       "title": "Hackers Steal About $2.7 Million From Polymarket Traders via Hijacked DebugBear Script",
       "summary": "Malicious code on the website of prediction market Polymarket sold some signed-in traders' positions and moved their funds to the hackers on October 29. The code had replaced a page-speed script that the site loaded from an outside company. Polymarket says it is refunding about $2.7 million to 726 affected wallets. Blockchain records show crypto worth about $2.64 million reached",
@@ -28747,9 +28701,7 @@
       "primary_url": null,
       "first_shown": "2026-11-01T08:01:22.916101Z",
       "last_shown": "2026-11-02T00:01:24.045043Z"
-    }
-  ],
-  "past_top_stories": [
+    },
     {
       "id": "de6c56ba64fe4a5ef8d511968f8c33bc",
       "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
@@ -28760,18 +28712,6 @@
       ],
       "primary_url": null,
       "first_shown": "2026-11-01T23:01:22.588059Z",
-      "last_shown": "2026-11-01T23:01:22.588059Z"
-    },
-    {
-      "id": "efa7ab2d5407d7f06486c3fa68cd6464",
-      "title": "Show HN: HackerBooks – HackerTube, but for books recommended on HN",
-      "summary": "Saw Karpathy's HackerTube and wanted the same thing for books. So I had Claude build one (Opus 5.5).It's ~16.5k books that at least two different HN commenters brought up, from 2007 till now. Each book links back to the comments that mentioned it. Data is downloadable from the about page.To be clear: Claude wrote almost all of it, including the data pipeline and the site. I mostly steered and made calls, bought the domain name, etc.It counts mentions, so it's not perfect (praising a book and…",
-      "why_it_matters": "Presents an automated tool mapping historical book recommendations from hacker community discussions.",
-      "item_ids": [
-        "efa7ab2d5407d7f06486c3fa68cd6464"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-01T18:08:34.929426Z",
       "last_shown": "2026-11-01T23:01:22.588059Z"
     },
     {
@@ -28822,42 +28762,6 @@
       "primary_url": null,
       "first_shown": "2026-11-01T18:08:34.929426Z",
       "last_shown": "2026-11-01T21:01:28.257109Z"
-    },
-    {
-      "id": "b3d72d5cb22270220a93ac32672f722f",
-      "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
-      "summary": null,
-      "why_it_matters": "A critical TCP use-after-free vulnerability carrying a CVSS score of 9.8 directly threatens network stack security across affected systems.",
-      "item_ids": [
-        "b3d72d5cb22270220a93ac32672f722f"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-10-31T21:55:03.324759Z",
-      "last_shown": "2026-11-01T19:01:27.444228Z"
-    },
-    {
-      "id": "83a842b3635c3d14bd6aba5e1bac6d5a",
-      "title": "Apple’s HomeView could add security camera features",
-      "summary": "Reddit user pdfu found hints hidden in the HomeView 27.2 code that Apple could be adding security camera features to its smart home hub. The strings describe a security camera mode with motion detection, live streaming, and recording options, as well as privacy functions. According to pdfu, there is a setup page that even explicitly […]",
-      "why_it_matters": "Hints in code suggest Apple is expanding its smart home hub functionality to include security camera features with motion detection.",
-      "item_ids": [
-        "83a842b3635c3d14bd6aba5e1bac6d5a"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-01T18:01:23.687417Z",
-      "last_shown": "2026-11-01T18:08:34.929426Z"
-    },
-    {
-      "id": "4cabe501aeb433bb60178cd5bd79ef41",
-      "title": "A fully playable version of Portal prequel F-Stop leaked",
-      "summary": "Leakers have pieced together a playable version of the canceled Portal prequel F-Stop. Most of the assets came from the massive 12-terabyte leak that dropped this August. That didn't include the game's source code or map data, but those final pieces apparently hit the Valve Cut Content Discord this week, allowing a nearly complete version […]",
-      "why_it_matters": "Leaked assets from a massive data breach provide a playable look at a canceled Valve game project.",
-      "item_ids": [
-        "4cabe501aeb433bb60178cd5bd79ef41"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-01T18:01:23.687417Z",
-      "last_shown": "2026-11-01T18:01:23.687417Z"
     }
   ]
 }
