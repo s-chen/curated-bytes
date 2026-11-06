@@ -1,6 +1,294 @@
 {
-  "generated_at": "2026-11-06T18:01:37.913714Z",
+  "generated_at": "2026-11-06T19:01:37.826192Z",
   "items": [
+    {
+      "id": "f36348295c2df7ef5450512f4b401f7f",
+      "title": "Rocco’s Black Friday Sale: Smart Fridges Hit Their Lowest Prices of 2026",
+      "url": "https://www.wired.com/story/rocco-black-friday-sale-2026/",
+      "source_id": "wired",
+      "source_name": "Wired",
+      "category": "tech",
+      "summary": "The new Essential and certain colors of the original Classic are at their lowest prices of the year.",
+      "published_at": "2026-11-06T18:54:21Z",
+      "fetched_at": "2026-11-06T19:01:37.826192Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": null,
+      "review": "excluded",
+      "importance": null
+    },
+    {
+      "id": "6f35dcb3eabefcf00b6597b9a08c4a0d",
+      "title": "[$] Locking down hibernation for the winter",
+      "url": "https://lwn.net/Articles/1103190/",
+      "source_id": "lwn",
+      "source_name": "LWN.net",
+      "category": "tech",
+      "summary": "When a computer hibernates, the kernel writes the contents of memory to disk and then shuts the system down. Resuming from hibernation involves reading that data back into memory, and then having the kernel pick up where it left off. Unfortunately, the kernel does not have any way to know that the data it is reading back has not been tampered with, which is why lockdown, an optional kernel feature that attempts to prevent modifications to the running kernel, disables hibernation. Matthew…",
+      "published_at": "2026-11-06T18:51:28Z",
+      "fetched_at": "2026-11-06T19:01:37.826192Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 2
+    },
+    {
+      "id": "8e8e82db69eb3edc82c94b8a8768b1e4",
+      "title": "Early Black Friday Mattress Deals: Get Up to 35% Off WIRED-Tested Favorites",
+      "url": "https://www.wired.com/story/best-early-black-friday-mattress-deals-11-6-2026/",
+      "source_id": "wired",
+      "source_name": "Wired",
+      "category": "tech",
+      "summary": "I’ve already found early deals on our favorite WIRED-tested mattresses and sleep accessories.",
+      "published_at": "2026-11-06T18:51:27Z",
+      "fetched_at": "2026-11-06T19:01:37.826192Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": null,
+      "review": "excluded",
+      "importance": null
+    },
+    {
+      "id": "985fb0e7b172d50a31b24420016ec1c4",
+      "title": "Seven stable kernels with fixes for three Xen vulnerabilities",
+      "url": "https://lwn.net/Articles/1105902/",
+      "source_id": "lwn",
+      "source_name": "LWN.net",
+      "category": "tech",
+      "summary": "Hot on the heels of the previous two stable kernels, Greg Kroah-Hartman has announced the release of the 7.3.3, 6.18.62, 6.12.116, 6.6.162, 6.1.192, 5.15.225, and 5.10.274 stable kernels. Each one only contains fixes for three use-after-free vulnerabilities announced today by the Xen security team. Two of the vulnerabilities could allow an attacker to DoS the entire Xen host machine with possible information leakage (CVE-2026-100080, CVE-2026-100082), and one may allow privilege escalation as…",
+      "published_at": "2026-11-06T18:48:34Z",
+      "fetched_at": "2026-11-06T19:01:37.826192Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 4
+    },
+    {
+      "id": "9b78687c669de665e03aff9eae143cdf",
+      "title": "Fake security tools on GitHub push backdoors and infostealers",
+      "url": "https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers/",
+      "source_id": "bleepingcomputer",
+      "source_name": "BleepingComputer",
+      "category": "tech",
+      "summary": "Cybersecurity professionals are being targeted with infected security projects on GitHub that deploy a backdoor and information stealer malware. [...]",
+      "published_at": "2026-11-06T18:46:52Z",
+      "fetched_at": "2026-11-06T19:01:37.826192Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 4
+    },
+    {
+      "id": "d3b9c31252edcbe812c909f9058c4b86",
+      "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
+      "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "category": "tech",
+      "summary": "Security researchers found hundreds of servers hosting the penetration testing tool Artex exposed to the internet, allowing anyone access to the hacking tool.",
+      "published_at": "2026-11-06T18:44:38Z",
+      "fetched_at": "2026-11-06T19:01:37.826192Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "d974f5212da4b30d63a9fa55baa366a0",
+      "title": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
+      "url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "category": "tech",
+      "summary": "Meta's Muse agents continue to get new features and integrations. Spaces promises to be a new way to interact with the AI helpers.",
+      "published_at": "2026-11-06T18:44:20Z",
+      "fetched_at": "2026-11-06T19:01:37.826192Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "ede8c1a6c75a1c8a1b75235a86b9ca93",
+      "title": "Free Chinese AI Models Are Getting Scary Good at Hacking",
+      "url": "https://www.wired.com/story/free-chinese-ai-models-are-getting-scary-good-at-hacking/",
+      "source_id": "wired",
+      "source_name": "Wired",
+      "category": "tech",
+      "summary": "An experiment in which AI models were asked to break into simulated networks showed the hacking skills of DeepSeek and GLM to be not far behind OpenAI’s most advanced cyber model, which isn’t public.",
+      "published_at": "2026-11-06T18:43:43Z",
+      "fetched_at": "2026-11-06T19:01:37.826192Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 4
+    },
+    {
+      "id": "1b30a0e198d200dcb63cf9800ee712fe",
+      "title": "Lame-duck Congress might actually do something: speed up energy projects",
+      "url": "https://www.theverge.com/policy/1028228/energy-infrastructure-permitting-reform-bill-congress-vote",
+      "source_id": "the-verge",
+      "source_name": "The Verge",
+      "category": "tech",
+      "summary": "A massive permitting bill that could help energy projects come online much quicker and potentially lower utility bills for Americans is advancing with bipartisan support. And while it could be a catalyst for lots of clean energy, it could also speed up polluting projects and limit oversight of new data centers. With data centers demanding […]",
+      "published_at": "2026-11-06T18:42:30Z",
+      "fetched_at": "2026-11-06T19:01:37.826192Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "3de10033c86e55b489c49399415427fe",
+      "title": "Cognition turned an open model into a coding beast. But it won’t release the weights.",
+      "url": "https://thenewstack.io/cognition-flash-private-weights/",
+      "source_id": "the-new-stack",
+      "source_name": "The New Stack",
+      "category": "tech",
+      "summary": "Cognition built its newest coding model on a foundation that anyone can download, yet the company is keeping its own The post Cognition turned an open model into a coding beast. But it won’t release the weights. appeared first on The New Stack.",
+      "published_at": "2026-11-06T18:16:42Z",
+      "fetched_at": "2026-11-06T19:01:37.826192Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "64bd6835e924d7f097451ebfa2e56c6e",
+      "title": "We Know 15,579 Websites Are Infected. How Do We Tell Them?",
+      "url": "https://scotthelme.co.uk/we-know-15-579-websites-are-infected-how-do-we-tell-them/",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-11-06T18:13:35Z",
+      "fetched_at": "2026-11-06T19:01:37.826192Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50396064",
+      "points": 20,
+      "comments": 14,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 2
+    },
+    {
+      "id": "4d25f5d785f087ee7935704d87c4898e",
+      "title": "Meta’s Muse AI can create custom ‘spaces’ for the version of the app you need right now",
+      "url": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces",
+      "source_id": "the-verge",
+      "source_name": "The Verge",
+      "category": "tech",
+      "summary": "Meta will now allow you to build customized, app-like experiences within its Muse AI assistant. The new feature, called \"spaces,\" allows Muse to build things like a shopping hub, school dashboard, music tracker, trivia game, and more, which you can interact with directly in the app. If you connect your space to a relevant app, […]",
+      "published_at": "2026-11-06T18:10:10Z",
+      "fetched_at": "2026-11-06T19:01:37.826192Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "809ba0b8d6eac1992c3287c901692af1",
+      "title": "Two stable kernels for Friday",
+      "url": "https://lwn.net/Articles/1105899/",
+      "source_id": "lwn",
+      "source_name": "LWN.net",
+      "category": "tech",
+      "summary": "Greg Kroah-Hartman has released the 7.3.2 and 6.18.61 stable kernels. Each contains quite a few changes throughout the tree; users are advised to upgrade.",
+      "published_at": "2026-11-06T18:09:16Z",
+      "fetched_at": "2026-11-06T19:01:37.826192Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "dd8de1f4be71dbc4e19d36fdb75d26f6",
+      "title": "Meta’s best AI model now trains the one most of its users get",
+      "url": "https://thenewstack.io/meta-muse-specialized-models/",
+      "source_id": "the-new-stack",
+      "source_name": "The New Stack",
+      "category": "tech",
+      "summary": "Starting on Friday, everyone using Meta’s Muse agent and Meta AI gets new models the company trained using Muse Wonder, The post Meta’s best AI model now trains the one most of its users get appeared first on The New Stack.",
+      "published_at": "2026-11-06T18:05:55Z",
+      "fetched_at": "2026-11-06T19:01:37.826192Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "42f81e9a82dddf9cf41c802f88b4793b",
+      "title": "Microsoft is winding down Oracle deal to rent AI cloud capacity",
+      "url": "https://www.reuters.com/business/microsoft-is-winding-down-oracle-deal-rent-ai-cloud-capacity-bloomberg-news-2026-11-06/",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-11-06T18:04:06Z",
+      "fetched_at": "2026-11-06T19:01:37.826192Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50395933",
+      "points": 35,
+      "comments": 8,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "58bff78ce507886e65292ae18eaed08e",
+      "title": "Memorilla: Latent Semantic Memory for LLMs",
+      "url": "https://arxiv.org/abs/2610.21375",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-11-06T18:03:33Z",
+      "fetched_at": "2026-11-06T19:01:37.826192Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50395919",
+      "points": 16,
+      "comments": 1,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 2
+    },
     {
       "id": "df4a162f2efe2ee01fc8a54f83a775c8",
       "title": "How we continuously validate formal specifications in production",
@@ -15,9 +303,63 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
+    },
+    {
+      "id": "62c0d69eed20de38765738833464adbd",
+      "title": "Size-It-Up (Game)",
+      "url": "https://magnitudle.com/size-it-up",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-11-06T17:59:59Z",
+      "fetched_at": "2026-11-06T19:01:37.826192Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50395869",
+      "points": 19,
+      "comments": 6,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 1
+    },
+    {
+      "id": "63cb9ddcf02cef3631bfc622cb632e30",
+      "title": "Perplexity launches AI agents for work",
+      "url": "https://www.perplexity.ai/en-GB/hub/blog/teammates-are-agents-for-complex-ongoing-work",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-11-06T17:59:41Z",
+      "fetched_at": "2026-11-06T19:01:37.826192Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50395866",
+      "points": 17,
+      "comments": 14,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "dc88aa21f45f0ab6d2b6d92073c16029",
+      "title": "Pliny – Letters – Book 7 Letter 27 (On Ghosts)",
+      "url": "https://vroma.org/vromans/hwalker/Pliny/Pliny07-27-E.html?utm",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-11-06T17:57:40Z",
+      "fetched_at": "2026-11-06T19:01:37.826192Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50395833",
+      "points": 8,
+      "comments": 1,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 1
     },
     {
       "id": "c7651ca987c8a756223772960aa81297",
@@ -38,6 +380,24 @@
       "importance": null
     },
     {
+      "id": "eb6fce5859d523b771d9fa95211c7867",
+      "title": "Flawless UI-UX Skill 1.0.0",
+      "url": "https://github.com/smokeeaasd/flawless-ui-ux/releases/tag/v1.0.0",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-11-06T17:52:34Z",
+      "fetched_at": "2026-11-06T19:01:37.826192Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50395747",
+      "points": 12,
+      "comments": 7,
+      "engineering": false,
+      "blog": null,
+      "review": "excluded",
+      "importance": null
+    },
+    {
       "id": "d0bd3682b0dffe90cfbcbc3832ccd4e1",
       "title": "Just about anyone can rent access to White House IP addresses",
       "url": "https://www.theverge.com/tech/1028835/white-house-residential-proxy",
@@ -53,7 +413,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "f7b4ef9384f90fc56f0c123982d7f7cf",
@@ -71,7 +431,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "2c628f70b8f41b30c1915407965e8755",
@@ -90,6 +450,24 @@
       "blog": false,
       "review": "pending",
       "importance": null
+    },
+    {
+      "id": "506901bbce011b221d26f656f2018b3c",
+      "title": "Devvm.dev: One VM for every project",
+      "url": "https://devvm.dev/",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-11-06T17:30:22Z",
+      "fetched_at": "2026-11-06T19:01:37.826192Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50395450",
+      "points": 19,
+      "comments": 8,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 2
     },
     {
       "id": "1b685d96048030cacf3f2c052370971b",
@@ -125,7 +503,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "8bf6029768b8d6d7c712007696cef7c3",
@@ -138,12 +516,12 @@
       "published_at": "2026-11-06T17:21:15Z",
       "fetched_at": "2026-11-06T18:01:37.913714Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50395318",
-      "points": 26,
-      "comments": 8,
+      "points": 84,
+      "comments": 69,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "fa92be0bb067ddc8b4aca17fb7e0d241",
@@ -160,8 +538,8 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 2
     },
     {
       "id": "5ccbccc501d2305c463dacf496d1360b",
@@ -214,8 +592,8 @@
       "comments": 0,
       "engineering": false,
       "blog": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 1
     },
     {
       "id": "820472312039ef6b54366b291252ac7e",
@@ -236,6 +614,24 @@
       "importance": 2
     },
     {
+      "id": "477e9a7e4528bcbeecbf99afb9164701",
+      "title": "Show HN: AegisKernel – Zero-trust POSIX runtime for AI agents in <0.016ms",
+      "url": "https://adikshatriyag-crypto.github.io/aegis-kernel/",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-11-06T17:00:23Z",
+      "fetched_at": "2026-11-06T19:01:37.826192Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50394991",
+      "points": 7,
+      "comments": 0,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
       "id": "aeb37577bdc737ffe33b82038a50ca07",
       "title": "AI is the new dating dealbreaker",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1028609/ai-dating-feelings-doomers-singularity",
@@ -250,8 +646,8 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 2
     },
     {
       "id": "88fbab1ad7482d440f5c87bdbd7ebce7",
@@ -272,6 +668,24 @@
       "importance": 3
     },
     {
+      "id": "c24864aacb050caf3bdb24f73b7103d3",
+      "title": "PyLings: Solve Exercises and Learn Python",
+      "url": "https://github.com/thesayfulla/pylings",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-11-06T16:59:40Z",
+      "fetched_at": "2026-11-06T19:01:37.826192Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50394977",
+      "points": 8,
+      "comments": 0,
+      "engineering": false,
+      "blog": null,
+      "review": "excluded",
+      "importance": null
+    },
+    {
       "id": "f1ef0ecbbb3895e46e213cab4997c226",
       "title": "First steps in bare-metal programming using UEFI",
       "url": "https://kevinboone.me/efitest_index.html",
@@ -281,9 +695,9 @@
       "summary": null,
       "published_at": "2026-11-06T16:50:29Z",
       "fetched_at": "2026-11-06T18:01:37.913714Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50394855",
-      "points": 35,
-      "comments": 1,
+      "discussion_url": "https://lobste.rs/s/id3f9d/kevin_boone_firststeps_bare_metal",
+      "points": null,
+      "comments": null,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -306,6 +720,24 @@
       "blog": false,
       "review": "kept",
       "importance": 3
+    },
+    {
+      "id": "468da0a4bf059055cabedd937818b75c",
+      "title": "GPU-Accelerated Weight Teleportation",
+      "url": "https://humansand.ai/blog/gpu-accelerated-weight-teleportation",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-11-06T16:49:00Z",
+      "fetched_at": "2026-11-06T19:01:37.826192Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50394837",
+      "points": 6,
+      "comments": 0,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 2
     },
     {
       "id": "69d96efc657346e504af2c833383d9d5",
@@ -341,7 +773,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "b8851797863ea4792f21891e7f9d2636",
@@ -358,8 +790,8 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 2
     },
     {
       "id": "104a984077f090af8df0d6fe32e4ed08",
@@ -390,8 +822,8 @@
       "published_at": "2026-11-06T16:31:32Z",
       "fetched_at": "2026-11-06T18:01:37.913714Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50394569",
-      "points": 28,
-      "comments": 9,
+      "points": 73,
+      "comments": 45,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -412,8 +844,8 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 2
     },
     {
       "id": "92be56befedb2030a346e3f34185f4bb",
@@ -426,8 +858,8 @@
       "published_at": "2026-11-06T16:15:03Z",
       "fetched_at": "2026-11-06T18:01:37.913714Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50394292",
-      "points": 17,
-      "comments": 7,
+      "points": 35,
+      "comments": 13,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -449,7 +881,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "5063812dd13d728e64c1e97b087a6a19",
@@ -470,6 +902,24 @@
       "importance": 4
     },
     {
+      "id": "574152412236fcf935a2847bbf0118db",
+      "title": "Reading the Anthropic S-1, with Zvi Mowshowitz",
+      "url": "https://www.complexsystemspodcast.com/episodes/reading-the-anthropic-s-1-with-zvi-mowshowitz/",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-11-06T16:04:58Z",
+      "fetched_at": "2026-11-06T19:01:37.826192Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50394116",
+      "points": 8,
+      "comments": 0,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 2
+    },
+    {
       "id": "493250835b9765e7e71a70d9218b6ef4",
       "title": "AI Companies Really, Really Want to Buy Your Work Files and Emails",
       "url": "https://www.wired.com/story/ai-companies-really-really-want-to-buy-your-work-files-and-emails/",
@@ -485,7 +935,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "6e118954d150fdf9a7e08f49c594a166",
@@ -503,7 +953,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "b596ae8f73f9a33535a9e33cc00c3312",
@@ -516,12 +966,12 @@
       "published_at": "2026-11-06T15:44:36Z",
       "fetched_at": "2026-11-06T16:01:39.055585Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50393758",
-      "points": 207,
-      "comments": 94,
+      "points": 243,
+      "comments": 119,
       "engineering": false,
       "blog": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 2
     },
     {
       "id": "7129f7582c4c8f8ed6f15581a55ce003",
@@ -539,7 +989,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "6be75f2bf977564701ed4a1debe10ca3",
@@ -556,8 +1006,8 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 2
     },
     {
       "id": "53db31116aad5404064f2ebf2d703d74",
@@ -575,7 +1025,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "8d7de1ba04ec1c0b7617a94e9ed4131f",
@@ -700,8 +1150,8 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "a6482679bd1d902aa7f1edf2883084a6",
@@ -754,8 +1204,8 @@
       "comments": 16,
       "engineering": false,
       "blog": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 2
     },
     {
       "id": "92e87df294317212c919a27c8eab27b1",
@@ -791,7 +1241,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "6280a5d9b2bf3e244a83c60d6ba29a24",
@@ -858,12 +1308,12 @@
       "published_at": "2026-11-06T14:57:16Z",
       "fetched_at": "2026-11-06T16:01:39.055585Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50393089",
-      "points": 29,
+      "points": 38,
       "comments": 1,
       "engineering": false,
       "blog": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 2
     },
     {
       "id": "170a602e65e07fa68a7bac50b091f7a5",
@@ -881,7 +1331,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "58d6cdc4aab60ad4d0636df4aeeb08d3",
@@ -898,8 +1348,8 @@
       "comments": 6,
       "engineering": false,
       "blog": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 2
     },
     {
       "id": "eda350abc27b088f200c8758a19cd279",
@@ -917,7 +1367,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "90af6db81267ba72f49ed27a707a4b4b",
@@ -1025,7 +1475,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "f762afa15f6178de781fd4a165e87579",
@@ -1097,7 +1547,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "f7fc70a3a032d61fcd9e5cc2490b2561",
@@ -1115,7 +1565,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "27984b16f9bcc04a3d6e5e0545da4ba2",
@@ -1223,7 +1673,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "ea784412bc37fa97f230026d6b1d8f39",
@@ -1366,8 +1816,8 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 2
     },
     {
       "id": "540a12ebebcfb1dd45d13cd970e42254",
@@ -1475,7 +1925,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 1
     },
     {
       "id": "97a54a4ddbd1ef4005f50a3b7d42294f",
@@ -1601,7 +2051,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "c6cd0701f6e13f5cc3c5d10a454e2a5a",
@@ -1673,7 +2123,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "29d316615391c7be38fe3a4fcc8db3a3",
@@ -1835,7 +2285,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "7943dbacf8002429d0bb92e7e0cff617",
@@ -1853,7 +2303,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "1c5404bdff7e4ffa86d239cff5978436",
@@ -1943,7 +2393,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "d68a69d9bfd7e222990917826b3493ea",
@@ -1997,7 +2447,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "72997fd68ffba247653cf438e9dd1c2d",
@@ -2015,7 +2465,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "7a80731671171149843a50a8dcbe8a25",
@@ -2072,6 +2522,24 @@
       "importance": 4
     },
     {
+      "id": "4650983e6e647dcd0fd49126ce29e071",
+      "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+      "url": "https://openai.com/index/partnering-with-hacktron",
+      "source_id": "openai-news",
+      "source_name": "OpenAI News",
+      "category": "tech",
+      "summary": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
+      "published_at": "2026-11-06T08:00:00Z",
+      "fetched_at": "2026-11-06T19:01:37.826192Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
       "id": "cacce48fb973842db1a3bfdf8b08e31a",
       "title": "App Store 2026 in numbers: AI, pricing, abandoned apps",
       "url": "https://obelisk.club/research/app-store-2026",
@@ -2087,7 +2555,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "6e2fce9f73df417f10201b5d22b5c36f",
@@ -2285,7 +2753,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "2fe959996c24fdd86c1255319bb0f45e",
@@ -2303,7 +2771,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 1
+      "importance": 2
     },
     {
       "id": "3122e096b9f6fc4029706b30f4eac3b6",
@@ -2465,7 +2933,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "471c01ac43f5db870aeeb2d16ba1dc12",
@@ -2483,7 +2951,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "6ea76c05c17405854e5ac6b32cf701f5",
@@ -2537,7 +3005,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "01466cb607cd9f9246d6f340a4931629",
@@ -2771,7 +3239,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "294515d6860ea4abfee05f99b61ac9bd",
@@ -2879,7 +3347,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "12bd633e1625f122efcc9fb71b24f4c1",
@@ -2951,7 +3419,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "65618ef3b9856bb20f58de9a1c59cc02",
@@ -2969,7 +3437,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 2
     },
     {
       "id": "87e2e7d627b8707e1e20b84112cbee3b",
@@ -3059,7 +3527,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "6efc00abc1aa13bfefac1e58d3349b75",
@@ -3131,7 +3599,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "6daeb46d258e04f08c7135101bb78f70",
@@ -3311,7 +3779,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "b47cc837875e15a4998ab56d05c953c2",
@@ -3383,7 +3851,7 @@
       "engineering": true,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "2f9ace676299595171bf6440db2e72f7",
@@ -3455,7 +3923,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "6b23a9c954c66c6037c1ff0cf9271f2f",
@@ -3581,7 +4049,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "2d033af1e57795f751bd3f394508e733",
@@ -3599,7 +4067,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "84bace4b67d1c0f2475870bb493e3dc0",
@@ -3743,7 +4211,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "afd4226be7051d035585f4c35c8972ed",
@@ -3761,7 +4229,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "8f54e31cd806566e514f709f4141b089",
@@ -3779,7 +4247,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "85c197cb00e88661fd0bd5e4353e9260",
@@ -3923,7 +4391,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 5
     },
     {
       "id": "6108fc040e0052259c3896fa141bce68",
@@ -3959,7 +4427,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "eb2d76b251ec7bb5f5b071c314ab5ce2",
@@ -4229,7 +4697,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "42df82e04c4cb23c9d2ae9a04c317f51",
@@ -4301,7 +4769,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "99a4468ef83aeed46c0b8908f4a07c21",
@@ -4373,7 +4841,7 @@
       "engineering": true,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "4a72aa3f62529a8dbdba74549bf78331",
@@ -4391,7 +4859,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 1
     },
     {
       "id": "8c5376908c7eeba779c26daba18fadd6",
@@ -4499,7 +4967,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "d8e4f6991c2a3310581c3a95fb9417bb",
@@ -4535,7 +5003,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "445d1f8a4a77e2d65a00e0ca34524346",
@@ -4643,7 +5111,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 1
     },
     {
       "id": "f9dcd9e89d8db7d10caa420eb459279a",
@@ -4661,7 +5129,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "e0374dc010dbeb3614dea96599ad7f6e",
@@ -4679,7 +5147,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "88d588ae2e3b0c081b00927e90747e5f",
@@ -4697,7 +5165,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "7c3e4ef2864800e2fa065a3608ce9ce7",
@@ -4769,7 +5237,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "06388752994224d75822374e54968144",
@@ -5021,7 +5489,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "1f5bc1f06d7621a07cf50cd5bfdbbf03",
@@ -5039,7 +5507,7 @@
       "engineering": true,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "8017a86701b73ba8f4cebeff957cf600",
@@ -5093,7 +5561,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "7bb15d84c01b18ad2e74a85840a47a71",
@@ -5273,7 +5741,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "123dedf6ec528b90cfbb2ca70dc398b1",
@@ -26174,96 +26642,6 @@
       "importance": 4
     },
     {
-      "id": "0fc84c89ca477afacf222a767a959f01",
-      "title": "French digital tax may kill VideoLan non-profit",
-      "url": "https://twitter.com/videolan/status/2116229135919919278",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-30T19:01:14Z",
-      "fetched_at": "2026-10-30T20:01:25.952812Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50308631",
-      "points": 63,
-      "comments": 41,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "9f5218fab492b818ca3000bee770bbd2",
-      "title": "What happened to 145 Nasdaq companies after the $1 warning letter",
-      "url": "https://equibles.com/research/nasdaqs-1-warning-most-companies-stay-listed-most-shares-fall",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-30T18:50:25Z",
-      "fetched_at": "2026-10-30T20:01:25.952812Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50308471",
-      "points": 16,
-      "comments": 2,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 2
-    },
-    {
-      "id": "dc6b3501ce102f2c81b47a5b85971458",
-      "title": "French national assembly votes 0.055€/GB internet tax",
-      "url": "https://www.lesnumeriques.com/societe-numerique/netflix-steam-cloud-vos-abonnements-et-telechargements-bientot-plus-chers-a-cause-d-une-nouvelle-taxe-n264035.html",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-10-30T18:31:56Z",
-      "fetched_at": "2026-10-30T19:03:26.384502Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50308240",
-      "points": 15,
-      "comments": 9,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "b119c6eeb05f2544f94bcea51d13f31d",
-      "title": "Google’s satellite AI server transmits its first response to Earth",
-      "url": "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission",
-      "source_id": "the-verge",
-      "source_name": "The Verge",
-      "category": "tech",
-      "summary": "Google's AI chip-equipped satellite has generated its first response from space. In a blog post on Friday, Google says it successfully booted up the satellite's Tensor Processing Units (TPUs), allowing the on-board Gemma 4 model to follow through on a prompt to create a haiku about being in space: Blue marble below Data streams in […]",
-      "published_at": "2026-10-30T18:21:38Z",
-      "fetched_at": "2026-10-30T19:03:26.384502Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 4
-    },
-    {
-      "id": "ed6245b301289c8b93e3881934ea1e22",
-      "title": "Rare meteorite from Mars gives us a view into its ancient crust",
-      "url": "https://arstechnica.com/science/2026/10/rare-meteorite-from-mars-gives-us-a-view-into-its-ancient-crust/",
-      "source_id": "ars-technica",
-      "source_name": "Ars Technica",
-      "category": "tech",
-      "summary": "A meteorite found in the Sahara is a rare piece of Mars' ancient crust.",
-      "published_at": "2026-10-30T18:13:42Z",
-      "fetched_at": "2026-10-30T19:03:26.384502Z",
-      "discussion_url": "https://arstechnica.com/science/2026/10/rare-meteorite-from-mars-gives-us-a-view-into-its-ancient-crust/#comments",
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "excluded",
-      "importance": 2
-    },
-    {
       "id": "7b0eb1c92a2ebf8eb6d942f3ecaa4e47",
       "title": "4 real? Tracking exploitation and patching of eMudhra’s weak keys",
       "url": "https://blog.cloudflare.com/emudhra-patching/",
@@ -29290,103 +29668,144 @@
   ],
   "top_stories": [
     {
-      "id": "52873985d07f9aba052205f4dfe270f8",
-      "title": "Critical OpenSSH authentication bypass vulnerability discovered",
-      "summary": "Security researchers have disclosed a critical OpenSSH flaw that allows attackers to log into accounts without a password on Alpine Linux and other musl-based Linux servers running standard configurations. Threat actors have actively targeted the vulnerability within hours of disclosure, gaining root access on honeypots.",
-      "why_it_matters": "This severe remote authentication flaw exposes core server infrastructure and requires immediate patching across Linux deployments.",
+      "id": "31e8a45d274dcf915de62b89dfb3f527",
+      "title": "OpenSSH flaw allows password-disabled account logins",
+      "summary": "A newly discovered OpenSSH vulnerability dubbed 'sshole' allows attackers to log in to accounts with no password set on Alpine Linux and other musl-based Linux systems. Security firms report active exploitation attempts on honey pots.",
+      "why_it_matters": "Critical remote access vulnerabilities in OpenSSH require immediate patching across Linux infrastructure.",
       "item_ids": [
-        "52873985d07f9aba052205f4dfe270f8",
-        "7d1426211b6649abc88370957188e518",
         "31e8a45d274dcf915de62b89dfb3f527",
-        "6e1fd6e52074c622bb5f1d84a5f3d92c"
+        "374336a4c36be22cdb5fe9a24d0afcfd",
+        "6e1fd6e52074c622bb5f1d84a5f3d92c",
+        "7d1426211b6649abc88370957188e518"
       ],
-      "primary_url": null,
+      "primary_url": "https://thehacker.news/fuel-the-soc?source=below",
       "first_shown": "2026-11-05T18:01:42.209214Z",
-      "last_shown": "2026-11-06T18:01:37.913714Z"
+      "last_shown": "2026-11-06T19:01:37.826192Z"
     },
     {
       "id": "5063812dd13d728e64c1e97b087a6a19",
-      "title": "Fox completes $22 billion acquisition of Roku",
-      "summary": "Fox has officially completed its $22 billion acquisition of streaming platform Roku. With Roku under its umbrella, Fox now controls a major streaming platform reaching over 100 million users.",
-      "why_it_matters": "This major media merger consolidates streaming distribution infrastructure and could impact developer ecosystems and platform integrations.",
+      "title": "Fox completes $22B acquisition of Roku",
+      "summary": "Fox has officially completed its $22 billion acquisition of streaming giant Roku. With Roku under its umbrella, Fox now controls a major streaming platform reaching more than 100 million users.",
+      "why_it_matters": "This major media and tech consolidation impacts streaming infrastructure and platform distribution.",
       "item_ids": [
         "5063812dd13d728e64c1e97b087a6a19",
         "92e87df294317212c919a27c8eab27b1"
       ],
       "primary_url": "https://www.prnewswire.com/news-releases/fox-corporation-completes-acquisition-of-roku-302932088.html",
       "first_shown": "2026-11-06T18:01:37.913714Z",
-      "last_shown": "2026-11-06T18:01:37.913714Z"
+      "last_shown": "2026-11-06T19:01:37.826192Z"
     },
     {
-      "id": "e896324e5e8b780184c0c615d2ff4c9a",
-      "title": "Tesla to wind down Cybertruck production",
-      "summary": "Tesla is winding down production of the Cybertruck after poor sales across a few markets. CEO Elon Musk stated that the factory space will be repurposed to ramp up production of robotaxis and Cybercabs.",
-      "why_it_matters": "This shift in manufacturing focus alters hardware roadmaps and redeploys industrial capacity toward autonomous vehicle fleets.",
+      "id": "3122e096b9f6fc4029706b30f4eac3b6",
+      "title": "Factory acquires AI startup HumanLayer; Palo Alto in talks to buy Clutch",
+      "summary": "Factory has acquired HumanLayer, its third AI coding startup in a month. Meanwhile, Palo Alto Networks is in talks to acquire AI agent security startup Clutch for $500 million.",
+      "why_it_matters": "Consolidation in the AI security and agent startup space affects tool ecosystems and developer options.",
       "item_ids": [
-        "e896324e5e8b780184c0c615d2ff4c9a",
-        "540a12ebebcfb1dd45d13cd970e42254",
-        "400f0d850005e417f3acabdfa98fa843",
-        "5fd1791050b43b8ba2ba8081075d659b"
+        "3122e096b9f6fc4029706b30f4eac3b6",
+        "489ec7b4be53e0d52e231edd72bf0c77"
       ],
       "primary_url": null,
-      "first_shown": "2026-11-06T11:01:43.990910Z",
-      "last_shown": "2026-11-06T18:01:37.913714Z"
+      "first_shown": "2026-11-06T19:01:37.826192Z",
+      "last_shown": "2026-11-06T19:01:37.826192Z"
     },
     {
-      "id": "878d0fbe0b5d1a20c304802c524439fd",
-      "title": "Chainalysis discloses security breach exposing customer credentials",
-      "summary": "Blockchain intelligence firm Chainalysis revealed that a recent cyber attack on its internal tools and systems exposed names, usernames, password hashes, and live tokens for all customers. The security incident forced the shutdown of key services while investigations continue.",
-      "why_it_matters": "This breach compromises critical security credentials and analytics infrastructure used across law enforcement and cryptocurrency operations.",
+      "id": "9b78687c669de665e03aff9eae143cdf",
+      "title": "Chainalysis discloses breach exposing credentials and live tokens",
+      "summary": "Blockchain intelligence firm Chainalysis suffered a security breach of its internal tools and systems. The incident exposed credentials, live tokens, and customer information.",
+      "why_it_matters": "Security breaches involving core developer and enterprise tools put downstream infrastructure and systems at risk.",
       "item_ids": [
+        "9b78687c669de665e03aff9eae143cdf",
         "878d0fbe0b5d1a20c304802c524439fd",
-        "d0ae870a70402dec54cdf53e4c99f283",
-        "13657efba3bab0e4980d86a812c049c0"
+        "d0ae870a70402dec54cdf53e4c99f283"
       ],
-      "primary_url": "https://www.chainalysis.com/blog/security-incident-october-30",
+      "primary_url": "https://www.adaptivesecurity.com/lp/nb/email-scan",
       "first_shown": "2026-11-06T15:01:47.416508Z",
-      "last_shown": "2026-11-06T18:01:37.913714Z"
+      "last_shown": "2026-11-06T19:01:37.826192Z"
     },
     {
-      "id": "ae24468516b8d6338069171edb263d71",
-      "title": "OpenAI launches GPT-6 Cyber security model",
-      "summary": "OpenAI has unveiled GPT-6 Cyber, a new model designed for cybersecurity research that combines enhanced hacking capabilities with stricter behavioral boundaries. The company reports the model successfully avoided exploiting out-of-scope services over 99 percent of the time during testing.",
-      "why_it_matters": "New AI models specialized in automated vulnerability discovery and exploit generation change how security researchers and malicious actors audit software.",
+      "id": "1a20a287bd65ec924d7f340faed035c4",
+      "title": "OpenAI unveils GPT-6 Cyber model for security research",
+      "summary": "OpenAI launched GPT-6 Cyber, a cybersecurity-focused model designed to improve vulnerability detection while staying within rules of engagement and avoiding out-of-scope exploits.",
+      "why_it_matters": "New AI models targeted at cybersecurity and automated vulnerability discovery change how security teams test code and infrastructure.",
       "item_ids": [
-        "ae24468516b8d6338069171edb263d71",
+        "1a20a287bd65ec924d7f340faed035c4",
+        "ddaedd41fcbc2f0f9145d7ef56d8edba",
         "8d55da85fce43312a8a833aa5edd9d6b",
-        "8f54e31cd806566e514f709f4141b089",
-        "1a20a287bd65ec924d7f340faed035c4"
+        "ae24468516b8d6338069171edb263d71"
       ],
       "primary_url": "https://openai.com/index/introducing-gpt-6-cyber",
       "first_shown": "2026-11-05T18:01:42.209214Z",
-      "last_shown": "2026-11-06T18:01:37.913714Z"
+      "last_shown": "2026-11-06T19:01:37.826192Z"
     },
     {
       "id": "3c74e8611269218a99d3469d1ef322ac",
       "title": "The New York Times in talks to acquire Letterboxd for $330M",
-      "summary": "The New York Times Company is in exclusive negotiations to acquire Letterboxd, the social network for film lovers, for approximately $330 million. The potential buyout follows the platform's dramatic growth in recent years.",
-      "why_it_matters": "A major publishing acquisition of a large social platform highlights ongoing consolidation and community data monetization in digital media.",
+      "summary": "The New York Times Company is in exclusive negotiations to acquire Letterboxd, the social network for film lovers, for approximately $330 million.",
+      "why_it_matters": null,
       "item_ids": [
         "3c74e8611269218a99d3469d1ef322ac",
         "5ffb4b6cd10d1387bf47a31415b10d4b"
       ],
       "primary_url": "https://www.nytimes.com/2026/11/05/business/media/letterboxd-new-york-times-company.html?unlocked_article_code=1.OFE.VI2A.KUZeZMAjpE-e",
       "first_shown": "2026-11-06T01:01:36.404736Z",
-      "last_shown": "2026-11-06T18:01:37.913714Z"
+      "last_shown": "2026-11-06T19:01:37.826192Z"
+    },
+    {
+      "id": "4f2618c56ecaa584abb7661f0e72865a",
+      "title": "Backdoor found in Control Web Panel server executing commands",
+      "summary": "Researchers discovered a backdoor hiding in the web server of Control Web Panel (CWP) for Linux hosting. The trojanized server executes commands without logs.",
+      "why_it_matters": "Compromised hosting control panels directly expose server infrastructure to unauthorized remote access.",
+      "item_ids": [
+        "4f2618c56ecaa584abb7661f0e72865a",
+        "7c3e4ef2864800e2fa065a3608ce9ce7"
+      ],
+      "primary_url": "https://blog.xlab.qianxin.com/cwpdoor-the-invisible-backdoor-living-inside-control-web-panel",
+      "first_shown": "2026-11-06T19:01:37.826192Z",
+      "last_shown": "2026-11-06T19:01:37.826192Z"
+    },
+    {
+      "id": "fc498c8a199632d3cef71162d73a36e3",
+      "title": "Critical flaws in Barracuda Email Security Gateway allow root access",
+      "summary": "Two vulnerabilities in Barracuda's Email Security Gateway can be chained to achieve root access without login. Barracuda has released patches for the flaws.",
+      "why_it_matters": "Unauthenticated remote root vulnerabilities in email appliances put enterprise networks at immediate risk.",
+      "item_ids": [
+        "fc498c8a199632d3cef71162d73a36e3",
+        "8e7b32e6a3f550dce38ce8e6d4b2b193"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-06T08:01:39.158961Z",
+      "last_shown": "2026-11-06T19:01:37.826192Z"
+    },
+    {
+      "id": "540a12ebebcfb1dd45d13cd970e42254",
+      "title": "Tesla to wind down Cybertruck production",
+      "summary": "Tesla is winding down production of the Cybertruck to ramp up robotaxi output and use factory space for Cybercabs. Elon Musk confirmed the end of production.",
+      "why_it_matters": null,
+      "item_ids": [
+        "540a12ebebcfb1dd45d13cd970e42254",
+        "e896324e5e8b780184c0c615d2ff4c9a",
+        "5fd1791050b43b8ba2ba8081075d659b",
+        "400f0d850005e417f3acabdfa98fa843"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-06T11:01:43.990910Z",
+      "last_shown": "2026-11-06T19:01:37.826192Z"
     },
     {
       "id": "c6a1ad42392735a1a89f30e23d021c6e",
-      "title": "Airbnb to launch AI travel agent in 2027",
-      "summary": "Airbnb plans to roll out an AI agent in the first half of 2027 to help users plan trips, compare options, manage bookings, and get assistance throughout their stays. The company announced the upcoming release in its latest shareholder letter.",
-      "why_it_matters": "The integration of autonomous booking agents into travel platforms expands enterprise adoption of consumer-facing AI automation.",
+      "title": "Airbnb planning to launch an AI travel agent in early 2027",
+      "summary": "Airbnb plans to launch an AI agent in the first half of 2027 to help travelers plan, book, and manage trips. The company disclosed the plans in its Q3 2026 earnings shareholder letter.",
+      "why_it_matters": "Integration of LLM agents into enterprise booking platforms expands the commercial deployment of conversational AI.",
       "item_ids": [
         "c6a1ad42392735a1a89f30e23d021c6e",
         "87e2e7d627b8707e1e20b84112cbee3b"
       ],
       "primary_url": "https://skift.com/2026/09/23/brian-chesky-commits-to-launching-an-ai-agent-in-2027",
       "first_shown": "2026-11-06T01:01:36.404736Z",
-      "last_shown": "2026-11-06T18:01:37.913714Z"
-    },
+      "last_shown": "2026-11-06T19:01:37.826192Z"
+    }
+  ],
+  "past_top_stories": [
     {
       "id": "afd4226be7051d035585f4c35c8972ed",
       "title": "Meta rolls out real-time voice mode for Muse AI avatar",
@@ -29425,9 +29844,7 @@
       "primary_url": null,
       "first_shown": "2026-11-06T14:01:45.699483Z",
       "last_shown": "2026-11-06T18:01:37.913714Z"
-    }
-  ],
-  "past_top_stories": [
+    },
     {
       "id": "d775a103c59030c6036fcad5432f1733",
       "title": "Fix available for Microsoft Paint remote code execution vulnerability",
@@ -29439,19 +29856,6 @@
       ],
       "primary_url": null,
       "first_shown": "2026-11-06T15:01:47.416508Z",
-      "last_shown": "2026-11-06T17:01:42.908513Z"
-    },
-    {
-      "id": "fc498c8a199632d3cef71162d73a36e3",
-      "title": "Critical pre-auth remote root vulnerabilities found in Barracuda Email Security Gateway",
-      "summary": "Two security flaws in Barracuda's Email Security Gateway can be chained to achieve unauthenticated remote code execution as root. The company has released patches to address the issue.",
-      "why_it_matters": "Unauthenticated root RCE vulnerabilities in perimeter security appliances present critical risks for enterprise network compromise.",
-      "item_ids": [
-        "fc498c8a199632d3cef71162d73a36e3",
-        "8e7b32e6a3f550dce38ce8e6d4b2b193"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-06T08:01:39.158961Z",
       "last_shown": "2026-11-06T17:01:42.908513Z"
     },
     {
@@ -29531,31 +29935,6 @@
       "primary_url": null,
       "first_shown": "2026-11-06T04:01:38.433285Z",
       "last_shown": "2026-11-06T14:01:45.699483Z"
-    },
-    {
-      "id": "9f47f40159c2d0e8cea4d04914f96cc6",
-      "title": "Aina Launches Smart Ring Designed to Control AI Agents",
-      "summary": "Startup Aina has unveiled a smart ring featuring a screen, joystick, and microphone designed to let users interact with and control AI agents. The device aims to provide a hardware remote control alternative to smartphones.",
-      "why_it_matters": "Presents novel wearable hardware architectures for interacting with autonomous assistant software.",
-      "item_ids": [
-        "9f47f40159c2d0e8cea4d04914f96cc6",
-        "84de8582a28c9201cb397f617fe5a0e3"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-06T12:01:39.361866Z",
-      "last_shown": "2026-11-06T13:01:38.572344Z"
-    },
-    {
-      "id": "853a735c1020049beb1a0c9212346250",
-      "title": "GitLab 19.5 Makes Agentic Development a Governed Part of the DevOps Platform",
-      "summary": "GitLab 19.5, released on October 15, puts agentic software development and governance at the centre of the platform, making its GitLab MCP server generally available while expanding how external AI agents can interact with GitLab. By Craig Risi",
-      "why_it_matters": "Integrates Model Context Protocol servers and agentic governance directly into mainstream enterprise CI/CD platforms.",
-      "item_ids": [
-        "853a735c1020049beb1a0c9212346250"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-06T12:01:39.361866Z",
-      "last_shown": "2026-11-06T12:01:39.361866Z"
     }
   ]
 }
