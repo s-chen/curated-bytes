@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T07:01:36.964124Z",
+  "generated_at": "2026-11-07T08:01:47.316474Z",
   "items": [
     {
       "id": "a578f17ce9a026df4f4f7d2b6f9ff1e4",
@@ -14,6 +14,42 @@
       "discussion_url": null,
       "points": null,
       "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "15fca1b7faff4be25627c29f8b397c37",
+      "title": "Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
+      "url": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
+      "source_id": "the-hacker-news",
+      "source_name": "The Hacker News",
+      "category": "tech",
+      "summary": "Passwords and API keys that developers typed into commands they approved in Claude Code are sitting in public GitHub repositories, where anyone can read them. When a user selects \"Yes, and don't ask again,\" Anthropic's AI coding assistant can save the command, word-for-word, including the secret, in a project settings file. Software security company Apiiro said yesterday that 1,122 public",
+      "published_at": "2026-11-07T06:44:17Z",
+      "fetched_at": "2026-11-07T08:01:47.316474Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 5
+    },
+    {
+      "id": "90b9a34769f8c63e341c256aa8134663",
+      "title": "The Components of Agent Memory",
+      "url": "https://www.anthropic.com/research/components-of-agent-memory",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-11-07T06:39:04Z",
+      "fetched_at": "2026-11-07T08:01:47.316474Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50402212",
+      "points": 10,
+      "comments": 1,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -53,7 +89,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "23bee22338544deaf697c2bea82d8bcb",
@@ -84,8 +120,8 @@
       "published_at": "2026-11-07T04:54:36Z",
       "fetched_at": "2026-11-07T06:01:34.015820Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50401740",
-      "points": 37,
-      "comments": 8,
+      "points": 55,
+      "comments": 22,
       "engineering": false,
       "blog": false,
       "review": "pending",
@@ -246,8 +282,8 @@
       "published_at": "2026-11-07T01:05:16Z",
       "fetched_at": "2026-11-07T02:01:36.825549Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50400597",
-      "points": 98,
-      "comments": 61,
+      "points": 104,
+      "comments": 67,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -354,8 +390,8 @@
       "published_at": "2026-11-06T23:37:19Z",
       "fetched_at": "2026-11-07T02:01:36.825549Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50399991",
-      "points": 95,
-      "comments": 44,
+      "points": 109,
+      "comments": 50,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -449,7 +485,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "b7e20378157379f6e722d053233f9249",
@@ -462,12 +498,12 @@
       "published_at": "2026-11-06T23:00:46Z",
       "fetched_at": "2026-11-07T02:01:36.825549Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50399657",
-      "points": 169,
-      "comments": 79,
+      "points": 173,
+      "comments": 80,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "421fa7063f0687d0e02540c8bf9c056a",
@@ -593,7 +629,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "a7bfc50a1d143c4f4448d56b5773e01e",
@@ -737,7 +773,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "77005c64011320dfe68feab5975fe3ed",
@@ -755,7 +791,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "801cd0484277e8dea6fd3a7e54fe903d",
@@ -773,7 +809,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "7574b93a4909fb0ddd2f000c7475c680",
@@ -786,8 +822,8 @@
       "published_at": "2026-11-06T20:27:23Z",
       "fetched_at": "2026-11-06T22:01:41.743284Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50397994",
-      "points": 270,
-      "comments": 210,
+      "points": 281,
+      "comments": 216,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -858,8 +894,8 @@
       "published_at": "2026-11-06T20:09:14Z",
       "fetched_at": "2026-11-07T00:01:35.908673Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50397711",
-      "points": 63,
-      "comments": 12,
+      "points": 65,
+      "comments": 14,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -930,12 +966,12 @@
       "published_at": "2026-11-06T19:48:51Z",
       "fetched_at": "2026-11-06T21:01:41.821663Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50397429",
-      "points": 425,
-      "comments": 96,
+      "points": 440,
+      "comments": 98,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "088b136dac7f1bc181ed4a14701ccc48",
@@ -1020,8 +1056,8 @@
       "published_at": "2026-11-06T19:33:38Z",
       "fetched_at": "2026-11-06T20:01:35.166627Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50397219",
-      "points": 211,
-      "comments": 104,
+      "points": 218,
+      "comments": 105,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -1074,8 +1110,8 @@
       "published_at": "2026-11-06T19:19:27Z",
       "fetched_at": "2026-11-06T20:01:35.166627Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50397017",
-      "points": 114,
-      "comments": 58,
+      "points": 116,
+      "comments": 60,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -1295,7 +1331,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "3b5176bf138b6926d84b74e1930e00b9",
@@ -1457,7 +1493,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "dd8de1f4be71dbc4e19d36fdb75d26f6",
@@ -1527,7 +1563,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -1704,8 +1740,8 @@
       "published_at": "2026-11-06T17:30:22Z",
       "fetched_at": "2026-11-06T19:01:37.826192Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50395450",
-      "points": 146,
-      "comments": 57,
+      "points": 150,
+      "comments": 60,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -1763,7 +1799,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "fa92be0bb067ddc8b4aca17fb7e0d241",
@@ -1794,8 +1830,8 @@
       "published_at": "2026-11-06T17:12:05Z",
       "fetched_at": "2026-11-07T05:01:38.921247Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50395183",
-      "points": 47,
-      "comments": 13,
+      "points": 52,
+      "comments": 17,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -1961,7 +1997,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "f1ef0ecbbb3895e46e213cab4997c226",
@@ -2015,7 +2051,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "69d96efc657346e504af2c833383d9d5",
@@ -2069,7 +2105,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "104a984077f090af8df0d6fe32e4ed08",
@@ -2135,9 +2171,9 @@
       "summary": null,
       "published_at": "2026-11-06T16:15:03Z",
       "fetched_at": "2026-11-06T18:01:37.913714Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50394292",
-      "points": 38,
-      "comments": 14,
+      "discussion_url": "https://lobste.rs/s/jsvlfm/scriptable_geodns_leaving_aws_for_bunny",
+      "points": null,
+      "comments": null,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -2159,7 +2195,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "5063812dd13d728e64c1e97b087a6a19",
@@ -2195,7 +2231,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "493250835b9765e7e71a70d9218b6ef4",
@@ -2663,7 +2699,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "b9cec82b958c6fb2271de29a972aee81",
@@ -2735,7 +2771,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "6bcb8fea73375594c0a20e58cade46b6",
@@ -2789,7 +2825,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "80614ca8c0e7266efd5b152171380505",
@@ -2825,7 +2861,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 4
     },
     {
       "id": "f7fc70a3a032d61fcd9e5cc2490b2561",
@@ -2861,7 +2897,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "1c848d9c6bf2868221fc6787ccf69184",
@@ -2897,7 +2933,7 @@
       "engineering": true,
       "blog": true,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "1ed370ca0df18517b95301c023afcb41",
@@ -2969,7 +3005,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "7a34fe39c8e209a676f410cec365ae0c",
@@ -2987,7 +3023,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 1
+      "importance": 2
     },
     {
       "id": "9ed7bb3273c90c5e8ce32e8752e3173c",
@@ -3126,8 +3162,8 @@
       "published_at": "2026-11-06T12:13:51Z",
       "fetched_at": "2026-11-06T18:01:37.913714Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50391456",
-      "points": 962,
-      "comments": 1816,
+      "points": 978,
+      "comments": 1828,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -3257,7 +3293,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "bc5b5bb370d4ab7756e9d993a29d1c89",
@@ -3329,7 +3365,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "c6cd0701f6e13f5cc3c5d10a454e2a5a",
@@ -3419,7 +3455,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "0365f475c343c169c338dccf84109efc",
@@ -3437,7 +3473,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "e36f828f500eb1250ec105750e3465ee",
@@ -3491,7 +3527,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "5fd1791050b43b8ba2ba8081075d659b",
@@ -3563,7 +3599,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "7943dbacf8002429d0bb92e7e0cff617",
@@ -3707,7 +3743,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "b5d6bc0c0a4d724fcdc3ba4f90be4c0c",
@@ -3725,7 +3761,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "72997fd68ffba247653cf438e9dd1c2d",
@@ -3756,8 +3792,8 @@
       "published_at": "2026-11-06T08:18:36Z",
       "fetched_at": "2026-11-06T12:01:39.361866Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50389570",
-      "points": 119,
-      "comments": 97,
+      "points": 121,
+      "comments": 99,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -3797,7 +3833,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "4650983e6e647dcd0fd49126ce29e071",
@@ -3833,7 +3869,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "6e2fce9f73df417f10201b5d22b5c36f",
@@ -3959,7 +3995,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "78fd79f2467984bbffbed9737557169e",
@@ -4031,7 +4067,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "2fe959996c24fdd86c1255319bb0f45e",
@@ -4085,7 +4121,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "4f2618c56ecaa584abb7661f0e72865a",
@@ -4193,7 +4229,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "55f5497ba87b7ff8bc6f1b22aeb460a2",
@@ -4211,7 +4247,25 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
+    },
+    {
+      "id": "ee4f09d272e241861215818941c2378b",
+      "title": "US FAA says it will phase out floppy disks from air traffic control by 2028",
+      "url": "https://www.reuters.com/world/us/us-faa-says-it-will-phase-out-floppy-disks-air-traffic-control-by-2028-2026-11-05/",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-11-06T04:00:28Z",
+      "fetched_at": "2026-11-07T08:01:47.316474Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50388001",
+      "points": 328,
+      "comments": 266,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 4
     },
     {
       "id": "471c01ac43f5db870aeeb2d16ba1dc12",
@@ -4643,7 +4697,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "12bd633e1625f122efcc9fb71b24f4c1",
@@ -4661,7 +4715,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "afd2b8ff705748c8ea177b4aa6fa0448",
@@ -4733,7 +4787,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "87e2e7d627b8707e1e20b84112cbee3b",
@@ -5075,7 +5129,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "b47cc837875e15a4998ab56d05c953c2",
@@ -5147,7 +5201,7 @@
       "engineering": true,
       "blog": true,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "2f9ace676299595171bf6440db2e72f7",
@@ -5255,7 +5309,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "31ec4804f256d5ead8f884682f6af112",
@@ -6258,7 +6312,7 @@
       "published_at": "2026-11-05T17:00:00Z",
       "fetched_at": "2026-11-05T18:01:42.209214Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50392118",
-      "points": 317,
+      "points": 321,
       "comments": 227,
       "engineering": false,
       "blog": false,
@@ -26714,24 +26768,6 @@
       "importance": 3
     },
     {
-      "id": "174c60cff894cccf84bc1583311fa102",
-      "title": "LocalStack for Azure Enters Public Preview with Security Settings Stored but Not Enforced",
-      "url": "https://www.infoq.com/news/2026/10/localstack-azure-preview/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source_id": "infoq",
-      "source_name": "InfoQ",
-      "category": "tech",
-      "summary": "LocalStack has opened its Azure emulator to a free public preview, running Azure services locally and accepting existing ARM, Bicep, and Terraform without rewrites. Its own documentation reports partial operation coverage per service and a consistent pattern: configuration is stored and returned, while enforcement of access restrictions, TLS, and network rules is not implemented. By Steef-Jan Wiggers",
-      "published_at": "2026-10-31T07:57:00Z",
-      "fetched_at": "2026-10-31T08:01:24.575216Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
       "id": "cb0987e4c264f2fc85743ec47a6a401a",
       "title": "Digital Minimalism",
       "url": "https://vitalik.eth.limo/general/2026/10/31/digital_minimalism.html",
@@ -29902,38 +29938,36 @@
   ],
   "top_stories": [
     {
-      "id": "671dd8ccd7298128ca3510007483a77c",
-      "title": "OpenAI reportedly raises $11B at $1.25T valuation amid Anthropic IPO talks",
-      "summary": "OpenAI has raised an additional $11 billion in a funding round that values the company at $1.25 trillion. Meanwhile, rival Anthropic is nearing its IPO with valuation talks ranging between $1.1 trillion and $1.3 trillion.",
-      "why_it_matters": "Massive funding rounds and valuations for frontier AI labs directly impact industry economics, capital availability, and the competitive landscape for developer tools.",
+      "id": "53c8a40c524cf7111adeb12c46d3df6f",
+      "title": "OpenAI raises $11B at a $1.25 trillion valuation",
+      "summary": "OpenAI has reportedly raised an additional $11 billion in a funding round that values the company at $1.25 trillion. This makes it one of the world's most valuable companies.",
+      "why_it_matters": "Massive funding rounds at trillion-dollar valuations shift market dynamics, venture capital allocation, and resources across the entire AI ecosystem.",
       "item_ids": [
-        "671dd8ccd7298128ca3510007483a77c",
         "53c8a40c524cf7111adeb12c46d3df6f",
-        "09abba521335abe42ffa64e8fb7a8a23",
-        "8bf6029768b8d6d7c712007696cef7c3"
+        "09abba521335abe42ffa64e8fb7a8a23"
       ],
-      "primary_url": null,
+      "primary_url": "https://www.bloomberg.com/news/articles/2026-11-06/openai-completes-11-billion-portion-of-funding-at-1-25-trillion-value",
       "first_shown": "2026-11-06T23:01:34.613724Z",
-      "last_shown": "2026-11-07T07:01:36.964124Z"
+      "last_shown": "2026-11-07T08:01:47.316474Z"
     },
     {
       "id": "8570c7e517fa232fc1fb7a655a5c37b7",
       "title": "OpenAI unveils GPT-6 Cyber model",
-      "summary": "OpenAI has introduced GPT-6 Cyber, a new artificial intelligence model focused on security research. The model discovered 81 previously unknown high-severity Firefox vulnerabilities and developed working exploits for numerous Linux bugs.",
-      "why_it_matters": "Autonomous vulnerability discovery models drastically change how security flaws are found, patched, and weaponized across core operating systems and browsers.",
+      "summary": "OpenAI has unveiled GPT-6 Cyber, a new artificial intelligence model designed for security research that has discovered 81 previously unknown high-severity Firefox vulnerabilities and developed working exploits for 948 Linux bugs. The model combines stronger cybersecurity capabilities with improvements in mode performance.",
+      "why_it_matters": "Advanced autonomous cyber capabilities will dramatically alter vulnerability discovery timelines and automated defensive tooling for engineers.",
       "item_ids": [
         "8570c7e517fa232fc1fb7a655a5c37b7",
         "1a20a287bd65ec924d7f340faed035c4"
       ],
       "primary_url": "https://openai.com/index/introducing-gpt-6-cyber",
       "first_shown": "2026-11-05T18:01:42.209214Z",
-      "last_shown": "2026-11-07T07:01:36.964124Z"
+      "last_shown": "2026-11-07T08:01:47.316474Z"
     },
     {
       "id": "f14e0ce1fd54db0f67ea72814f755d84",
-      "title": "Chainalysis suffers cyberattack exposing customer credentials and tokens",
-      "summary": "Blockchain intelligence firm Chainalysis suffered a multi-front cyberattack involving AI agents and an on-path data snatch. The breach exposed credentials, names, password hashes, and live tokens for all customers, forcing a shutdown of key services.",
-      "why_it_matters": "Credential compromises at major security infrastructure providers pose severe downstream supply chain risks for organizations relying on their APIs.",
+      "title": "Chainalysis breach exposes customer credentials and tokens",
+      "summary": "Blockchain intelligence firm Chainalysis confirmed that a multifront cyberattack involving AI agents and on-path data snatches exposed credentials, password hashes, and live tokens for all customers. The breach has forced the shutdown of key services while investigations continue.",
+      "why_it_matters": "Compromise of security vendor infrastructure and developer authentication credentials underscores critical supply chain risks for third-party auditing tools.",
       "item_ids": [
         "f14e0ce1fd54db0f67ea72814f755d84",
         "878d0fbe0b5d1a20c304802c524439fd",
@@ -29941,53 +29975,66 @@
       ],
       "primary_url": "https://www.chainalysis.com/blog/security-incident-october-30",
       "first_shown": "2026-11-06T15:01:47.416508Z",
-      "last_shown": "2026-11-07T07:01:36.964124Z"
+      "last_shown": "2026-11-07T08:01:47.316474Z"
     },
     {
       "id": "3c948dd9bdf7725da8ff5aea3c72ec8a",
       "title": "Google acquires Crusoe's Wyoming data center project",
-      "summary": "Google has acquired Crusoe's data center site in southeast Wyoming. The deal highlights the growing challenges and capital demands of developing massive AI data centers.",
-      "why_it_matters": "Data center acquisitions and infrastructure expansion dictate the availability and geographical distribution of cloud compute resources for engineers.",
+      "summary": "Google has acquired Crusoe's troubled data center project located in southeast Wyoming. The deal highlights the challenges of developing massive AI data centers.",
+      "why_it_matters": "This affects cloud infrastructure capacity and highlights the ongoing corporate consolidation of power and real estate for large-scale AI workloads.",
       "item_ids": [
         "3c948dd9bdf7725da8ff5aea3c72ec8a",
         "e8a6738bda8dfa77b366bc6baa18e7d6"
       ],
       "primary_url": null,
       "first_shown": "2026-11-07T02:01:36.825549Z",
-      "last_shown": "2026-11-07T07:01:36.964124Z"
+      "last_shown": "2026-11-07T08:01:47.316474Z"
     },
     {
       "id": "5063812dd13d728e64c1e97b087a6a19",
-      "title": "Fox completes $22B acquisition of Roku",
-      "summary": "Fox has officially completed its $22 billion acquisition of streaming giant Roku following antitrust scrutiny. The deal brings a major streaming platform reaching over 100 million users under Fox's control.",
-      "why_it_matters": null,
+      "title": "Fox completes $22 billion acquisition of Roku",
+      "summary": "Fox has officially completed its $22 billion acquisition of streaming giant Roku. With Roku under its umbrella, Fox now controls a major streaming platform that reaches over 100 million users.",
+      "why_it_matters": "Large media and tech platform consolidation impacts distribution channels, advertising tech, and hardware ecosystem management.",
       "item_ids": [
         "5063812dd13d728e64c1e97b087a6a19",
         "92e87df294317212c919a27c8eab27b1"
       ],
       "primary_url": "https://www.prnewswire.com/news-releases/fox-corporation-completes-acquisition-of-roku-302932088.html",
       "first_shown": "2026-11-06T18:01:37.913714Z",
-      "last_shown": "2026-11-07T07:01:36.964124Z"
+      "last_shown": "2026-11-07T08:01:47.316474Z"
     },
     {
       "id": "0552b185325bf34f41a46bd330f33194",
-      "title": "FAA begins retiring decades-old floppy disks from air traffic control",
-      "summary": "The Federal Aviation Administration is ditching floppy disks in a historic technology upgrade across 435 air traffic control sites. The overhaul aims to modernize information display systems by the end of 2028.",
-      "why_it_matters": null,
+      "title": "US FAA to phase out floppy disks from air traffic control by 2028",
+      "summary": "The US Federal Aviation Administration announced it will phase out legacy floppy disks from air traffic control information display systems across 435 sites by the end of 2028. The upgrade is part of a historic modernization effort.",
+      "why_it_matters": "Replacing ancient legacy storage media in critical national infrastructure highlights long-term maintenance hurdles in government systems.",
       "item_ids": [
         "0552b185325bf34f41a46bd330f33194",
         "722b2c3167dc6ea06f74bad985b6e858",
-        "910ad9c68493bebdebad8d1480dd66fc"
+        "ee4f09d272e241861215818941c2378b"
       ],
       "primary_url": null,
       "first_shown": "2026-11-06T19:43:47.061278Z",
-      "last_shown": "2026-11-07T07:01:36.964124Z"
+      "last_shown": "2026-11-07T08:01:47.316474Z"
+    },
+    {
+      "id": "76031c6737807c19a5a042cf6a843044",
+      "title": "Blue Origin slips New Glenn rocket launch to January 2027",
+      "summary": "Blue Origin has delayed its next New Glenn rocket launch to January 2027, according to a leaked internal staff memo from CEO Dave Limp. The updated timeline follows prior scheduling pressures.",
+      "why_it_matters": "Schedule slips in commercial space launch providers impact aerospace engineering timelines and satellite deployment logistics.",
+      "item_ids": [
+        "76031c6737807c19a5a042cf6a843044",
+        "b18925fcf2c1db6753ea3c0d0257ae64"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-06T14:01:45.699483Z",
+      "last_shown": "2026-11-07T08:01:47.316474Z"
     },
     {
       "id": "540a12ebebcfb1dd45d13cd970e42254",
-      "title": "Tesla winding down Cybertruck production",
-      "summary": "Tesla is winding down production of the Cybertruck after poor sales across limited markets. The company plans to retool the factory space to ramp up production of its Cybercabs.",
-      "why_it_matters": null,
+      "title": "Tesla to wind down Cybertruck production",
+      "summary": "Tesla is winding down production of the Cybertruck following years of poor sales in few markets. CEO Elon Musk stated the factory space will be repurposed to ramp up robotaxi and Cybercab output.",
+      "why_it_matters": "Discontinuation of major vehicle platforms shifts capital expenditure and manufacturing infrastructure toward autonomous vehicle development.",
       "item_ids": [
         "540a12ebebcfb1dd45d13cd970e42254",
         "e896324e5e8b780184c0c615d2ff4c9a",
@@ -29996,7 +30043,7 @@
       ],
       "primary_url": null,
       "first_shown": "2026-11-06T11:01:43.990910Z",
-      "last_shown": "2026-11-07T07:01:36.964124Z"
+      "last_shown": "2026-11-07T08:01:47.316474Z"
     },
     {
       "id": "421fa7063f0687d0e02540c8bf9c056a",
@@ -30009,8 +30056,22 @@
       ],
       "primary_url": null,
       "first_shown": "2026-11-07T06:39:02.468062Z",
-      "last_shown": "2026-11-07T07:01:36.964124Z"
+      "last_shown": "2026-11-07T08:01:47.316474Z"
     },
+    {
+      "id": "15fca1b7faff4be25627c29f8b397c37",
+      "title": "Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
+      "summary": "Passwords and API keys that developers typed into commands they approved in Claude Code are sitting in public GitHub repositories, where anyone can read them. When a user selects \"Yes, and don't ask again,\" Anthropic's AI coding assistant can save the command, word-for-word, including the secret, in a project settings file. Software security company Apiiro said yesterday that 1,122 public",
+      "why_it_matters": "Claude Code's authentication handling exposes user-approved passwords and API keys in public GitHub repositories, creating severe credential leaks for developers.",
+      "item_ids": [
+        "15fca1b7faff4be25627c29f8b397c37"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-07T08:01:47.316474Z",
+      "last_shown": "2026-11-07T08:01:47.316474Z"
+    }
+  ],
+  "past_top_stories": [
     {
       "id": "11eda57d218c39d7c6fe8b742c95e217",
       "title": "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks",
@@ -30034,9 +30095,7 @@
       "primary_url": null,
       "first_shown": "2026-11-07T07:01:36.964124Z",
       "last_shown": "2026-11-07T07:01:36.964124Z"
-    }
-  ],
-  "past_top_stories": [
+    },
     {
       "id": "d974f5212da4b30d63a9fa55baa366a0",
       "title": "Meta updates Muse AI agent with custom 'spaces' and real-time voice mode",
@@ -30050,20 +30109,6 @@
       "primary_url": null,
       "first_shown": "2026-11-06T18:01:37.913714Z",
       "last_shown": "2026-11-07T06:39:02.468062Z"
-    },
-    {
-      "id": "c7d80e993e695723bd9ebf4033b12ede",
-      "title": "Blue Origin delays New Glenn return to flight to January 2027",
-      "summary": "Blue Origin has pushed its next New Glenn rocket launch into January 2027, according to leaked staff memos from leadership. The delay overshadows recent developments regarding higher-performing, lower-cost rocket engine designs.",
-      "why_it_matters": "Shifts aerospace delivery timelines for heavy-lift launch providers competing for commercial payloads.",
-      "item_ids": [
-        "c7d80e993e695723bd9ebf4033b12ede",
-        "76031c6737807c19a5a042cf6a843044",
-        "b18925fcf2c1db6753ea3c0d0257ae64"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-06T14:01:45.699483Z",
-      "last_shown": "2026-11-07T06:01:34.015820Z"
     },
     {
       "id": "ea1ac67a16c72ee32ad0b603173d7785",
@@ -30153,19 +30198,6 @@
       "primary_url": null,
       "first_shown": "2026-11-06T20:01:35.166627Z",
       "last_shown": "2026-11-06T21:01:41.821663Z"
-    },
-    {
-      "id": "06388752994224d75822374e54968144",
-      "title": "DigiCert admits 16-month security lapse exposed customer data",
-      "summary": "DigiCert admitted to a 16-month security lapse after a server migration mistakenly exposed an internal business system to the internet. The configuration error allowed unauthorized access to customer information and identity documents.",
-      "why_it_matters": "This prolonged data exposure impacts trust in certificate authority infrastructure and customer data security.",
-      "item_ids": [
-        "06388752994224d75822374e54968144",
-        "ea784412bc37fa97f230026d6b1d8f39"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-06T14:01:45.699483Z",
-      "last_shown": "2026-11-06T19:43:47.061278Z"
     }
   ]
 }
