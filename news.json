@@ -1,6 +1,24 @@
 {
-  "generated_at": "2026-11-08T06:01:39.187044Z",
+  "generated_at": "2026-11-08T06:44:25.861452Z",
   "items": [
+    {
+      "id": "b008f76a51ae0cdffaec85fcc74cb7db",
+      "title": "Cloudflare Scales D1 Control Plane to Millions of Databases",
+      "url": "https://www.infoq.com/news/2026/11/cloudflare-d1-control-plane/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source_id": "infoq",
+      "source_name": "InfoQ",
+      "category": "tech",
+      "summary": "In a recent article, Cloudflare shared the redesign of the control plane of its D1 serverless SQL database to support millions of databases, avoiding centralized bottlenecks, implementing retries and idempotency, and using eventual consistency. By Renato Losio",
+      "published_at": "2026-11-08T06:34:00Z",
+      "fetched_at": "2026-11-08T06:44:25.861452Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 4
+    },
     {
       "id": "91b3a1790a55c25990b7d02cb72ad09e",
       "title": "PHP2Shell — Deep Dive",
@@ -30,8 +48,8 @@
       "published_at": "2026-11-08T04:14:12Z",
       "fetched_at": "2026-11-08T06:01:39.187044Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50410359",
-      "points": 9,
-      "comments": 1,
+      "points": 13,
+      "comments": 2,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -84,12 +102,12 @@
       "published_at": "2026-11-08T03:11:48Z",
       "fetched_at": "2026-11-08T05:01:38.649500Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50410107",
-      "points": 58,
-      "comments": 31,
+      "points": 114,
+      "comments": 62,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "7420392038acb71604b1f596ffc4a457",
@@ -102,12 +120,12 @@
       "published_at": "2026-11-08T02:02:38Z",
       "fetched_at": "2026-11-08T05:01:38.649500Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50409856",
-      "points": 10,
-      "comments": 3,
+      "points": 17,
+      "comments": 5,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "da3b8786b5e9b5753427020491f8d0b5",
@@ -120,8 +138,8 @@
       "published_at": "2026-11-08T02:02:27Z",
       "fetched_at": "2026-11-08T04:01:35.864255Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50409855",
-      "points": 28,
-      "comments": 15,
+      "points": 43,
+      "comments": 17,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -179,7 +197,7 @@
       "engineering": false,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "6ae7e73af876c6d00e070dc0e7104db8",
@@ -197,7 +215,7 @@
       "engineering": false,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "77d04bfec3106f7c7d59bc0fbbc3ae12",
@@ -215,7 +233,7 @@
       "engineering": false,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "200f3b6e2f348db86539515fe9877931",
@@ -228,8 +246,8 @@
       "published_at": "2026-11-07T23:15:34Z",
       "fetched_at": "2026-11-08T01:01:35.638770Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50408961",
-      "points": 36,
-      "comments": 14,
+      "points": 43,
+      "comments": 15,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -246,8 +264,8 @@
       "published_at": "2026-11-07T23:09:40Z",
       "fetched_at": "2026-11-08T00:01:36.155600Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50408931",
-      "points": 106,
-      "comments": 75,
+      "points": 111,
+      "comments": 80,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -264,7 +282,7 @@
       "published_at": "2026-11-07T22:45:39Z",
       "fetched_at": "2026-11-08T00:01:36.155600Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50408750",
-      "points": 25,
+      "points": 27,
       "comments": 1,
       "engineering": false,
       "blog": false,
@@ -282,10 +300,10 @@
       "published_at": "2026-11-07T22:38:58Z",
       "fetched_at": "2026-11-08T00:01:36.155600Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50408713",
-      "points": 92,
-      "comments": 25,
+      "points": 105,
+      "comments": 26,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 2
     },
@@ -323,7 +341,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "6eb343151cd7cf45e36d40f83adc9c92",
@@ -375,7 +393,7 @@
       "points": 14,
       "comments": 4,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 2
     },
@@ -447,7 +465,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 2
     },
@@ -462,8 +480,8 @@
       "published_at": "2026-11-07T20:45:32Z",
       "fetched_at": "2026-11-07T22:01:38.871150Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50407882",
-      "points": 292,
-      "comments": 199,
+      "points": 310,
+      "comments": 214,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -539,7 +557,7 @@
       "engineering": false,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "89b00a8c3184bd81c5b3184cea1ea2c4",
@@ -570,10 +588,10 @@
       "published_at": "2026-11-07T18:12:12Z",
       "fetched_at": "2026-11-07T19:01:35.624660Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50406670",
-      "points": 471,
-      "comments": 97,
+      "points": 495,
+      "comments": 99,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 3
     },
@@ -588,8 +606,8 @@
       "published_at": "2026-11-07T18:04:07Z",
       "fetched_at": "2026-11-07T19:01:35.624660Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50406563",
-      "points": 430,
-      "comments": 255,
+      "points": 434,
+      "comments": 260,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -624,7 +642,7 @@
       "published_at": "2026-11-07T17:54:56Z",
       "fetched_at": "2026-11-07T21:01:40.429870Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50406502",
-      "points": 52,
+      "points": 54,
       "comments": 20,
       "engineering": false,
       "blog": false,
@@ -642,8 +660,8 @@
       "published_at": "2026-11-07T17:30:49Z",
       "fetched_at": "2026-11-07T19:01:35.624660Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50406319",
-      "points": 101,
-      "comments": 64,
+      "points": 105,
+      "comments": 65,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -678,8 +696,8 @@
       "published_at": "2026-11-07T17:27:30Z",
       "fetched_at": "2026-11-07T18:01:37.083533Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50406292",
-      "points": 209,
-      "comments": 46,
+      "points": 213,
+      "comments": 49,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -701,7 +719,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "e7bda9369543e2ddb6f148788e559dc7",
@@ -714,8 +732,8 @@
       "published_at": "2026-11-07T17:19:00Z",
       "fetched_at": "2026-11-07T19:01:35.624660Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50406222",
-      "points": 254,
-      "comments": 72,
+      "points": 264,
+      "comments": 74,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -750,8 +768,8 @@
       "published_at": "2026-11-07T17:06:36Z",
       "fetched_at": "2026-11-07T18:01:37.083533Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50406111",
-      "points": 418,
-      "comments": 273,
+      "points": 425,
+      "comments": 280,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -807,7 +825,7 @@
       "points": 129,
       "comments": 78,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 2
     },
@@ -822,12 +840,12 @@
       "published_at": "2026-11-07T16:21:36Z",
       "fetched_at": "2026-11-07T19:01:35.624660Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50405782",
-      "points": 99,
+      "points": 104,
       "comments": 18,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "585065d5b3281cb265384f72d38013d3",
@@ -915,7 +933,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 2
     },
@@ -953,7 +971,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "e601eebb971311ee4aa152afd09cfc9c",
@@ -1007,7 +1025,7 @@
       "engineering": false,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "be2aa1a805985d37547e2f0d14ad1399",
@@ -1056,7 +1074,7 @@
       "published_at": "2026-11-07T15:06:54Z",
       "fetched_at": "2026-11-07T22:21:35.861767Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50405172",
-      "points": 57,
+      "points": 60,
       "comments": 16,
       "engineering": false,
       "blog": false,
@@ -1113,7 +1131,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -1133,7 +1151,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "b0271d9e9cda2005fa7529df9c0da819",
@@ -1182,7 +1200,7 @@
       "published_at": "2026-11-07T14:00:20Z",
       "fetched_at": "2026-11-07T15:01:39.732641Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50404599",
-      "points": 213,
+      "points": 216,
       "comments": 87,
       "engineering": false,
       "blog": false,
@@ -1362,12 +1380,12 @@
       "published_at": "2026-11-07T11:11:15Z",
       "fetched_at": "2026-11-07T13:01:37.260484Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50403507",
-      "points": 249,
-      "comments": 226,
+      "points": 280,
+      "comments": 250,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "653f2c9665b9dcb6163b8d2acdc11de2",
@@ -1385,7 +1403,7 @@
       "engineering": false,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "76ac38410d2dffc6cbb32cc43f78f938",
@@ -1583,7 +1601,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "3126605a4e841645d1bb26cfa591fbc6",
@@ -1601,7 +1619,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "e9e8226e1b6aa0ab4e53557b58dda1bd",
@@ -1619,7 +1637,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "92a13e7e78f5f25c0c81ce82d3c03661",
@@ -1637,7 +1655,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "26c9e1023a7f6472889c976f78ac9713",
@@ -1689,9 +1707,9 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "21e5783644b1d6ec49265569c4813b39",
@@ -1763,7 +1781,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "15fca1b7faff4be25627c29f8b397c37",
@@ -1835,7 +1853,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "23bee22338544deaf697c2bea82d8bcb",
@@ -1889,7 +1907,7 @@
       "engineering": false,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "eaf65ed6a7f0ec28ff912cc3a7312de4",
@@ -1943,7 +1961,7 @@
       "engineering": false,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "2d4eaf3000949249a59321bc2f0642cc",
@@ -1979,7 +1997,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "7b1d1167d2016f1523b3f2cdaa1f3ca4",
@@ -2051,7 +2069,7 @@
       "engineering": false,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "11eda57d218c39d7c6fe8b742c95e217",
@@ -2105,7 +2123,7 @@
       "engineering": false,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "53c8a40c524cf7111adeb12c46d3df6f",
@@ -2195,7 +2213,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "872fc73abd4d175ad7242f1cdfec7f2f",
@@ -2357,7 +2375,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "154e7a6ab55a5c7da2b9c57b119a6250",
@@ -2393,7 +2411,7 @@
       "engineering": true,
       "blog": true,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "5b9f6ef80767dbadb3d0514c5ca068f7",
@@ -2501,7 +2519,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "b1670aeaa6db5f0fb07547c2a8ef440f",
@@ -2519,7 +2537,7 @@
       "engineering": false,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "77005c64011320dfe68feab5975fe3ed",
@@ -2537,7 +2555,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "801cd0484277e8dea6fd3a7e54fe903d",
@@ -2627,7 +2645,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "3c948dd9bdf7725da8ff5aea3c72ec8a",
@@ -2717,7 +2735,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "088b136dac7f1bc181ed4a14701ccc48",
@@ -2879,7 +2897,7 @@
       "engineering": false,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "722b2c3167dc6ea06f74bad985b6e858",
@@ -2897,7 +2915,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "61203e180abe9eae1413ddf388e8a78c",
@@ -2915,7 +2933,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "f36348295c2df7ef5450512f4b401f7f",
@@ -2949,7 +2967,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -3005,7 +3023,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "d3b9c31252edcbe812c909f9058c4b86",
@@ -3023,7 +3041,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "d974f5212da4b30d63a9fa55baa366a0",
@@ -26228,60 +26246,6 @@
       "importance": 5
     },
     {
-      "id": "552eca1886b98e14d37801dedbe7d72d",
-      "title": "File Mover Express: AWS Releases Open-Source Tool for S3 File Transfers",
-      "url": "https://www.infoq.com/news/2026/11/aws-s3-file-transfer/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source_id": "infoq",
-      "source_name": "InfoQ",
-      "category": "tech",
-      "summary": "AWS has recently released File Mover Express, an open-source application under the Apache 2.0 license for transferring large files between local systems and Amazon S3. Available for macOS, Windows, and Linux, it supports parallel transfers, automatic performance tuning, retries, pause and resume, and file integrity verification. By Renato Losio",
-      "published_at": "2026-11-01T06:32:00Z",
-      "fetched_at": "2026-11-01T06:53:50.243282Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "0c028d8c39554759d48b3071bd4fed45",
-      "title": "Pac-Man's Siren Call",
-      "url": "https://unsung.aresluna.org/pac-mans-siren-call/",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-11-01T06:29:49Z",
-      "fetched_at": "2026-11-01T09:01:28.748811Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50323187",
-      "points": 26,
-      "comments": 6,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 2
-    },
-    {
-      "id": "41060ed57e94f4dbe37eaf49a6cf8190",
-      "title": "The AI cost of JavaScript frameworks",
-      "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-11-01T06:06:19Z",
-      "fetched_at": "2026-11-01T08:01:22.916101Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50323088",
-      "points": 422,
-      "comments": 322,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
       "id": "d20d7de5c7e7869ee4ef3eb938912375",
       "title": "Constructing a Quine from Kleene's Second Recursion Theorem",
       "url": "https://emarzion.github.io/KSRT/",
@@ -29615,30 +29579,128 @@
   "top_stories": [
     {
       "id": "58446340156dd2d46f0e9a7f6df1bb31",
-      "title": "Claude Code 'Don't Ask Again' feature exposes credentials in public files",
-      "summary": "Passwords and API keys that developers typed into commands approved in Claude Code are sitting in public GitHub repositories. The exposed credentials stem from the 'Don't Ask Again' feature.",
-      "why_it_matters": "Exposes developers and organizations to credential leaks and unauthorized access via public repositories.",
+      "title": "Claude Code 'Don't Ask Again' Exposes Passwords in Public GitHub Files",
+      "summary": "Passwords and API keys typed into commands approved in Claude Code have been found sitting in public GitHub repositories. When users select the option to not ask again, sensitive data is exposed where anyone can read it.",
+      "why_it_matters": "This is a critical security vulnerability for developers using AI coding assistants, risking accidental exposure of production credentials.",
       "item_ids": [
         "58446340156dd2d46f0e9a7f6df1bb31",
         "15fca1b7faff4be25627c29f8b397c37"
       ],
       "primary_url": null,
       "first_shown": "2026-11-07T22:01:38.871150Z",
-      "last_shown": "2026-11-08T06:01:39.187044Z"
+      "last_shown": "2026-11-08T06:44:25.861452Z"
     },
     {
-      "id": "421fa7063f0687d0e02540c8bf9c056a",
-      "title": "Chinese intelligence allegedly recruited executive to spy on Nvidia CEO",
-      "summary": "China’s Ministry of State Security reportedly recruited a Megaspeed technology executive to spy on Nvidia CEO Jensen Huang. US intelligence memos circulated earlier this year detailed the recruitment.",
-      "why_it_matters": null,
+      "id": "f011a1748aad2238c337afdf7f5b5585",
+      "title": "China Recruited Megaspeed Executive to Spy on Nvidia CEO",
+      "summary": "According to U.S. intelligence memos and press reports, China's Ministry of State Security recruited a technology executive from Megaspeed to spy on Nvidia CEO Jensen Huang. The operative was enlisted to gather information from the executive.",
+      "why_it_matters": "Highlights geopolitical espionage risks facing leadership figures and proprietary technologies within the semiconductor sector.",
       "item_ids": [
-        "421fa7063f0687d0e02540c8bf9c056a",
-        "f011a1748aad2238c337afdf7f5b5585"
+        "f011a1748aad2238c337afdf7f5b5585",
+        "421fa7063f0687d0e02540c8bf9c056a"
       ],
       "primary_url": "https://www.nytimes.com/2026/11/06/us/politics/chinese-spy-agency-nvidia-jensen-huang.html?smid=url-share&unlocked_article_code=1.OVE.Q7K1.pw9O9sjsZBW4",
       "first_shown": "2026-11-07T22:01:38.871150Z",
-      "last_shown": "2026-11-08T06:01:39.187044Z"
+      "last_shown": "2026-11-08T06:44:25.861452Z"
     },
+    {
+      "id": "b008f76a51ae0cdffaec85fcc74cb7db",
+      "title": "Cloudflare Scales D1 Control Plane to Millions of Databases",
+      "summary": "In a recent article, Cloudflare shared the redesign of the control plane of its D1 serverless SQL database to support millions of databases, avoiding centralized bottlenecks, implementing retries and idempotency, and using eventual consistency. By Renato Losio",
+      "why_it_matters": "Explains how Cloudflare redesigned its serverless database control plane to handle millions of databases without centralized bottlenecks.",
+      "item_ids": [
+        "b008f76a51ae0cdffaec85fcc74cb7db"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-08T06:44:25.861452Z",
+      "last_shown": "2026-11-08T06:44:25.861452Z"
+    },
+    {
+      "id": "5e6b28fb4f0289c7bd8b603719869966",
+      "title": "GitHub New pull request overview page in public preview",
+      "summary": null,
+      "why_it_matters": "GitHub's UI update to pull request management directly affects the daily workflow of millions of software developers.",
+      "item_ids": [
+        "5e6b28fb4f0289c7bd8b603719869966"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-08T03:01:36.911032Z",
+      "last_shown": "2026-11-08T06:44:25.861452Z"
+    },
+    {
+      "id": "6dfb515ac1997232c65eee7361d47f58",
+      "title": "Hackers pull off $133 million French bank heist via service provider",
+      "summary": "French cooperative bank Crédit Mutuel Arkéa was targeted in a cyberattack that enabled fraudulent transactions of up to $133 million, forcing it to respond by suspending certain systems.v [...]",
+      "why_it_matters": "A major cyberattack on a cooperative bank via a service provider resulted in millions in fraudulent transactions, showing third-party vendor risk.",
+      "item_ids": [
+        "6dfb515ac1997232c65eee7361d47f58"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-07T23:01:36.540272Z",
+      "last_shown": "2026-11-08T06:44:25.861452Z"
+    },
+    {
+      "id": "d36485a6e1dbd817cadd8ab26757bbd7",
+      "title": "Why a new report on Anthropic automating AI development is alarming researchers",
+      "summary": "Anthropic is using AI to build more powerful AI. And it appears to be working remarkably well, with the company's models improving roughly twice as quickly as a year ago, with little indication of slowing down. That's according to a new report published Thursday by the AI safety research organization METR, following an 11-week investigation […]",
+      "why_it_matters": "Insights into Anthropic's internal use of AI to accelerate AI development point toward rapidly shifting automation timelines.",
+      "item_ids": [
+        "d36485a6e1dbd817cadd8ab26757bbd7"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-08T06:44:25.861452Z",
+      "last_shown": "2026-11-08T06:44:25.861452Z"
+    },
+    {
+      "id": "e9e8226e1b6aa0ab4e53557b58dda1bd",
+      "title": "Every Mac comes with an (undocumented) family member classifier",
+      "summary": null,
+      "why_it_matters": "Exposes an undocumented system capability within desktop environments that scans files for specific family-related classifications.",
+      "item_ids": [
+        "e9e8226e1b6aa0ab4e53557b58dda1bd"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-08T06:44:25.861452Z",
+      "last_shown": "2026-11-08T06:44:25.861452Z"
+    },
+    {
+      "id": "053ba88dc3d72931acc61606cc794d20",
+      "title": "Every Windows 11 app should kill Electron, and Discord just showed why",
+      "summary": null,
+      "why_it_matters": "Sparks architectural debate among desktop and web application developers regarding resource usage and alternative frameworks.",
+      "item_ids": [
+        "053ba88dc3d72931acc61606cc794d20"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-08T05:01:38.649500Z",
+      "last_shown": "2026-11-08T06:44:25.861452Z"
+    },
+    {
+      "id": "71b17f5923cfc3dfac2e09a44926001a",
+      "title": "Amutable Foundations: A Technical Overview",
+      "summary": "Lennart Poettering, Michael Vogt, and Joaquim Rocha have put together a detailed overview of what the Amutable Operating System (AOS) and associated infrastructure will look like. The image-based OS approach enables us to enforce some very strict but powerful security properties, which elevate the security posture of the system substantially above traditional Linux systems. Specifically, let's highlight seven major essential security properties of AOS here: No Shell + No SSH + No Language…",
+      "why_it_matters": "A detailed technical architecture overview of the Amutable Operating System provides deep insights into modern image-based Linux designs.",
+      "item_ids": [
+        "71b17f5923cfc3dfac2e09a44926001a"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-08T05:01:38.649500Z",
+      "last_shown": "2026-11-08T06:44:25.861452Z"
+    },
+    {
+      "id": "3fcaa0a8aff3f28dc865e5837c8ee93f",
+      "title": "How Grab Improved Mobile App Stability by Safely Handling Surge in AI-Generated Code Changes",
+      "summary": "The growing adoption of AI coding assistants has accelerated development and increased the volume of code changes per release, bringing more opportunities for defects and crashes, says Grab. To address these challenges, they implemented a layered defense strategy to prevent, detect, and contain crashes throughout the development and release lifecycle. By Sergio De Simone",
+      "why_it_matters": "Engineering insights into how high-velocity code changes from AI assistants can be safely managed without sacrificing mobile application stability.",
+      "item_ids": [
+        "3fcaa0a8aff3f28dc865e5837c8ee93f"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-08T05:01:38.649500Z",
+      "last_shown": "2026-11-08T06:44:25.861452Z"
+    }
+  ],
+  "past_top_stories": [
     {
       "id": "030c5677c0e18269f00761d526f6d5b2",
       "title": "Open Source pg_vectorsearch Brings More Scalable Vector Search to PostgreSQL",
@@ -29652,56 +29714,6 @@
       "last_shown": "2026-11-08T06:01:39.187044Z"
     },
     {
-      "id": "5e6b28fb4f0289c7bd8b603719869966",
-      "title": "GitHub New pull request overview page in public preview",
-      "summary": null,
-      "why_it_matters": "Changes the day-to-day code review workflow for developers using the platform's new pull request interface.",
-      "item_ids": [
-        "5e6b28fb4f0289c7bd8b603719869966"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-08T03:01:36.911032Z",
-      "last_shown": "2026-11-08T06:01:39.187044Z"
-    },
-    {
-      "id": "053ba88dc3d72931acc61606cc794d20",
-      "title": "Every Windows 11 app should kill Electron, and Discord just showed why",
-      "summary": null,
-      "why_it_matters": "Sparks architectural debate among desktop and web application developers regarding resource usage and alternative frameworks.",
-      "item_ids": [
-        "053ba88dc3d72931acc61606cc794d20"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-08T05:01:38.649500Z",
-      "last_shown": "2026-11-08T06:01:39.187044Z"
-    },
-    {
-      "id": "71b17f5923cfc3dfac2e09a44926001a",
-      "title": "Amutable Foundations: A Technical Overview",
-      "summary": "Lennart Poettering, Michael Vogt, and Joaquim Rocha have put together a detailed overview of what the Amutable Operating System (AOS) and associated infrastructure will look like. The image-based OS approach enables us to enforce some very strict but powerful security properties, which elevate the security posture of the system substantially above traditional Linux systems. Specifically, let's highlight seven major essential security properties of AOS here: No Shell + No SSH + No Language…",
-      "why_it_matters": "A detailed technical architecture overview of the Amutable Operating System provides deep insights into modern image-based Linux designs.",
-      "item_ids": [
-        "71b17f5923cfc3dfac2e09a44926001a"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-08T05:01:38.649500Z",
-      "last_shown": "2026-11-08T06:01:39.187044Z"
-    },
-    {
-      "id": "3fcaa0a8aff3f28dc865e5837c8ee93f",
-      "title": "How Grab Improved Mobile App Stability by Safely Handling Surge in AI-Generated Code Changes",
-      "summary": "The growing adoption of AI coding assistants has accelerated development and increased the volume of code changes per release, bringing more opportunities for defects and crashes, says Grab. To address these challenges, they implemented a layered defense strategy to prevent, detect, and contain crashes throughout the development and release lifecycle. By Sergio De Simone",
-      "why_it_matters": "Engineering insights into how high-velocity code changes from AI assistants can be safely managed without sacrificing mobile application stability.",
-      "item_ids": [
-        "3fcaa0a8aff3f28dc865e5837c8ee93f"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-08T05:01:38.649500Z",
-      "last_shown": "2026-11-08T06:01:39.187044Z"
-    }
-  ],
-  "past_top_stories": [
-    {
       "id": "d1c93025c85b4e1abb7b0a42640285b8",
       "title": "Asahi Linux Releases Progress Report 7.3",
       "summary": "The Asahi Linux developers have released progress report 7.3 detailing ongoing developments in building a functional Linux distribution for Apple Silicon hardware. The project continues to address various architectural challenges.",
@@ -29712,18 +29724,6 @@
       ],
       "primary_url": null,
       "first_shown": "2026-11-08T01:01:35.638770Z",
-      "last_shown": "2026-11-08T05:01:38.649500Z"
-    },
-    {
-      "id": "6dfb515ac1997232c65eee7361d47f58",
-      "title": "Hackers pull off $133 million French bank heist via service provider",
-      "summary": "French cooperative bank Crédit Mutuel Arkéa was targeted in a cyberattack that enabled fraudulent transactions of up to $133 million, forcing it to respond by suspending certain systems.v [...]",
-      "why_it_matters": "A massive $133 million bank heist via a third-party service provider highlights critical supply chain and vendor security risks for enterprise software.",
-      "item_ids": [
-        "6dfb515ac1997232c65eee7361d47f58"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-07T23:01:36.540272Z",
       "last_shown": "2026-11-08T05:01:38.649500Z"
     },
     {
