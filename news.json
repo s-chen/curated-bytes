@@ -1,6 +1,42 @@
 {
-  "generated_at": "2026-11-08T00:01:36.155600Z",
+  "generated_at": "2026-11-08T01:01:35.638770Z",
   "items": [
+    {
+      "id": "f9810f433abae9b7e66487cec1512da7",
+      "title": "Container Windows in CoW",
+      "url": "https://m.youtube.com/watch?v=UsYaSRhf6dw",
+      "source_id": "lobsters",
+      "source_name": "Lobsters",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-11-08T00:46:33Z",
+      "fetched_at": "2026-11-08T01:01:35.638770Z",
+      "discussion_url": "https://lobste.rs/s/zdapj7/container_windows_cow",
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 2
+    },
+    {
+      "id": "7a3ed2021dcdefc79c5082ac46625223",
+      "title": "datasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages",
+      "url": "https://simonwillison.net/2026/Nov/7/link-rel-next/",
+      "source_id": "simon-willison",
+      "source_name": "Simon Willison",
+      "category": "tech",
+      "summary": "datasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages I was looking at the Firefox network panel today when I noticed that requests to a Datasette table page were triggering an HTTP prefetch to the next page of rows in that table. This was happening because Datasette pages serve an HTTP link header like this: link: <https://latest.datasette.io/fixtures/compound_three_primary_keys?_next=a%2Cd%2Cv>; rel=\"next\" This is bad. A tiny fraction of the visitors to one of…",
+      "published_at": "2026-11-07T23:57:46Z",
+      "fetched_at": "2026-11-08T01:01:35.638770Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": true,
+      "review": "kept",
+      "importance": 2
+    },
     {
       "id": "6ae7e73af876c6d00e070dc0e7104db8",
       "title": "Dear Open Source Developers: It's OK not to embargo",
@@ -38,6 +74,24 @@
       "importance": 2
     },
     {
+      "id": "200f3b6e2f348db86539515fe9877931",
+      "title": "Commodore PET – The Worlds First Personal Computer",
+      "url": "https://www.commodore.ca/commodore-products/commodore-pet-the-worlds-first-personal-computer/",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-11-07T23:15:34Z",
+      "fetched_at": "2026-11-08T01:01:35.638770Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50408961",
+      "points": 5,
+      "comments": 0,
+      "engineering": false,
+      "blog": false,
+      "review": "pending",
+      "importance": null
+    },
+    {
       "id": "5e6b28fb4f0289c7bd8b603719869966",
       "title": "GitHub New pull request overview page in public preview",
       "url": "https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview/",
@@ -48,8 +102,8 @@
       "published_at": "2026-11-07T23:09:40Z",
       "fetched_at": "2026-11-08T00:01:36.155600Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50408931",
-      "points": 10,
-      "comments": 0,
+      "points": 40,
+      "comments": 26,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -66,7 +120,7 @@
       "published_at": "2026-11-07T22:45:39Z",
       "fetched_at": "2026-11-08T00:01:36.155600Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50408750",
-      "points": 4,
+      "points": 8,
       "comments": 0,
       "engineering": false,
       "blog": false,
@@ -84,8 +138,8 @@
       "published_at": "2026-11-07T22:38:58Z",
       "fetched_at": "2026-11-08T00:01:36.155600Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50408713",
-      "points": 22,
-      "comments": 3,
+      "points": 44,
+      "comments": 8,
       "engineering": false,
       "blog": false,
       "review": "pending",
@@ -107,7 +161,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "c2059048088e903b037cac5c0940bf60",
@@ -120,12 +174,12 @@
       "published_at": "2026-11-07T21:47:47Z",
       "fetched_at": "2026-11-07T22:01:38.871150Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50408350",
-      "points": 14,
-      "comments": 6,
+      "points": 22,
+      "comments": 10,
       "engineering": false,
       "blog": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 2
     },
     {
       "id": "6eb343151cd7cf45e36d40f83adc9c92",
@@ -174,8 +228,8 @@
       "published_at": "2026-11-07T21:13:44Z",
       "fetched_at": "2026-11-07T23:01:36.540272Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50408129",
-      "points": 9,
-      "comments": 3,
+      "points": 14,
+      "comments": 4,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -192,7 +246,7 @@
       "published_at": "2026-11-07T21:11:05Z",
       "fetched_at": "2026-11-07T22:01:38.871150Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50408104",
-      "points": 15,
+      "points": 18,
       "comments": 4,
       "engineering": false,
       "blog": false,
@@ -264,12 +318,12 @@
       "published_at": "2026-11-07T20:45:32Z",
       "fetched_at": "2026-11-07T22:01:38.871150Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50407882",
-      "points": 101,
-      "comments": 74,
+      "points": 146,
+      "comments": 104,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "e463cb9140a0806a0b2c0feca42016dc",
@@ -341,7 +395,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "89b00a8c3184bd81c5b3184cea1ea2c4",
@@ -359,7 +413,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "3c33d4ef82d2398cc96357cb9f036095",
@@ -372,8 +426,8 @@
       "published_at": "2026-11-07T18:12:12Z",
       "fetched_at": "2026-11-07T19:01:35.624660Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50406670",
-      "points": 277,
-      "comments": 65,
+      "points": 315,
+      "comments": 80,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -390,8 +444,8 @@
       "published_at": "2026-11-07T18:04:07Z",
       "fetched_at": "2026-11-07T19:01:35.624660Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50406563",
-      "points": 326,
-      "comments": 185,
+      "points": 359,
+      "comments": 206,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -413,7 +467,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "77e84c16604e04b164ccba5ea48ebaa3",
@@ -426,8 +480,8 @@
       "published_at": "2026-11-07T17:54:56Z",
       "fetched_at": "2026-11-07T21:01:40.429870Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50406502",
-      "points": 37,
-      "comments": 11,
+      "points": 39,
+      "comments": 14,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -444,8 +498,8 @@
       "published_at": "2026-11-07T17:30:49Z",
       "fetched_at": "2026-11-07T19:01:35.624660Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50406319",
-      "points": 74,
-      "comments": 45,
+      "points": 81,
+      "comments": 52,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -467,7 +521,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "f0271476e2c61e58de2aa23b4c051da0",
@@ -480,8 +534,8 @@
       "published_at": "2026-11-07T17:27:30Z",
       "fetched_at": "2026-11-07T18:01:37.083533Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50406292",
-      "points": 175,
-      "comments": 38,
+      "points": 186,
+      "comments": 39,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -516,12 +570,12 @@
       "published_at": "2026-11-07T17:19:00Z",
       "fetched_at": "2026-11-07T19:01:35.624660Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50406222",
-      "points": 168,
-      "comments": 54,
+      "points": 187,
+      "comments": 55,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "a9eb02cbef6e62815edfd682c087dccd",
@@ -552,8 +606,8 @@
       "published_at": "2026-11-07T17:06:36Z",
       "fetched_at": "2026-11-07T18:01:37.083533Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50406111",
-      "points": 308,
-      "comments": 213,
+      "points": 339,
+      "comments": 226,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -606,8 +660,8 @@
       "published_at": "2026-11-07T16:22:59Z",
       "fetched_at": "2026-11-07T17:01:39.434877Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50405789",
-      "points": 117,
-      "comments": 68,
+      "points": 121,
+      "comments": 70,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -624,8 +678,8 @@
       "published_at": "2026-11-07T16:21:36Z",
       "fetched_at": "2026-11-07T19:01:35.624660Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50405782",
-      "points": 64,
-      "comments": 15,
+      "points": 71,
+      "comments": 16,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -660,8 +714,8 @@
       "published_at": "2026-11-07T16:05:45Z",
       "fetched_at": "2026-11-07T20:01:36.332239Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50405674",
-      "points": 83,
-      "comments": 21,
+      "points": 92,
+      "comments": 24,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -773,7 +827,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "6dfb515ac1997232c65eee7361d47f58",
@@ -809,7 +863,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "be2aa1a805985d37547e2f0d14ad1399",
@@ -858,8 +912,8 @@
       "published_at": "2026-11-07T15:06:54Z",
       "fetched_at": "2026-11-07T22:21:35.861767Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50405172",
-      "points": 26,
-      "comments": 4,
+      "points": 32,
+      "comments": 10,
       "engineering": false,
       "blog": false,
       "review": "pending",
@@ -984,7 +1038,7 @@
       "published_at": "2026-11-07T14:00:20Z",
       "fetched_at": "2026-11-07T15:01:39.732641Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50404599",
-      "points": 192,
+      "points": 194,
       "comments": 84,
       "engineering": false,
       "blog": false,
@@ -1151,7 +1205,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "653f2c9665b9dcb6163b8d2acdc11de2",
@@ -1167,7 +1221,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 2
     },
@@ -1187,7 +1241,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "1aec89fc929e8575cd836347760ac96d",
@@ -1259,7 +1313,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "26378c43685aa59a425d12e5f5c31acd",
@@ -1277,7 +1331,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "92b4569767164c17fe852b05fdf0e26f",
@@ -1347,9 +1401,9 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "030c5677c0e18269f00761d526f6d5b2",
@@ -1547,7 +1601,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "15fca1b7faff4be25627c29f8b397c37",
@@ -1565,7 +1619,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "90b9a34769f8c63e341c256aa8134663",
@@ -1619,7 +1673,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 4
     },
     {
       "id": "23bee22338544deaf697c2bea82d8bcb",
@@ -1727,7 +1781,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "2d4eaf3000949249a59321bc2f0642cc",
@@ -1763,7 +1817,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "7b1d1167d2016f1523b3f2cdaa1f3ca4",
@@ -1925,7 +1979,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "f394d7088a71d18348759409d36af247",
@@ -2015,7 +2069,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "b7e20378157379f6e722d053233f9249",
@@ -2033,7 +2087,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "421fa7063f0687d0e02540c8bf9c056a",
@@ -2141,7 +2195,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "154e7a6ab55a5c7da2b9c57b119a6250",
@@ -2303,7 +2357,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "77005c64011320dfe68feab5975fe3ed",
@@ -2321,7 +2375,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "801cd0484277e8dea6fd3a7e54fe903d",
@@ -2357,7 +2411,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "7fb0b33cf2850aecdad67c2a0b78d165",
@@ -2483,7 +2537,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "73de156b3c59e8ca5ea2c2b803cd1088",
@@ -2501,7 +2555,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "088b136dac7f1bc181ed4a14701ccc48",
@@ -2573,7 +2627,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "8dac27b5d36322178c2b753b24aded74",
@@ -2915,7 +2969,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "0a36d85fae6359f8031d6d4f7b6a4ec7",
@@ -3311,7 +3365,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "8bf6029768b8d6d7c712007696cef7c3",
@@ -3543,7 +3597,7 @@
       "points": 236,
       "comments": 48,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -3617,7 +3671,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "b8851797863ea4792f21891e7f9d2636",
@@ -3635,7 +3689,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "104a984077f090af8df0d6fe32e4ed08",
@@ -3797,7 +3851,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "b596ae8f73f9a33535a9e33cc00c3312",
@@ -4085,7 +4139,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "6280a5d9b2bf3e244a83c60d6ba29a24",
@@ -4409,7 +4463,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "27984b16f9bcc04a3d6e5e0545da4ba2",
@@ -4427,7 +4481,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "1c848d9c6bf2868221fc6787ccf69184",
@@ -4535,7 +4589,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "7a34fe39c8e209a676f410cec365ae0c",
@@ -26192,24 +26246,6 @@
       "importance": 4
     },
     {
-      "id": "2342fe2f3965fd11b3caa05c68cdf5c0",
-      "title": "Show HN: BBRouter – Ben Eater's 8-bit computer, simulated on 3D breadboards",
-      "url": "https://bbrouter.com/bbrouter/ben-eater-sap-1",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": "Hi HN,I kept wiring Ben Eater's 8-bit computer wrong, so I built a realistic virtual breadboard editor.Some of the nice features are side-by-side diff, scope, schematics auto-sync, auto-router (BBRouter stands for breadboard router), and my favorites: upload from the real Arduino IDE and connect to your AI with MCP, let Claude & co build it or help you troubleshoot.The link is the SAP-1 running. You can orbit it, probe a hole with the scope, slow the clock down, play with the virtual displays…",
-      "published_at": "2026-11-01T00:10:30Z",
-      "fetched_at": "2026-11-01T03:01:25.663589Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50321522",
-      "points": 35,
-      "comments": 8,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
       "id": "d20d7de5c7e7869ee4ef3eb938912375",
       "title": "Constructing a Quine from Kleene's Second Recursion Theorem",
       "url": "https://emarzion.github.io/KSRT/",
@@ -29542,71 +29578,127 @@
   ],
   "top_stories": [
     {
-      "id": "e896324e5e8b780184c0c615d2ff4c9a",
-      "title": "Tesla to Wind Down Cybertruck Production",
-      "summary": "Tesla is winding down production of the Cybertruck next year to make room for the Cybercab. The company is ending manufacturing after years of poor sales in a few markets.",
-      "why_it_matters": "Signals a major hardware shift for a major tech-adjacent manufacturer, altering production priorities and automotive engineering roadmaps.",
-      "item_ids": [
-        "e896324e5e8b780184c0c615d2ff4c9a",
-        "da18c7e0ac9cf4c0bddd70c243fe7c11",
-        "1ed370ca0df18517b95301c023afcb41",
-        "540a12ebebcfb1dd45d13cd970e42254"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-06T11:01:43.990910Z",
-      "last_shown": "2026-11-08T00:01:36.155600Z"
-    },
-    {
-      "id": "6bcb8fea73375594c0a20e58cade46b6",
-      "title": "Nvidia CEO Jensen Huang Summoned Over Alleged Chinese Espionage Ties",
-      "summary": "Lawmakers have summoned Nvidia CEO Jensen Huang to answer questions regarding ties to an alleged Chinese intelligence asset. According to intelligence memos and reports, China's Ministry of State Security recruited a technology executive to spy on him.",
-      "why_it_matters": null,
-      "item_ids": [
-        "6bcb8fea73375594c0a20e58cade46b6",
-        "f011a1748aad2238c337afdf7f5b5585",
-        "421fa7063f0687d0e02540c8bf9c056a"
-      ],
-      "primary_url": "https://www.nytimes.com/2026/11/06/us/politics/chinese-spy-agency-nvidia-jensen-huang.html?smid=url-share&unlocked_article_code=1.OVE.Q7K1.pw9O9sjsZBW4",
-      "first_shown": "2026-11-07T22:01:38.871150Z",
-      "last_shown": "2026-11-08T00:01:36.155600Z"
-    },
-    {
-      "id": "3c948dd9bdf7725da8ff5aea3c72ec8a",
-      "title": "Google Acquires Crusoe's Data Center Site in Wyoming",
-      "summary": "Google has acquired Crusoe's data center site in southeast Wyoming after Crusoe sold the troubled project. The deal underscores the ongoing challenges and real estate race in developing massive AI data centers.",
-      "why_it_matters": "Directly affects cloud infrastructure capacity and the commercial real estate market powering large-scale AI deployment.",
-      "item_ids": [
-        "3c948dd9bdf7725da8ff5aea3c72ec8a",
-        "e8a6738bda8dfa77b366bc6baa18e7d6"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-07T02:01:36.825549Z",
-      "last_shown": "2026-11-08T00:01:36.155600Z"
-    },
-    {
       "id": "58446340156dd2d46f0e9a7f6df1bb31",
-      "title": "Claude Code 'Don't Ask Again' Feature Exposes Passwords on GitHub",
-      "summary": "Passwords and API keys typed into approved commands in Claude Code have been found exposed in 1,122 public GitHub files. The leakage occurs when users select options that bypass future confirmation prompts.",
-      "why_it_matters": "Exposes a critical security flaw in developer tooling where automated confirmations inadvertently leak sensitive credentials into public repositories.",
+      "title": "Claude Code 'Don't Ask Again' feature exposes credentials in public GitHub files",
+      "summary": "Passwords and API keys that developers typed into commands approved in Claude Code are visible in over a thousand public GitHub repositories. The exposure occurs when users select options that bypass confirmation prompts for file operations.",
+      "why_it_matters": "This is a critical security vulnerability that directly impacts developers using AI coding assistants, risking accidental credential leaks.",
       "item_ids": [
         "58446340156dd2d46f0e9a7f6df1bb31",
         "15fca1b7faff4be25627c29f8b397c37"
       ],
       "primary_url": null,
       "first_shown": "2026-11-07T22:01:38.871150Z",
-      "last_shown": "2026-11-08T00:01:36.155600Z"
+      "last_shown": "2026-11-08T01:01:35.638770Z"
     },
     {
-      "id": "89b00a8c3184bd81c5b3184cea1ea2c4",
-      "title": "GhostMap: The Android flaw that crashes your phone before you open the app",
-      "summary": null,
-      "why_it_matters": "Highlights a severe Android vulnerability that can crash user devices before an app is even opened, requiring immediate attention from mobile developers.",
+      "id": "671dd8ccd7298128ca3510007483a77c",
+      "title": "OpenAI valuation reaches $1.25 trillion amid new funding and Anthropic IPO talks",
+      "summary": "OpenAI has raised an additional $11 billion in a funding round valuing the company at $1.25 trillion, while rival Anthropic sees IPO valuation discussions fluctuate. The developments underline massive capital concentrations in foundational AI labs.",
+      "why_it_matters": "Valuation shifts and funding rounds among top AI providers signal major shifts in market capitalization and industry investment trends.",
       "item_ids": [
-        "89b00a8c3184bd81c5b3184cea1ea2c4"
+        "671dd8ccd7298128ca3510007483a77c",
+        "76ac38410d2dffc6cbb32cc43f78f938",
+        "53c8a40c524cf7111adeb12c46d3df6f",
+        "09abba521335abe42ffa64e8fb7a8a23",
+        "8bf6029768b8d6d7c712007696cef7c3"
       ],
       "primary_url": null,
+      "first_shown": "2026-11-06T23:01:34.613724Z",
+      "last_shown": "2026-11-08T01:01:35.638770Z"
+    },
+    {
+      "id": "f011a1748aad2238c337afdf7f5b5585",
+      "title": "Megaspeed executive recruited to spy on Nvidia CEO",
+      "summary": "China's Ministry of State Security recruited a female technology executive from Megaspeed to spy on Nvidia CEO Jensen Huang. Lawmakers are seeking answers regarding ties to the alleged Chinese intelligence asset.",
+      "why_it_matters": "This incident highlights major geopolitical security concerns involving high-profile semiconductor executives and intellectual property protection.",
+      "item_ids": [
+        "f011a1748aad2238c337afdf7f5b5585",
+        "421fa7063f0687d0e02540c8bf9c056a",
+        "6bcb8fea73375594c0a20e58cade46b6"
+      ],
+      "primary_url": "https://www.nytimes.com/2026/11/06/us/politics/chinese-spy-agency-nvidia-jensen-huang.html?smid=url-share&unlocked_article_code=1.OVE.Q7K1.pw9O9sjsZBW4",
+      "first_shown": "2026-11-07T22:01:38.871150Z",
+      "last_shown": "2026-11-08T01:01:35.638770Z"
+    },
+    {
+      "id": "91bc3b6a44cc8d9cc76f225eae63c29f",
+      "title": "Binance CFO departs following massive cryptocurrency hack",
+      "summary": "The chief financial officer of Binance is leaving to pursue a new venture. The departure arrives shortly after hackers stole $6.3 billion worth of cryptocurrency from users.",
+      "why_it_matters": "High-profile executive departures at major crypto exchanges following massive security incidents affect platform stability and regulatory scrutiny.",
+      "item_ids": [
+        "91bc3b6a44cc8d9cc76f225eae63c29f",
+        "e7bda9369543e2ddb6f148788e559dc7"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-07T23:01:36.540272Z",
+      "last_shown": "2026-11-08T01:01:35.638770Z"
+    },
+    {
+      "id": "9409b8e123f399af5e58e13953d1d0e0",
+      "title": "Apple keyboard features secret blacklist of banned autocomplete phrases",
+      "summary": "A security and privacy researcher discovered that Apple's mobile operating system maintains a secret list containing over 100,000 words and phrases blocked from autocomplete and swipe-typing across multiple languages.",
+      "why_it_matters": "Understanding platform-level text filtering constraints is important for developers building custom keyboards and localized text input tools.",
+      "item_ids": [
+        "9409b8e123f399af5e58e13953d1d0e0",
+        "8ece7d5a9c7df120de5e69926ff5a47c"
+      ],
+      "primary_url": "https://www.reuters.com/business/retail-consumer/apples-predictive-text-restrictions-include-dictator-trump-sleepy-joe-researcher-2026-11-06",
       "first_shown": "2026-11-08T00:01:36.155600Z",
-      "last_shown": "2026-11-08T00:01:36.155600Z"
+      "last_shown": "2026-11-08T01:01:35.638770Z"
+    },
+    {
+      "id": "da18c7e0ac9cf4c0bddd70c243fe7c11",
+      "title": "Tesla winds down Cybertruck production to focus on Cybercab",
+      "summary": "Tesla is winding down production of the Cybertruck to make room for the Cybercab. Analysts view the move as a major pivot away from the angular vehicle toward smaller autonomous platforms and alternative EV designs.",
+      "why_it_matters": "Shifts in automotive manufacturing priorities impact supply chains and the broader market for electronic components and batteries.",
+      "item_ids": [
+        "da18c7e0ac9cf4c0bddd70c243fe7c11",
+        "1ed370ca0df18517b95301c023afcb41",
+        "b9be196f000deb626855faa4e003b29c"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-06T11:01:43.990910Z",
+      "last_shown": "2026-11-08T01:01:35.638770Z"
+    },
+    {
+      "id": "26378c43685aa59a425d12e5f5c31acd",
+      "title": "Midterm elections and ballot measures signal rising political headwinds for AI data centers",
+      "summary": "Following midterm elections featuring dozens of data center-related ballot measures, lawmakers and newly elected representatives are pushing for moratoriums and stricter oversight. Big Tech faces rising local opposition and political scrutiny over energy and resource consumption.",
+      "why_it_matters": "Political opposition and potential federal or local moratoria on data centers could severely bottleneck infrastructure expansion for cloud and AI providers.",
+      "item_ids": [
+        "26378c43685aa59a425d12e5f5c31acd",
+        "acd9ddbdf2cc348d3bb32452b61617d4",
+        "0d25458fd6c3c0e3043348c2d5d46377"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-07T22:21:35.861767Z",
+      "last_shown": "2026-11-08T01:01:35.638770Z"
+    },
+    {
+      "id": "3c948dd9bdf7725da8ff5aea3c72ec8a",
+      "title": "Google acquires Crusoe's troubled Wyoming data center project",
+      "summary": "Google has acquired Crusoe's data center site located in southeast Wyoming after Crusoe sold the troubled project. The deal underscores ongoing challenges in developing massive data center facilities for AI workloads.",
+      "why_it_matters": "Data center real estate transactions and infrastructure reallocations affect cloud capacity planning and power grid demands.",
+      "item_ids": [
+        "3c948dd9bdf7725da8ff5aea3c72ec8a",
+        "e8a6738bda8dfa77b366bc6baa18e7d6"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-07T02:01:36.825549Z",
+      "last_shown": "2026-11-08T01:01:35.638770Z"
+    },
+    {
+      "id": "d1c93025c85b4e1abb7b0a42640285b8",
+      "title": "Asahi Linux project releases progress update version 7.3",
+      "summary": "Developers working on Asahi Linux have published their latest progress report detailing ongoing work toward a stable Linux distribution for Apple Silicon hardware. The updates cover various architectural hurdles and system integration milestones.",
+      "why_it_matters": "Progress on Asahi Linux directly impacts developers wanting to run native Linux environments on modern Apple hardware.",
+      "item_ids": [
+        "d1c93025c85b4e1abb7b0a42640285b8",
+        "3714b9bfdd0c8a8d17966b2e7e2c0fb1"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-08T01:01:35.638770Z",
+      "last_shown": "2026-11-08T01:01:35.638770Z"
     },
     {
       "id": "be4d91b5c9794e781308da2428444972",
@@ -29618,27 +29710,17 @@
       ],
       "primary_url": null,
       "first_shown": "2026-11-08T00:01:36.155600Z",
-      "last_shown": "2026-11-08T00:01:36.155600Z"
-    },
+      "last_shown": "2026-11-08T01:01:35.638770Z"
+    }
+  ],
+  "past_top_stories": [
     {
-      "id": "91bc3b6a44cc8d9cc76f225eae63c29f",
-      "title": "Binance CFO is leaving to ‘pursue a new venture’ after $6.3 billion hack",
-      "summary": "The announcement comes barely more than a week after hackers stole $6.3 billion worth of cryptocurrency from Binance users.",
-      "why_it_matters": "A high-profile executive departure following a massive cryptocurrency security breach directly impacts the leadership stability of a major crypto exchange.",
-      "item_ids": [
-        "91bc3b6a44cc8d9cc76f225eae63c29f"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-07T23:01:36.540272Z",
-      "last_shown": "2026-11-08T00:01:36.155600Z"
-    },
-    {
-      "id": "9409b8e123f399af5e58e13953d1d0e0",
-      "title": "Apple Keyboard has a blacklist of phrases you can't swipe",
+      "id": "89b00a8c3184bd81c5b3184cea1ea2c4",
+      "title": "GhostMap: The Android flaw that crashes your phone before you open the app",
       "summary": null,
-      "why_it_matters": "Exposes unexpected content filtering mechanisms embedded in core keyboard autocomplete software across mobile platforms.",
+      "why_it_matters": "Highlights a severe Android vulnerability that can crash user devices before an app is even opened, requiring immediate attention from mobile developers.",
       "item_ids": [
-        "9409b8e123f399af5e58e13953d1d0e0"
+        "89b00a8c3184bd81c5b3184cea1ea2c4"
       ],
       "primary_url": null,
       "first_shown": "2026-11-08T00:01:36.155600Z",
@@ -29667,21 +29749,6 @@
       "primary_url": null,
       "first_shown": "2026-11-07T16:01:40.037935Z",
       "last_shown": "2026-11-08T00:01:36.155600Z"
-    }
-  ],
-  "past_top_stories": [
-    {
-      "id": "53c8a40c524cf7111adeb12c46d3df6f",
-      "title": "OpenAI raises $11 billion at a $1.25 trillion valuation",
-      "summary": "OpenAI has raised an additional $11 billion in a new funding round, pushing its valuation to $1.25 trillion. The massive round positions it as one of the world's most valuable companies as competitors near their own public offerings.",
-      "why_it_matters": "Demonstrates the unprecedented capital concentration in foundational AI model companies and influences market valuations across the tech sector.",
-      "item_ids": [
-        "53c8a40c524cf7111adeb12c46d3df6f",
-        "09abba521335abe42ffa64e8fb7a8a23"
-      ],
-      "primary_url": "https://www.bloomberg.com/news/articles/2026-11-06/openai-completes-11-billion-portion-of-funding-at-1-25-trillion-value",
-      "first_shown": "2026-11-06T23:01:34.613724Z",
-      "last_shown": "2026-11-07T23:01:36.540272Z"
     },
     {
       "id": "d36485a6e1dbd817cadd8ab26757bbd7",
@@ -29732,18 +29799,6 @@
       "last_shown": "2026-11-07T22:21:35.861767Z"
     },
     {
-      "id": "26378c43685aa59a425d12e5f5c31acd",
-      "title": "He Ran on Fighting Data Centers. Now, He’s Going to Congress",
-      "summary": "Will Lawrence beat out better-funded opponents in the race to represent Michigan’s 7th District. Now, the representative-elect is laying out his plans to fight for a federal data center moratorium.",
-      "why_it_matters": "Legislative pushes for data center moratoriums reflect growing political friction over the energy and infrastructure demands of modern tech expansion.",
-      "item_ids": [
-        "26378c43685aa59a425d12e5f5c31acd"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-07T22:21:35.861767Z",
-      "last_shown": "2026-11-07T22:21:35.861767Z"
-    },
-    {
       "id": "1b685d96048030cacf3f2c052370971b",
       "title": "Apple Reports Over 100,000 Apps Optimized for iPhone Duo",
       "summary": "Apple announced that the App Store features over 100,000 apps optimized for the iPhone Duo foldable. Thousands more are arriving daily.",
@@ -29781,19 +29836,6 @@
       ],
       "primary_url": "https://www.chainalysis.com/blog/security-incident-october-30",
       "first_shown": "2026-11-06T15:01:47.416508Z",
-      "last_shown": "2026-11-07T20:01:36.332239Z"
-    },
-    {
-      "id": "8570c7e517fa232fc1fb7a655a5c37b7",
-      "title": "OpenAI unveils GPT-6 Cyber model",
-      "summary": "OpenAI has launched GPT-6 Cyber, a new AI model designed for security research. The system has reportedly discovered 81 previously unknown high-severity Firefox vulnerabilities and developed working exploits for 948 Linux bugs.",
-      "why_it_matters": "Introduces powerful automated offensive security tools that change the vulnerability discovery and patching landscape.",
-      "item_ids": [
-        "8570c7e517fa232fc1fb7a655a5c37b7",
-        "1a20a287bd65ec924d7f340faed035c4"
-      ],
-      "primary_url": "https://openai.com/index/introducing-gpt-6-cyber",
-      "first_shown": "2026-11-05T18:01:42.209214Z",
       "last_shown": "2026-11-07T20:01:36.332239Z"
     }
   ]
