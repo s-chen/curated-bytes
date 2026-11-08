@@ -1,6 +1,78 @@
 {
-  "generated_at": "2026-11-08T22:31:03.803110Z",
+  "generated_at": "2026-11-08T23:01:38.796439Z",
   "items": [
+    {
+      "id": "a6c5d0754483fca7cddf9a45ae1d620d",
+      "title": "Here’s the full text of Jensen Huang’s memo to Nvidia",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
+      "source_id": "the-verge",
+      "source_name": "The Verge",
+      "category": "tech",
+      "summary": "On Sunday, Nvidia announced it was launching an investigation into CEO Jensen Huang's relationship with Alice Huang, an AI executive and agent of the Chinese government. In addition to the Board of Directors announcing the investigation, Huang sent a memo to Nvidia employees acknowledging the affair. You can read the full text below. To my […]",
+      "published_at": "2026-11-08T22:54:50Z",
+      "fetched_at": "2026-11-08T23:01:38.796439Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 5
+    },
+    {
+      "id": "c4ddcf9755852ec325a0efaae11f22de",
+      "title": "Soul Glo’s Diaspora Problems is a hardcore record like no other",
+      "url": "https://www.theverge.com/entertainment/1029579/soul-glo-diaspora-problems-hardcore-punk-review",
+      "source_id": "the-verge",
+      "source_name": "The Verge",
+      "category": "tech",
+      "summary": "Soul Glo has a new record called NA I'M GON GRAB ALLAT coming out in January, and I, for one, can not wait. While two singles have dropped, it's not enough to truly tide me over, so I've been revisiting Songs to Yeet at the Sun and my favorite album of 2022 - Diaspora Problems. […]",
+      "published_at": "2026-11-08T22:37:22Z",
+      "fetched_at": "2026-11-08T23:01:38.796439Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "pending",
+      "importance": null
+    },
+    {
+      "id": "5f1a44445a782de91e59567691888af1",
+      "title": "parse_number() as a SQLite extension: C vs Rust",
+      "url": "https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/",
+      "source_id": "simon-willison",
+      "source_name": "Simon Willison",
+      "category": "tech",
+      "summary": "Research: parse_number() as a SQLite extension: C vs Rust I was out walking the dog when I got curious about how easy/difficult it would be to write a SQLite C extension that adds a parse_number() function for turning strings like -$1,234.56 or '12.5%' into numeric values that could be summed and sorted. I fired up regular Claude chat (Opus 5.5) and prompted: I'm thinking about a SQLite custom function 'parse_number(value)' that strips ',', '$', '£' and '%', handles a leading '-', and returns…",
+      "published_at": "2026-11-08T22:26:00Z",
+      "fetched_at": "2026-11-08T23:01:38.796439Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": true,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "5e9708ee298bcdd918e0086636636846",
+      "title": "Nvidia CEO Jensen Huang's letter to staff about affair",
+      "url": "https://www.axios.com/2026/11/08/nvidia-ceo-jensen-huang-affair-email-to-company",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-11-08T22:20:09Z",
+      "fetched_at": "2026-11-08T23:01:38.796439Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50418016",
+      "points": 79,
+      "comments": 27,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 5
+    },
     {
       "id": "af933a6840524330a5afaeb8d7fad236",
       "title": "Apps to distract you from the endless cycle of doomscrolling",
@@ -29,11 +101,11 @@
       "summary": null,
       "published_at": "2026-11-08T21:59:26Z",
       "fetched_at": "2026-11-08T22:01:37.830227Z",
-      "discussion_url": "https://lobste.rs/s/vlagyq/when_language_s_creator_its_owners",
+      "discussion_url": "https://lobste.rs/s/vlagyq/herb_sutter_when_language_s_creator_its",
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 3
     },
@@ -53,7 +125,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "c59584e1b359d1469853772ff25669fb",
@@ -84,8 +156,8 @@
       "published_at": "2026-11-08T21:20:20Z",
       "fetched_at": "2026-11-08T22:01:37.830227Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50417407",
-      "points": 34,
-      "comments": 186,
+      "points": 58,
+      "comments": 267,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -125,7 +197,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "5828d94e5b6869c2a2a1ce2287b355a2",
@@ -161,7 +233,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "0cd6d72299ec3bd9ab8d7cd1c027b345",
@@ -192,12 +264,12 @@
       "published_at": "2026-11-08T20:26:43Z",
       "fetched_at": "2026-11-08T22:01:37.830227Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50416801",
-      "points": 263,
-      "comments": 197,
+      "points": 298,
+      "comments": 234,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "24c4747f4e2de2a6493f23045cbb8fd7",
@@ -215,7 +287,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "cc302e5c6239cc0029dace958f8a36a6",
@@ -233,7 +305,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "50646efac2a9f716393f7943d0ceaf49",
@@ -246,12 +318,12 @@
       "published_at": "2026-11-08T19:49:46Z",
       "fetched_at": "2026-11-08T22:01:37.830227Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50416471",
-      "points": 47,
-      "comments": 21,
+      "points": 56,
+      "comments": 26,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "2725c84973fe20d6fe5c250c4cb925c0",
@@ -264,8 +336,8 @@
       "published_at": "2026-11-08T19:48:32Z",
       "fetched_at": "2026-11-08T22:01:37.830227Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50416456",
-      "points": 23,
-      "comments": 10,
+      "points": 31,
+      "comments": 11,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -282,8 +354,8 @@
       "published_at": "2026-11-08T19:37:42Z",
       "fetched_at": "2026-11-08T22:01:37.830227Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50416363",
-      "points": 106,
-      "comments": 90,
+      "points": 115,
+      "comments": 101,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -300,8 +372,8 @@
       "published_at": "2026-11-08T19:20:32Z",
       "fetched_at": "2026-11-08T20:01:38.431584Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50416158",
-      "points": 143,
-      "comments": 116,
+      "points": 168,
+      "comments": 140,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -336,8 +408,8 @@
       "published_at": "2026-11-08T19:08:51Z",
       "fetched_at": "2026-11-08T20:01:38.431584Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50416053",
-      "points": 117,
-      "comments": 40,
+      "points": 141,
+      "comments": 43,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -354,12 +426,12 @@
       "published_at": "2026-11-08T19:04:07Z",
       "fetched_at": "2026-11-08T22:01:37.830227Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50416014",
-      "points": 13,
-      "comments": 2,
+      "points": 19,
+      "comments": 6,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "ae9ffed95b2b550fe4bfcfe948c60810",
@@ -377,7 +449,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "0e87fed56bb8daa582ae5a340e30965c",
@@ -390,10 +462,10 @@
       "published_at": "2026-11-08T18:33:50Z",
       "fetched_at": "2026-11-08T20:01:38.431584Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50415750",
-      "points": 21,
+      "points": 22,
       "comments": 11,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 2
     },
@@ -413,7 +485,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "a5f23dd24d671fe3cfa56e2f344bc8d2",
@@ -426,8 +498,8 @@
       "published_at": "2026-11-08T18:16:07Z",
       "fetched_at": "2026-11-08T19:01:37.406687Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50415628",
-      "points": 483,
-      "comments": 300,
+      "points": 512,
+      "comments": 310,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -462,8 +534,8 @@
       "published_at": "2026-11-08T17:32:55Z",
       "fetched_at": "2026-11-08T18:01:39.208707Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50415281",
-      "points": 95,
-      "comments": 19,
+      "points": 99,
+      "comments": 21,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -485,7 +557,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "801f2a048a781a2d772e7eef1a82386d",
@@ -503,7 +575,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "1e353d7cab0315a906b97d5953790611",
@@ -534,12 +606,12 @@
       "published_at": "2026-11-08T17:16:07Z",
       "fetched_at": "2026-11-08T19:01:37.406687Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50415135",
-      "points": 73,
-      "comments": 35,
+      "points": 76,
+      "comments": 37,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "4c5c0c02907f2ac10192869cfb68ba8e",
@@ -555,9 +627,9 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "e8165035211448d596cfb0a49a8cb3a2",
@@ -570,7 +642,7 @@
       "published_at": "2026-11-08T17:09:55Z",
       "fetched_at": "2026-11-08T19:01:37.406687Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50415078",
-      "points": 40,
+      "points": 41,
       "comments": 12,
       "engineering": false,
       "blog": null,
@@ -591,9 +663,9 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "c7999493d2b5263c1773ce064aa6348f",
@@ -627,7 +699,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -645,9 +717,9 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "af42a6b96957d01b024f4b66f0545bb2",
@@ -701,7 +773,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "31a125bd082e0c4e1721f63c6c9d56e8",
@@ -717,7 +789,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -755,7 +827,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "2a2a97d19f657609896bd7024692589a",
@@ -772,8 +844,8 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 2
     },
     {
       "id": "7d56b38e05b916340e5207dc400165e2",
@@ -791,7 +863,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "01759ae061a0d24f2d17c75bb5ee26a3",
@@ -863,7 +935,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "48327a4803dba5887f5d3d86f492cdd9",
@@ -881,7 +953,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "e256f79db0a7b5b4ef63e21ecdfacbaa",
@@ -899,7 +971,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "92f66b38648c67102eabd3d15776c2cf",
@@ -1041,9 +1113,9 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "00f00671fc95142b163492aa89f6418b",
@@ -1151,7 +1223,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "2b80fef9fda3c2fdc7650deea8a3e30b",
@@ -1200,10 +1272,10 @@
       "published_at": "2026-11-08T10:42:15Z",
       "fetched_at": "2026-11-08T13:01:41.511270Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50412072",
-      "points": 90,
-      "comments": 15,
+      "points": 91,
+      "comments": 17,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 3
     },
@@ -1218,12 +1290,12 @@
       "published_at": "2026-11-08T10:41:52Z",
       "fetched_at": "2026-11-08T15:01:36.674302Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50412067",
-      "points": 240,
-      "comments": 74,
+      "points": 249,
+      "comments": 75,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "58c14cbee3a84abdfef7cef01c326cee",
@@ -1254,8 +1326,8 @@
       "published_at": "2026-11-08T10:22:04Z",
       "fetched_at": "2026-11-08T13:01:41.511270Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50411961",
-      "points": 324,
-      "comments": 123,
+      "points": 330,
+      "comments": 130,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -1313,7 +1385,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "17fcd025b0654fdf492509be97fc8e76",
@@ -1365,7 +1437,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 2
     },
@@ -1416,7 +1488,7 @@
       "published_at": "2026-11-08T08:40:23Z",
       "fetched_at": "2026-11-08T11:01:40.348170Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50411467",
-      "points": 159,
+      "points": 161,
       "comments": 102,
       "engineering": false,
       "blog": false,
@@ -1491,7 +1563,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 4
     },
@@ -1601,7 +1673,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "7420392038acb71604b1f596ffc4a457",
@@ -1650,12 +1722,12 @@
       "published_at": "2026-11-08T01:48:58Z",
       "fetched_at": "2026-11-08T02:01:41.013102Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50412830",
-      "points": 57,
+      "points": 58,
       "comments": 4,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "f9810f433abae9b7e66487cec1512da7",
@@ -1671,9 +1743,9 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "7a3ed2021dcdefc79c5082ac46625223",
@@ -1689,9 +1761,9 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "6ae7e73af876c6d00e070dc0e7104db8",
@@ -1725,9 +1797,9 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "200f3b6e2f348db86539515fe9877931",
@@ -1817,7 +1889,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "c2059048088e903b037cac5c0940bf60",
@@ -1853,7 +1925,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "f011a1748aad2238c337afdf7f5b5585",
@@ -1907,7 +1979,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 1
     },
     {
       "id": "e22396fb19c852fbfe832ba9ffe6d536",
@@ -1941,7 +2013,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 2
     },
@@ -1961,7 +2033,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "58446340156dd2d46f0e9a7f6df1bb31",
@@ -1979,7 +2051,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "e463cb9140a0806a0b2c0feca42016dc",
@@ -1995,9 +2067,9 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "810365c25f6f37cdf9175a2945fd3584",
@@ -2013,7 +2085,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 3
     },
@@ -2049,9 +2121,9 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "89b00a8c3184bd81c5b3184cea1ea2c4",
@@ -2067,7 +2139,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 3
     },
@@ -2213,7 +2285,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "e7bda9369543e2ddb6f148788e559dc7",
@@ -2337,9 +2409,9 @@
       "points": 128,
       "comments": 27,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "585065d5b3281cb265384f72d38013d3",
@@ -2357,7 +2429,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "02d40b345058152d315ede9f007b3ae6",
@@ -2427,9 +2499,9 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "d581352d6e44804a7f35abe08caac37d",
@@ -2465,7 +2537,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "e601eebb971311ee4aa152afd09cfc9c",
@@ -2481,7 +2553,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -2517,7 +2589,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 3
     },
@@ -2625,9 +2697,9 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "da18c7e0ac9cf4c0bddd70c243fe7c11",
@@ -2699,7 +2771,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "d9d124ec1b33ad6a1c21711aa95639fa",
@@ -2753,7 +2825,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "d36485a6e1dbd817cadd8ab26757bbd7",
@@ -2895,9 +2967,9 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "76ac38410d2dffc6cbb32cc43f78f938",
@@ -29542,18 +29614,34 @@
   ],
   "top_stories": [
     {
-      "id": "24c4747f4e2de2a6493f23045cbb8fd7",
-      "title": "Nvidia Investigating CEO Jensen Huang Over Relationship with Chinese Spy",
-      "summary": "Nvidia has announced an internal investigation into CEO Jensen Huang regarding his relationship with a Megaspeed executive who was reportedly recruited by China's Ministry of State Security. In a memo to the company, Huang admitted that he had an affair.",
-      "why_it_matters": "Leadership investigations at major hardware and AI suppliers can significantly impact strategic direction and market stability.",
+      "id": "a1fdbd28bea1a27619cdef37dd4042fb",
+      "title": "Nvidia investigates CEO Jensen Huang over relationship with alleged Chinese spy",
+      "summary": "Nvidia is investigating CEO Jensen Huang and his relationship with Megaspeed executive Alice Huang, who was reportedly recruited by China's Ministry of State Security. In a memo to the company, Huang admitted that he had an affair.",
+      "why_it_matters": "This leadership crisis at a major AI chip manufacturer could impact governance, strategic direction, and market confidence.",
       "item_ids": [
-        "24c4747f4e2de2a6493f23045cbb8fd7",
+        "a1fdbd28bea1a27619cdef37dd4042fb",
+        "5e9708ee298bcdd918e0086636636846",
         "e6271bd0e1d8b82dc21f0790926599be",
+        "a6c5d0754483fca7cddf9a45ae1d620d",
+        "24c4747f4e2de2a6493f23045cbb8fd7",
         "f011a1748aad2238c337afdf7f5b5585"
       ],
-      "primary_url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+      "primary_url": null,
       "first_shown": "2026-11-08T19:01:37.406687Z",
-      "last_shown": "2026-11-08T22:31:03.803110Z"
+      "last_shown": "2026-11-08T23:01:38.796439Z"
+    },
+    {
+      "id": "431ec630cd3f76cebfe0ff08140ec9b3",
+      "title": "Apple pressures software chief to accelerate Siri AI agent roadmap",
+      "summary": "Apple CEO John Ternus is pressing AI czar Craig Federighi to accelerate the Siri roadmap and deliver a powerful AI agent. The push aims to better compete with offerings from companies like OpenAI and Meta.",
+      "why_it_matters": "Accelerated AI development at Apple could reshape consumer features and developer integration across its device ecosystem.",
+      "item_ids": [
+        "431ec630cd3f76cebfe0ff08140ec9b3",
+        "3fa60b95a7a47cb32794481f23529de7"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-08T20:01:38.431584Z",
+      "last_shown": "2026-11-08T23:01:38.796439Z"
     },
     {
       "id": "da18c7e0ac9cf4c0bddd70c243fe7c11",
@@ -29566,57 +29654,70 @@
       ],
       "primary_url": null,
       "first_shown": "2026-11-08T22:01:37.830227Z",
-      "last_shown": "2026-11-08T22:31:03.803110Z"
-    },
-    {
-      "id": "431ec630cd3f76cebfe0ff08140ec9b3",
-      "title": "Apple CEO presses software chief for more ambitious AI strategy",
-      "summary": "Apple CEO is pressing software chief to accelerate the Siri roadmap and deliver a powerful AI agent. Code in betas also suggests conversational app support could be added to smart home hubs.",
-      "why_it_matters": "Changes to Apple's AI roadmap and Siri integration directly impact developers building consumer applications and voice extensions for the iOS ecosystem.",
-      "item_ids": [
-        "431ec630cd3f76cebfe0ff08140ec9b3",
-        "3fa60b95a7a47cb32794481f23529de7"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-08T20:01:38.431584Z",
-      "last_shown": "2026-11-08T22:31:03.803110Z"
+      "last_shown": "2026-11-08T23:01:38.796439Z"
     },
     {
       "id": "a5f23dd24d671fe3cfa56e2f344bc8d2",
       "title": "Goldman Sachs Is Pulling Claude Code from Its Bankers and Traders",
       "summary": null,
-      "why_it_matters": "Financial institutions restricting advanced coding assistants highlights ongoing corporate data security and compliance policies surrounding AI tools.",
+      "why_it_matters": "Goldman Sachs pulling an AI coding tool from bankers and traders highlights enterprise caution and security policies surrounding software generation tools.",
       "item_ids": [
         "a5f23dd24d671fe3cfa56e2f344bc8d2"
       ],
       "primary_url": null,
       "first_shown": "2026-11-08T21:01:40.649791Z",
-      "last_shown": "2026-11-08T22:31:03.803110Z"
+      "last_shown": "2026-11-08T23:01:38.796439Z"
     },
     {
       "id": "5f7f7d5b4dd0c4062b3169bf342dffec",
       "title": "Outlook.com Is Quietly Rejecting Email from Domains Without DMARC",
       "summary": null,
-      "why_it_matters": "Email providers rejecting non-compliant domains forces mail server administrators and developers to adopt DMARC authentication.",
+      "why_it_matters": "Outlook.com quietly rejecting emails from domains lacking DMARC enforces stricter email authentication standards for operators and developers.",
       "item_ids": [
         "5f7f7d5b4dd0c4062b3169bf342dffec"
       ],
       "primary_url": null,
       "first_shown": "2026-11-08T20:01:38.431584Z",
-      "last_shown": "2026-11-08T22:31:03.803110Z"
+      "last_shown": "2026-11-08T23:01:38.796439Z"
     },
     {
       "id": "b008f76a51ae0cdffaec85fcc74cb7db",
       "title": "Cloudflare Scales D1 Control Plane to Millions of Databases",
       "summary": "In a recent article, Cloudflare shared the redesign of the control plane of its D1 serverless SQL database to support millions of databases, avoiding centralized bottlenecks, implementing retries and idempotency, and using eventual consistency. By Renato Losio",
-      "why_it_matters": "Scaling serverless control planes to millions of databases provides valuable architectural insights into distributed systems design.",
+      "why_it_matters": "Cloudflare's redesign of its D1 serverless SQL database control plane demonstrates architectural strategies for scaling database management to millions of instances.",
       "item_ids": [
         "b008f76a51ae0cdffaec85fcc74cb7db"
       ],
       "primary_url": null,
       "first_shown": "2026-11-08T06:44:25.861452Z",
-      "last_shown": "2026-11-08T22:31:03.803110Z"
+      "last_shown": "2026-11-08T23:01:38.796439Z"
     },
+    {
+      "id": "8a79f2fe23b9bbf1e9fb2e703124b719",
+      "title": "Entire's Git Forge Rethinks Git Collaboration for Coding Agents",
+      "summary": "Entire is a Git forge designed specifically for collaboration between human developers and AI coding agents. Its premise is that traditional software development infrastructure, particularly the pull request (PR) model, is not well suited to an environment where AI agents generate, review, and iterate on code at high speed. By Sergio De Simone",
+      "why_it_matters": "The introduction of a Git forge designed specifically for collaboration between human developers and AI coding agents points to evolving software engineering workflows.",
+      "item_ids": [
+        "8a79f2fe23b9bbf1e9fb2e703124b719"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-08T13:01:41.511270Z",
+      "last_shown": "2026-11-08T23:01:38.796439Z"
+    },
+    {
+      "id": "d473509d5c95f54675ff07e53d5b0055",
+      "title": "Epic Games Launcher is coming to SteamOS",
+      "summary": "In October, Epic Games said that it was \"investigating\" making Fortnite compatible with Valve's Linux-based SteamOS. At the time, Epic Games Launcher was in preview, but SteamOS was not specifically listed as a supported distro. Now, Communications Director Jake Jones has confirmed SteamOS compatibility, along with a handful of other distros, to GamingOnLinux. In response […]",
+      "why_it_matters": "Epic Games bringing its launcher to SteamOS expands game distribution and software compatibility on Linux-based handheld and desktop systems.",
+      "item_ids": [
+        "d473509d5c95f54675ff07e53d5b0055"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-08T23:01:38.796439Z",
+      "last_shown": "2026-11-08T23:01:38.796439Z"
+    }
+  ],
+  "past_top_stories": [
     {
       "id": "04d4afb7901d260e2bd6da978a6a5331",
       "title": "OpenAI raises $11B at a $1.25T valuation",
@@ -29664,9 +29765,7 @@
       "primary_url": null,
       "first_shown": "2026-11-08T16:01:42.064090Z",
       "last_shown": "2026-11-08T22:31:03.803110Z"
-    }
-  ],
-  "past_top_stories": [
+    },
     {
       "id": "08303034494bb5ef1fa9531cf7844bc0",
       "title": "Perplexity’s AI agents keep working after you close the tab",
@@ -29716,18 +29815,6 @@
       "last_shown": "2026-11-08T19:01:37.406687Z"
     },
     {
-      "id": "8a79f2fe23b9bbf1e9fb2e703124b719",
-      "title": "Entire's Git Forge Rethinks Git Collaboration for Coding Agents",
-      "summary": "Entire is a Git forge designed specifically for collaboration between human developers and AI coding agents. Its premise is that traditional software development infrastructure, particularly the pull request (PR) model, is not well suited to an environment where AI agents generate, review, and iterate on code at high speed. By Sergio De Simone",
-      "why_it_matters": "New git infrastructure designed specifically for AI agent collaboration points to evolving workflows in automated software engineering.",
-      "item_ids": [
-        "8a79f2fe23b9bbf1e9fb2e703124b719"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-08T13:01:41.511270Z",
-      "last_shown": "2026-11-08T19:01:37.406687Z"
-    },
-    {
       "id": "be4d91b5c9794e781308da2428444972",
       "title": "The End of AI Frontiers",
       "summary": "https://archive.is/AaY5Ohttps://businessexaminer.ca/victoria-articles/item/microsoft...",
@@ -29750,19 +29837,6 @@
       "primary_url": null,
       "first_shown": "2026-11-08T16:01:42.064090Z",
       "last_shown": "2026-11-08T18:01:39.208707Z"
-    },
-    {
-      "id": "04670071de681ddcb0358f5a7e7c24ba",
-      "title": "NYT Cooking adds beta AI-powered recipe modifier",
-      "summary": "The New York Times has introduced a beta feature to its Cooking app that uses AI to help users modify recipes and swap ingredients. Reviewers note that while the assistant can successfully handle everyday meal adjustments, it can struggle with more precise tasks like baking.",
-      "why_it_matters": null,
-      "item_ids": [
-        "04670071de681ddcb0358f5a7e7c24ba",
-        "d581352d6e44804a7f35abe08caac37d"
-      ],
-      "primary_url": "https://www.nytimes.com/2026/10/23/insider/cooking-recipes-ai.html",
-      "first_shown": "2026-11-08T13:54:57.312846Z",
-      "last_shown": "2026-11-08T17:01:41.874967Z"
     }
   ]
 }
