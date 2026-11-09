@@ -1,6 +1,60 @@
 {
-  "generated_at": "2026-11-09T04:01:39.723648Z",
+  "generated_at": "2026-11-09T05:01:36.094244Z",
   "items": [
+    {
+      "id": "a20555425649d1789954756195ff18a0",
+      "title": "The Web Is More Than Enough, by Paul Ford",
+      "url": "https://simonwillison.net/2026/Nov/9/hn-50421091/",
+      "source_id": "simon-willison",
+      "source_name": "Simon Willison",
+      "category": "tech",
+      "summary": "My comment on The Web Is More Than Enough, by Paul Ford — Hacker News.OK, this comment convinced me to give that a shot. Here's a thing I made in Three.js this morning - a Nudibranch themed Faberge Egg: https://static.simonwillison.net/static/2026/Hidden-Reef-Egg... (77KB) I just asked Claude (Opus 5.5 Medium running in regular Claude Chat) to port that to Vanilla JS, in the same thread where it had built it, and got this: https://static.simonwillison.net/static/2026/Hidden-Reef-Egg... (98KB)…",
+      "published_at": "2026-11-09T04:32:33Z",
+      "fetched_at": "2026-11-09T05:01:36.094244Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "pending",
+      "importance": null
+    },
+    {
+      "id": "4f07ab72c46e507c42779c5ff8f6c536",
+      "title": "Hide your slop PR descriptions behind <details><summary>",
+      "url": "https://simonwillison.net/2026/Nov/9/details-summary/",
+      "source_id": "simon-willison",
+      "source_name": "Simon Willison",
+      "category": "tech",
+      "summary": "Most of the changes I make to my projects these days come in the form of PRs opened for me by Claude Code or Codex. The PR is my unit of work - I use them to bundle commits together, iterating on them until a feature is complete, document decisions and then merge the finished result. Today's coding agents are great at writing PR descriptions. They're too good at describing the work The problem is that they are too good. An agent-written PR description is accurate and comprehensive. It describes…",
+      "published_at": "2026-11-09T04:25:05Z",
+      "fetched_at": "2026-11-09T05:01:36.094244Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "pending",
+      "importance": null
+    },
+    {
+      "id": "589502f4fa4f47634b3f61f8a58d1ee7",
+      "title": "A Critique of GPUI",
+      "url": "https://blog.zortax.de/posts/a-critique-of-gpui",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-11-09T03:51:10Z",
+      "fetched_at": "2026-11-09T05:01:36.094244Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50420857",
+      "points": 19,
+      "comments": 1,
+      "engineering": false,
+      "blog": false,
+      "review": "pending",
+      "importance": null
+    },
     {
       "id": "1f36f09b6a3ea2c9e112bdefb4f8af79",
       "title": "The Qlobe: Rotating Quine (2010)",
@@ -12,7 +66,7 @@
       "published_at": "2026-11-09T03:15:17Z",
       "fetched_at": "2026-11-09T04:01:39.723648Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50420599",
-      "points": 4,
+      "points": 9,
       "comments": 0,
       "engineering": false,
       "blog": false,
@@ -53,7 +107,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "c3565d005aa8befda6a13da3a15fd62c",
@@ -66,8 +120,8 @@
       "published_at": "2026-11-09T01:58:21Z",
       "fetched_at": "2026-11-09T04:01:39.723648Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50420035",
-      "points": 55,
-      "comments": 18,
+      "points": 138,
+      "comments": 49,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -83,13 +137,13 @@
       "summary": null,
       "published_at": "2026-11-09T00:10:50Z",
       "fetched_at": "2026-11-09T01:01:41.155076Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50419215",
-      "points": 132,
-      "comments": 47,
+      "discussion_url": "https://lobste.rs/s/kbrpx3/unlocking_any_car_from_x_brand_most_world",
+      "points": null,
+      "comments": null,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "254779ccfce7c32ace28ca9c94965036",
@@ -107,7 +161,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "4450b8ee769478492c534592e36f0dda",
@@ -120,8 +174,8 @@
       "published_at": "2026-11-08T23:44:36Z",
       "fetched_at": "2026-11-09T02:01:35.168142Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50418975",
-      "points": 60,
-      "comments": 59,
+      "points": 99,
+      "comments": 132,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -192,12 +246,12 @@
       "published_at": "2026-11-08T22:35:35Z",
       "fetched_at": "2026-11-09T01:01:41.155076Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50418176",
-      "points": 285,
-      "comments": 82,
+      "points": 321,
+      "comments": 89,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "5f1a44445a782de91e59567691888af1",
@@ -233,7 +287,25 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
+    },
+    {
+      "id": "6929c8b458801ff19107dbe645531d12",
+      "title": "Nvidia CEO Jensen Huang's letter to staff about affair",
+      "url": "https://nvidianews.nvidia.com/news/a-message-to-our-company",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": "https://www.axios.com/2026/11/08/nvidia-ceo-jensen-huang-aff..., https://archive.ph/Hxn5hhttps://www.nytimes.com/2026/11/06/us/politics/chinese-spy-a..., https://archive.ph/atMcp",
+      "published_at": "2026-11-08T22:20:09Z",
+      "fetched_at": "2026-11-09T05:01:36.094244Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50418016",
+      "points": 432,
+      "comments": 471,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 5
     },
     {
       "id": "af933a6840524330a5afaeb8d7fad236",
@@ -267,7 +339,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -303,7 +375,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -318,8 +390,8 @@
       "published_at": "2026-11-08T21:20:20Z",
       "fetched_at": "2026-11-08T22:01:37.830227Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50417407",
-      "points": 160,
-      "comments": 541,
+      "points": 168,
+      "comments": 568,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -339,7 +411,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -395,7 +467,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "0cd6d72299ec3bd9ab8d7cd1c027b345",
@@ -431,7 +503,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "24c4747f4e2de2a6493f23045cbb8fd7",
@@ -467,7 +539,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "50646efac2a9f716393f7943d0ceaf49",
@@ -498,8 +570,8 @@
       "published_at": "2026-11-08T19:48:32Z",
       "fetched_at": "2026-11-08T22:01:37.830227Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50416456",
-      "points": 96,
-      "comments": 52,
+      "points": 101,
+      "comments": 59,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -516,8 +588,8 @@
       "published_at": "2026-11-08T19:37:42Z",
       "fetched_at": "2026-11-08T22:01:37.830227Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50416363",
-      "points": 179,
-      "comments": 142,
+      "points": 190,
+      "comments": 151,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -534,8 +606,8 @@
       "published_at": "2026-11-08T19:20:32Z",
       "fetched_at": "2026-11-08T20:01:38.431584Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50416158",
-      "points": 287,
-      "comments": 204,
+      "points": 308,
+      "comments": 216,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -557,7 +629,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "a550c998d7507431b8aea781764d58b8",
@@ -570,8 +642,8 @@
       "published_at": "2026-11-08T19:08:51Z",
       "fetched_at": "2026-11-08T20:01:38.431584Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50416053",
-      "points": 220,
-      "comments": 69,
+      "points": 227,
+      "comments": 72,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -588,8 +660,8 @@
       "published_at": "2026-11-08T19:04:07Z",
       "fetched_at": "2026-11-08T22:01:37.830227Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50416014",
-      "points": 45,
-      "comments": 30,
+      "points": 49,
+      "comments": 31,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -647,7 +719,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "a5f23dd24d671fe3cfa56e2f344bc8d2",
@@ -660,8 +732,8 @@
       "published_at": "2026-11-08T18:16:07Z",
       "fetched_at": "2026-11-08T19:01:37.406687Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50415628",
-      "points": 657,
-      "comments": 377,
+      "points": 672,
+      "comments": 381,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -701,7 +773,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "24ee902127dff50878662c8f711b66d4",
@@ -737,7 +809,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "1e353d7cab0315a906b97d5953790611",
@@ -755,7 +827,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "ef5fc1d90b37461adcc7532d4319df16",
@@ -791,7 +863,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "e8165035211448d596cfb0a49a8cb3a2",
@@ -825,7 +897,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 3
     },
@@ -881,7 +953,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "af42a6b96957d01b024f4b66f0545bb2",
@@ -989,7 +1061,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "2a2a97d19f657609896bd7024692589a",
@@ -1025,7 +1097,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "01759ae061a0d24f2d17c75bb5ee26a3",
@@ -1079,7 +1151,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "431ec630cd3f76cebfe0ff08140ec9b3",
@@ -1097,7 +1169,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "48327a4803dba5887f5d3d86f492cdd9",
@@ -1133,7 +1205,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "92f66b38648c67102eabd3d15776c2cf",
@@ -1169,7 +1241,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "209704ca89088a84bebee34967dd372b",
@@ -1185,7 +1257,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -1221,7 +1293,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -1277,7 +1349,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "00f00671fc95142b163492aa89f6418b",
@@ -1367,7 +1439,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "8a79f2fe23b9bbf1e9fb2e703124b719",
@@ -1385,7 +1457,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "2b80fef9fda3c2fdc7650deea8a3e30b",
@@ -1435,7 +1507,7 @@
       "fetched_at": "2026-11-08T13:01:41.511270Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50412072",
       "points": 95,
-      "comments": 19,
+      "comments": 20,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -1452,7 +1524,7 @@
       "published_at": "2026-11-08T10:41:52Z",
       "fetched_at": "2026-11-08T15:01:36.674302Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50412067",
-      "points": 304,
+      "points": 309,
       "comments": 83,
       "engineering": false,
       "blog": false,
@@ -1547,7 +1619,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "17fcd025b0654fdf492509be97fc8e76",
@@ -1635,7 +1707,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -1653,7 +1725,7 @@
       "points": 161,
       "comments": 102,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -1725,7 +1797,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 4
     },
@@ -1907,7 +1979,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "7a3ed2021dcdefc79c5082ac46625223",
@@ -1943,7 +2015,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "77d04bfec3106f7c7d59bc0fbbc3ae12",
@@ -2087,7 +2159,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "f011a1748aad2238c337afdf7f5b5585",
@@ -2105,7 +2177,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "3955293c5ace030fba9eebd7906481f7",
@@ -2190,8 +2262,8 @@
       "published_at": "2026-11-07T20:49:41Z",
       "fetched_at": "2026-11-07T21:01:40.429870Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50418182",
-      "points": 134,
-      "comments": 20,
+      "points": 143,
+      "comments": 22,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -2213,7 +2285,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "e463cb9140a0806a0b2c0feca42016dc",
@@ -2226,6 +2298,24 @@
       "published_at": "2026-11-07T20:27:05Z",
       "fetched_at": "2026-11-07T21:01:40.429870Z",
       "discussion_url": "https://lobste.rs/s/nft1s2/workflow_dependency_lockfiles",
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "5fb59ffc9ff5118ca89f8ab54065e41d",
+      "title": "Terry Pratchett's Study",
+      "url": "https://simonwillison.net/2026/Nov/7/hn-50407316/",
+      "source_id": "simon-willison",
+      "source_name": "Simon Willison",
+      "category": "tech",
+      "summary": "My comment on Terry Pratchett's Study — Hacker News.Terry Pratchett once wrote about the concept of \"horizontal wealth\". Vertical wealth is where you spend money on rich people stuff - yachts and suchlike. Horizontal wealth is where you spend more money on the things you liked before you got rich: https://chibuikeani.blogspot.com/2017/02/the-price-of-happin... But horizontal wealth means not letting your increased income dictate your tastes. You like books and now you have money? Buy more…",
+      "published_at": "2026-11-07T19:34:24Z",
+      "fetched_at": "2026-11-09T05:01:36.094244Z",
+      "discussion_url": null,
       "points": null,
       "comments": null,
       "engineering": false,
@@ -2357,7 +2447,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "77e84c16604e04b164ccba5ea48ebaa3",
@@ -2447,7 +2537,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "e7bda9369543e2ddb6f148788e559dc7",
@@ -19010,6 +19100,24 @@
       "importance": 4
     },
     {
+      "id": "c4badc6eeab4ed5f13158dc94f1ff47a",
+      "title": "AI is destroying my CS degree",
+      "url": "https://simonwillison.net/2026/Nov/3/hn-50354278/",
+      "source_id": "simon-willison",
+      "source_name": "Simon Willison",
+      "category": "tech",
+      "summary": "My comment on AI is destroying my CS degree — Hacker News.I don't envy educators right now. AI clearly means you need to change how you teach and evaluate students. We are only a few years in though, and it's still extremely unclear what effective teaching with these tools looks like. The worst part is that the evaluation loop is measured in multiple years! If you start trying some new education mechanism today you won't get a robust idea of how well it works until your current cohort graduate…",
+      "published_at": "2026-11-03T16:42:02Z",
+      "fetched_at": "2026-11-09T05:01:36.094244Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": null,
+      "review": "pending",
+      "importance": null
+    },
+    {
       "id": "08e1cabea765c5cd77d14cba5f3aace3",
       "title": "USDB: Scaling Storage for Next-Generation Recommender Systems at ByteDance",
       "url": "https://arxiv.org/abs/2611.02618",
@@ -26030,60 +26138,6 @@
       "importance": 2
     },
     {
-      "id": "307bfde8e32d69696c933b92acc05b50",
-      "title": "Jackery made its portable power stations even smaller",
-      "url": "https://www.theverge.com/tech/1023173/jackery-explorer-100d-portable-power-station-battery-lithium-iron-phosphate",
-      "source_id": "the-verge",
-      "source_name": "The Verge",
-      "category": "tech",
-      "summary": "Jackery announced a new portable power station that uses the safer and longer-lasting lithium iron phosphate (LFP) batteries the company first introduced in 2023. But what makes the new Explorer 100D stand out is that it's Jackery's smallest power station to date, measuring only 4.6 by 3.4 by 3.4 inches and weighing just 1.87 pounds. […]",
-      "published_at": "2026-11-02T05:00:00Z",
-      "fetched_at": "2026-11-02T05:01:26.896321Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 2
-    },
-    {
-      "id": "5747ebb10dd6c684f06638a6e64fbc55",
-      "title": "India floats AI plan under which ‘The model travels to the data, rather than the data travelling to the model’",
-      "url": "https://www.theregister.com/public-sector/2026/11/02/india-floats-ai-plan-under-which-the-model-travels-to-the-data-rather-than-the-data-travelling-to-the-model/5306872",
-      "source_id": "the-register",
-      "source_name": "The Register",
-      "category": "tech",
-      "summary": "Wants more local AI, without Big Tech getting open access to everything",
-      "published_at": "2026-11-02T04:39:50Z",
-      "fetched_at": "2026-11-02T05:01:26.896321Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "156723a51883fadbe25106d98d08ee36",
-      "title": "Borrowed reading: stories from our extended colleagues",
-      "url": "https://techcrunch.com/2026/11/01/borrowed-reading-stories-from-our-extended-colleagues/",
-      "source_id": "techcrunch",
-      "source_name": "TechCrunch",
-      "category": "tech",
-      "summary": "Five stories worth your time from our extended colleagues at CIO, Computerworld, Macworld, and PCWorld.",
-      "published_at": "2026-11-02T04:23:48Z",
-      "fetched_at": "2026-11-02T05:01:26.896321Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 2
-    },
-    {
       "id": "bc0ed259e6eb5d0e4cfb8308e95ea8fc",
       "title": "Qodo builds context into AI code review with Codex",
       "url": "https://openai.com/index/qodo-codex-plugin",
@@ -29488,20 +29542,110 @@
   ],
   "top_stories": [
     {
-      "id": "a6c5d0754483fca7cddf9a45ae1d620d",
-      "title": "Nvidia investigates CEO Jensen Huang over relationship with alleged Chinese spy",
-      "summary": "Nvidia is opening an investigation into CEO Jensen Huang and his relationship with Alice Huang, an executive at Megaspeed who was reportedly recruited by China's Ministry of State Security. In a memo to the company, Huang admitted that he had an affair.",
-      "why_it_matters": "Leadership investigations at major semiconductor companies can impact corporate governance, strategic direction, and market confidence.",
+      "id": "a1fdbd28bea1a27619cdef37dd4042fb",
+      "title": "Nvidia Board Investigates CEO Jensen Huang Over Affair with Chinese Tech Executive",
+      "summary": "Nvidia has opened an investigation into CEO Jensen Huang and his relationship with Alice Huang, an executive at Megaspeed. According to US intelligence memos, the individual was reportedly recruited by China's Ministry of State Security to spy on Nvidia's CEO.",
+      "why_it_matters": "Leadership scandals at major hardware and AI suppliers can significantly impact market confidence, corporate governance, and strategic partnerships across the tech industry.",
       "item_ids": [
-        "a6c5d0754483fca7cddf9a45ae1d620d",
+        "a1fdbd28bea1a27619cdef37dd4042fb",
         "24c4747f4e2de2a6493f23045cbb8fd7",
+        "a6c5d0754483fca7cddf9a45ae1d620d",
         "e6271bd0e1d8b82dc21f0790926599be",
+        "5e9708ee298bcdd918e0086636636846",
+        "6929c8b458801ff19107dbe645531d12",
+        "254779ccfce7c32ace28ca9c94965036",
         "f011a1748aad2238c337afdf7f5b5585"
       ],
-      "primary_url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+      "primary_url": null,
       "first_shown": "2026-11-08T19:01:37.406687Z",
-      "last_shown": "2026-11-09T04:01:39.723648Z"
+      "last_shown": "2026-11-09T05:01:36.094244Z"
     },
+    {
+      "id": "04d4afb7901d260e2bd6da978a6a5331",
+      "title": "OpenAI raises $11B at a $1.25T valuation",
+      "summary": null,
+      "why_it_matters": "Major funding rounds and high-end valuations for foundational AI labs signal ongoing shifts in capital allocation and market dynamics for engineering teams.",
+      "item_ids": [
+        "04d4afb7901d260e2bd6da978a6a5331"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-08T17:01:41.874967Z",
+      "last_shown": "2026-11-09T05:01:36.094244Z"
+    },
+    {
+      "id": "a5f23dd24d671fe3cfa56e2f344bc8d2",
+      "title": "Goldman Sachs Is Pulling Claude Code from Its Bankers and Traders",
+      "summary": null,
+      "why_it_matters": "Enterprise policy decisions regarding AI coding assistants directly influence developer workflows, tooling availability, and security compliance standards.",
+      "item_ids": [
+        "a5f23dd24d671fe3cfa56e2f344bc8d2"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-08T21:01:40.649791Z",
+      "last_shown": "2026-11-09T05:01:36.094244Z"
+    },
+    {
+      "id": "5f7f7d5b4dd0c4062b3169bf342dffec",
+      "title": "Outlook.com Is Quietly Rejecting Email from Domains Without DMARC",
+      "summary": null,
+      "why_it_matters": "Changes in email delivery and authentication enforcement policies by major providers impact infrastructure configuration for developers managing outbound mail systems.",
+      "item_ids": [
+        "5f7f7d5b4dd0c4062b3169bf342dffec"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-08T20:01:38.431584Z",
+      "last_shown": "2026-11-09T05:01:36.094244Z"
+    },
+    {
+      "id": "8a79f2fe23b9bbf1e9fb2e703124b719",
+      "title": "Entire's Git Forge Rethinks Git Collaboration for Coding Agents",
+      "summary": "Entire is a Git forge designed specifically for collaboration between human developers and AI coding agents. Its premise is that traditional software development infrastructure, particularly the pull request (PR) model, is not well suited to an environment where AI agents generate, review, and iterate on code at high speed. By Sergio De Simone",
+      "why_it_matters": "New Git forge designs tailored specifically for collaborative coding agents point to evolving infrastructure patterns for AI-assisted software development.",
+      "item_ids": [
+        "8a79f2fe23b9bbf1e9fb2e703124b719"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-08T13:01:41.511270Z",
+      "last_shown": "2026-11-09T05:01:36.094244Z"
+    },
+    {
+      "id": "08303034494bb5ef1fa9531cf7844bc0",
+      "title": "Perplexity’s AI agents keep working after you close the tab",
+      "summary": "Perplexity’s new Teammates can coordinate multiple agents, remember where previous sessions left off, and keep working without another prompt. The The post Perplexity’s AI agents keep working after you close the tab appeared first on The New Stack.",
+      "why_it_matters": "Persistent asynchronous agent workflows introduce new patterns for long-running autonomous development and task execution tools.",
+      "item_ids": [
+        "08303034494bb5ef1fa9531cf7844bc0"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-08T21:01:40.649791Z",
+      "last_shown": "2026-11-09T05:01:36.094244Z"
+    },
+    {
+      "id": "b008f76a51ae0cdffaec85fcc74cb7db",
+      "title": "Cloudflare Scales D1 Control Plane to Millions of Databases",
+      "summary": "In a recent article, Cloudflare shared the redesign of the control plane of its D1 serverless SQL database to support millions of databases, avoiding centralized bottlenecks, implementing retries and idempotency, and using eventual consistency. By Renato Losio",
+      "why_it_matters": "Architectural updates to serverless database control planes demonstrate strategies for scaling distributed data infrastructure to millions of databases.",
+      "item_ids": [
+        "b008f76a51ae0cdffaec85fcc74cb7db"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-08T06:44:25.861452Z",
+      "last_shown": "2026-11-09T05:01:36.094244Z"
+    },
+    {
+      "id": "229140a3d2e0c8f5c91fbf2da8757880",
+      "title": "KetchUp – Open-source SketchUp alternative built with Rust and WebGPU",
+      "summary": null,
+      "why_it_matters": "Provides an open-source Rust and WebGPU alternative to traditional desktop 3D modeling tools.",
+      "item_ids": [
+        "229140a3d2e0c8f5c91fbf2da8757880"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-09T03:01:38.756690Z",
+      "last_shown": "2026-11-09T05:01:36.094244Z"
+    }
+  ],
+  "past_top_stories": [
     {
       "id": "431ec630cd3f76cebfe0ff08140ec9b3",
       "title": "Apple pressures software chief Craig Federighi to accelerate Siri AI roadmap",
@@ -29513,42 +29657,6 @@
       ],
       "primary_url": null,
       "first_shown": "2026-11-08T20:01:38.431584Z",
-      "last_shown": "2026-11-09T04:01:39.723648Z"
-    },
-    {
-      "id": "04d4afb7901d260e2bd6da978a6a5331",
-      "title": "OpenAI raises $11B at a $1.25T valuation",
-      "summary": null,
-      "why_it_matters": "Major venture funding round valuing OpenAI at a massive valuation, impacting market dynamics in the AI industry.",
-      "item_ids": [
-        "04d4afb7901d260e2bd6da978a6a5331"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-08T17:01:41.874967Z",
-      "last_shown": "2026-11-09T04:01:39.723648Z"
-    },
-    {
-      "id": "5f7f7d5b4dd0c4062b3169bf342dffec",
-      "title": "Outlook.com Is Quietly Rejecting Email from Domains Without DMARC",
-      "summary": null,
-      "why_it_matters": "Highlights strict email authentication enforcement by major providers, forcing domain administrators to adopt DMARC.",
-      "item_ids": [
-        "5f7f7d5b4dd0c4062b3169bf342dffec"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-08T20:01:38.431584Z",
-      "last_shown": "2026-11-09T04:01:39.723648Z"
-    },
-    {
-      "id": "a5f23dd24d671fe3cfa56e2f344bc8d2",
-      "title": "Goldman Sachs Is Pulling Claude Code from Its Bankers and Traders",
-      "summary": null,
-      "why_it_matters": "Illustrates enterprise pushback and security or compliance concerns surrounding AI coding assistants in financial institutions.",
-      "item_ids": [
-        "a5f23dd24d671fe3cfa56e2f344bc8d2"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-08T21:01:40.649791Z",
       "last_shown": "2026-11-09T04:01:39.723648Z"
     },
     {
@@ -29576,30 +29684,6 @@
       "last_shown": "2026-11-09T04:01:39.723648Z"
     },
     {
-      "id": "b008f76a51ae0cdffaec85fcc74cb7db",
-      "title": "Cloudflare Scales D1 Control Plane to Millions of Databases",
-      "summary": "In a recent article, Cloudflare shared the redesign of the control plane of its D1 serverless SQL database to support millions of databases, avoiding centralized bottlenecks, implementing retries and idempotency, and using eventual consistency. By Renato Losio",
-      "why_it_matters": "Details architectural scaling improvements for serverless database control planes handling millions of instances.",
-      "item_ids": [
-        "b008f76a51ae0cdffaec85fcc74cb7db"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-08T06:44:25.861452Z",
-      "last_shown": "2026-11-09T04:01:39.723648Z"
-    },
-    {
-      "id": "229140a3d2e0c8f5c91fbf2da8757880",
-      "title": "KetchUp – Open-source SketchUp alternative built with Rust and WebGPU",
-      "summary": null,
-      "why_it_matters": "Provides an open-source Rust and WebGPU alternative to traditional desktop 3D modeling tools.",
-      "item_ids": [
-        "229140a3d2e0c8f5c91fbf2da8757880"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-09T03:01:38.756690Z",
-      "last_shown": "2026-11-09T04:01:39.723648Z"
-    },
-    {
       "id": "d2ac7c707cf16248b04bc81b666b250b",
       "title": "Agent memory needs its OpenTelemetry moment",
       "summary": null,
@@ -29610,9 +29694,7 @@
       "primary_url": null,
       "first_shown": "2026-11-09T01:01:41.155076Z",
       "last_shown": "2026-11-09T04:01:39.723648Z"
-    }
-  ],
-  "past_top_stories": [
+    },
     {
       "id": "5d22ff290585686d4577e69dac44849f",
       "title": "Iris Ohyama data cloud breach exposes info of 7.7 million customers",
@@ -29626,18 +29708,6 @@
       "last_shown": "2026-11-09T03:01:38.756690Z"
     },
     {
-      "id": "8a79f2fe23b9bbf1e9fb2e703124b719",
-      "title": "Entire's Git Forge Rethinks Git Collaboration for Coding Agents",
-      "summary": "Entire is a Git forge designed specifically for collaboration between human developers and AI coding agents. Its premise is that traditional software development infrastructure, particularly the pull request (PR) model, is not well suited to an environment where AI agents generate, review, and iterate on code at high speed. By Sergio De Simone",
-      "why_it_matters": "Dedicated Git forges built specifically for human-agent collaboration indicate a shift in software development workflows and infrastructure tooling.",
-      "item_ids": [
-        "8a79f2fe23b9bbf1e9fb2e703124b719"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-08T13:01:41.511270Z",
-      "last_shown": "2026-11-09T01:01:41.155076Z"
-    },
-    {
       "id": "da18c7e0ac9cf4c0bddd70c243fe7c11",
       "title": "Tesla winding down Cybertruck production to make room for Cybercab",
       "summary": "Tesla is winding down production of the Cybertruck next year to make room for the Cybercab. A report notes Tesla has struggled with successful new product launches since executive departures.",
@@ -29648,18 +29718,6 @@
       ],
       "primary_url": null,
       "first_shown": "2026-11-08T22:01:37.830227Z",
-      "last_shown": "2026-11-09T00:01:38.364058Z"
-    },
-    {
-      "id": "08303034494bb5ef1fa9531cf7844bc0",
-      "title": "Perplexity’s AI agents keep working after you close the tab",
-      "summary": "Perplexity’s new Teammates can coordinate multiple agents, remember where previous sessions left off, and keep working without another prompt. The The post Perplexity’s AI agents keep working after you close the tab appeared first on The New Stack.",
-      "why_it_matters": "New asynchronous agentic workflows change how developers interact with AI development environments and persistent coding agents.",
-      "item_ids": [
-        "08303034494bb5ef1fa9531cf7844bc0"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-08T21:01:40.649791Z",
       "last_shown": "2026-11-09T00:01:38.364058Z"
     },
     {
