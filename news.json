@@ -1,6 +1,60 @@
 {
-  "generated_at": "2026-11-10T05:01:41.703391Z",
+  "generated_at": "2026-11-10T06:01:36.548741Z",
   "items": [
+    {
+      "id": "8d4ebe558c3bc7f14d98aec7cabe291c",
+      "title": "Quoting Prompting Claude Fable 5.2",
+      "url": "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/",
+      "source_id": "simon-willison",
+      "source_name": "Simon Willison",
+      "category": "tech",
+      "summary": "Claude Fable 5.2 responds closely to what the prompt says about who owns the code it works on. In Anthropic’s testing on small coding tasks, when a prompt said nothing about ownership or presented the code base as someone else’s, the model tended to add to the existing structure, even when that repeated existing code. [...] If you want the model to improve the structure as it works, say that the code is its own: This codebase is yours: what it's for and how it's built are your call, and you'll…",
+      "published_at": "2026-11-10T05:34:14Z",
+      "fetched_at": "2026-11-10T06:01:36.548741Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 2
+    },
+    {
+      "id": "89dc7206ec49a4ad152c198ca1e9ed63",
+      "title": "California’s proposed ‘billionaire tax’ fails to pass",
+      "url": "https://techcrunch.com/2026/11/09/californias-proposed-billionaire-tax-fails-to-pass/",
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "category": "tech",
+      "summary": "California voters rejected Proposition 40, the one-time 5% tax on billionaires, the AP reported Monday. Tech leaders outspent backers roughly 10 to 1 to defeat it, and the founders and economists TechCrunch interviewed before the vote were split on whether it would have driven out wealthy residents or just trimmed their fortunes.",
+      "published_at": "2026-11-10T05:18:43Z",
+      "fetched_at": "2026-11-10T06:01:36.548741Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "pending",
+      "importance": null
+    },
+    {
+      "id": "349845eb0c60fecc7b9c4f694402ccdf",
+      "title": "A New AI Tool From Google DeepMind Proved the Signal Protocol Is Secure",
+      "url": "https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol/",
+      "source_id": "wired",
+      "source_name": "Wired",
+      "category": "tech",
+      "summary": "DeepMind researchers were able to formally verify that the widely used encryption protocol works as intended. Their stretch goal? Do the same for “all the software of the world.”",
+      "published_at": "2026-11-10T05:01:00Z",
+      "fetched_at": "2026-11-10T06:01:36.548741Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 4
+    },
     {
       "id": "5831dad0fe74f7e5becda57db3c5e4d0",
       "title": "Jensen Huang’s alleged honeypot scandal has inspired some top-notch memes",
@@ -18,6 +72,24 @@
       "blog": false,
       "review": "pending",
       "importance": null
+    },
+    {
+      "id": "37e3e0ecd4b4662eccb1009642b17a31",
+      "title": "Ultorg: The User Interface for Relational Databases",
+      "url": "https://www.ultorg.com/",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-11-10T03:59:39Z",
+      "fetched_at": "2026-11-10T06:01:36.548741Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50435898",
+      "points": 12,
+      "comments": 0,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 2
     },
     {
       "id": "41b6e2615111e42f508876018c5edcd0",
@@ -48,8 +120,8 @@
       "published_at": "2026-11-10T03:20:06Z",
       "fetched_at": "2026-11-10T04:01:46.620761Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50435660",
-      "points": 51,
-      "comments": 20,
+      "points": 74,
+      "comments": 32,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -71,7 +143,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "996cd8f39acad1f657f5f5f29e48c5d2",
@@ -84,8 +156,8 @@
       "published_at": "2026-11-10T01:56:48Z",
       "fetched_at": "2026-11-10T05:01:41.703391Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50435105",
-      "points": 10,
-      "comments": 0,
+      "points": 20,
+      "comments": 7,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -161,7 +233,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "d5e561568b49810a0d2e75c410e5679a",
@@ -210,8 +282,8 @@
       "published_at": "2026-11-09T23:57:21Z",
       "fetched_at": "2026-11-10T01:01:41.467761Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50434310",
-      "points": 65,
-      "comments": 31,
+      "points": 83,
+      "comments": 43,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -233,7 +305,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "d916d20f0c2ff98782a6583c38d283bd",
@@ -251,7 +323,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "f19a891631a3a897f8e161eaf321f123",
@@ -354,8 +426,8 @@
       "published_at": "2026-11-09T23:08:13Z",
       "fetched_at": "2026-11-10T01:01:41.467761Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50433659",
-      "points": 260,
-      "comments": 176,
+      "points": 290,
+      "comments": 205,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -377,7 +449,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "41abfe2689e924c381cc471c8bbfaad2",
@@ -395,7 +467,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "2d397ec3dd1a55a706fb2da517745aa9",
@@ -408,8 +480,8 @@
       "published_at": "2026-11-09T22:59:13Z",
       "fetched_at": "2026-11-10T00:01:41.780786Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50433541",
-      "points": 84,
-      "comments": 36,
+      "points": 99,
+      "comments": 47,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -431,7 +503,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 2
     },
     {
       "id": "54e42bcc54e2a385d65687ac4a93601a",
@@ -611,7 +683,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "2262d015f4ae54a836d8363be8130fce",
@@ -642,8 +714,8 @@
       "published_at": "2026-11-09T21:56:57Z",
       "fetched_at": "2026-11-09T22:44:34.800770Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50432831",
-      "points": 231,
-      "comments": 71,
+      "points": 239,
+      "comments": 72,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -791,7 +863,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "4e51069b185de7e5c8c4f69fd4aa6353",
@@ -876,8 +948,8 @@
       "published_at": "2026-11-09T20:04:55Z",
       "fetched_at": "2026-11-09T21:01:44.273781Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50431144",
-      "points": 317,
-      "comments": 231,
+      "points": 324,
+      "comments": 232,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -912,8 +984,8 @@
       "published_at": "2026-11-09T19:58:59Z",
       "fetched_at": "2026-11-09T21:01:44.273781Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50431058",
-      "points": 554,
-      "comments": 278,
+      "points": 573,
+      "comments": 282,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -930,8 +1002,8 @@
       "published_at": "2026-11-09T19:55:53Z",
       "fetched_at": "2026-11-09T22:01:45.002787Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50430991",
-      "points": 64,
-      "comments": 49,
+      "points": 69,
+      "comments": 53,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -971,7 +1043,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "e9dec96908adcd1aa17f84cd731b6f3b",
@@ -1182,8 +1254,8 @@
       "published_at": "2026-11-09T18:56:29Z",
       "fetched_at": "2026-11-09T20:01:41.951128Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50429068",
-      "points": 345,
-      "comments": 686,
+      "points": 403,
+      "comments": 716,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -1200,7 +1272,7 @@
       "published_at": "2026-11-09T18:50:56Z",
       "fetched_at": "2026-11-09T22:01:45.002787Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50429812",
-      "points": 76,
+      "points": 82,
       "comments": 29,
       "engineering": false,
       "blog": false,
@@ -1218,7 +1290,7 @@
       "published_at": "2026-11-09T18:45:43Z",
       "fetched_at": "2026-11-09T20:01:41.951128Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50429734",
-      "points": 318,
+      "points": 338,
       "comments": 29,
       "engineering": false,
       "blog": false,
@@ -1241,7 +1313,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "b17e97d25bd3847e881c4442049c2f93",
@@ -1272,8 +1344,8 @@
       "published_at": "2026-11-09T18:39:22Z",
       "fetched_at": "2026-11-09T19:01:42.094794Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50429636",
-      "points": 82,
-      "comments": 33,
+      "points": 85,
+      "comments": 34,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -1313,7 +1385,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 1
+      "importance": 2
     },
     {
       "id": "dc7d88d38c33163d7d8c1e36bdac6586",
@@ -1398,7 +1470,7 @@
       "published_at": "2026-11-09T18:25:01Z",
       "fetched_at": "2026-11-09T19:01:42.094794Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50429430",
-      "points": 120,
+      "points": 125,
       "comments": 66,
       "engineering": false,
       "blog": false,
@@ -1416,8 +1488,8 @@
       "published_at": "2026-11-09T18:24:38Z",
       "fetched_at": "2026-11-09T21:01:44.273781Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50429426",
-      "points": 487,
-      "comments": 114,
+      "points": 508,
+      "comments": 116,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -1560,8 +1632,8 @@
       "published_at": "2026-11-09T17:58:46Z",
       "fetched_at": "2026-11-09T19:01:42.094794Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50429024",
-      "points": 269,
-      "comments": 111,
+      "points": 279,
+      "comments": 116,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -1592,12 +1664,12 @@
       "source_id": "hacker-news",
       "source_name": "Hacker News",
       "category": "tech",
-      "summary": "hey HN, i built this because i wanted to know what had actually photographed my street.type in any place and it finds every satellite that passed over it in the last 7 days (SGP4 on the CelesTrak catalog, runs in your browser in about half a second), then pulls the real Sentinel-2 / Landsat / NASA images from those passes.some fun bits: - the pass search can't skip a pass. checked it against a brute force on poles, the antimeridian and tiny swaths: 0 missed - all ~17k objects in orbit are drawn…",
+      "summary": "hey HN, i built this because I'm a satellite nerd who was bored this past weekend.type in any place and it finds every satellite that passed over it in the last 7 days (SGP4 on the CelesTrak catalog, tracking 17k+ objects and runs in your browser in about half a second), then pulls the real Sentinel-2 / Landsat / NASA images from those passes.fun fact: all ~17k objects in orbit are drawn on the GPU, solving Kepler's equation every frame. also cool is that Sentinel-2 timestamps are often 5-10…",
       "published_at": "2026-11-09T17:51:31Z",
       "fetched_at": "2026-11-09T19:01:42.094794Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50428907",
-      "points": 269,
-      "comments": 46,
+      "points": 289,
+      "comments": 48,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -1637,7 +1709,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "10d4db3df04a2a49d012f7f9f28714fd",
@@ -1763,7 +1835,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "1e7e946f65b760c8ff9af73f4663c4c2",
@@ -1781,7 +1853,7 @@
       "engineering": true,
       "blog": true,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "30781f52ffd8c8ca9e6068f872e2f5aa",
@@ -1799,7 +1871,7 @@
       "engineering": true,
       "blog": true,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "f2a00a6c309e71ad19c54eb886e7493c",
@@ -1817,7 +1889,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 1
+      "importance": 2
     },
     {
       "id": "232ebfae2b557acd0eb8bbfb5355fd76",
@@ -2015,7 +2087,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "f1529d5d2592fc82b969237cafe7ba0b",
@@ -2069,7 +2141,7 @@
       "engineering": true,
       "blog": true,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "e6ad94a93b2624420ece7240a802e129",
@@ -2105,7 +2177,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "402490c0d281f465a409011c31602b1f",
@@ -2231,7 +2303,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "9e6880b790bd1fb10f76d2d23cf3191c",
@@ -2285,7 +2357,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "641318171ff224ff1e9b193657c1618a",
@@ -2393,7 +2465,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "170f12803962ee41cb1642af53b5dccd",
@@ -2429,7 +2501,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "99e0799a51d2e4e08909d7ed0ebc808a",
@@ -2447,7 +2519,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "a888e31ab09684408862f54a75f2b281",
@@ -2465,7 +2537,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 1
+      "importance": 2
     },
     {
       "id": "231af0834f91512e940c9570bf08048c",
@@ -2861,7 +2933,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "90ee283a8e6a26391da94e5a2adb5552",
@@ -2969,7 +3041,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "63de0e61133f7e5e99cf7dbf5e3827f6",
@@ -2987,7 +3059,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "097299fa07e96ecd3b41f26e733e4035",
@@ -3095,7 +3167,7 @@
       "engineering": true,
       "blog": true,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "3c8c607b8be0b5cafec120c8568c84f6",
@@ -3203,7 +3275,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "bff7d6d35369dc569e502ad484d3b998",
@@ -3293,7 +3365,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "dfa4319060f89055927bc099fee03f60",
@@ -3419,7 +3491,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "32e60999ea668aa732759691ba283070",
@@ -3455,7 +3527,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "8006d3e4cb29e19a98e30ade64a4963a",
@@ -3545,7 +3617,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "ed715acb0877832c4b795245f065bc29",
@@ -3635,7 +3707,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "099ca1c739d2c7da2aa91e445734516d",
@@ -3815,7 +3887,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "65f53189c49a9e78f9a71e251cd5dae1",
@@ -3833,7 +3905,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 1
+      "importance": 2
     },
     {
       "id": "2310b1709947eafa6065ec26e9a65bf5",
@@ -3851,7 +3923,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "66c6bdb043a4c5463b2b6804a75aa3f9",
@@ -3905,7 +3977,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "702345541d20d07af0570b13535fa3ca",
@@ -3977,7 +4049,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "15450f0f757ac49437771033dab2a04c",
@@ -4319,7 +4391,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "589502f4fa4f47634b3f61f8a58d1ee7",
@@ -4517,7 +4589,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "c4ddcf9755852ec325a0efaae11f22de",
@@ -4607,7 +4679,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "af933a6840524330a5afaeb8d7fad236",
@@ -4643,7 +4715,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "6d2a5331747b242bede18eb7b9d4054a",
@@ -4733,7 +4805,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "5828d94e5b6869c2a2a1ce2287b355a2",
@@ -4751,7 +4823,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "d473509d5c95f54675ff07e53d5b0055",
@@ -4823,7 +4895,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "cc302e5c6239cc0029dace958f8a36a6",
@@ -4877,7 +4949,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "4f905989086d018b886f586009b6caff",
@@ -4967,7 +5039,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "ae9ffed95b2b550fe4bfcfe948c60810",
@@ -5039,7 +5111,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "340c756194a56cc56203cdbe38bcce4b",
@@ -25742,258 +25814,6 @@
       "importance": 3
     },
     {
-      "id": "4afe1d62861b5837ba9bbed932268c75",
-      "title": "Uber Eats Promo Codes: $15 Off│November 2026",
-      "url": "https://www.wired.com/story/uber-eats-promo-code/",
-      "source_id": "wired",
-      "source_name": "Wired",
-      "category": "tech",
-      "summary": "Hunger meets savings. Discover verified Uber Eats promo codes, new user offers, and Uber One discounts to slash your delivery fees and meal costs.",
-      "published_at": "2026-11-03T06:00:00Z",
-      "fetched_at": "2026-11-03T06:02:15.876984Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": null,
-      "review": "excluded",
-      "importance": null
-    },
-    {
-      "id": "927268e4c5632c232438cc4b9473a4f4",
-      "title": "Hotels.com Coupon Codes for November 2026",
-      "url": "https://www.wired.com/story/hotels-com-coupon/",
-      "source_id": "wired",
-      "source_name": "Wired",
-      "category": "tech",
-      "summary": "Unlock significant savings on hotels, resorts, and getaways with our verified Hotels.com promo codes and gift card discounts. Plan your perfect trip today!",
-      "published_at": "2026-11-03T06:00:00Z",
-      "fetched_at": "2026-11-03T06:02:15.876984Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": null,
-      "review": "excluded",
-      "importance": null
-    },
-    {
-      "id": "14cc6cfce15cdecf12239370781f4855",
-      "title": "30% Off Canon Promo Codes | November 2026",
-      "url": "https://www.wired.com/story/canon-promo-code/",
-      "source_id": "wired",
-      "source_name": "Wired",
-      "category": "tech",
-      "summary": "Save an extra 10% or 30% with Canon coupon codes, plus up to $1,600 on cameras, printers, and more this November 2026.",
-      "published_at": "2026-11-03T06:00:00Z",
-      "fetched_at": "2026-11-03T06:02:15.876984Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": null,
-      "review": "excluded",
-      "importance": null
-    },
-    {
-      "id": "a3befc25ed2e5dfb0de08433159deaca",
-      "title": "20% Off Brooks Promo Code | November 2026",
-      "url": "https://www.wired.com/story/brooks-promo-code/",
-      "source_id": "wired",
-      "source_name": "Wired",
-      "category": "tech",
-      "summary": "Enjoy 20% off your first order with a Brooks coupon code, plus top discounts and deals on our favorite Brooks running shoes.",
-      "published_at": "2026-11-03T06:00:00Z",
-      "fetched_at": "2026-11-03T06:02:15.876984Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": null,
-      "review": "excluded",
-      "importance": null
-    },
-    {
-      "id": "8d1ec246454ef739323e1332fa61037a",
-      "title": "Chewy Promo Codes: $20 Off November 2026",
-      "url": "https://www.wired.com/story/chewy-promo-code/",
-      "source_id": "wired",
-      "source_name": "Wired",
-      "category": "tech",
-      "summary": "Explore Chewy coupon codes for $30 off, $20 off your first order of $49, 50% off pet food, and more November 2026 discounts.",
-      "published_at": "2026-11-03T06:00:00Z",
-      "fetched_at": "2026-11-03T06:02:15.876984Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": null,
-      "review": "excluded",
-      "importance": null
-    },
-    {
-      "id": "bdc1f587915a79bfbd22b400ab6e6f04",
-      "title": "Dell Coupon Codes: 20% Off for November 2026",
-      "url": "https://www.wired.com/story/dell-coupon-code/",
-      "source_id": "wired",
-      "source_name": "Wired",
-      "category": "tech",
-      "summary": "Get 20% off with verified Dell promo code, plus today’s coupons for up to $600 off laptops, Alienware monitors, and all things tech.",
-      "published_at": "2026-11-03T06:00:00Z",
-      "fetched_at": "2026-11-03T06:02:15.876984Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": null,
-      "review": "excluded",
-      "importance": null
-    },
-    {
-      "id": "c86a71d4b6f3f1b276b20f1d04187648",
-      "title": "AT&T Promo Codes: $50 Off This November 2026",
-      "url": "https://www.wired.com/story/att-promo-code/",
-      "source_id": "wired",
-      "source_name": "Wired",
-      "category": "tech",
-      "summary": "Whether you’re looking to upgrade your internet or get the latest phone, we’ve got you covered with our selection of AT&T coupons and deals.",
-      "published_at": "2026-11-03T06:00:00Z",
-      "fetched_at": "2026-11-03T06:02:15.876984Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": null,
-      "review": "excluded",
-      "importance": null
-    },
-    {
-      "id": "3e980654cf7c86299b6077cb1133bffd",
-      "title": "KitchenAid Promo Codes: Save Up to 20%",
-      "url": "https://www.wired.com/story/exclusive-kitchenaid-promo-code/",
-      "source_id": "wired",
-      "source_name": "Wired",
-      "category": "tech",
-      "summary": "Save on every purchase with top KitchenAid coupons from WIRED, including up to 20% off countertop appliances.",
-      "published_at": "2026-11-03T06:00:00Z",
-      "fetched_at": "2026-11-03T06:02:15.876984Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": null,
-      "review": "excluded",
-      "importance": null
-    },
-    {
-      "id": "77449d411bc9364bdd16c946a9c7c891",
-      "title": "Newegg Promo Codes and Coupons for November 2026",
-      "url": "https://www.wired.com/story/newegg-promo-code/",
-      "source_id": "wired",
-      "source_name": "Wired",
-      "category": "tech",
-      "summary": "Enjoy up to 10% off your entire order with today’s Newegg promo code and discount codes. Save with the latest deals for gaming PCs, laptops, and computer parts.",
-      "published_at": "2026-11-03T06:00:00Z",
-      "fetched_at": "2026-11-03T06:02:15.876984Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": null,
-      "review": "excluded",
-      "importance": null
-    },
-    {
-      "id": "2d8fd4751bfdda912cbf8c3a3014ba73",
-      "title": "eBay Coupons: 20% Off in November 2026",
-      "url": "https://www.wired.com/story/ebay-coupon-code/",
-      "source_id": "wired",
-      "source_name": "Wired",
-      "category": "tech",
-      "summary": "Save up to 60% on a selection of items at eBay, including electronics, home products, card games, car parts and more.",
-      "published_at": "2026-11-03T06:00:00Z",
-      "fetched_at": "2026-11-03T06:02:15.876984Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": null,
-      "review": "excluded",
-      "importance": null
-    },
-    {
-      "id": "35b001ee2209970f635839d1230d196f",
-      "title": "Attackers Exploit Critical Siemens IoT2050 Flaw to Plant Remote Command Backdoors",
-      "url": "https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html",
-      "source_id": "the-hacker-news",
-      "source_name": "The Hacker News",
-      "category": "tech",
-      "summary": "A maximum-severity security flaw impacting Siemens SIMATIC IoT2050 Advanced devices has come under active exploitation, VulnCheck has revealed. The vulnerability, tracked as CVE-2026-58115 (CVSS score: 10.0), is a case of missing authentication for a critical function that could be exploited by an unauthenticated remote attacker to run arbitrary code. \"SIMATIC IoT2050 Advanced devices running",
-      "published_at": "2026-11-03T05:34:41Z",
-      "fetched_at": "2026-11-03T06:02:15.876984Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 4
-    },
-    {
-      "id": "3abb639db9d3d1b16fb83579422a81bf",
-      "title": "Attackers Target Unpatched CryptoPayment Gateway Flaw That Can Expose Wallet Credentials",
-      "url": "https://thehackernews.com/2026/11/attackers-target-unpatched.html",
-      "source_id": "the-hacker-news",
-      "source_name": "The Hacker News",
-      "category": "tech",
-      "summary": "Threat actors are attempting to exploit an unpatched maximum-severity security vulnerability in the CryptoPayment Gateway WordPress plugin, according to findings from Defused Cyber. The vulnerability in question is CVE-2026-81648, which carries a CVSS score of 10.0. Successful exploitation of the flaw could permit unauthenticated users to delete arbitrary files on the server and extract",
-      "published_at": "2026-11-03T05:34:37Z",
-      "fetched_at": "2026-11-03T06:02:15.876984Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 4
-    },
-    {
-      "id": "f19d7b343f389e9e2dea17d020ad052e",
-      "title": "I discovered a sound that leaks your exact location (and it's everywhere) - YouTube",
-      "url": "https://simonwillison.net/2026/Nov/3/a-sound-that-leaks-your-exact-location/",
-      "source_id": "simon-willison",
-      "source_name": "Simon Willison",
-      "category": "tech",
-      "summary": "I discovered a sound that leaks your exact location (and it's everywhere) - YouTube Genius piece of OSINT by Colsto, who demonstrates how you can take almost imperceptible background noise of planes from a video soundtrack, figure out their Doppler curves, then cross reference them against ADS-B data to find the exact location of the video based on their speed, distance, and gaps between different flights. Via Lobste.rs Tags: privacy, youtube",
-      "published_at": "2026-11-03T05:32:25Z",
-      "fetched_at": "2026-11-03T06:02:15.876984Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "248fb4b190995f66d7375f96dfad0b60",
-      "title": "October sponsors-only newsletter",
-      "url": "https://simonwillison.net/2026/Nov/3/october-newsletter/",
-      "source_id": "simon-willison",
-      "source_name": "Simon Willison",
-      "category": "tech",
-      "summary": "I sent out the October edition of my sponsors-only monthly newsletter. If you are a sponsor (or start a sponsorship now) you can access it here. This month: The October inflection point for vibe game development The vulnerability apocalypse gets hot LLM releases API credits for $100+/month subscriptions What I'm using right now My software releases My September newsletter can now be seen here, as a preview of what you'll get. Pay $10/month to stay a month ahead of the free copy! Tags: newsletter",
-      "published_at": "2026-11-03T05:28:59Z",
-      "fetched_at": "2026-11-03T06:02:15.876984Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 2
-    },
-    {
       "id": "649ce4e54578578aea7bb727b1d72149",
       "title": "Why did you choose the nix you nix?",
       "url": "https://lobste.rs/s/7fcuxz/why_did_you_choose_nix_you_nix",
@@ -29542,88 +29362,96 @@
   ],
   "top_stories": [
     {
-      "id": "a1fdbd28bea1a27619cdef37dd4042fb",
-      "title": "Nvidia board investigates CEO Jensen Huang over relationship with alleged Chinese spy",
-      "summary": "Nvidia's board of directors has opened an investigation into CEO Jensen Huang following revelations of his relationship with Megaspeed executive Alice Huang, who was reportedly recruited by China's Ministry of State Security. Jensen Huang admitted to the affair in a memo to staff, and the unfolding controversy has triggered stock drops, legal challenges, and scrutiny over Nvidia's China ambitions and US chip export lobbying.",
-      "why_it_matters": "This could destabilize the leadership of the world's most dominant AI hardware supplier and directly impact global AI infrastructure chip supply and geopolitics.",
-      "item_ids": [
-        "a1fdbd28bea1a27619cdef37dd4042fb",
-        "24c4747f4e2de2a6493f23045cbb8fd7",
-        "e6271bd0e1d8b82dc21f0790926599be",
-        "5a1aefd1f76535a9ae27ab88e85734f1",
-        "d916d20f0c2ff98782a6583c38d283bd",
-        "f19a891631a3a897f8e161eaf321f123",
-        "4ce3816bb54d76922bf729f3656b5edc",
-        "48e6dc76dc7f693e59867e01cee915d3",
-        "f99df0b048f9208105fe515e0eac8f7f",
-        "54e42bcc54e2a385d65687ac4a93601a",
-        "07a63179d0414c1e89b92e16f2de0b4f",
-        "ad72ac40cbd9b82814c085804871827a",
-        "5cf6d892a33246aa96c277724ae375ee",
-        "f1529d5d2592fc82b969237cafe7ba0b",
-        "641318171ff224ff1e9b193657c1618a",
-        "c775238be22e3a206c1d7ec03d2ae703",
-        "7d49259eb4768e66445d6b1e02dc54be",
-        "254779ccfce7c32ace28ca9c94965036",
-        "4385d461802d7be39c3efaba8f58b944",
-        "a6c5d0754483fca7cddf9a45ae1d620d",
-        "5e9708ee298bcdd918e0086636636846",
-        "6929c8b458801ff19107dbe645531d12"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-08T19:01:37.406687Z",
-      "last_shown": "2026-11-10T05:01:41.703391Z"
-    },
-    {
       "id": "43fa641cb8902b4315c8cfdb5aaca076",
-      "title": "Critical 'SSHole' OpenSSH vulnerability under active exploitation",
-      "summary": "A high-severity vulnerability in OpenSSH, dubbed SSHole, is under active exploitation by hackers attempting to execute commands, steal credentials, and establish persistent access on Linux devices. Security vendors and platforms have rushed emergency patches and mitigation steps offline.",
-      "why_it_matters": "OpenSSH is ubiquitous across server infrastructure, making active exploitation of a remote vulnerability a critical, immediate threat to system security.",
+      "title": "Critical OpenSSH 'SSHole' Vulnerability Under Active Exploitation",
+      "summary": "A high-severity vulnerability in OpenSSH, dubbed 'SSHole' (CVE-2026-123158), is under active exploitation in the wild. Threat actors are using the flaw to execute commands, steal credentials, and establish persistent access on Linux devices.",
+      "why_it_matters": "OpenSSH is ubiquitous across server infrastructure; active exploitation of a remote vulnerability demands immediate patching to prevent system compromises.",
       "item_ids": [
         "43fa641cb8902b4315c8cfdb5aaca076",
-        "114b65cb5574e01779709cb944ec1458",
         "84d5f3675c2b40d16ad5841c5c3405a2"
       ],
       "primary_url": "https://previdian.com/CVE-2026-123158",
       "first_shown": "2026-11-09T17:01:46.183118Z",
-      "last_shown": "2026-11-10T05:01:41.703391Z"
+      "last_shown": "2026-11-10T06:01:36.548741Z"
+    },
+    {
+      "id": "a1fdbd28bea1a27619cdef37dd4042fb",
+      "title": "Nvidia Board Investigates CEO Jensen Huang Over Affiliation With Alleged Chinese Spy",
+      "summary": "Nvidia's board of directors is investigating CEO Jensen Huang following revelations regarding his relationship with a Megaspeed executive who is suspected of being a Chinese intelligence asset. Huang has admitted to the affair in a memo to staff as the company faces stock pressure, potential legal fallout, and heightened scrutiny over its lobbying and business ambitions in China.",
+      "why_it_matters": "This investigation threatens the leadership of one of the most critical semiconductor companies in the AI ecosystem, potentially impacting global chip supplies, market valuations, and trade relations.",
+      "item_ids": [
+        "a1fdbd28bea1a27619cdef37dd4042fb",
+        "e6271bd0e1d8b82dc21f0790926599be",
+        "24c4747f4e2de2a6493f23045cbb8fd7",
+        "4385d461802d7be39c3efaba8f58b944",
+        "254779ccfce7c32ace28ca9c94965036",
+        "5a1aefd1f76535a9ae27ab88e85734f1",
+        "6929c8b458801ff19107dbe645531d12",
+        "5e9708ee298bcdd918e0086636636846",
+        "7d49259eb4768e66445d6b1e02dc54be",
+        "07a63179d0414c1e89b92e16f2de0b4f",
+        "54e42bcc54e2a385d65687ac4a93601a",
+        "4ce3816bb54d76922bf729f3656b5edc",
+        "c775238be22e3a206c1d7ec03d2ae703",
+        "641318171ff224ff1e9b193657c1618a",
+        "5cf6d892a33246aa96c277724ae375ee",
+        "7b5e901cead67182d2127b01e97b21eb",
+        "f1529d5d2592fc82b969237cafe7ba0b",
+        "ad72ac40cbd9b82814c085804871827a"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-08T19:01:37.406687Z",
+      "last_shown": "2026-11-10T06:01:36.548741Z"
     },
     {
       "id": "456a529aa2a3e101afe2cd61a1cf2b25",
-      "title": "Anthropic launches Claude Fable 5.2 and Mythos 5.2 models",
-      "summary": "Anthropic has released its latest flagship models, Claude Fable 5.2 and Claude Mythos 5.2, designed to tackle demanding technical challenges. The new models feature price cuts and significant improvements in reasoning, vision, and coding capabilities.",
-      "why_it_matters": "New frontier models directly alter the cost, performance, and capabilities available to developers building agentic and AI-powered coding tools.",
+      "title": "Anthropic Launches Claude Fable 5.2 and Mythos 5.2 Models",
+      "summary": "Anthropic has officially announced the release of Claude Fable 5.2 and Claude Mythos 5.2. The new models feature improved coding, reasoning, and vision capabilities, alongside more transparent communication and price cuts.",
+      "why_it_matters": "These model updates directly change the cost and capability tradeoffs for developers building applications on top of Anthropic's APIs.",
       "item_ids": [
         "456a529aa2a3e101afe2cd61a1cf2b25",
         "c301a0197fe30514d3142e634d9cb5d0",
-        "be126b65fa2269286af9af63ba3300f1",
         "be740008e181033d430b36cf43feadf8",
-        "3b3f4055c9cf5764f27820445dcbcab8"
+        "3b3f4055c9cf5764f27820445dcbcab8",
+        "be126b65fa2269286af9af63ba3300f1"
       ],
       "primary_url": null,
       "first_shown": "2026-11-09T20:01:41.951128Z",
-      "last_shown": "2026-11-10T05:01:41.703391Z"
+      "last_shown": "2026-11-10T06:01:36.548741Z"
     },
     {
       "id": "89158711eb7b68ce7fd0f187cf454b97",
-      "title": "France blames Iran for cyberattacks targeting supermarket freezers and blood banks",
-      "summary": "France's foreign minister has blamed Iranian state-backed hackers for launching cyberattacks targeting industrial refrigeration and freezer units across France and Europe. The sabotage campaigns caused physical disruptions, food losses, and fires in retail locations.",
-      "why_it_matters": "This highlights a dangerous escalation in state-sponsored attacks targeting operational technology and industrial control systems.",
+      "title": "France Blames Iranian State-Backed Hackers for Supermarket Freezer Sabotage",
+      "summary": "France's foreign minister has publicly blamed Iranian state-backed hackers for launching cyberattacks that targeted industrial refrigeration and freezer units in supermarkets and blood banks across France and Europe. The sabotage operations caused equipment failures and food losses.",
+      "why_it_matters": "It marks a dangerous escalation in state-sponsored cyberattacks directly targeting critical industrial control systems and physical infrastructure.",
       "item_ids": [
         "89158711eb7b68ce7fd0f187cf454b97",
+        "b25635c7160b0c3684c2ec6926bdd6e0",
         "a8018316ef2615ca936bf625cf0a8a47",
-        "87bb6bfec4628e701274a404b7ce5c8d",
-        "b25635c7160b0c3684c2ec6926bdd6e0"
+        "87bb6bfec4628e701274a404b7ce5c8d"
       ],
       "primary_url": null,
       "first_shown": "2026-11-09T20:01:41.951128Z",
-      "last_shown": "2026-11-10T05:01:41.703391Z"
+      "last_shown": "2026-11-10T06:01:36.548741Z"
+    },
+    {
+      "id": "47ded378fd0612cc9541b37b8d797a36",
+      "title": "US Government States Waymo Failed to Fix Autonomous School Bus Issues",
+      "summary": "Federal regulators state that Waymo's previous software update failed to resolve issues causing its autonomous vehicles to illegally pass stopped school buses. The government is now pursuing further inquiries into the autonomous driving system.",
+      "why_it_matters": "Regulatory scrutiny over autonomous vehicle safety compliance can lead to forced recalls or tighter operating restrictions for self-driving fleets.",
+      "item_ids": [
+        "47ded378fd0612cc9541b37b8d797a36",
+        "d240602cbf7568524685a306add3ce11"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-09T23:01:44.197264Z",
+      "last_shown": "2026-11-10T06:01:36.548741Z"
     },
     {
       "id": "b75744e65ee789f10ff404342bc8420d",
-      "title": "Meta releases Muse Ember lightweight multimodal model",
-      "summary": "Meta has debuted Muse Ember, a smaller, highly efficient multimodal member of its Muse model family designed for agent execution. Priced significantly lower than competitors like Haiku and Luna, it aims to capture enterprise workloads.",
-      "why_it_matters": "Cheaper, highly efficient small models lower the cost barrier for running autonomous agent loops and backend execution tasks.",
+      "title": "Meta Debuts Muse Ember Lightweight Multimodal Model",
+      "summary": "Meta has introduced Muse Ember, a smaller and more efficient multimodal model designed for agent execution. Priced significantly lower than comparable frontier models, it targets cost-effective deployment.",
+      "why_it_matters": "Cheaper lightweight models lower the cost barrier for developers running agentic workflows at scale.",
       "item_ids": [
         "b75744e65ee789f10ff404342bc8420d",
         "7d43f24719ee08e6a14d624164a322b1",
@@ -29631,22 +29459,62 @@
       ],
       "primary_url": null,
       "first_shown": "2026-11-09T19:01:42.094794Z",
-      "last_shown": "2026-11-10T05:01:41.703391Z"
+      "last_shown": "2026-11-10T06:01:36.548741Z"
     },
     {
-      "id": "199419dac4261c5db01791a9f44e1ba6",
-      "title": "Attackers exploit Qubole AWS access to breach customer accounts",
-      "summary": "Cloud security researchers have revealed that attackers broke into AWS accounts belonging to multiple Qubole customers by exploiting trusted AWS integrations. The threat actors stole stored secrets and sensitive data from cloud environments.",
-      "why_it_matters": "Compromised third-party cloud integrations and credentials represent a major supply-chain risk for enterprise AWS deployments.",
+      "id": "c63dd806ab0a6e98c66ebbfc154870c1",
+      "title": "Attackers Exploit Qubole Integrations in AWS to Steal Customer Data",
+      "summary": "Security researchers at Wiz revealed that threat actors compromised trusted AWS access integrations belonging to Qubole customers. Attackers stole stored secrets and data from multiple accounts over a multi-week period.",
+      "why_it_matters": "Supply-chain attacks targeting cloud service integrations expose downstream enterprise customers to massive data exfiltration risks.",
       "item_ids": [
-        "199419dac4261c5db01791a9f44e1ba6",
-        "a6fb46e212c2ec1f317b7c39a2db20af",
-        "c63dd806ab0a6e98c66ebbfc154870c1"
+        "c63dd806ab0a6e98c66ebbfc154870c1",
+        "199419dac4261c5db01791a9f44e1ba6"
       ],
-      "primary_url": "https://www.wiz.io/blog/qubole-cross-account-access-abused-in-the-wild",
+      "primary_url": null,
       "first_shown": "2026-11-09T18:01:46.382394Z",
-      "last_shown": "2026-11-10T05:01:41.703391Z"
+      "last_shown": "2026-11-10T06:01:36.548741Z"
     },
+    {
+      "id": "5f7f7d5b4dd0c4062b3169bf342dffec",
+      "title": "Microsoft Email Authentication Crackdown Leads to Rejected Messages",
+      "summary": "Microsoft's stricter email authentication enforcement on Outlook.com is rejecting legitimate emails from domains lacking proper DMARC or wobbly SPF configurations, treating them as suspicious.",
+      "why_it_matters": "System administrators must ensure strict email authentication records are configured to prevent critical transactional emails from bouncing.",
+      "item_ids": [
+        "5f7f7d5b4dd0c4062b3169bf342dffec",
+        "2e0f6d6bf02f824eccb2ee403987cbf0"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-08T20:01:38.431584Z",
+      "last_shown": "2026-11-10T06:01:36.548741Z"
+    },
+    {
+      "id": "82169c9dd21be24f9f67376d0fd5f664",
+      "title": "James Gunn and Peter Safran Out as DC Studios Co-CEOs Following Merger",
+      "summary": "James Gunn and Peter Safran are stepping down as co-CEOs of DC Studios following a corporate shake-up. Former Marvel SVP of Production Jeremy Latcham is slated to replace them.",
+      "why_it_matters": null,
+      "item_ids": [
+        "82169c9dd21be24f9f67376d0fd5f664",
+        "0de6dcfadfeffef68b37c456bf170780"
+      ],
+      "primary_url": "https://deadline.com/2026/11/dc-studios-james-gunn-peter-safran-leaving-1237217374",
+      "first_shown": "2026-11-09T23:01:44.197264Z",
+      "last_shown": "2026-11-10T06:01:36.548741Z"
+    },
+    {
+      "id": "232ebfae2b557acd0eb8bbfb5355fd76",
+      "title": "Uber Launches Parking Reservation Service Following SpotHero Acquisition",
+      "summary": "Uber has launched a native in-app parking reservation feature allowing drivers to find, book, and pay for garage and lot spaces in advance. The new offering builds on Uber's acquisition of SpotHero and expands its services beyond core ride-hailing.",
+      "why_it_matters": null,
+      "item_ids": [
+        "232ebfae2b557acd0eb8bbfb5355fd76",
+        "dc046793aab7c96b6fd49a7b592efbf1"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-09T17:01:46.183118Z",
+      "last_shown": "2026-11-10T06:01:36.548741Z"
+    }
+  ],
+  "past_top_stories": [
     {
       "id": "7b474482f4b9f64422b758a37f6ef630",
       "title": "Researchers exploit default credentials in automotive apps to remotely unlock cars",
@@ -29661,32 +29529,6 @@
       "last_shown": "2026-11-10T05:01:41.703391Z"
     },
     {
-      "id": "d240602cbf7568524685a306add3ce11",
-      "title": "US government questions Waymo's software fix for school bus incidents",
-      "summary": "Federal regulators are investigating Waymo after autonomous vehicles continued to illegally drive around stopped school buses despite a software update rolled out nearly a year ago. The company previously claimed the issue was resolved.",
-      "why_it_matters": "Regulatory scrutiny on autonomous driving safety fixes impacts deployment timelines and compliance requirements for self-driving fleets.",
-      "item_ids": [
-        "d240602cbf7568524685a306add3ce11",
-        "47ded378fd0612cc9541b37b8d797a36"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-09T23:01:44.197264Z",
-      "last_shown": "2026-11-10T05:01:41.703391Z"
-    },
-    {
-      "id": "dc046793aab7c96b6fd49a7b592efbf1",
-      "title": "Uber launches in-app parking reservation feature following SpotHero acquisition",
-      "summary": "Uber is expanding beyond ride-hailing with the launch of Uber Parking, a native in-app reservation feature that allows drivers to find, book, and pay for garage and lot spaces in advance. The offering stems from Uber's acquisition of SpotHero and is designed with an eye toward future robotaxi integrations.",
-      "why_it_matters": null,
-      "item_ids": [
-        "dc046793aab7c96b6fd49a7b592efbf1",
-        "232ebfae2b557acd0eb8bbfb5355fd76"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-09T17:01:46.183118Z",
-      "last_shown": "2026-11-10T05:01:41.703391Z"
-    },
-    {
       "id": "c71b9ea7885cb9654975d883b7db5cad",
       "title": "Meta expands Instagram AI age-guessing technology globally",
       "summary": "Meta is globally rolling out its AI-driven age estimation technology to scan for signals and automatically place millions of users suspected to be teenagers into stricter account settings on Instagram, even if they provided an adult birthdate.",
@@ -29698,21 +29540,6 @@
       "primary_url": null,
       "first_shown": "2026-11-09T14:01:39.412627Z",
       "last_shown": "2026-11-10T05:01:41.703391Z"
-    }
-  ],
-  "past_top_stories": [
-    {
-      "id": "82169c9dd21be24f9f67376d0fd5f664",
-      "title": "James Gunn and Peter Safran Step Down as Co-CEOs of DC Studios",
-      "summary": "James Gunn and Peter Safran are leaving their leadership roles at DC Studios following a post-merger shake-up at Skydance. Former Marvel executive Jeremy Latcham is slated to replace them.",
-      "why_it_matters": null,
-      "item_ids": [
-        "82169c9dd21be24f9f67376d0fd5f664",
-        "0de6dcfadfeffef68b37c456bf170780"
-      ],
-      "primary_url": "https://deadline.com/2026/11/dc-studios-james-gunn-peter-safran-leaving-1237217374",
-      "first_shown": "2026-11-09T23:01:44.197264Z",
-      "last_shown": "2026-11-10T04:01:46.620761Z"
     },
     {
       "id": "bc96a80ee3a6778ecb92094c9354a5cc",
@@ -29750,19 +29577,6 @@
       "primary_url": null,
       "first_shown": "2026-11-10T02:01:39.363157Z",
       "last_shown": "2026-11-10T02:01:39.363157Z"
-    },
-    {
-      "id": "5f7f7d5b4dd0c4062b3169bf342dffec",
-      "title": "Outlook.com and Microsoft email authentication crackdowns reject legitimate mail",
-      "summary": "Microsoft's stricter authentication enforcement and DMARC checks are causing Outlook.com to reject legitimate emails from domains lacking proper DMARC or wobbly SPF configuration. The unexpected bounce rates have left administrators scrambling to update email records.",
-      "why_it_matters": "Stricter email validation enforcement can break automated alerting and customer communication channels for domains with misconfigured DNS records.",
-      "item_ids": [
-        "5f7f7d5b4dd0c4062b3169bf342dffec",
-        "2e0f6d6bf02f824eccb2ee403987cbf0"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-08T20:01:38.431584Z",
-      "last_shown": "2026-11-10T00:01:41.780786Z"
     },
     {
       "id": "803463ec7f36e022ee1dc9b23be3fbc5",
