@@ -1,6 +1,132 @@
 {
-  "generated_at": "2026-11-11T21:05:27.232583Z",
+  "generated_at": "2026-11-11T22:02:16.181020Z",
   "items": [
+    {
+      "id": "0fee9245644694b27be47aab5eed003d",
+      "title": "Hands on with Home Assistant’s new ‘smart home multi-tool’",
+      "url": "https://www.theverge.com/tech/1031601/home-assistant-connect-aux-2-hands-on",
+      "source_id": "the-verge",
+      "source_name": "The Verge",
+      "category": "tech",
+      "summary": "Nabu Casa - the commercial side of the Open Home Foundation, which runs Home Assistant - just launched the Home Assistant Connect Aux-2, a multi-function box designed to help you bring more devices into your smart home. It's part of Home Assistant's ongoing efforts to become more user-friendly. And it's working. I've been testing the […]",
+      "published_at": "2026-11-11T22:00:00Z",
+      "fetched_at": "2026-11-11T22:02:16.181020Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "pending",
+      "importance": null
+    },
+    {
+      "id": "a3a0c9996cbe1c5ad36edbf42e91053e",
+      "title": "United won’t let your AI agent book your flight",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents",
+      "source_id": "the-verge",
+      "source_name": "The Verge",
+      "category": "tech",
+      "summary": "United says it won't let personal AI assistants book tickets on the airline, citing both privacy and regulatory concerns. The company says it hasn't yet seen many people try to use AI agents to book their flights, The Wall Street Journal reports, in line with observations from other businesses like Doordash. But United is concerned […]",
+      "published_at": "2026-11-11T21:54:21Z",
+      "fetched_at": "2026-11-11T22:02:16.181020Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 4
+    },
+    {
+      "id": "c1371027738c6e58448fbd7c34579fb7",
+      "title": "eMudhra revokes 8 more CA certificates after private key mishap",
+      "url": "https://www.bleepingcomputer.com/news/security/emudhra-revokes-8-more-ca-certificates-after-private-key-mishap/",
+      "source_id": "bleepingcomputer",
+      "source_name": "BleepingComputer",
+      "category": "tech",
+      "summary": "Certificate authority eMudhra has revoked eight additional intermediate CA certificates after an investigation into its recent certificate security incident found improper handling of private keys during the certificate-generation process. [...]",
+      "published_at": "2026-11-11T21:27:40Z",
+      "fetched_at": "2026-11-11T22:02:16.181020Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 4
+    },
+    {
+      "id": "09a8cccd38eaa35332306f62c1b90a75",
+      "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
+      "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-11-11T21:24:35Z",
+      "fetched_at": "2026-11-11T22:02:16.181020Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50458900",
+      "points": 18,
+      "comments": 14,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 4
+    },
+    {
+      "id": "467ef51719e28a09c1395ef27d67d377",
+      "title": "aws-emulator",
+      "url": "https://simonwillison.net/2026/Nov/11/aws-emulator/",
+      "source_id": "simon-willison",
+      "source_name": "Simon Willison",
+      "category": "tech",
+      "summary": "aws-emulator Finally, an official emulator from AWS to run tests against a local clone of their many different services without having to provision a paid API key to do so. It's written in Rust by a huge swarm of agents - 29,684 commits in the first three weeks of the project. Swaminathan (Swami) Sivasubramanian wrote about how it came to be in a guest post on Werner Vogels' blog. It currently requires Docker to run on macOS or Windows. I'm hoping they fix that in the future - it would be great…",
+      "published_at": "2026-11-11T21:18:30Z",
+      "fetched_at": "2026-11-11T22:02:16.181020Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 4
+    },
+    {
+      "id": "f5d73a0e3d62ddfa8fbad51db768dc3e",
+      "title": "Play GTA5 on Browser",
+      "url": "https://playgta5.com/",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-11-11T21:10:35Z",
+      "fetched_at": "2026-11-11T22:02:16.181020Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50458710",
+      "points": 6,
+      "comments": 3,
+      "engineering": false,
+      "blog": false,
+      "review": "pending",
+      "importance": null
+    },
+    {
+      "id": "3f686cd03a214af09e97467f290923dd",
+      "title": "GitHub Incident with Webhooks, Actions, etc.",
+      "url": "https://www.githubstatus.com/incidents/dvy0t3mvh1lg",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-11-11T20:54:37Z",
+      "fetched_at": "2026-11-11T22:02:16.181020Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50458532",
+      "points": 44,
+      "comments": 22,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
     {
       "id": "ab7038ed635fd96794a0b883ff573b53",
       "title": "Notion says Fireworks breach exposed customer AI chat transcripts",
@@ -20,6 +146,24 @@
       "importance": 4
     },
     {
+      "id": "b878c850ff128cef7d1b3abfa843616e",
+      "title": "Tools for exploring the souls of large language models",
+      "url": "https://oshea00.github.io/posts/tinygpt-visualizer/",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-11-11T20:45:50Z",
+      "fetched_at": "2026-11-11T22:02:16.181020Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50458434",
+      "points": 9,
+      "comments": 4,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 2
+    },
+    {
       "id": "a475e6864040cb90b476b7696b788b70",
       "title": "T-Mobile illegally imposed 50 GB cap on low-income home Internet plan, NY says",
       "url": "https://arstechnica.com/tech-policy/2026/11/t-mobile-illegally-imposed-50-gb-cap-on-low-income-home-internet-plan-ny-says/",
@@ -34,8 +178,8 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "6c5da4fab6578b690f3a005e65da23f0",
@@ -48,12 +192,12 @@
       "published_at": "2026-11-11T20:26:32Z",
       "fetched_at": "2026-11-11T21:05:27.232583Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50458208",
-      "points": 12,
-      "comments": 1,
+      "points": 61,
+      "comments": 13,
       "engineering": false,
       "blog": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 2
     },
     {
       "id": "bbd9f31a19b79ff5aa8750a5b63c2d9f",
@@ -66,8 +210,8 @@
       "published_at": "2026-11-11T20:23:57Z",
       "fetched_at": "2026-11-11T21:05:27.232583Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50458166",
-      "points": 7,
-      "comments": 0,
+      "points": 25,
+      "comments": 9,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -128,6 +272,24 @@
       "importance": 3
     },
     {
+      "id": "051db481fca57097a1357090612f4ccf",
+      "title": "Andrew Kensler's permute(), a function for stateless, constant-time pseudorandom-order array iteration",
+      "url": "https://andrew-helmer.github.io/permute/",
+      "source_id": "lobsters",
+      "source_name": "Lobsters",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-11-11T20:08:45Z",
+      "fetched_at": "2026-11-11T22:02:16.181020Z",
+      "discussion_url": "https://lobste.rs/s/pdzud6/andrew_kensler_s_permute_function_for",
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
       "id": "cb5274c9b1a8981937e7c00a7a887e1c",
       "title": "Why are we still working this hard?",
       "url": "https://wilsoniumite.com/2026/11/11/why-are-we-still-working-this-hard/",
@@ -142,8 +304,8 @@
       "comments": 97,
       "engineering": false,
       "blog": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 2
     },
     {
       "id": "5d634094cad3a05039762914735dcf3b",
@@ -210,12 +372,30 @@
       "published_at": "2026-11-11T19:47:59Z",
       "fetched_at": "2026-11-11T21:05:27.232583Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50457669",
-      "points": 16,
-      "comments": 3,
+      "points": 30,
+      "comments": 13,
       "engineering": false,
       "blog": false,
       "review": "kept",
       "importance": 3
+    },
+    {
+      "id": "d9a5b8f89b995947d235edce7b125cbc",
+      "title": "The Utah Teapot",
+      "url": "https://graphics.cs.utah.edu/teapot/",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-11-11T19:45:10Z",
+      "fetched_at": "2026-11-11T22:02:16.181020Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50457618",
+      "points": 16,
+      "comments": 5,
+      "engineering": false,
+      "blog": false,
+      "review": "pending",
+      "importance": null
     },
     {
       "id": "5a7e76feb123d980ae9e426e234077bf",
@@ -233,7 +413,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "498e8206c2ddbd4b66ad1ee45f7cd6f9",
@@ -269,7 +449,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "1945583740396f80470f8b78a2f160cc",
@@ -318,8 +498,8 @@
       "published_at": "2026-11-11T19:12:16Z",
       "fetched_at": "2026-11-11T19:53:17.628131Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50457230",
-      "points": 84,
-      "comments": 46,
+      "points": 117,
+      "comments": 55,
       "engineering": false,
       "blog": false,
       "review": "pending",
@@ -341,7 +521,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 4
     },
     {
       "id": "7c9c66e0967bc8fbbb55abd0d9d49b00",
@@ -354,8 +534,8 @@
       "published_at": "2026-11-11T19:06:43Z",
       "fetched_at": "2026-11-11T19:53:17.628131Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50457164",
-      "points": 82,
-      "comments": 63,
+      "points": 115,
+      "comments": 117,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -375,7 +555,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 4
     },
@@ -395,7 +575,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "b25859d8e7e1031af418ed2cf4b328e2",
@@ -458,12 +638,12 @@
       "source_id": "hacker-news",
       "source_name": "Hacker News",
       "category": "tech",
-      "summary": null,
+      "summary": "https://www.aboutamazon.com/news/aws/how-autonomous-ai-agent...https://www.allthingsdistributed.com/2026/11/aws-emulator-an...",
       "published_at": "2026-11-11T18:21:38Z",
       "fetched_at": "2026-11-11T19:02:14.822883Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50456631",
-      "points": 391,
-      "comments": 123,
+      "points": 480,
+      "comments": 162,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -539,7 +719,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "e118dc3a533f7e46ca96c8ab08ec5c37",
@@ -588,12 +768,12 @@
       "published_at": "2026-11-11T18:00:00Z",
       "fetched_at": "2026-11-11T19:02:14.822883Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50456791",
-      "points": 80,
-      "comments": 15,
+      "points": 141,
+      "comments": 45,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "6906b06c6388680c0c266b47bd3abea8",
@@ -768,8 +948,8 @@
       "published_at": "2026-11-11T17:11:56Z",
       "fetched_at": "2026-11-11T18:02:11.853913Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50455811",
-      "points": 7,
-      "comments": 2,
+      "points": 37,
+      "comments": 32,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -917,7 +1097,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "a674053088a0f096abc0dbc160dc7df0",
@@ -966,8 +1146,8 @@
       "published_at": "2026-11-11T16:57:45Z",
       "fetched_at": "2026-11-11T18:02:11.853913Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50455633",
-      "points": 97,
-      "comments": 20,
+      "points": 114,
+      "comments": 22,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -989,7 +1169,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "97328cdb2609267518cefaf6397cbc94",
@@ -1056,12 +1236,12 @@
       "published_at": "2026-11-11T16:33:28Z",
       "fetched_at": "2026-11-11T17:02:33.582794Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50455332",
-      "points": 86,
-      "comments": 89,
+      "points": 97,
+      "comments": 95,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "c685a89e1166106eb4ce6dfe4bfa1e64",
@@ -1079,7 +1259,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "dc5456b415a9c51f3e9cef0a83c0ccd8",
@@ -1133,7 +1313,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "b4d3fae2ae44ce13eaf3b923bc1f3ef0",
@@ -1200,8 +1380,8 @@
       "published_at": "2026-11-11T16:05:18Z",
       "fetched_at": "2026-11-11T17:02:33.582794Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50454995",
-      "points": 29,
-      "comments": 19,
+      "points": 32,
+      "comments": 51,
       "engineering": false,
       "blog": false,
       "review": "pending",
@@ -1241,7 +1421,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "33c5fea8f0de1d9800cd6f9f2fd1d8ba",
@@ -1259,7 +1439,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "6ced17bcf7518531e5da60f33e867d1b",
@@ -1362,8 +1542,8 @@
       "published_at": "2026-11-11T15:33:06Z",
       "fetched_at": "2026-11-11T18:02:11.853913Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50454625",
-      "points": 112,
-      "comments": 56,
+      "points": 126,
+      "comments": 60,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -1475,7 +1655,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "b423c4cd62e3afd23d0c8afebd3a810b",
@@ -1511,7 +1691,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "90cb665e31878ea97932e3e17600628c",
@@ -1673,7 +1853,7 @@
       "engineering": true,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "7d66b72f6b1862989cc7deab1c2306ca",
@@ -1686,8 +1866,8 @@
       "published_at": "2026-11-11T14:21:27Z",
       "fetched_at": "2026-11-11T15:02:35.841317Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50453763",
-      "points": 107,
-      "comments": 31,
+      "points": 112,
+      "comments": 32,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -1758,7 +1938,7 @@
       "published_at": "2026-11-11T14:10:46Z",
       "fetched_at": "2026-11-11T15:02:35.841317Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50453637",
-      "points": 152,
+      "points": 168,
       "comments": 62,
       "engineering": false,
       "blog": false,
@@ -1799,7 +1979,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "0d511f6fee4dc6d9bd2e422f030b84b3",
@@ -1835,7 +2015,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "044ae80b3fc9c355903441e435e17cf2",
@@ -1979,7 +2159,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "bcdc52e4160640b4cc2e4acb7c8defcf",
@@ -2249,7 +2429,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "a6fe07d3eb0ff8def70762b4627ec297",
@@ -2375,7 +2555,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "988d3940fac8c04439a825a6c8b6c9ed",
@@ -2393,7 +2573,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "15ac331a9bb8919751d26fd7dbda0b98",
@@ -2535,9 +2715,9 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "a110782feb90db0a8c485848f70b434e",
@@ -2645,7 +2825,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "b8424cc9fedf7b4fa913064727f07771",
@@ -2717,7 +2897,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "12afb7ac4c316b8b64f8b8ab61efd0c3",
@@ -2789,7 +2969,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 1
+      "importance": 2
     },
     {
       "id": "378a791894c7001abafb0013bbd29c10",
@@ -2843,7 +3023,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "1847c39d5f7545f6cfc847e522559873",
@@ -2861,7 +3041,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "530ccac672c233191f8edf9184300968",
@@ -2951,7 +3131,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "ff1952f4af7355cc89af69315213d751",
@@ -3347,7 +3527,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "f9753efd09f76e228e0564181c89919c",
@@ -3599,7 +3779,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "ab4c8b238e2de7f6c98aa1a35e727f84",
@@ -3707,7 +3887,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "0e61c611a2528f9a530bbbddbc318eca",
@@ -3725,7 +3905,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "a74a16bc1e5b4e1344c5237f96726e52",
@@ -3779,7 +3959,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "7021aff7f00f6e6b3dd6c60ae9a4bc2e",
@@ -3977,7 +4157,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "6c92429681b3ad025dcddc1893044050",
@@ -3995,7 +4175,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "fbafdaa4ef05fe2a73fcf53e3e441420",
@@ -4175,7 +4355,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "3606d85d287cea5696d6462d72eff1f8",
@@ -4445,7 +4625,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "24b011f57ea44b17946a6bb6fb3f9b4a",
@@ -4553,7 +4733,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "f3f51fb4a7afd6da295b353681d247e8",
@@ -4571,7 +4751,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "12b60a7abd90270a69afe86bf3ac8100",
@@ -4697,7 +4877,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "df5db40cadd5ed2804e8e747b18130ad",
@@ -4965,7 +5145,7 @@
       "points": null,
       "comments": null,
       "engineering": true,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 4
     },
@@ -4985,7 +5165,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "a9fa7922bb157ef35ba2d5e38c30e096",
@@ -5021,7 +5201,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "1ceba2b42104f086193760c43a9f67cf",
@@ -5111,7 +5291,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "804eba17b1eac0db967648a854474a96",
@@ -5165,7 +5345,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "56cd0968183d99d1ba2b1b53563e27be",
@@ -5507,7 +5687,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "37dda0de0740174c598de8382fe226d5",
@@ -5543,7 +5723,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "54f29a87abe948db944ead45fe420e73",
@@ -5615,7 +5795,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 5
     },
     {
       "id": "ca89fac756934bb6e657bd7c36277d63",
@@ -25760,240 +25940,6 @@
       "importance": 3
     },
     {
-      "id": "6e371f811987b3dda5aad8fcfb1e92be",
-      "title": "Hacking the Xbox 360 Hypervisor Part 3: Bad Update Improvements",
-      "url": "https://icode4.coffee/?p=1746",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-11-04T22:01:49Z",
-      "fetched_at": "2026-11-04T23:01:43.776525Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50372164",
-      "points": 127,
-      "comments": 12,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "3b365d7c62d8fceca55018b2cbd2438c",
-      "title": "Uranium cubes reveal why the German nuclear project failed",
-      "url": "https://arstechnica.com/science/2026/11/uranium-cubes-reveal-why-the-german-nuclear-project-failed/",
-      "source_id": "ars-technica",
-      "source_name": "Ars Technica",
-      "category": "tech",
-      "summary": "\"Our calculations suggest Heisenberg significantly underestimated the materials required.\"",
-      "published_at": "2026-11-04T21:56:29Z",
-      "fetched_at": "2026-11-05T00:01:41.595200Z",
-      "discussion_url": "https://arstechnica.com/science/2026/11/uranium-cubes-reveal-why-the-german-nuclear-project-failed/#comments",
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 2
-    },
-    {
-      "id": "fef6bf5668b3a20bb4b11e441433c02e",
-      "title": "Almost no one uses AI agents to book their Uber, company says",
-      "url": "https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/",
-      "source_id": "techcrunch",
-      "source_name": "TechCrunch",
-      "category": "tech",
-      "summary": "During its busiest week last quarter, Uber said only 4 people booked a ride using an AI agent.",
-      "published_at": "2026-11-04T21:56:01Z",
-      "fetched_at": "2026-11-04T22:01:40.090856Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "0cb20c45fee71da9feb3ee055aa44da4",
-      "title": "Apple turns iCloud into spy cloud, will start looking at public share links",
-      "url": "https://www.theregister.com/security/2026/11/04/apple-turns-icloud-into-spy-cloud-will-start-looking-at-public-share-links/5307681",
-      "source_id": "the-register",
-      "source_name": "The Register",
-      "category": "tech",
-      "summary": "Content shared with anyone who has the URL will be scanned for 'harmful content,' though the iMaker hasn't defined that term",
-      "published_at": "2026-11-04T21:49:38Z",
-      "fetched_at": "2026-11-04T23:01:43.776525Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 4
-    },
-    {
-      "id": "af961fa1dafbaf2ca8b5e355e043b3d2",
-      "title": "Snapchat surpasses 30M paid subscribers",
-      "url": "https://techcrunch.com/2026/11/04/snapchat-surpasses-30m-paid-subscribers/",
-      "source_id": "techcrunch",
-      "source_name": "TechCrunch",
-      "category": "tech",
-      "summary": "The milestone comes a year after Snapchat announced a controversial limit on free storage for its Memories feature and informed users it would start requiring users to pay $1.99 per month for additional storage or subscribe to Snapchat+ to retain their Memories.",
-      "published_at": "2026-11-04T21:49:29Z",
-      "fetched_at": "2026-11-04T22:01:40.090856Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 2
-    },
-    {
-      "id": "4e9fada29e6fb841be5d7e9ddb31ef9d",
-      "title": "17 better ways Elon Musk could have wasted $446 million",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1026878/not-even-good-at-being-rich",
-      "source_id": "the-verge",
-      "source_name": "The Verge",
-      "category": "tech",
-      "summary": "One of the basic problems of spending too much time on social media is that you are cooking your brain by reading posts from a pack of attention-seeking lunatics. If your social media of choice is the site formerly known as Twitter, and it is your main source of contact with the outside world, you […]",
-      "published_at": "2026-11-04T21:45:00Z",
-      "fetched_at": "2026-11-04T22:01:40.090856Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 2
-    },
-    {
-      "id": "b1e11823a5ff3e8189f0d3461d901fa1",
-      "title": "VMware releases vSphere Express for virtualization on up to 128 cores",
-      "url": "https://arstechnica.com/information-technology/2026/11/vmware-releases-vsphere-express-for-virtualization-on-up-to-128-cores/",
-      "source_id": "ars-technica",
-      "source_name": "Ars Technica",
-      "category": "tech",
-      "summary": "“We started listening to a lot of our lower-end customers,\" VMware exec says.",
-      "published_at": "2026-11-04T21:38:49Z",
-      "fetched_at": "2026-11-04T22:01:40.090856Z",
-      "discussion_url": "https://arstechnica.com/information-technology/2026/11/vmware-releases-vsphere-express-for-virtualization-on-up-to-128-cores/#comments",
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "9f4b333f9e5afec4e84bc4a59845dcd7",
-      "title": "Vercel rolls out new protection against stolen session cookie attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/vercel-rolls-out-new-protection-against-stolen-session-cookie-attacks/",
-      "source_id": "bleepingcomputer",
-      "source_name": "BleepingComputer",
-      "category": "tech",
-      "summary": "Vercel is gradually rolling out Device Bound Session Credentials (DBSC) on its platform as a key defense against information stealer malware. [...]",
-      "published_at": "2026-11-04T21:31:18Z",
-      "fetched_at": "2026-11-04T22:01:40.090856Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 4
-    },
-    {
-      "id": "e000cf0a20221b6a60dcdcb2d9f56a41",
-      "title": "How I learned to love an obnoxious phone grip",
-      "url": "https://www.theverge.com/tech/1026743/bright-colorful-phone-grip-case",
-      "source_id": "the-verge",
-      "source_name": "The Verge",
-      "category": "tech",
-      "summary": "Much like a great recipe, it started with a stick of butter. This wasn't real butter; it was a friend's new phone grip, complemented by a phone case with bold stripes. Butter is in vogue now, or at least that's what a 12-year-old told me a few months ago. This stick of butter was labeled […]",
-      "published_at": "2026-11-04T21:30:00Z",
-      "fetched_at": "2026-11-04T22:01:40.090856Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 1
-    },
-    {
-      "id": "cf0394377f8fa92d934c4bc43437b6d2",
-      "title": "AMD's record quarter: Data center business doubles, while gaming craters",
-      "url": "https://arstechnica.com/gadgets/2026/11/amds-record-quarter-data-center-business-doubles-while-gaming-craters/",
-      "source_id": "ars-technica",
-      "source_name": "Ars Technica",
-      "category": "tech",
-      "summary": "AMD's gaming revenue fell 40 percent in an otherwise record $13.4 billion quarter.",
-      "published_at": "2026-11-04T21:29:46Z",
-      "fetched_at": "2026-11-04T22:01:40.090856Z",
-      "discussion_url": "https://arstechnica.com/gadgets/2026/11/amds-record-quarter-data-center-business-doubles-while-gaming-craters/#comments",
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "7ffa0679d306a878abb84fce84033eaa",
-      "title": "OpenAI is already trying to shape the 2028 election",
-      "url": "https://techcrunch.com/2026/11/04/openai-is-already-trying-to-shape-the-2028-election/",
-      "source_id": "techcrunch",
-      "source_name": "TechCrunch",
-      "category": "tech",
-      "summary": "OpenAI’s Chris Lehane wants AI to define the 2028 election, proposing a new social contract that could benefit Americans while also advancing the AI giant’s own business interests.",
-      "published_at": "2026-11-04T21:25:44Z",
-      "fetched_at": "2026-11-04T22:01:40.090856Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "9fec22328091a708032616280ff09be5",
-      "title": "Bose’s QuietComfort Headphones are more than half off",
-      "url": "https://www.theverge.com/gadgets/1026807/bose-quietcomfort-headphones-wireless-deal-sale",
-      "source_id": "the-verge",
-      "source_name": "The Verge",
-      "category": "tech",
-      "summary": "It’s not often that some of the best noise-canceling headphones you can buy are over half off. But right now, the first-gen Bose QuietComfort Headphones are on sale for $169.99 ($190 off) at Amazon, Best Buy, and Bose, matching its best price to date. The newer, second-generation version that launched in August is also down […]",
-      "published_at": "2026-11-04T21:13:11Z",
-      "fetched_at": "2026-11-04T22:01:40.090856Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 1
-    },
-    {
-      "id": "7f8cc69b1ca2b262879fcb53523f2400",
-      "title": "Meta acquires AI coding startup Conductor",
-      "url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/",
-      "source_id": "techcrunch",
-      "source_name": "TechCrunch",
-      "category": "tech",
-      "summary": "The startup allows software engineers to deploy teams of agents to work on various aspects of a project simultaneously.",
-      "published_at": "2026-11-04T21:10:56Z",
-      "fetched_at": "2026-11-04T22:01:40.090856Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 4
-    },
-    {
       "id": "485511d49e1453689fa240e924f770ee",
       "title": "See the agents, set the terms: new visibility and control for personal agents",
       "url": "https://blog.cloudflare.com/personal-agents-visibility-control/",
@@ -29830,61 +29776,142 @@
   ],
   "top_stories": [
     {
-      "id": "498e8206c2ddbd4b66ad1ee45f7cd6f9",
-      "title": "Congress calls Nvidia CEO Jensen Huang over alleged Chinese spy affair",
-      "summary": "Nvidia CEO Jensen Huang faces a congressional inquiry following reports of an affair with an alleged Chinese spy. Lawmakers and national security experts are examining the implications for the U.S. semiconductor industry amid intense geopolitical competition.",
-      "why_it_matters": "This incident draws intense scrutiny to the leadership of a dominant semiconductor supplier, potentially impacting regulatory policies and industry oversight.",
+      "id": "a674053088a0f096abc0dbc160dc7df0",
+      "title": "Microsoft Releases November Patch Tuesday Updates Fixing Over 1,000 Vulnerabilities",
+      "summary": "Microsoft's November Patch Tuesday addressed between 1,100 and 1,259 security flaws across its software portfolio, including actively exploited zero-days in Outlook and enterprise systems. Separately, GitHub announced general availability for Agentic Workflows with isolation and budget controls.",
+      "why_it_matters": "Sysadmins and security teams must urgently apply sweeping security updates to mitigate active zero-day exploits across enterprise environments.",
       "item_ids": [
-        "498e8206c2ddbd4b66ad1ee45f7cd6f9",
-        "81a73c7e4fcc1fc324acb0e062f45ace",
-        "f445a48172235ccd11bef98ec5649942",
-        "13a445521080305c001bc739bcf1c55c",
-        "40660c71dd53abbd96f878b9f6f85995"
+        "a674053088a0f096abc0dbc160dc7df0",
+        "1847c39d5f7545f6cfc847e522559873",
+        "f3f51fb4a7afd6da295b353681d247e8"
       ],
-      "primary_url": "https://www.theinformation.com/articles/jensen-huangs-yearslong-ties-alice-huang-enabled-nvidia-chip-sales-china",
+      "primary_url": null,
       "first_shown": "2026-11-11T19:53:17.628131Z",
-      "last_shown": "2026-11-11T21:05:27.232583Z"
+      "last_shown": "2026-11-11T22:02:16.181020Z"
+    },
+    {
+      "id": "a3a0c9996cbe1c5ad36edbf42e91053e",
+      "title": "United Airlines Bans Personal AI Agents from Booking Flights",
+      "summary": "United Airlines has announced it will not permit personal AI assistants to book tickets on behalf of travelers. The company cites privacy and regulatory concerns as the reasoning behind the ban.",
+      "why_it_matters": "This blocks automated consumer workflows and agent integrations interacting with legacy booking infrastructure.",
+      "item_ids": [
+        "a3a0c9996cbe1c5ad36edbf42e91053e",
+        "09a8cccd38eaa35332306f62c1b90a75"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-11T22:02:16.181020Z",
+      "last_shown": "2026-11-11T22:02:16.181020Z"
+    },
+    {
+      "id": "815fdba7ce7f7acf692ab5027672f54f",
+      "title": "Certificate Authority eMudhra Revokes Eight More CA Certificates",
+      "summary": "Certificate authority eMudhra has revoked eight additional intermediate CA certificates following an investigation into private key mishandling during a recent security incident. The incident stemmed from an in-house Python script used during operations.",
+      "why_it_matters": "Certificate revocations require immediate trust store updates and can invalidate issued TLS certificates across dependent systems.",
+      "item_ids": [
+        "815fdba7ce7f7acf692ab5027672f54f",
+        "c1371027738c6e58448fbd7c34579fb7",
+        "49c6078f58065719c5d15676375804b4"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-11T22:02:16.181020Z",
+      "last_shown": "2026-11-11T22:02:16.181020Z"
     },
     {
       "id": "ab7038ed635fd96794a0b883ff573b53",
-      "title": "Fireworks AI Security Breach Exposes Chat Transcripts and Billing Data",
-      "summary": "AI infrastructure provider Fireworks AI disclosed a security breach that exposed customer AI chat transcripts, account and billing information, and incomplete model weights in workspaces. Affected platforms like Notion and cloud services confirmed the incident stemmed from upstream infrastructure vulnerabilities.",
-      "why_it_matters": "This incident exposes third-party AI provider vulnerabilities that can leak sensitive customer chat logs, billing credentials, and proprietary model data.",
+      "title": "Notion and Maersk Disclose Data Breaches Involving Third-Party Vendors and Legacy Systems",
+      "summary": "Notion disclosed that a security breach at its AI infrastructure provider Fireworks AI exposed customer AI chat transcripts in a limited number of workspaces. Separately, Maersk confirmed a data breach after a threat actor accessed a local legacy system acquired earlier and extracted data.",
+      "why_it_matters": "Third-party and legacy system compromises highlight ongoing risks in supply chain security and cloud infrastructure trust boundaries.",
       "item_ids": [
         "ab7038ed635fd96794a0b883ff573b53",
-        "c5e183005c5090814ae428870afc8140",
-        "6c46dc0a30c7a4de995fc97b92d02e79"
+        "dc5456b415a9c51f3e9cef0a83c0ccd8",
+        "3d999446776e41233f4169bea53f607a"
       ],
-      "primary_url": null,
+      "primary_url": "https://www.wiz.io/lp/ai-security-starter-pack?sfcid=701Vh00000cn7aRIAQ",
       "first_shown": "2026-11-11T21:05:27.232583Z",
-      "last_shown": "2026-11-11T21:05:27.232583Z"
+      "last_shown": "2026-11-11T22:02:16.181020Z"
     },
     {
-      "id": "37aa83543bf62c4084dc7ffc5b8af155",
-      "title": "Nvidia Donates OpenShell Runtime to CNCF",
-      "summary": "Nvidia has donated OpenShell, its open-source runtime for securing and governing AI agents, to the Cloud Native Computing Foundation. The contribution aims to standardize security and governance frameworks for cloud-native AI deployments.",
-      "why_it_matters": "Adopting an open-source standard for AI agent security helps engineers secure and govern autonomous workloads within cloud-native environments.",
+      "id": "498e8206c2ddbd4b66ad1ee45f7cd6f9",
+      "title": "Nvidia CEO Jensen Huang Called to Brief Congress Amid Inquiries",
+      "summary": "House Republicans have called Nvidia CEO Jensen Huang to a closed-door briefing to answer questions regarding an alleged affair with an individual identified as a Chinese spy. The situation has drawn intense scrutiny from lawmakers and corporate governance experts.",
+      "why_it_matters": "Geopolitical scrutiny and national security probes into chip executives could impact supply chains and regulatory policy for AI hardware.",
       "item_ids": [
-        "37aa83543bf62c4084dc7ffc5b8af155",
-        "1847c39d5f7545f6cfc847e522559873"
+        "498e8206c2ddbd4b66ad1ee45f7cd6f9",
+        "4376cae7dcb40f1e400dafd0932bba89"
       ],
       "primary_url": null,
       "first_shown": "2026-11-11T19:53:17.628131Z",
-      "last_shown": "2026-11-11T21:05:27.232583Z"
+      "last_shown": "2026-11-11T22:02:16.181020Z"
     },
     {
-      "id": "4fbaa86ef576a9c0273f29c63f4ff932",
-      "title": "AWS Releases Open-Source Local Emulator Written in Rust",
-      "summary": "AWS has launched AWS Emulator, a free, open-source local emulator written in Rust that allows developers to test applications against nearly every AWS service on their local machine. The tool uses identical CLI and SDK commands to ensure fidelity with production environments.",
-      "why_it_matters": "A local Rust-based AWS emulator improves developer velocity and testing reliability without requiring live cloud connections or incurring cloud test costs.",
+      "id": "1e5084b7044859f6140c419ed30b0808",
+      "title": "Emerging AntiFox AI Penetration Testing Platform Exploited to Steal AWS Secrets",
+      "summary": "Cybersecurity researchers have disclosed attacks where threat actors used Alibaba Cloud to host self-managed instances of AntiFox, an emerging agentic penetration testing platform, to target web services and steal AWS production secrets.",
+      "why_it_matters": "Offensive AI penetration testing tools are being actively weaponized by attackers to automate cloud credential theft and infrastructure compromise.",
       "item_ids": [
+        "1e5084b7044859f6140c419ed30b0808",
+        "64c2843f7e60aaddfdc4836c5f0a7b63"
+      ],
+      "primary_url": "https://github.com/rtkwlf/wolf-tools/tree/main/pack_alerts/202611-antifox-alibaba-hosted-platforms-facilitate-web-cloud-intrusions",
+      "first_shown": "2026-11-11T20:02:14.989170Z",
+      "last_shown": "2026-11-11T22:02:16.181020Z"
+    },
+    {
+      "id": "961412091199f7ba7364906fcb5007ec",
+      "title": "Cloudflare Releases QuePaxa Consensus Algorithm and Basin Serverless Analytics",
+      "summary": "Cloudflare is building an experimental consensus service using a never-before-deployed consensus algorithm called QuePaxa. Additionally, Cloudflare announced the general availability of Basin, a serverless analytics platform built on Apache Iceberg and R2 Object Storage.",
+      "why_it_matters": "Engineering teams gain new open architectural components for building distributed systems and high-scale serverless analytics.",
+      "item_ids": [
+        "961412091199f7ba7364906fcb5007ec",
+        "089caff6f962b2a6afbdd864195fc0b9",
+        "557f6b0dab91b1c2b808facb3bb42a23"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-11T22:02:16.181020Z",
+      "last_shown": "2026-11-11T22:02:16.181020Z"
+    },
+    {
+      "id": "b8424cc9fedf7b4fa913064727f07771",
+      "title": "CISA Warns Cisco BroadWorks and Openwave Flaws Are Actively Exploited",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added high-severity vulnerabilities impacting Cisco BroadWorks and Openwave Messaging Webtop Media Transcoder to its Known Exploited Vulnerabilities catalog.",
+      "why_it_matters": "Active exploitation of telecommunications and messaging infrastructure flaws demands immediate patching by network administrators.",
+      "item_ids": [
+        "b8424cc9fedf7b4fa913064727f07771",
+        "abd93facc520e02e6d47b017d28cd038"
+      ],
+      "primary_url": "https://www.cisa.gov/news-events/alerts/2026/11/10/cisa-adds-six-known-exploited-vulnerabilities-catalog",
+      "first_shown": "2026-11-10T21:02:08.350477Z",
+      "last_shown": "2026-11-11T22:02:16.181020Z"
+    },
+    {
+      "id": "1c58edc680c770aceffa48eb19675397",
+      "title": "Railway Discloses Security Breach Resulting in $740,000 in Stolen AI Usage",
+      "summary": "Platform-as-a-service provider Railway reported that hackers exploited infrastructure vulnerabilities to steal customer-stored AI provider keys and authentication secrets, resulting in approximately $740,000 in unauthorized usage charges.",
+      "why_it_matters": "Insecure storage of customer API secrets can lead to massive financial losses via hijacked third-party AI compute budgets.",
+      "item_ids": [
+        "1c58edc680c770aceffa48eb19675397",
+        "7d2a21ff9ac244429eec7ccba91d3998"
+      ],
+      "primary_url": "https://www.wiz.io/blog/black-october-for-ai-developer-platforms",
+      "first_shown": "2026-11-11T08:02:16.142560Z",
+      "last_shown": "2026-11-11T22:02:16.181020Z"
+    },
+    {
+      "id": "467ef51719e28a09c1395ef27d67d377",
+      "title": "AWS Launches Open-Source Local AWS Emulator Written in Rust",
+      "summary": "AWS has launched a free, open-source local emulator written in Rust that allows developers to test applications against nearly every AWS service locally. The emulator uses the same CLI and SDK commands with high fidelity, and AWS agents maintain the project.",
+      "why_it_matters": "Developers can now test cloud integrations locally without provisioning paid API keys or cloud resources.",
+      "item_ids": [
+        "467ef51719e28a09c1395ef27d67d377",
         "4fbaa86ef576a9c0273f29c63f4ff932",
         "d54b4b174bb139eace1e9d5c14f544dc"
       ],
       "primary_url": null,
       "first_shown": "2026-11-11T19:53:17.628131Z",
-      "last_shown": "2026-11-11T21:05:27.232583Z"
-    },
+      "last_shown": "2026-11-11T22:02:16.181020Z"
+    }
+  ],
+  "past_top_stories": [
     {
       "id": "0c2b6880b8029b7e835f03528d7ff510",
       "title": "TSMC Invests $1B in Anthropic and OpenAI as New York Passes AI Safety Law",
@@ -29895,45 +29922,6 @@
         "5a959ed968bde0306a5693ed4e2999b5"
       ],
       "primary_url": null,
-      "first_shown": "2026-11-11T20:02:14.989170Z",
-      "last_shown": "2026-11-11T21:05:27.232583Z"
-    },
-    {
-      "id": "a674053088a0f096abc0dbc160dc7df0",
-      "title": "GitHub Generalizes Agentic Workflows While Git Patches Recursive Clone RCE",
-      "summary": "GitHub has made Agentic Workflows generally available with read-only defaults and separate write controls. Meanwhile, the Git project patched a critical vulnerability allowing malicious repositories to execute code during recursive clones.",
-      "why_it_matters": "Security controls for automated coding agents and patches for git clone vulnerabilities are critical for preventing unauthorized code execution in CI/CD pipelines.",
-      "item_ids": [
-        "a674053088a0f096abc0dbc160dc7df0",
-        "24b011f57ea44b17946a6bb6fb3f9b4a"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-11T21:05:27.232583Z",
-      "last_shown": "2026-11-11T21:05:27.232583Z"
-    },
-    {
-      "id": "dc5456b415a9c51f3e9cef0a83c0ccd8",
-      "title": "Maersk Confirms Data Breach Tied to WhiteArmor Ransomware",
-      "summary": "Shipping giant Maersk announced that unauthorized threat actors accessed a local legacy system acquired through an earlier transaction and extracted data. Maersk strongly suspects the attack was limited to the legacy system and that sensitive data remains safe.",
-      "why_it_matters": "Legacy system vulnerabilities continue to serve as an entry point for ransomware attacks on enterprise infrastructure.",
-      "item_ids": [
-        "dc5456b415a9c51f3e9cef0a83c0ccd8",
-        "3d999446776e41233f4169bea53f607a"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-11T19:53:17.628131Z",
-      "last_shown": "2026-11-11T21:05:27.232583Z"
-    },
-    {
-      "id": "1e5084b7044859f6140c419ed30b0808",
-      "title": "AntiFox AI Pentesting Platform Exploited to Steal AWS Production Secrets",
-      "summary": "Cybersecurity researchers disclosed that attackers are using instances of AntiFox, an emerging agentic penetration testing platform hosted on Alibaba Cloud, to target web services and steal AWS credentials and production secrets.",
-      "why_it_matters": "Attackers weaponizing autonomous penetration testing agents highlight the risks of dual-use AI security tools being co-opted for credential theft.",
-      "item_ids": [
-        "1e5084b7044859f6140c419ed30b0808",
-        "64c2843f7e60aaddfdc4836c5f0a7b63"
-      ],
-      "primary_url": "https://github.com/rtkwlf/wolf-tools/tree/main/pack_alerts/202611-antifox-alibaba-hosted-platforms-facilitate-web-cloud-intrusions",
       "first_shown": "2026-11-11T20:02:14.989170Z",
       "last_shown": "2026-11-11T21:05:27.232583Z"
     },
@@ -29962,9 +29950,7 @@
       "primary_url": "https://github.com/Oracle-Security/CVEs/tree/main/0-Days/N-Central%20N-Able",
       "first_shown": "2026-11-10T07:47:51.851597Z",
       "last_shown": "2026-11-11T21:05:27.232583Z"
-    }
-  ],
-  "past_top_stories": [
+    },
     {
       "id": "f3abfc0714fccddde5f55cf411d999f8",
       "title": "EU proposes Digital Fairness Act targeting dark patterns and online addiction",
@@ -30004,32 +29990,6 @@
       "primary_url": "https://blog.claroc.io/ghostshares-grok-build-apps",
       "first_shown": "2026-11-11T20:02:14.989170Z",
       "last_shown": "2026-11-11T20:02:14.989170Z"
-    },
-    {
-      "id": "b8424cc9fedf7b4fa913064727f07771",
-      "title": "CISA warns Cisco BroadWorks vulnerability is actively exploited",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a high-severity Cisco BroadWorks vulnerability to its Known Exploited Vulnerabilities catalog after observing active attacks in the wild.",
-      "why_it_matters": "Administrators managing enterprise communication systems must prioritize patching to prevent active exploitation of remote execution vectors.",
-      "item_ids": [
-        "b8424cc9fedf7b4fa913064727f07771",
-        "abd93facc520e02e6d47b017d28cd038"
-      ],
-      "primary_url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-bworks-xxe-uwUd7CEt",
-      "first_shown": "2026-11-10T21:02:08.350477Z",
-      "last_shown": "2026-11-11T20:02:14.989170Z"
-    },
-    {
-      "id": "1c58edc680c770aceffa48eb19675397",
-      "title": "Railway attributes $740k in unauthorized AI usage charges to customer key theft",
-      "summary": "Platform-as-a-service provider Railway reported that AI provider keys stored by customers were stolen during an October breach and subsequently used to rack up an estimated $740,000 in fraudulent AI usage charges.",
-      "why_it_matters": "Serves as a critical warning for developers regarding the secure storage and management of API keys and third-party credentials.",
-      "item_ids": [
-        "1c58edc680c770aceffa48eb19675397",
-        "7d2a21ff9ac244429eec7ccba91d3998"
-      ],
-      "primary_url": "https://www.wiz.io/blog/black-october-for-ai-developer-platforms",
-      "first_shown": "2026-11-11T08:02:16.142560Z",
-      "last_shown": "2026-11-11T19:53:17.628131Z"
     },
     {
       "id": "b2b9c84339aff4090abbbc5c257a2d18",
@@ -30082,19 +30042,6 @@
       ],
       "primary_url": null,
       "first_shown": "2026-11-10T15:02:37.257894Z",
-      "last_shown": "2026-11-11T19:02:14.822883Z"
-    },
-    {
-      "id": "7df201cb77a1f9a90f148aa2ca8ea7d2",
-      "title": "SpaceX announces Starlink Mini 2 with integrated swappable battery",
-      "summary": "SpaceX announced a new version of its all-in-one satellite internet terminal that integrates a dish, Wi-Fi router, and a battery into a single device about the size of a laptop. The new Starlink Mini 2 features a swappable battery.",
-      "why_it_matters": "This hardware update changes field deployment options for engineers requiring portable, satellite-based network connectivity.",
-      "item_ids": [
-        "7df201cb77a1f9a90f148aa2ca8ea7d2",
-        "6c15fe785002c4b64b36e5b1dea3893d"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-11T14:02:15.281597Z",
       "last_shown": "2026-11-11T19:02:14.822883Z"
     }
   ]
