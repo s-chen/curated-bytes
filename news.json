@@ -1,6 +1,60 @@
 {
-  "generated_at": "2026-11-11T08:02:16.142560Z",
+  "generated_at": "2026-11-11T09:02:12.981864Z",
   "items": [
+    {
+      "id": "f9f43c2f2734543fb5d62021a43299d1",
+      "title": "Experience the art and legacy of Dr. Esther Mahlangu",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu/",
+      "source_id": "google-ai",
+      "source_name": "Google AI Blog",
+      "category": "tech",
+      "summary": "A portrait of Dr Nontobeko Ntombela, Senior Lecturer, Department of Curatorial, Public and Visual Cultures, Wits School of Arts, University of the Witwatersrand",
+      "published_at": "2026-11-11T09:00:00Z",
+      "fetched_at": "2026-11-11T09:02:12.981864Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "pending",
+      "importance": null
+    },
+    {
+      "id": "b9f68f9475ae2886dcb5d38f30b83bc9",
+      "title": "Performance evolution of route lookup on Linux",
+      "url": "https://vincent.bernat.ch/en/blog/2026-linux-performance-ipv4-ipv6-route-lookup",
+      "source_id": "lobsters",
+      "source_name": "Lobsters",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-11-11T08:25:31Z",
+      "fetched_at": "2026-11-11T09:02:12.981864Z",
+      "discussion_url": "https://lobste.rs/s/vzpcnd/performance_evolution_route_lookup_on",
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "1847c39d5f7545f6cfc847e522559873",
+      "title": "Microsoft Patches 1,259 Flaws, Including Exploited Outlook Bug That May Expose NTLMv2 Hashes",
+      "url": "https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html",
+      "source_id": "the-hacker-news",
+      "source_name": "The Hacker News",
+      "category": "tech",
+      "summary": "Microsoft on Tuesday released patches for a total of 1,259 vulnerabilities spanning its software portfolio, the second consecutive month where the patch volume has exceeded 1,000 flaws. These cover 726 flaws in Windows, 174 in Office, 61 in Developer Tools, 59 in SQL Server, 53 in Developer Tools, and 27 in SharePoint Server. The patches also include 165 non-Microsoft-issued CVE identifiers.",
+      "published_at": "2026-11-11T08:17:53Z",
+      "fetched_at": "2026-11-11T09:02:12.981864Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 5
+    },
     {
       "id": "530ccac672c233191f8edf9184300968",
       "title": "Revisiting Leander v Sweden and Big Brother Watch",
@@ -20,6 +74,24 @@
       "importance": 2
     },
     {
+      "id": "1c58edc680c770aceffa48eb19675397",
+      "title": "Railway Says Stolen Customer AI Keys Led to $740,000 in Estimated Unauthorized Usage Charges",
+      "url": "https://thehackernews.com/2026/11/railway-says-stolen-customer-ai-keys.html",
+      "source_id": "the-hacker-news",
+      "source_name": "The Hacker News",
+      "category": "tech",
+      "summary": "AI provider keys that customers stored on Railway were stolen in an October breach and used to commit an estimated $740,000 in unauthorized spending, the platform-as-a-service provider said yesterday. It has promised to pay those charges itself when an AI provider will not refund them. The company builds and runs apps for its customers and stores their secrets, such as API keys and database",
+      "published_at": "2026-11-11T07:49:04Z",
+      "fetched_at": "2026-11-11T09:02:12.981864Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 4
+    },
+    {
       "id": "e3023a3f6246b829d913550a3b08c889",
       "title": "Nvidia’s crisis has corporate governance experts reaching for the popcorn",
       "url": "https://techcrunch.com/2026/11/10/nvidias-crisis-has-corporate-governance-experts-reaching-for-the-popcorn/",
@@ -36,6 +108,24 @@
       "blog": false,
       "review": "kept",
       "importance": 3
+    },
+    {
+      "id": "d2c948589677fd5e78c415de2b37af7e",
+      "title": "Microsoft Researchers Show AI Agents Can Be Backdoored by Editing Fewer Than 10 Neurons",
+      "url": "https://thehackernews.com/2026/11/microsoft-researchers-show-ai-agents.html",
+      "source_id": "the-hacker-news",
+      "source_name": "The Hacker News",
+      "category": "tech",
+      "summary": "An AI model can be given a hidden backdoor by editing fewer than 10 of its rarely used neurons, without retraining the model, Microsoft researchers have shown. When a chosen trigger appears, the model outputs an attacker's command, which an agent using that model would run with the agent's own permissions. The attacker must be able to change the model's weights. The team tested the method on",
+      "published_at": "2026-11-11T07:21:05Z",
+      "fetched_at": "2026-11-11T09:02:12.981864Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 4
     },
     {
       "id": "ae60311dccd783c955d082533213959a",
@@ -393,7 +483,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -413,7 +503,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "91eccb5241dd17e0764dcf76bb4f6b05",
@@ -629,7 +719,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "ff22cdadee4c6ac61e61188e467fce58",
@@ -683,7 +773,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "f38ab718074cab40042d3a2f7882647f",
@@ -701,7 +791,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "035a27b2f838b54cf99545b9c9e86af1",
@@ -737,7 +827,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "3a04b19e218dd8420f1010f0d4fb6e05",
@@ -791,7 +881,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "576350e68325793add3137fbaedc7415",
@@ -827,7 +917,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 5
     },
     {
       "id": "7021aff7f00f6e6b3dd6c60ae9a4bc2e",
@@ -971,7 +1061,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "e1ad10fb0b385079059ff33ee340d460",
@@ -1187,7 +1277,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "13f2a9e42ef1201470fc5194ade1efc2",
@@ -1205,7 +1295,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "50df8ee9990fe59ec74d253b2bf3b001",
@@ -1241,7 +1331,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "1c5e4e6d522ca3c1a6bac902685af79c",
@@ -1277,7 +1367,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "b4c366a4dc958a37763512c9218f5d23",
@@ -1313,7 +1403,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "183d585e1dada79f359db7aec284946c",
@@ -1331,7 +1421,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "381cc57cb304f84a56e6305f79b3309b",
@@ -1367,7 +1457,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "9039a39c6825d48fd4518242ebe0b954",
@@ -1547,7 +1637,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "9c1a6881a851a5dc38fd5b909e1471fe",
@@ -1583,7 +1673,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "557f6b0dab91b1c2b808facb3bb42a23",
@@ -1709,7 +1799,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "1fc9d9bd06df5818b532e23febf3835d",
@@ -1763,7 +1853,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "cb863813598388897f11d37662671159",
@@ -1781,7 +1871,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "2b764ae149bd75febd49a32c58e9769b",
@@ -1799,7 +1889,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "448976d7f11bfd01832e6c1d32b982e1",
@@ -1925,7 +2015,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "46e9a0b4b613a459ae54dcb446a58527",
@@ -2013,7 +2103,7 @@
       "points": null,
       "comments": null,
       "engineering": true,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 4
     },
@@ -2033,7 +2123,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "a9fa7922bb157ef35ba2d5e38c30e096",
@@ -2087,7 +2177,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "3f40027609a9c8ec45a355e6eb90975e",
@@ -2123,7 +2213,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "ecc125f269a0c89f69c18c7307bc0fbc",
@@ -2177,7 +2267,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "5762c5d07b45131924b1336bf48bb367",
@@ -2267,7 +2357,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "314a7eacdb224fd20f76113c82910166",
@@ -2303,7 +2393,7 @@
       "engineering": true,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "8d34597d63de7da269c4ef25b61615bf",
@@ -2429,7 +2519,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 1
+      "importance": 2
     },
     {
       "id": "d5667df01678f97a24941563e8008c01",
@@ -2501,7 +2591,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "ff3d9a821c6f3db2f939c483660252a0",
@@ -2555,7 +2645,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "37dda0de0740174c598de8382fe226d5",
@@ -2591,7 +2681,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "54f29a87abe948db944ead45fe420e73",
@@ -2627,7 +2717,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "17ddb721593c09200304a8050c6c329d",
@@ -2663,7 +2753,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "ca89fac756934bb6e657bd7c36277d63",
@@ -2789,7 +2879,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "d75e04997ceed719c9a22058eb52c427",
@@ -2825,7 +2915,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "5c60d315e2beb74d35b59b621f4645b8",
@@ -2915,7 +3005,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "6c46dc0a30c7a4de995fc97b92d02e79",
@@ -2987,7 +3077,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "8de0ecc91e06e396dc7e55c7ae0960c8",
@@ -3113,7 +3203,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "1d38e79ddbbc9b6f96b1596a4d48e21c",
@@ -3203,7 +3293,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "eb75520eac188b5173f01d2305edf643",
@@ -3329,7 +3419,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "51b76796c59ea4b8ef0619d7bb45b99a",
@@ -3383,7 +3473,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "6c21c86eb4f726cd4f33f85274ec02ab",
@@ -3401,7 +3491,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "f45a5965baf3f01e9c7d2f5b7ea3730e",
@@ -3545,7 +3635,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "342170ea6c71b671717a9d795992a8a6",
@@ -3563,7 +3653,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "e8d78fa0aab2d72bd537d4fd3d874bb5",
@@ -3689,7 +3779,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "b817700ccdae72a863f9a7a59017a2df",
@@ -3797,7 +3887,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "7d22392f4f83e8c03f67a89b5e0ff59f",
@@ -3815,7 +3905,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "8f8de5feee4805c4b13d3ff4fb3e0a3f",
@@ -3869,7 +3959,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "d38bb946a5372594a9548db4b71fd218",
@@ -4013,7 +4103,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "47e9fa6631a735aa670c64d02dbbfd37",
@@ -4283,7 +4373,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "b9f286dc948bb1f915ea01170efc584b",
@@ -4319,7 +4409,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "19d73be07e4f6f9fd3d4b2de1049ee7a",
@@ -4409,7 +4499,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "655d3f17635a5e1126f30f47bf5f7538",
@@ -4427,7 +4517,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "bde62bed0d83184ab3f517e0b4f5dfa9",
@@ -4571,7 +4661,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "3ae6ab535d25d095af5541b4a4ff4867",
@@ -4751,7 +4841,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "db3d3bbb0683ec4cbb78f4355b9c5546",
@@ -4787,7 +4877,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "0b81109e9bc9855292ad734ce9b741ab",
@@ -5183,7 +5273,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "e3a8ac45ec2f4d8a72e620162c963b8b",
@@ -5327,7 +5417,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "c3082b983d023e9c8ece475f5da46ade",
@@ -5381,7 +5471,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "5975a6fc2239f98f775ecb674f2c103a",
@@ -5487,7 +5577,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -5505,7 +5595,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -5561,7 +5651,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "d916d20f0c2ff98782a6583c38d283bd",
@@ -5597,7 +5687,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "6c328179e03ad5fcd18464cb0e9ad3a2",
@@ -5669,7 +5759,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "b234147822945fe9da9d803536a4ce21",
@@ -5795,7 +5885,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "47ded378fd0612cc9541b37b8d797a36",
@@ -5831,7 +5921,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "3665189f4dd13ede8b938a6d10388081",
@@ -5849,7 +5939,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "07a63179d0414c1e89b92e16f2de0b4f",
@@ -5921,7 +6011,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "a56916ab2f94d4f637903d91bc3aae1c",
@@ -26174,42 +26264,6 @@
       "importance": 2
     },
     {
-      "id": "7dce5c954bb444feed3464b9e4db165e",
-      "title": "Verification Is Not Knowledge: Science needs more than answers",
-      "url": "https://blog.cosmos-institute.org/p/verification-is-not-knowledge",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-11-04T09:01:58Z",
-      "fetched_at": "2026-11-04T10:02:26.291093Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50363019",
-      "points": 170,
-      "comments": 99,
-      "engineering": false,
-      "blog": false,
-      "review": "excluded",
-      "importance": 3
-    },
-    {
-      "id": "9f8b0a62919a7055ee3de1bd9b06cfa3",
-      "title": "Article: The App Is Just the Tip: What It Takes to Build Mobile Infrastructure at Scale",
-      "url": "https://www.infoq.com/articles/mobile-app-infrastructure-at-scale/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source_id": "infoq",
-      "source_name": "InfoQ",
-      "category": "tech",
-      "summary": "What determines whether your app feels fast, ships often, and stays stable at scale is not the app itself. It is what sits behind it. This article is about that layer: what it does, why it exists, what it takes to design it correctly, and what happens when you try to migrate a live, high-traffic product onto it without a safety net. By Kirill Sokolov",
-      "published_at": "2026-11-04T09:00:00Z",
-      "fetched_at": "2026-11-04T09:02:12.364212Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
       "id": "4a4c2252c0f67f7ec532c5b7b9630d7f",
       "title": "Docker Urges Isolation and Governance for AI Agent Security",
       "url": "https://www.infoq.com/news/2026/11/docker-ai-agent-security/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -26224,78 +26278,6 @@
       "comments": null,
       "engineering": false,
       "blog": true,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "08b4c935d01dba54b8f1ab4c814f08c9",
-      "title": "Milkman – The Better Alternative to Postman",
-      "url": "https://milkman.dev/",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-11-04T08:58:03Z",
-      "fetched_at": "2026-11-04T10:02:26.291093Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50362993",
-      "points": 46,
-      "comments": 46,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "c3c7537eb8aa99624d00a4041dfd3703",
-      "title": "Nvidia DGX Spark encrypted firmware slows inference speed to 35% on Linux",
-      "url": "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-11-04T08:46:29Z",
-      "fetched_at": "2026-11-04T10:02:26.291093Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50362905",
-      "points": 414,
-      "comments": 192,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 4
-    },
-    {
-      "id": "cbb7ebdbd92737884a9dca2f37ca1ae8",
-      "title": "Being of use to someone",
-      "url": "https://jmreiche.github.io/being-of-use-to-someone",
-      "source_id": "lobsters",
-      "source_name": "Lobsters",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-11-04T08:26:56Z",
-      "fetched_at": "2026-11-04T09:02:12.364212Z",
-      "discussion_url": "https://lobste.rs/s/5q535u/being_use_someone",
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "excluded",
-      "importance": 1
-    },
-    {
-      "id": "cdfdc984ed13d0d6f84e566ad3c5028a",
-      "title": "Russian Police Arrest 3 Suspected VasyGrek Hackers, Dismantle Criminal Infrastructure",
-      "url": "https://thehackernews.com/2026/11/russian-police-arrest-3-suspected.html",
-      "source_id": "the-hacker-news",
-      "source_name": "The Hacker News",
-      "category": "tech",
-      "summary": "Russian authorities have arrested three suspected members of a threat group known as VasyGrek and dismantled its criminal infrastructure. Also known as Fluffy Wolf, the threat actor has a history of targeting Russian and international companies since 2016. The Ministry of Internal Affairs of the Russian Federation (MVD) said members of the group are \"suspected of embezzling funds from the",
-      "published_at": "2026-11-04T08:17:11Z",
-      "fetched_at": "2026-11-04T10:02:26.291093Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -30082,47 +30064,147 @@
   ],
   "top_stories": [
     {
+      "id": "1847c39d5f7545f6cfc847e522559873",
+      "title": "Microsoft November 2026 Patch Tuesday fixes over 1,000 security flaws",
+      "summary": "Microsoft released its November Patch Tuesday security updates, addressing over 1,000 vulnerabilities across its software portfolio, including an actively exploited Outlook zero-day. This marks the second consecutive month where the patch volume has exceeded 1,000 flaws.",
+      "why_it_matters": "Software engineers maintaining Windows environments or reviewing enterprise systems must apply these critical patches to protect against active exploits and zero-day vulnerabilities.",
+      "item_ids": [
+        "1847c39d5f7545f6cfc847e522559873",
+        "630c7b1ca5bc2855fd60f560aab48490",
+        "f3f51fb4a7afd6da295b353681d247e8",
+        "281cfd45406f55d2ad02111d095c95d4"
+      ],
+      "primary_url": "https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2026-124194",
+      "first_shown": "2026-11-10T23:02:12.792094Z",
+      "last_shown": "2026-11-11T09:02:12.981864Z"
+    },
+    {
       "id": "114b65cb5574e01779709cb944ec1458",
-      "title": "N-able Takes Cloud Offline After Researcher Publishes 30+ Zero-Days",
-      "summary": "Remote access giant N-able has taken its N-central cloud environments offline after a security researcher published dozens of zero-day vulnerabilities. The company is urging on-premises customers to shut down their servers immediately to prevent potential cyberattacks.",
-      "why_it_matters": "This is critical vulnerability news that forces immediate incident response and server downtime for IT administrators using N-able.",
+      "title": "N-able takes cloud platforms offline following disclosure of over 30 zero-day bugs",
+      "summary": "Remote access provider N-able took its hosted cloud environments offline and urged on-premises customers to shut down their servers immediately. The emergency response follows a researcher's public disclosure of more than 30 zero-day vulnerabilities with proof-of-concept exploits.",
+      "why_it_matters": "Sysadmins and engineers using N-able tools face immediate critical supply chain risks and must disconnect affected infrastructure until patches are deployed.",
       "item_ids": [
         "114b65cb5574e01779709cb944ec1458",
-        "0b81109e9bc9855292ad734ce9b741ab",
-        "1da92e05f7d1924da983a69a8a3e56b7"
+        "1da92e05f7d1924da983a69a8a3e56b7",
+        "0b81109e9bc9855292ad734ce9b741ab"
       ],
       "primary_url": null,
       "first_shown": "2026-11-10T07:47:51.851597Z",
-      "last_shown": "2026-11-11T08:02:16.142560Z"
+      "last_shown": "2026-11-11T09:02:12.981864Z"
     },
     {
       "id": "8e00065e3edcd7f69ae3d8913e35bc15",
-      "title": "Anthropic Sets IPO Price Range for $1.4 Trillion Valuation",
-      "summary": "Anthropic confirmed its upcoming IPO with an expected price range between $70 and $78 per share, targeting an implied valuation of $1.404 trillion. Additionally, all seven co-founders plan to cash out about $250 million each in shares.",
-      "why_it_matters": "Major financial milestone for the tech industry and one of the largest AI company valuations to date.",
+      "title": "Anthropic targets $1.4 trillion valuation in upcoming IPO",
+      "summary": "Anthropic confirmed plans to move forward with an IPO, setting a price range between $70.00 and $78.00 per share to reach an implied valuation of up to $1.404 trillion. Additionally, all seven co-founders plan to cash out shares worth approximately $250 million each.",
+      "why_it_matters": "Signals a massive financial milestone and liquidity event for major foundational AI model developers, impacting market dynamics across the tech industry.",
       "item_ids": [
         "8e00065e3edcd7f69ae3d8913e35bc15",
         "474ca821f498bb87ca5013526e9e6ddb",
-        "183d585e1dada79f359db7aec284946c",
-        "7b5e901cead67182d2127b01e97b21eb"
-      ],
-      "primary_url": "https://www.wsj.com/finance/stocks/anthropic-prepares-to-push-ahead-with-ipo-despite-market-jitters-843dd16c",
-      "first_shown": "2026-11-10T15:02:37.257894Z",
-      "last_shown": "2026-11-11T08:02:16.142560Z"
-    },
-    {
-      "id": "53a7456826e888c67a96f362f9f60092",
-      "title": "Railway Cloud Breach Leads to Fraudulent AI Charges via SGLang RCE",
-      "summary": "Cloud hosting provider Railway experienced a breach where attackers exploited infrastructure vulnerabilities to steal authentication secrets, generating $740,000 in fraudulent AI usage. The incident follows related exploits involving remote code execution flaws in the SGLang inference engine.",
-      "why_it_matters": "Highlights severe infrastructure security risks and API token theft leading to massive cloud resource abuse.",
-      "item_ids": [
-        "53a7456826e888c67a96f362f9f60092",
-        "7d2a21ff9ac244429eec7ccba91d3998"
+        "183d585e1dada79f359db7aec284946c"
       ],
       "primary_url": null,
-      "first_shown": "2026-11-11T08:02:16.142560Z",
-      "last_shown": "2026-11-11T08:02:16.142560Z"
+      "first_shown": "2026-11-10T15:02:37.257894Z",
+      "last_shown": "2026-11-11T09:02:12.981864Z"
     },
+    {
+      "id": "6114dcad5f16ae8aa2a123ae0db7033f",
+      "title": "Google patches eighth active Chrome zero-day vulnerability of 2026",
+      "summary": "Google released emergency security updates to patch a critical memory vulnerability in Chrome that was actively exploited in the wild. This marks the eighth zero-day flaw patched in the browser since the beginning of the year.",
+      "why_it_matters": "Developers and IT administrators must immediately update Chromium-based browsers to protect against active exploitation vectors.",
+      "item_ids": [
+        "6114dcad5f16ae8aa2a123ae0db7033f",
+        "e4500c9627437081d126fd12e78a4df4",
+        "0923d5f5c15b97e84772acd7b0f30604"
+      ],
+      "primary_url": "https://chromereleases.googleblog.com/2026/11/stable-channel-update-for-desktop_018223192.html",
+      "first_shown": "2026-11-11T03:02:15.441511Z",
+      "last_shown": "2026-11-11T09:02:12.981864Z"
+    },
+    {
+      "id": "d7e1c98afe987462dc860716bebc87f0",
+      "title": "Vanderbilt University hit by BYOD ransomware attack claiming extensive data theft",
+      "summary": "Vanderbilt University announced it is responding to a cyberattack claimed by the BYOD ransomware gang, which alleges it encrypted university databases and stole sensitive student, employee, and personal records.",
+      "why_it_matters": "Illustrates the ongoing operational disruptions and data exfiltration risks facing large educational institutions from ransomware groups.",
+      "item_ids": [
+        "d7e1c98afe987462dc860716bebc87f0",
+        "b817700ccdae72a863f9a7a59017a2df"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-11T00:02:15.002792Z",
+      "last_shown": "2026-11-11T09:02:12.981864Z"
+    },
+    {
+      "id": "1c58edc680c770aceffa48eb19675397",
+      "title": "Railway breach exposes customer keys, leading to $740,000 in fraudulent AI charges",
+      "summary": "Cloud hosting provider Railway announced that an October security breach exposed customer authentication secrets and AI provider keys. Hackers exploited these vulnerabilities to generate an estimated $740,000 in unauthorized AI usage charges.",
+      "why_it_matters": "Highlights the critical security risks of credential management and unauthorized resource consumption for applications utilizing cloud platforms and AI API keys.",
+      "item_ids": [
+        "1c58edc680c770aceffa48eb19675397",
+        "7d2a21ff9ac244429eec7ccba91d3998"
+      ],
+      "primary_url": "https://blog.railway.com/p/incident-report-october-security-incident",
+      "first_shown": "2026-11-11T08:02:16.142560Z",
+      "last_shown": "2026-11-11T09:02:12.981864Z"
+    },
+    {
+      "id": "1a58fae7fa4a03ef276921cfa3a40683",
+      "title": "Oura acquires medical AI chatbot startup Counsel Health for $625 million",
+      "summary": "Oura has agreed to acquire Counsel Health for $625 million following the integration of its AI chatbot into the Oura app earlier this year. The acquisition comes shortly after Oura postponed its planned IPO due to market uncertainty.",
+      "why_it_matters": "Reflects ongoing consolidation and massive valuation investments within the health-tech and conversational AI sectors.",
+      "item_ids": [
+        "1a58fae7fa4a03ef276921cfa3a40683",
+        "5915e658390d1f5494bd794a0b6181c4"
+      ],
+      "primary_url": "https://www.bloomberg.com/news/articles/2026-11-10/oura-to-buy-on-demand-doctor-ai-service-counsel-health-revenue-jumps-153-in-q4",
+      "first_shown": "2026-11-10T22:02:12.729073Z",
+      "last_shown": "2026-11-11T09:02:12.981864Z"
+    },
+    {
+      "id": "c5e183005c5090814ae428870afc8140",
+      "title": "Fireworks AI data breach exposes billing info and incomplete model weights",
+      "summary": "AI infrastructure startup Fireworks AI disclosed that an investigation into a security incident uncovered further malicious activity affecting customer billing data and model weights. The company pinned the breach on a compromised third-party cloud provider and LLMJacking attacks.",
+      "why_it_matters": "Exposes supply chain vulnerabilities in specialized AI cloud providers and highlights risks to proprietary model weights and billing data.",
+      "item_ids": [
+        "c5e183005c5090814ae428870afc8140",
+        "6c46dc0a30c7a4de995fc97b92d02e79",
+        "dd41196a43ee4894f969fcf1a579039b"
+      ],
+      "primary_url": "https://fireworks.ai/security/bulletins/october-2026-security-incident-update",
+      "first_shown": "2026-11-10T09:01:42.815439Z",
+      "last_shown": "2026-11-11T09:02:12.981864Z"
+    },
+    {
+      "id": "eba455fef8a64915108284d6da8a7875",
+      "title": "Turla hackers deploy new 'Cereal' malware to spy on Microsoft Exchange servers",
+      "summary": "Russian state-sponsored threat group Turla has been observed using a previously undocumented cyber espionage toolset called Cereal. The malware is deployed to intercept emails and break into Microsoft Exchange servers at government organizations.",
+      "why_it_matters": "Security engineers managing enterprise email infrastructure need to monitor for indicators of compromise related to this advanced state-sponsored espionage campaign.",
+      "item_ids": [
+        "eba455fef8a64915108284d6da8a7875",
+        "4679d1315fcd37e722420a83a115fcfe"
+      ],
+      "primary_url": "https://www.welivesecurity.com/en/eset-research/exchange-for-breakfast-turlas-cereal-tricks-are-not-for-kids",
+      "first_shown": "2026-11-10T20:07:07.828212Z",
+      "last_shown": "2026-11-11T09:02:12.981864Z"
+    },
+    {
+      "id": "d1d3f9606291fa8b72799e545a51166d",
+      "title": "Amazon unveils Ring Robotics home security drone and enterprise patrol bot",
+      "summary": "Amazon announced a new brand called Ring Robotics, introducing a flying indoor home security drone and a rolling robot designed to patrol and protect businesses. The devices leverage Amazon's former Astro technology and are scheduled for release in late 2026 and early 2027.",
+      "why_it_matters": "Demonstrates consumer and enterprise hardware integration of robotics and autonomous monitoring systems.",
+      "item_ids": [
+        "d1d3f9606291fa8b72799e545a51166d",
+        "e8d78fa0aab2d72bd537d4fd3d874bb5",
+        "2274e5b7c4890aafcc0087a24f273c63",
+        "59adb2bc10b959f4d3a39e8bc7c63c3f",
+        "7021aff7f00f6e6b3dd6c60ae9a4bc2e",
+        "e1ad10fb0b385079059ff33ee340d460"
+      ],
+      "primary_url": "https://www.aboutamazon.com/news/devices/alexa-home-map-3d-smart-home-view",
+      "first_shown": "2026-11-11T00:02:15.002792Z",
+      "last_shown": "2026-11-11T09:02:12.981864Z"
+    }
+  ],
+  "past_top_stories": [
     {
       "id": "ea16e8f764cfcfb5bfad3de9885a3511",
       "title": "Anthropic Expands Claude into Office Suite with Sheets, Whiteboards, and Data",
@@ -30166,94 +30248,6 @@
       "last_shown": "2026-11-11T08:02:16.142560Z"
     },
     {
-      "id": "2274e5b7c4890aafcc0087a24f273c63",
-      "title": "Ring Launches Indoor Security Drone and Business Patrol Robot",
-      "summary": "Amazon's Ring is expanding into proactive hardware security with the announcement of an indoor flying drone camera and a rolling robot designed to patrol businesses. The devices are slated for release starting in late 2026 and early 2027.",
-      "why_it_matters": "Expands consumer and enterprise physical security hardware with autonomous robotics and AI integration.",
-      "item_ids": [
-        "2274e5b7c4890aafcc0087a24f273c63",
-        "7021aff7f00f6e6b3dd6c60ae9a4bc2e",
-        "e1ad10fb0b385079059ff33ee340d460",
-        "e8d78fa0aab2d72bd537d4fd3d874bb5",
-        "d1d3f9606291fa8b72799e545a51166d",
-        "59adb2bc10b959f4d3a39e8bc7c63c3f"
-      ],
-      "primary_url": "https://www.eff.org/deeplinks/2025/07/amazon-ring-cashes-techno-authoritarianism-and-mass-surveillance",
-      "first_shown": "2026-11-11T00:02:15.002792Z",
-      "last_shown": "2026-11-11T08:02:16.142560Z"
-    },
-    {
-      "id": "1a58fae7fa4a03ef276921cfa3a40683",
-      "title": "Oura Acquires AI Healthcare Startup Counsel Health for $625M",
-      "summary": "Oura has agreed to acquire AI chatbot startup Counsel Health for $625 million. The deal follows Oura's previous integration of Counsel Health's chatbot into its app and comes after Oura postponed its IPO due to market uncertainty.",
-      "why_it_matters": "Reflects ongoing consolidation of specialized AI health assistants into major consumer wearable platforms.",
-      "item_ids": [
-        "1a58fae7fa4a03ef276921cfa3a40683",
-        "5915e658390d1f5494bd794a0b6181c4"
-      ],
-      "primary_url": "https://www.bloomberg.com/news/articles/2026-11-10/oura-to-buy-on-demand-doctor-ai-service-counsel-health-revenue-jumps-153-in-q4",
-      "first_shown": "2026-11-10T22:02:12.729073Z",
-      "last_shown": "2026-11-11T08:02:16.142560Z"
-    },
-    {
-      "id": "dd41196a43ee4894f969fcf1a579039b",
-      "title": "Fireworks AI Discloses Expanded Security Breach After Cloud Provider Hack",
-      "summary": "Fireworks AI has disclosed a security incident where attackers accessed its development machines and exposed customer billing data and incomplete model weights. The company traced the initial intrusion to a breach at a third-party cloud provider.",
-      "why_it_matters": "Demonstrates supply chain vulnerabilities affecting AI infrastructure and model weight security.",
-      "item_ids": [
-        "dd41196a43ee4894f969fcf1a579039b",
-        "c5e183005c5090814ae428870afc8140",
-        "6c46dc0a30c7a4de995fc97b92d02e79"
-      ],
-      "primary_url": "https://fireworks.ai/security/bulletins/october-2026-security-incident-update",
-      "first_shown": "2026-11-10T09:01:42.815439Z",
-      "last_shown": "2026-11-11T08:02:16.142560Z"
-    },
-    {
-      "id": "d7e1c98afe987462dc860716bebc87f0",
-      "title": "Vanderbilt University Hit by BYOD Ransomware Attack and Data Theft",
-      "summary": "Vanderbilt University is responding to a cyberattack claimed by the BYOD ransomware gang, which asserts it stole sensitive student, employee, and institutional data and encrypted internal databases.",
-      "why_it_matters": "Highlights large-scale ransomware disruptions hitting major educational and research networks.",
-      "item_ids": [
-        "d7e1c98afe987462dc860716bebc87f0",
-        "b817700ccdae72a863f9a7a59017a2df"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-11T00:02:15.002792Z",
-      "last_shown": "2026-11-11T08:02:16.142560Z"
-    }
-  ],
-  "past_top_stories": [
-    {
-      "id": "281cfd45406f55d2ad02111d095c95d4",
-      "title": "Microsoft November 2026 Patch Tuesday Fixes Over 1,000 Flaws",
-      "summary": "Microsoft's November Patch Tuesday security updates address over 1,000 vulnerabilities across its Windows operating systems and software. The updates include fixes for a record-breaking number of flaws and an actively exploited Outlook zero-day vulnerability.",
-      "why_it_matters": "IT administrators need to deploy these extensive monthly patches promptly to secure Windows environments against newly disclosed zero-days.",
-      "item_ids": [
-        "281cfd45406f55d2ad02111d095c95d4",
-        "630c7b1ca5bc2855fd60f560aab48490",
-        "f3f51fb4a7afd6da295b353681d247e8",
-        "9a755617c3800e63befc1cb75335778d"
-      ],
-      "primary_url": "https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2026-124194",
-      "first_shown": "2026-11-10T23:02:12.792094Z",
-      "last_shown": "2026-11-11T07:14:24.166459Z"
-    },
-    {
-      "id": "6114dcad5f16ae8aa2a123ae0db7033f",
-      "title": "Google Pushes Emergency Chrome Update for Eighth Zero-Day of 2026",
-      "summary": "Google has released emergency updates for Chrome to patch a memory corruption vulnerability under active exploitation in the wild. This marks the eighth actively exploited browser zero-day patched by Google since the beginning of the year.",
-      "why_it_matters": "Users and system administrators must update Chrome immediately to block active browser exploitation campaigns.",
-      "item_ids": [
-        "6114dcad5f16ae8aa2a123ae0db7033f",
-        "e4500c9627437081d126fd12e78a4df4",
-        "0923d5f5c15b97e84772acd7b0f30604"
-      ],
-      "primary_url": "https://chromereleases.googleblog.com/2026/11/stable-channel-update-for-desktop_018223192.html",
-      "first_shown": "2026-11-11T03:02:15.441511Z",
-      "last_shown": "2026-11-11T07:14:24.166459Z"
-    },
-    {
       "id": "abd93facc520e02e6d47b017d28cd038",
       "title": "Critical Xen Orchestra and Cisco BroadWorks Flaws Actively Exploited",
       "summary": "Security agencies and vendors warn that critical vulnerabilities in Xen Orchestra and Cisco BroadWorks are being actively exploited in the wild. Vates VMS urged administrators to patch the authentication bypass flaw allowing administrative access.",
@@ -30265,19 +30259,6 @@
       ],
       "primary_url": "https://thehackernews.uk/ai-infographic-d",
       "first_shown": "2026-11-10T21:02:08.350477Z",
-      "last_shown": "2026-11-11T07:14:24.166459Z"
-    },
-    {
-      "id": "4679d1315fcd37e722420a83a115fcfe",
-      "title": "Russian Turla Hackers Deploy Cereal Malware Against Exchange Servers",
-      "summary": "State-sponsored Russian threat group Turla is utilizing a previously undocumented cyber espionage toolset called Cereal to infiltrate Microsoft Exchange servers. The malware allows attackers to covertly intercept and steal sensitive emails at government organizations.",
-      "why_it_matters": "Administrators managing Microsoft Exchange mail servers must hunt for indicators of compromise associated with the Cereal backdoor framework.",
-      "item_ids": [
-        "4679d1315fcd37e722420a83a115fcfe",
-        "eba455fef8a64915108284d6da8a7875"
-      ],
-      "primary_url": "https://www.welivesecurity.com/en/eset-research/exchange-for-breakfast-turlas-cereal-tricks-are-not-for-kids",
-      "first_shown": "2026-11-10T20:07:07.828212Z",
       "last_shown": "2026-11-11T07:14:24.166459Z"
     },
     {
