@@ -1,6 +1,96 @@
 {
-  "generated_at": "2026-11-15T02:02:18.130106Z",
+  "generated_at": "2026-11-15T03:02:10.122183Z",
   "items": [
+    {
+      "id": "7ed180eb07435480b2b5fba817e45249",
+      "title": "Cohere Finding Shows Self-Hosted Open-Weight Models Still Need Egress Controls",
+      "url": "https://www.infoq.com/news/2026/11/cohere-open-weight-egress-risk/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source_id": "infoq",
+      "source_name": "InfoQ",
+      "category": "tech",
+      "summary": "Cohere recently reported that one of Alibaba’s newest Qwen3.8 models attempted to upload a probe file to a storage container in Beijing while explicitly stating in its reasoning trace that no tools would be triggered. While there is no evidence of intentional backdooring, the report is a reminder that, even for self-hosted agents based on open-weight models, egress risks exist and need mitigation. By Bruno Couriol",
+      "published_at": "2026-11-15T02:42:00Z",
+      "fetched_at": "2026-11-15T03:02:10.122183Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "146fbc35a05cf598d101ad17df8c9cc9",
+      "title": "25 of my favourite modern NES games",
+      "url": "https://jordi.inversethought.com/blog/25-of-my-favourite-modern-nes-games/",
+      "source_id": "lobsters",
+      "source_name": "Lobsters",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-11-15T02:40:40Z",
+      "fetched_at": "2026-11-15T03:02:10.122183Z",
+      "discussion_url": "https://lobste.rs/s/w9j7xs/25_my_favourite_modern_nes_games",
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "pending",
+      "importance": null
+    },
+    {
+      "id": "4df7d9f64469cbe287ea5277ae68ff34",
+      "title": "WebGL Flight Simulator with seed generated terrain",
+      "url": "https://baron.by.dai.studio/",
+      "source_id": "lobsters",
+      "source_name": "Lobsters",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-11-15T02:39:31Z",
+      "fetched_at": "2026-11-15T03:02:10.122183Z",
+      "discussion_url": "https://lobste.rs/s/tjwnpb/webgl_flight_simulator_with_seed",
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "pending",
+      "importance": null
+    },
+    {
+      "id": "d13d1673452ae5e763618a7d780a3ff4",
+      "title": "Reintroducing Spaces",
+      "url": "https://dholms.leaflet.pub/3mu3p3ldwrc26",
+      "source_id": "lobsters",
+      "source_name": "Lobsters",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-11-15T02:34:44Z",
+      "fetched_at": "2026-11-15T03:02:10.122183Z",
+      "discussion_url": "https://lobste.rs/s/dwd6xu/reintroducing_spaces",
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "pending",
+      "importance": null
+    },
+    {
+      "id": "610db48379fcb35f67f6c137afc45c3c",
+      "title": "We're Asking an Appeals Court to Require a Warrant for ALPR Searches",
+      "url": "https://www.eff.org/deeplinks/2026/11/were-asking-appeals-court-require-warrant-alpr-searches",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-11-15T02:00:54Z",
+      "fetched_at": "2026-11-15T03:02:10.122183Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50503255",
+      "points": 28,
+      "comments": 1,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
     {
       "id": "90a3667565148490622a655bdf93f61f",
       "title": "Parsing nested lists in BQN",
@@ -38,6 +128,24 @@
       "importance": 2
     },
     {
+      "id": "b9a497a33617f1e4af7523ec61ce7f95",
+      "title": "Show HN: A custom font based on the Jamaican flag alphabet",
+      "url": "https://bobbiec.github.io/jamaican-font.html",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-11-15T00:56:45Z",
+      "fetched_at": "2026-11-15T03:02:10.122183Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50502839",
+      "points": 5,
+      "comments": 1,
+      "engineering": false,
+      "blog": false,
+      "review": "pending",
+      "importance": null
+    },
+    {
       "id": "9154c7f68f7ba3367a14693142be491e",
       "title": "With Starship catch, SpaceX still shows it can dazzle the world",
       "url": "https://arstechnica.com/space/2026/11/with-starship-catch-spacex-still-shows-it-can-dazzle-the-world/",
@@ -71,7 +179,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "d93411ff5a2e79404acfd4cbc0f90e29",
@@ -89,7 +197,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "2439897bb619902a06e5b0aea3f8b9e9",
@@ -125,7 +233,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "0d5dd10a11451cb68c3c857d4508b215",
@@ -156,12 +264,12 @@
       "published_at": "2026-11-14T22:26:30Z",
       "fetched_at": "2026-11-15T00:02:17.090855Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50501631",
-      "points": 184,
-      "comments": 103,
+      "points": 232,
+      "comments": 127,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "f2599aa7e16cf80515bd3adc33be77e4",
@@ -174,8 +282,8 @@
       "published_at": "2026-11-14T22:22:49Z",
       "fetched_at": "2026-11-15T00:02:17.090855Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50501594",
-      "points": 89,
-      "comments": 28,
+      "points": 119,
+      "comments": 38,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -233,7 +341,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "371978ec3aa208565dd6627e14dcc90f",
@@ -318,12 +426,12 @@
       "published_at": "2026-11-14T18:56:47Z",
       "fetched_at": "2026-11-14T20:02:07.275856Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50499723",
-      "points": 191,
-      "comments": 105,
+      "points": 204,
+      "comments": 116,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "1fbbe97ef39de0a3b99c9796aa027f45",
@@ -395,7 +503,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "26aa40395d7df0f3ea0002b8f8bffdcd",
@@ -426,12 +534,12 @@
       "published_at": "2026-11-14T17:45:19Z",
       "fetched_at": "2026-11-14T18:31:42.365870Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50499038",
-      "points": 208,
-      "comments": 101,
+      "points": 225,
+      "comments": 110,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "a1a97746b41fe6dd98b9b2d414da003a",
@@ -480,12 +588,12 @@
       "published_at": "2026-11-14T17:43:10Z",
       "fetched_at": "2026-11-14T18:02:07.231047Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50499017",
-      "points": 647,
-      "comments": 277,
+      "points": 674,
+      "comments": 281,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "9da26a484326808ad36499e22919eb7e",
@@ -822,7 +930,7 @@
       "published_at": "2026-11-14T15:04:15Z",
       "fetched_at": "2026-11-14T17:02:17.275547Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50497589",
-      "points": 175,
+      "points": 185,
       "comments": 9,
       "engineering": false,
       "blog": null,
@@ -876,8 +984,8 @@
       "published_at": "2026-11-14T14:44:28Z",
       "fetched_at": "2026-11-14T19:02:13.013159Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50497416",
-      "points": 76,
-      "comments": 6,
+      "points": 86,
+      "comments": 7,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -899,7 +1007,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "d108458218f2b8b9e3b9f162f091ee81",
@@ -984,8 +1092,8 @@
       "published_at": "2026-11-14T14:05:54Z",
       "fetched_at": "2026-11-14T15:02:06.903122Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50497132",
-      "points": 137,
-      "comments": 28,
+      "points": 142,
+      "comments": 29,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -1038,8 +1146,8 @@
       "published_at": "2026-11-14T13:48:06Z",
       "fetched_at": "2026-11-14T15:02:06.903122Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50497009",
-      "points": 335,
-      "comments": 223,
+      "points": 345,
+      "comments": 238,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -1056,8 +1164,8 @@
       "published_at": "2026-11-14T13:43:28Z",
       "fetched_at": "2026-11-14T16:02:09.748980Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50496976",
-      "points": 385,
-      "comments": 84,
+      "points": 397,
+      "comments": 86,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -1092,7 +1200,7 @@
       "published_at": "2026-11-14T13:31:06Z",
       "fetched_at": "2026-11-14T16:02:09.748980Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50496885",
-      "points": 124,
+      "points": 129,
       "comments": 6,
       "engineering": false,
       "blog": false,
@@ -1110,8 +1218,8 @@
       "published_at": "2026-11-14T13:20:43Z",
       "fetched_at": "2026-11-14T15:02:06.903122Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50496811",
-      "points": 165,
-      "comments": 37,
+      "points": 171,
+      "comments": 39,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -1151,7 +1259,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "92b01cf94674a78708b6e8c75cf7a841",
@@ -1164,8 +1272,8 @@
       "published_at": "2026-11-14T12:45:45Z",
       "fetched_at": "2026-11-14T14:02:10.374430Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50496602",
-      "points": 466,
-      "comments": 175,
+      "points": 476,
+      "comments": 176,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -1187,7 +1295,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "d54286f329fd3ffec7022464959286f4",
@@ -1326,8 +1434,8 @@
       "published_at": "2026-11-14T11:13:17Z",
       "fetched_at": "2026-11-14T22:45:52.948511Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50496051",
-      "points": 164,
-      "comments": 44,
+      "points": 177,
+      "comments": 48,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -1565,7 +1673,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "a7f8af63bfcbe1bb822de2f36a7c5287",
@@ -1637,7 +1745,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "bdc1f587915a79bfbd22b400ab6e6f04",
@@ -2033,7 +2141,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "d8d8787fecdb52bbb1423941a351b65b",
@@ -2231,7 +2339,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 2
     },
     {
       "id": "487be39cdace78bb10e6c642e68483c3",
@@ -2249,7 +2357,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "d138dfaf63d43b335b64a40346e8854a",
@@ -2375,7 +2483,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "9bce6537e8a39147a286a9c2ca4c89d4",
@@ -2393,7 +2501,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "690a44c21f9e845d55efc99828c2a8c8",
@@ -2483,7 +2591,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "0fbb90957a5ec5517a83ae77cd61c411",
@@ -2501,7 +2609,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "e092335105598701a5a7c751b451c914",
@@ -2537,7 +2645,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "328bce57451a977201fc963030dfd050",
@@ -2555,7 +2663,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "7b6adead40ea5a0e1602f0cb40ffa408",
@@ -2573,7 +2681,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "7f6045cb305b83492c66032617b94466",
@@ -2681,7 +2789,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "21d53362d1a0b92fa6ae965d3b06baf8",
@@ -2825,7 +2933,7 @@
       "engineering": true,
       "blog": true,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "86784f304ca11762bcd8137400829e9c",
@@ -2951,7 +3059,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "fe0612a21bbf35626fea14696ed83164",
@@ -3131,7 +3239,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "5565766f498380ec8a36da39e95c22ce",
@@ -3167,7 +3275,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "4fb93369122066785793ae01d55b1b0d",
@@ -3345,7 +3453,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -3509,7 +3617,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "717fc56f282d8023b4f23f5cf9e906ee",
@@ -3527,7 +3635,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "dd2b3adf84d177e00fded4925b82361d",
@@ -3563,7 +3671,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "6ebc070d1e117c14ce9ffe799786a444",
@@ -3671,7 +3779,7 @@
       "engineering": true,
       "blog": true,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "1ac45d3860864b4b6b705579abfd3f30",
@@ -3689,7 +3797,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "4249ffa8c2098a79ad232c9669ab5cce",
@@ -3725,7 +3833,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "b5af83d54bc054532c93c5fa7200aaca",
@@ -3797,7 +3905,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "87bfb45758b50033221f175bb9219619",
@@ -4746,7 +4854,7 @@
       "published_at": "2026-11-13T13:47:42Z",
       "fetched_at": "2026-11-15T02:02:18.130106Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50483431",
-      "points": 5,
+      "points": 16,
       "comments": 0,
       "engineering": false,
       "blog": null,
@@ -6888,8 +6996,8 @@
       "published_at": "2026-11-12T22:17:32Z",
       "fetched_at": "2026-11-12T23:01:43.641293Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50478632",
-      "points": 103,
-      "comments": 17,
+      "points": 116,
+      "comments": 19,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -20730,7 +20838,7 @@
       "published_at": "2026-11-09T21:45:49Z",
       "fetched_at": "2026-11-09T22:01:45.002787Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50497892",
-      "points": 205,
+      "points": 214,
       "comments": 93,
       "engineering": false,
       "blog": false,
@@ -24924,8 +25032,8 @@
       "published_at": "2026-11-08T19:49:46Z",
       "fetched_at": "2026-11-08T22:01:37.830227Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50500963",
-      "points": 713,
-      "comments": 472,
+      "points": 797,
+      "comments": 539,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -26280,42 +26388,6 @@
       "blog": false,
       "review": "kept",
       "importance": 4
-    },
-    {
-      "id": "7420392038acb71604b1f596ffc4a457",
-      "title": "Consumer brain wave headsets threaten privacy",
-      "url": "https://www.science.org/content/article/wearable-device-makers-are-harvesting-brain-data-train-ai-without-telling-users?referrer=https%3A%2F%2Fwww.google.com%2F",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-11-08T02:02:38Z",
-      "fetched_at": "2026-11-08T05:01:38.649500Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50409856",
-      "points": 97,
-      "comments": 67,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "da3b8786b5e9b5753427020491f8d0b5",
-      "title": "ZapFast: A fast, native WhatsApp client in Rust and egui",
-      "url": "https://github.com/crmne/zapfast",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-11-08T02:02:27Z",
-      "fetched_at": "2026-11-08T04:01:35.864255Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50409855",
-      "points": 81,
-      "comments": 53,
-      "engineering": false,
-      "blog": null,
-      "review": "excluded",
-      "importance": null
     },
     {
       "id": "f9810f433abae9b7e66487cec1512da7",
@@ -30784,65 +30856,43 @@
   ],
   "top_stories": [
     {
-      "id": "661d0b07a67c4e510725524a36f005d1",
-      "title": "FAA Grounds All US Flights Due to Communications Outage",
-      "summary": "The Federal Aviation Administration ordered a nationwide ground stop for all US flights citing extraordinary circumstances and safety reasons due to a communications failure in air traffic control systems. Transportation Secretary Sean Duffy later blamed the outage on work replacing outdated copper wire with fiber optic lines.",
-      "why_it_matters": "The nationwide ground stop caused significant travel disruptions and highlighted critical vulnerabilities in public infrastructure and core communication networks relied upon across the country.",
+      "id": "ccbd0c2348ebd9ed2527c97059bdf914",
+      "title": "SpaceX Successfully Catches Starship Booster with Mechazilla Tower",
+      "summary": "SpaceX successfully captured Starship with its Mechazilla launch and catch tower after aborting a planned catch on a previous flight. The company gathered new flight data following the milestone achievement.",
+      "why_it_matters": "Demonstrates major advancements in reusable heavy-lift launch architecture and aerospace engineering.",
       "item_ids": [
-        "661d0b07a67c4e510725524a36f005d1",
-        "21d53362d1a0b92fa6ae965d3b06baf8",
-        "ccba74f1f6794f04e955e48863a9a997",
-        "ed285eb69361102bff7d9eeb054a3b55",
-        "0ca193c30860b033b71ff662e577dfe0",
-        "7b6adead40ea5a0e1602f0cb40ffa408",
-        "328bce57451a977201fc963030dfd050",
-        "d63e2308747fb7bc8c6222b3d35e5644",
-        "4faf7e21b664c7541703974af31a964a",
-        "487be39cdace78bb10e6c642e68483c3",
-        "a1a97746b41fe6dd98b9b2d414da003a",
-        "7fea97adca8e066ff9fa16423ce0eaed",
-        "0ace8dea5c51e049d2cd6b0c77212ecc",
-        "e3a3b5514ad2b04dd3e7356d08243609",
-        "efaddb66212cc958862336e661da1e4f",
-        "4835cd012b221b30a80c2b714d5e2920",
-        "9bce6537e8a39147a286a9c2ca4c89d4",
-        "1f01750b04bd0558e7bab1e7781f63ad",
-        "0fbb90957a5ec5517a83ae77cd61c411"
+        "ccbd0c2348ebd9ed2527c97059bdf914",
+        "9154c7f68f7ba3367a14693142be491e",
+        "22131668b1fbf42a85ff289367215241",
+        "6beafa0eda70507bbde6893e2e450369"
       ],
-      "primary_url": null,
-      "first_shown": "2026-11-13T22:01:45.312547Z",
-      "last_shown": "2026-11-15T02:02:18.130106Z"
+      "primary_url": "https://benbellabooks.com/shop/reentry",
+      "first_shown": "2026-11-14T22:02:09.080440Z",
+      "last_shown": "2026-11-15T03:02:10.122183Z"
     },
     {
-      "id": "c08f3a6148eb669072734aab75f383bc",
-      "title": "Nvidia CEO Jensen Huang Resigns Amid Scandal and Scrutiny",
-      "summary": "Nvidia CEO Jensen Huang has resigned following an affair, while investigations and reports revealed questions surrounding circular financing deals and GPU pricing. The departure leaves a massive void in AI startup funding and has drawn reactions from Asian governments and tech executives alike.",
-      "why_it_matters": "As a central figure in the AI infrastructure boom, Huang's departure and the accompanying financial scrutiny threaten to upend chip supply chains, startup valuations, and industry-wide capital allocation.",
+      "id": "2d6223c2e9d74b67103b4d122b13293b",
+      "title": "Nvidia CEO Jensen Huang Resigns Following Affair and Scrutiny",
+      "summary": "Nvidia CEO Jensen Huang has resigned following an affair, prompting thousands of signatures on a petition asking for his reinstatement. The leadership change and ongoing investigations impact chip supply commitments, startup funding, and advanced AI infrastructure development.",
+      "why_it_matters": "Disrupts leadership at the world's most critical AI chip manufacturer, potentially shifting venture funding and supply chain stability.",
       "item_ids": [
+        "2d6223c2e9d74b67103b4d122b13293b",
         "c08f3a6148eb669072734aab75f383bc",
         "d01ce5a98184df888afba7881b0d9256",
         "81edcd30d4486d945a52ccc95247fd58",
-        "300cf280a3424e561c0424a28af846d0",
         "6639a1de699279ea2edfef6ff572d7e5",
         "cc4e49de68d720f0589011b912ece06a",
-        "86fb984623e6af18918061e01c772c3d",
-        "14057a382ea0cf2a5bc71019acbd50fb",
-        "2d6223c2e9d74b67103b4d122b13293b",
-        "3ca895f2a51c7df93a42e23a227cdd1c",
-        "5f02e7154a6fcef57beab24f94ca8133",
-        "d7dfeb76655ba2fc097f5f6ee635e2c4",
-        "367373c4dbf8513749baf933912b11f5",
-        "b9c3aab9d47de683db10bc5ee3c36fe6"
+        "86fb984623e6af18918061e01c772c3d"
       ],
       "primary_url": "https://www.nytimes.com/2026/11/09/business/economy/nvidia-megaspeed-investigation-huang.html",
       "first_shown": "2026-11-14T22:02:09.080440Z",
-      "last_shown": "2026-11-15T02:02:18.130106Z"
+      "last_shown": "2026-11-15T03:02:10.122183Z"
     },
     {
       "id": "5565766f498380ec8a36da39e95c22ce",
-      "title": "Global Microsoft Outage Sparks Scrutiny Over Cloud Reliance",
-      "summary": "A bad software update caused a global Microsoft outage that took down servers worldwide, impacting businesses, schools, hospitals, and government services for 24 hours. Experts warned that the incident demonstrates the extreme risks of relying on a single vendor's systems.",
-      "why_it_matters": "The widespread disruption serves as a critical postmortem on enterprise single-vendor dependency and cloud resilience, potentially affecting SLAs and cloud architecture strategies.",
+      "title": "Global Microsoft Outage Disables Cloud Services Worldwide",
+      "summary": "A bad software update caused Microsoft servers around the world to crash, leading to a widespread 24-hour outage affecting businesses, hospitals, and schools. Experts warn that the incident highlights extreme global dependence on single-vendor cloud infrastructure.",
+      "why_it_matters": "Underscores the operational risks of centralized enterprise cloud services and single-vendor IT dependencies.",
       "item_ids": [
         "5565766f498380ec8a36da39e95c22ce",
         "2206127263da31dccf9f8bdec93db484",
@@ -30852,64 +30902,86 @@
       ],
       "primary_url": null,
       "first_shown": "2026-11-12T20:01:46.065473Z",
-      "last_shown": "2026-11-15T02:02:18.130106Z"
+      "last_shown": "2026-11-15T03:02:10.122183Z"
     },
     {
-      "id": "9154c7f68f7ba3367a14693142be491e",
-      "title": "SpaceX Successfully Captures Starship Booster with Mechazilla",
-      "summary": "SpaceX successfully executed its first 'chopstick' catch of a Starship booster using its Mechazilla launch and catch tower following Flight 15.",
-      "why_it_matters": "Validates rapid reusability milestones for heavy-lift orbital rockets, reshaping aerospace engineering economics.",
+      "id": "54c132d185e5f2a86da0c241876eaa55",
+      "title": "Tesla Invites Select Customers to Pre-order Cybercab for Personal Use",
+      "summary": "Tesla is inviting select customers to pre-order a Cybercab for personal use, featuring a $299 monthly fee and geographic restrictions. Elon Musk acknowledged that the monthly fee is set too high.",
+      "why_it_matters": "Expands consumer availability of autonomous vehicle platforms under restrictive subscription terms.",
       "item_ids": [
-        "9154c7f68f7ba3367a14693142be491e",
-        "22131668b1fbf42a85ff289367215241",
-        "6beafa0eda70507bbde6893e2e450369"
-      ],
-      "primary_url": "https://www.harpercollins.com/products/liftoff-eric-berger?variant=32126620205090",
-      "first_shown": "2026-11-14T22:02:09.080440Z",
-      "last_shown": "2026-11-15T02:02:18.130106Z"
-    },
-    {
-      "id": "b5d8e3ece75ef596902018d0ae9ee3a6",
-      "title": "OpenAI and Tesla Launch Autonomous Agent Wallets and Subscriptions",
-      "summary": "OpenAI announced ChatGPT Wallet, enabling AI agents to complete purchases and check out on users' behalf starting with a rollout to US Pro subscribers. Meanwhile, Tesla opened Cybercab pre-orders for personal use with geo-restrictions and a $299 monthly fee.",
-      "why_it_matters": "These launches mark a major shift toward agentic commerce and autonomous systems handling financial transactions and physical transport directly.",
-      "item_ids": [
-        "b5d8e3ece75ef596902018d0ae9ee3a6",
-        "d6421c1c3a5f2d071c1f7e65b094eb73",
-        "79d13e040f6ebd30a578bf9ebf7223ef",
+        "54c132d185e5f2a86da0c241876eaa55",
         "7aab8a7197e1771b035326ffeb5726b1"
       ],
       "primary_url": null,
       "first_shown": "2026-11-14T22:02:09.080440Z",
-      "last_shown": "2026-11-15T02:02:18.130106Z"
+      "last_shown": "2026-11-15T03:02:10.122183Z"
     },
     {
       "id": "b6c96ebe93d7d917510ab097854f9418",
-      "title": "US Dispatches North Korean Crypto-Theft Campaign Using Deepfakes",
-      "summary": "The U.S. government disrupted a North Korean social engineering campaign called FaceStealer that used fake video calls to steal over $400 million in cryptocurrency.",
-      "why_it_matters": "Demonstrates sophisticated social engineering tactics targeting developers and crypto infrastructure using generative video tools, increasing security awareness requirements.",
+      "title": "US Disrupts North Korean Crypto-Stealing Campaign Using Fake Video Calls",
+      "summary": "The U.S. government disrupted a North Korean social engineering campaign called FaceStealer that used fake video calls and stole more than $400 million in cryptocurrency.",
+      "why_it_matters": "Exposes sophisticated social engineering threats targeting crypto infrastructure and developer networks.",
       "item_ids": [
         "b6c96ebe93d7d917510ab097854f9418",
-        "13dd1e951515366faa3424c7859d7543",
-        "6518422fdf409b18d1cb31ebb43b7034"
+        "13dd1e951515366faa3424c7859d7543"
       ],
       "primary_url": null,
       "first_shown": "2026-11-13T08:01:56.053153Z",
-      "last_shown": "2026-11-15T02:02:18.130106Z"
+      "last_shown": "2026-11-15T03:02:10.122183Z"
+    },
+    {
+      "id": "7fea97adca8e066ff9fa16423ce0eaed",
+      "title": "Transportation Secretary Blames Copper Wire Replacement for FAA Stop",
+      "summary": "Transportation Secretary Sean Duffy announced that the nationwide ground stop ordered by the FAA was related to routine equipment upgrades replacing outdated copper wire with fiber optic lines. Officials confirmed there was zero evidence of AI involvement.",
+      "why_it_matters": "Clarifies the root infrastructure cause behind a major national transportation shutdown.",
+      "item_ids": [
+        "7fea97adca8e066ff9fa16423ce0eaed",
+        "a1a97746b41fe6dd98b9b2d414da003a"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-13T22:01:45.312547Z",
+      "last_shown": "2026-11-15T03:02:10.122183Z"
+    },
+    {
+      "id": "852fe56060a9326b7554eb8790d0444d",
+      "title": "Job Platforms and Security Researchers Tackle Fraudulent Postings and Data Leaks",
+      "summary": "LinkedIn and Monster removed over 1,000 fake job postings following an investigation, while researchers found email addresses from school bomb hoaxes in old infostealer logs.",
+      "why_it_matters": "Highlights ongoing credential hygiene and platform moderation challenges for engineers and organizations.",
+      "item_ids": [
+        "852fe56060a9326b7554eb8790d0444d",
+        "c6a90bbc6f0fbda741c8cc225b0ce382"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-14T22:02:09.080440Z",
+      "last_shown": "2026-11-15T03:02:10.122183Z"
+    },
+    {
+      "id": "5dec89054f585dd5383f474120f6066b",
+      "title": "Lovable apps expose passport details and more than 200K private messages",
+      "summary": null,
+      "why_it_matters": "Exposes severe data exposure flaws in applications built with Lovable, leaking sensitive personal information and private messages.",
+      "item_ids": [
+        "5dec89054f585dd5383f474120f6066b"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-14T20:02:07.275856Z",
+      "last_shown": "2026-11-15T03:02:10.122183Z"
     },
     {
       "id": "64f15a4d4eca049c0fe2545c062d25a0",
-      "title": "Security Breach at Fireworks AI Impacts Cursor and Uber",
-      "summary": "Cursor confirmed a security breach that allowed attackers to distribute a malicious Claude Code extension through its marketplace after stealing credentials from AI infrastructure provider Fireworks AI. Uber also confirmed that driver's license information stored by Fireworks AI was stolen during the incident.",
-      "why_it_matters": "Supply chain compromises originating from third-party AI infrastructure providers pose severe risks to developer tool ecosystems and user data privacy.",
+      "title": "Cursor confirms security breach led to malicious Claude Code extension",
+      "summary": "Cursor confirmed it suffered a security breach that let hackers distribute a malicious Claude Code extension through its marketplace after stealing credentials from AI infrastructure provider Fireworks AI. [...]",
+      "why_it_matters": "Details a supply chain security breach where attackers distributed a malicious extension via Cursor's marketplace.",
       "item_ids": [
-        "64f15a4d4eca049c0fe2545c062d25a0",
-        "3f8c2a9853b902e5023aafeef07f0a68"
+        "64f15a4d4eca049c0fe2545c062d25a0"
       ],
       "primary_url": null,
       "first_shown": "2026-11-14T18:02:07.231047Z",
-      "last_shown": "2026-11-15T02:02:18.130106Z"
-    },
+      "last_shown": "2026-11-15T03:02:10.122183Z"
+    }
+  ],
+  "past_top_stories": [
     {
       "id": "969eacbc6b4dddf3e3ba4f4d5c8c557d",
       "title": "Trezor Confirms Malicious Hardware Implants in Resold Wallets",
@@ -30924,18 +30996,6 @@
       "last_shown": "2026-11-15T02:02:18.130106Z"
     },
     {
-      "id": "5dec89054f585dd5383f474120f6066b",
-      "title": "Lovable apps expose passport details and more than 200K private messages",
-      "summary": null,
-      "why_it_matters": "Exposes critical vulnerabilities in low-code platforms leaving sensitive passport details and private messages accessible.",
-      "item_ids": [
-        "5dec89054f585dd5383f474120f6066b"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-14T20:02:07.275856Z",
-      "last_shown": "2026-11-15T02:02:18.130106Z"
-    },
-    {
       "id": "d6bc4ec6947cb8494312aaf3ce57dfe9",
       "title": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
       "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a high-severity security flaw impacting UnrealIRCd, an open-source Internet Relay Chat (IRC) server, to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation. The vulnerability, tracked as CVE-2026-114713 (CVSS score: 8.6), is a case of improper neutralization of delimiters",
@@ -30946,9 +31006,7 @@
       "primary_url": null,
       "first_shown": "2026-11-14T13:02:16.676836Z",
       "last_shown": "2026-11-15T02:02:18.130106Z"
-    }
-  ],
-  "past_top_stories": [
+    },
     {
       "id": "7acd08b19f53c80d3aee61da265ec949",
       "title": "Open Source DocumentDB 1.0 Reaches General Availability",
@@ -30972,18 +31030,6 @@
       "primary_url": null,
       "first_shown": "2026-11-14T09:02:18.692205Z",
       "last_shown": "2026-11-14T23:02:15.550317Z"
-    },
-    {
-      "id": "852fe56060a9326b7554eb8790d0444d",
-      "title": "LinkedIn, Monster take down over 1000 fake job postings after CBC investigation",
-      "summary": null,
-      "why_it_matters": "Exposes platform moderation failures regarding fraudulent listings impacting technical job seekers.",
-      "item_ids": [
-        "852fe56060a9326b7554eb8790d0444d"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-14T22:02:09.080440Z",
-      "last_shown": "2026-11-14T22:02:09.080440Z"
     },
     {
       "id": "868875ae188a2da3db3fa0107c641f56",
