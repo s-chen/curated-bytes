@@ -1,6 +1,78 @@
 {
-  "generated_at": "2026-11-16T00:02:07.564790Z",
+  "generated_at": "2026-11-16T01:02:20.281972Z",
   "items": [
+    {
+      "id": "ea5579325c8174fd1fa89eb2ed898f2f",
+      "title": "beer.drv.drv.drv",
+      "url": "https://fzakaria.com/2026/11/14/beer-drv-drv-drv",
+      "source_id": "lobsters",
+      "source_name": "Lobsters",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-11-16T00:47:28Z",
+      "fetched_at": "2026-11-16T01:02:20.281972Z",
+      "discussion_url": "https://lobste.rs/s/md0vco/beer_drv_drv_drv",
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 2
+    },
+    {
+      "id": "60c153a91dc9a77b2a5c26ccf0134156",
+      "title": "Designing nextest's install scripts",
+      "url": "https://sunshowers.io/posts/nextest-install-scripts/",
+      "source_id": "lobsters",
+      "source_name": "Lobsters",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-11-16T00:14:56Z",
+      "fetched_at": "2026-11-16T01:02:20.281972Z",
+      "discussion_url": "https://lobste.rs/s/tbpfcn/designing_nextest_s_install_scripts",
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": true,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "b1b400ca3768614f462c46d33d274c98",
+      "title": "What's Next for Nvidia?",
+      "url": "https://steveblank.com/2026/11/15/whats-next-for-nvidia/",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-11-15T23:55:55Z",
+      "fetched_at": "2026-11-16T01:02:20.281972Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50512235",
+      "points": 5,
+      "comments": 3,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 2
+    },
+    {
+      "id": "87f7053ab1c57d5643b5a5de523f6caf",
+      "title": "Mini.nvim Is Now on Tangled",
+      "url": "https://tangled.org/nvim-mini.org/mini.nvim",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-11-15T23:55:41Z",
+      "fetched_at": "2026-11-16T01:02:20.281972Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50512231",
+      "points": 16,
+      "comments": 3,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 2
+    },
     {
       "id": "f72b0d8bec9b65f401ed88e22342615d",
       "title": "Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market",
@@ -35,7 +107,43 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
+    },
+    {
+      "id": "b1d473e02458321b4773452af981df7c",
+      "title": "datasette 1.0a43",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette/",
+      "source_id": "simon-willison",
+      "source_name": "Simon Willison",
+      "category": "tech",
+      "summary": "Release: datasette 1.0a43 I've been leaning hard into Claude Fable 5.2 to help knock things off the 1.0 milestone, which is now 53% complete. The biggest 1.0 item in this release is streaming support for output renderers - the built-in TSV and CSV export mechanisms now use this as well, and plugins can register themselves as capable of streaming every row in a table in one go via the new Response.stream() method. There are a couple of security fixes, one of which I deemed deserving of a GitHub…",
+      "published_at": "2026-11-15T23:20:27Z",
+      "fetched_at": "2026-11-16T01:02:20.281972Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": true,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "eb52935c64a0cd4126d6f30ba6db8b22",
+      "title": "datasette 0.65.6",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-2/",
+      "source_id": "simon-willison",
+      "source_name": "Simon Willison",
+      "category": "tech",
+      "summary": "Release: datasette 0.65.6 I backported a minor security fix from 1.0a43: Fixed a security issue where a database registered using add_database(db, name=..., route=...) with a route that differs from its name could be downloaded from /<route>.db by actors who were denied access to it. [...] Tags: security, datasette",
+      "published_at": "2026-11-15T23:18:17Z",
+      "fetched_at": "2026-11-16T01:02:20.281972Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": true,
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "a01a522853fa896a3fc03ae6039baf59",
@@ -102,8 +210,8 @@
       "published_at": "2026-11-15T23:00:11Z",
       "fetched_at": "2026-11-16T00:02:07.564790Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50511806",
-      "points": 27,
-      "comments": 6,
+      "points": 52,
+      "comments": 10,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -120,8 +228,8 @@
       "published_at": "2026-11-15T22:48:52Z",
       "fetched_at": "2026-11-16T00:02:07.564790Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50511718",
-      "points": 10,
-      "comments": 1,
+      "points": 29,
+      "comments": 5,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -141,7 +249,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 3
     },
@@ -192,8 +300,8 @@
       "published_at": "2026-11-15T22:11:43Z",
       "fetched_at": "2026-11-15T23:02:15.681741Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50511395",
-      "points": 100,
-      "comments": 52,
+      "points": 139,
+      "comments": 69,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -213,7 +321,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 3
     },
@@ -231,7 +339,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 2
     },
@@ -282,8 +390,8 @@
       "published_at": "2026-11-15T21:38:11Z",
       "fetched_at": "2026-11-15T23:02:15.681741Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50511072",
-      "points": 44,
-      "comments": 26,
+      "points": 58,
+      "comments": 43,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -321,7 +429,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -359,7 +467,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "5243c0b686f8594679a44795938698b9",
@@ -390,8 +498,8 @@
       "published_at": "2026-11-15T20:37:28Z",
       "fetched_at": "2026-11-15T22:02:17.503187Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50510442",
-      "points": 89,
-      "comments": 42,
+      "points": 101,
+      "comments": 52,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -480,8 +588,8 @@
       "published_at": "2026-11-15T19:49:28Z",
       "fetched_at": "2026-11-15T23:02:15.681741Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50510042",
-      "points": 95,
-      "comments": 33,
+      "points": 142,
+      "comments": 48,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -516,8 +624,8 @@
       "published_at": "2026-11-15T19:42:13Z",
       "fetched_at": "2026-11-15T22:02:17.503187Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50509972",
-      "points": 86,
-      "comments": 20,
+      "points": 109,
+      "comments": 29,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -606,10 +714,10 @@
       "published_at": "2026-11-15T19:26:22Z",
       "fetched_at": "2026-11-15T22:02:17.503187Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50509837",
-      "points": 111,
-      "comments": 31,
+      "points": 145,
+      "comments": 32,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 3
     },
@@ -629,7 +737,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "5791bd992a12c3b5eb90a2992ffa81dd",
@@ -642,8 +750,8 @@
       "published_at": "2026-11-15T18:36:40Z",
       "fetched_at": "2026-11-15T19:09:12.296958Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50509416",
-      "points": 57,
-      "comments": 20,
+      "points": 60,
+      "comments": 23,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -660,12 +768,12 @@
       "published_at": "2026-11-15T18:36:10Z",
       "fetched_at": "2026-11-15T20:02:06.678238Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50509411",
-      "points": 332,
-      "comments": 160,
+      "points": 372,
+      "comments": 177,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "ca5dd80797404b1339f89a7ffb5b5904",
@@ -714,8 +822,8 @@
       "published_at": "2026-11-15T18:23:21Z",
       "fetched_at": "2026-11-15T19:02:08.039033Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50509308",
-      "points": 151,
-      "comments": 56,
+      "points": 168,
+      "comments": 67,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -732,8 +840,8 @@
       "published_at": "2026-11-15T17:53:31Z",
       "fetched_at": "2026-11-15T19:02:08.039033Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50509023",
-      "points": 142,
-      "comments": 104,
+      "points": 160,
+      "comments": 121,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -750,10 +858,10 @@
       "published_at": "2026-11-15T17:22:32Z",
       "fetched_at": "2026-11-15T20:02:06.678238Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50508715",
-      "points": 81,
-      "comments": 49,
+      "points": 94,
+      "comments": 62,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -773,7 +881,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "abfdb69abd3a2b29876ec8cdfb7416d7",
@@ -899,7 +1007,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 4
     },
     {
       "id": "748048412ae17c01318a97712c0a93ad",
@@ -930,8 +1038,8 @@
       "published_at": "2026-11-15T15:21:21Z",
       "fetched_at": "2026-11-15T16:02:09.665736Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50507553",
-      "points": 168,
-      "comments": 87,
+      "points": 174,
+      "comments": 93,
       "engineering": false,
       "blog": true,
       "review": "kept",
@@ -951,7 +1059,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 3
     },
@@ -969,7 +1077,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 3
     },
@@ -1074,12 +1182,12 @@
       "published_at": "2026-11-15T13:44:16Z",
       "fetched_at": "2026-11-15T15:02:08.781481Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50506894",
-      "points": 179,
-      "comments": 89,
+      "points": 195,
+      "comments": 102,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "1c28a27369a8d72c63665c079737f27c",
@@ -1092,12 +1200,12 @@
       "published_at": "2026-11-15T13:15:22Z",
       "fetched_at": "2026-11-15T15:02:08.781481Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50506719",
-      "points": 375,
-      "comments": 203,
+      "points": 415,
+      "comments": 230,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "8466bfa20f2d28faac040b69e83872f1",
@@ -1313,7 +1421,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "2c404e39b8c54174256bb3f8a26e788e",
@@ -1383,7 +1491,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 3
     },
@@ -1401,7 +1509,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 2
     },
@@ -1509,7 +1617,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 3
     },
@@ -1586,6 +1694,42 @@
       "importance": null
     },
     {
+      "id": "ffaae58576b06c2603dfce8260b57cd3",
+      "title": "datasette-apps 0.4a0",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-apps/",
+      "source_id": "simon-willison",
+      "source_name": "Simon Willison",
+      "category": "tech",
+      "summary": "Release: datasette-apps 0.4a0 Datasette Apps are sandboxed HTML and JavaScript applications that live inside Datasette - think Claude Artifacts, but these ones can run SQL queries against your data. 0.4a0 adds support for linking: you can link to an app with #fragments in the URL and the app can see and use those, plus supported URL schemes are reported back to Datasette Agent so it can help write apps that link to each other. This means you can have e.g. an app that shows details about a…",
+      "published_at": "2026-11-15T04:02:45Z",
+      "fetched_at": "2026-11-16T01:02:20.281972Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": true,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "c5504dbb6eb3305a4f71798c293af795",
+      "title": "datasette-agent 0.6a0",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-agent/",
+      "source_id": "simon-willison",
+      "source_name": "Simon Willison",
+      "category": "tech",
+      "summary": "Release: datasette-agent 0.6a0 Accumulated small fixes for Datasette Agent, my agent plugin for Datasette that lets you ask questions about your data. Most notably, it now adds an agent prompt directly to the Datasette homepage, with support for hash-mentions of tables and queries: Tags: datasette-agent, llm, datasette, llms, ai, generative-ai",
+      "published_at": "2026-11-15T03:49:47Z",
+      "fetched_at": "2026-11-16T01:02:20.281972Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": true,
+      "review": "kept",
+      "importance": 3
+    },
+    {
       "id": "3d98491491bd0dc303250be494efa09a",
       "title": "Osint Case Studies",
       "url": "https://osintsearch.org/blog/osint-case-studies",
@@ -1655,7 +1799,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "146fbc35a05cf598d101ad17df8c9cc9",
@@ -1686,10 +1830,10 @@
       "published_at": "2026-11-15T02:39:31Z",
       "fetched_at": "2026-11-15T03:02:10.122183Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50510296",
-      "points": 59,
-      "comments": 9,
+      "points": 80,
+      "comments": 10,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 3
     },
@@ -1707,7 +1851,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 2
     },
@@ -1745,7 +1889,7 @@
       "engineering": false,
       "blog": true,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "3db659999d81b9e001816641c75db2b0",
@@ -1781,7 +1925,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "b9a497a33617f1e4af7523ec61ce7f95",
@@ -1835,7 +1979,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "c08f3a6148eb669072734aab75f383bc",
@@ -1869,9 +2013,9 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "2439897bb619902a06e5b0aea3f8b9e9",
@@ -1889,7 +2033,7 @@
       "engineering": false,
       "blog": true,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "6933145d073ee13fc8591d0f2f77f784",
@@ -1925,7 +2069,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 4
     },
     {
       "id": "0d5dd10a11451cb68c3c857d4508b215",
@@ -1943,7 +2087,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "d7dfeb76655ba2fc097f5f6ee635e2c4",
@@ -1977,7 +2121,7 @@
       "points": 302,
       "comments": 157,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -1997,7 +2141,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "d01ce5a98184df888afba7881b0d9256",
@@ -2033,7 +2177,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "50646efac2a9f716393f7943d0ceaf49",
@@ -2051,7 +2195,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 3
     },
     {
       "id": "371978ec3aa208565dd6627e14dcc90f",
@@ -2087,7 +2231,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "881cd2e78568460398a510b234ef21c5",
@@ -2213,7 +2357,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "26aa40395d7df0f3ea0002b8f8bffdcd",
@@ -2267,7 +2411,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "7fea97adca8e066ff9fa16423ce0eaed",
@@ -2285,7 +2429,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "5dec89054f585dd5383f474120f6066b",
@@ -2321,7 +2465,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "37a5f0d416b2fcd3e8762f315b404f67",
@@ -2391,9 +2535,9 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "8c5f8edd18cfbc40a315893a2aac5b43",
@@ -2409,7 +2553,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 3
     },
@@ -2499,7 +2643,7 @@
       "points": 49,
       "comments": 9,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -2535,7 +2679,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 3
     },
@@ -2589,7 +2733,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 2
     },
@@ -2717,7 +2861,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "d108458218f2b8b9e3b9f162f091ee81",
@@ -2841,7 +2985,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 3
     },
@@ -26372,60 +26516,6 @@
       "importance": 4
     },
     {
-      "id": "7d3605d35e3029fbf3ec34b5b58e3ca4",
-      "title": "Unlocking any car from X brand in most of the world",
-      "url": "https://shubs.io/unlocking-any-car-from-x-brand-in-most-of-the-world/",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-11-09T00:10:50Z",
-      "fetched_at": "2026-11-09T01:01:41.155076Z",
-      "discussion_url": "https://lobste.rs/s/kbrpx3/unlocking_any_car_from_x_brand_most_world",
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "254779ccfce7c32ace28ca9c94965036",
-      "title": "Nvidia CEO Jensen Huang starring in possible remake of The Spy Who Shagged Me",
-      "url": "https://www.theregister.com/legal/2026/11/09/nvidia-ceo-jensen-huang-starring-in-possible-remake-of-the-spy-who-shagged-me/5308327",
-      "source_id": "the-register",
-      "source_name": "The Register",
-      "category": "tech",
-      "summary": "Admits to affair after company board opens probe into alleged contact with Chinese asset who bought GPUs in bulk",
-      "published_at": "2026-11-09T00:04:47Z",
-      "fetched_at": "2026-11-09T03:01:38.756690Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 4
-    },
-    {
-      "id": "4385d461802d7be39c3efaba8f58b944",
-      "title": "Nvidia CEO Jensen Huang admits affair with possible Chinese asset",
-      "url": "https://www.theregister.com/legal/2026/11/09/nvidia-ceo-jensen-huang-admits-affair-with-possible-chinese-asset/5308327",
-      "source_id": "the-register",
-      "source_name": "The Register",
-      "category": "tech",
-      "summary": "Admits to affair after company board opens probe into alleged contact with possible Chinese asset who bought GPUs in bulk",
-      "published_at": "2026-11-09T00:04:47Z",
-      "fetched_at": "2026-11-09T22:44:34.800770Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 4
-    },
-    {
       "id": "963accd6dd998d8b00993bd6d90057b9",
       "title": "When a language’s creator and its owners strongly disagree: C++26 post-DIS, historical experience, and paths forward",
       "url": "https://isocpp.org/files/papers/P4454R0.pdf",
@@ -30946,6 +31036,137 @@
   ],
   "top_stories": [
     {
+      "id": "f4d10e35baa22058405a242915ca2fe4",
+      "title": "Vulcan Rocket Fails During Launch, Destroying 40 Amazon Satellites",
+      "summary": "United Launch Alliance suffered a total mission failure during a Vulcan rocket launch, marking its first mission failure in 20-year history. The flight failed to deliver 40 Amazon Leo satellites to orbit.",
+      "why_it_matters": "This launch failure impacts deployment schedules for satellite internet constellations competing with SpaceX.",
+      "item_ids": [
+        "f4d10e35baa22058405a242915ca2fe4",
+        "cb67ad571b153b7c30b6ed9e9a493cfe",
+        "550b44e9fa0d871015f64a64ca42348a",
+        "04a50513d7dc314b82b4b28108c97bdf"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-15T22:02:17.503187Z",
+      "last_shown": "2026-11-16T01:02:20.281972Z"
+    },
+    {
+      "id": "fb43e89fb20d8cbb7138fb0348a8f6be",
+      "title": "Italy Fines Meta Over Android Photo Gallery Access",
+      "summary": "Italy's data protection authority has fined Meta over a Facebook for Android feature that suggests photos and videos from users' phone galleries for posting without explicit consent. The fine totals hundreds of millions of euros.",
+      "why_it_matters": "Highlights strict European enforcement of explicit consent requirements for mobile operating system and media library access.",
+      "item_ids": [
+        "fb43e89fb20d8cbb7138fb0348a8f6be",
+        "633e7a47ec3824872ed3e7fecd86c67e",
+        "c9abec5349c2d90dcfdedb68b73362d6"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-15T12:02:16.829963Z",
+      "last_shown": "2026-11-16T01:02:20.281972Z"
+    },
+    {
+      "id": "5b8a9ede72c8184be8ce368cc695308d",
+      "title": "Cursor Confirms Security Breach Led to Malicious Claude Code Extension",
+      "summary": "Cursor confirmed it suffered a security breach that allowed hackers to distribute a malicious Claude Code extension through its marketplace. The compromise stemmed from a stolen access key exposed following a security incident at AI infrastructure provider Fireworks.",
+      "why_it_matters": "Demonstrates supply-chain risks in AI extension marketplaces and third-party infrastructure credential management.",
+      "item_ids": [
+        "5b8a9ede72c8184be8ce368cc695308d",
+        "64f15a4d4eca049c0fe2545c062d25a0"
+      ],
+      "primary_url": "https://cursor.com/blog/security-incident-update",
+      "first_shown": "2026-11-14T20:02:07.275856Z",
+      "last_shown": "2026-11-16T01:02:20.281972Z"
+    },
+    {
+      "id": "661d0b07a67c4e510725524a36f005d1",
+      "title": "Transportation Secretary Attributes Nationwide FAA Ground Stop to Copper Wire Replacement",
+      "summary": "Transportation Secretary Sean Duffy stated that a nationwide FAA ground stop was caused by work replacing outdated copper wire with a fiber optic line. Controllers and statements from L3Harris disputed aspects of the initial narrative.",
+      "why_it_matters": "Illustrates the fragility of critical national infrastructure during routine telecommunications upgrades.",
+      "item_ids": [
+        "661d0b07a67c4e510725524a36f005d1",
+        "7fea97adca8e066ff9fa16423ce0eaed",
+        "a1a97746b41fe6dd98b9b2d414da003a",
+        "792ed9a38c9fcecc295088fd2a3ed8cb"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-13T22:01:45.312547Z",
+      "last_shown": "2026-11-16T01:02:20.281972Z"
+    },
+    {
+      "id": "8c55b54a51e3143569b388ac3e0442dd",
+      "title": "Old Bitly Links Are Being Hijacked",
+      "summary": null,
+      "why_it_matters": "Exposes widespread link hijacking affecting legacy URL redirection infrastructure.",
+      "item_ids": [
+        "8c55b54a51e3143569b388ac3e0442dd"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-16T00:02:07.564790Z",
+      "last_shown": "2026-11-16T01:02:20.281972Z"
+    },
+    {
+      "id": "4f2ac3deb54d2efe524e9dc0d4281b42",
+      "title": "Microsoft 365 outage leads to chlorine gas poisoning of 15 hotel guests",
+      "summary": null,
+      "why_it_matters": "A striking postmortem on how cloud-based office software outages can cascade into physical safety incidents.",
+      "item_ids": [
+        "4f2ac3deb54d2efe524e9dc0d4281b42"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-15T20:02:06.678238Z",
+      "last_shown": "2026-11-16T01:02:20.281972Z"
+    },
+    {
+      "id": "ca5dd80797404b1339f89a7ffb5b5904",
+      "title": "FBI warns ARTEX AI hacking tool is powering global cyberattacks",
+      "summary": "The FBI is warning that hackers are using an AI-powered penetration testing framework called ARTEX to automate cyberattacks against organizations worldwide, including a recent ConnectWise supply-chain breach that compromised Microsoft 365 customer environments. [...]",
+      "why_it_matters": "Details active exploitation by state or criminal actors deploying autonomous AI frameworks for penetration testing and attacks.",
+      "item_ids": [
+        "ca5dd80797404b1339f89a7ffb5b5904"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-14T20:02:07.275856Z",
+      "last_shown": "2026-11-16T01:02:20.281972Z"
+    },
+    {
+      "id": "748048412ae17c01318a97712c0a93ad",
+      "title": "TSMC employee data breach linked to cloud provider",
+      "summary": "Taiwan Semiconductor Manufacturing Company (TSMC) confirmed that personal employee data has been leaked online after a threat actor put 6.9GB of information allegedly stolen from the company up for auction. [...]",
+      "why_it_matters": "Highlights cloud provider risks and data leak exposure for major semiconductor manufacturers.",
+      "item_ids": [
+        "748048412ae17c01318a97712c0a93ad"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-14T20:02:07.275856Z",
+      "last_shown": "2026-11-16T01:02:20.281972Z"
+    },
+    {
+      "id": "1c28a27369a8d72c63665c079737f27c",
+      "title": "The MacBook Pro's OLED PWM Problem: When a 'Better' Display Becomes Worse to Use",
+      "summary": null,
+      "why_it_matters": "Deep dives into display hardware engineering tradeoffs impacting user visual health and ergonomics.",
+      "item_ids": [
+        "1c28a27369a8d72c63665c079737f27c"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-15T19:02:08.039033Z",
+      "last_shown": "2026-11-16T01:02:20.281972Z"
+    },
+    {
+      "id": "ea5383b602e31fba68e0583928bf6ebb",
+      "title": "Lutnick Pushed to Weaken Chip Rules That Overlap with His Family Business",
+      "summary": "https://wallhop.io/https://www.nytimes.com/2026/11/15/us/pol...",
+      "why_it_matters": "Reports on regulatory lobbying conflicts involving family business ties to semiconductor policy.",
+      "item_ids": [
+        "ea5383b602e31fba68e0583928bf6ebb"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-15T19:02:08.039033Z",
+      "last_shown": "2026-11-16T01:02:20.281972Z"
+    }
+  ],
+  "past_top_stories": [
+    {
       "id": "ccbd0c2348ebd9ed2527c97059bdf914",
       "title": "SpaceX catches Starship booster with Mechazilla tower to end Flight 15",
       "summary": "SpaceX successfully captured a Starship vehicle using its Mechazilla launch and catch tower during Flight 15. The milestone demonstration showcased the company's catch system capabilities.",
@@ -30957,48 +31178,6 @@
       ],
       "primary_url": null,
       "first_shown": "2026-11-14T22:02:09.080440Z",
-      "last_shown": "2026-11-16T00:02:07.564790Z"
-    },
-    {
-      "id": "cb67ad571b153b7c30b6ed9e9a493cfe",
-      "title": "Vulcan rocket fails during launch, destroying 40 Amazon Leo satellites",
-      "summary": "A United Launch Alliance Vulcan rocket suffered a mission failure, resulting in the loss of 40 Amazon Leo satellites. This marks the first total mission failure in United Launch Alliance's 20-year history.",
-      "why_it_matters": "This failure impacts satellite deployment timelines and launch availability for major constellations like Amazon Leo.",
-      "item_ids": [
-        "cb67ad571b153b7c30b6ed9e9a493cfe",
-        "550b44e9fa0d871015f64a64ca42348a",
-        "f4d10e35baa22058405a242915ca2fe4",
-        "04a50513d7dc314b82b4b28108c97bdf"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-15T22:02:17.503187Z",
-      "last_shown": "2026-11-16T00:02:07.564790Z"
-    },
-    {
-      "id": "fb43e89fb20d8cbb7138fb0348a8f6be",
-      "title": "Italy fines Meta over Android photo and video access privacy",
-      "summary": "Italy's data protection authority has fined Meta over a Facebook for Android feature that suggests photos and videos from users' phone galleries without explicit consent. The penalty amounts to over 800 million euros.",
-      "why_it_matters": "It highlights strict regulatory enforcement on mobile app permissions and data access practices in Europe.",
-      "item_ids": [
-        "fb43e89fb20d8cbb7138fb0348a8f6be",
-        "633e7a47ec3824872ed3e7fecd86c67e",
-        "c9abec5349c2d90dcfdedb68b73362d6"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-15T12:02:16.829963Z",
-      "last_shown": "2026-11-16T00:02:07.564790Z"
-    },
-    {
-      "id": "5b8a9ede72c8184be8ce368cc695308d",
-      "title": "Stolen Fireworks AI key leads to Cursor security breach and malicious extension",
-      "summary": "Cursor confirmed it suffered a security breach that allowed attackers to distribute a malicious Claude Code extension through its marketplace. The compromise resulted from the theft of an access key exposed following a breach targeting Fireworks AI infrastructure.",
-      "why_it_matters": "It highlights supply-chain security risks involving third-party infrastructure keys and marketplace extension integrity.",
-      "item_ids": [
-        "5b8a9ede72c8184be8ce368cc695308d",
-        "64f15a4d4eca049c0fe2545c062d25a0"
-      ],
-      "primary_url": "https://cursor.com/blog/security-incident-update",
-      "first_shown": "2026-11-14T20:02:07.275856Z",
       "last_shown": "2026-11-16T00:02:07.564790Z"
     },
     {
@@ -31033,83 +31212,6 @@
       "last_shown": "2026-11-16T00:02:07.564790Z"
     },
     {
-      "id": "8c55b54a51e3143569b388ac3e0442dd",
-      "title": "Old Bitly Links Are Being Hijacked",
-      "summary": null,
-      "why_it_matters": "Old link hijacking poses severe security and continuity risks for applications depending on historical URL shorteners.",
-      "item_ids": [
-        "8c55b54a51e3143569b388ac3e0442dd"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-16T00:02:07.564790Z",
-      "last_shown": "2026-11-16T00:02:07.564790Z"
-    },
-    {
-      "id": "ca5dd80797404b1339f89a7ffb5b5904",
-      "title": "FBI warns ARTEX AI hacking tool is powering global cyberattacks",
-      "summary": "The FBI is warning that hackers are using an AI-powered penetration testing framework called ARTEX to automate cyberattacks against organizations worldwide, including a recent ConnectWise supply-chain breach that compromised Microsoft 365 customer environments. [...]",
-      "why_it_matters": "The rise of automated AI exploitation frameworks changes the threat landscape for vulnerability assessments and automated cyberattacks.",
-      "item_ids": [
-        "ca5dd80797404b1339f89a7ffb5b5904"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-14T20:02:07.275856Z",
-      "last_shown": "2026-11-16T00:02:07.564790Z"
-    },
-    {
-      "id": "748048412ae17c01318a97712c0a93ad",
-      "title": "TSMC employee data breach linked to cloud provider",
-      "summary": "Taiwan Semiconductor Manufacturing Company (TSMC) confirmed that personal employee data has been leaked online after a threat actor put 6.9GB of information allegedly stolen from the company up for auction. [...]",
-      "why_it_matters": "Cloud-linked employee data breaches emphasize ongoing risks in third-party vendor security for semiconductor manufacturers.",
-      "item_ids": [
-        "748048412ae17c01318a97712c0a93ad"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-14T20:02:07.275856Z",
-      "last_shown": "2026-11-16T00:02:07.564790Z"
-    },
-    {
-      "id": "ea5383b602e31fba68e0583928bf6ebb",
-      "title": "Lutnick Pushed to Weaken Chip Rules That Overlap with His Family Business",
-      "summary": "https://wallhop.io/https://www.nytimes.com/2026/11/15/us/pol...",
-      "why_it_matters": "Regulatory friction involving family business overlaps and chip export policy touches directly on government tech oversight.",
-      "item_ids": [
-        "ea5383b602e31fba68e0583928bf6ebb"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-15T19:02:08.039033Z",
-      "last_shown": "2026-11-16T00:02:07.564790Z"
-    }
-  ],
-  "past_top_stories": [
-    {
-      "id": "a1a97746b41fe6dd98b9b2d414da003a",
-      "title": "FAA Ground Stop Caused by Fiber Optic Copper Wire Replacement",
-      "summary": "Transportation Secretary Sean Duffy stated that a nationwide FAA ground stop was caused by work replacing outdated copper wire with a fiber optic line, with officials refuting alternative stories. Air traffic controllers disputed the transportation secretary's timeline.",
-      "why_it_matters": "Critical infrastructure updates and communications reliability directly affect aviation logistics and transport software networks.",
-      "item_ids": [
-        "a1a97746b41fe6dd98b9b2d414da003a",
-        "7fea97adca8e066ff9fa16423ce0eaed",
-        "92f7e80976482d59f4fbc917442404b0",
-        "792ed9a38c9fcecc295088fd2a3ed8cb"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-13T22:01:45.312547Z",
-      "last_shown": "2026-11-15T23:02:15.681741Z"
-    },
-    {
-      "id": "4f2ac3deb54d2efe524e9dc0d4281b42",
-      "title": "Microsoft 365 outage leads to chlorine gas poisoning of 15 hotel guests",
-      "summary": null,
-      "why_it_matters": "A software outage leading to a severe industrial chemical incident highlights the real-world physical safety risks tied to cloud infrastructure reliability.",
-      "item_ids": [
-        "4f2ac3deb54d2efe524e9dc0d4281b42"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-15T20:02:06.678238Z",
-      "last_shown": "2026-11-15T23:02:15.681741Z"
-    },
-    {
       "id": "c28c0b3c68a4434c294cf480fcbf790e",
       "title": "Court denies motion to dismiss DRAM price fixing case",
       "summary": null,
@@ -31132,18 +31234,6 @@
       "primary_url": null,
       "first_shown": "2026-11-15T22:02:17.503187Z",
       "last_shown": "2026-11-15T22:02:17.503187Z"
-    },
-    {
-      "id": "1c28a27369a8d72c63665c079737f27c",
-      "title": "The MacBook Pro's OLED PWM Problem: When a 'Better' Display Becomes Worse to Use",
-      "summary": null,
-      "why_it_matters": "OLED PWM flicker issues directly affect hardware ergonomics and developer eye strain during extended display usage.",
-      "item_ids": [
-        "1c28a27369a8d72c63665c079737f27c"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-15T19:02:08.039033Z",
-      "last_shown": "2026-11-15T21:02:19.870062Z"
     },
     {
       "id": "c0bb1df29ad8466476d1c1861db487ba",
