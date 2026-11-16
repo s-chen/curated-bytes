@@ -1,6 +1,96 @@
 {
-  "generated_at": "2026-11-16T01:02:20.281972Z",
+  "generated_at": "2026-11-16T02:02:19.925222Z",
   "items": [
+    {
+      "id": "33adc3f975389bac13ba71638b3ca57c",
+      "title": "\"Who is Hiring?\" postings stuck near 12-year lows as AI reaches half of all jobs",
+      "url": "https://www.hntrends.com/2026/november.html",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-11-16T01:31:30Z",
+      "fetched_at": "2026-11-16T02:02:19.925222Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50512950",
+      "points": 22,
+      "comments": 2,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "c87821b213b2b5aa9f24d0a0a5a1cfe8",
+      "title": "Apple launches new app to study how people use AI for health",
+      "url": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/",
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "category": "tech",
+      "summary": "Apple's new app for a study will answer everyday medical questions",
+      "published_at": "2026-11-16T01:30:00Z",
+      "fetched_at": "2026-11-16T02:02:19.925222Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 4
+    },
+    {
+      "id": "4cc958e0aa5688f7559a623d6f8a5f8c",
+      "title": "Nix: Using the eval-profiler",
+      "url": "https://nix.dev/manual/nix/2.35/advanced-topics/eval-profiler",
+      "source_id": "lobsters",
+      "source_name": "Lobsters",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-11-16T01:28:22Z",
+      "fetched_at": "2026-11-16T02:02:19.925222Z",
+      "discussion_url": "https://lobste.rs/s/7kt4yi/nix_using_eval_profiler",
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": true,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "cac14dbf1b1ad3347464dae233e30504",
+      "title": "Apple’s new study looks to improve the effectiveness of AI health tools",
+      "url": "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools",
+      "source_id": "the-verge",
+      "source_name": "The Verge",
+      "category": "tech",
+      "summary": "Apple announced a new study today with the goal of better understanding how people interact with conversational AI health tools and how useful their responses actually are. The company is conducting the Apple Health AI Usage Study in collaboration with OpenEvidence, a clinical AI platform used by healthcare professionals that generates answers based on medical […]",
+      "published_at": "2026-11-16T01:26:56Z",
+      "fetched_at": "2026-11-16T02:02:19.925222Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 4
+    },
+    {
+      "id": "dc9cf666b86ea421d663bf3609316069",
+      "title": "Coles hit by a cybersecurity incident",
+      "url": "https://www.colesgroup.com.au/updates/",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-11-16T01:14:35Z",
+      "fetched_at": "2026-11-16T02:02:19.925222Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50512824",
+      "points": 16,
+      "comments": 3,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
     {
       "id": "ea5579325c8174fd1fa89eb2ed898f2f",
       "title": "beer.drv.drv.drv",
@@ -15,9 +105,27 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 2
+    },
+    {
+      "id": "f33fd9c9238bbcf7961174615f9fe167",
+      "title": "Tor Project Issues Rapid-Response DoS-Defense Fix Amid Sustained DDoS Attack",
+      "url": "https://forum.torproject.org/t/security-release-0-4-9-17/22454",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-11-16T00:21:54Z",
+      "fetched_at": "2026-11-16T02:02:19.925222Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50512441",
+      "points": 19,
+      "comments": 3,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 4
     },
     {
       "id": "60c153a91dc9a77b2a5c26ccf0134156",
@@ -38,6 +146,24 @@
       "importance": 3
     },
     {
+      "id": "17dc0c78b9f63cb5cceac76ce453630c",
+      "title": "datasette-maplibre 0.1a0",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-maplibre/",
+      "source_id": "simon-willison",
+      "source_name": "Simon Willison",
+      "category": "tech",
+      "summary": "Release: datasette-maplibre 0.1a0 The first new Datasette geospatial plugin in quite a while! This one combines the excellent MapLibre GL library with OpenFreeMap, the free vector map server operated by Zsolt Ero (you should sponsor Zsolt on GitHub.) I built most of this with a single prompt to Claude Fable 5.2: Look at datasette-cluster-map and datasette-leaflet-geojson plugins, then look at ~/dev/tools/openfreemap-demo.html - then build a brand new Datasette plugin that uses maplibreGL and…",
+      "published_at": "2026-11-15T23:58:36Z",
+      "fetched_at": "2026-11-16T02:02:19.925222Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": true,
+      "review": "kept",
+      "importance": 3
+    },
+    {
       "id": "b1b400ca3768614f462c46d33d274c98",
       "title": "What's Next for Nvidia?",
       "url": "https://steveblank.com/2026/11/15/whats-next-for-nvidia/",
@@ -48,12 +174,12 @@
       "published_at": "2026-11-15T23:55:55Z",
       "fetched_at": "2026-11-16T01:02:20.281972Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50512235",
-      "points": 5,
-      "comments": 3,
+      "points": 60,
+      "comments": 54,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "87f7053ab1c57d5643b5a5de523f6caf",
@@ -66,12 +192,30 @@
       "published_at": "2026-11-15T23:55:41Z",
       "fetched_at": "2026-11-16T01:02:20.281972Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50512231",
-      "points": 16,
-      "comments": 3,
+      "points": 30,
+      "comments": 8,
+      "engineering": false,
+      "blog": true,
+      "review": "kept",
+      "importance": 2
+    },
+    {
+      "id": "ac0b422a7ff1ce887c4976907ea4547e",
+      "title": "Microsoft lifts Indian cloud prices by 15 percent, cuts costs in China",
+      "url": "https://www.theregister.com/off-prem/2026/11/15/microsoft-lifts-indian-cloud-prices-by-15-percent-cuts-costs-in-china/5309993",
+      "source_id": "the-register",
+      "source_name": "The Register",
+      "category": "tech",
+      "summary": "PLUS: SEGA Japan suffers outage and data leak; India bans dead battery exports; Alibaba chip unit to float; and more",
+      "published_at": "2026-11-15T23:46:01Z",
+      "fetched_at": "2026-11-16T02:02:19.925222Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "f72b0d8bec9b65f401ed88e22342615d",
@@ -107,7 +251,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "b1d473e02458321b4773452af981df7c",
@@ -161,7 +305,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "cb67ad571b153b7c30b6ed9e9a493cfe",
@@ -179,7 +323,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "3d30f693013b95e902e697b81e1ec654",
@@ -210,8 +354,8 @@
       "published_at": "2026-11-15T23:00:11Z",
       "fetched_at": "2026-11-16T00:02:07.564790Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50511806",
-      "points": 52,
-      "comments": 10,
+      "points": 71,
+      "comments": 16,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -228,8 +372,8 @@
       "published_at": "2026-11-15T22:48:52Z",
       "fetched_at": "2026-11-16T00:02:07.564790Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50511718",
-      "points": 29,
-      "comments": 5,
+      "points": 46,
+      "comments": 6,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -251,7 +395,7 @@
       "engineering": false,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "a381a079fe7d61d8ad65dabb37d460b3",
@@ -300,12 +444,30 @@
       "published_at": "2026-11-15T22:11:43Z",
       "fetched_at": "2026-11-15T23:02:15.681741Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50511395",
-      "points": 139,
-      "comments": 69,
+      "points": 172,
+      "comments": 87,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
+    },
+    {
+      "id": "158a3aa942337e8b366ecd744616eb67",
+      "title": "DefCon: Breaking into Amazon Lockers by Any Means Necessary",
+      "url": "https://www.youtube.com/watch?v=ZVmRe8OVZtE",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-11-15T22:07:08Z",
+      "fetched_at": "2026-11-16T02:02:19.925222Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50511362",
+      "points": 6,
+      "comments": 0,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "df3e44b99410d919ee7f29ed52f9668c",
@@ -339,7 +501,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 2
     },
@@ -395,7 +557,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "20b355fdb5a9ea0cf334c4fd4e5dc7f5",
@@ -429,7 +591,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 3
     },
@@ -485,7 +647,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "04a50513d7dc314b82b4b28108c97bdf",
@@ -498,12 +660,12 @@
       "published_at": "2026-11-15T20:37:28Z",
       "fetched_at": "2026-11-15T22:02:17.503187Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50510442",
-      "points": 101,
-      "comments": 52,
+      "points": 117,
+      "comments": 62,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "7022f8cbe1430bc4e2307bbfac980877",
@@ -573,7 +735,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -593,7 +755,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "9f8a28368cbd3c3212e496d31672ea9c",
@@ -611,7 +773,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "8cc0787edc93627d2c6b844c91b42771",
@@ -624,12 +786,12 @@
       "published_at": "2026-11-15T19:42:13Z",
       "fetched_at": "2026-11-15T22:02:17.503187Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50509972",
-      "points": 109,
-      "comments": 29,
+      "points": 127,
+      "comments": 32,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "4879308695b0a5139f60c72d2df97a0f",
@@ -665,7 +827,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "d26ab2a824eebf34c00ccb751c111950",
@@ -683,7 +845,7 @@
       "engineering": false,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "c3a09b75ebc5d96cb616034d6cf183e8",
@@ -701,7 +863,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "0a615651dc1468111fa639f1399c1eca",
@@ -714,8 +876,8 @@
       "published_at": "2026-11-15T19:26:22Z",
       "fetched_at": "2026-11-15T22:02:17.503187Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50509837",
-      "points": 145,
-      "comments": 32,
+      "points": 165,
+      "comments": 41,
       "engineering": false,
       "blog": true,
       "review": "kept",
@@ -737,7 +899,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "5791bd992a12c3b5eb90a2992ffa81dd",
@@ -750,8 +912,8 @@
       "published_at": "2026-11-15T18:36:40Z",
       "fetched_at": "2026-11-15T19:09:12.296958Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50509416",
-      "points": 60,
-      "comments": 23,
+      "points": 66,
+      "comments": 28,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -768,8 +930,8 @@
       "published_at": "2026-11-15T18:36:10Z",
       "fetched_at": "2026-11-15T20:02:06.678238Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50509411",
-      "points": 372,
-      "comments": 177,
+      "points": 398,
+      "comments": 184,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -822,8 +984,8 @@
       "published_at": "2026-11-15T18:23:21Z",
       "fetched_at": "2026-11-15T19:02:08.039033Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50509308",
-      "points": 168,
-      "comments": 67,
+      "points": 176,
+      "comments": 78,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -840,8 +1002,8 @@
       "published_at": "2026-11-15T17:53:31Z",
       "fetched_at": "2026-11-15T19:02:08.039033Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50509023",
-      "points": 160,
-      "comments": 121,
+      "points": 171,
+      "comments": 123,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -858,10 +1020,10 @@
       "published_at": "2026-11-15T17:22:32Z",
       "fetched_at": "2026-11-15T20:02:06.678238Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50508715",
-      "points": 94,
-      "comments": 62,
+      "points": 105,
+      "comments": 68,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 3
     },
@@ -881,7 +1043,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "abfdb69abd3a2b29876ec8cdfb7416d7",
@@ -933,7 +1095,7 @@
       "points": 8,
       "comments": 3,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 2
     },
@@ -1038,8 +1200,8 @@
       "published_at": "2026-11-15T15:21:21Z",
       "fetched_at": "2026-11-15T16:02:09.665736Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50507553",
-      "points": 174,
-      "comments": 93,
+      "points": 182,
+      "comments": 97,
       "engineering": false,
       "blog": true,
       "review": "kept",
@@ -1059,7 +1221,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -1077,9 +1239,9 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "bad262ace09e4bdd6a6356e2291b3720",
@@ -1097,7 +1259,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "1f1c507a264de63da64b570fd92ca009",
@@ -1182,8 +1344,8 @@
       "published_at": "2026-11-15T13:44:16Z",
       "fetched_at": "2026-11-15T15:02:08.781481Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50506894",
-      "points": 195,
-      "comments": 102,
+      "points": 205,
+      "comments": 108,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -1223,7 +1385,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "7a0ca8d41b54ae1c372feb9c34d09daa",
@@ -1421,7 +1583,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "2c404e39b8c54174256bb3f8a26e788e",
@@ -1439,7 +1601,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 1
+      "importance": 2
     },
     {
       "id": "9dfd528d04e31063dcb66093e7ec10bc",
@@ -1475,7 +1637,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 1
+      "importance": 2
     },
     {
       "id": "76e8620399044de1494241cf33dab3dd",
@@ -1493,7 +1655,7 @@
       "engineering": false,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "912621864601a868ce741f195fb304e9",
@@ -1509,7 +1671,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 2
     },
@@ -1581,7 +1743,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 2
     },
@@ -1617,9 +1779,9 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "6647d43a1e8dc32db24a3252a98913dc",
@@ -1781,7 +1943,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "7ed180eb07435480b2b5fba817e45249",
@@ -1799,7 +1961,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "146fbc35a05cf598d101ad17df8c9cc9",
@@ -1830,8 +1992,8 @@
       "published_at": "2026-11-15T02:39:31Z",
       "fetched_at": "2026-11-15T03:02:10.122183Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50510296",
-      "points": 80,
-      "comments": 10,
+      "points": 92,
+      "comments": 11,
       "engineering": false,
       "blog": true,
       "review": "kept",
@@ -1851,7 +2013,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 2
     },
@@ -1979,7 +2141,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "c08f3a6148eb669072734aab75f383bc",
@@ -2121,7 +2283,7 @@
       "points": 302,
       "comments": 157,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 3
     },
@@ -2141,7 +2303,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "d01ce5a98184df888afba7881b0d9256",
@@ -2177,7 +2339,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "50646efac2a9f716393f7943d0ceaf49",
@@ -2195,7 +2357,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 5
     },
     {
       "id": "371978ec3aa208565dd6627e14dcc90f",
@@ -2213,7 +2375,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 1
     },
     {
       "id": "7aab8a7197e1771b035326ffeb5726b1",
@@ -2267,7 +2429,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "852fe56060a9326b7554eb8790d0444d",
@@ -2447,7 +2609,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "9da26a484326808ad36499e22919eb7e",
@@ -2483,7 +2645,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "868875ae188a2da3db3fa0107c641f56",
@@ -2501,7 +2663,7 @@
       "engineering": false,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "64f15a4d4eca049c0fe2545c062d25a0",
@@ -2553,7 +2715,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -2573,7 +2735,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 1
     },
     {
       "id": "81edcd30d4486d945a52ccc95247fd58",
@@ -2643,7 +2805,7 @@
       "points": 49,
       "comments": 9,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 3
     },
@@ -2679,7 +2841,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -2735,7 +2897,7 @@
       "engineering": false,
       "blog": true,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "b6c96ebe93d7d917510ab097854f9418",
@@ -2753,7 +2915,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "a5d684ab3e732811e8d67babef56e02b",
@@ -26498,24 +26660,6 @@
       "importance": 3
     },
     {
-      "id": "c3565d005aa8befda6a13da3a15fd62c",
-      "title": "RIP, Harvest",
-      "url": "https://aphyr.com/posts/427-rip-harvest",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-11-09T01:58:21Z",
-      "fetched_at": "2026-11-09T04:01:39.723648Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50420035",
-      "points": 386,
-      "comments": 118,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 4
-    },
-    {
       "id": "963accd6dd998d8b00993bd6d90057b9",
       "title": "When a language’s creator and its owners strongly disagree: C++26 post-DIS, historical experience, and paths forward",
       "url": "https://isocpp.org/files/papers/P4454R0.pdf",
@@ -31036,98 +31180,140 @@
   ],
   "top_stories": [
     {
-      "id": "f4d10e35baa22058405a242915ca2fe4",
-      "title": "Vulcan Rocket Fails During Launch, Destroying 40 Amazon Satellites",
-      "summary": "United Launch Alliance suffered a total mission failure during a Vulcan rocket launch, marking its first mission failure in 20-year history. The flight failed to deliver 40 Amazon Leo satellites to orbit.",
-      "why_it_matters": "This launch failure impacts deployment schedules for satellite internet constellations competing with SpaceX.",
+      "id": "04a50513d7dc314b82b4b28108c97bdf",
+      "title": "Vulcan rocket fails during launch, destroying 40 Amazon satellites",
+      "summary": "A United Launch Alliance Vulcan rocket suffered a total mission failure during flight, resulting in the loss of 40 Amazon Leo satellites. This marks the first total mission failure in ULA's 20-year history.",
+      "why_it_matters": "Disrupts launch schedules and satellite deployments for commercial mega-constellations.",
       "item_ids": [
-        "f4d10e35baa22058405a242915ca2fe4",
+        "04a50513d7dc314b82b4b28108c97bdf",
         "cb67ad571b153b7c30b6ed9e9a493cfe",
-        "550b44e9fa0d871015f64a64ca42348a",
-        "04a50513d7dc314b82b4b28108c97bdf"
+        "f4d10e35baa22058405a242915ca2fe4",
+        "550b44e9fa0d871015f64a64ca42348a"
       ],
       "primary_url": null,
       "first_shown": "2026-11-15T22:02:17.503187Z",
-      "last_shown": "2026-11-16T01:02:20.281972Z"
-    },
-    {
-      "id": "fb43e89fb20d8cbb7138fb0348a8f6be",
-      "title": "Italy Fines Meta Over Android Photo Gallery Access",
-      "summary": "Italy's data protection authority has fined Meta over a Facebook for Android feature that suggests photos and videos from users' phone galleries for posting without explicit consent. The fine totals hundreds of millions of euros.",
-      "why_it_matters": "Highlights strict European enforcement of explicit consent requirements for mobile operating system and media library access.",
-      "item_ids": [
-        "fb43e89fb20d8cbb7138fb0348a8f6be",
-        "633e7a47ec3824872ed3e7fecd86c67e",
-        "c9abec5349c2d90dcfdedb68b73362d6"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-15T12:02:16.829963Z",
-      "last_shown": "2026-11-16T01:02:20.281972Z"
-    },
-    {
-      "id": "5b8a9ede72c8184be8ce368cc695308d",
-      "title": "Cursor Confirms Security Breach Led to Malicious Claude Code Extension",
-      "summary": "Cursor confirmed it suffered a security breach that allowed hackers to distribute a malicious Claude Code extension through its marketplace. The compromise stemmed from a stolen access key exposed following a security incident at AI infrastructure provider Fireworks.",
-      "why_it_matters": "Demonstrates supply-chain risks in AI extension marketplaces and third-party infrastructure credential management.",
-      "item_ids": [
-        "5b8a9ede72c8184be8ce368cc695308d",
-        "64f15a4d4eca049c0fe2545c062d25a0"
-      ],
-      "primary_url": "https://cursor.com/blog/security-incident-update",
-      "first_shown": "2026-11-14T20:02:07.275856Z",
-      "last_shown": "2026-11-16T01:02:20.281972Z"
+      "last_shown": "2026-11-16T02:02:19.925222Z"
     },
     {
       "id": "661d0b07a67c4e510725524a36f005d1",
-      "title": "Transportation Secretary Attributes Nationwide FAA Ground Stop to Copper Wire Replacement",
-      "summary": "Transportation Secretary Sean Duffy stated that a nationwide FAA ground stop was caused by work replacing outdated copper wire with a fiber optic line. Controllers and statements from L3Harris disputed aspects of the initial narrative.",
-      "why_it_matters": "Illustrates the fragility of critical national infrastructure during routine telecommunications upgrades.",
+      "title": "FAA nationwide ground stop attributed to copper-to-fiber cable upgrades",
+      "summary": "Transportation Secretary Sean Duffy and FAA officials stated that a nationwide ground stop was caused by routine infrastructure work replacing outdated copper wire with a fiber optic line. Air traffic controllers disputed earlier explanations regarding the incident.",
+      "why_it_matters": "Highlights critical infrastructure vulnerabilities and communication dependencies in aviation systems.",
       "item_ids": [
         "661d0b07a67c4e510725524a36f005d1",
         "7fea97adca8e066ff9fa16423ce0eaed",
         "a1a97746b41fe6dd98b9b2d414da003a",
-        "792ed9a38c9fcecc295088fd2a3ed8cb"
+        "792ed9a38c9fcecc295088fd2a3ed8cb",
+        "92f7e80976482d59f4fbc917442404b0"
       ],
       "primary_url": null,
       "first_shown": "2026-11-13T22:01:45.312547Z",
-      "last_shown": "2026-11-16T01:02:20.281972Z"
+      "last_shown": "2026-11-16T02:02:19.925222Z"
+    },
+    {
+      "id": "64f15a4d4eca049c0fe2545c062d25a0",
+      "title": "Cursor confirms security breach and malicious Claude Code extension",
+      "summary": "Cursor confirmed a security breach involving the theft of an access key from AI infrastructure provider Fireworks, which allowed hackers to distribute a malicious Claude Code extension through its marketplace.",
+      "why_it_matters": "Directly impacts developer tool security and underscores supply-chain risks in extension marketplaces.",
+      "item_ids": [
+        "64f15a4d4eca049c0fe2545c062d25a0",
+        "5b8a9ede72c8184be8ce368cc695308d"
+      ],
+      "primary_url": "https://cursor.com/blog/security-incident-update",
+      "first_shown": "2026-11-14T20:02:07.275856Z",
+      "last_shown": "2026-11-16T02:02:19.925222Z"
+    },
+    {
+      "id": "fb43e89fb20d8cbb7138fb0348a8f6be",
+      "title": "Italy fines Meta €805 million over Facebook Android gallery access",
+      "summary": "Italy's data protection authority fined Meta €805 million over a Facebook feature for Android that suggested photos and videos from users' phone galleries without explicit consent.",
+      "why_it_matters": "Imposes major regulatory penalties regarding default user privacy and mobile permissions.",
+      "item_ids": [
+        "fb43e89fb20d8cbb7138fb0348a8f6be",
+        "633e7a47ec3824872ed3e7fecd86c67e"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-15T12:02:16.829963Z",
+      "last_shown": "2026-11-16T02:02:19.925222Z"
+    },
+    {
+      "id": "cac14dbf1b1ad3347464dae233e30504",
+      "title": "Apple launches study app to examine conversational AI health tools",
+      "summary": "Apple announced a new study and app designed to understand how people interact with conversational AI health tools and evaluate the usefulness of their responses.",
+      "why_it_matters": "Signals growing enterprise and regulatory interest in validating health-related AI applications.",
+      "item_ids": [
+        "cac14dbf1b1ad3347464dae233e30504",
+        "c87821b213b2b5aa9f24d0a0a5a1cfe8"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-16T02:02:19.925222Z",
+      "last_shown": "2026-11-16T02:02:19.925222Z"
+    },
+    {
+      "id": "c3a09b75ebc5d96cb616034d6cf183e8",
+      "title": "Jensen Huang discusses potential return as Nvidia CEO",
+      "summary": "Former Nvidia CEO Jensen Huang has been discussing a potential return to leadership with allies amid ongoing executive changes and industry scrutiny. The leadership drama has sparked widespread discussion across the tech sector.",
+      "why_it_matters": "Affects leadership stability and strategic direction at the world's leading AI hardware provider.",
+      "item_ids": [
+        "c3a09b75ebc5d96cb616034d6cf183e8",
+        "5229b0f16ae5600e76b36939b7684fb2",
+        "5243c0b686f8594679a44795938698b9",
+        "8466bfa20f2d28faac040b69e83872f1"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-15T21:02:19.870062Z",
+      "last_shown": "2026-11-16T02:02:19.925222Z"
     },
     {
       "id": "8c55b54a51e3143569b388ac3e0442dd",
       "title": "Old Bitly Links Are Being Hijacked",
       "summary": null,
-      "why_it_matters": "Exposes widespread link hijacking affecting legacy URL redirection infrastructure.",
+      "why_it_matters": "Alerts developers and web administrators to widespread subdomain hijacking risks affecting legacy short links.",
       "item_ids": [
         "8c55b54a51e3143569b388ac3e0442dd"
       ],
       "primary_url": null,
       "first_shown": "2026-11-16T00:02:07.564790Z",
-      "last_shown": "2026-11-16T01:02:20.281972Z"
+      "last_shown": "2026-11-16T02:02:19.925222Z"
+    },
+    {
+      "id": "1c28a27369a8d72c63665c079737f27c",
+      "title": "The MacBook Pro's OLED PWM Problem: When a 'Better' Display Becomes Worse to Use",
+      "summary": null,
+      "why_it_matters": "Details severe hardware ergonomics and health impacts affecting modern high-refresh-rate laptop displays.",
+      "item_ids": [
+        "1c28a27369a8d72c63665c079737f27c"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-15T19:02:08.039033Z",
+      "last_shown": "2026-11-16T02:02:19.925222Z"
     },
     {
       "id": "4f2ac3deb54d2efe524e9dc0d4281b42",
       "title": "Microsoft 365 outage leads to chlorine gas poisoning of 15 hotel guests",
       "summary": null,
-      "why_it_matters": "A striking postmortem on how cloud-based office software outages can cascade into physical safety incidents.",
+      "why_it_matters": "Demonstrates catastrophic real-world consequences when cloud service outages intersect with physical industrial systems.",
       "item_ids": [
         "4f2ac3deb54d2efe524e9dc0d4281b42"
       ],
       "primary_url": null,
       "first_shown": "2026-11-15T20:02:06.678238Z",
-      "last_shown": "2026-11-16T01:02:20.281972Z"
+      "last_shown": "2026-11-16T02:02:19.925222Z"
     },
     {
       "id": "ca5dd80797404b1339f89a7ffb5b5904",
       "title": "FBI warns ARTEX AI hacking tool is powering global cyberattacks",
       "summary": "The FBI is warning that hackers are using an AI-powered penetration testing framework called ARTEX to automate cyberattacks against organizations worldwide, including a recent ConnectWise supply-chain breach that compromised Microsoft 365 customer environments. [...]",
-      "why_it_matters": "Details active exploitation by state or criminal actors deploying autonomous AI frameworks for penetration testing and attacks.",
+      "why_it_matters": "Highlights the emergence of automated AI frameworks being leveraged for active enterprise cyberattacks.",
       "item_ids": [
         "ca5dd80797404b1339f89a7ffb5b5904"
       ],
       "primary_url": null,
       "first_shown": "2026-11-14T20:02:07.275856Z",
-      "last_shown": "2026-11-16T01:02:20.281972Z"
-    },
+      "last_shown": "2026-11-16T02:02:19.925222Z"
+    }
+  ],
+  "past_top_stories": [
     {
       "id": "748048412ae17c01318a97712c0a93ad",
       "title": "TSMC employee data breach linked to cloud provider",
@@ -31141,18 +31327,6 @@
       "last_shown": "2026-11-16T01:02:20.281972Z"
     },
     {
-      "id": "1c28a27369a8d72c63665c079737f27c",
-      "title": "The MacBook Pro's OLED PWM Problem: When a 'Better' Display Becomes Worse to Use",
-      "summary": null,
-      "why_it_matters": "Deep dives into display hardware engineering tradeoffs impacting user visual health and ergonomics.",
-      "item_ids": [
-        "1c28a27369a8d72c63665c079737f27c"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-15T19:02:08.039033Z",
-      "last_shown": "2026-11-16T01:02:20.281972Z"
-    },
-    {
       "id": "ea5383b602e31fba68e0583928bf6ebb",
       "title": "Lutnick Pushed to Weaken Chip Rules That Overlap with His Family Business",
       "summary": "https://wallhop.io/https://www.nytimes.com/2026/11/15/us/pol...",
@@ -31163,9 +31337,7 @@
       "primary_url": null,
       "first_shown": "2026-11-15T19:02:08.039033Z",
       "last_shown": "2026-11-16T01:02:20.281972Z"
-    }
-  ],
-  "past_top_stories": [
+    },
     {
       "id": "ccbd0c2348ebd9ed2527c97059bdf914",
       "title": "SpaceX catches Starship booster with Mechazilla tower to end Flight 15",
@@ -31178,37 +31350,6 @@
       ],
       "primary_url": null,
       "first_shown": "2026-11-14T22:02:09.080440Z",
-      "last_shown": "2026-11-16T00:02:07.564790Z"
-    },
-    {
-      "id": "bc766627e4a1f87cbc53067d67c749e4",
-      "title": "Jensen Huang Steps Down Amid Nvidia Leadership and Security Drama",
-      "summary": "Nvidia co-founder and former CEO Jensen Huang has stepped down following leadership and relationship disclosures involving an executive at a company suspected of funneling chips to China. Amid ongoing fallout, tech executives have signed a petition calling for his reinstatement, while Congress looks to further tighten export rules on AI chips.",
-      "why_it_matters": "Leadership changes at Nvidia and subsequent regulatory tightening directly impact the semiconductor supply chain and AI infrastructure market.",
-      "item_ids": [
-        "bc766627e4a1f87cbc53067d67c749e4",
-        "5243c0b686f8594679a44795938698b9",
-        "c3a09b75ebc5d96cb616034d6cf183e8",
-        "8466bfa20f2d28faac040b69e83872f1",
-        "c08f3a6148eb669072734aab75f383bc",
-        "d01ce5a98184df888afba7881b0d9256",
-        "81edcd30d4486d945a52ccc95247fd58",
-        "300cf280a3424e561c0424a28af846d0"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-15T21:02:19.870062Z",
-      "last_shown": "2026-11-16T00:02:07.564790Z"
-    },
-    {
-      "id": "5229b0f16ae5600e76b36939b7684fb2",
-      "title": "Jensen Huang might return to Nvidia as CEO",
-      "summary": null,
-      "why_it_matters": "Speculation surrounding leadership changes at major chipmakers can significantly alter investor confidence and market dynamics.",
-      "item_ids": [
-        "5229b0f16ae5600e76b36939b7684fb2"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-16T00:02:07.564790Z",
       "last_shown": "2026-11-16T00:02:07.564790Z"
     },
     {
