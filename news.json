@@ -1,6 +1,78 @@
 {
-  "generated_at": "2026-11-16T08:02:10.895693Z",
+  "generated_at": "2026-11-16T09:02:17.174961Z",
   "items": [
+    {
+      "id": "79d78c3908a8c1f7046508b707e70b63",
+      "title": "Uno Platform 7.0 Adds WebGPU Backend, Apple TV and Reactor Support, and Retires Native Rendering",
+      "url": "https://www.infoq.com/news/2026/11/Uno-Platform-6-7-targets/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source_id": "infoq",
+      "source_name": "InfoQ",
+      "category": "tech",
+      "summary": "Uno Platform 7.0 unifies rendering on SkiaSharp 4 with an opt-in WebGPU backend, adds Apple TV as a target and supports .NET 11 from day zero. It also runs third-party .NET MAUI controls and Microsoft.UI.Reactor on all targets, and removes native rendering and Mac Catalyst. By Edin Kapić",
+      "published_at": "2026-11-16T09:00:00Z",
+      "fetched_at": "2026-11-16T09:02:17.174961Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": null,
+      "review": "pending",
+      "importance": null
+    },
+    {
+      "id": "52411bf902540170dfe951877323cabf",
+      "title": "Alpine Linux Users Urged to Patch OpenSSH Authentication Flaw",
+      "url": "https://www.infoq.com/news/2026/11/alpine-linux-openssh-sshhole/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source_id": "infoq",
+      "source_name": "InfoQ",
+      "category": "tech",
+      "summary": "A recently disclosed vulnerability in OpenSSH lets an unauthenticated attacker log into accounts that should have no usable password. The issue, named *sshole and tracked as CVE-2026-123158, affects Linux systems running OpenSSH with the musl C library and which don't use PAM. Security researchers now report that attackers are exploiting it in the wild. By Matt Saunders",
+      "published_at": "2026-11-16T09:00:00Z",
+      "fetched_at": "2026-11-16T09:02:17.174961Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": null,
+      "review": "pending",
+      "importance": null
+    },
+    {
+      "id": "6fd49adc1a9378163a75a6ba9b7a119f",
+      "title": "you won't win at copyright",
+      "url": "https://ingrids.space/posts/you-wont-win-at-copyright/",
+      "source_id": "lobsters",
+      "source_name": "Lobsters",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-11-16T08:30:13Z",
+      "fetched_at": "2026-11-16T09:02:17.174961Z",
+      "discussion_url": "https://lobste.rs/s/emdfap/you_won_t_win_at_copyright",
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": null,
+      "review": "pending",
+      "importance": null
+    },
+    {
+      "id": "6dd974937c0efc7371a7ec905f5c1a4c",
+      "title": "Microsoft pushes Windows emergency updates to fix activation failures",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-new-windows-emergency-updates-fix-activation-licensing-failures/",
+      "source_id": "bleepingcomputer",
+      "source_name": "BleepingComputer",
+      "category": "tech",
+      "summary": "Microsoft has released emergency out-of-band updates to fix Windows activation and licensing failures caused by this month's security updates. [...]",
+      "published_at": "2026-11-16T08:26:52Z",
+      "fetched_at": "2026-11-16T09:02:17.174961Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": null,
+      "review": "pending",
+      "importance": null
+    },
     {
       "id": "67bb3d5c3273f900074239b720b09d95",
       "title": "Amazon Uncovers AI Agent Campaign Targeting LiteLLM, Dify, and Other Apps for API Keys",
@@ -102,8 +174,8 @@
       "published_at": "2026-11-16T05:50:37Z",
       "fetched_at": "2026-11-16T07:02:09.755779Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50514470",
-      "points": 136,
-      "comments": 25,
+      "points": 210,
+      "comments": 36,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -128,6 +200,24 @@
       "importance": 2
     },
     {
+      "id": "2a822719a4e469d70d6ee08df66850cd",
+      "title": "Did the Apollo Guidance Computer use 60% of the ICs in 1963?",
+      "url": "https://retrocomputing.stackexchange.com/questions/12158/did-the-apollo-guidance-computer-really-use-60-of-the-worlds-ics-in-1963",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-11-16T05:05:54Z",
+      "fetched_at": "2026-11-16T09:02:17.174961Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50514257",
+      "points": 8,
+      "comments": 1,
+      "engineering": false,
+      "blog": null,
+      "review": "pending",
+      "importance": null
+    },
+    {
       "id": "58a5b61e744ab056b77042bab9782f6b",
       "title": "Debian Becomes Unresponsive after 6.1.0-55 Kernel Update",
       "url": "https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1154101",
@@ -138,8 +228,8 @@
       "published_at": "2026-11-16T04:53:06Z",
       "fetched_at": "2026-11-16T06:02:21.881018Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50514180",
-      "points": 65,
-      "comments": 8,
+      "points": 75,
+      "comments": 18,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -156,8 +246,8 @@
       "published_at": "2026-11-16T04:37:03Z",
       "fetched_at": "2026-11-16T06:02:21.881018Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50514093",
-      "points": 39,
-      "comments": 22,
+      "points": 44,
+      "comments": 28,
       "engineering": false,
       "blog": false,
       "review": "pending",
@@ -246,8 +336,8 @@
       "published_at": "2026-11-16T02:14:44Z",
       "fetched_at": "2026-11-16T04:02:16.009849Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50513215",
-      "points": 408,
-      "comments": 149,
+      "points": 459,
+      "comments": 180,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -372,8 +462,8 @@
       "published_at": "2026-11-16T01:14:35Z",
       "fetched_at": "2026-11-16T02:02:19.925222Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50512824",
-      "points": 94,
-      "comments": 70,
+      "points": 100,
+      "comments": 76,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -408,8 +498,8 @@
       "published_at": "2026-11-16T00:21:54Z",
       "fetched_at": "2026-11-16T02:02:19.925222Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50512441",
-      "points": 128,
-      "comments": 30,
+      "points": 137,
+      "comments": 42,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -444,7 +534,7 @@
       "published_at": "2026-11-16T00:03:12Z",
       "fetched_at": "2026-11-16T05:02:14.325602Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50512296",
-      "points": 31,
+      "points": 36,
       "comments": 2,
       "engineering": false,
       "blog": false,
@@ -480,8 +570,8 @@
       "published_at": "2026-11-15T23:55:55Z",
       "fetched_at": "2026-11-16T01:02:20.281972Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50512235",
-      "points": 212,
-      "comments": 279,
+      "points": 238,
+      "comments": 302,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -498,12 +588,30 @@
       "published_at": "2026-11-15T23:55:41Z",
       "fetched_at": "2026-11-16T01:02:20.281972Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50512231",
-      "points": 59,
-      "comments": 14,
+      "points": 61,
+      "comments": 16,
       "engineering": false,
       "blog": true,
       "review": "kept",
       "importance": 2
+    },
+    {
+      "id": "b509701aaed66ea9140204ae839a4537",
+      "title": "Parcel: A desktop mail client for Linux, built with Zig",
+      "url": "https://tangled.org/rockorager.dev/parcel",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-11-15T23:54:39Z",
+      "fetched_at": "2026-11-16T09:02:17.174961Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50512218",
+      "points": 28,
+      "comments": 5,
+      "engineering": false,
+      "blog": null,
+      "review": "pending",
+      "importance": null
     },
     {
       "id": "ac0b422a7ff1ce887c4976907ea4547e",
@@ -660,7 +768,7 @@
       "published_at": "2026-11-15T23:00:11Z",
       "fetched_at": "2026-11-16T00:02:07.564790Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50511806",
-      "points": 137,
+      "points": 142,
       "comments": 38,
       "engineering": false,
       "blog": false,
@@ -750,8 +858,8 @@
       "published_at": "2026-11-15T22:11:43Z",
       "fetched_at": "2026-11-15T23:02:15.681741Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50511395",
-      "points": 259,
-      "comments": 138,
+      "points": 272,
+      "comments": 142,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -1092,8 +1200,8 @@
       "published_at": "2026-11-15T19:42:13Z",
       "fetched_at": "2026-11-15T22:02:17.503187Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50509972",
-      "points": 240,
-      "comments": 45,
+      "points": 269,
+      "comments": 48,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -1182,7 +1290,7 @@
       "published_at": "2026-11-15T19:26:22Z",
       "fetched_at": "2026-11-15T22:02:17.503187Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50509837",
-      "points": 292,
+      "points": 316,
       "comments": 54,
       "engineering": false,
       "blog": true,
@@ -1218,7 +1326,7 @@
       "published_at": "2026-11-15T18:36:40Z",
       "fetched_at": "2026-11-15T19:09:12.296958Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50509416",
-      "points": 88,
+      "points": 92,
       "comments": 30,
       "engineering": false,
       "blog": null,
@@ -1236,8 +1344,8 @@
       "published_at": "2026-11-15T18:36:10Z",
       "fetched_at": "2026-11-15T20:02:06.678238Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50509411",
-      "points": 506,
-      "comments": 218,
+      "points": 519,
+      "comments": 226,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -1290,8 +1398,8 @@
       "published_at": "2026-11-15T18:23:21Z",
       "fetched_at": "2026-11-15T19:02:08.039033Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50509308",
-      "points": 223,
-      "comments": 96,
+      "points": 232,
+      "comments": 105,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -2298,8 +2406,8 @@
       "published_at": "2026-11-15T02:39:31Z",
       "fetched_at": "2026-11-15T03:02:10.122183Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50510296",
-      "points": 127,
-      "comments": 23,
+      "points": 138,
+      "comments": 26,
       "engineering": false,
       "blog": true,
       "review": "kept",
@@ -26444,42 +26552,6 @@
       "importance": 4
     },
     {
-      "id": "7230f925fc305326665db99cbfe76699",
-      "title": "Taiwan-Based Hacker Used BOSSAI AI Agents to Steal Taipei Emergency Dispatch Records",
-      "url": "https://thehackernews.com/2026/11/taiwan-based-hacker-used-bossai-ai.html",
-      "source_id": "the-hacker-news",
-      "source_name": "The Hacker News",
-      "category": "tech",
-      "summary": "A single attacker using AI agents pulled emergency dispatch records covering seven Taipei districts, researchers at Acronis's Threat Research Unit said last week. The agents also found a Taipei fire department platform exposing patient data from 2018, including ECG readings and ambulance video footage, without a login. The researchers are highly confident that the attacker is a single person",
-      "published_at": "2026-11-09T09:01:50Z",
-      "fetched_at": "2026-11-09T10:01:38.097146Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 4
-    },
-    {
-      "id": "bc96a80ee3a6778ecb92094c9354a5cc",
-      "title": "ChatGPT Desktop forwards your SSH agent to remote machines",
-      "url": "https://news.ycombinator.com/item?id=50422628",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": "The agent running on a remote machine can authenticate using your local SSH credentials.That means it can push to your private repos on GitHub, for example.Proof: https://github.com/openai/codex/pull/28131#discussion_r3410013180",
-      "published_at": "2026-11-09T08:17:49Z",
-      "fetched_at": "2026-11-09T10:01:38.097146Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50422628",
-      "points": 178,
-      "comments": 57,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 5
-    },
-    {
       "id": "963accd6dd998d8b00993bd6d90057b9",
       "title": "When a language’s creator and its owners strongly disagree: C++26 post-DIS, historical experience, and paths forward",
       "url": "https://isocpp.org/files/papers/P4454R0.pdf",
@@ -31013,7 +31085,7 @@
       ],
       "primary_url": null,
       "first_shown": "2026-11-15T22:02:17.503187Z",
-      "last_shown": "2026-11-16T08:02:10.895693Z"
+      "last_shown": "2026-11-16T09:02:17.174961Z"
     },
     {
       "id": "c3a09b75ebc5d96cb616034d6cf183e8",
@@ -31032,7 +31104,7 @@
       ],
       "primary_url": "https://culperresearch.com/wp-content/uploads/2026/05/Culper_NVDA_5-13-2026.pdf",
       "first_shown": "2026-11-15T21:02:19.870062Z",
-      "last_shown": "2026-11-16T08:02:10.895693Z"
+      "last_shown": "2026-11-16T09:02:17.174961Z"
     },
     {
       "id": "cac14dbf1b1ad3347464dae233e30504",
@@ -31045,7 +31117,7 @@
       ],
       "primary_url": null,
       "first_shown": "2026-11-16T02:02:19.925222Z",
-      "last_shown": "2026-11-16T08:02:10.895693Z"
+      "last_shown": "2026-11-16T09:02:17.174961Z"
     },
     {
       "id": "900d1b8281455d790559fd677fb3289b",
@@ -31058,7 +31130,7 @@
       ],
       "primary_url": "https://discourse.llvm.org/t/help-needed-with-clangd-maintenance/89820",
       "first_shown": "2026-11-16T06:02:21.881018Z",
-      "last_shown": "2026-11-16T08:02:10.895693Z"
+      "last_shown": "2026-11-16T09:02:17.174961Z"
     },
     {
       "id": "4f2ac3deb54d2efe524e9dc0d4281b42",
@@ -31070,8 +31142,58 @@
       ],
       "primary_url": null,
       "first_shown": "2026-11-15T20:02:06.678238Z",
-      "last_shown": "2026-11-16T08:02:10.895693Z"
+      "last_shown": "2026-11-16T09:02:17.174961Z"
     },
+    {
+      "id": "fb43e89fb20d8cbb7138fb0348a8f6be",
+      "title": "Italy Fines Meta €805 Million Over Facebook's Android Gallery Access Without Explicit Consent",
+      "summary": "Meta was fined €805 million in Italy yesterday over a Facebook for Android feature that suggests photos and videos from users' phone galleries for them to post. The Garante, Italy's data protection authority, found that the feature was enabled by default and that the app accessed Italian users' photos, videos, and related metadata without their explicit consent. The company has 60 days to",
+      "why_it_matters": "Massive regulatory fines against major tech platforms over implicit feature data collection set precedent for compliance across mobile app ecosystems.",
+      "item_ids": [
+        "fb43e89fb20d8cbb7138fb0348a8f6be"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-15T12:02:16.829963Z",
+      "last_shown": "2026-11-16T09:02:17.174961Z"
+    },
+    {
+      "id": "8c55b54a51e3143569b388ac3e0442dd",
+      "title": "Old Bitly Links Are Being Hijacked",
+      "summary": null,
+      "why_it_matters": "Hijacked URL shortener links create widespread broken references and active phishing vectors for applications relying on legacy redirect links.",
+      "item_ids": [
+        "8c55b54a51e3143569b388ac3e0442dd"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-16T00:02:07.564790Z",
+      "last_shown": "2026-11-16T09:02:17.174961Z"
+    },
+    {
+      "id": "ea5383b602e31fba68e0583928bf6ebb",
+      "title": "Lutnick Pushed to Weaken Chip Rules That Overlap with His Family Business",
+      "summary": "https://wallhop.io/https://www.nytimes.com/2026/11/15/us/pol...",
+      "why_it_matters": "Political pressure on chip export rules directly influences hardware availability and compliance requirements for semiconductor companies.",
+      "item_ids": [
+        "ea5383b602e31fba68e0583928bf6ebb"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-15T19:02:08.039033Z",
+      "last_shown": "2026-11-16T09:02:17.174961Z"
+    },
+    {
+      "id": "1c28a27369a8d72c63665c079737f27c",
+      "title": "The MacBook Pro's OLED PWM Problem: When a 'Better' Display Becomes Worse to Use",
+      "summary": null,
+      "why_it_matters": "Hardware display constraints like PWM flicker directly impact developer ergonomics and strain during prolonged coding sessions.",
+      "item_ids": [
+        "1c28a27369a8d72c63665c079737f27c"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-15T19:02:08.039033Z",
+      "last_shown": "2026-11-16T09:02:17.174961Z"
+    }
+  ],
+  "past_top_stories": [
     {
       "id": "5b8a9ede72c8184be8ce368cc695308d",
       "title": "Stolen Fireworks AI Key Led to Cursor Data Breach and Trojanized Claude Code Extension",
@@ -31084,56 +31206,6 @@
       "first_shown": "2026-11-14T20:02:07.275856Z",
       "last_shown": "2026-11-16T08:02:10.895693Z"
     },
-    {
-      "id": "fb43e89fb20d8cbb7138fb0348a8f6be",
-      "title": "Italy Fines Meta €805 Million Over Facebook's Android Gallery Access Without Explicit Consent",
-      "summary": "Meta was fined €805 million in Italy yesterday over a Facebook for Android feature that suggests photos and videos from users' phone galleries for them to post. The Garante, Italy's data protection authority, found that the feature was enabled by default and that the app accessed Italian users' photos, videos, and related metadata without their explicit consent. The company has 60 days to",
-      "why_it_matters": "Massive regulatory fines against major tech platforms over implicit feature data collection set precedent for compliance across mobile app ecosystems.",
-      "item_ids": [
-        "fb43e89fb20d8cbb7138fb0348a8f6be"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-15T12:02:16.829963Z",
-      "last_shown": "2026-11-16T08:02:10.895693Z"
-    },
-    {
-      "id": "8c55b54a51e3143569b388ac3e0442dd",
-      "title": "Old Bitly Links Are Being Hijacked",
-      "summary": null,
-      "why_it_matters": "Hijacked URL shortener links create widespread broken references and active phishing vectors for applications relying on legacy redirect links.",
-      "item_ids": [
-        "8c55b54a51e3143569b388ac3e0442dd"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-16T00:02:07.564790Z",
-      "last_shown": "2026-11-16T08:02:10.895693Z"
-    },
-    {
-      "id": "ea5383b602e31fba68e0583928bf6ebb",
-      "title": "Lutnick Pushed to Weaken Chip Rules That Overlap with His Family Business",
-      "summary": "https://wallhop.io/https://www.nytimes.com/2026/11/15/us/pol...",
-      "why_it_matters": "Political pressure on chip export rules directly influences hardware availability and compliance requirements for semiconductor companies.",
-      "item_ids": [
-        "ea5383b602e31fba68e0583928bf6ebb"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-15T19:02:08.039033Z",
-      "last_shown": "2026-11-16T08:02:10.895693Z"
-    },
-    {
-      "id": "1c28a27369a8d72c63665c079737f27c",
-      "title": "The MacBook Pro's OLED PWM Problem: When a 'Better' Display Becomes Worse to Use",
-      "summary": null,
-      "why_it_matters": "Hardware display constraints like PWM flicker directly impact developer ergonomics and strain during prolonged coding sessions.",
-      "item_ids": [
-        "1c28a27369a8d72c63665c079737f27c"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-15T19:02:08.039033Z",
-      "last_shown": "2026-11-16T08:02:10.895693Z"
-    }
-  ],
-  "past_top_stories": [
     {
       "id": "ca5dd80797404b1339f89a7ffb5b5904",
       "title": "FBI warns ARTEX AI hacking tool is powering global cyberattacks",
@@ -31246,18 +31318,6 @@
       "primary_url": null,
       "first_shown": "2026-11-15T09:02:17.947479Z",
       "last_shown": "2026-11-15T23:02:15.681741Z"
-    },
-    {
-      "id": "f377e34bfdf131a2e475c3f6cf1e462d",
-      "title": "DuckDB has an answer to “bloated” database messages",
-      "summary": "Older database protocols were built before big data. Some still send results row by row, repeating details like column names The post DuckDB has an answer to “bloated” database messages appeared first on The New Stack.",
-      "why_it_matters": "Database protocol optimizations targeting message bloat improve serialization efficiency for high-throughput analytical workloads.",
-      "item_ids": [
-        "f377e34bfdf131a2e475c3f6cf1e462d"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-15T22:02:17.503187Z",
-      "last_shown": "2026-11-15T22:02:17.503187Z"
     }
   ]
 }
