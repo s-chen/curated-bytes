@@ -1,6 +1,186 @@
 {
-  "generated_at": "2026-11-20T19:02:07.129347Z",
+  "generated_at": "2026-11-20T20:02:09.712070Z",
   "items": [
+    {
+      "id": "551c3c2003f7c475365d217a32d28b26",
+      "title": "How Cloudflare WAF helps protect against phpAfterShell and other critical PHP flaws",
+      "url": "https://blog.cloudflare.com/phpaftershell-waf-protection/",
+      "source_id": "cloudflare-blog",
+      "source_name": "Cloudflare Blog",
+      "category": "tech",
+      "summary": "phpAfterShell is a critical flaw in PHP's default session handler that can lead to code execution. Cloudflare WAF blocks it for all customers, including Free plans, and adds new rules for other PHP flaws fixed in the same release.",
+      "published_at": "2026-11-20T20:00:45Z",
+      "fetched_at": "2026-11-20T20:02:09.712070Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": true,
+      "blog": true,
+      "review": "kept",
+      "importance": 4
+    },
+    {
+      "id": "01562e82155301ace68e298dfc09029f",
+      "title": "Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building.",
+      "url": "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/",
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "category": "tech",
+      "summary": "Spotify founder Daniel Ek is backing Europa Fusion, a fusion power startup founded by an AI researcher. Here's what the startup is building.",
+      "published_at": "2026-11-20T19:53:41Z",
+      "fetched_at": "2026-11-20T20:02:09.712070Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "pending",
+      "importance": null
+    },
+    {
+      "id": "b9d620ffc226584226409302f6bfa523",
+      "title": "Prisons get OK to jam contraband phones. CTIA says nearby phones will be jammed too.",
+      "url": "https://arstechnica.com/tech-policy/2026/11/prisons-get-ok-to-jam-contraband-phones-ctia-says-nearby-phones-will-be-jammed-too/",
+      "source_id": "ars-technica",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "summary": "CTIA said jamming test showed \"interference... up to two and a half miles away.\"",
+      "published_at": "2026-11-20T19:52:59Z",
+      "fetched_at": "2026-11-20T20:02:09.712070Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "2dd44a112a11cc8375c63cba51138800",
+      "title": "Jensen Huang’s ‘Lying’ Alarmed Nvidia Board Ahead of His Resignation",
+      "url": "https://www.wired.com/story/jensen-huangs-lying-alarmed-nvidia-board-ahead-of-his-resignation/",
+      "source_id": "wired",
+      "source_name": "Wired",
+      "category": "tech",
+      "summary": "Amid allegations of multiple affairs, including with a direct report and an alleged Chinese intelligence asset, sources tell WIRED the Nvidia board’s main issue was the former CEO’s “lack of candor.”",
+      "published_at": "2026-11-20T19:52:21Z",
+      "fetched_at": "2026-11-20T20:02:09.712070Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 5
+    },
+    {
+      "id": "dd67a2a124fc67bfe16e198efac51fb2",
+      "title": "“We are not querying like humans anymore”: OpenSearch’s Bianca Lewis on why AI agent mistakes look like successes",
+      "url": "https://thenewstack.io/opensearch-ai-agent-observability/",
+      "source_id": "the-new-stack",
+      "source_name": "The New Stack",
+      "category": "tech",
+      "summary": "This situation is more common than one might think: An AI agent calls the wrong API, gets a perfectly good The post “We are not querying like humans anymore”: OpenSearch’s Bianca Lewis on why AI agent mistakes look like successes appeared first on The New Stack.",
+      "published_at": "2026-11-20T19:37:08Z",
+      "fetched_at": "2026-11-20T20:02:09.712070Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "6554f650873e4fa351358b9494088cdb",
+      "title": "Rockstar says GTA VI made $3.79 billion in its first day",
+      "url": "https://www.theverge.com/games/1036279/gta-vi-sales",
+      "source_id": "the-verge",
+      "source_name": "The Verge",
+      "category": "tech",
+      "summary": "GTA VI earned $3.79 billion in its first day of sales, which set \"a new record for entertainment across any medium,\" according to an announcement from Rockstar Games. The game also sold 32.5 million in pre-orders. \"It is with immense gratitude that we enter a new chapter of Rockstar Games with the release of Grand […]",
+      "published_at": "2026-11-20T19:35:06Z",
+      "fetched_at": "2026-11-20T20:02:09.712070Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "pending",
+      "importance": null
+    },
+    {
+      "id": "2fda244c69136d840d085ea8b871c1b8",
+      "title": "AI claimed a solution to the 167 year-old Riemann Hypothesis — and a human did, too",
+      "url": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "category": "tech",
+      "summary": "Mathematicians are having their minds blown by the latest AI-driven result—and there's a competing human solution, too.",
+      "published_at": "2026-11-20T19:32:08Z",
+      "fetched_at": "2026-11-20T20:02:09.712070Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "4d81c278dbf689800e4938b985f4ed0e",
+      "title": "Army delays detonating \"catastrophically hazardous\" lead azide amid fear, anger",
+      "url": "https://arstechnica.com/science/2026/11/outrage-questions-swirl-as-army-delays-blowing-up-stockpile-of-toxic-lead-azide/",
+      "source_id": "ars-technica",
+      "source_name": "Ars Technica",
+      "category": "tech",
+      "summary": "Modeling predicts plume of neurotoxic lead could reach up to 100 miles away.",
+      "published_at": "2026-11-20T19:21:50Z",
+      "fetched_at": "2026-11-20T20:02:09.712070Z",
+      "discussion_url": "https://arstechnica.com/science/2026/11/outrage-questions-swirl-as-army-delays-blowing-up-stockpile-of-toxic-lead-azide/#comments",
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 2
+    },
+    {
+      "id": "6a3228fea1390af459af3430627d9f5b",
+      "title": "Quoting Ravi Vakil",
+      "url": "https://simonwillison.net/2026/Nov/20/ravi-vakil/",
+      "source_id": "simon-willison",
+      "source_name": "Simon Willison",
+      "category": "tech",
+      "summary": "Alessandro Masullo has a proposed proof of [Generalized Riemann Hypothesis], and Brian Conrad has been looking closely at it for months and gave extensive feedback which is being incorporated, and it is so far looking good. It is all human, with no AI. The hope was to bring Alessandro to Stanford for a year to polish the writing and then announce it after running it by enough people. Now it seems best to put out the current draft. — Ravi Vakil, Hurried Announcement: Alessandro Masullo GRH Tags:…",
+      "published_at": "2026-11-20T19:21:49Z",
+      "fetched_at": "2026-11-20T20:02:09.712070Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 2
+    },
+    {
+      "id": "14c96c99d21da38668ee00a671d26778",
+      "title": "Eufy’s Omni C28 is 53 percent off ahead of Black Friday",
+      "url": "https://www.theverge.com/gadgets/1037933/eufy-omni-c28-robot-vacuum-deal-sale",
+      "source_id": "the-verge",
+      "source_name": "The Verge",
+      "category": "tech",
+      "summary": "Hosting Thanksgiving can be fun, but cleaning up afterwards? Not so much. Eufy’s Omni C28 robot vacuum / mop hybrid can help, and thanks to an early Black Friday deal, you can pick it up at a new low price of $379.99 ($420 off its original price) at Amazon, Best Buy, or directly from Eufy […]",
+      "published_at": "2026-11-20T19:15:00Z",
+      "fetched_at": "2026-11-20T20:02:09.712070Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": null,
+      "review": "excluded",
+      "importance": null
+    },
     {
       "id": "c15932f56bd0302d288f3d94490c6fde",
       "title": "Bell Canada says 'agentic' hacker stole enterprise customer data",
@@ -35,7 +215,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "418ff689e127d5780d751f85ff756907",
@@ -71,7 +251,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 4
     },
     {
       "id": "89e53a56d6f3d068f0b433fbbe76a7f7",
@@ -125,7 +305,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "3f5ab5a2e07ffe24f9059f08ba4ea232",
@@ -143,7 +323,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "c656259cf54b6d1c0c5c192708bca6d2",
@@ -182,24 +362,6 @@
       "importance": 3
     },
     {
-      "id": "ee0d64336f7d437605c45cc99ee0878c",
-      "title": "Meta TLX, a Native GPU Compiler Extension Supporting Advanced Hardware Capabilities",
-      "url": "https://www.infoq.com/news/2026/11/meta-triton-tlx-gpu-compiler/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source_id": "infoq",
-      "source_name": "InfoQ",
-      "category": "tech",
-      "summary": "Meta developed Triton Low-Level Extensions (TLX), designed to bridge the gap between high-level GPU programming abstractions and the low-level execution control required to fully exploit modern GPU architectures. By Sergio De Simone",
-      "published_at": "2026-11-20T18:00:00Z",
-      "fetched_at": "2026-11-20T18:02:06.863406Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": true,
-      "review": "kept",
-      "importance": 3
-    },
-    {
       "id": "471d5fb3786b6fe45ead7195f49d97aa",
       "title": "Internet Archive Staffers Are Unionizing",
       "url": "https://www.wired.com/story/internet-archive-staffers-are-unionizing/",
@@ -215,7 +377,43 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
+    },
+    {
+      "id": "ee0d64336f7d437605c45cc99ee0878c",
+      "title": "Meta TLX, a Native GPU Compiler Extension Supporting Advanced Hardware Capabilities",
+      "url": "https://www.infoq.com/news/2026/11/meta-triton-tlx-gpu-compiler/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source_id": "infoq",
+      "source_name": "InfoQ",
+      "category": "tech",
+      "summary": "Meta developed Triton Low-Level Extensions (TLX), designed to bridge the gap between high-level GPU programming abstractions and the low-level execution control required to fully exploit modern GPU architectures. By Sergio De Simone",
+      "published_at": "2026-11-20T18:00:00Z",
+      "fetched_at": "2026-11-20T18:02:06.863406Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 4
+    },
+    {
+      "id": "58eefaa33e7ec3d8c02b1e141d28b90d",
+      "title": "WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams",
+      "url": "https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html",
+      "source_id": "the-hacker-news",
+      "source_name": "The Hacker News",
+      "category": "tech",
+      "summary": "Meta-owned WhatsApp has addressed security vulnerabilities, including one impacting its Android app that it suspects may have been exploited in connection with scam messages. The vulnerability, tracked as CVE-2026-23871, has been described as a case of incomplete validation of external ad-reply URLs in WhatsApp for Android and WhatsApp Business for Android before 2.26.17.4. The issue could",
+      "published_at": "2026-11-20T17:57:20Z",
+      "fetched_at": "2026-11-20T20:02:09.712070Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 4
     },
     {
       "id": "a4d656f6c378673ee76bd5ba821eca4b",
@@ -233,7 +431,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "5ce5d2d55ac83f4f3087bbb998341959",
@@ -521,7 +719,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "e7bc21e40b78d9330ceba3db7751df1c",
@@ -611,7 +809,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "94d4eadc7897a33b92819052517177f2",
@@ -665,7 +863,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "f68da36eb2ac47768946fe2b37930bf8",
@@ -683,7 +881,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 1
+      "importance": 2
     },
     {
       "id": "021622a52593ecd44deee75dd05cdd08",
@@ -701,7 +899,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "7f2654fa95f8b440d658ab5a96138c26",
@@ -773,7 +971,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "6d6048ff6b35b453134942cbf6044b38",
@@ -881,7 +1079,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "2b17ebbb035d24b49e7ec269510c29ec",
@@ -897,9 +1095,9 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "8e0f20fa1c30b0a8745ef71bc5e4855c",
@@ -971,7 +1169,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "e0bf5b86d7b7d2b9fe97c67b5a133993",
@@ -1079,7 +1277,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 1
     },
     {
       "id": "b6e40c98d43a3a0df23b255a3ecea413",
@@ -1169,7 +1367,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "c23e740bda126495f8ce0c5c8a0dce2d",
@@ -1403,7 +1601,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 1
+      "importance": 2
     },
     {
       "id": "fa892b3550a9e8fd5b7c0b3df6973ac6",
@@ -1511,7 +1709,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "a072c0711b291eea36816b51a21a7c20",
@@ -1529,7 +1727,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "fb4a18f34f813feba7e5581cb908c441",
@@ -1601,7 +1799,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 1
     },
     {
       "id": "b063372052df2baea9ea8a492ac6e5ba",
@@ -1655,7 +1853,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "45fbb71c4312a2e530f37a5aac1693b9",
@@ -1835,7 +2033,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 1
+      "importance": 2
     },
     {
       "id": "ff3e69ff498037d31249dcd0c85f37be",
@@ -1926,6 +2124,24 @@
       "blog": false,
       "review": "pending",
       "importance": null
+    },
+    {
+      "id": "7121ba7c91734ceb0344baecd70fc9c4",
+      "title": "Combatting adversarial distillation",
+      "url": "https://openai.com/index/combatting-adversarial-distillation",
+      "source_id": "openai-news",
+      "source_name": "OpenAI News",
+      "category": "tech",
+      "summary": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
+      "published_at": "2026-11-20T10:00:00Z",
+      "fetched_at": "2026-11-20T20:02:09.712070Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "bde0cccd75e5d0912c221a8fc758ca70",
@@ -2285,7 +2501,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "9ad06a287a2460bc282804ec372fd8e9",
@@ -2699,7 +2915,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "a5e8c4966a842f41d86c08d3cc5150cf",
@@ -2717,7 +2933,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "8d272bbafe0c0425a50ebf419baf82b5",
@@ -2843,7 +3059,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "799192900d01d0ced64720beab67dfb7",
@@ -2990,6 +3206,24 @@
       "importance": 3
     },
     {
+      "id": "3c753634dc1f4ee5d5fd7d3ce70865cd",
+      "title": "Can AI help scientists identify promising drug candidates?",
+      "url": "https://openai.com/index/introducing-medchembench",
+      "source_id": "openai-news",
+      "source_name": "OpenAI News",
+      "category": "tech",
+      "summary": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
+      "published_at": "2026-11-20T00:00:00Z",
+      "fetched_at": "2026-11-20T20:02:09.712070Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
       "id": "d74af1cfb4b1c13fabad864d4399feab",
       "title": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
       "url": "https://huggingface.co/blog/harness-adapters-at-scale",
@@ -3003,7 +3237,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -3239,7 +3473,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "cdbd4c040818a1b1ac0600aa89f55790",
@@ -3257,7 +3491,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "6ffb76eb7a65e95d8e718ff1ba937175",
@@ -3491,7 +3725,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "e7b02596a4f0669bb2b8215edf42b566",
@@ -3545,7 +3779,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "84a5dc6d5cb4b105fe58d22060313280",
@@ -3635,7 +3869,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "2a9455352c5c8c4f4fc1ffaf0918c322",
@@ -3743,7 +3977,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "0c9c7e27fc36e4f22081e1701de71898",
@@ -3797,7 +4031,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "081ef7d3aec18a59beea80980fe29fb6",
@@ -3833,7 +4067,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "2ed0fac7f5f7afb8be3bc09cedfd50f0",
@@ -3851,7 +4085,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "811bbebe62be21092794de53ce212534",
@@ -3887,7 +4121,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "41020e5a44d63066d90b95a0f47f9ee4",
@@ -4139,7 +4373,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "4a566985823639524157c6d31f92dbd8",
@@ -4157,7 +4391,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "8ce8eb19aabfcbe6bd096776ff695c1b",
@@ -4211,7 +4445,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 5
     },
     {
       "id": "88a34105015e406d2f567dd0ab303eb3",
@@ -4337,7 +4571,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "74266696d2be01856a835a206353537d",
@@ -4355,7 +4589,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "5fc2a9f61aff1def0ad2d8a06400cc4d",
@@ -4409,7 +4643,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "70f3035452c4bbe51a3dd4433620cf79",
@@ -4445,7 +4679,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "89e78470e096847204613e4abea3bc1b",
@@ -4463,7 +4697,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "120102f3c124ab5fb9f86400f5af8183",
@@ -4499,7 +4733,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "84470284fabfcda1801403e75bd8efd4",
@@ -4535,7 +4769,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "dce9ddb8b94efadd25731edc70f51714",
@@ -4571,7 +4805,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "01dab3c9eb89fe8ff086222957802b03",
@@ -4625,7 +4859,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "95352394d270ad10cd662408c1e2aa22",
@@ -4643,7 +4877,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "fd48c4fd903c52b473aaa8fc2b9e9170",
@@ -4679,7 +4913,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "f034480cb0391237bc1bb6eeeeca598e",
@@ -4895,7 +5129,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "38c66bd23a6ee65546c53d950226544c",
@@ -4985,7 +5219,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "18306cc167b8fd22b7d9c1bd7151dc0d",
@@ -5003,7 +5237,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "f6f1b0ff870048af063333fcaad1a24d",
@@ -5057,7 +5291,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "4fa511c4ec31e6f16735de009b8c0900",
@@ -5093,7 +5327,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "c5d1ab57e30cabfa2ac88a2da930f7e4",
@@ -5165,7 +5399,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "9bb7a0fdd0f7a3ac57a673991ba46463",
@@ -5183,7 +5417,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "d67d8636f15b3e1fd5809fc497492d40",
@@ -5291,7 +5525,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "9dc7c92ee38becf1cc8b448935571cda",
@@ -5309,7 +5543,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "d04ade679ec0a0e585c8e69b5c7905d6",
@@ -5471,7 +5705,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "8d5ae21e7f11707f6f2cfba9aae84c19",
@@ -5597,7 +5831,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "b52da0b167f074b94edd29ec584221de",
@@ -5741,7 +5975,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "7aaadbac654b4c96c03d710bcfbef18b",
@@ -5831,7 +6065,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "5fb8f830592fe6441de7d38fb0997436",
@@ -5885,7 +6119,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "24f249204ac258163015092974a2f304",
@@ -5903,7 +6137,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "804046cc865423593f7a338829eb53cf",
@@ -6137,7 +6371,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "0c5eb2b8a2c498a4aa9e24cc85f93541",
@@ -6245,7 +6479,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "cb9775206a193eb0f533c7398f475a4b",
@@ -6299,7 +6533,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "04449336155ad4c2924c40ba056e7638",
@@ -6333,7 +6567,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -26462,186 +26696,6 @@
       "importance": 2
     },
     {
-      "id": "964f3ffe404142370fc564c0f74694ae",
-      "title": "Live-migration support in FreeBSD and bhyve coming",
-      "url": "https://gyptazy.com/blog/freebsd-bhyve-live-migration-support-rfc/",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-11-13T19:58:42Z",
-      "fetched_at": "2026-11-13T22:01:45.312547Z",
-      "discussion_url": "https://lobste.rs/s/hiayul/freebsd_bhyve_live_migration_moving_vms",
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "8055161ae505e4427380fe77c28a40a8",
-      "title": "Atlas Coffee Club’s Black Friday Deals (2026)",
-      "url": "https://www.wired.com/story/atlas-coffee-club-black-friday-2026/",
-      "source_id": "wired",
-      "source_name": "Wired",
-      "category": "tech",
-      "summary": "For Black Friday, a new quarterly option delivers three bags at a time, each from a different country.",
-      "published_at": "2026-11-13T19:58:41Z",
-      "fetched_at": "2026-11-13T20:05:33.868357Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": null,
-      "review": "excluded",
-      "importance": null
-    },
-    {
-      "id": "f0ebeef3b4a55a6c4ee0119b51454a40",
-      "title": "Early Black Friday Mattress Deals: Get Up to 55% Off WIRED-Tested Favorites",
-      "url": "https://www.wired.com/story/best-early-black-friday-mattress-deals-11-13-2026/",
-      "source_id": "wired",
-      "source_name": "Wired",
-      "category": "tech",
-      "summary": "I’ve already found early deals on our favorite WIRED-tested mattresses and sleep accessories.",
-      "published_at": "2026-11-13T19:57:56Z",
-      "fetched_at": "2026-11-13T20:05:33.868357Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": null,
-      "review": "excluded",
-      "importance": null
-    },
-    {
-      "id": "b34668d08980bbd87ba1ccc620fc95ab",
-      "title": "No AI Slop: A Manifesto",
-      "url": "https://www.slopmanifesto.com/",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-11-13T19:51:56Z",
-      "fetched_at": "2026-11-13T21:01:45.251632Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50488769",
-      "points": 167,
-      "comments": 95,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "96b8c138679b29f83d029bca88df4475",
-      "title": "Trump Jr. out as Kalshi advisor after his firm's big investment in Polymarket",
-      "url": "https://arstechnica.com/tech-policy/2026/11/trump-jr-out-as-kalshi-advisor-after-his-firms-big-investment-in-polymarket/",
-      "source_id": "ars-technica",
-      "source_name": "Ars Technica",
-      "category": "tech",
-      "summary": "Trump son advised Kalshi and got equity while Trump admin helped Kalshi in lawsuits.",
-      "published_at": "2026-11-13T19:49:16Z",
-      "fetched_at": "2026-11-13T20:01:43.500126Z",
-      "discussion_url": "https://arstechnica.com/tech-policy/2026/11/trump-jr-out-as-kalshi-advisor-after-his-firms-big-investment-in-polymarket/#comments",
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "fe0612a21bbf35626fea14696ed83164",
-      "title": "Someone's Impersonating This Blog",
-      "url": "https://mattbee.mataroa.blog/p/someones-impersonating-this-blog/",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-11-13T19:41:09Z",
-      "fetched_at": "2026-11-13T21:01:45.251632Z",
-      "discussion_url": "https://lobste.rs/s/wqml56/someone_s_impersonating_this_blog",
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 1
-    },
-    {
-      "id": "969eacbc6b4dddf3e3ba4f4d5c8c557d",
-      "title": "Trezor confirms crypto-stealing implants in three wallets, releases fix",
-      "url": "https://www.bleepingcomputer.com/news/cryptocurrency/trezor-confirms-crypto-stealing-implants-in-three-wallets-releases-fix/",
-      "source_id": "bleepingcomputer",
-      "source_name": "BleepingComputer",
-      "category": "tech",
-      "summary": "Cryptocurrency hardware wallet maker Trezor has confirmed that three Safe 5 devices sold by Southeast Asian reseller CryptoBilis contained malicious hardware implants designed to steal wallet recovery phrases and send them to attackers over cellular networks. [...]",
-      "published_at": "2026-11-13T19:38:36Z",
-      "fetched_at": "2026-11-13T20:01:43.500126Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 4
-    },
-    {
-      "id": "5bf928dc0d9954c5ae546587813e3897",
-      "title": "AI agent startup LangChain hits $3B valuation",
-      "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
-      "source_id": "techcrunch",
-      "source_name": "TechCrunch",
-      "category": "tech",
-      "summary": "LangChain now claims 7,000 customers of its model and platform agnostic agent management tool LangSmith.",
-      "published_at": "2026-11-13T19:37:57Z",
-      "fetched_at": "2026-11-13T20:01:43.500126Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "9cb7954445d4d49ca51d3120a35f0f71",
-      "title": "Kildall's algorithm",
-      "url": "https://bike.github.io/posts/kildall.html",
-      "source_id": "lobsters",
-      "source_name": "Lobsters",
-      "category": "tech",
-      "summary": "I work on a new [Common] Lisp compiler called Cleavir. Cleavir is the compiler part of Dr. Robert Strandh’s project, SICL Comments",
-      "published_at": "2026-11-13T19:34:28Z",
-      "fetched_at": "2026-11-13T20:01:43.500126Z",
-      "discussion_url": "https://lobste.rs/s/1nmzz6/kildall_s_algorithm",
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 2
-    },
-    {
-      "id": "b5360e70ce2b1b061dce4c6497afb872",
-      "title": "Technology as a Search Problem",
-      "url": "https://www.construction-physics.com/p/technology-as-a-search-problem",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-11-13T19:27:15Z",
-      "fetched_at": "2026-11-13T21:01:45.251632Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50488490",
-      "points": 16,
-      "comments": 2,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 2
-    },
-    {
       "id": "4c14af0523e827f91be388c377b7b65e",
       "title": "Adapting to AI penetration testing orchestrators: The Modern Security Model",
       "url": "https://blog.cloudflare.com/adapting-to-ai-penetration-testing-orchestrators/",
@@ -26660,60 +26714,6 @@
       "importance": 4
     },
     {
-      "id": "9fc80f992a42e20678cf3140c3831494",
-      "title": "Found: A protein that drives ageing without unleashing inflammation",
-      "url": "https://www.nature.com/articles/d41586-026-03638-3",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-11-13T19:25:21Z",
-      "fetched_at": "2026-11-13T21:01:45.251632Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50488470",
-      "points": 236,
-      "comments": 64,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "240a7fa7f25262155323cc9609e0646b",
-      "title": "Perplexity Decider v1.3: Training, eval, and use cases",
-      "url": "https://www.perplexity.ai/hub/blog/perplexity-decider",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-11-13T19:24:47Z",
-      "fetched_at": "2026-11-13T20:01:43.500126Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50488464",
-      "points": 140,
-      "comments": 25,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "39144261e620b58b6ce330c9e954e116",
-      "title": "Here’s how you can save on your GTA VI preorder ahead of launch",
-      "url": "https://www.theverge.com/gadgets/1033046/playstation-xbox-gift-card-gta-vi-6-preorder-deal-sale",
-      "source_id": "the-verge",
-      "source_name": "The Verge",
-      "category": "tech",
-      "summary": "The long-awaited launch of GTA VI is around the corner, happening next Friday, November 19th. While discounts on the game itself will be rare for some time, there’s a clever workaround to save you a few bucks on your digital copy. We found discounts on gift cards for both Sony PlayStation and Microsoft Xbox Series […]",
-      "published_at": "2026-11-13T19:14:38Z",
-      "fetched_at": "2026-11-13T20:01:43.500126Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "pending",
-      "importance": null
-    },
-    {
       "id": "f1770de1aac3af397f0dcf079704cb4e",
       "title": "FM-1 Workbench",
       "url": "https://open.m-vave.com/fm1-workbench",
@@ -26730,24 +26730,6 @@
       "blog": true,
       "review": "kept",
       "importance": 3
-    },
-    {
-      "id": "5565766f498380ec8a36da39e95c22ce",
-      "title": "Microsoft 365 Crawls Back to Life After a 24-Hour Outage",
-      "url": "https://www.wired.com/story/microsoft-365-crawls-back-to-life-after-a-24-hour-outage/",
-      "source_id": "wired",
-      "source_name": "Wired",
-      "category": "tech",
-      "summary": "The company says a bad update—not a cyberattack or AI—caused its servers around the world to crash.",
-      "published_at": "2026-11-13T19:08:57Z",
-      "fetched_at": "2026-11-13T20:01:43.500126Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 4
     },
     {
       "id": "87b1640c265ee82ab7955e3dfac011ad",
@@ -31721,93 +31703,149 @@
   "top_stories": [
     {
       "id": "b8f99795acbb06501f93b750503a09b0",
-      "title": "Anthropic goes public with record-breaking Nasdaq IPO",
-      "summary": "Anthropic has officially gone public on the Nasdaq, raising tens of billions in capital and achieving a massive valuation in one of the largest tech IPOs. The milestone event puts the company's AI safety strategies and enormous compute obligations to the test on the public market.",
-      "why_it_matters": "This major public offering sets a precedent for frontier AI labs, shaping market valuations and capital availability for compute infrastructure.",
+      "title": "Anthropic goes public on Nasdaq in record-breaking $2 trillion IPO",
+      "summary": "Anthropic has officially gone public on the Nasdaq, hitting a valuation of $2 trillion with shares surging in initial trading. The IPO raises over $80 billion in new capital, with the company's founders cashing out millions and executives committing to continued pacing of AI development.",
+      "why_it_matters": "A massive public debut for a foundational AI lab alters market dynamics, funding structures, and the broader enterprise AI landscape.",
       "item_ids": [
         "b8f99795acbb06501f93b750503a09b0",
-        "a4d656f6c378673ee76bd5ba821eca4b",
         "1987643f0f321f3f035193a702e52ff4",
-        "b366431ac25971694f33ba6bc4f8023f",
-        "89e78470e096847204613e4abea3bc1b",
         "0391667c2f0fad7c7568718dd900ffb4",
-        "e8a8dbb76a34d1de1b681875347d992f"
+        "89e78470e096847204613e4abea3bc1b",
+        "b366431ac25971694f33ba6bc4f8023f",
+        "e42e02511abb82290509e140b36dbdf3",
+        "e8a8dbb76a34d1de1b681875347d992f",
+        "aff84b6b921d74b7717ebfbd624e1c96",
+        "461b632700fa5a6aa079a46706733091",
+        "eaad284c29e762f6bb2f6b952f9bf43a"
       ],
-      "primary_url": null,
+      "primary_url": "https://www.cnbc.com/2026/11/19/anthropic-ipo-ant-live-updates.html",
       "first_shown": "2026-11-18T23:01:58.569756Z",
-      "last_shown": "2026-11-20T19:02:07.129347Z"
+      "last_shown": "2026-11-20T20:02:09.712070Z"
     },
     {
-      "id": "a79d78f0621d468bc543adaab8bf3d44",
-      "title": "UK tribunal forces government to acknowledge secret Apple encryption order",
-      "summary": "A UK tribunal has ruled that the government can no longer keep its encryption-busting order to Apple a secret. The court rejected the government's claim that disclosing the existence of the notice would harm national security.",
-      "why_it_matters": "This ruling impacts user privacy and encryption standards by exposing government demands for backdoor access.",
+      "id": "2dd44a112a11cc8375c63cba51138800",
+      "title": "Nvidia CEO Jensen Huang resigns amid misconduct allegations",
+      "summary": "Jensen Huang has resigned from his position as CEO of Nvidia following allegations of multiple affairs, including with a direct report and an alleged Chinese intelligence asset. Sources indicate the board's primary concern centered around a lack of candor.",
+      "why_it_matters": "Leadership changes at a dominant AI chip manufacturer create major strategic uncertainty and security scrutiny for the tech sector.",
       "item_ids": [
-        "a79d78f0621d468bc543adaab8bf3d44",
-        "193aa2e17d291a9e33e667e78ac30049",
-        "4621587218e22d86e9c21ec6aed6517c",
-        "1a9bb210b5bb1b353aacdc7dff977705"
+        "2dd44a112a11cc8375c63cba51138800",
+        "9c6255b24c40d7769bb0414f0444d7a5",
+        "3ef33ce7db8ee0229299e906f1da2f1f"
       ],
-      "primary_url": null,
-      "first_shown": "2026-11-19T20:02:02.945054Z",
-      "last_shown": "2026-11-20T19:02:07.129347Z"
+      "primary_url": "https://www.nytimes.com/2025/10/09/technology/nvidia-chips-china-megaspeed.html",
+      "first_shown": "2026-11-20T20:02:09.712070Z",
+      "last_shown": "2026-11-20T20:02:09.712070Z"
     },
     {
-      "id": "01ad72294656b106f7c01b7e17bbfb56",
-      "title": "Data breach at third-party service provider exposes JPMorgan Chase, Visa, and Mastercard data",
-      "summary": "JPMorgan Chase, Visa, and Mastercard confirmed that a cyberattack on a third-party service provider exposed customer personal information and marketing data. Financial institutions stated the incident was unrelated to recent banking service outages.",
-      "why_it_matters": "Third-party vendor compromises continue to pose major security and compliance risks for enterprise financial systems.",
+      "id": "c179de6fc560a3d5460ff93dfd5aa9d1",
+      "title": "Broadcom patches critical VMware vCenter zero-day exploited by attackers",
+      "summary": "Broadcom has released security updates to fix a critical authentication bypass vulnerability in VMware vCenter Server. China-linked threat actors have actively exploited the zero-day flaw in attacks since September.",
+      "why_it_matters": "Active zero-day exploits in core virtualization infrastructure require immediate patching to prevent complete network takeovers.",
       "item_ids": [
-        "01ad72294656b106f7c01b7e17bbfb56",
-        "7f2654fa95f8b440d658ab5a96138c26",
-        "6ff23dcc07064596c65d04d84091377e",
-        "bdea04f0abc974c52cb0a146ccddee7d"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-20T00:01:51.132101Z",
-      "last_shown": "2026-11-20T19:02:07.129347Z"
-    },
-    {
-      "id": "477da580a92d248252bc7106ce8206b8",
-      "title": "Broadcom patches critical VMware vCenter zero-day exploited in attacks",
-      "summary": "Broadcom released security updates to fix a critical VMware vCenter Server vulnerability with a CVSS score of 9.8 that lets network attackers bypass authentication. The flaw has been actively exploited as a zero-day in attacks by Chinese-linked threat actors since September.",
-      "why_it_matters": "Unpatched zero-days in virtualization management platforms allow attackers to gain full administrative control over cloud and enterprise infrastructure.",
-      "item_ids": [
-        "477da580a92d248252bc7106ce8206b8",
         "c179de6fc560a3d5460ff93dfd5aa9d1",
+        "477da580a92d248252bc7106ce8206b8",
         "18306cc167b8fd22b7d9c1bd7151dc0d"
       ],
       "primary_url": "https://github.com/vmware/vcf-security-and-compliance-guidelines/blob/main/security-advisories/vmsa-2026-0009/README.md",
       "first_shown": "2026-11-20T01:01:56.367245Z",
-      "last_shown": "2026-11-20T19:02:07.129347Z"
+      "last_shown": "2026-11-20T20:02:09.712070Z"
+    },
+    {
+      "id": "193aa2e17d291a9e33e667e78ac30049",
+      "title": "Tribunal forces UK government to acknowledge Apple encryption backdoor demand",
+      "summary": "A UK tribunal has ruled that the government can no longer keep its secret encryption-busting order issued to Apple under wraps. The court rejected London's claim that acknowledging the notice would damage national security.",
+      "why_it_matters": "Mandated encryption backdoors directly undermine user security models and cryptographic guarantees relied upon by developers.",
+      "item_ids": [
+        "193aa2e17d291a9e33e667e78ac30049",
+        "4621587218e22d86e9c21ec6aed6517c",
+        "a79d78f0621d468bc543adaab8bf3d44",
+        "1a9bb210b5bb1b353aacdc7dff977705"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-19T20:02:02.945054Z",
+      "last_shown": "2026-11-20T20:02:09.712070Z"
+    },
+    {
+      "id": "7f2654fa95f8b440d658ab5a96138c26",
+      "title": "JPMorgan Chase, Visa, and Mastercard data exposed in third-party breaches",
+      "summary": "JPMorgan Chase and other financial institutions confirmed that cyberattacks on third-party service providers exposed customer data, including names and email addresses. The institutions stated the incidents were unrelated to recent banking service outages.",
+      "why_it_matters": "Supply-chain security failures in financial networks expose sensitive customer data and highlight systemic third-party risks.",
+      "item_ids": [
+        "7f2654fa95f8b440d658ab5a96138c26",
+        "01ad72294656b106f7c01b7e17bbfb56",
+        "bdea04f0abc974c52cb0a146ccddee7d"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-20T00:01:51.132101Z",
+      "last_shown": "2026-11-20T20:02:09.712070Z"
+    },
+    {
+      "id": "f5c860210425baad5f1f23c509d37f2e",
+      "title": "Google updates Gemini app for macOS with computer use capabilities",
+      "summary": "Google has updated its Gemini app for macOS to include computer use capabilities. The AI assistant can now execute multi-step workflows across local files, desktop apps, and the web.",
+      "why_it_matters": "OS-level agent integrations change how desktop automation and local security permissions are handled by operating systems.",
+      "item_ids": [
+        "f5c860210425baad5f1f23c509d37f2e",
+        "d73b4511eb28426babbb4788542db76e",
+        "99d6f66a3f7b385062ecdf44eb2754af"
+      ],
+      "primary_url": "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac",
+      "first_shown": "2026-11-19T20:02:02.945054Z",
+      "last_shown": "2026-11-20T20:02:09.712070Z"
     },
     {
       "id": "e071771e6033df9026b86e44f0c5449b",
-      "title": "N-able security breach causes major cloud service outage across three regions",
-      "summary": "N-able disclosed that unauthorized access to one of its servers in the Mail Assure and SpamExperts Hosted Cloud caused a major service outage. The security breach forced the company to disable management interfaces across three regions worldwide.",
-      "why_it_matters": "Supply chain and MSP security failures can immediately disrupt email security management and cloud operations globally.",
+      "title": "N-able security breach causes global service outage for cloud products",
+      "summary": "N-able disclosed that unauthorized threat actors gained access to one of its servers in the Mail Assure and SpamExperts Hosted Cloud. The breach forced the company to disable management interfaces, causing widespread service disruptions across multiple regions.",
+      "why_it_matters": "Cloud management platform outages can cripple downstream IT administration and email security controls.",
       "item_ids": [
         "e071771e6033df9026b86e44f0c5449b",
         "5f3922dcf6b9214cea5aa77c733309f3"
       ],
       "primary_url": "https://uptime.n-able.com/event/202672",
       "first_shown": "2026-11-20T15:02:11.337637Z",
-      "last_shown": "2026-11-20T19:02:07.129347Z"
+      "last_shown": "2026-11-20T20:02:09.712070Z"
     },
     {
-      "id": "d73b4511eb28426babbb4788542db76e",
-      "title": "Google updates Gemini app for macOS with computer use capabilities",
-      "summary": "Google has updated its Gemini app for macOS to include computer use features, allowing the assistant to execute multi-step workflows across local files, desktop apps, and the web. The release follows recent updates regarding AI integration on desktop operating systems.",
-      "why_it_matters": "Native OS-level agent integrations change how users and developers interact with desktop files and local automation.",
+      "id": "b32f632ef56de3af78aafbb1fcc02d7b",
+      "title": "Amazon deploys homepage banners and pop-ups to oppose NYC delivery bill",
+      "summary": "Amazon is using in-app pop-ups and homepage banners to urge users to oppose New York City's Delivery Protection Act. The company warns that the proposed legislation could add up to $5 per order.",
+      "why_it_matters": null,
       "item_ids": [
-        "d73b4511eb28426babbb4788542db76e",
-        "f5c860210425baad5f1f23c509d37f2e",
-        "99d6f66a3f7b385062ecdf44eb2754af"
+        "b32f632ef56de3af78aafbb1fcc02d7b",
+        "c9903d71fa8a121bfc1cde38affe60cc"
       ],
-      "primary_url": "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac",
-      "first_shown": "2026-11-19T20:02:02.945054Z",
-      "last_shown": "2026-11-20T19:02:07.129347Z"
+      "primary_url": "https://www.cnbc.com/2026/11/19/amazon-nyc-delivery-protection-act.html",
+      "first_shown": "2026-11-20T12:02:15.604842Z",
+      "last_shown": "2026-11-20T20:02:09.712070Z"
     },
+    {
+      "id": "471d5fb3786b6fe45ead7195f49d97aa",
+      "title": "Internet Archive staff vote to unionize with Communications Workers of America",
+      "summary": "A supermajority of eligible workers at the nonprofit digital library voted to join the Communications Workers of America. The unionization effort aims to represent staff across the organization.",
+      "why_it_matters": null,
+      "item_ids": [
+        "471d5fb3786b6fe45ead7195f49d97aa",
+        "72ea9b003aa99f91aec99a8ffc92293c"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-20T20:02:09.712070Z",
+      "last_shown": "2026-11-20T20:02:09.712070Z"
+    },
+    {
+      "id": "b2e90aac5dc2640bbcff6131251ca9de",
+      "title": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
+      "summary": null,
+      "why_it_matters": "Demonstrates the viability of using AI to discover, design, and verify an entirely new CPU architecture.",
+      "item_ids": [
+        "b2e90aac5dc2640bbcff6131251ca9de"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-20T19:02:07.129347Z",
+      "last_shown": "2026-11-20T20:02:09.712070Z"
+    }
+  ],
+  "past_top_stories": [
     {
       "id": "a82636a7b5e1d5141557b498c3408240",
       "title": "Critical memory corruption flaws discovered in NGINX servers",
@@ -31822,31 +31860,6 @@
       "last_shown": "2026-11-20T19:02:07.129347Z"
     },
     {
-      "id": "b32f632ef56de3af78aafbb1fcc02d7b",
-      "title": "Amazon pushes app banners and alerts opposing NYC's Delivery Protection Act",
-      "summary": "Amazon is using its shopping platform to fight local legislation by displaying push notifications and home page banners. The company warns users that New York City's proposed Delivery Protection Act could add up to $5 per order.",
-      "why_it_matters": null,
-      "item_ids": [
-        "b32f632ef56de3af78aafbb1fcc02d7b",
-        "c9903d71fa8a121bfc1cde38affe60cc"
-      ],
-      "primary_url": "https://www.cnbc.com/2026/11/19/amazon-nyc-delivery-protection-act.html",
-      "first_shown": "2026-11-20T12:02:15.604842Z",
-      "last_shown": "2026-11-20T19:02:07.129347Z"
-    },
-    {
-      "id": "b2e90aac5dc2640bbcff6131251ca9de",
-      "title": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
-      "summary": null,
-      "why_it_matters": "Demonstrates the viability of using AI to discover, design, and verify an entirely new CPU architecture.",
-      "item_ids": [
-        "b2e90aac5dc2640bbcff6131251ca9de"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-20T19:02:07.129347Z",
-      "last_shown": "2026-11-20T19:02:07.129347Z"
-    },
-    {
       "id": "c2f4edbbf14eea24177005d165697ff6",
       "title": "China attackers deployed AI agents that autonomously found and exploited a 0-day to take over a university server",
       "summary": "'Agents kept adapting for nearly a full day without human direction,' Amazon CISO said",
@@ -31857,9 +31870,7 @@
       "primary_url": null,
       "first_shown": "2026-11-20T19:02:07.129347Z",
       "last_shown": "2026-11-20T19:02:07.129347Z"
-    }
-  ],
-  "past_top_stories": [
+    },
     {
       "id": "3a83188f127116400d29c5aed2dd1a0a",
       "title": "Transport for London Takes Oyster Card Website Offline After Breach",
@@ -31967,32 +31978,6 @@
       "primary_url": null,
       "first_shown": "2026-11-20T08:01:55.515611Z",
       "last_shown": "2026-11-20T08:01:55.515611Z"
-    },
-    {
-      "id": "ccdd401259e4f7e19b5fbebf58b89174",
-      "title": "Google partners with Blue Origin to launch AI server satellites in 2029",
-      "summary": "Google is teaming up with Blue Origin to launch AI server satellites into orbit using the New Glenn rocket. The project represents a long-term infrastructure initiative for deploying computing workloads in space.",
-      "why_it_matters": null,
-      "item_ids": [
-        "ccdd401259e4f7e19b5fbebf58b89174",
-        "4adaa8da106f5d79277e3e624bdee2dd"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-19T20:02:02.945054Z",
-      "last_shown": "2026-11-20T03:01:56.418994Z"
-    },
-    {
-      "id": "0c9c7e27fc36e4f22081e1701de71898",
-      "title": "NVIDIA Investigates Data Breach Claims by Ransomware Group",
-      "summary": "NVIDIA is investigating claims of a cyberattack after the Gentlemen ransomware group listed the company on its leak site. The group has set a deadline for payment under threat of leaking stolen company data.",
-      "why_it_matters": "A potential breach of a primary semiconductor designer could expose critical internal technical data and development assets.",
-      "item_ids": [
-        "0c9c7e27fc36e4f22081e1701de71898",
-        "cb9775206a193eb0f533c7398f475a4b"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-20T01:01:56.367245Z",
-      "last_shown": "2026-11-20T02:01:47.904059Z"
     }
   ]
 }
