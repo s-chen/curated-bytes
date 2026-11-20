@@ -1,6 +1,60 @@
 {
-  "generated_at": "2026-11-20T01:01:56.367245Z",
+  "generated_at": "2026-11-20T02:01:47.904059Z",
   "items": [
+    {
+      "id": "b6b5adecac53d2cec077cbbe9402fc91",
+      "title": "nginx2root: Five new nginx vulnerabilities, and how Cloudflare protects origins from the worst of them",
+      "url": "https://blog.cloudflare.com/nginx2root/",
+      "source_id": "cloudflare-blog",
+      "source_name": "Cloudflare Blog",
+      "category": "tech",
+      "summary": "Five memory corruption bugs in nginx, called nginx2root, can let an unauthenticated attacker run code on a server. Here’s how they work, and why origins behind Cloudflare's proxy are shielded from the most serious of these bugs.",
+      "published_at": "2026-11-20T01:58:29Z",
+      "fetched_at": "2026-11-20T02:01:47.904059Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": true,
+      "blog": true,
+      "review": "kept",
+      "importance": 4
+    },
+    {
+      "id": "a3673e9f6de02f76d0ab484aaf46c560",
+      "title": "Does your AI agent need an LLM to decide what to do next?",
+      "url": "https://thenewstack.io/aws-decider-models-agents/",
+      "source_id": "the-new-stack",
+      "source_name": "The New Stack",
+      "category": "tech",
+      "summary": "Say “good morning” to an AI agent, and it might search its long-term memory before saying hello back. Somewhere in The post Does your AI agent need an LLM to decide what to do next? appeared first on The New Stack.",
+      "published_at": "2026-11-20T01:37:32Z",
+      "fetched_at": "2026-11-20T02:01:47.904059Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "799192900d01d0ced64720beab67dfb7",
+      "title": "Flaws in VMware and KVM need attention, if you have time while fixing Java, PHP, and everything else",
+      "url": "https://www.theregister.com/security/2026/11/20/flaws-in-vmware-and-kvm-need-attention-if-you-have-time-while-fixing-java-php-and-everything-else/5311193",
+      "source_id": "the-register",
+      "source_name": "The Register",
+      "category": "tech",
+      "summary": "Critical Virtzilla bugs, plus a strange Digital Ocean reaction to a nested virtualization issue",
+      "published_at": "2026-11-20T00:57:45Z",
+      "fetched_at": "2026-11-20T02:01:47.904059Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 4
+    },
     {
       "id": "68c3566d2193094dec5680e52201209a",
       "title": "Apple may be developing its own AI agent that runs your Mac",
@@ -35,7 +89,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "477da580a92d248252bc7106ce8206b8",
@@ -53,7 +107,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "22b0b2976b070b4d06592cbd8bdd2719",
@@ -72,6 +126,24 @@
       "blog": false,
       "review": "kept",
       "importance": 3
+    },
+    {
+      "id": "906301fb8ed7dc42635befae1db321ef",
+      "title": "Germ Network infects Android, but in a good way",
+      "url": "https://www.theregister.com/security/2026/11/20/germ-network-infects-android-but-in-a-good-way/5311186",
+      "source_id": "the-register",
+      "source_name": "The Register",
+      "category": "tech",
+      "summary": "Bluesky's preferred encrypted messaging app allows multiple identities without tying you to a phone number",
+      "published_at": "2026-11-20T00:06:35Z",
+      "fetched_at": "2026-11-20T02:01:47.904059Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 2
     },
     {
       "id": "085862086b107014c1d84d76ca89374c",
@@ -142,7 +214,7 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "pending",
+      "review": "excluded",
       "importance": null
     },
     {
@@ -233,7 +305,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "b32f632ef56de3af78aafbb1fcc02d7b",
@@ -250,8 +322,8 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 2
     },
     {
       "id": "7738d19f5befa47881b20295aa3552fa",
@@ -305,7 +377,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "cdbd4c040818a1b1ac0600aa89f55790",
@@ -376,7 +448,7 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "pending",
+      "review": "excluded",
       "importance": null
     },
     {
@@ -394,7 +466,7 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "pending",
+      "review": "excluded",
       "importance": null
     },
     {
@@ -413,7 +485,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "01ad72294656b106f7c01b7e17bbfb56",
@@ -448,8 +520,8 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 1
     },
     {
       "id": "c49c117f0f476a7b688d8d2ee19dd5ed",
@@ -502,8 +574,8 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 2
     },
     {
       "id": "72e6d5169487b2dbccbe5bfc2d61cf11",
@@ -557,7 +629,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "f628e22d3aa59241e02a3183b8926d34",
@@ -646,8 +718,8 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 2
     },
     {
       "id": "00faa1332414750cac902f5c96dbd557",
@@ -718,7 +790,7 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 3
     },
     {
@@ -754,7 +826,7 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 2
     },
     {
@@ -772,7 +844,7 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 2
     },
     {
@@ -791,7 +863,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "0c9c7e27fc36e4f22081e1701de71898",
@@ -899,7 +971,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "811bbebe62be21092794de53ce212534",
@@ -917,7 +989,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "70029e04d8891f016add282943bca035",
@@ -935,7 +1007,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "41020e5a44d63066d90b95a0f47f9ee4",
@@ -970,7 +1042,7 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "pending",
+      "review": "excluded",
       "importance": null
     },
     {
@@ -988,7 +1060,7 @@
       "comments": 4,
       "engineering": false,
       "blog": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 1
     },
     {
@@ -1007,7 +1079,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "f5c860210425baad5f1f23c509d37f2e",
@@ -1060,7 +1132,7 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 2
     },
     {
@@ -1078,7 +1150,7 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 2
     },
     {
@@ -1097,7 +1169,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "99d6f66a3f7b385062ecdf44eb2754af",
@@ -1149,7 +1221,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -1169,7 +1241,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "9c2ac76bdbd07b98d9c18d0fbb20fc55",
@@ -1205,7 +1277,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "8ce8eb19aabfcbe6bd096776ff695c1b",
@@ -1259,7 +1331,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "88a34105015e406d2f567dd0ab303eb3",
@@ -1276,7 +1348,7 @@
       "comments": 8,
       "engineering": false,
       "blog": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 2
     },
     {
@@ -1294,7 +1366,7 @@
       "comments": 77,
       "engineering": false,
       "blog": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 2
     },
     {
@@ -1312,7 +1384,7 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "pending",
+      "review": "excluded",
       "importance": null
     },
     {
@@ -1493,7 +1565,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "89e78470e096847204613e4abea3bc1b",
@@ -1528,7 +1600,7 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 2
     },
     {
@@ -1583,7 +1655,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "dce9ddb8b94efadd25731edc70f51714",
@@ -1815,7 +1887,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 3
     },
@@ -1852,7 +1924,7 @@
       "comments": 89,
       "engineering": false,
       "blog": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 2
     },
     {
@@ -1906,7 +1978,7 @@
       "comments": 3,
       "engineering": false,
       "blog": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 2
     },
     {
@@ -1996,7 +2068,7 @@
       "comments": 30,
       "engineering": false,
       "blog": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 1
     },
     {
@@ -2033,7 +2105,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "f6f1b0ff870048af063333fcaad1a24d",
@@ -2051,7 +2123,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "ce5b965bdd2340001f4096da69373254",
@@ -2104,7 +2176,7 @@
       "comments": 97,
       "engineering": false,
       "blog": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 2
     },
     {
@@ -2140,7 +2212,7 @@
       "comments": 179,
       "engineering": false,
       "blog": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 2
     },
     {
@@ -2158,7 +2230,7 @@
       "comments": 63,
       "engineering": false,
       "blog": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 3
     },
     {
@@ -2176,7 +2248,7 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 3
     },
     {
@@ -2195,7 +2267,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "9bb7a0fdd0f7a3ac57a673991ba46463",
@@ -2230,7 +2302,7 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 2
     },
     {
@@ -2249,7 +2321,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "db39039f2bca971ad70927340272b4a4",
@@ -2267,7 +2339,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "2f4dbdf42d889634f1179342ed1811ba",
@@ -2303,7 +2375,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "e1a1ee265db95786d7196cdbff8b004c",
@@ -2339,7 +2411,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 4
     },
     {
       "id": "d04ade679ec0a0e585c8e69b5c7905d6",
@@ -2357,7 +2429,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "ef6a6bf7c18762b19f081ec9c04c42ae",
@@ -2374,7 +2446,7 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "pending",
+      "review": "excluded",
       "importance": null
     },
     {
@@ -2410,7 +2482,7 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 2
     },
     {
@@ -2429,7 +2501,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "9acefaaea902ef8f2779f9c59de721bd",
@@ -2446,7 +2518,7 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 2
     },
     {
@@ -2465,7 +2537,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "fcc2f5b66e7d7508379fa6ab1d7dc3ce",
@@ -2518,7 +2590,7 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 3
     },
     {
@@ -2554,7 +2626,7 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 2
     },
     {
@@ -2572,7 +2644,7 @@
       "comments": 60,
       "engineering": false,
       "blog": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 2
     },
     {
@@ -2590,7 +2662,7 @@
       "comments": 53,
       "engineering": false,
       "blog": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 2
     },
     {
@@ -2608,7 +2680,7 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 3
     },
     {
@@ -2643,7 +2715,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 2
     },
@@ -2661,7 +2733,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 2
     },
@@ -2681,7 +2753,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "a73691efa8e7e577de422c934dc1bf39",
@@ -2699,7 +2771,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "708518498c68a5d2c814488f4ec7516a",
@@ -2753,7 +2825,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "b66533c29c307a4d3d5d46b140ccd9e3",
@@ -2788,7 +2860,7 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 2
     },
     {
@@ -2806,7 +2878,7 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "pending",
+      "review": "excluded",
       "importance": null
     },
     {
@@ -2825,7 +2897,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "3b205a15b619ed0b1502cd6df0dffab6",
@@ -2842,7 +2914,7 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 2
     },
     {
@@ -2969,7 +3041,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "863d1565d6b4373c298e0e36cd555954",
@@ -2987,7 +3059,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "b081c097e5d7ac7b7b8d147043c7ba18",
@@ -3041,7 +3113,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "eb452d181113d0a258d2f4dd8d76bb1a",
@@ -3076,7 +3148,7 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 3
     },
     {
@@ -3093,9 +3165,9 @@
       "points": 656,
       "comments": 313,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "86e5a6464c5f29f24d2b9be4a5ef535f",
@@ -3130,7 +3202,7 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "pending",
+      "review": "excluded",
       "importance": null
     },
     {
@@ -3148,7 +3220,7 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 3
     },
     {
@@ -3167,7 +3239,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "0c5eb2b8a2c498a4aa9e24cc85f93541",
@@ -3184,7 +3256,7 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "pending",
+      "review": "excluded",
       "importance": null
     },
     {
@@ -3202,7 +3274,7 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 2
     },
     {
@@ -3221,7 +3293,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "1bf5314c614830cbbfa4bf163e152ea9",
@@ -3239,7 +3311,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "ca7df83d217da18e98f2542173606408",
@@ -3275,7 +3347,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "cb9775206a193eb0f533c7398f475a4b",
@@ -3347,7 +3419,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "4adaa8da106f5d79277e3e624bdee2dd",
@@ -3363,7 +3435,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 3
     },
@@ -3399,7 +3471,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 3
     },
@@ -3455,7 +3527,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "6ea811258a4650083c1e6d3a282162e2",
@@ -3489,7 +3561,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 2
     },
@@ -3508,7 +3580,7 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 3
     },
     {
@@ -3777,7 +3849,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 3
     },
@@ -3797,7 +3869,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "3117898b6ee8e227e75c015727217bb0",
@@ -3832,7 +3904,7 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 2
     },
     {
@@ -3851,7 +3923,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "40426fa5e165817e0776d79854543ccf",
@@ -3922,7 +3994,7 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 3
     },
     {
@@ -3940,7 +4012,7 @@
       "comments": 2,
       "engineering": false,
       "blog": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 2
     },
     {
@@ -3976,7 +4048,7 @@
       "comments": 71,
       "engineering": false,
       "blog": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 3
     },
     {
@@ -3995,7 +4067,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "c8fc68977f1143a6702e94e1cced3d3f",
@@ -4031,7 +4103,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 2
     },
     {
       "id": "2405bed27a7dc7226b95253f3302cc72",
@@ -4085,7 +4157,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 1
     },
     {
       "id": "17a60a9ff30c8a2beaf1162fb9a546af",
@@ -4102,7 +4174,7 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 3
     },
     {
@@ -4193,7 +4265,7 @@
       "engineering": false,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "6ed6090c09421c3624bfa8f67145e915",
@@ -4209,9 +4281,9 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "787cd754371822f4af25aae72cc78df9",
@@ -4227,9 +4299,9 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "2e76d5b4b679af87e6a842badef68d97",
@@ -4245,9 +4317,9 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "54258b5fb3eb437a0047a3883629a942",
@@ -4281,9 +4353,9 @@
       "points": 19,
       "comments": 0,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "cd724e6ee1f5aed090e2695d9e103aad",
@@ -4319,7 +4391,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "876484ea4ec6e659cb5fddb9694aa9d7",
@@ -4372,7 +4444,7 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 2
     },
     {
@@ -4391,7 +4463,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "d3a1bbdb81250830e6c43bb104d3ec55",
@@ -4426,7 +4498,7 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 2
     },
     {
@@ -4444,7 +4516,7 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 3
     },
     {
@@ -4462,7 +4534,7 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 4
     },
     {
@@ -4516,7 +4588,7 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 3
     },
     {
@@ -4535,7 +4607,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "012da750a081e6b19983fe1195488a87",
@@ -4570,7 +4642,7 @@
       "comments": 8,
       "engineering": false,
       "blog": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 1
     },
     {
@@ -4661,7 +4733,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "36416abeec5b63f2b8745e3b50acff83",
@@ -4679,7 +4751,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "411a13cc3cd982a63121ca11b91c6a3c",
@@ -4696,7 +4768,7 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 3
     },
     {
@@ -4714,7 +4786,7 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 4
     },
     {
@@ -4732,7 +4804,7 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 2
     },
     {
@@ -4750,7 +4822,7 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 3
     },
     {
@@ -4805,7 +4877,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "0bfc557df3b8e549121a7cdcca0c2536",
@@ -4823,7 +4895,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "8ff378e68406c87a70fcbb0f5dee0867",
@@ -4841,7 +4913,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "61d58e43ed14c98d98af2c610f006a40",
@@ -4876,7 +4948,7 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 3
     },
     {
@@ -4894,7 +4966,7 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 2
     },
     {
@@ -4912,7 +4984,7 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 2
     },
     {
@@ -4929,7 +5001,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 3
     },
@@ -4984,7 +5056,7 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 4
     },
     {
@@ -5003,7 +5075,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "742dc0a054168a8075cffa9b24639798",
@@ -5021,7 +5093,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "eaefcb1791026f317d4e8025c7c1653e",
@@ -5039,7 +5111,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "6e2f0c8f37e765121b4af9ee822d5bec",
@@ -5057,7 +5129,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "44639f2c97fdce34e450962cd96a0128",
@@ -5092,7 +5164,7 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 2
     },
     {
@@ -5110,7 +5182,7 @@
       "comments": 32,
       "engineering": false,
       "blog": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 3
     },
     {
@@ -5146,7 +5218,7 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 1
     },
     {
@@ -5165,7 +5237,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "2d3bb8f13d73ac138025a699426ec724",
@@ -5183,7 +5255,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "601acd641774ec16c889d88e8f98954b",
@@ -5201,7 +5273,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "066ed1b0e3fa2d93a4e4aa2ff92fe12d",
@@ -5218,7 +5290,7 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 2
     },
     {
@@ -5290,7 +5362,7 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 2
     },
     {
@@ -5308,7 +5380,7 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 2
     },
     {
@@ -5363,7 +5435,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "c7d17daf0a445779e6ebc0a63e0f9bfc",
@@ -5380,7 +5452,7 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 2
     },
     {
@@ -5399,7 +5471,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "b3aef248e1f32081c7bbbf55f6d0afe1",
@@ -5434,7 +5506,7 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 2
     },
     {
@@ -5453,7 +5525,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "e365983d924d7b604d6319df8cbcf261",
@@ -5471,7 +5543,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "c471ba45893cc0b3a95c8cca32b6d877",
@@ -5489,7 +5561,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "5095af2e2b71cd6b2b4715e2e6cbfa28",
@@ -5505,7 +5577,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 2
     },
@@ -5525,7 +5597,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "4a9acaec0868efd42a150fe6aa625228",
@@ -5543,7 +5615,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "768f65eb11e89b2002d08b6cdfd676bc",
@@ -5560,7 +5632,7 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 2
     },
     {
@@ -5614,7 +5686,7 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 3
     },
     {
@@ -5633,7 +5705,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "a678fbb9471f9e77ef24cedcad2ce72d",
@@ -5651,7 +5723,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "55bb5f7e5477d227cc89839da3d243c7",
@@ -5668,7 +5740,7 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 1
     },
     {
@@ -5686,7 +5758,7 @@
       "comments": 14,
       "engineering": false,
       "blog": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 2
     },
     {
@@ -5704,7 +5776,7 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 2
     },
     {
@@ -5759,7 +5831,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "14b1949b4d29518f458899163f702371",
@@ -5776,7 +5848,7 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "kept",
+      "review": "excluded",
       "importance": 3
     },
     {
@@ -26984,78 +27056,6 @@
       "importance": 2
     },
     {
-      "id": "05157628ad06de40fc627e1827ab27fd",
-      "title": "Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job",
-      "url": "https://www.nytimes.com/2026/11/12/us/politics/trump-jensen-huang-nvidia.html",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-11-13T01:43:57Z",
-      "fetched_at": "2026-11-13T02:01:43.576441Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50477031",
-      "points": 12,
-      "comments": 1,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 4
-    },
-    {
-      "id": "adce18c6969afa7826158350bfdb76e5",
-      "title": "Alibaba's Qwen3.8 re-educated with a more Western worldview",
-      "url": "https://www.theregister.com/ai-and-ml/2026/11/13/alibabas-qwen38-re-educated-with-a-more-western-worldview/5309555",
-      "source_id": "the-register",
-      "source_name": "The Register",
-      "category": "tech",
-      "summary": "Open weight model can now say things Chinese authorities don't like",
-      "published_at": "2026-11-13T01:25:00Z",
-      "fetched_at": "2026-11-13T03:01:46.959108Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "7c9bcfd4b3414e7af1fae543aa369e2b",
-      "title": "‘Bring Back THE Boss’: Nvidia Employees Petition for Jensen Huang’s Return",
-      "url": "https://www.wired.com/story/nvidia-employees-petition-for-jensen-huangs-return/",
-      "source_id": "wired",
-      "source_name": "Wired",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-11-13T01:17:49Z",
-      "fetched_at": "2026-11-13T02:01:43.576441Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50477231",
-      "points": 704,
-      "comments": 557,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 4
-    },
-    {
-      "id": "4a37991b649271c9a574adf4bb9e4c99",
-      "title": "Announcing the GraphQL over HTTP specification",
-      "url": "https://graphql.org/blog/2026-11-12-announcing-the-graphql-over-http-spec/",
-      "source_id": "lobsters",
-      "source_name": "Lobsters",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-11-13T01:16:15Z",
-      "fetched_at": "2026-11-13T02:01:43.576441Z",
-      "discussion_url": "https://lobste.rs/s/klmtb1/announcing_graphql_over_http",
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
       "id": "8a8b084adb7ea153a0cb1ef376030c77",
       "title": "GitHub availability report: October 2026",
       "url": "https://github.blog/news-insights/company-news/github-availability-report-october-2026/",
@@ -31900,78 +31900,156 @@
   ],
   "top_stories": [
     {
-      "id": "477da580a92d248252bc7106ce8206b8",
-      "title": "Critical VMware vCenter zero-day vulnerability patched",
-      "summary": "Broadcom released security updates to fix a critical VMware vCenter Server authentication bypass vulnerability with a CVSS score of 9.8. Chinese-linked hackers have exploited the flaw in zero-day attacks since September 2026.",
-      "why_it_matters": "This critical authentication bypass allows network attackers to gain unauthorized access to vulnerable enterprise systems, requiring immediate patching.",
+      "id": "d3a1bbdb81250830e6c43bb104d3ec55",
+      "title": "Anthropic Makes Nasdaq Market Debut in Record-Breaking Tech IPO",
+      "summary": "Anthropic has completed its initial public offering, trading on the Nasdaq exchange under ticker ANT after initially pricing at $83 per share. Shares reached $110 to $111.50 in early trading, driving the company's valuation past the $1.5 trillion to $2 trillion mark.",
+      "why_it_matters": "It establishes a major public financial valuation for frontier AI foundation model developers, providing vast capital reserves for compute commitments and developer infrastructure.",
       "item_ids": [
-        "477da580a92d248252bc7106ce8206b8",
-        "18306cc167b8fd22b7d9c1bd7151dc0d"
-      ],
-      "primary_url": "https://github.com/vmware/vcf-security-and-compliance-guidelines/blob/main/security-advisories/vmsa-2026-0009/README.md",
-      "first_shown": "2026-11-20T01:01:56.367245Z",
-      "last_shown": "2026-11-20T01:01:56.367245Z"
-    },
-    {
-      "id": "aff84b6b921d74b7717ebfbd624e1c96",
-      "title": "Anthropic goes public with record-breaking Nasdaq IPO",
-      "summary": "Anthropic completed a record-breaking IPO on the Nasdaq, trading under the ticker symbol ANT. The offering valued the company at over $1 trillion while raising tens of billions in capital, though questions remain regarding its massive compute obligations and AI safety strategy.",
-      "why_it_matters": "A massive public debut by a frontier AI lab alters market capitalization benchmarks, capital availability, and industry compute investments.",
-      "item_ids": [
-        "aff84b6b921d74b7717ebfbd624e1c96",
-        "1987643f0f321f3f035193a702e52ff4",
+        "d3a1bbdb81250830e6c43bb104d3ec55",
         "b8f99795acbb06501f93b750503a09b0",
-        "b366431ac25971694f33ba6bc4f8023f",
         "89e78470e096847204613e4abea3bc1b",
+        "b366431ac25971694f33ba6bc4f8023f",
+        "1987643f0f321f3f035193a702e52ff4",
+        "aff84b6b921d74b7717ebfbd624e1c96",
         "0391667c2f0fad7c7568718dd900ffb4",
-        "e8a8dbb76a34d1de1b681875347d992f"
+        "920b24ab394d054063ff5ad618d6fa14",
+        "36416abeec5b63f2b8745e3b50acff83"
       ],
       "primary_url": null,
       "first_shown": "2026-11-18T23:01:58.569756Z",
-      "last_shown": "2026-11-20T01:01:56.367245Z"
+      "last_shown": "2026-11-20T02:01:47.904059Z"
     },
     {
-      "id": "d73b4511eb28426babbb4788542db76e",
-      "title": "Google Gemini for macOS adds computer use capabilities",
-      "summary": "Google is adding computer use to its Gemini app for macOS. The assistant can now perform multi-step tasks across local files, desktop applications, and the web.",
-      "why_it_matters": "This update expands desktop AI automation tools available to developers and users on macOS, competing directly with native operating system features.",
+      "id": "b6b5adecac53d2cec077cbbe9402fc91",
+      "title": "Critical NGINX Memory Flaws Allow Remote Code Execution",
+      "summary": "Security researchers and vendors disclosed five memory corruption vulnerabilities in NGINX dubbed 'nginx2root'. The flaws include a decade-old HTTP/2 bug that can allow unauthenticated attackers to execute arbitrary code remotely on servers.",
+      "why_it_matters": "Engineers maintaining NGINX web servers must immediately apply security updates to prevent unauthenticated remote code execution.",
       "item_ids": [
-        "d73b4511eb28426babbb4788542db76e",
-        "f5c860210425baad5f1f23c509d37f2e",
-        "99d6f66a3f7b385062ecdf44eb2754af"
+        "b6b5adecac53d2cec077cbbe9402fc91",
+        "a82636a7b5e1d5141557b498c3408240",
+        "a678fbb9471f9e77ef24cedcad2ce72d",
+        "18aa065588bbc9bd97fa07c708745732"
       ],
-      "primary_url": "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac",
-      "first_shown": "2026-11-19T20:02:02.945054Z",
-      "last_shown": "2026-11-20T01:01:56.367245Z"
+      "primary_url": "https://nginx.org/en/security_advisories.html",
+      "first_shown": "2026-11-18T20:55:33.927674Z",
+      "last_shown": "2026-11-20T02:01:47.904059Z"
     },
     {
-      "id": "11c91896f02fa3cc258210984befc9fd",
-      "title": "ASUS and Nvidia face security incidents and ransomware claims",
-      "summary": "ASUS released a security update for Control Center Express to fix critical hard-coded key flaws that could let remote attackers gain administrative control. Meanwhile, Nvidia is investigating security breach claims after being added to a ransomware group's data leak site.",
-      "why_it_matters": "Security flaws and ransomware threats impacting major infrastructure and hardware vendors require immediate auditing of management consoles and credentials.",
+      "id": "9dc7c92ee38becf1cc8b448935571cda",
+      "title": "PHP Releases Critical Security Updates for Multiple Supported Versions",
+      "summary": "The PHP Project and PHP Foundation have released security updates including versions 8.5.13, 8.4.28, 8.3.37, and 8.2.36 to resolve up to 18 vulnerabilities. The addressed flaws contain critical remote code execution vulnerabilities that could allow unauthenticated attackers to take over vulnerable servers.",
+      "why_it_matters": "Backend engineers must patch their PHP runtimes to protect web applications from remote code execution vulnerabilities.",
       "item_ids": [
-        "11c91896f02fa3cc258210984befc9fd",
-        "cb9775206a193eb0f533c7398f475a4b",
-        "0c9c7e27fc36e4f22081e1701de71898"
+        "9dc7c92ee38becf1cc8b448935571cda",
+        "2f4dbdf42d889634f1179342ed1811ba",
+        "f61b0db71bf30bd93f587fec705da852",
+        "2aa68bdd4ec1318430d1a063c9e1fefc",
+        "e4810f188d101c2ba093ea4ddf2d2823",
+        "6aff72c298326631c8ed9b74df6c1a36",
+        "3117898b6ee8e227e75c015727217bb0",
+        "601acd641774ec16c889d88e8f98954b"
       ],
-      "primary_url": "https://www.token.security/book-a-demo",
+      "primary_url": null,
+      "first_shown": "2026-11-18T20:55:33.927674Z",
+      "last_shown": "2026-11-20T02:01:47.904059Z"
+    },
+    {
+      "id": "477da580a92d248252bc7106ce8206b8",
+      "title": "Broadcom Patches Critical Zero-Day Flaw in VMware vCenter Server",
+      "summary": "Broadcom issued security updates addressing a critical authentication bypass vulnerability with a CVSS score of 9.8 in VMware vCenter Server. Attackers with network access have reportedly exploited the zero-day flaw in attacks since September 2026.",
+      "why_it_matters": "Infrastructure and virtualization administrators must patch VMware vCenter deployments to block unauthorized network access and authentication bypass.",
+      "item_ids": [
+        "477da580a92d248252bc7106ce8206b8",
+        "18306cc167b8fd22b7d9c1bd7151dc0d",
+        "799192900d01d0ced64720beab67dfb7"
+      ],
+      "primary_url": "https://github.com/vmware/vcf-security-and-compliance-guidelines/blob/main/security-advisories/vmsa-2026-0009/README.md",
       "first_shown": "2026-11-20T01:01:56.367245Z",
-      "last_shown": "2026-11-20T01:01:56.367245Z"
+      "last_shown": "2026-11-20T02:01:47.904059Z"
     },
     {
-      "id": "8157036378b2d9e05bf450838f22c1b3",
-      "title": "PostgreSQL 19 Released",
-      "summary": "The PostgreSQL Global Development Group announced the release of PostgreSQL 19. Notable features include the introduction of the REPACK (CONCURRENTLY) command to optimize tables.",
-      "why_it_matters": "Database upgrades directly impact performance, data management capabilities, and maintenance workflows for backend engineers.",
+      "id": "6ff23dcc07064596c65d04d84091377e",
+      "title": "Hackers Breach Third-Party Vendor Exposing Bank and Card Customer Data",
+      "summary": "JPMorgan Chase, Visa, and Mastercard confirmed that cyberattacks against third-party vendors exposed customer information such as names and email addresses. JPMorgan stated the vendor breach is unrelated to this week's earlier service outages.",
+      "why_it_matters": "Engineering and security teams must evaluate third-party vendor supply chain risks to prevent external compromises from leaking client data.",
       "item_ids": [
-        "8157036378b2d9e05bf450838f22c1b3",
-        "5c43a13332be94277f6fceda24a1ed13",
-        "cadcf2c9f97d77660a0cc312682eb8be"
+        "6ff23dcc07064596c65d04d84091377e",
+        "01ad72294656b106f7c01b7e17bbfb56",
+        "bdea04f0abc974c52cb0a146ccddee7d"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-20T00:01:51.132101Z",
+      "last_shown": "2026-11-20T02:01:47.904059Z"
+    },
+    {
+      "id": "a79d78f0621d468bc543adaab8bf3d44",
+      "title": "UK Government Discloses Secret Encryption Order Issued to Apple",
+      "summary": "A UK tribunal rejected government national security claims, forcing London to disclose a secret order issued to Apple regarding encryption. The ruling follows legal proceedings that pushed authorities to admit to the directive.",
+      "why_it_matters": "The decision clarifies the legal reach of government mandates attempting to influence consumer device encryption and security architectures.",
+      "item_ids": [
+        "a79d78f0621d468bc543adaab8bf3d44",
+        "1a9bb210b5bb1b353aacdc7dff977705"
       ],
       "primary_url": null,
       "first_shown": "2026-11-19T20:02:02.945054Z",
-      "last_shown": "2026-11-20T01:01:56.367245Z"
+      "last_shown": "2026-11-20T02:01:47.904059Z"
     },
+    {
+      "id": "f5c860210425baad5f1f23c509d37f2e",
+      "title": "Google Adds Computer Use Agent Capabilities to Gemini on macOS",
+      "summary": "Google has updated its Gemini macOS application to include computer use capabilities that allow the AI assistant to operate across desktop applications and local files. The release enables the agent to automate multistep workflows, fill out forms, and manage tasks across apps.",
+      "why_it_matters": "Engineers building desktop automations or macOS software can now integrate or test agent-driven OS interaction workflows.",
+      "item_ids": [
+        "f5c860210425baad5f1f23c509d37f2e",
+        "99d6f66a3f7b385062ecdf44eb2754af",
+        "d73b4511eb28426babbb4788542db76e"
+      ],
+      "primary_url": "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac",
+      "first_shown": "2026-11-19T20:02:02.945054Z",
+      "last_shown": "2026-11-20T02:01:47.904059Z"
+    },
+    {
+      "id": "8157036378b2d9e05bf450838f22c1b3",
+      "title": "PostgreSQL 19 Officially Released",
+      "summary": "The PostgreSQL Global Development Group has officially released PostgreSQL 19 after addressing earlier release issues. The new major database version introduces features including the REPACK CONCURRENTLY command to optimize tables without downtime.",
+      "why_it_matters": "Database engineers and backend developers gain native concurrent table repack capabilities and core performance enhancements.",
+      "item_ids": [
+        "8157036378b2d9e05bf450838f22c1b3",
+        "cadcf2c9f97d77660a0cc312682eb8be",
+        "5c43a13332be94277f6fceda24a1ed13"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-19T20:02:02.945054Z",
+      "last_shown": "2026-11-20T02:01:47.904059Z"
+    },
+    {
+      "id": "9bb7a0fdd0f7a3ac57a673991ba46463",
+      "title": "Drupal Patches Critical Remote Code Execution Vulnerability",
+      "summary": "The Drupal Security Team issued patches for a critical vulnerability in Drupal core that could allow unauthenticated attackers to compromise sites. The flaw involves the built-in installer, and maintainers warned that exploits may emerge quickly.",
+      "why_it_matters": "Drupal site administrators must apply updates immediately to prevent unauthenticated attackers from reinstalling sites or executing code.",
+      "item_ids": [
+        "9bb7a0fdd0f7a3ac57a673991ba46463",
+        "c66817dd54019a993b7f106a367f125b"
+      ],
+      "primary_url": "https://www.drupal.org/sa-core-2026-017",
+      "first_shown": "2026-11-19T14:01:54.233748Z",
+      "last_shown": "2026-11-20T02:01:47.904059Z"
+    },
+    {
+      "id": "0c9c7e27fc36e4f22081e1701de71898",
+      "title": "NVIDIA Investigates Data Breach Claims by Ransomware Group",
+      "summary": "NVIDIA is investigating claims of a cyberattack after the Gentlemen ransomware group listed the company on its leak site. The group has set a deadline for payment under threat of leaking stolen company data.",
+      "why_it_matters": "A potential breach of a primary semiconductor designer could expose critical internal technical data and development assets.",
+      "item_ids": [
+        "0c9c7e27fc36e4f22081e1701de71898",
+        "cb9775206a193eb0f533c7398f475a4b"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-20T01:01:56.367245Z",
+      "last_shown": "2026-11-20T02:01:47.904059Z"
+    }
+  ],
+  "past_top_stories": [
     {
       "id": "78eafb299d66667c8916c8ade8879a5a",
       "title": "Google partners with Blue Origin to launch AI server satellites",
@@ -31999,52 +32077,6 @@
       "first_shown": "2026-11-19T20:02:02.945054Z",
       "last_shown": "2026-11-20T01:01:56.367245Z"
     },
-    {
-      "id": "6ff23dcc07064596c65d04d84091377e",
-      "title": "Financial institutions confirm customer data breaches via third-party vendors",
-      "summary": "Visa, Mastercard, and JPMorgan Chase confirmed that third-party vendors suffered cyberattacks that may have exposed customer data such as names and email addresses. JPMorgan stated the breach was unrelated to a recent banking outage.",
-      "why_it_matters": "Third-party vendor compromises pose systemic supply chain risks to financial networks and customer data security.",
-      "item_ids": [
-        "6ff23dcc07064596c65d04d84091377e",
-        "01ad72294656b106f7c01b7e17bbfb56",
-        "bdea04f0abc974c52cb0a146ccddee7d"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-20T00:01:51.132101Z",
-      "last_shown": "2026-11-20T01:01:56.367245Z"
-    },
-    {
-      "id": "f61b0db71bf30bd93f587fec705da852",
-      "title": "PHP project releases critical security updates fixing remote code execution flaws",
-      "summary": "The PHP development team and foundation released security updates addressing critical vulnerabilities, including remote code execution bugs across supported versions. Maintainers had previously warned users of the upcoming patches.",
-      "why_it_matters": "Critical RCE vulnerabilities in widely deployed runtime environments require immediate patching across web servers to prevent exploitation.",
-      "item_ids": [
-        "f61b0db71bf30bd93f587fec705da852",
-        "2aa68bdd4ec1318430d1a063c9e1fefc",
-        "2f4dbdf42d889634f1179342ed1811ba",
-        "3117898b6ee8e227e75c015727217bb0",
-        "6aff72c298326631c8ed9b74df6c1a36",
-        "e4810f188d101c2ba093ea4ddf2d2823"
-      ],
-      "primary_url": "https://www.php.net/archive/2026.php",
-      "first_shown": "2026-11-18T20:55:33.927674Z",
-      "last_shown": "2026-11-20T01:01:56.367245Z"
-    },
-    {
-      "id": "a79d78f0621d468bc543adaab8bf3d44",
-      "title": "UK government forced to disclose secret Apple encryption order",
-      "summary": "A UK tribunal ruling rejected London's claim that disclosing the order would damage national security, forcing the government to admit it issued Apple a secret encryption order for a backdoor.",
-      "why_it_matters": "Secret government orders mandating backdoors into consumer encryption directly impact protocol security and user privacy standards.",
-      "item_ids": [
-        "a79d78f0621d468bc543adaab8bf3d44",
-        "1a9bb210b5bb1b353aacdc7dff977705"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-19T20:02:02.945054Z",
-      "last_shown": "2026-11-20T01:01:56.367245Z"
-    }
-  ],
-  "past_top_stories": [
     {
       "id": "833ffecb3ec035d3d0fa71447c000521",
       "title": "Cyberattack on IT Provider Wellington IT Breaches Credit Unions",
@@ -32103,19 +32135,6 @@
       "last_shown": "2026-11-20T00:01:51.132101Z"
     },
     {
-      "id": "9bb7a0fdd0f7a3ac57a673991ba46463",
-      "title": "Drupal patches critical installer flaw allowing unauthenticated control",
-      "summary": "The Drupal Security Team has patched a critical remote code execution vulnerability in core that allows unauthenticated attackers to exploit the built-in installer. The flaw could enable unauthorized site reinstallation and complete takeover.",
-      "why_it_matters": "Critical patch for Drupal maintainers to prevent full site takeover via unauthenticated installer access.",
-      "item_ids": [
-        "9bb7a0fdd0f7a3ac57a673991ba46463",
-        "c66817dd54019a993b7f106a367f125b"
-      ],
-      "primary_url": "https://www.drupal.org/sa-core-2026-017",
-      "first_shown": "2026-11-19T14:01:54.233748Z",
-      "last_shown": "2026-11-19T22:01:50.615283Z"
-    },
-    {
       "id": "f628e22d3aa59241e02a3183b8926d34",
       "title": "Lawsuit Filed After AI Gun Detection System Flags Doritos Bag",
       "summary": "Students and parents are suing a school system and police after an AI gun detection system triggered an alert over a bag of Doritos. The lawsuit notes that over 99% of the school system's AI gun alerts were false positives.",
@@ -32140,35 +32159,6 @@
       "primary_url": null,
       "first_shown": "2026-11-19T21:02:56.805283Z",
       "last_shown": "2026-11-19T21:02:56.805283Z"
-    },
-    {
-      "id": "6ea71df20ccfe8c1c9fde8761a99a50e",
-      "title": "FCC Approves Rule Allowing Prisons to Jam Cellphones",
-      "summary": "The Federal Communications Commission voted unanimously to allow state and local prisons to jam cellphone signals to combat contraband. Meanwhile, Senate committees moved forward with political and regulatory confirmations related to telecommunications policy.",
-      "why_it_matters": null,
-      "item_ids": [
-        "6ea71df20ccfe8c1c9fde8761a99a50e",
-        "817013c8b32661ebe9fc204598393656",
-        "1f2dcc08269365cd73c23ab14204e5e6"
-      ],
-      "primary_url": "https://www.commerce.senate.gov/press/dem/release/committee-democrats-call-on-chair-to-pull-controversial-fcc-nominee-from-wednesday-markup",
-      "first_shown": "2026-11-19T11:01:53.160365Z",
-      "last_shown": "2026-11-19T21:02:56.805283Z"
-    },
-    {
-      "id": "a82636a7b5e1d5141557b498c3408240",
-      "title": "Critical NGINX vulnerabilities allow unauthenticated remote code execution",
-      "summary": "Researchers discovered critical vulnerabilities in NGINX, including a decade-old flaw in HTTP/2 support dubbed nginx2root. Unauthenticated attackers can chain or exploit these bugs to execute code remotely and hijack vulnerable web servers.",
-      "why_it_matters": "Critical infrastructure vulnerabilities in core web servers expose millions of public deployments to potential server takeovers.",
-      "item_ids": [
-        "a82636a7b5e1d5141557b498c3408240",
-        "18aa065588bbc9bd97fa07c708745732",
-        "a678fbb9471f9e77ef24cedcad2ce72d",
-        "4a95b9ec147073b028d1f4d73597a974"
-      ],
-      "primary_url": "https://xint.io/blog/nginx2root-remote-code-execution",
-      "first_shown": "2026-11-18T20:55:33.927674Z",
-      "last_shown": "2026-11-19T20:02:02.945054Z"
     },
     {
       "id": "9c854aa369c943121956d95ae1e616c0",
