@@ -1,6 +1,24 @@
 {
-  "generated_at": "2026-11-20T08:01:55.515611Z",
+  "generated_at": "2026-11-20T09:01:58.963152Z",
   "items": [
+    {
+      "id": "c9c464c7862f4ba4aa5797d3f981cf2f",
+      "title": "Article: Building Reliability Into the Cloud: Observability as the Control Plane for Multi-Region Failover",
+      "url": "https://www.infoq.com/articles/observability-control-plane-failover/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source_id": "infoq",
+      "source_name": "InfoQ",
+      "category": "tech",
+      "summary": "Cloud SLAs promise uptime statistically, not absolutely. This article shows how to treat observability as a control plane that detects regional degradation, triggers automated failover, and confirms recovery rather than paging a human. Covers active-active architecture, DNS TTL pitfalls, composite Prometheus alerting, Route 53 weighted routing, and confirmation loops backed by a real S3 outage. By Saurabh Ahuja",
+      "published_at": "2026-11-20T09:00:00Z",
+      "fetched_at": "2026-11-20T09:01:58.963152Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": true,
+      "review": "kept",
+      "importance": 3
+    },
     {
       "id": "56fec8d510f718c1d33d0d8ea5620817",
       "title": "\"I can tell you wrote this yourself\"",
@@ -35,7 +53,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "8268def3558294512e904fea103db061",
@@ -87,7 +105,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 3
     },
@@ -106,8 +124,8 @@
       "comments": 1,
       "engineering": false,
       "blog": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 2
     },
     {
       "id": "c179de6fc560a3d5460ff93dfd5aa9d1",
@@ -429,7 +447,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 3
     },
@@ -462,8 +480,8 @@
       "published_at": "2026-11-20T04:02:39Z",
       "fetched_at": "2026-11-20T06:01:50.235481Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50569998",
-      "points": 80,
-      "comments": 16,
+      "points": 102,
+      "comments": 21,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -498,7 +516,7 @@
       "published_at": "2026-11-20T03:45:45Z",
       "fetched_at": "2026-11-20T05:01:50.780600Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50569890",
-      "points": 101,
+      "points": 146,
       "comments": 3,
       "engineering": false,
       "blog": false,
@@ -519,7 +537,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 3
     },
@@ -552,8 +570,8 @@
       "published_at": "2026-11-20T02:44:13Z",
       "fetched_at": "2026-11-20T04:01:51.206211Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50569519",
-      "points": 10,
-      "comments": 2,
+      "points": 39,
+      "comments": 71,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -624,8 +642,8 @@
       "published_at": "2026-11-20T02:01:09Z",
       "fetched_at": "2026-11-20T03:01:56.418994Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50569226",
-      "points": 187,
-      "comments": 130,
+      "points": 208,
+      "comments": 156,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -647,7 +665,7 @@
       "engineering": true,
       "blog": true,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "a3673e9f6de02f76d0ab484aaf46c560",
@@ -678,8 +696,8 @@
       "published_at": "2026-11-20T01:06:12Z",
       "fetched_at": "2026-11-20T03:01:56.418994Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50568861",
-      "points": 90,
-      "comments": 29,
+      "points": 100,
+      "comments": 41,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -719,7 +737,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "aff84b6b921d74b7717ebfbd624e1c96",
@@ -804,8 +822,8 @@
       "published_at": "2026-11-20T00:25:59Z",
       "fetched_at": "2026-11-20T05:01:50.780600Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50568548",
-      "points": 65,
-      "comments": 19,
+      "points": 75,
+      "comments": 22,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -966,12 +984,12 @@
       "published_at": "2026-11-19T22:27:07Z",
       "fetched_at": "2026-11-19T23:01:54.669724Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50567374",
-      "points": 76,
+      "points": 79,
       "comments": 38,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "d7bf39de314b54031d0f6ee66ce53b39",
@@ -1020,12 +1038,12 @@
       "published_at": "2026-11-19T22:13:40Z",
       "fetched_at": "2026-11-19T23:01:54.669724Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50567209",
-      "points": 134,
-      "comments": 100,
+      "points": 139,
+      "comments": 112,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "7d707173f41f044097e685d1e44c3b9b",
@@ -1061,7 +1079,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "cdbd4c040818a1b1ac0600aa89f55790",
@@ -1313,7 +1331,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "f628e22d3aa59241e02a3183b8926d34",
@@ -1349,7 +1367,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "84a5dc6d5cb4b105fe58d22060313280",
@@ -1547,7 +1565,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "0c9c7e27fc36e4f22081e1701de71898",
@@ -1596,12 +1614,12 @@
       "published_at": "2026-11-19T18:47:16Z",
       "fetched_at": "2026-11-19T20:02:02.945054Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50564366",
-      "points": 101,
-      "comments": 200,
+      "points": 102,
+      "comments": 203,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "081ef7d3aec18a59beea80980fe29fb6",
@@ -1686,7 +1704,7 @@
       "published_at": "2026-11-19T18:35:17Z",
       "fetched_at": "2026-11-19T20:02:02.945054Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50564159",
-      "points": 261,
+      "points": 276,
       "comments": 144,
       "engineering": false,
       "blog": false,
@@ -1709,7 +1727,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "523494ba176f66cfd5327e5a95e99a7c",
@@ -1905,7 +1923,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -1961,7 +1979,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "8ce8eb19aabfcbe6bd096776ff695c1b",
@@ -2010,8 +2028,8 @@
       "published_at": "2026-11-19T17:30:44Z",
       "fetched_at": "2026-11-19T18:01:58.380921Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50563148",
-      "points": 473,
-      "comments": 223,
+      "points": 489,
+      "comments": 222,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -2046,8 +2064,8 @@
       "published_at": "2026-11-19T17:25:33Z",
       "fetched_at": "2026-11-19T21:00:50.856717Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50563066",
-      "points": 743,
-      "comments": 121,
+      "points": 759,
+      "comments": 127,
       "engineering": false,
       "blog": false,
       "review": "excluded",
@@ -2100,8 +2118,8 @@
       "published_at": "2026-11-19T17:02:40Z",
       "fetched_at": "2026-11-19T18:01:58.380921Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50562754",
-      "points": 1056,
-      "comments": 2080,
+      "points": 1067,
+      "comments": 2096,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -2195,7 +2213,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "b366431ac25971694f33ba6bc4f8023f",
@@ -2316,8 +2334,8 @@
       "published_at": "2026-11-19T16:34:04Z",
       "fetched_at": "2026-11-19T17:01:53.203535Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50562320",
-      "points": 114,
-      "comments": 76,
+      "points": 116,
+      "comments": 81,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -2424,8 +2442,8 @@
       "published_at": "2026-11-19T16:21:03Z",
       "fetched_at": "2026-11-19T17:01:53.203535Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50562113",
-      "points": 616,
-      "comments": 276,
+      "points": 635,
+      "comments": 285,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -2604,8 +2622,8 @@
       "published_at": "2026-11-19T15:38:32Z",
       "fetched_at": "2026-11-19T17:01:53.203535Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50561515",
-      "points": 217,
-      "comments": 99,
+      "points": 222,
+      "comments": 101,
       "engineering": false,
       "blog": false,
       "review": "excluded",
@@ -2622,8 +2640,8 @@
       "published_at": "2026-11-19T15:38:12Z",
       "fetched_at": "2026-11-19T16:01:52.089561Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50561508",
-      "points": 210,
-      "comments": 194,
+      "points": 236,
+      "comments": 212,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -2645,7 +2663,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "a78c67ce0c97340d9f205b3b662a081b",
@@ -2699,7 +2717,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "38c66bd23a6ee65546c53d950226544c",
@@ -2789,7 +2807,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "f6f1b0ff870048af063333fcaad1a24d",
@@ -2843,7 +2861,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "4fa511c4ec31e6f16735de009b8c0900",
@@ -2951,7 +2969,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "9bb7a0fdd0f7a3ac57a673991ba46463",
@@ -2969,7 +2987,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "d67d8636f15b3e1fd5809fc497492d40",
@@ -3041,7 +3059,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "0391667c2f0fad7c7568718dd900ffb4",
@@ -3095,7 +3113,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "d04ade679ec0a0e585c8e69b5c7905d6",
@@ -3221,7 +3239,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "fcc2f5b66e7d7508379fa6ab1d7dc3ce",
@@ -3293,7 +3311,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "b429521ca745498e246786acaa9da1df",
@@ -3383,7 +3401,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "b52da0b167f074b94edd29ec584221de",
@@ -3401,7 +3419,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "957cbac7bb7f45505e2ad1871a808f07",
@@ -3617,7 +3635,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "5fb8f830592fe6441de7d38fb0997436",
@@ -3707,7 +3725,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "a37a8d8ab9254920f8b0a32ce933bc43",
@@ -3795,7 +3813,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 3
     },
@@ -4119,7 +4137,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 3
     },
@@ -4139,7 +4157,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "b75e32b987d67c4e42cd28904f333bce",
@@ -5021,7 +5039,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "586d03232bbf02e67117164ea66fc21c",
@@ -5255,7 +5273,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "73ce0b390001258179810c347f467235",
@@ -5309,7 +5327,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "aa43f55071a2990c0a19303eea9e895c",
@@ -5417,7 +5435,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "36416abeec5b63f2b8745e3b50acff83",
@@ -5723,7 +5741,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "b71b1f9816cb731fbdf5487f73d8b4c6",
@@ -18758,6 +18776,24 @@
       "importance": null
     },
     {
+      "id": "29025d7302d128ceb9bc6e94e56b70f1",
+      "title": "Our first phase of embedded assessments",
+      "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
+      "source_id": "openai-news",
+      "source_name": "OpenAI News",
+      "category": "tech",
+      "summary": "OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to independently evaluate model alignment, safeguards, and monitoring systems.",
+      "published_at": "2026-11-16T08:00:00Z",
+      "fetched_at": "2026-11-20T09:01:58.963152Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": null,
+      "review": "pending",
+      "importance": null
+    },
+    {
       "id": "4432e78349caab29c37a1c94df04400e",
       "title": "How Should Armies Fight?",
       "url": "https://worksinprogress.co/issue/the-future-of-war/",
@@ -27038,60 +27074,6 @@
       "importance": 3
     },
     {
-      "id": "7a632df6be1a857c85f2281207aaa0f2",
-      "title": "Podcast: Doing The Right Thing: Accountability In The Age Of AI Coding Summary",
-      "url": "https://www.infoq.com/podcasts/accountability-age-ai-coding-summary/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source_id": "infoq",
-      "source_name": "InfoQ",
-      "category": "tech",
-      "summary": "In this podcast, Shane Hastie, Lead Editor for Culture & Methods, spoke to Hugo Venturini about who is accountable when AI writes the code, how AI is reshaping code review and traditional engineering roles, and how leaders build a culture of transparency and psychological safety. By Hugo Venturini",
-      "published_at": "2026-11-13T09:00:00Z",
-      "fetched_at": "2026-11-13T09:01:46.620323Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "65efdc4243e86faa8ea2bb5e074edbbb",
-      "title": "Police arrest 354 suspects in dark web cybercrime crackdown",
-      "url": "https://www.bleepingcomputer.com/news/security/police-arrest-354-vendors-buyers-in-global-cybercrime-crackdown/",
-      "source_id": "bleepingcomputer",
-      "source_name": "BleepingComputer",
-      "category": "tech",
-      "summary": "Authorities arrested 354 suspects in a joint international operation targeting vendors and buyers on the Archetyp, Nemesis, Tor2Door, Bohemia, and Kingdom dark web marketplaces. [...]",
-      "published_at": "2026-11-13T08:34:20Z",
-      "fetched_at": "2026-11-13T09:01:46.620323Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 4
-    },
-    {
-      "id": "358e43585442933ff5db7b4b8843bfaf",
-      "title": "Hackers Exploit PHP2Shell Flaws in Check Point Gateways to Deploy TSGA Backdoor and Wipe ESXi Files",
-      "url": "https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html",
-      "source_id": "the-hacker-news",
-      "source_name": "The Hacker News",
-      "category": "tech",
-      "summary": "An unknown threat actor has been observed targeting unpatched Check Point Security Gateways to obtain initial access via the PHP2Shell vulnerabilities and then a previously reported local privilege escalation flaw in Gaia OS to deploy a backdoor called TSGA. The activity, detailed by Check Point, began on October 30, 2026, and targeted Israeli organizations, with a broader follow-up wave",
-      "published_at": "2026-11-13T08:05:49Z",
-      "fetched_at": "2026-11-13T09:01:46.620323Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 4
-    },
-    {
       "id": "8a8b084adb7ea153a0cb1ef376030c77",
       "title": "GitHub availability report: October 2026",
       "url": "https://github.blog/news-insights/company-news/github-availability-report-october-2026/",
@@ -28236,7 +28218,7 @@
       "published_at": "2026-11-03T22:44:48Z",
       "fetched_at": "2026-11-03T23:02:20.157752Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50569516",
-      "points": 69,
+      "points": 85,
       "comments": 8,
       "engineering": false,
       "blog": true,
@@ -31936,111 +31918,120 @@
   ],
   "top_stories": [
     {
-      "id": "d3a1bbdb81250830e6c43bb104d3ec55",
-      "title": "Anthropic prices and launches public offering on Nasdaq",
-      "summary": "Anthropic has gone public with its initial public offering on the Nasdaq exchange under the ticker symbol ANT. The company's IPO price was set at $83 per share, raising significant new capital and resulting in a major first-day valuation pop.",
-      "why_it_matters": "Massive public offerings from frontier AI labs reshape industry funding, compute acquisition strategies, and the market dynamics for developer tooling.",
+      "id": "c179de6fc560a3d5460ff93dfd5aa9d1",
+      "title": "Critical VMware vCenter Zero-Day Exploit Patched by Broadcom",
+      "summary": "Broadcom has released security updates to fix a critical authentication bypass vulnerability in VMware vCenter Server. The zero-day flaw has been actively exploited in attacks by China-linked hackers since September.",
+      "why_it_matters": "Administrators must patch VMware vCenter immediately to prevent attackers from bypassing authentication and gaining administrative access.",
       "item_ids": [
-        "d3a1bbdb81250830e6c43bb104d3ec55",
-        "b8f99795acbb06501f93b750503a09b0",
-        "aff84b6b921d74b7717ebfbd624e1c96",
-        "b366431ac25971694f33ba6bc4f8023f",
-        "89e78470e096847204613e4abea3bc1b",
-        "0391667c2f0fad7c7568718dd900ffb4",
-        "36416abeec5b63f2b8745e3b50acff83",
-        "e8a8dbb76a34d1de1b681875347d992f",
-        "1987643f0f321f3f035193a702e52ff4",
-        "461b632700fa5a6aa079a46706733091",
-        "eaad284c29e762f6bb2f6b952f9bf43a"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-18T23:01:58.569756Z",
-      "last_shown": "2026-11-20T08:01:55.515611Z"
-    },
-    {
-      "id": "477da580a92d248252bc7106ce8206b8",
-      "title": "Broadcom patches critical VMware vCenter zero-day exploit",
-      "summary": "Broadcom has released security updates to fix a critical VMware vCenter Server authentication bypass vulnerability. Chinese-linked hackers have exploited the zero-day flaw in attacks since September 2026.",
-      "why_it_matters": "Critical infrastructure zero-days allow unauthenticated attackers to gain full administrative access, requiring immediate patching across enterprise environments.",
-      "item_ids": [
-        "477da580a92d248252bc7106ce8206b8",
         "c179de6fc560a3d5460ff93dfd5aa9d1",
+        "477da580a92d248252bc7106ce8206b8",
         "18306cc167b8fd22b7d9c1bd7151dc0d"
       ],
       "primary_url": "https://github.com/vmware/vcf-security-and-compliance-guidelines/blob/main/security-advisories/vmsa-2026-0009/README.md",
       "first_shown": "2026-11-20T01:01:56.367245Z",
-      "last_shown": "2026-11-20T08:01:55.515611Z"
+      "last_shown": "2026-11-20T09:01:58.963152Z"
     },
     {
-      "id": "9dc7c92ee38becf1cc8b448935571cda",
-      "title": "PHP development team releases security updates for critical RCE flaws",
-      "summary": "The PHP project has released security patches addressing multiple critical vulnerabilities across supported versions. The flaws include issues that could allow unauthenticated attackers to remotely execute code.",
-      "why_it_matters": "Unauthenticated RCE vulnerabilities in core language interpreters demand urgent patching across thousands of web deployments to prevent server takeovers.",
+      "id": "b6b5adecac53d2cec077cbbe9402fc91",
+      "title": "Critical NGINX Memory Corruption Bugs Allow Remote Code Execution",
+      "summary": "Five critical memory corruption vulnerabilities, collectively dubbed nginx2root, have been discovered in NGINX. Unauthenticated attackers can chain these bugs to execute arbitrary code on vulnerable web servers.",
+      "why_it_matters": "These critical NGINX vulnerabilities threaten millions of web servers, requiring immediate patching or proxy protection to block remote code execution.",
       "item_ids": [
-        "9dc7c92ee38becf1cc8b448935571cda",
+        "b6b5adecac53d2cec077cbbe9402fc91",
+        "a82636a7b5e1d5141557b498c3408240",
+        "18aa065588bbc9bd97fa07c708745732"
+      ],
+      "primary_url": "https://xint.io/blog/nginx2root-remote-code-execution",
+      "first_shown": "2026-11-18T20:55:33.927674Z",
+      "last_shown": "2026-11-20T09:01:58.963152Z"
+    },
+    {
+      "id": "aff84b6b921d74b7717ebfbd624e1c96",
+      "title": "Anthropic Goes Public in Massive Nasdaq IPO",
+      "summary": "Anthropic has completed a record-breaking initial public offering on the Nasdaq exchange, opening well above its initial pricing and reaching a massive valuation. The debut highlights the immense capital flowing into frontier AI labs alongside scrutiny over compute obligations.",
+      "why_it_matters": "Anthropic's public debut sets a major financial precedent for AI companies and highlights the enormous infrastructure and compute costs driving the industry.",
+      "item_ids": [
+        "aff84b6b921d74b7717ebfbd624e1c96",
+        "920b24ab394d054063ff5ad618d6fa14",
+        "1987643f0f321f3f035193a702e52ff4",
+        "b8f99795acbb06501f93b750503a09b0",
+        "b366431ac25971694f33ba6bc4f8023f",
+        "89e78470e096847204613e4abea3bc1b",
+        "461b632700fa5a6aa079a46706733091",
+        "eaad284c29e762f6bb2f6b952f9bf43a",
+        "0391667c2f0fad7c7568718dd900ffb4",
+        "e8a8dbb76a34d1de1b681875347d992f",
+        "36416abeec5b63f2b8745e3b50acff83"
+      ],
+      "primary_url": "https://www.cnbc.com/2026/11/19/anthropic-ipo-ant-live-updates.html",
+      "first_shown": "2026-11-18T23:01:58.569756Z",
+      "last_shown": "2026-11-20T09:01:58.963152Z"
+    },
+    {
+      "id": "f61b0db71bf30bd93f587fec705da852",
+      "title": "PHP Project Releases Urgent Security Updates for Critical RCE Flaws",
+      "summary": "The PHP development team and foundation have issued security updates addressing multiple critical vulnerabilities, including remote code execution bugs affecting supported versions. Administrators are advised to update immediately.",
+      "why_it_matters": "Unpatched PHP installations face critical remote code execution risks from newly disclosed vulnerabilities across multiple branches.",
+      "item_ids": [
         "f61b0db71bf30bd93f587fec705da852",
         "2aa68bdd4ec1318430d1a063c9e1fefc",
         "2f4dbdf42d889634f1179342ed1811ba",
         "3117898b6ee8e227e75c015727217bb0",
-        "e4810f188d101c2ba093ea4ddf2d2823",
         "6aff72c298326631c8ed9b74df6c1a36",
-        "0ecb05b9b0451f150ce4a9c9dfaece23"
+        "e4810f188d101c2ba093ea4ddf2d2823"
       ],
-      "primary_url": null,
+      "primary_url": "https://www.php.net/archive/2026.php",
       "first_shown": "2026-11-18T20:55:33.927674Z",
-      "last_shown": "2026-11-20T08:01:55.515611Z"
+      "last_shown": "2026-11-20T09:01:58.963152Z"
+    },
+    {
+      "id": "9bb7a0fdd0f7a3ac57a673991ba46463",
+      "title": "Drupal Patches Critical Installer Flaw Allowing Remote Code Execution",
+      "summary": "The Drupal Security Team has patched a critical vulnerability in core that allows unauthenticated attackers to use the built-in installer to take over sites. Admins are warned that active exploits could surface quickly.",
+      "why_it_matters": "Drupal sites must be updated immediately to prevent unauthenticated attackers from leveraging installer flaws to achieve remote code execution.",
+      "item_ids": [
+        "9bb7a0fdd0f7a3ac57a673991ba46463",
+        "c66817dd54019a993b7f106a367f125b"
+      ],
+      "primary_url": "https://www.drupal.org/docs/administering-a-drupal-site/security-in-drupal/securing-the-installer-installphp",
+      "first_shown": "2026-11-19T14:01:54.233748Z",
+      "last_shown": "2026-11-20T09:01:58.963152Z"
     },
     {
       "id": "8157036378b2d9e05bf450838f22c1b3",
-      "title": "PostgreSQL 19 Released",
-      "summary": "The PostgreSQL Global Development Group has announced the release of PostgreSQL 19. Notable features include optimizations for table maintenance and immediate availability on managed platforms like Neon and Databricks Lakebase.",
-      "why_it_matters": "Major database upgrades impact performance tuning, query handling, and deployment strategies for backend developers.",
+      "title": "PostgreSQL 19 Released with Performance and Replication Updates",
+      "summary": "The PostgreSQL Global Development Group has announced the release of PostgreSQL 19, featuring new optimizations and commands. Major cloud and database providers are already moving to make the new version available.",
+      "why_it_matters": "Upgrading to PostgreSQL 19 brings new database features, performance enhancements, and optimization commands for production deployments.",
       "item_ids": [
         "8157036378b2d9e05bf450838f22c1b3",
         "e92d3a9c72695fb6484964505b8d41b2",
-        "cadcf2c9f97d77660a0cc312682eb8be",
+        "f4335a3ee3f148c70b567381f38fce29",
         "5c43a13332be94277f6fceda24a1ed13",
-        "f4335a3ee3f148c70b567381f38fce29"
+        "cadcf2c9f97d77660a0cc312682eb8be"
       ],
       "primary_url": null,
       "first_shown": "2026-11-19T20:02:02.945054Z",
-      "last_shown": "2026-11-20T08:01:55.515611Z"
+      "last_shown": "2026-11-20T09:01:58.963152Z"
     },
     {
-      "id": "21b44fd34fd356ca6697085e1a17addd",
-      "title": "Apple and Google develop AI agents with desktop computer use capabilities",
-      "summary": "Apple is hiring engineers to build an AI agent capable of browsing the web, working across apps, and writing code. Meanwhile, Google is adding computer use features to its Gemini app for macOS to handle multi-step workflows across local files and desktop applications.",
-      "why_it_matters": "Operating-system-level AI agents change how users interact with desktops and introduce new security and automation boundaries for developers.",
+      "id": "61d58e43ed14c98d98af2c610f006a40",
+      "title": "Google Introduces Gemini 4 Neon Model",
+      "summary": "Google has announced Gemini 4 Neon, a new model that quickly climbed leaderboard rankings. The release has sparked discussions among developers regarding its performance and pricing structure.",
+      "why_it_matters": "Developers evaluating frontier AI models get a new high-performing option on benchmarks, shifting the competitive landscape against existing models.",
       "item_ids": [
-        "21b44fd34fd356ca6697085e1a17addd",
-        "68c3566d2193094dec5680e52201209a",
-        "d73b4511eb28426babbb4788542db76e",
-        "f5c860210425baad5f1f23c509d37f2e",
-        "99d6f66a3f7b385062ecdf44eb2754af"
-      ],
-      "primary_url": "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac",
-      "first_shown": "2026-11-19T20:02:02.945054Z",
-      "last_shown": "2026-11-20T08:01:55.515611Z"
-    },
-    {
-      "id": "3a83188f127116400d29c5aed2dd1a0a",
-      "title": "Transport for London and Irish credit unions hit by data breaches",
-      "summary": "Transport for London took its Oyster photocard website offline after an account compromise exposed customer details. Separately, an October cyberattack on a third-party service provider leaked payee data across 40 Irish credit unions.",
-      "why_it_matters": "Supply chain security incidents and unauthorized credential access highlight ongoing vulnerabilities in third-party financial and transit platforms.",
-      "item_ids": [
-        "3a83188f127116400d29c5aed2dd1a0a",
-        "b081c097e5d7ac7b7b8d147043c7ba18",
-        "bd2c274139acacb94af6e8fa24449614"
+        "61d58e43ed14c98d98af2c610f006a40",
+        "f95e634d4408c31d03ceda7d07e4dec5",
+        "54258b5fb3eb437a0047a3883629a942"
       ],
       "primary_url": null,
-      "first_shown": "2026-11-20T00:01:51.132101Z",
-      "last_shown": "2026-11-20T08:01:55.515611Z"
+      "first_shown": "2026-11-19T20:02:02.945054Z",
+      "last_shown": "2026-11-20T09:01:58.963152Z"
     },
     {
       "id": "6ff23dcc07064596c65d04d84091377e",
-      "title": "Visa, Mastercard, and JPMorgan Chase confirm third-party data breaches",
-      "summary": "Major financial institutions including Visa, Mastercard, and JPMorgan Chase confirmed that third-party vendor cyberattacks exposed customer data and marketing information. The confirmations follow separate digital service outages and ransomware warnings.",
-      "why_it_matters": "Third-party vendor compromises expose systemic risks in financial networks and highlight the broad impact of supply chain security failures.",
+      "title": "Visa, Mastercard, and JPMorgan Customer Data Exposed in Cyberattacks",
+      "summary": "Major financial institutions including Visa, Mastercard, and JPMorgan Chase have confirmed that third-party vendor cyberattacks exposed customer data. The companies stated the incidents are unrelated to recent banking service outages.",
+      "why_it_matters": "Third-party supply chain compromises continue to pose major risks, exposing sensitive consumer data across financial networks.",
       "item_ids": [
         "6ff23dcc07064596c65d04d84091377e",
         "01ad72294656b106f7c01b7e17bbfb56",
@@ -32048,8 +32039,39 @@
       ],
       "primary_url": null,
       "first_shown": "2026-11-20T00:01:51.132101Z",
-      "last_shown": "2026-11-20T08:01:55.515611Z"
+      "last_shown": "2026-11-20T09:01:58.963152Z"
     },
+    {
+      "id": "d7bf39de314b54031d0f6ee66ce53b39",
+      "title": "Transport for London and SBC Medical Group Report Breaches",
+      "summary": "Transport for London and SBC Medical Group have disclosed data breaches exposing sensitive personal information of hundreds of thousands of users and customers. The incidents prompted safety warnings and temporary offline status for affected portals.",
+      "why_it_matters": "Organizations must review access controls and third-party integrations as cyberattacks continue to target large customer databases.",
+      "item_ids": [
+        "d7bf39de314b54031d0f6ee66ce53b39",
+        "3a83188f127116400d29c5aed2dd1a0a",
+        "b081c097e5d7ac7b7b8d147043c7ba18",
+        "4a5f2e8959c5d6f560567dd33a2c7c23"
+      ],
+      "primary_url": "https://www.adaptivesecurity.com/lp/nb/email-scan",
+      "first_shown": "2026-11-20T00:01:51.132101Z",
+      "last_shown": "2026-11-20T09:01:58.963152Z"
+    },
+    {
+      "id": "d73b4511eb28426babbb4788542db76e",
+      "title": "Google Brings Computer Use and Mac Agent Capabilities to Gemini",
+      "summary": "Google has updated its Gemini app for macOS to include computer use capabilities, allowing the assistant to execute multi-step workflows across local files, desktop apps, and the web. The release follows recent updates to agent features on desktop environments.",
+      "why_it_matters": "Desktop AI agents capable of controlling local applications and executing multi-step workflows change how users interact with operating systems.",
+      "item_ids": [
+        "d73b4511eb28426babbb4788542db76e",
+        "f5c860210425baad5f1f23c509d37f2e",
+        "99d6f66a3f7b385062ecdf44eb2754af"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-19T20:02:02.945054Z",
+      "last_shown": "2026-11-20T09:01:58.963152Z"
+    }
+  ],
+  "past_top_stories": [
     {
       "id": "3d11d7e98bcaf19ef143d875424f522c",
       "title": "Meta's Muse Charm AI wearable device and reporting on data mixups",
@@ -32065,19 +32087,6 @@
       "last_shown": "2026-11-20T08:01:55.515611Z"
     },
     {
-      "id": "9bb7a0fdd0f7a3ac57a673991ba46463",
-      "title": "Drupal patches critical remote code execution installer flaw",
-      "summary": "The Drupal Security Team has patched a critical remote code execution vulnerability in core. Under specific conditions, unauthenticated attackers could exploit the built-in installer to take over vulnerable sites.",
-      "why_it_matters": "Critical installer flaws in content management systems allow total site takeover without credentials, requiring immediate remediation.",
-      "item_ids": [
-        "9bb7a0fdd0f7a3ac57a673991ba46463",
-        "c66817dd54019a993b7f106a367f125b"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-19T14:01:54.233748Z",
-      "last_shown": "2026-11-20T08:01:55.515611Z"
-    },
-    {
       "id": "1226c4f144b6e5cfe93a415dd0100a20",
       "title": "Ruby addresses memory-safety and regex conversion vulnerabilities",
       "summary": "Ruby maintainers have released fixes for multiple memory-safety flaws in its regular expression engine and string case-conversion code. Proof-of-concept exploits have been demonstrated for several of the vulnerabilities.",
@@ -32089,22 +32098,6 @@
       "primary_url": null,
       "first_shown": "2026-11-20T08:01:55.515611Z",
       "last_shown": "2026-11-20T08:01:55.515611Z"
-    }
-  ],
-  "past_top_stories": [
-    {
-      "id": "b6b5adecac53d2cec077cbbe9402fc91",
-      "title": "Critical NGINX vulnerabilities allow remote code execution",
-      "summary": "Five memory corruption bugs in NGINX, dubbed nginx2root, let unauthenticated attackers run code on servers. Security updates and advisories have been issued as researchers demonstrate how the flaws can be exploited.",
-      "why_it_matters": "NGINX powers a massive portion of web infrastructure, and unauthenticated RCE vulnerabilities require immediate patching to prevent server hijacking.",
-      "item_ids": [
-        "b6b5adecac53d2cec077cbbe9402fc91",
-        "a82636a7b5e1d5141557b498c3408240",
-        "18aa065588bbc9bd97fa07c708745732"
-      ],
-      "primary_url": "https://censys.com/blog/nginx2root-simple-test",
-      "first_shown": "2026-11-18T20:55:33.927674Z",
-      "last_shown": "2026-11-20T07:48:48.719844Z"
     },
     {
       "id": "a79d78f0621d468bc543adaab8bf3d44",
@@ -32118,21 +32111,6 @@
       "primary_url": null,
       "first_shown": "2026-11-19T20:02:02.945054Z",
       "last_shown": "2026-11-20T07:48:48.719844Z"
-    },
-    {
-      "id": "61d58e43ed14c98d98af2c610f006a40",
-      "title": "Google Releases Gemini 4 Neon, Climbing Leaderboards",
-      "summary": "Google has released Gemini 4 Neon, which has taken the top spot on the Models Engineering Index and shown massive jumps on coding benchmarks. The new model competes directly with other frontier models like Claude Opus 5.5.",
-      "why_it_matters": "Software engineers gain a powerful new model option for coding tasks and benchmark evaluations.",
-      "item_ids": [
-        "61d58e43ed14c98d98af2c610f006a40",
-        "f95e634d4408c31d03ceda7d07e4dec5",
-        "2405bed27a7dc7226b95253f3302cc72",
-        "2fae7c5646730d9d17bc35c5231395f0"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-19T20:02:02.945054Z",
-      "last_shown": "2026-11-20T07:01:52.800226Z"
     },
     {
       "id": "ccdd401259e4f7e19b5fbebf58b89174",
