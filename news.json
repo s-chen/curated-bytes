@@ -1,6 +1,96 @@
 {
-  "generated_at": "2026-11-22T06:01:26.945350Z",
+  "generated_at": "2026-11-22T07:01:19.272403Z",
   "items": [
+    {
+      "id": "f578fbe5b2d539e9a2b128696ec1b0eb",
+      "title": "Google Announces Agent Compute Engine for Secure AI Agent Execution",
+      "url": "https://www.infoq.com/news/2026/11/google-agent-compute-engine/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source_id": "infoq",
+      "source_name": "InfoQ",
+      "category": "tech",
+      "summary": "Google recently announced Agent Compute Engine, a managed service that runs AI agents in isolated microVMs, with checkpointing capabilities to suspend and resume execution environments. The design keeps credentials, API keys, and OAuth refresh tokens outside the agent sandbox, using an external Agent Gateway to authenticate requests and inject the required secrets. By Renato Losio",
+      "published_at": "2026-11-22T06:30:00Z",
+      "fetched_at": "2026-11-22T07:01:19.272403Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "6276e229721ed6b13c886ae19a27470e",
+      "title": "AWS Lambda Now Runs GPU Inference with 48 Concurrent Invocations Sharing One Model per GPU",
+      "url": "https://www.infoq.com/news/2026/11/aws-lambda-gpu-managed-instances/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source_id": "infoq",
+      "source_name": "InfoQ",
+      "category": "tech",
+      "summary": "AWS Lambda now runs Event Functions on EC2 G-series GPU instances through Lambda Managed Instances, with up to 48 concurrent invocations sharing one model per GPU, vLLM and SGLang base images that need no handler code, and 90-minute asynchronous timeouts. Billing is the instance price plus a 9.75 percent fee; first hands-on tests report an eight-minute publish and no response streaming. By Steef-Jan Wiggers",
+      "published_at": "2026-11-22T06:27:00Z",
+      "fetched_at": "2026-11-22T07:01:19.272403Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 4
+    },
+    {
+      "id": "8952d81fa1244225e17508312d5a17b3",
+      "title": "Show HN: The Riemann Proof Handbook",
+      "url": "https://github.com/tamnd/riemann-handbook",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-11-22T05:46:30Z",
+      "fetched_at": "2026-11-22T07:01:19.272403Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50596664",
+      "points": 5,
+      "comments": 0,
+      "engineering": false,
+      "blog": null,
+      "review": "excluded",
+      "importance": null
+    },
+    {
+      "id": "ae6e92c39a9e03243e6bda0fa4ceacb7",
+      "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
+      "url": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
+      "source_id": "the-hacker-news",
+      "source_name": "The Hacker News",
+      "category": "tech",
+      "summary": "Attackers stole data from inside three AI inference providers for months, and none of the three knew until researchers told them, the industrial cybersecurity company Dragos said this week. Some of the stolen requests were flagged as Zero Data Retention, the setting that is supposed to mean a prompt is never stored. OpenRouter, a gateway that routes customers' AI requests to a pool of",
+      "published_at": "2026-11-22T05:06:55Z",
+      "fetched_at": "2026-11-22T07:01:19.272403Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 4
+    },
+    {
+      "id": "52d1eca4da7f04ab2a855a7e45b5663f",
+      "title": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
+      "url": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
+      "source_id": "the-hacker-news",
+      "source_name": "The Hacker News",
+      "category": "tech",
+      "summary": "A now-patched flaw in Ghostscript allows a crafted file to escape the program's security sandbox and run commands on the server that processes it. Ghostscript is the interpreter that many Linux servers use to convert uploaded PDFs, PostScript files, and images into other formats, often without the application calling it directly. Security firm pwn.ai showed this week that ordinary upload,",
+      "published_at": "2026-11-22T05:03:41Z",
+      "fetched_at": "2026-11-22T07:01:19.272403Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 4
+    },
     {
       "id": "2d2610ef5bbb1b2778dbfd6ccd0521d4",
       "title": "Toyota, Nissan, and Honda to Standardize Parts to Lower Costs",
@@ -12,8 +102,8 @@
       "published_at": "2026-11-22T04:04:56Z",
       "fetched_at": "2026-11-22T05:01:22.718543Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50596133",
-      "points": 158,
-      "comments": 80,
+      "points": 262,
+      "comments": 121,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -30,8 +120,8 @@
       "published_at": "2026-11-22T03:07:27Z",
       "fetched_at": "2026-11-22T05:01:22.718543Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50595816",
-      "points": 11,
-      "comments": 4,
+      "points": 19,
+      "comments": 7,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -53,7 +143,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "3ac5ca3d3dea1f3ba9fc76ae85656ce8",
@@ -66,8 +156,8 @@
       "published_at": "2026-11-22T02:47:18Z",
       "fetched_at": "2026-11-22T04:01:29.829803Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50595725",
-      "points": 14,
-      "comments": 20,
+      "points": 21,
+      "comments": 33,
       "engineering": false,
       "blog": false,
       "review": "pending",
@@ -84,8 +174,8 @@
       "published_at": "2026-11-22T02:14:14Z",
       "fetched_at": "2026-11-22T04:01:29.829803Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50595554",
-      "points": 71,
-      "comments": 29,
+      "points": 97,
+      "comments": 34,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -102,8 +192,8 @@
       "published_at": "2026-11-22T02:10:02Z",
       "fetched_at": "2026-11-22T04:01:29.829803Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50595537",
-      "points": 16,
-      "comments": 37,
+      "points": 30,
+      "comments": 64,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -120,8 +210,8 @@
       "published_at": "2026-11-22T00:57:26Z",
       "fetched_at": "2026-11-22T04:01:29.829803Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50595168",
-      "points": 105,
-      "comments": 68,
+      "points": 120,
+      "comments": 84,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -143,7 +233,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "2ede5ccd822f513ec61e9ef2ceecf42d",
@@ -159,7 +249,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -174,8 +264,8 @@
       "published_at": "2026-11-22T00:07:59Z",
       "fetched_at": "2026-11-22T02:01:21.833150Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50594911",
-      "points": 124,
-      "comments": 50,
+      "points": 139,
+      "comments": 53,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -195,7 +285,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -300,8 +390,8 @@
       "published_at": "2026-11-21T22:09:58Z",
       "fetched_at": "2026-11-22T00:01:22.052332Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50594132",
-      "points": 94,
-      "comments": 9,
+      "points": 101,
+      "comments": 10,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -444,8 +534,8 @@
       "published_at": "2026-11-21T20:47:41Z",
       "fetched_at": "2026-11-22T00:01:22.052332Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50593481",
-      "points": 56,
-      "comments": 10,
+      "points": 63,
+      "comments": 11,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -516,12 +606,12 @@
       "published_at": "2026-11-21T18:29:29Z",
       "fetched_at": "2026-11-21T19:49:51.997903Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50592097",
-      "points": 101,
+      "points": 106,
       "comments": 47,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "d4e6dd6b21d36d03890564863838980b",
@@ -534,8 +624,8 @@
       "published_at": "2026-11-21T18:02:19Z",
       "fetched_at": "2026-11-21T19:02:09.387692Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50591853",
-      "points": 414,
-      "comments": 103,
+      "points": 429,
+      "comments": 108,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -611,7 +701,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "3a79821bdf4fa7447b6b8effa332871d",
@@ -660,7 +750,7 @@
       "published_at": "2026-11-21T17:08:04Z",
       "fetched_at": "2026-11-21T18:02:09.222417Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50591260",
-      "points": 133,
+      "points": 135,
       "comments": 23,
       "engineering": false,
       "blog": true,
@@ -786,12 +876,12 @@
       "published_at": "2026-11-21T15:54:34Z",
       "fetched_at": "2026-11-21T18:02:09.222417Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50590441",
-      "points": 107,
+      "points": 108,
       "comments": 38,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "ebc5e24f7cec7d9a5d315e7684e6d26a",
@@ -822,12 +912,12 @@
       "published_at": "2026-11-21T15:39:09Z",
       "fetched_at": "2026-11-21T17:02:05.642000Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50590279",
-      "points": 147,
+      "points": 149,
       "comments": 104,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "95b6687519e92a6335fe2c35eeabb57b",
@@ -948,12 +1038,12 @@
       "published_at": "2026-11-21T14:36:45Z",
       "fetched_at": "2026-11-21T16:02:07.300939Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50589618",
-      "points": 930,
-      "comments": 791,
+      "points": 945,
+      "comments": 807,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "8bccd42a1a028f1919ef25615d243926",
@@ -1041,7 +1131,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -1074,12 +1164,12 @@
       "published_at": "2026-11-21T13:23:14Z",
       "fetched_at": "2026-11-21T14:02:09.530457Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50588982",
-      "points": 578,
-      "comments": 374,
+      "points": 583,
+      "comments": 377,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "da8f07c6db9598217bf8bb398a370eb5",
@@ -1349,7 +1439,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "ca08d3cc4d7b5f48c9d51eaf01ca990d",
@@ -1527,7 +1617,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": false,
+      "blog": true,
       "review": "kept",
       "importance": 4
     },
@@ -1619,7 +1709,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "397164b005614099c14089c3150dfafa",
@@ -1961,7 +2051,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "2dd5f983218565192ecf9b12b897dc41",
@@ -2087,7 +2177,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "724282b66bcc341b10a9ca9cd8a51bc7",
@@ -2231,7 +2321,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "cc53e2d6d12946adee79bb2dcc861e66",
@@ -2249,7 +2339,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "9c04e30a597c0b488253a14154fe8f9e",
@@ -2483,7 +2573,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "b67e72f376d513c98a5825e153b6ffd3",
@@ -2501,7 +2591,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "504a23faa928a0456d2ed587fccd8d4f",
@@ -2519,7 +2609,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "82d061e5ee054595fe5a15ef4fe207ca",
@@ -2609,7 +2699,7 @@
       "engineering": true,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "9303d771142c8a57a4946e28b7434ffc",
@@ -2735,7 +2825,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "551c3c2003f7c475365d217a32d28b26",
@@ -2753,7 +2843,7 @@
       "engineering": true,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "01562e82155301ace68e298dfc09029f",
@@ -2843,7 +2933,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "2fda244c69136d840d085ea8b871c1b8",
@@ -2861,7 +2951,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "02dcee7a4ec6450fd89aaa2d2c77a29f",
@@ -2915,7 +3005,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "14c96c99d21da38668ee00a671d26778",
@@ -31810,6 +31900,139 @@
   ],
   "top_stories": [
     {
+      "id": "fb8e404799f1622d9f787b26600660a0",
+      "title": "FBI and USDA Reportedly Target of Cyberattacks",
+      "summary": "The USDA and the FBI were reportedly targeted in cyberattacks, with the FBI facing its second breach in two months. The latest incident reportedly targeted the National Crime Information Center, used to share data between local police agencies.",
+      "why_it_matters": "Government database breaches pose major security risks and can expose sensitive law enforcement information.",
+      "item_ids": [
+        "fb8e404799f1622d9f787b26600660a0",
+        "72a2dbae6e0a8f61cdb2e75ed6f33846",
+        "21f3e446cc0ccaa195db8671b4e27aee",
+        "a7cab6a5ca896aa3b0cbf6050eb3f811"
+      ],
+      "primary_url": "https://www.cnn.com/2026/11/20/politics/fbi-hacked-again-target-crime-database",
+      "first_shown": "2026-11-21T16:02:07.300939Z",
+      "last_shown": "2026-11-22T07:01:19.272403Z"
+    },
+    {
+      "id": "a355472071ee7848ac41893073090502",
+      "title": "Signal Restricts Screenshots to Block AI Agents",
+      "summary": "Signal is limiting users' ability to take screenshots in both its Android and iOS apps. The restriction aims to stop AI agents from reading private chats.",
+      "why_it_matters": "This change impacts how developers and users interact with messaging apps regarding automated AI surveillance and data privacy.",
+      "item_ids": [
+        "a355472071ee7848ac41893073090502",
+        "8d9dc4557329cc750fc6f4bae990ff26",
+        "ae7968440d3a7f79f418b21889d7d35f"
+      ],
+      "primary_url": "https://signal.org/blog/protecting-your-privacy",
+      "first_shown": "2026-11-21T00:02:20.495308Z",
+      "last_shown": "2026-11-22T07:01:19.272403Z"
+    },
+    {
+      "id": "a2ed95a969185fdc09b697ceb6079288",
+      "title": "Critical Ghostscript Sandbox-Escape Flaw (CVE-2026-125396)",
+      "summary": "A now-patched vulnerability in Ghostscript allows crafted file uploads to escape the program's security sandbox and run commands on servers. The vulnerability, tracked as CVE-2026-125396, affects the interpreter used by many Linux servers.",
+      "why_it_matters": "Server-side remote code execution vulnerabilities in core interpreters like Ghostscript require immediate patching to prevent system compromises.",
+      "item_ids": [
+        "a2ed95a969185fdc09b697ceb6079288",
+        "52d1eca4da7f04ab2a855a7e45b5663f",
+        "b484e42c41cdead2c1655dc07a5dbbb9"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-22T01:01:22.364194Z",
+      "last_shown": "2026-11-22T07:01:19.272403Z"
+    },
+    {
+      "id": "0a2e9e2641fc4aa3c0356be5c9099921",
+      "title": "UN Talks on Autonomous Weapons Collapse",
+      "summary": "International UN talks in Geneva aimed at working towards rules regarding autonomous weapons have collapsed. Representatives failed to agree on regulations for the technology.",
+      "why_it_matters": "The lack of international regulation on autonomous weapon systems impacts global policy and the governance of military technologies.",
+      "item_ids": [
+        "0a2e9e2641fc4aa3c0356be5c9099921",
+        "ec37bef41a18fbbbe6ed732fa55f3338"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-21T21:01:25.099304Z",
+      "last_shown": "2026-11-22T07:01:19.272403Z"
+    },
+    {
+      "id": "da4fa52d0c95b7ebed39c95f919397b8",
+      "title": "Nvidia faces SEC investigation and executive scrutiny",
+      "summary": "Nvidia is under investigation by the US SEC regarding potential accounting issues. Meanwhile, reports highlighted executive scrutiny and board concerns surrounding former CEO Jensen Huang.",
+      "why_it_matters": "Regulatory investigations and leadership changes at a major semiconductor supplier can impact market stability and hardware supply chains.",
+      "item_ids": [
+        "da4fa52d0c95b7ebed39c95f919397b8",
+        "d891e3c58a5df405dccbc171013767af",
+        "9303d771142c8a57a4946e28b7434ffc",
+        "2dd44a112a11cc8375c63cba51138800"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-22T05:01:22.718543Z",
+      "last_shown": "2026-11-22T07:01:19.272403Z"
+    },
+    {
+      "id": "ae6e92c39a9e03243e6bda0fa4ceacb7",
+      "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
+      "summary": "Attackers stole data from inside three AI inference providers for months, and none of the three knew until researchers told them, the industrial cybersecurity company Dragos said this week. Some of the stolen requests were flagged as Zero Data Retention, the setting that is supposed to mean a prompt is never stored. OpenRouter, a gateway that routes customers' AI requests to a pool of",
+      "why_it_matters": "Prompt theft incidents at AI hosting providers highlight critical security vulnerabilities in third-party machine learning infrastructure.",
+      "item_ids": [
+        "ae6e92c39a9e03243e6bda0fa4ceacb7"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-22T07:01:19.272403Z",
+      "last_shown": "2026-11-22T07:01:19.272403Z"
+    },
+    {
+      "id": "6276e229721ed6b13c886ae19a27470e",
+      "title": "AWS Lambda Now Runs GPU Inference with 48 Concurrent Invocations Sharing One Model per GPU",
+      "summary": "AWS Lambda now runs Event Functions on EC2 G-series GPU instances through Lambda Managed Instances, with up to 48 concurrent invocations sharing one model per GPU, vLLM and SGLang base images that need no handler code, and 90-minute asynchronous timeouts. Billing is the instance price plus a 9.75 percent fee; first hands-on tests report an eight-minute publish and no response streaming. By Steef-Jan Wiggers",
+      "why_it_matters": "New managed execution configurations for GPUs on serverless platforms expand deployment options for large language model inference workloads.",
+      "item_ids": [
+        "6276e229721ed6b13c886ae19a27470e"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-22T07:01:19.272403Z",
+      "last_shown": "2026-11-22T07:01:19.272403Z"
+    },
+    {
+      "id": "ddbf07ef3ad618a92d133e8197d609e5",
+      "title": "Rackspace Spot breach let hackers access customer Kubernetes secrets",
+      "summary": "Rackspace warned customers that hackers breached its Rackspace Spot cloud platform using compromised credentials, allowing them to deploy unauthorized workloads and access Kubernetes secrets in customer clusters. [...]",
+      "why_it_matters": "Cloud platform credential compromises leading to unauthorized Kubernetes access demonstrate the constant threat of misconfigured access controls.",
+      "item_ids": [
+        "ddbf07ef3ad618a92d133e8197d609e5"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-21T23:01:25.877132Z",
+      "last_shown": "2026-11-22T07:01:19.272403Z"
+    },
+    {
+      "id": "febc644792c73911d95e2b91266a6e2e",
+      "title": "GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys",
+      "summary": "A malicious OpenPGP key with an unusually long user ID can trigger a critical memory bug in GPGME, the standard library that programs use to work with GnuPG. The GnuPG project warned yesterday that the flaw could be used to steal data from affected applications and has released fixed versions. The bug, tracked as CVE-2026-129975, affects all software that uses GPGME before version 2.3.0,",
+      "why_it_matters": "Memory corruption bugs in core cryptographic libraries like GnuPG can expose sensitive application data when processing malformed keys.",
+      "item_ids": [
+        "febc644792c73911d95e2b91266a6e2e"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-21T13:02:11.110783Z",
+      "last_shown": "2026-11-22T07:01:19.272403Z"
+    },
+    {
+      "id": "afa609acf7c3f5276fdd99e66b753742",
+      "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
+      "summary": "Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence said this week. The flaw allows an attacker with no account to write files outside the server's storage folder, and it affects MONAI Label 0.8.5 and earlier in the default setup,",
+      "why_it_matters": "The discovery of a zero-day vulnerability by autonomous AI agents illustrates emerging automated attack vectors against medical infrastructure.",
+      "item_ids": [
+        "afa609acf7c3f5276fdd99e66b753742"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-20T19:02:07.129347Z",
+      "last_shown": "2026-11-22T07:01:19.272403Z"
+    }
+  ],
+  "past_top_stories": [
+    {
       "id": "00d9a04a62cffc0e42401c18224ff3be",
       "title": "Proposed proofs of the Riemann Hypothesis spark intense mathematical debate",
       "summary": "Mathematicians and AI systems have put forward new proposed proofs for the centuries-old Riemann Hypothesis. Researchers are closely reviewing the verification files and feedback for the developments.",
@@ -31830,74 +32053,6 @@
       "last_shown": "2026-11-22T06:01:26.945350Z"
     },
     {
-      "id": "21f3e446cc0ccaa195db8671b4e27aee",
-      "title": "FBI database reportedly hacked for the second time",
-      "summary": "The FBI is reportedly investigating a breach of its National Crime Information Center database. The incident marks the second reported cyberattack on the agency in two months.",
-      "why_it_matters": "Security breaches of core law enforcement databases highlight critical vulnerabilities in federal infrastructure.",
-      "item_ids": [
-        "21f3e446cc0ccaa195db8671b4e27aee",
-        "72a2dbae6e0a8f61cdb2e75ed6f33846",
-        "a7cab6a5ca896aa3b0cbf6050eb3f811"
-      ],
-      "primary_url": "https://www.cnn.com/2026/11/20/politics/fbi-hacked-again-target-crime-database",
-      "first_shown": "2026-11-21T16:02:07.300939Z",
-      "last_shown": "2026-11-22T06:01:26.945350Z"
-    },
-    {
-      "id": "0a2e9e2641fc4aa3c0356be5c9099921",
-      "title": "International UN talks on regulating autonomous weapons collapse",
-      "summary": "Diplomats meeting in Geneva failed to reach an agreement on rules regulating autonomous weapons and killer robots. International UN talks on controlling their use ultimately collapsed.",
-      "why_it_matters": null,
-      "item_ids": [
-        "0a2e9e2641fc4aa3c0356be5c9099921",
-        "ec37bef41a18fbbbe6ed732fa55f3338"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-21T21:01:25.099304Z",
-      "last_shown": "2026-11-22T06:01:26.945350Z"
-    },
-    {
-      "id": "a355472071ee7848ac41893073090502",
-      "title": "Signal restricts mobile screenshots to counter AI surveillance",
-      "summary": "Signal is restricting users' ability to take screenshots by default in both its Android and iOS apps. The change is aimed at preventing AI agents from reading private chats via screenshots.",
-      "why_it_matters": "Changes to platform screenshot permissions affect how messaging apps handle user privacy against automated scrapers and agents.",
-      "item_ids": [
-        "a355472071ee7848ac41893073090502",
-        "8d9dc4557329cc750fc6f4bae990ff26",
-        "ae7968440d3a7f79f418b21889d7d35f"
-      ],
-      "primary_url": "https://signal.org/blog/protecting-your-privacy",
-      "first_shown": "2026-11-21T00:02:20.495308Z",
-      "last_shown": "2026-11-22T06:01:26.945350Z"
-    },
-    {
-      "id": "da4fa52d0c95b7ebed39c95f919397b8",
-      "title": "Nvidia faces SEC investigation and executive scrutiny",
-      "summary": "Nvidia is under investigation by the US SEC regarding potential accounting issues. Meanwhile, reports highlighted executive scrutiny and board concerns surrounding former CEO Jensen Huang.",
-      "why_it_matters": "Regulatory investigations and leadership changes at a major semiconductor supplier can impact market stability and hardware supply chains.",
-      "item_ids": [
-        "da4fa52d0c95b7ebed39c95f919397b8",
-        "d891e3c58a5df405dccbc171013767af",
-        "9303d771142c8a57a4946e28b7434ffc",
-        "2dd44a112a11cc8375c63cba51138800"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-22T05:01:22.718543Z",
-      "last_shown": "2026-11-22T06:01:26.945350Z"
-    },
-    {
-      "id": "ddbf07ef3ad618a92d133e8197d609e5",
-      "title": "Rackspace Spot breach let hackers access customer Kubernetes secrets",
-      "summary": "Rackspace warned customers that hackers breached its Rackspace Spot cloud platform using compromised credentials, allowing them to deploy unauthorized workloads and access Kubernetes secrets in customer clusters. [...]",
-      "why_it_matters": "Cloud platform breaches leading to exposed Kubernetes secrets present immediate operational and security risks for hosted infrastructure.",
-      "item_ids": [
-        "ddbf07ef3ad618a92d133e8197d609e5"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-21T23:01:25.877132Z",
-      "last_shown": "2026-11-22T06:01:26.945350Z"
-    },
-    {
       "id": "1673f2e52589418b45e9903c0f546b46",
       "title": "A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats",
       "summary": "A malicious webpage could extract a Meta Muse user's private conversations and stored memories from the assistant without triggering any approval prompt, researchers have shown. The same attack could be extended to reach the credentials Muse stores for the user's connected accounts. The work was a laboratory demonstration, not an attack on real users, and it stayed inside the individual user's",
@@ -31907,30 +32062,6 @@
       ],
       "primary_url": null,
       "first_shown": "2026-11-22T03:01:24.481000Z",
-      "last_shown": "2026-11-22T06:01:26.945350Z"
-    },
-    {
-      "id": "afa609acf7c3f5276fdd99e66b753742",
-      "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
-      "summary": "Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence said this week. The flaw allows an attacker with no account to write files outside the server's storage folder, and it affects MONAI Label 0.8.5 and earlier in the default setup,",
-      "why_it_matters": "Demonstrates the emerging threat landscape where autonomous AI agents are actively weaponized to discover zero-day vulnerabilities.",
-      "item_ids": [
-        "afa609acf7c3f5276fdd99e66b753742"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-20T19:02:07.129347Z",
-      "last_shown": "2026-11-22T06:01:26.945350Z"
-    },
-    {
-      "id": "febc644792c73911d95e2b91266a6e2e",
-      "title": "GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys",
-      "summary": "A malicious OpenPGP key with an unusually long user ID can trigger a critical memory bug in GPGME, the standard library that programs use to work with GnuPG. The GnuPG project warned yesterday that the flaw could be used to steal data from affected applications and has released fixed versions. The bug, tracked as CVE-2026-129975, affects all software that uses GPGME before version 2.3.0,",
-      "why_it_matters": "Memory corruption flaws in standard cryptographic libraries like GPGME threaten the security of downstream applications handling OpenPGP keys.",
-      "item_ids": [
-        "febc644792c73911d95e2b91266a6e2e"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-21T13:02:11.110783Z",
       "last_shown": "2026-11-22T06:01:26.945350Z"
     },
     {
@@ -31944,9 +32075,7 @@
       "primary_url": null,
       "first_shown": "2026-11-21T20:02:08.303153Z",
       "last_shown": "2026-11-22T06:01:26.945350Z"
-    }
-  ],
-  "past_top_stories": [
+    },
     {
       "id": "2c9476ba52e82019ab3a32d72a5f4a6b",
       "title": "Microsoft Entra Connect Health flaw exploited to access tenant data",
@@ -31996,18 +32125,6 @@
       "last_shown": "2026-11-22T04:01:29.829803Z"
     },
     {
-      "id": "b484e42c41cdead2c1655dc07a5dbbb9",
-      "title": "Upload2Shell · CVE-2026-125396",
-      "summary": null,
-      "why_it_matters": "Details a critical GhostScript remote code execution vulnerability requiring immediate patching for affected systems.",
-      "item_ids": [
-        "b484e42c41cdead2c1655dc07a5dbbb9"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-22T01:01:22.364194Z",
-      "last_shown": "2026-11-22T03:01:24.481000Z"
-    },
-    {
       "id": "53730c605b23649f06ec1110acdb75cb",
       "title": "BlackBlaze now explicitly states selling your data for advertisement",
       "summary": null,
@@ -32042,18 +32159,6 @@
       "primary_url": null,
       "first_shown": "2026-11-21T22:01:20.368516Z",
       "last_shown": "2026-11-22T00:01:22.052332Z"
-    },
-    {
-      "id": "642322f31c3580b62c0502e950cc6b1a",
-      "title": "The Outages Are Just Getting Started",
-      "summary": "AI is forcing companies to patch their systems faster as attackers race to exploit newly discovered vulnerabilities. Welcome to internet outage hell.",
-      "why_it_matters": "Accelerated patching cycles driven by AI-discovered vulnerabilities are shifting operational risk profiles for cloud and infrastructure teams.",
-      "item_ids": [
-        "642322f31c3580b62c0502e950cc6b1a"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-21T21:01:25.099304Z",
-      "last_shown": "2026-11-21T23:01:25.877132Z"
     }
   ]
 }
