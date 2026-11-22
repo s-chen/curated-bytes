@@ -1,6 +1,60 @@
 {
-  "generated_at": "2026-11-22T10:01:32.324208Z",
+  "generated_at": "2026-11-22T11:01:22.424294Z",
   "items": [
+    {
+      "id": "1d6e113462a1841e98062808bdcebe81",
+      "title": "Claude Code Has Been Leaking Secrets Through Its \"Don't Ask Again\" Feature",
+      "url": "https://www.infoq.com/news/2026/11/claude-code-leaking-secrets/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source_id": "infoq",
+      "source_name": "InfoQ",
+      "category": "tech",
+      "summary": "Agentic security firm Apiiro found that Claude Code has been exposing secrets in public repositories due to how it stores them in local file on developers' machines to implement \"Don't Ask Again\". The company identified 1,122 secrets in claude/settings.local.json files and another 1,160 in git history, in the shared settings.json, and in agent chat transcripts stored in repos. By Sergio De Simone",
+      "published_at": "2026-11-22T11:00:00Z",
+      "fetched_at": "2026-11-22T11:01:22.424294Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 4
+    },
+    {
+      "id": "2c9a19431974e02507f1af8d2c4257a3",
+      "title": "Scientists Tried to Kill This Dirt, but It Wouldn’t Die",
+      "url": "https://www.wired.com/story/scientists-tried-to-kill-this-dirt-but-it-wouldnt-die/",
+      "source_id": "wired",
+      "source_name": "Wired",
+      "category": "tech",
+      "summary": "Biologically important chemical reactions persisted in the sterilized soil for six years—offering clues to how life on Earth may have gotten its start.",
+      "published_at": "2026-11-22T10:30:00Z",
+      "fetched_at": "2026-11-22T11:01:22.424294Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "pending",
+      "importance": null
+    },
+    {
+      "id": "aecab4f7b20454d0cb1cd6dbe9dc5231",
+      "title": "How This Year’s Super El Niño Will Worsen Global Hunger",
+      "url": "https://www.wired.com/story/how-this-years-super-el-nino-will-worsen-global-hunger/",
+      "source_id": "wired",
+      "source_name": "Wired",
+      "category": "tech",
+      "summary": "While some regions get wetter, others face massive drought. On top of wars and cuts to foreign aid, the weather phenomenon could leave millions of people in vulnerable countries without enough to eat.",
+      "published_at": "2026-11-22T10:00:00Z",
+      "fetched_at": "2026-11-22T11:01:22.424294Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "pending",
+      "importance": null
+    },
     {
       "id": "0e091d5067101992d41a63319e38f5c2",
       "title": "The Claude Delusion",
@@ -53,7 +107,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "45a3df372cb3faff2829baacda5b40e8",
@@ -233,7 +287,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "a5f19d7c993ab474743dd1042e3f886b",
@@ -269,7 +323,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "3ac5ca3d3dea1f3ba9fc76ae85656ce8",
@@ -359,7 +413,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "2ede5ccd822f513ec61e9ef2ceecf42d",
@@ -557,7 +611,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "a355472071ee7848ac41893073090502",
@@ -611,7 +665,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 1
+      "importance": 2
     },
     {
       "id": "d891e3c58a5df405dccbc171013767af",
@@ -737,7 +791,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "d4e6dd6b21d36d03890564863838980b",
@@ -773,7 +827,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "c4716db07d556bdb75fee1804674eb34",
@@ -791,7 +845,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "9d931fe29c78b0ea9f518b3cb13e8062",
@@ -827,7 +881,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "3a79821bdf4fa7447b6b8effa332871d",
@@ -1007,7 +1061,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "ebc5e24f7cec7d9a5d315e7684e6d26a",
@@ -1169,7 +1223,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 3
     },
     {
       "id": "8bccd42a1a028f1919ef25615d243926",
@@ -1187,7 +1241,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "02d3b256498e80de476cb273a9f2b222",
@@ -1673,7 +1727,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "a7cab6a5ca896aa3b0cbf6050eb3f811",
@@ -1743,9 +1797,9 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "8d9dc4557329cc750fc6f4bae990ff26",
@@ -1763,7 +1817,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "612e47d069e2e77dd6717ce74333876d",
@@ -2141,7 +2195,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "53730c605b23649f06ec1110acdb75cb",
@@ -2159,7 +2213,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "48e1130ef4dbd90b678c1837821032c8",
@@ -2303,7 +2357,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "724282b66bcc341b10a9ca9cd8a51bc7",
@@ -2321,7 +2375,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "0225bd7113abafe7c3e6b8042c6cf286",
@@ -26354,42 +26408,6 @@
       "importance": 4
     },
     {
-      "id": "c649cae270957208fbcf02860dd54d8a",
-      "title": "This AI Tamagotchi Turns Everyday Objects Into Needy Virtual Pets",
-      "url": "https://www.wired.com/story/this-ai-tamagotchi-oats-turns-everyday-objects-into-needy-virtual-pets/",
-      "source_id": "wired",
-      "source_name": "Wired",
-      "category": "tech",
-      "summary": "A Carnegie Mellon student’s tiny E Ink gadgets, called OATs, give houseplants, skateboards, and dumbbells expressive personalities to nudge you toward better habits.",
-      "published_at": "2026-11-15T11:00:00Z",
-      "fetched_at": "2026-11-15T11:02:13.071100Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 2
-    },
-    {
-      "id": "2c404e39b8c54174256bb3f8a26e788e",
-      "title": "It’s Getting Too Dry for Even Cactuses to Survive",
-      "url": "https://www.wired.com/story/droughts-are-getting-too-extreme-even-for-cactuses/",
-      "source_id": "wired",
-      "source_name": "Wired",
-      "category": "tech",
-      "summary": "As droughts worsen due to climate change, new research shows that hundreds of cactus species could lose the majority of their habitats by 2100.",
-      "published_at": "2026-11-15T10:30:00Z",
-      "fetched_at": "2026-11-15T11:02:13.071100Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 2
-    },
-    {
       "id": "76e8620399044de1494241cf33dab3dd",
       "title": "Anthropic Outlines Its AI-Powered Code Review Process for Claude Code",
       "url": "https://www.infoq.com/news/2026/11/claude-code-review/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -31882,46 +31900,119 @@
   ],
   "top_stories": [
     {
-      "id": "ec37bef41a18fbbbe6ed732fa55f3338",
-      "title": "UN talks on regulating autonomous weapons collapse",
-      "summary": "International UN talks on controlling the use of autonomous weapons have collapsed. Representatives meeting in Geneva failed to agree on rules regulating so-called killer robots.",
-      "why_it_matters": "Relevant to engineers working on autonomous systems and defense tech as regulatory frameworks stall.",
+      "id": "0a2e9e2641fc4aa3c0356be5c9099921",
+      "title": "UN Talks on Regulating Autonomous Weapons Collapse",
+      "summary": "International UN talks aimed at establishing rules for the control and use of autonomous weapons have collapsed. Representatives in Geneva failed to reach an agreement regarding the regulation of these systems.",
+      "why_it_matters": "The regulation of autonomous weapons directly impacts developers, researchers, and companies working on defense AI systems and robotics.",
       "item_ids": [
-        "ec37bef41a18fbbbe6ed732fa55f3338",
-        "0a2e9e2641fc4aa3c0356be5c9099921"
+        "0a2e9e2641fc4aa3c0356be5c9099921",
+        "ec37bef41a18fbbbe6ed732fa55f3338"
       ],
       "primary_url": null,
       "first_shown": "2026-11-21T21:01:25.099304Z",
-      "last_shown": "2026-11-22T10:01:32.324208Z"
+      "last_shown": "2026-11-22T11:01:22.424294Z"
     },
     {
-      "id": "72a2dbae6e0a8f61cdb2e75ed6f33846",
-      "title": "FBI and USDA systems reportedly hacked",
-      "summary": "Both the FBI and the US Department of Agriculture were reportedly hacked. The FBI is investigating an apparent breach of its National Crime Information Center database used to share information between local agencies.",
-      "why_it_matters": "Highlights major government cybersecurity incidents and database vulnerabilities.",
+      "id": "a355472071ee7848ac41893073090502",
+      "title": "Signal Restricts Screenshots to Combat AI Surveillance Threats",
+      "summary": "Signal is limiting users' ability to take screenshots across its Android and iOS applications. The messaging app introduced this restriction to counter the threat of AI surveillance and prevent AI agents from reading private chats via screenshots.",
+      "why_it_matters": "This change introduces new client-side security measures that affect how external tools and AI agents interact with encrypted messaging applications.",
       "item_ids": [
-        "72a2dbae6e0a8f61cdb2e75ed6f33846",
-        "fb8e404799f1622d9f787b26600660a0",
+        "a355472071ee7848ac41893073090502",
+        "8d9dc4557329cc750fc6f4bae990ff26"
+      ],
+      "primary_url": "https://signal.org/blog/protecting-your-privacy",
+      "first_shown": "2026-11-21T00:02:20.495308Z",
+      "last_shown": "2026-11-22T11:01:22.424294Z"
+    },
+    {
+      "id": "21f3e446cc0ccaa195db8671b4e27aee",
+      "title": "FBI Database System Reported Hacked",
+      "summary": "The FBI is reportedly investigating a cyberattack targeting its National Crime Information Center database. This incident represents the second reported breach of FBI systems within a two-month period.",
+      "why_it_matters": "High-profile government database breaches highlight critical vulnerabilities in law enforcement and federal infrastructure security.",
+      "item_ids": [
         "21f3e446cc0ccaa195db8671b4e27aee",
+        "72a2dbae6e0a8f61cdb2e75ed6f33846",
         "a7cab6a5ca896aa3b0cbf6050eb3f811"
       ],
       "primary_url": "https://www.cnn.com/2026/11/20/politics/fbi-hacked-again-target-crime-database",
       "first_shown": "2026-11-21T16:02:07.300939Z",
-      "last_shown": "2026-11-22T10:01:32.324208Z"
+      "last_shown": "2026-11-22T11:01:22.424294Z"
     },
     {
-      "id": "a2ed95a969185fdc09b697ceb6079288",
-      "title": "Ghostscript sandbox-escape RCE vulnerability patched",
-      "summary": "A now-patched flaw in Ghostscript allows a crafted file to escape the program's security sandbox and run commands on the server that processes it. Ghostscript is the interpreter that many Linux servers use.",
-      "why_it_matters": "Critical vulnerability affecting servers processing untrusted files via Ghostscript.",
+      "id": "1d6e113462a1841e98062808bdcebe81",
+      "title": "Claude Code Has Been Leaking Secrets Through Its \"Don't Ask Again\" Feature",
+      "summary": "Agentic security firm Apiiro found that Claude Code has been exposing secrets in public repositories due to how it stores them in local file on developers' machines to implement \"Don't Ask Again\". The company identified 1,122 secrets in claude/settings.local.json files and another 1,160 in git history, in the shared settings.json, and in agent chat transcripts stored in repos. By Sergio De Simone",
+      "why_it_matters": "A security firm discovered that Claude Code was leaking secrets in public repositories due to how it handled local files for the 'Don't Ask Again' feature.",
       "item_ids": [
-        "a2ed95a969185fdc09b697ceb6079288",
+        "1d6e113462a1841e98062808bdcebe81"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-22T11:01:22.424294Z",
+      "last_shown": "2026-11-22T11:01:22.424294Z"
+    },
+    {
+      "id": "52d1eca4da7f04ab2a855a7e45b5663f",
+      "title": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
+      "summary": "A now-patched flaw in Ghostscript allows a crafted file to escape the program's security sandbox and run commands on the server that processes it. Ghostscript is the interpreter that many Linux servers use to convert uploaded PDFs, PostScript files, and images into other formats, often without the application calling it directly. Security firm pwn.ai showed this week that ordinary upload,",
+      "why_it_matters": "A patched Ghostscript vulnerability allows crafted file uploads to escape sandboxes and execute remote code on Linux servers.",
+      "item_ids": [
         "52d1eca4da7f04ab2a855a7e45b5663f"
       ],
       "primary_url": null,
       "first_shown": "2026-11-22T01:01:22.364194Z",
-      "last_shown": "2026-11-22T10:01:32.324208Z"
+      "last_shown": "2026-11-22T11:01:22.424294Z"
     },
+    {
+      "id": "ddbf07ef3ad618a92d133e8197d609e5",
+      "title": "Rackspace Spot breach let hackers access customer Kubernetes secrets",
+      "summary": "Rackspace warned customers that hackers breached its Rackspace Spot cloud platform using compromised credentials, allowing them to deploy unauthorized workloads and access Kubernetes secrets in customer clusters. [...]",
+      "why_it_matters": "Rackspace warned customers that compromised credentials allowed hackers to access Kubernetes secrets and deploy unauthorized workloads on the Rackspace Spot platform.",
+      "item_ids": [
+        "ddbf07ef3ad618a92d133e8197d609e5"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-21T23:01:25.877132Z",
+      "last_shown": "2026-11-22T11:01:22.424294Z"
+    },
+    {
+      "id": "febc644792c73911d95e2b91266a6e2e",
+      "title": "GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys",
+      "summary": "A malicious OpenPGP key with an unusually long user ID can trigger a critical memory bug in GPGME, the standard library that programs use to work with GnuPG. The GnuPG project warned yesterday that the flaw could be used to steal data from affected applications and has released fixed versions. The bug, tracked as CVE-2026-129975, affects all software that uses GPGME before version 2.3.0,",
+      "why_it_matters": "GnuPG warned of a critical memory bug in GPGME triggered by malicious OpenPGP keys with unusually long user IDs.",
+      "item_ids": [
+        "febc644792c73911d95e2b91266a6e2e"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-21T13:02:11.110783Z",
+      "last_shown": "2026-11-22T11:01:22.424294Z"
+    },
+    {
+      "id": "afa609acf7c3f5276fdd99e66b753742",
+      "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
+      "summary": "Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence said this week. The flaw allows an attacker with no account to write files outside the server's storage folder, and it affects MONAI Label 0.8.5 and earlier in the default setup,",
+      "why_it_matters": "Attackers used autonomous AI agents to discover a zero-day vulnerability in MONAI Label and gain root access to a server.",
+      "item_ids": [
+        "afa609acf7c3f5276fdd99e66b753742"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-20T19:02:07.129347Z",
+      "last_shown": "2026-11-22T11:01:22.424294Z"
+    },
+    {
+      "id": "2d2610ef5bbb1b2778dbfd6ccd0521d4",
+      "title": "Toyota, Nissan, and Honda to Standardize Parts to Lower Costs",
+      "summary": null,
+      "why_it_matters": "Automotive giants standardizing parts represents a major supply chain and manufacturing shift.",
+      "item_ids": [
+        "2d2610ef5bbb1b2778dbfd6ccd0521d4"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-22T10:01:32.324208Z",
+      "last_shown": "2026-11-22T11:01:22.424294Z"
+    }
+  ],
+  "past_top_stories": [
     {
       "id": "b70cee8b33c1a0ce415fd31b386b013e",
       "title": "Lean Verification of the Riemann Hypothesis - Joint statement by...",
@@ -31969,68 +32060,6 @@
       "primary_url": null,
       "first_shown": "2026-11-22T07:01:19.272403Z",
       "last_shown": "2026-11-22T10:01:32.324208Z"
-    },
-    {
-      "id": "2d2610ef5bbb1b2778dbfd6ccd0521d4",
-      "title": "Toyota, Nissan, and Honda to Standardize Parts to Lower Costs",
-      "summary": null,
-      "why_it_matters": "Automotive giants standardizing parts represents a major supply chain and manufacturing shift.",
-      "item_ids": [
-        "2d2610ef5bbb1b2778dbfd6ccd0521d4"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-22T10:01:32.324208Z",
-      "last_shown": "2026-11-22T10:01:32.324208Z"
-    },
-    {
-      "id": "ddbf07ef3ad618a92d133e8197d609e5",
-      "title": "Rackspace Spot breach let hackers access customer Kubernetes secrets",
-      "summary": "Rackspace warned customers that hackers breached its Rackspace Spot cloud platform using compromised credentials, allowing them to deploy unauthorized workloads and access Kubernetes secrets in customer clusters. [...]",
-      "why_it_matters": "Rackspace Spot security breach exposing Kubernetes secrets underlines risks in cloud container platforms.",
-      "item_ids": [
-        "ddbf07ef3ad618a92d133e8197d609e5"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-21T23:01:25.877132Z",
-      "last_shown": "2026-11-22T10:01:32.324208Z"
-    },
-    {
-      "id": "a355472071ee7848ac41893073090502",
-      "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
-      "summary": "Signal is limiting users' ability to take screenshots in both its Android and iOS apps.",
-      "why_it_matters": "Signal restricting screenshots to counter AI surveillance marks a new defensive posture in messaging apps.",
-      "item_ids": [
-        "a355472071ee7848ac41893073090502"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-21T00:02:20.495308Z",
-      "last_shown": "2026-11-22T10:01:32.324208Z"
-    }
-  ],
-  "past_top_stories": [
-    {
-      "id": "febc644792c73911d95e2b91266a6e2e",
-      "title": "GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys",
-      "summary": "A malicious OpenPGP key with an unusually long user ID can trigger a critical memory bug in GPGME, the standard library that programs use to work with GnuPG. The GnuPG project warned yesterday that the flaw could be used to steal data from affected applications and has released fixed versions. The bug, tracked as CVE-2026-129975, affects all software that uses GPGME before version 2.3.0,",
-      "why_it_matters": "A critical memory corruption vulnerability in GPGME poses immediate risks for applications handling OpenPGP keys.",
-      "item_ids": [
-        "febc644792c73911d95e2b91266a6e2e"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-21T13:02:11.110783Z",
-      "last_shown": "2026-11-22T09:01:21.095824Z"
-    },
-    {
-      "id": "afa609acf7c3f5276fdd99e66b753742",
-      "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
-      "summary": "Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence said this week. The flaw allows an attacker with no account to write files outside the server's storage folder, and it affects MONAI Label 0.8.5 and earlier in the default setup,",
-      "why_it_matters": "Illustrates an early real-world case of autonomous AI agents being used by attackers to discover zero-day vulnerabilities.",
-      "item_ids": [
-        "afa609acf7c3f5276fdd99e66b753742"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-20T19:02:07.129347Z",
-      "last_shown": "2026-11-22T09:01:21.095824Z"
     },
     {
       "id": "95b6687519e92a6335fe2c35eeabb57b",
@@ -32106,30 +32135,6 @@
       "primary_url": null,
       "first_shown": "2026-11-21T20:02:08.303153Z",
       "last_shown": "2026-11-22T06:01:26.945350Z"
-    },
-    {
-      "id": "612e47d069e2e77dd6717ce74333876d",
-      "title": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four flaws impacting Apache Roller, Cisco Expressway, SAP NetWeaver, and Broadcom VMware vCenter to its Known Exploited Vulnerabilities (KEV), citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-129448 (CVSS score: 9.8) - A deserialization of untrusted data vulnerability in",
-      "why_it_matters": "CISA adding multiple enterprise software vulnerabilities to its exploited list requires immediate patching by system administrators.",
-      "item_ids": [
-        "612e47d069e2e77dd6717ce74333876d"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-22T05:01:22.718543Z",
-      "last_shown": "2026-11-22T05:01:22.718543Z"
-    },
-    {
-      "id": "f4f7150b9d3465a1db84a7d9cdd53c3b",
-      "title": "Show HN: Zero C#, Power of C# without any GC",
-      "summary": null,
-      "why_it_matters": "A zero-allocation C# programming technique improves performance in managed environments by eliminating garbage collection overhead.",
-      "item_ids": [
-        "f4f7150b9d3465a1db84a7d9cdd53c3b"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-22T02:01:21.833150Z",
-      "last_shown": "2026-11-22T04:01:29.829803Z"
     }
   ]
 }
