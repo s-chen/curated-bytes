@@ -1,6 +1,150 @@
 {
-  "generated_at": "2026-11-23T10:01:52.618104Z",
+  "generated_at": "2026-11-23T11:01:47.695842Z",
   "items": [
+    {
+      "id": "c1061207c903927a90cfc446cf39e655",
+      "title": "Meta Muse can now do your Black Friday shopping at Walmart",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1039874/walmart-agent-gateway-meta-muse-black-friday",
+      "source_id": "the-verge",
+      "source_name": "The Verge",
+      "category": "tech",
+      "summary": "Walmart will now let Meta's Muse shop on its website on your behalf, allowing the AI agent to find and purchase Black Friday deals. The retail giant is rolling out a live implementation of the Agent Gateway it announced last month, which helps AI agents find relevant products for you without sharing your purchase history, […]",
+      "published_at": "2026-11-23T11:00:00Z",
+      "fetched_at": "2026-11-23T11:01:47.695842Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": null,
+      "review": "excluded",
+      "importance": null
+    },
+    {
+      "id": "d350b3a2988853c9d8250b172ff1d2c5",
+      "title": "Podcast: Simulation Can Tell You What Your Agents are Actually Doing: A Conversation with Zhou Yu",
+      "url": "https://www.infoq.com/podcasts/simulation-agents-actually-doing/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source_id": "infoq",
+      "source_name": "InfoQ",
+      "category": "tech",
+      "summary": "Michael Stiefel spoke to Zhou Yu about using dynamic simulations to evaluate AI agents. One particular focus was conversational agents where actions depend on prior responses, and the non-deterministic nation of LLMs means you cannot rely on static, reference-based benchmarks. You need to test them using dynamic simulations that incorporate different personas, goals, and corner cases. By Zhou Yu",
+      "published_at": "2026-11-23T11:00:00Z",
+      "fetched_at": "2026-11-23T11:01:47.695842Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "a7a1d968a85b1e385282ddb1eb8b784b",
+      "title": "Simple Sudoku Solver in Verilog",
+      "url": "https://blog.veitheller.de/Simple_Sudoku_Solvers_SIII%2C_EIII%3A_Verilog.html",
+      "source_id": "lobsters",
+      "source_name": "Lobsters",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-11-23T10:40:21Z",
+      "fetched_at": "2026-11-23T11:01:47.695842Z",
+      "discussion_url": "https://lobste.rs/s/nh5bob/simple_sudoku_solver_verilog",
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": true,
+      "review": "kept",
+      "importance": 2
+    },
+    {
+      "id": "1f900ce808bcc037be8f3618929ee4ba",
+      "title": "What are you doing this week?",
+      "url": "https://lobste.rs/s/t8c4vj/what_are_you_doing_this_week",
+      "source_id": "lobsters",
+      "source_name": "Lobsters",
+      "category": "tech",
+      "summary": "What are you doing this week? Feel free to share! Keep in mind it’s OK to do nothing at all, too.",
+      "published_at": "2026-11-23T10:37:34Z",
+      "fetched_at": "2026-11-23T11:01:47.695842Z",
+      "discussion_url": "https://lobste.rs/s/t8c4vj/what_are_you_doing_this_week",
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "pending",
+      "importance": null
+    },
+    {
+      "id": "527131e7b0c9dbb485bcb70dfc745cdf",
+      "title": "Inside Google’s Failure to Make Google Maps Work for Palestinians",
+      "url": "https://www.wired.com/story/inside-googles-failure-to-make-google-maps-work-for-palestinians/",
+      "source_id": "wired",
+      "source_name": "Wired",
+      "category": "tech",
+      "summary": "One product manager made it his mission to accurately map Israeli checkpoints in the West Bank on the world’s most popular navigation app. Then the company undid his work.",
+      "published_at": "2026-11-23T10:30:00Z",
+      "fetched_at": "2026-11-23T11:01:47.695842Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "e4243404859110af5d45d856212f57a9",
+      "title": "Do AI coding agents struggle with non-REST APIs?",
+      "url": "https://devblogs.microsoft.com/blog/do-ai-coding-agents-struggle-with-non-rest-apis/",
+      "source_id": "microsoft-devblogs",
+      "source_name": "Microsoft for Developers",
+      "category": "tech",
+      "summary": "Should your next API be REST, or something else? And which one will AI coding agents handle best? We tested REST, POST-only and RPC-style APIs with six models across 1,356 runs, and what decided whether agents succeeded had nothing to do with API style. The post Do AI coding agents struggle with non-REST APIs? appeared first on Microsoft for Developers.",
+      "published_at": "2026-11-23T10:25:28Z",
+      "fetched_at": "2026-11-23T11:01:47.695842Z",
+      "discussion_url": "https://devblogs.microsoft.com/blog/do-ai-coding-agents-struggle-with-non-rest-apis/#respond",
+      "points": null,
+      "comments": null,
+      "engineering": true,
+      "blog": true,
+      "review": "kept",
+      "importance": 4
+    },
+    {
+      "id": "05b61d6d03c227bea811df5caee76ded",
+      "title": "Old-school Linux desktops find fresh routes to Wayland",
+      "url": "https://www.theregister.com/os-platforms/2026/11/23/old-school-linux-desktops-find-fresh-routes-to-wayland/5311349",
+      "source_id": "the-register",
+      "source_name": "The Register",
+      "category": "tech",
+      "summary": "Xfce lines up 4.22 for 2027, while MATE gains an Ubuntu-based distro and a compositor of its own",
+      "published_at": "2026-11-23T10:17:00Z",
+      "fetched_at": "2026-11-23T11:01:47.695842Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "0518fc43126f188db10bd3d6a9805cdc",
+      "title": "A Power Provider for Meta Urged Regulators to Exempt Data Center Plants From Acid Rain Rules",
+      "url": "https://www.wired.com/story/a-power-provider-for-meta-urged-regulators-to-exempt-data-center-plants-from-acid-rain-rules/",
+      "source_id": "wired",
+      "source_name": "Wired",
+      "category": "tech",
+      "summary": "Before the EPA recommended waiving acid rain regulations for certain data-center power plants, it met with industry players—including Williams, a gas power provider for Meta data centers.",
+      "published_at": "2026-11-23T10:15:00Z",
+      "fetched_at": "2026-11-23T11:01:47.695842Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
     {
       "id": "e6900db6ae1a5a1aa1ed10f1a47cf155",
       "title": "Goodbye, World: The End of Programmers",
@@ -17,7 +161,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "74e18a97ac8bd0983eb1b576f34cf793",
@@ -56,6 +200,24 @@
       "importance": 3
     },
     {
+      "id": "4b4ed5dc11dc0fae1224075962669945",
+      "title": "Hackers Exploit Critical ASP.NET Anti-CSRF Library Flaw Allowing Unauthenticated RCE",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html",
+      "source_id": "the-hacker-news",
+      "source_name": "The Hacker News",
+      "category": "tech",
+      "summary": "Cybersecurity researchers have urged users to discontinue using a legacy ASP.NET anti-CSRF library named Idunno.AntiCsrf (\"Idunno.AntiCsrf.dll\") following the discovery of a critical vulnerability that has been exploited in the wild. The vulnerability, tracked as CVE-2026-131914, carries a CVSS score of 9.3 out of 10.0. The issue affects versions 0.9.1.0 and 0.9.1 Beta, and relates to an",
+      "published_at": "2026-11-23T09:11:56Z",
+      "fetched_at": "2026-11-23T11:01:47.695842Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 5
+    },
+    {
       "id": "2a02cb92dd0402794629ca8820d3b094",
       "title": "Microsoft confirms Windows printing issues affecting Forcepoint users",
       "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-printing-issues-after-kb5132043-windows-hotpatch/",
@@ -74,6 +236,24 @@
       "importance": 3
     },
     {
+      "id": "c72e0e6689b080c084a5abbbca5a5ab1",
+      "title": "Hackers Exploited GL.iNet Cloud Flaw to Install Malware on Routers and KVM Devices",
+      "url": "https://thehackernews.com/2026/11/hackers-exploited-glinet-cloud-flaw-to.html",
+      "source_id": "the-hacker-news",
+      "source_name": "The Hacker News",
+      "category": "tech",
+      "summary": "Hackers exploited a vulnerability in GL.iNet's GoodCloud remote management service to install malware on some customer routers and KVM devices, the maker of travel routers and remote-access KVM hardware said in a security notice updated today. The company identified and fixed the flaw on Friday and blocked the access the attacker used, so devices can no longer be infected through this route.",
+      "published_at": "2026-11-23T09:04:08Z",
+      "fetched_at": "2026-11-23T11:01:47.695842Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 4
+    },
+    {
       "id": "ac710a7ca88e29e30b97589174eeb5fa",
       "title": "GTA 6 building personal behavioral profile for every player",
       "url": "https://huijzer.xyz/posts/174/gta-6-building-personal-behavioral-profile-for-eve",
@@ -89,7 +269,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "f78632acfdb91ce0a3e94b9e9b8c8e7c",
@@ -107,7 +287,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "805957bc90428a8283300b73ed7e0839",
@@ -125,7 +305,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "73b38ee01b34959ebc9a19328b3208c8",
@@ -143,7 +323,7 @@
       "engineering": false,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "abf259621c62b172d6eb6b63e6273948",
@@ -161,7 +341,7 @@
       "engineering": false,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "5683a3551b32bd6a06cc98f9674f0f65",
@@ -197,7 +377,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "8348595f63930c4ef0cca4570a3ff75d",
@@ -249,7 +429,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 2
     },
@@ -264,8 +444,8 @@
       "published_at": "2026-11-23T05:00:49Z",
       "fetched_at": "2026-11-23T07:01:52.764915Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50607668",
-      "points": 59,
-      "comments": 71,
+      "points": 87,
+      "comments": 99,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -282,8 +462,8 @@
       "published_at": "2026-11-23T04:51:48Z",
       "fetched_at": "2026-11-23T06:01:48.416759Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50607627",
-      "points": 64,
-      "comments": 9,
+      "points": 66,
+      "comments": 14,
       "engineering": false,
       "blog": true,
       "review": "kept",
@@ -305,7 +485,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "d7b80735ba09de58146b41e1d81d3c45",
@@ -336,8 +516,8 @@
       "published_at": "2026-11-23T03:49:24Z",
       "fetched_at": "2026-11-23T06:01:48.416759Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50607261",
-      "points": 295,
-      "comments": 135,
+      "points": 345,
+      "comments": 162,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -354,8 +534,8 @@
       "published_at": "2026-11-23T03:34:29Z",
       "fetched_at": "2026-11-23T09:01:48.969253Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50607194",
-      "points": 39,
-      "comments": 76,
+      "points": 44,
+      "comments": 90,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -375,7 +555,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 2
     },
@@ -429,9 +609,9 @@
       "points": 6,
       "comments": 0,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "0580b55b355823ead5f03ca9c76114e8",
@@ -444,8 +624,8 @@
       "published_at": "2026-11-23T01:50:23Z",
       "fetched_at": "2026-11-23T06:01:48.416759Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50606499",
-      "points": 82,
-      "comments": 32,
+      "points": 89,
+      "comments": 35,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -480,8 +660,8 @@
       "published_at": "2026-11-23T01:13:51Z",
       "fetched_at": "2026-11-23T02:01:21.665053Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50606192",
-      "points": 514,
-      "comments": 79,
+      "points": 544,
+      "comments": 86,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -498,8 +678,8 @@
       "published_at": "2026-11-23T01:01:11Z",
       "fetched_at": "2026-11-23T02:01:21.665053Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50606072",
-      "points": 43,
-      "comments": 8,
+      "points": 44,
+      "comments": 9,
       "engineering": false,
       "blog": true,
       "review": "kept",
@@ -521,7 +701,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "57d358f4640609dc79e4eacd4e27db5b",
@@ -591,9 +771,9 @@
       "points": 49,
       "comments": 12,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "03d906b59cabd3a81ae03c514121f54c",
@@ -624,10 +804,10 @@
       "published_at": "2026-11-22T23:12:10Z",
       "fetched_at": "2026-11-23T00:01:27.680604Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50605045",
-      "points": 233,
-      "comments": 171,
+      "points": 239,
+      "comments": 173,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -642,8 +822,8 @@
       "published_at": "2026-11-22T23:06:37Z",
       "fetched_at": "2026-11-23T00:01:27.680604Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50604988",
-      "points": 197,
-      "comments": 95,
+      "points": 208,
+      "comments": 97,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -714,12 +894,12 @@
       "published_at": "2026-11-22T22:10:58Z",
       "fetched_at": "2026-11-22T23:01:20.125396Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50604472",
-      "points": 125,
-      "comments": 23,
+      "points": 129,
+      "comments": 25,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "33beaa6a5cf3c7704fb0dd63e1be6501",
@@ -753,7 +933,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -786,7 +966,7 @@
       "published_at": "2026-11-22T21:33:12Z",
       "fetched_at": "2026-11-23T00:01:27.680604Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50604123",
-      "points": 116,
+      "points": 124,
       "comments": 40,
       "engineering": false,
       "blog": false,
@@ -858,10 +1038,10 @@
       "published_at": "2026-11-22T21:01:16Z",
       "fetched_at": "2026-11-22T22:01:20.926006Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50603845",
-      "points": 501,
-      "comments": 205,
+      "points": 528,
+      "comments": 223,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -912,7 +1092,7 @@
       "published_at": "2026-11-22T20:33:23Z",
       "fetched_at": "2026-11-22T22:01:20.926006Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50603589",
-      "points": 270,
+      "points": 280,
       "comments": 93,
       "engineering": false,
       "blog": false,
@@ -930,12 +1110,12 @@
       "published_at": "2026-11-22T20:15:59Z",
       "fetched_at": "2026-11-22T21:01:28.417281Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50603465",
-      "points": 135,
-      "comments": 22,
+      "points": 140,
+      "comments": 26,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "9f7e2c1ab4c40f7a5c4aff3ce3b2d66c",
@@ -953,7 +1133,7 @@
       "engineering": false,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "2152a072c6946872a63defa453c79161",
@@ -989,7 +1169,7 @@
       "engineering": false,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "409c2f3c888780e5919c3b2c23fde174",
@@ -1002,10 +1182,10 @@
       "published_at": "2026-11-22T19:41:30Z",
       "fetched_at": "2026-11-22T23:01:20.125396Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50603143",
-      "points": 199,
-      "comments": 98,
+      "points": 207,
+      "comments": 105,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -1020,8 +1200,8 @@
       "published_at": "2026-11-22T19:20:15Z",
       "fetched_at": "2026-11-22T19:59:30.749325Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50602947",
-      "points": 648,
-      "comments": 348,
+      "points": 668,
+      "comments": 352,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -1074,8 +1254,8 @@
       "published_at": "2026-11-22T19:10:34Z",
       "fetched_at": "2026-11-22T19:59:30.749325Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50602843",
-      "points": 496,
-      "comments": 250,
+      "points": 511,
+      "comments": 261,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -1236,8 +1416,8 @@
       "published_at": "2026-11-22T17:06:27Z",
       "fetched_at": "2026-11-22T18:01:27.924101Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50601525",
-      "points": 586,
-      "comments": 399,
+      "points": 592,
+      "comments": 403,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -1367,7 +1547,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "d0df68b68d94fad0bb5161d06129c0fc",
@@ -1385,7 +1565,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "927baaf282a13c57572f2eb65edb1d72",
@@ -1547,7 +1727,7 @@
       "engineering": false,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "ad3a6c887c404909453759fd2d3f32ca",
@@ -1596,8 +1776,8 @@
       "published_at": "2026-11-22T13:56:58Z",
       "fetched_at": "2026-11-22T15:01:23.859163Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50599762",
-      "points": 258,
-      "comments": 59,
+      "points": 321,
+      "comments": 78,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -1979,7 +2159,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "45a3df372cb3faff2829baacda5b40e8",
@@ -2195,7 +2375,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "3ac5ca3d3dea1f3ba9fc76ae85656ce8",
@@ -2339,7 +2519,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "a32862c94628a4f9330db46ce2ffab82",
@@ -2355,9 +2535,9 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "fb15fcd5d90a327dc15095e4acd0f36f",
@@ -2393,7 +2573,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "ddbf07ef3ad618a92d133e8197d609e5",
@@ -25850,132 +26030,6 @@
       "importance": 2
     },
     {
-      "id": "5ee7da2bc7da75247b094114a8df6d2b",
-      "title": "Senator slams Commerce Secretary for flow of Nvidia AI chips to China",
-      "url": "https://www.theverge.com/policy/1034047/nvidia-us-commerce-department-cantwell-lutnick",
-      "source_id": "the-verge",
-      "source_name": "The Verge",
-      "category": "tech",
-      "summary": "Washington Senator Maria Cantwell, one of the top Democrats on the Senate commerce committee, has taken fire at the Department of Commerce (DOC) under Secretary Howard Lutnick for neglecting to enforce protections intended to keep Nvidia's AI chips away from China. In a letter to Lutnick on Sunday, Cantwell said the DOC has \"undermined America's […]",
-      "published_at": "2026-11-16T11:00:00Z",
-      "fetched_at": "2026-11-16T11:02:19.285932Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 4
-    },
-    {
-      "id": "03cb387814fe24c30dd83e64b8a7c88d",
-      "title": "Anthropic’s Claude Fable 5.2 blocks fewer security tasks, while Mythos gets better at finding bugs",
-      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropics-claude-fable-52-blocks-fewer-security-tasks-while-mythos-gets-better-at-finding-bugs/",
-      "source_id": "bleepingcomputer",
-      "source_name": "BleepingComputer",
-      "category": "tech",
-      "summary": "Anthropic recently rolled out Claude Mythos 5.2 to selected partners and Fable 5.2 to regular users, with improvements to coding and reasoning. But we also noticed some interesting cybersecurity changes. [...]",
-      "published_at": "2026-11-16T11:00:00Z",
-      "fetched_at": "2026-11-16T11:02:19.285932Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "5df81ff9511e1751f170d422248d0858",
-      "title": "Nvidia Was Already in Trouble Before the Jensen Huang Mess",
-      "url": "https://www.wired.com/story/nvidia-was-already-in-trouble-before-the-jensen-huang-mess/",
-      "source_id": "wired",
-      "source_name": "Wired",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-11-16T11:00:00Z",
-      "fetched_at": "2026-11-16T12:02:12.253561Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50518567",
-      "points": 209,
-      "comments": 204,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "cca104920eef1ba1eb2166a1c29dee31",
-      "title": "Podcast: Getting CRA Compliant Hardens the Code and Gets Your Company Closer to Digital Sovereignty",
-      "url": "https://www.infoq.com/podcasts/company-closer-digital-sovereignty/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source_id": "infoq",
-      "source_name": "InfoQ",
-      "category": "tech",
-      "summary": "In this episode, Christopher \"CRob\" Robinson, CTO of OpenSSF, Akrites and Chief Security Architect of the Linux Foundation, explores the state of software supply chain security amid multiple security incidents and explains how tools like Scorecard, the Security Baseline framework, and SLSA help harden software. By Christopher Robinson",
-      "published_at": "2026-11-16T11:00:00Z",
-      "fetched_at": "2026-11-16T11:02:19.285932Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "bcc1f03e3a51371d2ce12cb8ee3403f0",
-      "title": "Article: Governed Autonomous Intelligence for Mission-Critical Utility",
-      "url": "https://www.infoq.com/articles/utility-governed-autonomous-intelligence-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source_id": "infoq",
-      "source_name": "InfoQ",
-      "category": "tech",
-      "summary": "TO DO By Purnang Borah",
-      "published_at": "2026-11-16T11:00:00Z",
-      "fetched_at": "2026-11-16T11:02:19.285932Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "excluded",
-      "importance": 2
-    },
-    {
-      "id": "3632cb97de6ce1fcbcab881171e71516",
-      "title": "AWS Open-Sources Emulator for Local Testing of 200+ Services by Coding Agents",
-      "url": "https://www.infoq.com/news/2026/11/aws-emulator-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source_id": "infoq",
-      "source_name": "InfoQ",
-      "category": "tech",
-      "summary": "AWS Emulator is a generally available local HTTPS endpoint, generated from public Smithy API models, that lets developers and coding agents test against more than 200 AWS services without an account, with published fidelity scores and documented limits around IAM, regions, and in-memory state. By Daniel Dominguez",
-      "published_at": "2026-11-16T10:40:00Z",
-      "fetched_at": "2026-11-16T11:02:19.285932Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 4
-    },
-    {
-      "id": "ede0b68b06dc701bfdcff259dba4ad89",
-      "title": "Omaxian takes the Omarchy look down a different Linux backstreet",
-      "url": "https://www.theregister.com/os-platforms/2026/11/16/omaxian-takes-the-omarchy-look-down-a-different-linux-backstreet/5309750",
-      "source_id": "the-register",
-      "source_name": "The Register",
-      "category": "tech",
-      "summary": "Devuan-based distro swaps Wayland for XLibre and i3, with Xfce waiting if the tiling gets tiresome",
-      "published_at": "2026-11-16T10:15:00Z",
-      "fetched_at": "2026-11-16T11:02:19.285932Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 2
-    },
-    {
       "id": "0ab7c376847a7a140627d91923efd092",
       "title": "It's always DNS, so why are we running our own?",
       "url": "https://s2.dev/blog/dns-server",
@@ -31756,30 +31810,31 @@
   ],
   "top_stories": [
     {
+      "id": "438ca2090a9b9149308da2c731b167c9",
+      "title": "GL.iNet Cloud Flaw Exploited to Install Malware on Routers and KVM Devices",
+      "summary": "Hackers exploited a vulnerability in GL.iNet's GoodCloud remote management service to install custom malware on customer routers and KVM devices. The maker of travel routers and remote-access KVM hardware confirmed the attacks.",
+      "why_it_matters": "Engineers using remote management devices must apply security updates immediately to prevent full compromise of network hardware.",
+      "item_ids": [
+        "438ca2090a9b9149308da2c731b167c9",
+        "c72e0e6689b080c084a5abbbca5a5ab1",
+        "ebb479c815ef9059d1eb13fc7dfa80c9"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-23T05:01:30.779097Z",
+      "last_shown": "2026-11-23T11:01:47.695842Z"
+    },
+    {
       "id": "684c72937143a6c8b24fba3f449cdf88",
-      "title": "System outage delays all Delta flights in and out of Atlanta",
-      "summary": "All Delta flights in and out of Atlanta faced significant delays due to an automated system fault. Specifically, the disruption stemmed from a problem with the system that calculates a plane's weight and balance.",
-      "why_it_matters": "Systemic automated failures in critical airline infrastructure disrupt operational logistics and highlight vulnerabilities in core aviation software.",
+      "title": "System Outage Delays Delta Flights in and out of Atlanta",
+      "summary": "All Delta flights in and out of Atlanta faced significant delays due to a problem with the system that calculates a plane's weight and balance. The automated system faltered at Hartsfield-Jackson Atlanta International.",
+      "why_it_matters": null,
       "item_ids": [
         "684c72937143a6c8b24fba3f449cdf88",
         "2152a072c6946872a63defa453c79161"
       ],
       "primary_url": null,
       "first_shown": "2026-11-22T21:01:28.417281Z",
-      "last_shown": "2026-11-23T10:01:52.618104Z"
-    },
-    {
-      "id": "438ca2090a9b9149308da2c731b167c9",
-      "title": "Hackers exploit GL.iNet cloud flaw to compromise routers and KVMs",
-      "summary": "GL.iNet confirmed that hackers exploited a vulnerability in its cloud remote management services. Attackers leveraged the flaw to install custom malware on customer routers and KVM devices.",
-      "why_it_matters": "Remote management vulnerabilities in network hardware can expose edge infrastructure and local networks to complete compromise.",
-      "item_ids": [
-        "438ca2090a9b9149308da2c731b167c9",
-        "ebb479c815ef9059d1eb13fc7dfa80c9"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-23T05:01:30.779097Z",
-      "last_shown": "2026-11-23T10:01:52.618104Z"
+      "last_shown": "2026-11-23T11:01:47.695842Z"
     },
     {
       "id": "a144b6f6e51f4b5c06e25c5472a48848",
@@ -31792,20 +31847,94 @@
       ],
       "primary_url": null,
       "first_shown": "2026-11-23T09:01:48.969253Z",
-      "last_shown": "2026-11-23T10:01:52.618104Z"
+      "last_shown": "2026-11-23T11:01:47.695842Z"
+    },
+    {
+      "id": "4b4ed5dc11dc0fae1224075962669945",
+      "title": "Hackers Exploit Critical ASP.NET Anti-CSRF Library Flaw Allowing Unauthenticated RCE",
+      "summary": "Cybersecurity researchers have urged users to discontinue using a legacy ASP.NET anti-CSRF library named Idunno.AntiCsrf (\"Idunno.AntiCsrf.dll\") following the discovery of a critical vulnerability that has been exploited in the wild. The vulnerability, tracked as CVE-2026-131914, carries a CVSS score of 9.3 out of 10.0. The issue affects versions 0.9.1.0 and 0.9.1 Beta, and relates to an",
+      "why_it_matters": "A critical unauthenticated RCE vulnerability in a legacy ASP.NET anti-CSRF library requires immediate migration off the component.",
+      "item_ids": [
+        "4b4ed5dc11dc0fae1224075962669945"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-23T11:01:47.695842Z",
+      "last_shown": "2026-11-23T11:01:47.695842Z"
     },
     {
       "id": "5683a3551b32bd6a06cc98f9674f0f65",
       "title": "CISA flags critical Cisco RCE flaw as actively exploited in attacks",
       "summary": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that attackers are now exploiting a recently patched critical Cisco Expressway vulnerability in the wild. [...]",
-      "why_it_matters": "Active exploitation of a critical Cisco remote code execution vulnerability demands immediate patching across federal and enterprise networks.",
+      "why_it_matters": "Active exploitation of a critical Cisco Expressway RCE vulnerability prompts urgent patching for federal agencies.",
       "item_ids": [
         "5683a3551b32bd6a06cc98f9674f0f65"
       ],
       "primary_url": null,
       "first_shown": "2026-11-23T07:01:52.764915Z",
-      "last_shown": "2026-11-23T10:01:52.618104Z"
+      "last_shown": "2026-11-23T11:01:47.695842Z"
     },
+    {
+      "id": "e4243404859110af5d45d856212f57a9",
+      "title": "Do AI coding agents struggle with non-REST APIs?",
+      "summary": "Should your next API be REST, or something else? And which one will AI coding agents handle best? We tested REST, POST-only and RPC-style APIs with six models across 1,356 runs, and what decided whether agents succeeded had nothing to do with API style. The post Do AI coding agents struggle with non-REST APIs? appeared first on Microsoft for Developers.",
+      "why_it_matters": "Tests across models show how API design styles impact code generation success for AI coding agents.",
+      "item_ids": [
+        "e4243404859110af5d45d856212f57a9"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-23T11:01:47.695842Z",
+      "last_shown": "2026-11-23T11:01:47.695842Z"
+    },
+    {
+      "id": "ae34b6b1fd4465993d43c433f2238d4d",
+      "title": "Kernel prepatch 7.4-rc4",
+      "summary": "The 7.4-rc4 kernel is out for testing. Linus said: \"It's huge. What a surprise. Lots of little fixes all over, with drivers being pretty exactly half of it (gpu and networking showing up as usual, but there's usb, iio, nvme, sound.. you name it).\"",
+      "why_it_matters": "Kernel prepatch 7.4-rc4 brings extensive updates and driver fixes for Linux developers and maintainers.",
+      "item_ids": [
+        "ae34b6b1fd4465993d43c433f2238d4d"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-23T11:01:47.695842Z",
+      "last_shown": "2026-11-23T11:01:47.695842Z"
+    },
+    {
+      "id": "e84d57d9518e44e90f8abf3f177949e5",
+      "title": "Cleverbridge warns hackers stole credit card numbers, CVVs in data breach",
+      "summary": "E-commerce platform Cleverbridge is warning that hackers breached its systems and stole customers' payment card information, including credit card numbers and CVV security codes. [...]",
+      "why_it_matters": "E-commerce platform Cleverbridge discloses a security breach involving stolen credit card numbers and CVVs.",
+      "item_ids": [
+        "e84d57d9518e44e90f8abf3f177949e5"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-23T11:01:47.695842Z",
+      "last_shown": "2026-11-23T11:01:47.695842Z"
+    },
+    {
+      "id": "e93202813cbe155ecfa98494db8a931d",
+      "title": "Signal to block Siri, Gemini AI from capturing chats on iOS, Android",
+      "summary": "Signal has announced new protections that block screenshots on iOS 27 and prevent AI assistants from capturing conversations on supported Android devices. [...]",
+      "why_it_matters": "Signal adds privacy protections to block screenshots and prevent AI assistants from capturing chats on mobile devices.",
+      "item_ids": [
+        "e93202813cbe155ecfa98494db8a931d"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-21T00:02:20.495308Z",
+      "last_shown": "2026-11-23T11:01:47.695842Z"
+    },
+    {
+      "id": "68681b4ff941ff1f66240ce1d76dfd9d",
+      "title": "PostgreSQL 19 Released with Online Table Repacking and Query Planning Controls",
+      "summary": "The PostgreSQL Global Development Group released PostgreSQL 19, introducing changes to database maintenance, query planning, replication, and application development. The release focuses on reducing administrative overhead and improving performance, with new tools for reorganizing tables without downtime and controlling query plans. By Robert Krzaczyński",
+      "why_it_matters": "PostgreSQL 19 is released with new features for online table repacking, query planning, and replication.",
+      "item_ids": [
+        "68681b4ff941ff1f66240ce1d76dfd9d"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-22T14:01:17.867410Z",
+      "last_shown": "2026-11-23T11:01:47.695842Z"
+    }
+  ],
+  "past_top_stories": [
     {
       "id": "1d6e113462a1841e98062808bdcebe81",
       "title": "Claude Code Has Been Leaking Secrets Through Its \"Don't Ask Again\" Feature",
@@ -31816,30 +31945,6 @@
       ],
       "primary_url": null,
       "first_shown": "2026-11-22T11:01:22.424294Z",
-      "last_shown": "2026-11-23T10:01:52.618104Z"
-    },
-    {
-      "id": "68681b4ff941ff1f66240ce1d76dfd9d",
-      "title": "PostgreSQL 19 Released with Online Table Repacking and Query Planning Controls",
-      "summary": "The PostgreSQL Global Development Group released PostgreSQL 19, introducing changes to database maintenance, query planning, replication, and application development. The release focuses on reducing administrative overhead and improving performance, with new tools for reorganizing tables without downtime and controlling query plans. By Robert Krzaczyński",
-      "why_it_matters": "PostgreSQL 19 brings essential upgrades to database maintenance, replication controls, and query planning for backend engineers.",
-      "item_ids": [
-        "68681b4ff941ff1f66240ce1d76dfd9d"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-22T14:01:17.867410Z",
-      "last_shown": "2026-11-23T10:01:52.618104Z"
-    },
-    {
-      "id": "e93202813cbe155ecfa98494db8a931d",
-      "title": "Signal to block Siri, Gemini AI from capturing chats on iOS, Android",
-      "summary": "Signal has announced new protections that block screenshots on iOS 27 and prevent AI assistants from capturing conversations on supported Android devices. [...]",
-      "why_it_matters": "Signal implements system-level protections to prevent screenshots on iOS and block AI assistant capture tools on supported Android devices.",
-      "item_ids": [
-        "e93202813cbe155ecfa98494db8a931d"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-21T00:02:20.495308Z",
       "last_shown": "2026-11-23T10:01:52.618104Z"
     },
     {
@@ -31877,9 +31982,7 @@
       "primary_url": null,
       "first_shown": "2026-11-23T08:01:47.864796Z",
       "last_shown": "2026-11-23T10:01:52.618104Z"
-    }
-  ],
-  "past_top_stories": [
+    },
     {
       "id": "96ead1957e2c6cf5f523b7e46c3bdc3e",
       "title": "We haven’t seen the last of the major tech outages",
@@ -31951,56 +32054,6 @@
       "primary_url": null,
       "first_shown": "2026-11-23T07:01:52.764915Z",
       "last_shown": "2026-11-23T08:18:38.068191Z"
-    },
-    {
-      "id": "20b94187db09e5231050d8c313809364",
-      "title": "Nespresso's project to reduce grams of coffee per capsule",
-      "summary": null,
-      "why_it_matters": "Engineering and industrial process optimization affecting hardware manufacturing standards.",
-      "item_ids": [
-        "20b94187db09e5231050d8c313809364"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-23T08:01:47.864796Z",
-      "last_shown": "2026-11-23T08:01:47.864796Z"
-    },
-    {
-      "id": "d49589cedb783427a5e355f8e25997f7",
-      "title": "OpenRouter Drops Providers After Prompt Theft Incidents",
-      "summary": "OpenRouter dropped three providers after researchers caught months of prompt theft at AI hosting firms. Attackers stole data from inside three AI inference providers for months without the providers knowing until researchers reported it.",
-      "why_it_matters": "Security breaches at AI inference providers expose user prompts and API data, highlighting supply chain risks in LLM deployment.",
-      "item_ids": [
-        "d49589cedb783427a5e355f8e25997f7",
-        "ae6e92c39a9e03243e6bda0fa4ceacb7",
-        "07b1b0ea190a68ab23c8757c1470f43d"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-22T07:01:19.272403Z",
-      "last_shown": "2026-11-23T06:01:48.416759Z"
-    },
-    {
-      "id": "f578fbe5b2d539e9a2b128696ec1b0eb",
-      "title": "Google Announces Agent Compute Engine for Secure AI Agent Execution",
-      "summary": "Google recently announced Agent Compute Engine, a managed service that runs AI agents in isolated microVMs, with checkpointing capabilities to suspend and resume execution environments. The design keeps credentials, API keys, and OAuth refresh tokens outside the agent sandbox, using an external Agent Gateway to authenticate requests and inject the required secrets. By Renato Losio",
-      "why_it_matters": "Managed isolation services for AI agents introduce new architectural patterns for secure execution environments.",
-      "item_ids": [
-        "f578fbe5b2d539e9a2b128696ec1b0eb"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-22T07:31:28.127280Z",
-      "last_shown": "2026-11-23T06:01:48.416759Z"
-    },
-    {
-      "id": "6276e229721ed6b13c886ae19a27470e",
-      "title": "AWS Lambda Now Runs GPU Inference with 48 Concurrent Invocations Sharing One Model per GPU",
-      "summary": "AWS Lambda now runs Event Functions on EC2 G-series GPU instances through Lambda Managed Instances, with up to 48 concurrent invocations sharing one model per GPU, vLLM and SGLang base images that need no handler code, and 90-minute asynchronous timeouts. Billing is the instance price plus a 9.75 percent fee; first hands-on tests report an eight-minute publish and no response streaming. By Steef-Jan Wiggers",
-      "why_it_matters": "Serverless GPU inference sharing models across concurrent invocations changes cost and concurrency models for cloud workloads.",
-      "item_ids": [
-        "6276e229721ed6b13c886ae19a27470e"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-22T07:01:19.272403Z",
-      "last_shown": "2026-11-23T06:01:48.416759Z"
     }
   ]
 }
