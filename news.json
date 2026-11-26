@@ -1,6 +1,330 @@
 {
-  "generated_at": "2026-11-26T06:02:09.177675Z",
+  "generated_at": "2026-11-26T07:02:11.275281Z",
   "items": [
+    {
+      "id": "cd481fa5890c6bd06928a4220f9b2cad",
+      "title": "Mock Service Worker Releases v3.0 with ESM-Only Build, Socket-Based Interception and GraphQL Subs",
+      "url": "https://www.infoq.com/news/2026/11/mock-service-worker-v3/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source_id": "infoq",
+      "source_name": "InfoQ",
+      "category": "tech",
+      "summary": "Mock Service Worker 3.0 is now ESM-only, requires Node.js 22 or later, and cuts package size from 416KB to 234KB. It adds GraphQL subscription support, protocol-specific entrypoints, and an experimental defineNetwork API. Node.js interception now works at the TCP and TLS level. Some users report test failures from newly intercepted OPTIONS preflight requests. By Daniel Curtis",
+      "published_at": "2026-11-26T06:59:00Z",
+      "fetched_at": "2026-11-26T07:02:11.275281Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "d4af998919ee713c3d788985f0aa3126",
+      "title": "Recap of Microsoft Ignite 2026: Copilot as the Work OS and Agent Governance",
+      "url": "https://www.infoq.com/news/2026/11/microsoft-ignite-2026-recap/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source_id": "infoq",
+      "source_name": "InfoQ",
+      "category": "tech",
+      "summary": "At Ignite 2026, Microsoft positioned Copilot as the operating system for work and extended agent identity, governance, and cost controls across Azure, Foundry, Entra, and Defender. Highlights include Cobalt 200 VMs, Azure HorizonDB, a continuous improvement loop in Foundry, Microsoft IQ, a standalone Azure AI Gateway, and Windows Server 2028. By Steef-Jan Wiggers",
+      "published_at": "2026-11-26T06:45:00Z",
+      "fetched_at": "2026-11-26T07:02:11.275281Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "29b3bf5593879a24361a2e0e79a027cd",
+      "title": "How WinHelp files work",
+      "url": "https://quin.fyi/posts/how-winhelp-files-work.html",
+      "source_id": "lobsters",
+      "source_name": "Lobsters",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-11-26T06:39:00Z",
+      "fetched_at": "2026-11-26T07:02:11.275281Z",
+      "discussion_url": "https://lobste.rs/s/w4kxiz/how_winhelp_files_work",
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "pending",
+      "importance": null
+    },
+    {
+      "id": "58d3df487d1b29815da3dd3b40484503",
+      "title": "Meaningful Human-in-the-Loop Checking of GenAI Synthesis for Restricted Languages",
+      "url": "https://www.siddharthaprasad.com/papers/pafk-pick.pdf",
+      "source_id": "lobsters",
+      "source_name": "Lobsters",
+      "category": "tech",
+      "summary": "Abstract: Developers routinely use GenAI tools (large language models enriched in various ways) to generate useful components of programs, such as regular expressions. While pleasant and often effective, this can easily lead to subtle bugs. The developer may have been unclear in their specification, they may not fully understand the language of the output, there may be systematic misconceptions suffered by the user and perhaps even embedded in the language model, and so on. Responsible use of…",
+      "published_at": "2026-11-26T06:35:12Z",
+      "fetched_at": "2026-11-26T07:02:11.275281Z",
+      "discussion_url": "https://lobste.rs/s/bl8gp8/meaningful_human_loop_checking_genai",
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 2
+    },
+    {
+      "id": "1f79108f5e27fa503e43d941b8a054db",
+      "title": "sqlite3_rsync: Database Remote-Copy Tool For SQLite",
+      "url": "https://simonwillison.net/2026/Nov/26/sqlite3-rsync/",
+      "source_id": "simon-willison",
+      "source_name": "Simon Willison",
+      "category": "tech",
+      "summary": "sqlite3_rsync: Database Remote-Copy Tool For SQLite This additional SQLite tool has been around for a while now - it was added as \"experimental\" in SQLite 3.47.0 in October 2024 and enhanced in SQLite 3.50.0 in May 2025. It was only today that I understood one of its most attractive characteristics. Normally, if you want to grab a snapshot copy of a SQLite database, you need to use either the backup API or VACUUM INTO. In both cases you need enough disk space to create a duplicate copy of your…",
+      "published_at": "2026-11-26T06:08:25Z",
+      "fetched_at": "2026-11-26T07:02:11.275281Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 2
+    },
+    {
+      "id": "f68893654ed870ff03d01601991ae604",
+      "title": "Lenovo Coupon Codes: 15% Off in November 2026",
+      "url": "https://www.wired.com/story/lenovo-coupon-code/",
+      "source_id": "wired",
+      "source_name": "Wired",
+      "category": "tech",
+      "summary": "Whether you’re shopping for a ThinkPad, Yoga laptop, or Legion gaming PC, these Lenovo discount codes and promotions can help you save big on your next tech upgrade.",
+      "published_at": "2026-11-26T06:00:00Z",
+      "fetched_at": "2026-11-26T07:02:11.275281Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": null,
+      "review": "excluded",
+      "importance": null
+    },
+    {
+      "id": "8d1ec246454ef739323e1332fa61037a",
+      "title": "Chewy Promo Codes: 50% Off November 2026",
+      "url": "https://www.wired.com/story/chewy-promo-code/",
+      "source_id": "wired",
+      "source_name": "Wired",
+      "category": "tech",
+      "summary": "Explore Chewy coupon codes for $30 off, $20 off your first order of $49, 50% off pet food, and more November 2026 discounts.",
+      "published_at": "2026-11-26T06:00:00Z",
+      "fetched_at": "2026-11-26T07:02:11.275281Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": null,
+      "review": "excluded",
+      "importance": null
+    },
+    {
+      "id": "65b01abd10e1a9e1fe80f7b1bf4d37c6",
+      "title": "Office Depot Coupons: $20 Off November 2026",
+      "url": "https://www.wired.com/story/office-depot-promo-codes/",
+      "source_id": "wired",
+      "source_name": "Wired",
+      "category": "tech",
+      "summary": "From furniture and ink to professional printing services, use an Office Depot discount code to maximize your savings on every workspace essential.",
+      "published_at": "2026-11-26T06:00:00Z",
+      "fetched_at": "2026-11-26T07:02:11.275281Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": null,
+      "review": "excluded",
+      "importance": null
+    },
+    {
+      "id": "5eab77cca68c08b92a4650e747aa035f",
+      "title": "LG Promo Code: 40% Off for November 2026",
+      "url": "https://www.wired.com/story/lg-promo-code/",
+      "source_id": "wired",
+      "source_name": "Wired",
+      "category": "tech",
+      "summary": "Save 20% with an LG promo code today, plus up to $1,000 off appliances, 40% off bestselling TVs and monitors.",
+      "published_at": "2026-11-26T06:00:00Z",
+      "fetched_at": "2026-11-26T07:02:11.275281Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": null,
+      "review": "excluded",
+      "importance": null
+    },
+    {
+      "id": "14cc6cfce15cdecf12239370781f4855",
+      "title": "30% Off Canon Promo Codes | November 2026",
+      "url": "https://www.wired.com/story/canon-promo-code/",
+      "source_id": "wired",
+      "source_name": "Wired",
+      "category": "tech",
+      "summary": "Save an extra 10% or 30% with Canon coupon codes, plus up to $1,600 on cameras, printers, and more this November 2026.",
+      "published_at": "2026-11-26T06:00:00Z",
+      "fetched_at": "2026-11-26T07:02:11.275281Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": null,
+      "review": "excluded",
+      "importance": null
+    },
+    {
+      "id": "4454513845be48bf69abfa42183bb4ea",
+      "title": "50% Off DoorDash Promo Code | November 2026",
+      "url": "https://www.wired.com/story/doordash-promo-code/",
+      "source_id": "wired",
+      "source_name": "Wired",
+      "category": "tech",
+      "summary": "Explore today’s top DoorDash promo codes for $25 off your first order, free delivery, and 50% off DashPass for students and select users.",
+      "published_at": "2026-11-26T06:00:00Z",
+      "fetched_at": "2026-11-26T07:02:11.275281Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": null,
+      "review": "excluded",
+      "importance": null
+    },
+    {
+      "id": "15c91860b67b02babb3273b3a10dee61",
+      "title": "Disney Plus Discount Codes: 52% Off November 2026",
+      "url": "https://www.wired.com/story/disney-plus-discounts/",
+      "source_id": "wired",
+      "source_name": "Wired",
+      "category": "tech",
+      "summary": "Cut your subscription costs with the latest active Disney+ bundle deals, verified student offers, and partner promotions.",
+      "published_at": "2026-11-26T06:00:00Z",
+      "fetched_at": "2026-11-26T07:02:11.275281Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": null,
+      "review": "excluded",
+      "importance": null
+    },
+    {
+      "id": "83431689d9fab939a9259d4e3fb45125",
+      "title": "Paramount+ Coupon Codes and Deals for 2026",
+      "url": "https://www.wired.com/story/paramount-plus-coupon-code/",
+      "source_id": "wired",
+      "source_name": "Wired",
+      "category": "tech",
+      "summary": "Save on streaming with the latest Paramount+ promo codes and deals, including 50% off subscriptions, free trials, and more.",
+      "published_at": "2026-11-26T06:00:00Z",
+      "fetched_at": "2026-11-26T07:02:11.275281Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": null,
+      "review": "excluded",
+      "importance": null
+    },
+    {
+      "id": "c86a71d4b6f3f1b276b20f1d04187648",
+      "title": "AT&T Promo Codes: $50 Off This November 2026",
+      "url": "https://www.wired.com/story/att-promo-code/",
+      "source_id": "wired",
+      "source_name": "Wired",
+      "category": "tech",
+      "summary": "Whether you’re looking to upgrade your internet or get the latest phone, we’ve got you covered with our selection of AT&T coupons and deals.",
+      "published_at": "2026-11-26T06:00:00Z",
+      "fetched_at": "2026-11-26T07:02:11.275281Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": null,
+      "review": "excluded",
+      "importance": null
+    },
+    {
+      "id": "34fb1c068097bedea90fe9ef09be12a4",
+      "title": "LegalZoom Promo Code: Exclusive 10% Off LLC Formations",
+      "url": "https://www.wired.com/story/legalzoom-promo-code/",
+      "source_id": "wired",
+      "source_name": "Wired",
+      "category": "tech",
+      "summary": "Save on top services at LegalZoom, like LLC registration, incorporation, estate plans, and more with coupons and deals from WIRED.",
+      "published_at": "2026-11-26T06:00:00Z",
+      "fetched_at": "2026-11-26T07:02:11.275281Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": null,
+      "review": "excluded",
+      "importance": null
+    },
+    {
+      "id": "089f241468611a0e06d250dc9e414e83",
+      "title": "20% Off Samsung Promo Code | November 2026",
+      "url": "https://www.wired.com/story/samsung-promo-codes/",
+      "source_id": "wired",
+      "source_name": "Wired",
+      "category": "tech",
+      "summary": "Save 30% or 10% with Samsung coupon codes, up to $1,000 on appliances, plus limited-time deals on the Galaxy Z Fold7, Flip7, and S25.",
+      "published_at": "2026-11-26T06:00:00Z",
+      "fetched_at": "2026-11-26T07:02:11.275281Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": null,
+      "review": "excluded",
+      "importance": null
+    },
+    {
+      "id": "b92d6acc22518e3774306d30c0b47a7a",
+      "title": "Design Within Reach Promo Codes: 30% Off | November 2026",
+      "url": "https://www.wired.com/story/design-within-reach-promo-code/",
+      "source_id": "wired",
+      "source_name": "Wired",
+      "category": "tech",
+      "summary": "Get 30% off, 20% off, and free shipping with our Design Within Reach coupon codes, plus up to 50% off furniture with these special discounts.",
+      "published_at": "2026-11-26T06:00:00Z",
+      "fetched_at": "2026-11-26T07:02:11.275281Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": null,
+      "review": "excluded",
+      "importance": null
+    },
+    {
+      "id": "44a2cf24828e5236a937c94e3e98f32b",
+      "title": "Lions' Commentary on Unix: Why It Was Secretly Copied for 20 Years",
+      "url": "https://fosscomics.com/posts/17.%20Lions%27%20Commentary%20on%20Unix/",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-11-26T05:12:59Z",
+      "fetched_at": "2026-11-26T07:02:11.275281Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50651719",
+      "points": 28,
+      "comments": 2,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
     {
       "id": "1fcdbabd38e1fabd3196d3fd61244f2d",
       "title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
@@ -15,7 +339,7 @@
       "points": null,
       "comments": null,
       "engineering": false,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -35,7 +359,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "a37df458e204b23fca28b8cbf12121d4",
@@ -102,12 +426,30 @@
       "published_at": "2026-11-26T03:43:24Z",
       "fetched_at": "2026-11-26T05:02:14.275779Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50651158",
-      "points": 9,
-      "comments": 0,
+      "points": 27,
+      "comments": 3,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
+    },
+    {
+      "id": "852f18fd91c558b38b8dc66a3982d60c",
+      "title": "India’s government ponders cradle to grave AI oversight",
+      "url": "https://www.theregister.com/public-sector/2026/11/26/indias-government-ponders-cradle-to-grave-ai-oversight/5312275",
+      "source_id": "the-register",
+      "source_name": "The Register",
+      "category": "tech",
+      "summary": "Machines of loving grace to turn social media grumps into services, finger painting into career advice",
+      "published_at": "2026-11-26T03:42:56Z",
+      "fetched_at": "2026-11-26T07:02:11.275281Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
     },
     {
       "id": "95ac717c0fcd077584150c76917498e4",
@@ -120,12 +462,12 @@
       "published_at": "2026-11-26T03:36:58Z",
       "fetched_at": "2026-11-26T05:02:14.275779Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50651117",
-      "points": 39,
-      "comments": 14,
+      "points": 141,
+      "comments": 76,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "7e74d2179bdda910826bb5179eeb15a2",
@@ -138,8 +480,8 @@
       "published_at": "2026-11-26T03:00:48Z",
       "fetched_at": "2026-11-26T05:02:14.275779Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50650892",
-      "points": 14,
-      "comments": 1,
+      "points": 60,
+      "comments": 10,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -210,8 +552,8 @@
       "published_at": "2026-11-26T00:43:34Z",
       "fetched_at": "2026-11-26T01:01:38.405957Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50649864",
-      "points": 164,
-      "comments": 71,
+      "points": 217,
+      "comments": 82,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -269,7 +611,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "978d4184fa522a813735925b062e8d49",
@@ -431,7 +773,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "5652fc782279fb1990ee961f0f6392a1",
@@ -462,8 +804,8 @@
       "published_at": "2026-11-25T22:15:34Z",
       "fetched_at": "2026-11-26T00:01:31.023064Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50648365",
-      "points": 91,
-      "comments": 19,
+      "points": 117,
+      "comments": 25,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -480,8 +822,8 @@
       "published_at": "2026-11-25T22:12:25Z",
       "fetched_at": "2026-11-26T00:01:31.023064Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50648323",
-      "points": 72,
-      "comments": 9,
+      "points": 80,
+      "comments": 10,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -534,8 +876,8 @@
       "published_at": "2026-11-25T21:48:10Z",
       "fetched_at": "2026-11-25T23:01:27.096137Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50648050",
-      "points": 352,
-      "comments": 178,
+      "points": 404,
+      "comments": 202,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -611,7 +953,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "b14267538df025098627f21efd678d45",
@@ -629,7 +971,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "847020ffdd36031edd4350a053ae8074",
@@ -678,12 +1020,12 @@
       "published_at": "2026-11-25T20:35:50Z",
       "fetched_at": "2026-11-25T21:59:55.962223Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50647161",
-      "points": 110,
-      "comments": 39,
+      "points": 119,
+      "comments": 44,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "4f7b3931caeed45d8b9c8a540ca5c705",
@@ -719,7 +1061,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 2
     },
     {
       "id": "02687b8975cd20f690099dd5020ef29b",
@@ -755,7 +1097,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "755c1c0a869e8677de0098b786faf8be",
@@ -899,7 +1241,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "27287bd1c8edd41acd92989ff59106b2",
@@ -1187,7 +1529,7 @@
       "engineering": true,
       "blog": true,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "4d16d40e18b4b18ea2edfa53543fa7b1",
@@ -1277,7 +1619,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "f0c61c288572d3e867000c35432c3846",
@@ -1290,8 +1632,8 @@
       "published_at": "2026-11-25T17:34:34Z",
       "fetched_at": "2026-11-25T20:01:30.530427Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50644980",
-      "points": 137,
-      "comments": 37,
+      "points": 150,
+      "comments": 41,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -1385,7 +1727,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "d8de7b524eebdd14825c66de766d13f5",
@@ -1398,8 +1740,8 @@
       "published_at": "2026-11-25T17:18:15Z",
       "fetched_at": "2026-11-25T19:01:29.994377Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50644814",
-      "points": 56,
-      "comments": 44,
+      "points": 64,
+      "comments": 45,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -1511,7 +1853,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 2
     },
     {
       "id": "49d327e7153d0f28b5e99d648cdb5487",
@@ -1637,7 +1979,7 @@
       "engineering": true,
       "blog": true,
       "review": "kept",
-      "importance": 4
+      "importance": 2
     },
     {
       "id": "5994a00f26f8ec5e8116820c57b2a468",
@@ -1709,7 +2051,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "6fa9a6ae8ab7a2ae86d59039a7024f5b",
@@ -1740,8 +2082,8 @@
       "published_at": "2026-11-25T15:14:32Z",
       "fetched_at": "2026-11-25T17:01:36.222337Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50643129",
-      "points": 457,
-      "comments": 112,
+      "points": 465,
+      "comments": 113,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -1889,7 +2231,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "bcdcb14ca79ab3d5f6a3bd84a0a0ea19",
@@ -1907,7 +2249,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "a3b23dbc30adcc871a0b106f0678fa78",
@@ -1997,7 +2339,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "320fe79e0347afcf6b621ef93937a1f8",
@@ -2033,7 +2375,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "6d3a27afe86ebe92c2d96a1f371c0ff2",
@@ -2123,7 +2465,7 @@
       "engineering": true,
       "blog": true,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "febd4e5a62a10de17911697100d6c32b",
@@ -2154,8 +2496,8 @@
       "published_at": "2026-11-25T13:33:07Z",
       "fetched_at": "2026-11-25T14:01:30.119655Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50642086",
-      "points": 465,
-      "comments": 342,
+      "points": 481,
+      "comments": 345,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -2231,7 +2573,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "b21cbfad4bb4ddba5f9ab0c93378f623",
@@ -2465,7 +2807,7 @@
       "engineering": true,
       "blog": true,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "c840cde9de6cc57ebfe3b1fdea31be92",
@@ -2478,8 +2820,8 @@
       "published_at": "2026-11-25T11:34:25Z",
       "fetched_at": "2026-11-25T12:01:31.113916Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50641171",
-      "points": 326,
-      "comments": 184,
+      "points": 331,
+      "comments": 186,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -2591,7 +2933,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "18ea7e56c3d82200fe953dee0f0ad5af",
@@ -2645,7 +2987,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "5390c4468d1c19d062b965d131224a32",
@@ -2933,7 +3275,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "29578c6ad06194cd6e6c05fdb0308fb9",
@@ -3023,7 +3365,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "cb8d1c0913cff9aa7ec805791fd67647",
@@ -3059,7 +3401,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "d66155385a7e1d7b80bae6bac5ee3cc9",
@@ -3257,7 +3599,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "1f7dc28040d5067da7f7c180c2415063",
@@ -3383,7 +3725,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "4be0e6b96270c1569627944656d4a75e",
@@ -3419,7 +3761,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "d62fb8a47f8596e86c6fcce288606088",
@@ -3545,7 +3887,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "0a2d7a8253a3d5e1a63d9d8dbe672674",
@@ -3648,7 +3990,7 @@
       "published_at": "2026-11-25T02:00:08Z",
       "fetched_at": "2026-11-25T21:01:28.680020Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50637448",
-      "points": 46,
+      "points": 54,
       "comments": 4,
       "engineering": false,
       "blog": false,
@@ -3689,7 +4031,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "49b3c41b11b275520df108dd48f4400e",
@@ -3995,7 +4337,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "5d3387507b69b4fab09bccf467c65234",
@@ -4013,7 +4355,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "c4d9c8e09d6e75545e0d9ecae8fb60de",
@@ -4031,7 +4373,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "c2af867846d5cfd586fffd0efd364e94",
@@ -4139,7 +4481,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 1
+      "importance": 2
     },
     {
       "id": "044726837e2323d28e3b34678c062649",
@@ -4301,7 +4643,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "ff0cf1a532e04b0a61af56dd3085dfcf",
@@ -4409,7 +4751,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "489e516fa809f1990143ba3d4e96870b",
@@ -4427,7 +4769,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "90cede4cba6a901415bd07ea1e60c0df",
@@ -4553,7 +4895,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "32a2ae67c87285afeb1334f479dca2c2",
@@ -4589,7 +4931,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "b1b47a15bbbf614fbb1030b23d2d72b0",
@@ -4607,7 +4949,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "2036f627eee44c0cabb2d39c1912fba8",
@@ -4643,7 +4985,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "7573ef887ee37afe346428d925089cf3",
@@ -5808,8 +6150,8 @@
       "published_at": "2026-11-24T16:09:23Z",
       "fetched_at": "2026-11-24T17:01:34.111950Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50647673",
-      "points": 265,
-      "comments": 232,
+      "points": 310,
+      "comments": 269,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -23456,24 +23798,6 @@
       "importance": 2
     },
     {
-      "id": "c30b81dcf4c40fccf3d318d6922cb97f",
-      "title": "Morty — Continue your AI agent from any browser",
-      "url": "https://morty.build/",
-      "source_id": "lobsters",
-      "source_name": "Lobsters",
-      "category": "tech",
-      "summary": "I built a small open-source tool to solve a specific annoyance: being able to keep using the AI agent running on my machine when I’m not sitting in front of it. Previously I used Tailscale + Moshi. It worked, but the experience was laggy and I had to run my own relay to make it tolerable. Other tools that appeared later were either heavyweight or closed-source — I wasn’t comfortable handing my machine to something I couldn’t inspect. Morty is intentionally narrow. It lets you continue a Claude…",
-      "published_at": "2026-11-19T06:44:03Z",
-      "fetched_at": "2026-11-19T07:01:51.577784Z",
-      "discussion_url": "https://lobste.rs/s/k2gpni/morty_continue_your_ai_agent_from_any",
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "excluded",
-      "importance": 3
-    },
-    {
       "id": "2b8282c80152afaa68bb21135dab2c5a",
       "title": "An updated Clairic and Clairic-flash are now open-weight, from the new Workers AI Superintelligence team",
       "url": "https://blog.cloudflare.com/open-clairic/",
@@ -29686,25 +30010,42 @@
   ],
   "top_stories": [
     {
-      "id": "a37df458e204b23fca28b8cbf12121d4",
-      "title": "1Password Discloses Security Breach After Employee GitHub Account Compromise",
-      "summary": "1Password has disclosed a security incident after an employee's corporate GitHub account was accessed by unauthorized actors. The breach exposed customer names and email addresses, though the company confirmed that master passwords and vault contents remain secure.",
-      "why_it_matters": "Highlights supply chain risks involving employee developer accounts and credential security at major security vendors.",
+      "id": "659c73568a907ee41b211184b7667e09",
+      "title": "1Password Discloses Security Incident Following GitHub Account Breach",
+      "summary": "1Password disclosed a security incident after an employee's corporate GitHub account was hacked. The breach led to unauthorized access of backend systems and customer data, though the company emphasized that customer passwords and information stored in vaults remain safe.",
+      "why_it_matters": "Crucial security incident disclosure affecting a major credential management provider used widely by engineering teams.",
       "item_ids": [
+        "659c73568a907ee41b211184b7667e09",
         "a37df458e204b23fca28b8cbf12121d4",
         "58b7588113c6e18de1f3c86509962371",
         "56b00796175015a5dee7fa2615792768",
         "47df2ed89207c029bcaf7a7d22fcdc1f"
       ],
-      "primary_url": "https://1password.com/blog/update-on-nov-2026-security-incident",
+      "primary_url": null,
       "first_shown": "2026-11-25T20:01:30.530427Z",
-      "last_shown": "2026-11-26T06:02:09.177675Z"
+      "last_shown": "2026-11-26T07:02:11.275281Z"
+    },
+    {
+      "id": "734813bfe1f3eca11224de6dda44cddb",
+      "title": "Huawei Found Guilty of Stealing U.S. Trade Secrets and Violating Sanctions",
+      "summary": "A federal jury has found Huawei guilty of stealing trade secrets from U.S. companies like Cisco and T-Mobile, laundering money, and violating sanctions. Meanwhile, Amazon lost its legal battle against the CPSC and is on the hook to recall over 400,000 hazardous products.",
+      "why_it_matters": "Major legal outcome involving enterprise IP theft and trade secrets directly impacting major tech vendors.",
+      "item_ids": [
+        "734813bfe1f3eca11224de6dda44cddb",
+        "45be619e6ea4b9c1a3f1b279e9387ae4",
+        "f82d112791e3205c9c940fd0f42351c6",
+        "e0195ae501952a4979f9c404d0d2c8ad",
+        "320fe79e0347afcf6b621ef93937a1f8"
+      ],
+      "primary_url": "https://www.justice.gov/opa/pr/chinese-tech-giant-huawei-and-subsidiaries-convicted-sanctions-violations-fraud-conspiracy",
+      "first_shown": "2026-11-25T09:15:54.861428Z",
+      "last_shown": "2026-11-26T07:02:11.275281Z"
     },
     {
       "id": "847020ffdd36031edd4350a053ae8074",
-      "title": "FCC Authorizes SpaceX to Deploy Up to 1 Million Satellites for Starmind",
-      "summary": "The Federal Communications Commission has authorized SpaceX to deploy up to 1 million AI chip-equipped satellites in space as part of its Starmind initiative. The agency dismissed concerns from opponents regarding potential threats to scientific research, stating they fell outside its regulatory authority.",
-      "why_it_matters": "Represents a massive expansion of orbital infrastructure and edge-computing capabilities in low Earth orbit.",
+      "title": "FCC Authorizes SpaceX 'Starmind' Constellation for Space-Based Data Centers",
+      "summary": "The FCC has authorized SpaceX to deploy up to 1 million AI chip-equipped satellites in low Earth orbit as part of the 'Starmind' initiative. The agency dismissed key concerns regarding scientific research impacts because they fell outside its regulatory authority.",
+      "why_it_matters": "Massive shift in cloud infrastructure scale and orbital regulatory policy that could alter edge computing and satellite networking.",
       "item_ids": [
         "847020ffdd36031edd4350a053ae8074",
         "bd5b6dc059dd5856bde73d1a3685f60c",
@@ -29712,28 +30053,13 @@
       ],
       "primary_url": "https://docs.fcc.gov/public/attachments/DA-26-1273A1.pdf",
       "first_shown": "2026-11-25T21:01:28.680020Z",
-      "last_shown": "2026-11-26T06:02:09.177675Z"
-    },
-    {
-      "id": "f82d112791e3205c9c940fd0f42351c6",
-      "title": "U.S. Jury Convicts Huawei of Stealing Trade Secrets and Sanctions Violations",
-      "summary": "A federal jury has convicted Huawei of stealing trade secrets from U.S. companies like Cisco and T-Mobile, alongside charges of money laundering and Iran sanctions violations. The verdict concludes a long-running legal battle brought by federal prosecutors.",
-      "why_it_matters": "Important intellectual property and national security rulings impacting major enterprise vendors and international trade compliance.",
-      "item_ids": [
-        "f82d112791e3205c9c940fd0f42351c6",
-        "320fe79e0347afcf6b621ef93937a1f8",
-        "e0195ae501952a4979f9c404d0d2c8ad",
-        "45be619e6ea4b9c1a3f1b279e9387ae4"
-      ],
-      "primary_url": "https://www.justice.gov/opa/pr/chinese-tech-giant-huawei-and-subsidiaries-convicted-sanctions-violations-fraud-conspiracy",
-      "first_shown": "2026-11-25T09:15:54.861428Z",
-      "last_shown": "2026-11-26T06:02:09.177675Z"
+      "last_shown": "2026-11-26T07:02:11.275281Z"
     },
     {
       "id": "d865e30c90c7af4cfe25cb02ae48274a",
-      "title": "U.S. Treasury's FinCEN Hit by Cybersecurity Incident and System Outage",
-      "summary": "The U.S. Treasury Department's Financial Crimes Enforcement Network has taken systems offline following unauthorized access to a limited subset of its infrastructure. The agency has extended filing deadlines while investigating the breach.",
-      "why_it_matters": "Demonstrates high-profile targeting of federal financial regulatory systems and potential disruption to reporting pipelines.",
+      "title": "U.S. Treasury's FinCEN Hit by Cybersecurity Incident",
+      "summary": "The Financial Crimes Enforcement Network (FinCEN), part of the U.S. Treasury Department, took some of its systems offline following a cybersecurity incident. The bureau is investigating unauthorized access to a limited subset of its systems and has extended regulatory filing deadlines.",
+      "why_it_matters": "Government agency breach impacting critical financial infrastructure networks and requiring emergency offline remediation.",
       "item_ids": [
         "d865e30c90c7af4cfe25cb02ae48274a",
         "2f5767fb97e065bdc4a63ec06de60f47",
@@ -29741,21 +30067,84 @@
       ],
       "primary_url": null,
       "first_shown": "2026-11-25T14:01:30.119655Z",
-      "last_shown": "2026-11-26T06:02:09.177675Z"
+      "last_shown": "2026-11-26T07:02:11.275281Z"
+    },
+    {
+      "id": "f73e5ac199d7d5a8de84a6b91dfe27da",
+      "title": "Amazon and Meta Reportedly Discussing Lift of Muse AI Blockade",
+      "summary": "Amazon has held talks with Meta about potentially lifting a blockade that prevents Meta's Muse AI agent from shopping on Amazon's marketplace. The discussions aim to resolve restrictions on autonomous AI agents accessing commercial platforms.",
+      "why_it_matters": "Signals shifting policy and commercial negotiations regarding autonomous AI agents accessing retail marketplaces.",
+      "item_ids": [
+        "f73e5ac199d7d5a8de84a6b91dfe27da",
+        "b7499de9cbbb1d36e1fa0da931a13c09"
+      ],
+      "primary_url": "https://fortune.com/2026/11/25/exclusive-amazon-meta-talks-deal-muse-ai-shopping-agent-blockade",
+      "first_shown": "2026-11-25T15:01:36.532889Z",
+      "last_shown": "2026-11-26T07:02:11.275281Z"
     },
     {
       "id": "b930f12be2f1f8ba872ae75b41cb0485",
-      "title": "CISA Warns of Actively Exploited Critical RCE Flaw in Drupal",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency has added a critical remote code execution vulnerability impacting Drupal to its Known Exploited Vulnerabilities catalog. Security teams confirm that threat actors have been actively exploiting the flaw to hijack unpatched sites.",
-      "why_it_matters": "Requires immediate patching for web administrators to prevent active remote code execution attacks on CMS infrastructure.",
+      "title": "Critical Drupal RCE Flaw Added to CISA KEV Catalog as Attacks Surge",
+      "summary": "CISA has added a critical remote code execution vulnerability impacting Drupal to its Known Exploited Vulnerabilities catalog. Threat actors have been actively exploiting the flaw to hijack unpatched sites since at least Thursday.",
+      "why_it_matters": "Active exploitation of a critical RCE vulnerability requires immediate patching across enterprise web deployments.",
       "item_ids": [
         "b930f12be2f1f8ba872ae75b41cb0485",
         "c3ea945db7dd2d363de1a8127ebfdf18"
       ],
       "primary_url": "https://www.cisa.gov/news-events/alerts/2026/11/24/cisa-adds-three-known-exploited-vulnerabilities-catalog",
       "first_shown": "2026-11-26T00:01:31.023064Z",
-      "last_shown": "2026-11-26T06:02:09.177675Z"
+      "last_shown": "2026-11-26T07:02:11.275281Z"
     },
+    {
+      "id": "661925b8f8d6c7d7d344f23f1fbb7278",
+      "title": "13 Malicious NuGet Packages Turn Fake .NET Job Assessments Into Malware Delivery Traps",
+      "summary": "Cybersecurity researchers have discovered 13 malicious NuGet packages that are designed to target Windows .NET developers under the guise of a fake take-home job assessment. \"Most of the packages pose as WinUI 3 and WPF [Windows Presentation Foundation] button controls,\" Socket security researcher Kush Pandya said in a technical write-up. \"In the versions we analyzed, building or running a",
+      "why_it_matters": "Targeted supply chain attacks via malicious NuGet packages threaten Windows .NET developer environments.",
+      "item_ids": [
+        "661925b8f8d6c7d7d344f23f1fbb7278"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-26T07:02:11.275281Z",
+      "last_shown": "2026-11-26T07:02:11.275281Z"
+    },
+    {
+      "id": "95ac717c0fcd077584150c76917498e4",
+      "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
+      "summary": null,
+      "why_it_matters": "OpenAI's reduction in GPT-6.2 limits highlights ongoing capacity constraints and shifting resource allocations for heavy AI users.",
+      "item_ids": [
+        "95ac717c0fcd077584150c76917498e4"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-26T07:02:11.275281Z",
+      "last_shown": "2026-11-26T07:02:11.275281Z"
+    },
+    {
+      "id": "ee84a49026ce2f6525ebfe4a081af1db",
+      "title": "Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks",
+      "summary": "Threat actors are chaining exploits for the PHP2Shell and Fragnesia vulnerabilities to target Palo Alto Networks devices with management interfaces exposed to the internet. [...]",
+      "why_it_matters": "Active exploitation chains targeting Palo Alto Networks management interfaces demand urgent mitigation.",
+      "item_ids": [
+        "ee84a49026ce2f6525ebfe4a081af1db"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-26T01:01:38.405957Z",
+      "last_shown": "2026-11-26T07:02:11.275281Z"
+    },
+    {
+      "id": "cd481fa5890c6bd06928a4220f9b2cad",
+      "title": "Mock Service Worker Releases v3.0 with ESM-Only Build, Socket-Based Interception and GraphQL Subs",
+      "summary": "Mock Service Worker 3.0 is now ESM-only, requires Node.js 22 or later, and cuts package size from 416KB to 234KB. It adds GraphQL subscription support, protocol-specific entrypoints, and an experimental defineNetwork API. Node.js interception now works at the TCP and TLS level. Some users report test failures from newly intercepted OPTIONS preflight requests. By Daniel Curtis",
+      "why_it_matters": "Mock Service Worker 3.0 introduces an ESM-only build and new interception features that directly impact frontend testing workflows.",
+      "item_ids": [
+        "cd481fa5890c6bd06928a4220f9b2cad"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-26T07:02:11.275281Z",
+      "last_shown": "2026-11-26T07:02:11.275281Z"
+    }
+  ],
+  "past_top_stories": [
     {
       "id": "ab8a0656e491c68e36ecef709d154d1f",
       "title": "WhatsApp Introduces Scheduled Messages Feature for Chats",
@@ -29784,18 +30173,6 @@
       "last_shown": "2026-11-26T06:02:09.177675Z"
     },
     {
-      "id": "ee84a49026ce2f6525ebfe4a081af1db",
-      "title": "Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks",
-      "summary": "Threat actors are chaining exploits for the PHP2Shell and Fragnesia vulnerabilities to target Palo Alto Networks devices with management interfaces exposed to the internet. [...]",
-      "why_it_matters": "Highlights active exploitation chains targeting perimeter network devices with exposed management interfaces.",
-      "item_ids": [
-        "ee84a49026ce2f6525ebfe4a081af1db"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-26T01:01:38.405957Z",
-      "last_shown": "2026-11-26T06:02:09.177675Z"
-    },
-    {
       "id": "f111751da8ba30882c6359e00693afac",
       "title": "AWS Lambda Doubles Its Timeout to 30 Minutes After Eight Years at 15",
       "summary": "AWS has raised the maximum timeout of on-demand Lambda Event Functions from 15 to 30 minutes in all commercial regions, with no opt-in and no new pricing. The limit had stood since 2018. AWS's post lists the costs: twice the concurrency at the same request rate, three-hour SQS visibility timeouts, and Kafka mappings that must be recreated. Practitioners welcome it and ask what belongs elsewhere. By Steef-Jan Wiggers",
@@ -29818,9 +30195,7 @@
       "primary_url": null,
       "first_shown": "2026-11-25T15:01:36.532889Z",
       "last_shown": "2026-11-26T06:02:09.177675Z"
-    }
-  ],
-  "past_top_stories": [
+    },
     {
       "id": "c1fddab26187431373e0b2242260a89b",
       "title": "Microsoft Declares Internal 'Code Red' Following Major Outlook Outage",
@@ -29897,19 +30272,6 @@
       "last_shown": "2026-11-26T02:01:28.308700Z"
     },
     {
-      "id": "b7499de9cbbb1d36e1fa0da931a13c09",
-      "title": "Amazon and Meta Reportedly Discussing Lift of Muse AI Blockade",
-      "summary": "Amazon and Meta are holding talks to end a blockade preventing Meta's Muse AI agent from operating on Amazon's online marketplace. The discussions center around allowing the AI assistant to shop on the platform.",
-      "why_it_matters": null,
-      "item_ids": [
-        "b7499de9cbbb1d36e1fa0da931a13c09",
-        "f73e5ac199d7d5a8de84a6b91dfe27da"
-      ],
-      "primary_url": "https://fortune.com/2026/11/25/exclusive-amazon-meta-talks-deal-muse-ai-shopping-agent-blockade",
-      "first_shown": "2026-11-25T15:01:36.532889Z",
-      "last_shown": "2026-11-26T02:01:28.308700Z"
-    },
-    {
       "id": "f7667d7d415706310e60ddcdaeec2195",
       "title": "Anthropic Examines AI Agent Behavior and Code Review Loops",
       "summary": "Anthropic researchers have been examining how AI coding models behave when execution environments fail, revealing both reassuring and unsettling traits. Additionally, internal testing showed autonomous agents getting stuck in prolonged code review loops.",
@@ -29922,47 +30284,6 @@
       "primary_url": "https://hachyderm.io/@TheNewStack",
       "first_shown": "2026-11-25T21:59:55.962223Z",
       "last_shown": "2026-11-26T00:01:31.023064Z"
-    },
-    {
-      "id": "4c2b395a7adf58555ec5dd2598cea57a",
-      "title": "Okta links vishing campaigns and data leaks to threat groups",
-      "summary": "Okta and threat intelligence firms report that a vishing and data extortion group, previously linked to ShinyHunters and now operating under the name INCEPTION, has targeted single sign-on credentials across global firms.",
-      "why_it_matters": "Targeted social engineering against single sign-on systems highlights ongoing vulnerabilities in enterprise identity management.",
-      "item_ids": [
-        "4c2b395a7adf58555ec5dd2598cea57a",
-        "6c7ae81d461e6fa6e2d00fc74f79efff",
-        "d8de7b524eebdd14825c66de766d13f5",
-        "00a1bb4a05353020a13886f5a2160391"
-      ],
-      "primary_url": "https://thehacker.news/ai-driven-social-engineering?source=below",
-      "first_shown": "2026-11-24T22:47:59.768186Z",
-      "last_shown": "2026-11-25T20:01:30.530427Z"
-    },
-    {
-      "id": "a8772c3cfced45f42b064ccad3539d4a",
-      "title": "Broadcom releases emergency patches for critical VMware vCenter flaws",
-      "summary": "Broadcom shipped critical security patches for 23 vulnerabilities impacting VMware products, including a 9.8-rated authentication bypass flaw in vCenter under active zero-day exploitation.",
-      "why_it_matters": "Critical authentication bypasses in virtualization software require immediate patching to prevent enterprise-wide infrastructure takeovers.",
-      "item_ids": [
-        "a8772c3cfced45f42b064ccad3539d4a",
-        "2840002af688fc3541991f5effbf6882"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-25T20:01:30.530427Z",
-      "last_shown": "2026-11-25T20:01:30.530427Z"
-    },
-    {
-      "id": "b9dcb50eac46da3f210dc32e06c4e15c",
-      "title": "Unknown attackers reportedly breach CIA open-source intelligence analysis system",
-      "summary": "Unknown attackers have reportedly breached an open-source intelligence analysis system at the US Central Intelligence Agency. The incident highlights unauthorized access to intelligence infrastructure.",
-      "why_it_matters": "Security breaches of intelligence analysis platforms underline critical vulnerabilities in government intelligence systems.",
-      "item_ids": [
-        "b9dcb50eac46da3f210dc32e06c4e15c",
-        "1e21346fe9366838f3a022fbecd3d42d"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-25T15:01:36.532889Z",
-      "last_shown": "2026-11-25T19:01:29.994377Z"
     }
   ]
 }
