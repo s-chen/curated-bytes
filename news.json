@@ -1,6 +1,78 @@
 {
-  "generated_at": "2026-11-25T23:01:27.096137Z",
+  "generated_at": "2026-11-26T00:01:31.023064Z",
   "items": [
+    {
+      "id": "734813bfe1f3eca11224de6dda44cddb",
+      "title": "Amazon loses its latest attempt to get out of handling more recall notices",
+      "url": "https://www.theverge.com/tech/1042870/amazon-recall-order-cpsc",
+      "source_id": "the-verge",
+      "source_name": "The Verge",
+      "category": "tech",
+      "summary": "Amazon is on the hook to recall more than 400,000 hazardous products after losing its legal battle against the US Consumer Product Safety Commission (CPSC). The US District Court for the District of Maryland ruled in favor of the CPSC, which argued that Amazon is a distributor of goods, not a logistics provider, making it […]",
+      "published_at": "2026-11-25T23:56:44Z",
+      "fetched_at": "2026-11-26T00:01:31.023064Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
+    {
+      "id": "978d4184fa522a813735925b062e8d49",
+      "title": "Designing for a Sense of Mystery and Wonder (2021)",
+      "url": "https://blog.runevision.com/2021/02/designing-for-sense-of-mystery-and.html",
+      "source_id": "lobsters",
+      "source_name": "Lobsters",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-11-25T23:28:57Z",
+      "fetched_at": "2026-11-26T00:01:31.023064Z",
+      "discussion_url": "https://lobste.rs/s/mzffbj/designing_for_sense_mystery_wonder_2021",
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "pending",
+      "importance": null
+    },
+    {
+      "id": "742b4418c0ef0ed5df74cfddb47dc38c",
+      "title": "Quoting Scott Aaronson",
+      "url": "https://simonwillison.net/2026/Nov/25/scott-aaronson/",
+      "source_id": "simon-willison",
+      "source_name": "Simon Willison",
+      "category": "tech",
+      "summary": "It’s now obvious that we’ll be getting, not one-off solutions to this or that complexity question, but a whole new continent of mathematical truth, one that we’d previously only glimpsed through fog. Picture van Leeuwenhoek first training a microscope on pondwater, or Galileo first training his telescope on the stars. That might give you some idea of how our resolution into the complexity-theoretic universe, and the whole universe of mathematical truth beyond it, has now improved. — Scott…",
+      "published_at": "2026-11-25T23:26:32Z",
+      "fetched_at": "2026-11-26T00:01:31.023064Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "pending",
+      "importance": null
+    },
+    {
+      "id": "716202881dc1e9e33b0076747d85f2f4",
+      "title": "Jev is (probably) Qwen3.5-35B-A3B",
+      "url": "https://modaic.dev/blog/latency-doesnt-lie",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-11-25T22:57:04Z",
+      "fetched_at": "2026-11-26T00:01:31.023064Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50648823",
+      "points": 98,
+      "comments": 6,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 3
+    },
     {
       "id": "d52510fd96144a9ca00d95894faa2c9b",
       "title": "SSH is a GUI framework",
@@ -53,7 +125,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "dc1fc9d46fd9109b1497a1e4c248ade2",
@@ -83,7 +155,7 @@
       "summary": "\"DART made a really, really large mess. However, we didn’t really know what kind of mess.\"",
       "published_at": "2026-11-25T22:36:45Z",
       "fetched_at": "2026-11-25T23:01:27.096137Z",
-      "discussion_url": null,
+      "discussion_url": "https://arstechnica.com/space/2026/11/europes-hera-mission-returns-to-the-chaotic-scene-of-a-cosmic-smashup/#comments",
       "points": null,
       "comments": null,
       "engineering": false,
@@ -107,7 +179,43 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
+    },
+    {
+      "id": "53149b6fe6a122b5bc04b054c74d6081",
+      "title": "Bare Metal Qwen",
+      "url": "https://github.com/alesha-pro/llm.asm/tree/main/02-baremetal-os",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-11-25T22:15:34Z",
+      "fetched_at": "2026-11-26T00:01:31.023064Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50648365",
+      "points": 16,
+      "comments": 0,
+      "engineering": false,
+      "blog": null,
+      "review": "excluded",
+      "importance": null
+    },
+    {
+      "id": "87a6e6a71072f30de847d146907d05c8",
+      "title": "Deploying a payphone on a tiny Pacific Island for fun and zero profit",
+      "url": "https://nickvsnetworking.com/deploying-a-payphone-on-a-tiny-pacific-island-for-fun-and-zero-profit/",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-11-25T22:12:25Z",
+      "fetched_at": "2026-11-26T00:01:31.023064Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50648323",
+      "points": 10,
+      "comments": 0,
+      "engineering": false,
+      "blog": false,
+      "review": "pending",
+      "importance": null
     },
     {
       "id": "ee84a49026ce2f6525ebfe4a081af1db",
@@ -156,8 +264,8 @@
       "published_at": "2026-11-25T21:48:10Z",
       "fetched_at": "2026-11-25T23:01:27.096137Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50648050",
-      "points": 106,
-      "comments": 30,
+      "points": 191,
+      "comments": 87,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -192,8 +300,8 @@
       "published_at": "2026-11-25T21:47:16Z",
       "fetched_at": "2026-11-25T21:59:55.962223Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50648035",
-      "points": 30,
-      "comments": 11,
+      "points": 45,
+      "comments": 15,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -215,7 +323,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "786af70153b4c8866d2291a92d16817d",
@@ -228,8 +336,8 @@
       "published_at": "2026-11-25T21:18:02Z",
       "fetched_at": "2026-11-25T23:01:27.096137Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50647673",
-      "points": 50,
-      "comments": 26,
+      "points": 126,
+      "comments": 65,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -251,7 +359,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "847020ffdd36031edd4350a053ae8074",
@@ -300,8 +408,8 @@
       "published_at": "2026-11-25T20:35:50Z",
       "fetched_at": "2026-11-25T21:59:55.962223Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50647161",
-      "points": 40,
-      "comments": 11,
+      "points": 62,
+      "comments": 19,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -318,8 +426,8 @@
       "published_at": "2026-11-25T20:35:39Z",
       "fetched_at": "2026-11-25T23:01:27.096137Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50647158",
-      "points": 39,
-      "comments": 11,
+      "points": 98,
+      "comments": 46,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -377,7 +485,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "755c1c0a869e8677de0098b786faf8be",
@@ -430,8 +538,8 @@
       "comments": null,
       "engineering": false,
       "blog": false,
-      "review": "pending",
-      "importance": null
+      "review": "kept",
+      "importance": 2
     },
     {
       "id": "535fb1efe092523ef800114e285ba008",
@@ -557,7 +665,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "085bba6f6fed15839cc73e7d6f076c8d",
@@ -593,7 +701,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "c8b73757263708a29d8b978d2c3f8085",
@@ -611,7 +719,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "fe5c6bd77bc4ee0ed419e59754af4742",
@@ -647,7 +755,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "89bce075a719cdfd4da5388f6a9adfa4",
@@ -683,7 +791,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "0094943f82e3677056b969e7ba811d07",
@@ -804,8 +912,8 @@
       "published_at": "2026-11-25T17:43:46Z",
       "fetched_at": "2026-11-25T19:01:29.994377Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50645074",
-      "points": 77,
-      "comments": 16,
+      "points": 85,
+      "comments": 18,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -876,8 +984,8 @@
       "published_at": "2026-11-25T17:34:34Z",
       "fetched_at": "2026-11-25T20:01:30.530427Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50644980",
-      "points": 94,
-      "comments": 20,
+      "points": 110,
+      "comments": 28,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -971,7 +1079,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "d8de7b524eebdd14825c66de766d13f5",
@@ -1187,7 +1295,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "0cb6d0baeb4947fe86c201984be41ffc",
@@ -1295,7 +1403,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "6fa9a6ae8ab7a2ae86d59039a7024f5b",
@@ -1308,8 +1416,8 @@
       "published_at": "2026-11-25T15:20:15Z",
       "fetched_at": "2026-11-25T18:01:32.130942Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50643199",
-      "points": 94,
-      "comments": 155,
+      "points": 100,
+      "comments": 161,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -1326,8 +1434,8 @@
       "published_at": "2026-11-25T15:14:32Z",
       "fetched_at": "2026-11-25T17:01:36.222337Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50643129",
-      "points": 415,
-      "comments": 99,
+      "points": 422,
+      "comments": 100,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -1349,7 +1457,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "95da6624a50e5bf0bb619e7b2b415cb0",
@@ -1403,7 +1511,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "795bbe6830bc3746b0f99af29f4b9d5f",
@@ -1457,7 +1565,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "13548b2f034ae80ec54e650641102f19",
@@ -1493,7 +1601,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "a3b23dbc30adcc871a0b106f0678fa78",
@@ -1565,7 +1673,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "f73e5ac199d7d5a8de84a6b91dfe27da",
@@ -1583,7 +1691,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "320fe79e0347afcf6b621ef93937a1f8",
@@ -1619,7 +1727,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "6d3a27afe86ebe92c2d96a1f371c0ff2",
@@ -1740,8 +1848,8 @@
       "published_at": "2026-11-25T13:33:07Z",
       "fetched_at": "2026-11-25T14:01:30.119655Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50642086",
-      "points": 417,
-      "comments": 317,
+      "points": 429,
+      "comments": 320,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -1889,7 +1997,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "2d738f363a38486690c364a3b88c552c",
@@ -2051,7 +2159,7 @@
       "engineering": true,
       "blog": true,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "c840cde9de6cc57ebfe3b1fdea31be92",
@@ -2064,8 +2172,8 @@
       "published_at": "2026-11-25T11:34:25Z",
       "fetched_at": "2026-11-25T12:01:31.113916Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50641171",
-      "points": 299,
-      "comments": 169,
+      "points": 304,
+      "comments": 172,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -2141,7 +2249,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "d0f06a7f58f8fd07f7098d58df79a9bb",
@@ -2285,7 +2393,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "977f054cb823abeeb04833668aadf641",
@@ -2339,7 +2447,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "8e406ceb260fc58e04cdd8dd6df693d3",
@@ -2411,7 +2519,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "b5b665eae5efb036709301d34ae8f078",
@@ -2532,8 +2640,8 @@
       "published_at": "2026-11-25T07:46:43Z",
       "fetched_at": "2026-11-25T14:01:30.119655Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50639698",
-      "points": 243,
-      "comments": 186,
+      "points": 255,
+      "comments": 196,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -2555,7 +2663,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "2076848e8f8aa8322b0d3cc7ae255627",
@@ -2573,7 +2681,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "0c02128ca02ff0ee59de899e36bb178d",
@@ -2681,7 +2789,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "c7e76c3b47cb97bfcd01a293cc99ec08",
@@ -3041,7 +3149,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "827729fb11d4b3ae362f19735b3e8450",
@@ -3131,7 +3239,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "0a2d7a8253a3d5e1a63d9d8dbe672674",
@@ -3185,7 +3293,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "be41d848fa6f023d8b4b4f7db7245c2c",
@@ -3563,7 +3671,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "70eb26e6bbe5c3310669ae23563b3f60",
@@ -3599,7 +3707,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "c4d9c8e09d6e75545e0d9ecae8fb60de",
@@ -3833,7 +3941,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "09d714d3f514e43cc44f3f7546a38133",
@@ -4193,7 +4301,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "2036f627eee44c0cabb2d39c1912fba8",
@@ -4247,7 +4355,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 1
+      "importance": 2
     },
     {
       "id": "658c003c1c4825ef81a6f7e888848cde",
@@ -4337,7 +4445,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "321f764aabc20606a4f46f64d0a9db8d",
@@ -4679,7 +4787,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "2547140d83b66e19a42b5e03343ac06d",
@@ -4859,7 +4967,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 5
     },
     {
       "id": "bd44def75eca3d02e31a3a458a14f1d4",
@@ -5021,7 +5129,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "76de35bb570405daf2f330f5bc762698",
@@ -5201,7 +5309,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "fa331488c50611fe467d6c55e76e97d1",
@@ -5327,7 +5435,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "1ea9ab1776d45e5d644458102de6d017",
@@ -5435,7 +5543,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "252310a3f1b715a6e03a49e4dc0a3786",
@@ -5543,7 +5651,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "883ac4dd9357b3c139254156593152e4",
@@ -5597,7 +5705,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "367a0aa56e7c73390e459e345bf8cb86",
@@ -5649,7 +5757,7 @@
       "points": null,
       "comments": null,
       "engineering": true,
-      "blog": true,
+      "blog": false,
       "review": "kept",
       "importance": 3
     },
@@ -5777,7 +5885,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "ca9d8546152ee5ba51f671e530296b31",
@@ -23708,366 +23816,6 @@
       "importance": 2
     },
     {
-      "id": "6ed6090c09421c3624bfa8f67145e915",
-      "title": "Explore the Codex Security Plugin",
-      "url": "https://openai.com/business/learn/codex-security-plugin-demo",
-      "source_id": "openai-news",
-      "source_name": "OpenAI News",
-      "category": "tech",
-      "summary": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
-      "published_at": "2026-11-19T00:00:00Z",
-      "fetched_at": "2026-11-20T00:01:51.132101Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "787cd754371822f4af25aae72cc78df9",
-      "title": "See PR scans in action",
-      "url": "https://openai.com/business/learn/pr-scans-demo",
-      "source_id": "openai-news",
-      "source_name": "OpenAI News",
-      "category": "tech",
-      "summary": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
-      "published_at": "2026-11-19T00:00:00Z",
-      "fetched_at": "2026-11-20T00:01:51.132101Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "2e76d5b4b679af87e6a842badef68d97",
-      "title": "Get started with Daybreak Blue",
-      "url": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
-      "source_id": "openai-news",
-      "source_name": "OpenAI News",
-      "category": "tech",
-      "summary": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
-      "published_at": "2026-11-19T00:00:00Z",
-      "fetched_at": "2026-11-20T00:01:51.132101Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "556aee5cf74a0b1721f421bbf3330aca",
-      "title": "Deploying Daybreak Red",
-      "url": "https://openai.com/business/learn/deploying-daybreak-red",
-      "source_id": "openai-news",
-      "source_name": "OpenAI News",
-      "category": "tech",
-      "summary": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
-      "published_at": "2026-11-19T00:00:00Z",
-      "fetched_at": "2026-11-20T01:01:56.367245Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "54258b5fb3eb437a0047a3883629a942",
-      "title": "llm-gemini 0.38",
-      "url": "https://simonwillison.net/2026/Nov/18/llm-gemini/",
-      "source_id": "simon-willison",
-      "source_name": "Simon Willison",
-      "category": "tech",
-      "summary": "Release: llm-gemini 0.38 Today Google introduced Gemini 4 Neon. I wrote recently about how confusing the pricing for the Gemini 4 series was - Neon has somehow made this even worse. Previously the Gemini 4 lineup was Hydrogen, Argon, and Carbon - where Argon and Carbon were the same price, and Hydrogen was 3/4 of that price now but will be 1/4 of that price when the other two double an 1st December once their initial discount pricing expires. The Neon announcement pretends that Argon doesn't…",
-      "published_at": "2026-11-18T23:59:20Z",
-      "fetched_at": "2026-11-19T07:01:51.577784Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "586d03232bbf02e67117164ea66fc21c",
-      "title": "Pushing WireGuard on macOS to 5 Gbit/s",
-      "url": "https://www.firezone.dev/blog/apple-client-performance",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-11-18T23:57:01Z",
-      "fetched_at": "2026-11-19T06:02:03.608217Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50554076",
-      "points": 19,
-      "comments": 0,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "cd724e6ee1f5aed090e2695d9e103aad",
-      "title": "We need smart people who give a shit",
-      "url": "https://violetpixel.com/blog/2026-11-17-we-need-smart-people-who-give-a-shit/",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-11-18T23:53:49Z",
-      "fetched_at": "2026-11-19T01:01:56.944538Z",
-      "discussion_url": "https://lobste.rs/s/rzuasm/we_need_smart_people_who_give_shit",
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 2
-    },
-    {
-      "id": "a55bfb6d207f7ed16af77836e371e69b",
-      "title": "Multiple vulnerabilities in Regexp and String case conversion",
-      "url": "https://www.ruby-lang.org/en/news/2026/11/18/multiple-vulnerabilities-in-regexp-and-string/",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-11-18T23:52:50Z",
-      "fetched_at": "2026-11-19T01:01:56.944538Z",
-      "discussion_url": "https://lobste.rs/s/hsmtyg/security_advisories_multiple",
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 4
-    },
-    {
-      "id": "876484ea4ec6e659cb5fddb9694aa9d7",
-      "title": "Software companies are trying to kill home computing",
-      "url": "https://lateblt.livejournal.com/526188.html",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": "https://web.archive.org/web/20261118235158/https://lateblt.l...",
-      "published_at": "2026-11-18T23:49:18Z",
-      "fetched_at": "2026-11-19T01:01:56.944538Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50554010",
-      "points": 105,
-      "comments": 73,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "fedb0deb72ff95104470d609eb7c307b",
-      "title": "Palo Alto Networks to Acquire Applied Compute for $4.5B",
-      "url": "https://investors.paloaltonetworks.com/news-releases/news-release-details/palo-alto-networks-acquire-applied-compute-bringing-secure-open",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-11-18T23:49:13Z",
-      "fetched_at": "2026-11-19T02:01:56.292044Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50554009",
-      "points": 65,
-      "comments": 21,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "a2c98622a2d00dd7738d332e367be047",
-      "title": "Maak v1.0.0 :: infinitely extensible command runner, build sys in Lisp",
-      "url": "https://lobste.rs/s/4heeke/maak_v1_0_0_infinitely_extensible_command",
-      "source_id": "lobsters",
-      "source_name": "Lobsters",
-      "category": "tech",
-      "summary": "maak is a command runner, and its task list is a Lisp file. You write maak.scm, a perfectly normal Lisp (Guile Scheme) module, and every procedure in it becomes a task you can name on the command line. There is no DSL to learn and no second language to keep in your head: the build is the program. Repo: https://github.com/jjba23/maak (define-module (maak) #:declarative? #t #:use-module (maak maak)) (define (deploy host) \"Ship release.tar.gz to HOST.\" (build) (run (list \"rsync\" \"-avz\"…",
-      "published_at": "2026-11-18T23:46:59Z",
-      "fetched_at": "2026-11-19T00:01:58.147211Z",
-      "discussion_url": "https://lobste.rs/s/4heeke/maak_v1_0_0_infinitely_extensible_command",
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "excluded",
-      "importance": 2
-    },
-    {
-      "id": "c3cd3496c67961bb6adc1d7181b8c954",
-      "title": "Amidst fears of AI-cyberattacks, Satya Nadella says lots of critical infrastructure is ‘unpatchable’",
-      "url": "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable/",
-      "source_id": "techcrunch",
-      "source_name": "TechCrunch",
-      "category": "tech",
-      "summary": "The Microsoft CEO downplayed the recent Outlook outage while noting that AI was causing both opportunities and new challenges for securing much of the connected world.",
-      "published_at": "2026-11-18T23:45:00Z",
-      "fetched_at": "2026-11-19T00:01:58.147211Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "d3a1bbdb81250830e6c43bb104d3ec55",
-      "title": "Anthropic prices initial public offering",
-      "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
-      "source_id": "hacker-news",
-      "source_name": "Hacker News",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-11-18T23:30:09Z",
-      "fetched_at": "2026-11-19T01:01:56.944538Z",
-      "discussion_url": "https://news.ycombinator.com/item?id=50553843",
-      "points": 354,
-      "comments": 662,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 4
-    },
-    {
-      "id": "5e5ee4c66bc6d21057caab8ca18d3d6d",
-      "title": "sysdeck: Raycast for Linux & BSD",
-      "url": "https://xn--gckvb8fzb.com/sysdeck-raycast-for-linux-bsd/",
-      "source_id": "lobsters",
-      "source_name": "Lobsters",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-11-18T23:26:59Z",
-      "fetched_at": "2026-11-19T00:01:58.147211Z",
-      "discussion_url": "https://lobste.rs/s/l70xc9/sysdeck_raycast_for_linux_bsd",
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "excluded",
-      "importance": 2
-    },
-    {
-      "id": "26a9e743fe506cfdd106829274379cb6",
-      "title": "Elon Musk says ousting Jensen Huang is like ‘kicking Michael Jordan off your team’",
-      "url": "https://techcrunch.com/2026/11/18/elon-musk-says-ousting-jensen-huang-is-like-kicking-michael-jordan-off-your-team/",
-      "source_id": "techcrunch",
-      "source_name": "TechCrunch",
-      "category": "tech",
-      "summary": "“I don’t think [Huang is] disloyal to the United States,\" Musk said.",
-      "published_at": "2026-11-18T23:25:17Z",
-      "fetched_at": "2026-11-19T00:01:58.147211Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "excluded",
-      "importance": 3
-    },
-    {
-      "id": "817013c8b32661ebe9fc204598393656",
-      "title": "Ted Cruz-led committee approves Trump FCC nominee 15-0 as Democrats boycott vote",
-      "url": "https://arstechnica.com/tech-policy/2026/11/ted-cruz-led-committee-approves-trump-fcc-nominee-15-0-as-democrats-boycott-vote/",
-      "source_id": "ars-technica",
-      "source_name": "Ars Technica",
-      "category": "tech",
-      "summary": "Democrats try to prevent quorum, say Thumann lied about not working on media issues.",
-      "published_at": "2026-11-18T23:25:04Z",
-      "fetched_at": "2026-11-19T00:01:58.147211Z",
-      "discussion_url": "https://arstechnica.com/tech-policy/2026/11/ted-cruz-led-committee-approves-trump-fcc-nominee-15-0-as-democrats-boycott-vote/#comments",
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "excluded",
-      "importance": 4
-    },
-    {
-      "id": "69ebf63da1e4940177434fcb8b002e8a",
-      "title": "The nation’s largest school districts consider ditching Google Search",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1037151/school-districts-ditching-google",
-      "source_id": "the-verge",
-      "source_name": "The Verge",
-      "category": "tech",
-      "summary": "New York, Los Angeles, and Chicago schools are considering Google alternatives after the company said it will disable Search for schools that opt out of its AI features, according to The New York Times. Starting next year, schools will not have the option to disable Gemini-powered features without also disabling Search. Chris Phillips, Google's vice […]",
-      "published_at": "2026-11-18T23:18:35Z",
-      "fetched_at": "2026-11-19T00:01:58.147211Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "64d6656efd95f385b63364d89a685d5a",
-      "title": "Microsoft CEO Satya Nadella remains confident in Nvidia after Huang’s exit",
-      "url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-remains-confident-in-nvidia-after-huangs-exit/",
-      "source_id": "techcrunch",
-      "source_name": "TechCrunch",
-      "category": "tech",
-      "summary": "Microsoft CEO Satya Nadella expressed confidence in Jensen Huang's successor Colette Kress, who is serving as Nvidia's interim CEO.",
-      "published_at": "2026-11-18T23:17:28Z",
-      "fetched_at": "2026-11-19T00:01:58.147211Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 3
-    },
-    {
-      "id": "73ce0b390001258179810c347f467235",
-      "title": "Ukraine blew up Putin’s bridge using relay drones to bypass Starlink limits",
-      "url": "https://arstechnica.com/gadgets/2026/11/ukraine-blew-up-putins-bridge-using-relay-drones-to-bypass-starlink-limits/",
-      "source_id": "ars-technica",
-      "source_name": "Ars Technica",
-      "category": "tech",
-      "summary": "Ukraine's strike used homegrown tech while adapting battlefield lessons from its adversary.",
-      "published_at": "2026-11-18T23:10:39Z",
-      "fetched_at": "2026-11-19T00:01:58.147211Z",
-      "discussion_url": "https://arstechnica.com/gadgets/2026/11/ukraine-blew-up-putins-bridge-using-relay-drones-to-bypass-starlink-limits/#comments",
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "excluded",
-      "importance": 3
-    },
-    {
-      "id": "0eca7d34f56cb5c22c30ce70fc6c44b8",
-      "title": "Ukraine, FBI arrest ransomware gang members tied to $40M in ransoms",
-      "url": "https://www.bleepingcomputer.com/news/security/ukraine-fbi-arrest-ransomware-gang-members-tied-to-40m-in-ransoms/",
-      "source_id": "bleepingcomputer",
-      "source_name": "BleepingComputer",
-      "category": "tech",
-      "summary": "Ukrainian authorities, working with the FBI, have arrested four suspected members of an international ransomware organization linked to more than $40.5 million in ransom payments from at least 28 companies worldwide. [...]",
-      "published_at": "2026-11-18T23:08:33Z",
-      "fetched_at": "2026-11-19T00:01:58.147211Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 4
-    },
-    {
       "id": "2b8282c80152afaa68bb21135dab2c5a",
       "title": "An updated Clairic and Clairic-flash are now open-weight, from the new Workers AI Superintelligence team",
       "url": "https://blog.cloudflare.com/open-clairic/",
@@ -30281,9 +30029,9 @@
   "top_stories": [
     {
       "id": "659c73568a907ee41b211184b7667e09",
-      "title": "1Password discloses data breach after employee GitHub account hacked",
-      "summary": "1Password disclosed a data breach after an employee's corporate GitHub account was compromised and used to deploy malicious code to backend services. The incident resulted in the theft of customer names and email addresses, though passwords and vault contents remain secure.",
-      "why_it_matters": "This security incident impacts a major password manager used widely by developers and enterprises, though customer vaults and master passwords were not exposed.",
+      "title": "1Password suffers data breach following employee GitHub account compromise",
+      "summary": "1Password has disclosed a data breach after an attacker gained access to an employee's corporate GitHub account. The incident resulted in the theft of customer names and email addresses, though passwords and vault data remained secure.",
+      "why_it_matters": "This security incident compromises customer data at a major password management provider, highlighting supply chain risks tied to employee development accounts.",
       "item_ids": [
         "659c73568a907ee41b211184b7667e09",
         "58b7588113c6e18de1f3c86509962371",
@@ -30292,75 +30040,103 @@
       ],
       "primary_url": null,
       "first_shown": "2026-11-25T20:01:30.530427Z",
-      "last_shown": "2026-11-25T23:01:27.096137Z"
+      "last_shown": "2026-11-26T00:01:31.023064Z"
     },
     {
-      "id": "4d16d40e18b4b18ea2edfa53543fa7b1",
-      "title": "FCC authorizes SpaceX to deploy up to 1 million data center satellites",
-      "summary": "The FCC authorized SpaceX to deploy up to 1 million AI chip-equipped satellites as part of the Starmind initiative. The agency dismissed concerns from opponents regarding threats to scientific research, stating they fell outside its regulatory authority.",
-      "why_it_matters": "This massive orbital data center constellation could significantly alter cloud infrastructure, satellite communication networks, and edge computing architectures.",
+      "id": "847020ffdd36031edd4350a053ae8074",
+      "title": "FCC authorizes SpaceX to deploy 1 million satellite constellation for data centers",
+      "summary": "The FCC has authorized SpaceX to deploy up to 1 million satellites equipped with AI chips as part of its Starmind initiative. The agency dismissed opponents' scientific research concerns, determining they fell outside its regulatory authority.",
+      "why_it_matters": "This massive satellite deployment will significantly expand orbital infrastructure and shape the scaling of space-based computing and AI workloads.",
       "item_ids": [
-        "4d16d40e18b4b18ea2edfa53543fa7b1",
-        "847020ffdd36031edd4350a053ae8074"
+        "847020ffdd36031edd4350a053ae8074",
+        "bd5b6dc059dd5856bde73d1a3685f60c",
+        "4d16d40e18b4b18ea2edfa53543fa7b1"
       ],
       "primary_url": "https://docs.fcc.gov/public/attachments/DA-26-1273A1.pdf",
       "first_shown": "2026-11-25T21:01:28.680020Z",
-      "last_shown": "2026-11-25T23:01:27.096137Z"
+      "last_shown": "2026-11-26T00:01:31.023064Z"
     },
     {
-      "id": "20d0d697a21e8f250ef712279f0d662b",
-      "title": "Hackers exploit vulnerabilities to compromise Check Point management servers",
-      "summary": "Threat actors are actively exploiting multiple vulnerabilities to compromise dozens of Check Point Security management servers in a campaign targeting organizations worldwide. Evidence indicates the attackers utilized AI-driven offensive tooling during the operations.",
-      "why_it_matters": "Compromise of enterprise security management servers poses severe risks to perimeter defenses and internal network visibility for affected organizations.",
+      "id": "d865e30c90c7af4cfe25cb02ae48274a",
+      "title": "US Treasury's Financial Crimes Enforcement Network hit by cyber intrusion",
+      "summary": "The U.S. Treasury Department's Financial Crimes Enforcement Network (FinCEN) has taken systems offline and extended filing deadlines while investigating unauthorized access to a limited subset of its systems.",
+      "why_it_matters": "A security breach at a federal financial crimes bureau impacts critical government reporting infrastructure and requires immediate response from affected financial institutions.",
       "item_ids": [
-        "20d0d697a21e8f250ef712279f0d662b",
-        "5bd2c695c7eec153d24c7f02fd9b1dc6",
-        "cb8d1c0913cff9aa7ec805791fd67647"
+        "d865e30c90c7af4cfe25cb02ae48274a",
+        "2f5767fb97e065bdc4a63ec06de60f47",
+        "49b3c41b11b275520df108dd48f4400e"
       ],
       "primary_url": null,
-      "first_shown": "2026-11-24T22:47:59.768186Z",
-      "last_shown": "2026-11-25T23:01:27.096137Z"
+      "first_shown": "2026-11-25T14:01:30.119655Z",
+      "last_shown": "2026-11-26T00:01:31.023064Z"
     },
     {
       "id": "f82d112791e3205c9c940fd0f42351c6",
-      "title": "Federal jury finds Huawei guilty of stealing US trade secrets",
-      "summary": "A federal jury in New York has found Huawei guilty of stealing trade secrets from U.S. companies like Cisco and T-Mobile, money laundering, and violating sanctions. The verdict concludes a years-long criminal legal battle.",
-      "why_it_matters": "This major legal ruling formalizes corporate espionage convictions against a major telecommunications equipment provider, impacting global supply chains.",
+      "title": "Federal jury convicts Huawei of trade secret theft and sanctions violations",
+      "summary": "A U.S. jury has found Huawei guilty of stealing trade secrets from companies like T-Mobile and Cisco, alongside money laundering and Iran sanctions violations. The verdict concludes a years-long legal battle in federal court.",
+      "why_it_matters": "This landmark criminal conviction reinforces legal protections for proprietary enterprise technology and establishes severe penalties for corporate intellectual property theft.",
       "item_ids": [
         "f82d112791e3205c9c940fd0f42351c6",
+        "320fe79e0347afcf6b621ef93937a1f8",
         "e0195ae501952a4979f9c404d0d2c8ad",
         "45be619e6ea4b9c1a3f1b279e9387ae4"
       ],
       "primary_url": "https://www.justice.gov/opa/pr/chinese-tech-giant-huawei-and-subsidiaries-convicted-sanctions-violations-fraud-conspiracy",
       "first_shown": "2026-11-25T09:15:54.861428Z",
-      "last_shown": "2026-11-25T23:01:27.096137Z"
+      "last_shown": "2026-11-26T00:01:31.023064Z"
     },
     {
-      "id": "776bd5e92497957357703bb2a1f52ee7",
-      "title": "Attackers exploit RCE flaw to compromise Hex.pm package registry servers",
-      "summary": "An attacker ran operating system commands on production servers belonging to Hex.pm, the package registry for Elixir and Erlang developers. The breach was executed by exploiting a high-severity remote code execution vulnerability.",
-      "why_it_matters": "Compromise of a language package registry threatens software supply chain integrity for applications depending on Elixir and Erlang packages.",
+      "id": "20d0d697a21e8f250ef712279f0d662b",
+      "title": "Threat actors exploit vulnerabilities to compromise Check Point management servers",
+      "summary": "An unknown threat actor has been using artificial intelligence-driven offensive tooling to exploit multiple vulnerabilities and compromise two dozen Check Point Security Management servers across 22 organizations.",
+      "why_it_matters": "Compromised security management servers pose severe risks to enterprise perimeter defenses and highlight the emergence of AI-driven attack vectors.",
       "item_ids": [
-        "776bd5e92497957357703bb2a1f52ee7",
-        "858eff86ddc4f9781f2232840cb21f19"
+        "20d0d697a21e8f250ef712279f0d662b",
+        "cb8d1c0913cff9aa7ec805791fd67647",
+        "5bd2c695c7eec153d24c7f02fd9b1dc6"
       ],
       "primary_url": null,
+      "first_shown": "2026-11-24T22:47:59.768186Z",
+      "last_shown": "2026-11-26T00:01:31.023064Z"
+    },
+    {
+      "id": "b930f12be2f1f8ba872ae75b41cb0485",
+      "title": "Critical Drupal RCE flaw added to CISA KEV catalog as active exploitation begins",
+      "summary": "CISA has added a critical remote code execution vulnerability impacting Drupal to its Known Exploited Vulnerabilities catalog. Attackers have actively exploited the flaw since at least Thursday to hijack unpatched sites.",
+      "why_it_matters": "Active exploitation of a critical RCE vulnerability requires immediate patching to prevent site takeovers across enterprise web infrastructure.",
+      "item_ids": [
+        "b930f12be2f1f8ba872ae75b41cb0485",
+        "c3ea945db7dd2d363de1a8127ebfdf18"
+      ],
+      "primary_url": "https://www.cisa.gov/news-events/alerts/2026/11/24/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+      "first_shown": "2026-11-26T00:01:31.023064Z",
+      "last_shown": "2026-11-26T00:01:31.023064Z"
+    },
+    {
+      "id": "b7499de9cbbb1d36e1fa0da931a13c09",
+      "title": "Amazon and Meta reportedly in talks to lift blockade on AI agent Muse",
+      "summary": "Amazon and Meta are discussing a potential deal that would end a two-month-long blockade. The discussions center on allowing Meta's Muse AI agent to shop on Amazon's online marketplace.",
+      "why_it_matters": "Resolving this blockade could set precedents for how major tech platforms permit third-party AI agents to interact with proprietary e-commerce ecosystems.",
+      "item_ids": [
+        "b7499de9cbbb1d36e1fa0da931a13c09",
+        "f73e5ac199d7d5a8de84a6b91dfe27da"
+      ],
+      "primary_url": "https://fortune.com/2026/11/25/exclusive-amazon-meta-talks-deal-muse-ai-shopping-agent-blockade",
       "first_shown": "2026-11-25T15:01:36.532889Z",
-      "last_shown": "2026-11-25T23:01:27.096137Z"
+      "last_shown": "2026-11-26T00:01:31.023064Z"
     },
     {
-      "id": "2f5767fb97e065bdc4a63ec06de60f47",
-      "title": "US Treasury FinCEN takes systems offline following cybersecurity incident",
-      "summary": "The U.S. Treasury Department's Financial Crimes Enforcement Network experienced a cybersecurity incident involving unauthorized access to a limited subset of systems. In response, FinCEN took affected systems offline and extended regulatory filing deadlines.",
-      "why_it_matters": "Federal financial crime agency outages disrupt compliance reporting and highlight ongoing targeting of critical government infrastructure.",
+      "id": "ab8a0656e491c68e36ecef709d154d1f",
+      "title": "WhatsApp rolls out scheduled messages for private and group chats",
+      "summary": "WhatsApp is introducing message scheduling for its 3 billion users, allowing messages to be queued in advance for both individual conversations and group chats.",
+      "why_it_matters": "This feature update brings asynchronous communication controls to a massive messaging platform utilized globally.",
       "item_ids": [
-        "2f5767fb97e065bdc4a63ec06de60f47",
-        "d865e30c90c7af4cfe25cb02ae48274a",
-        "49b3c41b11b275520df108dd48f4400e"
+        "ab8a0656e491c68e36ecef709d154d1f",
+        "1b3f6aa575eac9216bc99742d85f7978"
       ],
       "primary_url": null,
-      "first_shown": "2026-11-25T14:01:30.119655Z",
-      "last_shown": "2026-11-25T23:01:27.096137Z"
+      "first_shown": "2026-11-25T21:01:28.680020Z",
+      "last_shown": "2026-11-26T00:01:31.023064Z"
     },
     {
       "id": "f111751da8ba30882c6359e00693afac",
@@ -30373,19 +30149,35 @@
       ],
       "primary_url": null,
       "first_shown": "2026-11-25T23:01:27.096137Z",
-      "last_shown": "2026-11-25T23:01:27.096137Z"
+      "last_shown": "2026-11-26T00:01:31.023064Z"
     },
     {
-      "id": "ab8a0656e491c68e36ecef709d154d1f",
-      "title": "WhatsApp introduces scheduled messages for chats and groups",
-      "summary": "WhatsApp is rolling out a new feature allowing its 3 billion users to schedule messages in advance for both private conversations and group chats. Users can schedule messages ranging from minutes to days ahead.",
-      "why_it_matters": "Adding native scheduling features changes messaging workflow automation for billions of personal and business users across platforms.",
+      "id": "f7667d7d415706310e60ddcdaeec2195",
+      "title": "Anthropic Examines AI Agent Behavior and Code Review Loops",
+      "summary": "Anthropic researchers have been examining how AI coding models behave when execution environments fail, revealing both reassuring and unsettling traits. Additionally, internal testing showed autonomous agents getting stuck in prolonged code review loops.",
+      "why_it_matters": "Understanding the limits and failure modes of autonomous coding agents is critical for engineers deploying AI systems into production workflows.",
       "item_ids": [
-        "ab8a0656e491c68e36ecef709d154d1f",
-        "1b3f6aa575eac9216bc99742d85f7978"
+        "f7667d7d415706310e60ddcdaeec2195",
+        "59d746da5ff38e9c84f3870c722b8899",
+        "69b66682c491f8aa8e0052f17d1cbd72"
+      ],
+      "primary_url": "https://hachyderm.io/@TheNewStack",
+      "first_shown": "2026-11-25T21:59:55.962223Z",
+      "last_shown": "2026-11-26T00:01:31.023064Z"
+    }
+  ],
+  "past_top_stories": [
+    {
+      "id": "776bd5e92497957357703bb2a1f52ee7",
+      "title": "Attackers exploit RCE flaw to compromise Hex.pm package registry servers",
+      "summary": "An attacker ran operating system commands on production servers belonging to Hex.pm, the package registry for Elixir and Erlang developers. The breach was executed by exploiting a high-severity remote code execution vulnerability.",
+      "why_it_matters": "Compromise of a language package registry threatens software supply chain integrity for applications depending on Elixir and Erlang packages.",
+      "item_ids": [
+        "776bd5e92497957357703bb2a1f52ee7",
+        "858eff86ddc4f9781f2232840cb21f19"
       ],
       "primary_url": null,
-      "first_shown": "2026-11-25T21:01:28.680020Z",
+      "first_shown": "2026-11-25T15:01:36.532889Z",
       "last_shown": "2026-11-25T23:01:27.096137Z"
     },
     {
@@ -30401,22 +30193,6 @@
       "first_shown": "2026-11-25T21:01:28.680020Z",
       "last_shown": "2026-11-25T23:01:27.096137Z"
     },
-    {
-      "id": "f7667d7d415706310e60ddcdaeec2195",
-      "title": "Anthropic Examines AI Agent Behavior and Code Review Loops",
-      "summary": "Anthropic researchers have been examining how AI coding models behave when execution environments fail, revealing both reassuring and unsettling traits. Additionally, internal testing showed autonomous agents getting stuck in prolonged code review loops.",
-      "why_it_matters": "Understanding the limits and failure modes of autonomous coding agents is critical for engineers deploying AI systems into production workflows.",
-      "item_ids": [
-        "f7667d7d415706310e60ddcdaeec2195",
-        "59d746da5ff38e9c84f3870c722b8899",
-        "69b66682c491f8aa8e0052f17d1cbd72"
-      ],
-      "primary_url": "https://hachyderm.io/@TheNewStack",
-      "first_shown": "2026-11-25T21:59:55.962223Z",
-      "last_shown": "2026-11-25T23:01:27.096137Z"
-    }
-  ],
-  "past_top_stories": [
     {
       "id": "50638459da5391cb694ebd6642ac2d87",
       "title": "Jensen Huang Returns as Nvidia CEO Following White House and Board Pressures",
@@ -30448,19 +30224,6 @@
       "primary_url": null,
       "first_shown": "2026-11-24T22:47:59.768186Z",
       "last_shown": "2026-11-25T21:59:55.962223Z"
-    },
-    {
-      "id": "f73e5ac199d7d5a8de84a6b91dfe27da",
-      "title": "Amazon and Meta reportedly in talks to end Muse AI shopping block",
-      "summary": "Amazon and Meta have held discussions about ending Amazon's blockade on Meta's Muse AI agent. The talks center on allowing the AI agent to shop on Amazon's online marketplace.",
-      "why_it_matters": "Allowing third-party AI agents onto major e-commerce platforms changes how automated shopping and bot traffic interact with retail APIs.",
-      "item_ids": [
-        "f73e5ac199d7d5a8de84a6b91dfe27da",
-        "b7499de9cbbb1d36e1fa0da931a13c09"
-      ],
-      "primary_url": "https://fortune.com/2026/11/25/exclusive-amazon-meta-talks-deal-muse-ai-shopping-agent-blockade",
-      "first_shown": "2026-11-25T15:01:36.532889Z",
-      "last_shown": "2026-11-25T21:01:28.680020Z"
     },
     {
       "id": "4c2b395a7adf58555ec5dd2598cea57a",
@@ -30543,19 +30306,6 @@
       ],
       "primary_url": null,
       "first_shown": "2026-11-25T05:01:30.226552Z",
-      "last_shown": "2026-11-25T13:01:36.223022Z"
-    },
-    {
-      "id": "cbb9d44fbe8e9fca28112f809318434b",
-      "title": "Uber, Nuro, and Lucid launch fully driverless robotaxi testing",
-      "summary": "Uber, Nuro, and Lucid are starting fully driverless public road testing in the San Francisco Bay Area. Testing has kicked off with employee-only rides ahead of a planned 2027 commercial launch.",
-      "why_it_matters": "Advances in autonomous vehicle deployments affect transportation engineering infrastructure, fleet software architectures, and safety validation pipelines.",
-      "item_ids": [
-        "cbb9d44fbe8e9fca28112f809318434b",
-        "8d0a4f518d52a6d5bcb4d9da72a1da35"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-25T00:01:28.045132Z",
       "last_shown": "2026-11-25T13:01:36.223022Z"
     }
   ]
