@@ -1,6 +1,42 @@
 {
-  "generated_at": "2026-11-26T07:02:11.275281Z",
+  "generated_at": "2026-11-26T08:02:12.544127Z",
   "items": [
+    {
+      "id": "f4fc22ec1edbf4db8500d9666305f034",
+      "title": "Mirror life is dangerous. Regulators must act before it becomes real",
+      "url": "https://www.economist.com/leaders/2026/10/01/mirror-life-is-dangerous-regulators-must-act-before-it-becomes-real",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-11-26T07:05:59Z",
+      "fetched_at": "2026-11-26T08:02:12.544127Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50652370",
+      "points": 13,
+      "comments": 7,
+      "engineering": false,
+      "blog": false,
+      "review": "pending",
+      "importance": null
+    },
+    {
+      "id": "c6ac5ef89ac91a046740dfaffa4ae442",
+      "title": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
+      "url": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
+      "source_id": "the-hacker-news",
+      "source_name": "The Hacker News",
+      "category": "tech",
+      "summary": "Drupal has warned of a new \"highly critical\" security flaw impacting Drupal core that it said has been exploited in the wild. The vulnerability, tracked as CVE-2026-136716 (CVSS score: N/A), has been described as a case of improper checking for unusual or exceptional conditions. It also relates to CVE-2026-132165 aka Fail2Install in that it addresses remaining vulnerable installation states",
+      "published_at": "2026-11-26T07:02:34Z",
+      "fetched_at": "2026-11-26T08:02:12.544127Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 5
+    },
     {
       "id": "cd481fa5890c6bd06928a4220f9b2cad",
       "title": "Mock Service Worker Releases v3.0 with ESM-Only Build, Socket-Based Interception and GraphQL Subs",
@@ -36,6 +72,24 @@
       "blog": false,
       "review": "kept",
       "importance": 3
+    },
+    {
+      "id": "4d0181698ad05173b7f8f3df4abf5950",
+      "title": "Hackers Exploit 10 Vulnerabilities Across Mitel, Juniper, Vates, and Danfoss Products",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html",
+      "source_id": "the-hacker-news",
+      "source_name": "The Hacker News",
+      "category": "tech",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added 10 security flaws to its Known Exploited Vulnerabilities (KEV) catalog, including five vulnerabilities impacting Mitel MiCollab that were disclosed last week. The Mitel MiCollab vulnerabilities are listed below - CVE-2026-133275 (CVSS score: 5.3) - An arbitrary file upload vulnerability in the Audio, Web and",
+      "published_at": "2026-11-26T06:44:46Z",
+      "fetched_at": "2026-11-26T08:02:12.544127Z",
+      "discussion_url": null,
+      "points": null,
+      "comments": null,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 4
     },
     {
       "id": "29b3bf5593879a24361a2e0e79a027cd",
@@ -74,6 +128,24 @@
       "importance": 2
     },
     {
+      "id": "1992275f47c54ac0951b40f669e51b4e",
+      "title": "Moat: Your OpenRouter Replacement",
+      "url": "https://commandcode.ai/moat",
+      "source_id": "hacker-news",
+      "source_name": "Hacker News",
+      "category": "tech",
+      "summary": null,
+      "published_at": "2026-11-26T06:32:48Z",
+      "fetched_at": "2026-11-26T08:02:12.544127Z",
+      "discussion_url": "https://news.ycombinator.com/item?id=50652184",
+      "points": 8,
+      "comments": 5,
+      "engineering": false,
+      "blog": false,
+      "review": "kept",
+      "importance": 2
+    },
+    {
       "id": "1f79108f5e27fa503e43d941b8a054db",
       "title": "sqlite3_rsync: Database Remote-Copy Tool For SQLite",
       "url": "https://simonwillison.net/2026/Nov/26/sqlite3-rsync/",
@@ -89,7 +161,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "f68893654ed870ff03d01601991ae604",
@@ -318,8 +390,8 @@
       "published_at": "2026-11-26T05:12:59Z",
       "fetched_at": "2026-11-26T07:02:11.275281Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50651719",
-      "points": 28,
-      "comments": 2,
+      "points": 58,
+      "comments": 7,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -341,7 +413,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "3facd76ae0c102af81d89f651ddf419c",
@@ -359,7 +431,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "a37df458e204b23fca28b8cbf12121d4",
@@ -426,8 +498,8 @@
       "published_at": "2026-11-26T03:43:24Z",
       "fetched_at": "2026-11-26T05:02:14.275779Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50651158",
-      "points": 27,
-      "comments": 3,
+      "points": 34,
+      "comments": 5,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -462,12 +534,12 @@
       "published_at": "2026-11-26T03:36:58Z",
       "fetched_at": "2026-11-26T05:02:14.275779Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50651117",
-      "points": 141,
-      "comments": 76,
+      "points": 181,
+      "comments": 91,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "7e74d2179bdda910826bb5179eeb15a2",
@@ -480,8 +552,8 @@
       "published_at": "2026-11-26T03:00:48Z",
       "fetched_at": "2026-11-26T05:02:14.275779Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50650892",
-      "points": 60,
-      "comments": 10,
+      "points": 90,
+      "comments": 14,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -552,8 +624,8 @@
       "published_at": "2026-11-26T00:43:34Z",
       "fetched_at": "2026-11-26T01:01:38.405957Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50649864",
-      "points": 217,
-      "comments": 82,
+      "points": 239,
+      "comments": 87,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -593,7 +665,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "734813bfe1f3eca11224de6dda44cddb",
@@ -611,7 +683,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 2
     },
     {
       "id": "978d4184fa522a813735925b062e8d49",
@@ -701,7 +773,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "6b7f5c1aa3aec53a2192fda6fadae0e2",
@@ -719,7 +791,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "ab4cb4e55dacd893fdfda1908f450ee4",
@@ -804,8 +876,8 @@
       "published_at": "2026-11-25T22:15:34Z",
       "fetched_at": "2026-11-26T00:01:31.023064Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50648365",
-      "points": 117,
-      "comments": 25,
+      "points": 134,
+      "comments": 30,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -822,8 +894,8 @@
       "published_at": "2026-11-25T22:12:25Z",
       "fetched_at": "2026-11-26T00:01:31.023064Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50648323",
-      "points": 80,
-      "comments": 10,
+      "points": 88,
+      "comments": 12,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -876,8 +948,8 @@
       "published_at": "2026-11-25T21:48:10Z",
       "fetched_at": "2026-11-25T23:01:27.096137Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50648050",
-      "points": 404,
-      "comments": 202,
+      "points": 425,
+      "comments": 216,
       "engineering": false,
       "blog": null,
       "review": "excluded",
@@ -953,7 +1025,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "b14267538df025098627f21efd678d45",
@@ -971,7 +1043,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "847020ffdd36031edd4350a053ae8074",
@@ -1020,12 +1092,12 @@
       "published_at": "2026-11-25T20:35:50Z",
       "fetched_at": "2026-11-25T21:59:55.962223Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50647161",
-      "points": 119,
-      "comments": 44,
+      "points": 128,
+      "comments": 45,
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "4f7b3931caeed45d8b9c8a540ca5c705",
@@ -1061,7 +1133,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 4
     },
     {
       "id": "02687b8975cd20f690099dd5020ef29b",
@@ -1331,7 +1403,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "fe5c6bd77bc4ee0ed419e59754af4742",
@@ -1439,7 +1511,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "0094943f82e3677056b969e7ba811d07",
@@ -1529,7 +1601,7 @@
       "engineering": true,
       "blog": true,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "4d16d40e18b4b18ea2edfa53543fa7b1",
@@ -1619,7 +1691,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "f0c61c288572d3e867000c35432c3846",
@@ -1632,7 +1704,7 @@
       "published_at": "2026-11-25T17:34:34Z",
       "fetched_at": "2026-11-25T20:01:30.530427Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50644980",
-      "points": 150,
+      "points": 152,
       "comments": 41,
       "engineering": false,
       "blog": null,
@@ -1740,8 +1812,8 @@
       "published_at": "2026-11-25T17:18:15Z",
       "fetched_at": "2026-11-25T19:01:29.994377Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50644814",
-      "points": 64,
-      "comments": 45,
+      "points": 68,
+      "comments": 46,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -1817,7 +1889,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "f6f517bf1d3f94a69041412d671ea884",
@@ -1853,7 +1925,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 4
     },
     {
       "id": "49d327e7153d0f28b5e99d648cdb5487",
@@ -1961,7 +2033,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "778899c8a5e07b65d5c1353231518b54",
@@ -1979,7 +2051,7 @@
       "engineering": true,
       "blog": true,
       "review": "kept",
-      "importance": 2
+      "importance": 4
     },
     {
       "id": "5994a00f26f8ec5e8116820c57b2a468",
@@ -2249,7 +2321,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "a3b23dbc30adcc871a0b106f0678fa78",
@@ -2627,7 +2699,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "4024942716e9792186918630cd13e419",
@@ -2933,7 +3005,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "18ea7e56c3d82200fe953dee0f0ad5af",
@@ -2987,7 +3059,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "5390c4468d1c19d062b965d131224a32",
@@ -3041,7 +3113,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "977f054cb823abeeb04833668aadf641",
@@ -3275,7 +3347,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "29578c6ad06194cd6e6c05fdb0308fb9",
@@ -3365,7 +3437,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "cb8d1c0913cff9aa7ec805791fd67647",
@@ -3401,7 +3473,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "d66155385a7e1d7b80bae6bac5ee3cc9",
@@ -3455,7 +3527,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "e0195ae501952a4979f9c404d0d2c8ad",
@@ -3797,7 +3869,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "827729fb11d4b3ae362f19735b3e8450",
@@ -3887,7 +3959,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 3
+      "importance": 2
     },
     {
       "id": "0a2d7a8253a3d5e1a63d9d8dbe672674",
@@ -3941,7 +4013,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 3
     },
     {
       "id": "be41d848fa6f023d8b4b4f7db7245c2c",
@@ -3990,7 +4062,7 @@
       "published_at": "2026-11-25T02:00:08Z",
       "fetched_at": "2026-11-25T21:01:28.680020Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50637448",
-      "points": 54,
+      "points": 62,
       "comments": 4,
       "engineering": false,
       "blog": false,
@@ -4247,7 +4319,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 4
+      "importance": 2
     },
     {
       "id": "efff0b38ab78624eafad6b9e76ef7bc1",
@@ -4373,7 +4445,7 @@
       "engineering": false,
       "blog": false,
       "review": "kept",
-      "importance": 2
+      "importance": 3
     },
     {
       "id": "c2af867846d5cfd586fffd0efd364e94",
@@ -6150,8 +6222,8 @@
       "published_at": "2026-11-24T16:09:23Z",
       "fetched_at": "2026-11-24T17:01:34.111950Z",
       "discussion_url": "https://news.ycombinator.com/item?id=50647673",
-      "points": 310,
-      "comments": 269,
+      "points": 332,
+      "comments": 286,
       "engineering": false,
       "blog": false,
       "review": "kept",
@@ -23744,24 +23816,6 @@
       "importance": 4
     },
     {
-      "id": "13f87e68195d2299a23b67ecc193d912",
-      "title": "CISA Warns of 4 Exploited Flaws Linked to Ransomware, Cryptomining, and LLMjacking Attacks",
-      "url": "https://thehackernews.com/2026/11/cisa-warns-of-4-exploited-flaws-linked.html",
-      "source_id": "the-hacker-news",
-      "source_name": "The Hacker News",
-      "category": "tech",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added four vulnerabilities impacting Synology DiskStation Manager (DSM), BerriAI LiteLLM, Apache Axis, and Vanderbilt University Research Electronic Data Capture (REDCap) to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerabilities are listed below -",
-      "published_at": "2026-11-19T08:00:00Z",
-      "fetched_at": "2026-11-19T11:01:53.160365Z",
-      "discussion_url": null,
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 4
-    },
-    {
       "id": "6ea811258a4650083c1e6d3a282162e2",
       "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
       "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
@@ -23778,24 +23832,6 @@
       "blog": true,
       "review": "kept",
       "importance": 3
-    },
-    {
-      "id": "71782e5d0c2a08b8e37137bb74b95c9f",
-      "title": "Traffic mix matters",
-      "url": "https://brooker.co.za/blog/2026/11/18/workload-mix.html",
-      "source_id": "lobsters",
-      "source_name": "Lobsters",
-      "category": "tech",
-      "summary": null,
-      "published_at": "2026-11-19T07:33:44Z",
-      "fetched_at": "2026-11-19T07:59:20.251192Z",
-      "discussion_url": "https://lobste.rs/s/akg5in/traffic_mix_matters",
-      "points": null,
-      "comments": null,
-      "engineering": false,
-      "blog": false,
-      "review": "kept",
-      "importance": 2
     },
     {
       "id": "2b8282c80152afaa68bb21135dab2c5a",
@@ -30011,9 +30047,9 @@
   "top_stories": [
     {
       "id": "659c73568a907ee41b211184b7667e09",
-      "title": "1Password Discloses Security Incident Following GitHub Account Breach",
-      "summary": "1Password disclosed a security incident after an employee's corporate GitHub account was hacked. The breach led to unauthorized access of backend systems and customer data, though the company emphasized that customer passwords and information stored in vaults remain safe.",
-      "why_it_matters": "Crucial security incident disclosure affecting a major credential management provider used widely by engineering teams.",
+      "title": "1Password Discloses Security Incident Following Employee GitHub Account Breach",
+      "summary": "1Password has disclosed a security incident involving its backend systems after an employee's corporate GitHub account was compromised. The unauthorized access exposed customer names and email addresses, though passwords and data stored in customer vaults remain safe.",
+      "why_it_matters": "This security breach directly impacts a widely used developer credential tool, though core vault encryption remains secure.",
       "item_ids": [
         "659c73568a907ee41b211184b7667e09",
         "a37df458e204b23fca28b8cbf12121d4",
@@ -30023,43 +30059,56 @@
       ],
       "primary_url": null,
       "first_shown": "2026-11-25T20:01:30.530427Z",
-      "last_shown": "2026-11-26T07:02:11.275281Z"
+      "last_shown": "2026-11-26T08:02:12.544127Z"
     },
     {
-      "id": "734813bfe1f3eca11224de6dda44cddb",
-      "title": "Huawei Found Guilty of Stealing U.S. Trade Secrets and Violating Sanctions",
-      "summary": "A federal jury has found Huawei guilty of stealing trade secrets from U.S. companies like Cisco and T-Mobile, laundering money, and violating sanctions. Meanwhile, Amazon lost its legal battle against the CPSC and is on the hook to recall over 400,000 hazardous products.",
-      "why_it_matters": "Major legal outcome involving enterprise IP theft and trade secrets directly impacting major tech vendors.",
+      "id": "c6ac5ef89ac91a046740dfaffa4ae442",
+      "title": "Critical Drupal Vulnerability Under Active Exploitation",
+      "summary": "Drupal has warned of a new highly critical security flaw impacting Drupal core that is actively being exploited in the wild. CISA has added the vulnerability to its Known Exploited Vulnerabilities catalog, requiring federal agencies to take action.",
+      "why_it_matters": "Engineering teams managing Drupal deployments must patch immediately to prevent site takeovers.",
       "item_ids": [
-        "734813bfe1f3eca11224de6dda44cddb",
-        "45be619e6ea4b9c1a3f1b279e9387ae4",
+        "c6ac5ef89ac91a046740dfaffa4ae442",
+        "b930f12be2f1f8ba872ae75b41cb0485",
+        "c3ea945db7dd2d363de1a8127ebfdf18"
+      ],
+      "primary_url": "https://thehackernews.uk/ai-cyber-defense",
+      "first_shown": "2026-11-26T00:01:31.023064Z",
+      "last_shown": "2026-11-26T08:02:12.544127Z"
+    },
+    {
+      "id": "f82d112791e3205c9c940fd0f42351c6",
+      "title": "Jury Convicts Huawei of Stealing U.S. Trade Secrets and Violating Sanctions",
+      "summary": "A U.S. jury in a federal court has convicted Huawei of stealing trade secrets from companies like Cisco and T-Mobile, money laundering, and violating Iran sanctions. Prosecutors stated the company did little to hide the thefts of U.S. technology.",
+      "why_it_matters": "This major legal ruling impacts major enterprise technology vendors and cross-border trade restrictions.",
+      "item_ids": [
         "f82d112791e3205c9c940fd0f42351c6",
+        "320fe79e0347afcf6b621ef93937a1f8",
         "e0195ae501952a4979f9c404d0d2c8ad",
-        "320fe79e0347afcf6b621ef93937a1f8"
+        "45be619e6ea4b9c1a3f1b279e9387ae4"
       ],
       "primary_url": "https://www.justice.gov/opa/pr/chinese-tech-giant-huawei-and-subsidiaries-convicted-sanctions-violations-fraud-conspiracy",
       "first_shown": "2026-11-25T09:15:54.861428Z",
-      "last_shown": "2026-11-26T07:02:11.275281Z"
+      "last_shown": "2026-11-26T08:02:12.544127Z"
     },
     {
-      "id": "847020ffdd36031edd4350a053ae8074",
-      "title": "FCC Authorizes SpaceX 'Starmind' Constellation for Space-Based Data Centers",
-      "summary": "The FCC has authorized SpaceX to deploy up to 1 million AI chip-equipped satellites in low Earth orbit as part of the 'Starmind' initiative. The agency dismissed key concerns regarding scientific research impacts because they fell outside its regulatory authority.",
-      "why_it_matters": "Massive shift in cloud infrastructure scale and orbital regulatory policy that could alter edge computing and satellite networking.",
+      "id": "f496c5c96be9ebca20b367d0807604cb",
+      "title": "FCC Authorizes SpaceX to Deploy Up to 1 Million Satellites",
+      "summary": "The FCC has authorized SpaceX to deploy up to 1 million AI chip-equipped satellites as part of the Starmind initiative. The constellation would substantially increase the number of active satellites in Earth's orbit.",
+      "why_it_matters": "This massive orbital infrastructure approval will significantly impact space-based cloud and compute architectures.",
       "item_ids": [
-        "847020ffdd36031edd4350a053ae8074",
+        "f496c5c96be9ebca20b367d0807604cb",
         "bd5b6dc059dd5856bde73d1a3685f60c",
         "4d16d40e18b4b18ea2edfa53543fa7b1"
       ],
-      "primary_url": "https://docs.fcc.gov/public/attachments/DA-26-1273A1.pdf",
+      "primary_url": null,
       "first_shown": "2026-11-25T21:01:28.680020Z",
-      "last_shown": "2026-11-26T07:02:11.275281Z"
+      "last_shown": "2026-11-26T08:02:12.544127Z"
     },
     {
       "id": "d865e30c90c7af4cfe25cb02ae48274a",
-      "title": "U.S. Treasury's FinCEN Hit by Cybersecurity Incident",
-      "summary": "The Financial Crimes Enforcement Network (FinCEN), part of the U.S. Treasury Department, took some of its systems offline following a cybersecurity incident. The bureau is investigating unauthorized access to a limited subset of its systems and has extended regulatory filing deadlines.",
-      "why_it_matters": "Government agency breach impacting critical financial infrastructure networks and requiring emergency offline remediation.",
+      "title": "U.S. Treasury's FinCEN Discloses Cybersecurity Incident",
+      "summary": "The U.S. Treasury Department's Financial Crimes Enforcement Network has taken some systems offline and extended filing deadlines while investigating a cybersecurity incident. The bureau reported unauthorized access to a limited subset of its systems.",
+      "why_it_matters": "Federal financial infrastructure compromise requires heightened vigilance across regulated financial technology systems.",
       "item_ids": [
         "d865e30c90c7af4cfe25cb02ae48274a",
         "2f5767fb97e065bdc4a63ec06de60f47",
@@ -30067,33 +30116,59 @@
       ],
       "primary_url": null,
       "first_shown": "2026-11-25T14:01:30.119655Z",
-      "last_shown": "2026-11-26T07:02:11.275281Z"
+      "last_shown": "2026-11-26T08:02:12.544127Z"
     },
     {
       "id": "f73e5ac199d7d5a8de84a6b91dfe27da",
-      "title": "Amazon and Meta Reportedly Discussing Lift of Muse AI Blockade",
-      "summary": "Amazon has held talks with Meta about potentially lifting a blockade that prevents Meta's Muse AI agent from shopping on Amazon's marketplace. The discussions aim to resolve restrictions on autonomous AI agents accessing commercial platforms.",
-      "why_it_matters": "Signals shifting policy and commercial negotiations regarding autonomous AI agents accessing retail marketplaces.",
+      "title": "Amazon and Meta Reportedly in Talks to Lift Blockade on AI Agent Muse",
+      "summary": "Amazon has held discussions about ending its blockade on Meta's Muse AI agent, which would allow the agent to shop on its online marketplace. The potential deal follows a two-month-long restriction by Amazon.",
+      "why_it_matters": "This agreement could establish new interoperability standards and security boundaries for multi-platform AI commerce agents.",
       "item_ids": [
         "f73e5ac199d7d5a8de84a6b91dfe27da",
         "b7499de9cbbb1d36e1fa0da931a13c09"
       ],
       "primary_url": "https://fortune.com/2026/11/25/exclusive-amazon-meta-talks-deal-muse-ai-shopping-agent-blockade",
       "first_shown": "2026-11-25T15:01:36.532889Z",
-      "last_shown": "2026-11-26T07:02:11.275281Z"
+      "last_shown": "2026-11-26T08:02:12.544127Z"
     },
     {
-      "id": "b930f12be2f1f8ba872ae75b41cb0485",
-      "title": "Critical Drupal RCE Flaw Added to CISA KEV Catalog as Attacks Surge",
-      "summary": "CISA has added a critical remote code execution vulnerability impacting Drupal to its Known Exploited Vulnerabilities catalog. Threat actors have been actively exploiting the flaw to hijack unpatched sites since at least Thursday.",
-      "why_it_matters": "Active exploitation of a critical RCE vulnerability requires immediate patching across enterprise web deployments.",
+      "id": "c30dbe5e963a100422b3ac8d3f004550",
+      "title": "OpenAI Merges Chat and Work Experiences with Unified Usage Meter",
+      "summary": "OpenAI is combining its Chat and Work experiences and introducing a single usage meter across ChatGPT. Heavy users may hit their usage limits sooner as a result of the consolidation.",
+      "why_it_matters": "Engineers relying on OpenAI tools must adapt to unified rate limits across different workflows.",
       "item_ids": [
-        "b930f12be2f1f8ba872ae75b41cb0485",
-        "c3ea945db7dd2d363de1a8127ebfdf18"
+        "c30dbe5e963a100422b3ac8d3f004550",
+        "c7e76c3b47cb97bfcd01a293cc99ec08"
       ],
-      "primary_url": "https://www.cisa.gov/news-events/alerts/2026/11/24/cisa-adds-three-known-exploited-vulnerabilities-catalog",
-      "first_shown": "2026-11-26T00:01:31.023064Z",
-      "last_shown": "2026-11-26T07:02:11.275281Z"
+      "primary_url": null,
+      "first_shown": "2026-11-26T08:02:12.544127Z",
+      "last_shown": "2026-11-26T08:02:12.544127Z"
+    },
+    {
+      "id": "847020ffdd36031edd4350a053ae8074",
+      "title": "OpenAI Claims Solution to 57-Year-Old Math Problem in Computation",
+      "summary": "OpenAI has published a preprint claiming to have solved a theoretical computer science problem concerning AI computation that has stood since 1969.",
+      "why_it_matters": "Theoretical algorithmic breakthroughs can profoundly shift the efficiency limits of foundational AI hardware and software architectures.",
+      "item_ids": [
+        "847020ffdd36031edd4350a053ae8074",
+        "7c58c8436fe13347b36f307d5ad395bf"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-25T21:01:28.680020Z",
+      "last_shown": "2026-11-26T08:02:12.544127Z"
+    },
+    {
+      "id": "ab8a0656e491c68e36ecef709d154d1f",
+      "title": "WhatsApp Adds Scheduled Messages for Chats",
+      "summary": "WhatsApp is rolling out a new feature allowing its 3 billion users to schedule messages in advance for both individual and group chats. The scheduling window ranges from 10 minutes later up to 14 days.",
+      "why_it_matters": null,
+      "item_ids": [
+        "ab8a0656e491c68e36ecef709d154d1f",
+        "1b3f6aa575eac9216bc99742d85f7978"
+      ],
+      "primary_url": null,
+      "first_shown": "2026-11-25T21:01:28.680020Z",
+      "last_shown": "2026-11-26T08:02:12.544127Z"
     },
     {
       "id": "661925b8f8d6c7d7d344f23f1fbb7278",
@@ -30105,8 +30180,10 @@
       ],
       "primary_url": null,
       "first_shown": "2026-11-26T07:02:11.275281Z",
-      "last_shown": "2026-11-26T07:02:11.275281Z"
-    },
+      "last_shown": "2026-11-26T08:02:12.544127Z"
+    }
+  ],
+  "past_top_stories": [
     {
       "id": "95ac717c0fcd077584150c76917498e4",
       "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
@@ -30142,21 +30219,6 @@
       "primary_url": null,
       "first_shown": "2026-11-26T07:02:11.275281Z",
       "last_shown": "2026-11-26T07:02:11.275281Z"
-    }
-  ],
-  "past_top_stories": [
-    {
-      "id": "ab8a0656e491c68e36ecef709d154d1f",
-      "title": "WhatsApp Introduces Scheduled Messages Feature for Chats",
-      "summary": "WhatsApp is rolling out a new feature allowing its 3 billion users to schedule messages in advance for both private conversations and group chats. Users can schedule messages ranging from 10 minutes up to 14 days later.",
-      "why_it_matters": null,
-      "item_ids": [
-        "ab8a0656e491c68e36ecef709d154d1f",
-        "1b3f6aa575eac9216bc99742d85f7978"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-25T21:01:28.680020Z",
-      "last_shown": "2026-11-26T06:02:09.177675Z"
     },
     {
       "id": "535fb1efe092523ef800114e285ba008",
@@ -30257,33 +30319,6 @@
       "primary_url": null,
       "first_shown": "2026-11-26T03:01:29.029165Z",
       "last_shown": "2026-11-26T03:01:29.029165Z"
-    },
-    {
-      "id": "16194461455e8866485b70689c72bd09",
-      "title": "European Authorities Warn of Automated AI-Driven Cyberattacks",
-      "summary": "Cybersecurity agencies in Switzerland, Italy, and the UK are warning organizations about automated cyberattacks powered by AI agents targeting critical infrastructure. Officials note that these AI hacking tools are exploiting years of weak security foundations.",
-      "why_it_matters": "Security teams must harden infrastructure against automated, AI-driven exploit campaigns targeting critical systems.",
-      "item_ids": [
-        "16194461455e8866485b70689c72bd09",
-        "464414bf61e14c2f8331b88880cb6391"
-      ],
-      "primary_url": null,
-      "first_shown": "2026-11-25T21:01:28.680020Z",
-      "last_shown": "2026-11-26T02:01:28.308700Z"
-    },
-    {
-      "id": "f7667d7d415706310e60ddcdaeec2195",
-      "title": "Anthropic Examines AI Agent Behavior and Code Review Loops",
-      "summary": "Anthropic researchers have been examining how AI coding models behave when execution environments fail, revealing both reassuring and unsettling traits. Additionally, internal testing showed autonomous agents getting stuck in prolonged code review loops.",
-      "why_it_matters": "Understanding the limits and failure modes of autonomous coding agents is critical for engineers deploying AI systems into production workflows.",
-      "item_ids": [
-        "f7667d7d415706310e60ddcdaeec2195",
-        "59d746da5ff38e9c84f3870c722b8899",
-        "69b66682c491f8aa8e0052f17d1cbd72"
-      ],
-      "primary_url": "https://hachyderm.io/@TheNewStack",
-      "first_shown": "2026-11-25T21:59:55.962223Z",
-      "last_shown": "2026-11-26T00:01:31.023064Z"
     }
   ]
 }
